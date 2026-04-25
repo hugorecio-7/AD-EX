@@ -1,0 +1,362 @@
+{
+  "creative_id": "500180",
+  "asset_file": "assets/creative_500180.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright green background with interactive gameplay elements and clear calls to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encourages users to engage with the game and claim rewards.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "IronQuest UGC",
+      "description": "Bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a dark color against a bright background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Gameplay interface",
+      "description": "A rectangular section in the center showing a simplified gameplay interface with empty slots and a right arrow, suggesting interactivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element at the top, possibly a graphic or icon, with a light color that blends into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Gameplay interface",
+      "description": "Another rectangular section in the center displaying a similar gameplay interface with empty slots, reinforcing the interactive aspect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left icon",
+      "description": "A small icon or graphic located at the top left, visually minimalistic and light in color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.083,
+        0.296
+      ],
+      "center_normalized": [
+        0.042,
+        0.239
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top right icon",
+      "description": "A small icon or graphic at the top right, visually minimalistic and light in color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top center icon",
+      "description": "A tiny decorative element in the top center area, possibly an icon, with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center icon",
+      "description": "A small decorative element in the center area, possibly an icon, with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top left small icon",
+      "description": "A tiny icon or graphic located at the top left, visually minimalistic and light in color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center small icon",
+      "description": "A tiny icon or graphic in the center area, visually minimalistic and light in color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main message",
+      "description": "Bold, large text at the bottom of the ad stating 'Level up today No ads in first week' in a dark color against a bright background.",
+      "text_content": "IronQuest UGC",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.198
+      ],
+      "center_normalized": [
+        0.486,
+        0.128
+      ],
+      "area_percentage": 11.88
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button at the bottom with the text 'Claim reward' in a contrasting color, inviting user interaction.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        52,
+        405,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.633,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.678
+      ],
+      "area_percentage": 6.44
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Reward message",
+      "description": "Smaller text at the bottom of the ad stating 'Claim reward' in a dark color against a bright background.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        109,
+        561,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.877,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, IronQuest UGC, gameplay interface, claim reward.",
+    "layout_text": "The headline is at the top, gameplay interfaces are centered, and the CTA is at the bottom.",
+    "ocr_text": "IronQuest UGC, Level up today No ads in first week, Claim reward",
+    "elements_text": "headline: Bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a dark color against a bright background. | app_screenshot: A rectangular section in the center showing a simplified gameplay interface with empty slots and a right arrow, suggesting interactivity. | unknown: A small decorative element at the top, possibly a graphic or icon, with a light color that blends into the background. | app_screenshot: Another rectangular section in the center displaying a similar gameplay interface with empty slots, reinforcing the interactive aspect. | unknown: A small icon or graphic located at the top left, visually minimalistic and light in color. | unknown: A small icon or graphic at the top right, visually minimalistic and light in color. | unknown: A tiny decorative element in the top center area, possibly an icon, with a light color. | unknown: A small decorative element in the center area, possibly an icon, with a light color. | unknown: A tiny icon or graphic located at the top left, visually minimalistic and light in color. | unknown: A tiny icon or graphic in the center area, visually minimalistic and light in color. | headline: Bold, large text at the bottom of the ad stating 'Level up today No ads in first week' in a dark color against a bright background. text='IronQuest UGC' | cta: A rectangular button at the bottom with the text 'Claim reward' in a contrasting color, inviting user interaction. text='Level up today No ads in first week' | body_text: Smaller text at the bottom of the ad stating 'Claim reward' in a dark color against a bright background. text='Claim reward'"
+  }
+}

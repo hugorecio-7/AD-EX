@@ -1,0 +1,170 @@
+{
+  "creative_id": "500158",
+  "asset_file": "assets/creative_500158.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on a clear message about a financial service.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a secure and simple signup process for a financial service.",
+    "dominant_colors": [
+      "gray",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element features a gray background with abstract shapes, including an oval and a rectangle, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Signup message",
+      "description": "This text is bold and prominent, stating 'Secure & simple Fast signup; instant card' in a modern sans-serif font.",
+      "text_content": "Secure & simple Fast signup; instant card",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The logo 'ClearLedger' appears at the top in a clean, bold font, likely in a contrasting color to stand out.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        34,
+        268,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.744,
+        0.128
+      ],
+      "center_normalized": [
+        0.403,
+        0.091
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Try for free' is displayed in a rounded button style at the bottom, inviting user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is positioned at the top left corner, likely in a contrasting color to draw attention.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, Secure & simple Fast signup; instant card, Try for free",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "Secure & simple Fast signup; instant card, ClearLedger, Try for free, UGC",
+    "elements_text": "unknown: This element features a gray background with abstract shapes, including an oval and a rectangle, positioned centrally. | body_text: This text is bold and prominent, stating 'Secure & simple Fast signup; instant card' in a modern sans-serif font. text='Secure & simple Fast signup; instant card' | logo: The logo 'ClearLedger' appears at the top in a clean, bold font, likely in a contrasting color to stand out. text='ClearLedger' | cta: The phrase 'Try for free' is displayed in a rounded button style at the bottom, inviting user interaction. text='Try for free' | decorative_element: A small tag labeled 'UGC' is positioned at the top left corner, likely in a contrasting color to draw attention. text='UGC'"
+  }
+}

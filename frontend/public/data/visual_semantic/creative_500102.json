@@ -1,0 +1,266 @@
+{
+  "creative_id": "500102",
+  "asset_file": "assets/creative_500102.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and promotional text with decorative elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting new content with a clear price point.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A circular shape with a soft edge, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        176,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.243,
+        0.491,
+        0.466
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.07
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A rectangular shape with rounded corners, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        330
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.517
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Bottom left decorative element",
+      "description": "A small circular shape located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom right decorative element",
+      "description": "A small circular shape located towards the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom center decorative element",
+      "description": "A small rectangular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small rectangular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "PulsePlay UGC",
+      "description": "Bold, large text reading 'PulsePlay UGC' at the top of the ad.",
+      "text_content": "PulsePlay UGC",
+      "bbox_xyxy": [
+        22,
+        25,
+        319,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        0.886,
+        0.198
+      ],
+      "center_normalized": [
+        0.474,
+        0.119
+      ],
+      "area_percentage": 13.15
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "New season announcement",
+      "description": "Medium-sized text stating 'A new season drops New hits every week' at the bottom of the ad.",
+      "text_content": "A new season drops New hits every week",
+      "bbox_xyxy": [
+        67,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.186,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.714
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A prominent text displaying the price '$4.99' located at the bottom of the ad.",
+      "text_content": "$4.99 Learn more",
+      "bbox_xyxy": [
+        26,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.371,
+        0.87
+      ],
+      "area_percentage": 4.57
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, PulsePlay UGC, new season drops, $4.99.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the price at the bottom.",
+    "ocr_text": "PulsePlay UGC, A new season drops, New hits every week, $4.99, Learn more",
+    "elements_text": "unknown: A circular shape with a soft edge, positioned in the center of the ad. | unknown: A rectangular shape with rounded corners, located in the center of the ad. | unknown: A small circular shape located towards the bottom left of the ad. | unknown: A small circular shape located towards the bottom right of the ad. | unknown: A small rectangular shape located towards the bottom center of the ad. | unknown: A small rectangular shape positioned in the center of the ad. | headline: Bold, large text reading 'PulsePlay UGC' at the top of the ad. text='PulsePlay UGC' | body_text: Medium-sized text stating 'A new season drops New hits every week' at the bottom of the ad. text='A new season drops New hits every week' | price: A prominent text displaying the price '$4.99' located at the bottom of the ad. text='$4.99 Learn more'"
+  }
+}

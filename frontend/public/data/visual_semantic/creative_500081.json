@@ -1,0 +1,338 @@
+{
+  "creative_id": "500081",
+  "asset_file": "assets/creative_500081.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on a promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a special offer on a product with a call to action.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background fills the canvas, providing a lively and fresh atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        64,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "BoltCart logo",
+      "description": "The logo 'BoltCart' is displayed prominently at the top, featuring bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow 'SALE' badge is positioned at the top right, drawing attention with its contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        195
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.611
+      ],
+      "center_normalized": [
+        0.24,
+        0.445
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 4,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small 'UGC' label is placed at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.329,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "The main text reads 'Your next favorite pick' in a large, bold font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '$4.99' is located below the main text, emphasizing affordability.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        269,
+        36,
+        285
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.841,
+        0.115,
+        0.893
+      ],
+      "center_normalized": [
+        0.098,
+        0.867
+      ],
+      "area_percentage": 0.18
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent 'Claim reward' button is positioned below the price, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        268,
+        50,
+        282
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.84,
+        0.156,
+        0.884
+      ],
+      "center_normalized": [
+        0.139,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element is located at the bottom left, adding visual interest without specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        83,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.262,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small decorative element is found at the bottom center, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        269,
+        70,
+        282
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.841,
+        0.221,
+        0.884
+      ],
+      "center_normalized": [
+        0.204,
+        0.862
+      ],
+      "area_percentage": 0.14
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A small decorative element is positioned at the bottom right, enhancing the visual appeal.",
+      "text_content": "Your next favorite pick $4.99h2 Claim reward",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "The text 'shop bestsellers now' is displayed in a smaller font below the price, guiding user action.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BoltCart, SALE, Claim reward",
+    "layout_text": "The logo is at the top, followed by the SALE badge and UGC label, with the main text centered and the CTA below.",
+    "ocr_text": "Your next favorite pick, $4.99, Claim reward, BoltCart, SALE, UGC",
+    "elements_text": "headline: The logo 'BoltCart' is displayed prominently at the top, featuring bold, modern typography. | discount_badge: A bright yellow 'SALE' badge is positioned at the top right, drawing attention with its contrasting color. | social_proof: A small 'UGC' label is placed at the top left, indicating user-generated content. | body_text: The main text reads 'Your next favorite pick' in a large, bold font, centered in the middle of the ad. | price: A small price tag displaying '$4.99' is located below the main text, emphasizing affordability. | cta: A prominent 'Claim reward' button is positioned below the price, encouraging user interaction. | unknown: A small decorative element is located at the bottom left, adding visual interest without specific identification. | unknown: Another small decorative element is found at the bottom center, complementing the overall design. | unknown: A small decorative element is positioned at the bottom right, enhancing the visual appeal. text='Your next favorite pick $4.99h2 Claim reward' | body_text: The text 'shop bestsellers now' is displayed in a smaller font below the price, guiding user action. text='BoltCart' | unknown:  text='SALE' | unknown:  text='UGC'"
+  }
+}

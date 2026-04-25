@@ -6,46 +6,165 @@
     "height": 480
   },
   "global": {
-    "description": "The ad features a full canvas background with the VantaStyle logo positioned at the top left. The main subject includes a prominent headline stating 'Limited stock' and body text that reads 'Free shipping over $25', both centered in the middle of the ad. A call to action button labeled 'Shop now' is located at the bottom center. Discount badges indicating '30%' and 'SALE' are placed at the bottom left and top right, respectively. The layout is complemented by decorative segmented shapes on the left and right sides.",
-    "visual_style": "Modern design with vibrant colors and clear typography",
-    "main_message": "Limited stock with free shipping offers",
+    "description": "The ad features a vibrant purple background with promotional text and product images.",
+    "visual_style": "bright and modern",
+    "main_message": "Limited stock sale with free shipping offer.",
     "dominant_colors": [
-      "blue",
-      "white",
-      "black"
+      "purple",
+      "white"
     ],
-    "emotional_tone": "Urgency and excitement"
+    "emotional_tone": "urgent"
   },
   "elements": [
     {
       "id": 1,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
-        320,
-        480
+        319,
+        85
       ],
       "bbox_normalized": [
         0.0,
         0.0,
-        1.0,
-        1.0
+        0.999,
+        0.178
       ],
       "center_normalized": [
         0.5,
-        0.5
+        0.089
       ],
-      "area_percentage": 100.0
+      "area_percentage": 17.76
     },
     {
       "id": 2,
+      "role": "main_subject",
+      "label": "Three product images",
+      "description": "Three outlined rectangles representing product images, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three product images",
+      "description": "Three outlined rectangles representing product images, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.283,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.371
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Three product images",
+      "description": "Three outlined rectangles representing product images, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        232
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.485
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon located below the product images, possibly indicating a feature or detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        69,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.548,
+        0.218,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating 'Limited stock Free shipping over $25' prominently displayed in the center.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        54,
+        308,
+        266,
+        357
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.642,
+        0.831,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.693
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 7,
       "role": "logo",
-      "label": "VantaStyle text logo",
-      "description": "The logo of the VantaStyle app, positioned at the top left corner of the ad.",
+      "label": "Brand logo",
+      "description": "The logo 'VantaStyle' in a modern font, positioned at the top left corner.",
       "text_content": "VantaStyle",
       "bbox_xyxy": [
         22,
@@ -66,58 +185,10 @@
       "area_percentage": 1.86
     },
     {
-      "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Limited stock",
-      "bbox_xyxy": [
-        54,
-        308,
-        266,
-        332
-      ],
-      "bbox_normalized": [
-        0.169,
-        0.642,
-        0.831,
-        0.692
-      ],
-      "center_normalized": [
-        0.5,
-        0.667
-      ],
-      "area_percentage": 3.31
-    },
-    {
-      "id": 4,
-      "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "Free shipping over $25",
-      "bbox_xyxy": [
-        54,
-        332,
-        266,
-        357
-      ],
-      "bbox_normalized": [
-        0.169,
-        0.692,
-        0.831,
-        0.744
-      ],
-      "center_normalized": [
-        0.5,
-        0.718
-      ],
-      "area_percentage": 3.45
-    },
-    {
-      "id": 5,
+      "id": 8,
       "role": "cta",
-      "label": "Call to Action",
-      "description": "A button with the text 'Shop now', positioned prominently to encourage user action.",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Shop now' in white, located at the bottom center.",
       "text_content": "Shop now",
       "bbox_xyxy": [
         111,
@@ -138,10 +209,10 @@
       "area_percentage": 1.61
     },
     {
-      "id": 6,
+      "id": 9,
       "role": "discount_badge",
-      "label": "Discount Badge",
-      "description": "A small rectangular badge displaying the discount percentage, located in the lower left corner of the ad crop.",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in bold, located at the bottom left corner.",
       "text_content": "30%",
       "bbox_xyxy": [
         31,
@@ -162,10 +233,10 @@
       "area_percentage": 0.65
     },
     {
-      "id": 7,
-      "role": "discount_badge",
-      "label": "Sale Badge",
-      "description": "A yellow rectangular badge with the word 'SALE' prominently displayed.",
+      "id": 10,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The word 'SALE' in bold yellow text, positioned at the top right corner.",
       "text_content": "SALE",
       "bbox_xyxy": [
         243,
@@ -186,83 +257,34 @@
       "area_percentage": 0.46
     },
     {
-      "id": 8,
-      "role": "decorative_element",
-      "label": "Segmented shape",
-      "description": "A segmented rectangular shape with a diagonal line, positioned centrally within the crop.",
-      "text_content": null,
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "The text 'UGC' in a small font, located at the top left corner near the logo.",
+      "text_content": "UGC",
       "bbox_xyxy": [
-        48,
-        135,
-        105,
-        220
+        25,
+        85,
+        55,
+        99
       ],
       "bbox_normalized": [
-        0.15,
-        0.281,
-        0.328,
-        0.458
+        0.078,
+        0.177,
+        0.172,
+        0.206
       ],
       "center_normalized": [
-        0.239,
-        0.37
+        0.125,
+        0.192
       ],
-      "area_percentage": 3.15
-    },
-    {
-      "id": 9,
-      "role": "decorative_element",
-      "label": "Segmented crop of a decorative element",
-      "description": "A purple rectangular shape with a diagonal line, possibly part of a larger design element.",
-      "text_content": null,
-      "bbox_xyxy": [
-        188,
-        135,
-        245,
-        219
-      ],
-      "bbox_normalized": [
-        0.588,
-        0.281,
-        0.766,
-        0.456
-      ],
-      "center_normalized": [
-        0.677,
-        0.369
-      ],
-      "area_percentage": 3.12
-    },
-    {
-      "id": 10,
-      "role": "decorative_element",
-      "label": "Segmented crop of a shape",
-      "description": "A segmented crop showing a rectangular shape with a diagonal line, likely part of a larger design element.",
-      "text_content": null,
-      "bbox_xyxy": [
-        119,
-        149,
-        174,
-        232
-      ],
-      "bbox_normalized": [
-        0.372,
-        0.31,
-        0.544,
-        0.483
-      ],
-      "center_normalized": [
-        0.458,
-        0.397
-      ],
-      "area_percentage": 2.97
+      "area_percentage": 0.27
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for VantaStyle Drops promoting limited stock and free shipping.",
-    "elements_text": "background: full canvas background. logo: VantaStyle text logo, small, located at top left, text: \"VantaStyle\". headline: Headline text, small, located at center, text: \"Limited stock\". body_text: Body text, small, located at center, text: \"Free shipping over $25\". cta: Call to Action, small, located at bottom center, text: \"Shop now\". discount_badge: Discount Badge, tiny, located at bottom left, text: \"30%\". discount_badge: Sale Badge, tiny, located at top right, text: \"SALE\". decorative_element: Segmented shape, small, located at middle left. decorative_element: Segmented crop of a decorative element, small, located at middle right. decorative_element: Segmented crop of a shape, small, located at center.",
-    "ocr_text": "VantaStyle Limited stock Free shipping over $25 Shop now 30% SALE",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo VantaStyle text logo at top left, bbox=[0.069, 0.071, 0.412, 0.125]. headline Headline text at center, bbox=[0.169, 0.642, 0.831, 0.692]. body_text Body text at center, bbox=[0.169, 0.692, 0.831, 0.744]. cta Call to Action at bottom center, bbox=[0.347, 0.867, 0.644, 0.921]. discount_badge Discount Badge at bottom left, bbox=[0.097, 0.831, 0.253, 0.873]. discount_badge Sale Badge at top right, bbox=[0.759, 0.077, 0.897, 0.11]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=VantaStyle text logo | text=\"VantaStyle\" | bbox_xyxy=[22, 34, 132, 60] | bbox_norm=[0.069, 0.071, 0.412, 0.125] | center=[0.241, 0.098] | area_pct=1.86\nid=3 | role=headline | label=Headline text | text=\"Limited stock\" | bbox_xyxy=[54, 308, 266, 332] | bbox_norm=[0.169, 0.642, 0.831, 0.692] | center=[0.5, 0.667] | area_pct=3.31\nid=4 | role=body_text | label=Body text | text=\"Free shipping over $25\" | bbox_xyxy=[54, 332, 266, 357] | bbox_norm=[0.169, 0.692, 0.831, 0.744] | center=[0.5, 0.718] | area_pct=3.45\nid=5 | role=cta | label=Call to Action | text=\"Shop now\" | bbox_xyxy=[111, 416, 206, 442] | bbox_norm=[0.347, 0.867, 0.644, 0.921] | center=[0.495, 0.894] | area_pct=1.61\nid=6 | role=discount_badge | label=Discount Badge | text=\"30%\" | bbox_xyxy=[31, 399, 81, 419] | bbox_norm=[0.097, 0.831, 0.253, 0.873] | center=[0.175, 0.852] | area_pct=0.65\nid=7 | role=discount_badge | label=Sale Badge | text=\"SALE\" | bbox_xyxy=[243, 37, 287, 53] | bbox_norm=[0.759, 0.077, 0.897, 0.11] | center=[0.828, 0.094] | area_pct=0.46\nid=8 | role=decorative_element | label=Segmented shape | text=<none> | bbox_xyxy=[48, 135, 105, 220] | bbox_norm=[0.15, 0.281, 0.328, 0.458] | center=[0.239, 0.37] | area_pct=3.15\nid=9 | role=decorative_element | label=Segmented crop of a decorative element | text=<none> | bbox_xyxy=[188, 135, 245, 219] | bbox_norm=[0.588, 0.281, 0.766, 0.456] | center=[0.677, 0.369] | area_pct=3.12\nid=10 | role=decorative_element | label=Segmented crop of a shape | text=<none> | bbox_xyxy=[119, 149, 174, 232] | bbox_norm=[0.372, 0.31, 0.544, 0.483] | center=[0.458, 0.397] | area_pct=2.97"
+    "global_text": "unknown, unknown, banner, bright and modern, promotional text, product images",
+    "layout_text": "The logo is at the top left, the headline at the top right, product images are centered, and the CTA is at the bottom center.",
+    "ocr_text": "Limited stock, Free shipping over $25, VantaStyle, Shop now, 30%, SALE, UGC",
+    "elements_text": "main_subject: Three outlined rectangles representing product images, arranged horizontally in the center. | main_subject: Three outlined rectangles representing product images, arranged horizontally in the center. | main_subject: Three outlined rectangles representing product images, arranged horizontally in the center. | icon: A small circular icon located below the product images, possibly indicating a feature or detail. | body_text: Bold white text stating 'Limited stock Free shipping over $25' prominently displayed in the center. text='Limited stock Free shipping over $25' | logo: The logo 'VantaStyle' in a modern font, positioned at the top left corner. text='VantaStyle' | cta: A rounded button with the text 'Shop now' in white, located at the bottom center. text='Shop now' | discount_badge: A small badge displaying '30%' in bold, located at the bottom left corner. text='30%' | headline: The word 'SALE' in bold yellow text, positioned at the top right corner. text='SALE' | social_proof: The text 'UGC' in a small font, located at the top left corner near the logo. text='UGC'"
   }
 }

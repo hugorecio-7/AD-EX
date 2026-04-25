@@ -1,0 +1,242 @@
+{
+  "creative_id": "500117",
+  "asset_file": "assets/creative_500117.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with product images and promotional text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting limited stock availability for ZenDrop products.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo features the word 'ZenDrop' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three product images",
+      "description": "Three rectangular product images are displayed in the center, outlined with a subtle shadow effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        158,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.495,
+        0.459
+      ],
+      "center_normalized": [
+        0.323,
+        0.37
+      ],
+      "area_percentage": 6.12
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Product placeholder",
+      "description": "A smaller rectangular area next to the main product images, possibly for additional product details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Product placeholder",
+      "description": "Another small rectangular area adjacent to the main product images, likely for more product information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Product placeholder",
+      "description": "A medium-sized rectangular area below the main product images, potentially for showcasing features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Limited stock message",
+      "description": "A bold headline stating 'Limited stock Only this weekend' in a prominent font, centered at the bottom.",
+      "text_content": "Limited stock Only this weekend",
+      "bbox_xyxy": [
+        54,
+        308,
+        266,
+        358
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.642,
+        0.831,
+        0.746
+      ],
+      "center_normalized": [
+        0.5,
+        0.694
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Start now' in a clear, inviting font.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        23,
+        399,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.359,
+        0.873
+      ],
+      "area_percentage": 4.79
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "ZenDrop text",
+      "description": "The text 'ZenDrop' appears at the top in a stylish font, serving as the brand identifier.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and vibrant, ZenDrop logo, limited stock message",
+    "layout_text": "The logo is at the top, product images are centered, and the headline and CTA are at the bottom.",
+    "ocr_text": "ZenDrop, Limited stock Only this weekend, €19.99 Start now",
+    "elements_text": "logo: The logo features the word 'ZenDrop' in a bold, modern font, positioned at the top of the ad. | main_subject: Three rectangular product images are displayed in the center, outlined with a subtle shadow effect. | unknown: A smaller rectangular area next to the main product images, possibly for additional product details. | unknown: Another small rectangular area adjacent to the main product images, likely for more product information. | unknown: A medium-sized rectangular area below the main product images, potentially for showcasing features. | headline: A bold headline stating 'Limited stock Only this weekend' in a prominent font, centered at the bottom. text='Limited stock Only this weekend' | cta: A rounded button at the bottom with the text 'Start now' in a clear, inviting font. text='€19.99 Start now' | body_text: The text 'ZenDrop' appears at the top in a stylish font, serving as the brand identifier. text='ZenDrop'"
+  }
+}

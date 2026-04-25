@@ -1,0 +1,218 @@
+{
+  "creative_id": "500296",
+  "asset_file": "assets/creative_500296.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear focus on a flash sale promotion.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a flash sale with a strong call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        10,
+        60,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.033,
+        0.188,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.493,
+        0.454
+      ],
+      "area_percentage": 48.87
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Flash sale headline",
+      "description": "A prominent headline that reads 'Flash sale live' in large, bold white letters, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "A smaller text below the headline that says 'Shop bestsellers now' in a clean, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Two simple circular icons positioned near the headline, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A rounded button at the bottom of the ad with the text 'Book now' in bold, inviting white letters on an orange background.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        206,
+        272,
+        255
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.644,
+        0.85,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.72
+      ],
+      "area_percentage": 10.62
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Call to action text",
+      "description": "The text 'Book now' is prominently displayed on the button, encouraging immediate action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "BoltCart headline",
+      "description": "The logo text 'BoltCart' is displayed at the top in a bold, modern font, establishing brand identity.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, flash sale, BoltCart",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "Flash sale live, Shop bestsellers now, Book now, BoltCart",
+    "elements_text": "logo: A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top of the ad. | headline: A prominent headline that reads 'Flash sale live' in large, bold white letters, centered in the middle of the ad. | body_text: A smaller text below the headline that says 'Shop bestsellers now' in a clean, readable font. | decorative_element: Two simple circular icons positioned near the headline, adding a decorative touch to the design. | cta: A rounded button at the bottom of the ad with the text 'Book now' in bold, inviting white letters on an orange background. text='Flash sale live Shop bestsellers now' | body_text: The text 'Book now' is prominently displayed on the button, encouraging immediate action. text='Book now' | headline: The logo text 'BoltCart' is displayed at the top in a bold, modern font, establishing brand identity. text='BoltCart'"
+  }
+}

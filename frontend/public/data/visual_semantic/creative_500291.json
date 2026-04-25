@@ -1,0 +1,314 @@
+{
+  "creative_id": "500291",
+  "asset_file": "assets/creative_500291.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging game elements and clear calls to action.",
+    "visual_style": "playful and modern",
+    "main_message": "Encouraging players to engage with friends in the game.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo for 'VoxelRealm' appears at the top left, featuring bold, modern typography against a white background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A simple icon representing user-generated content, depicted as a square with a circular cutout in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Game interface screenshot",
+      "description": "A screenshot of the game interface showing a grid layout with empty squares, suggesting gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Game interface screenshot",
+      "description": "Another screenshot of the game interface, similar to the previous one, showcasing additional gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small icon representing gameplay, featuring a circular shape with a subtle design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon similar to the previous one, representing user-generated content, located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another small gameplay icon, positioned at the center, featuring a circular design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small gameplay icon located at the top right, similar in design to the other gameplay icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline reading 'VoxelRealm UGC' at the top of the ad, designed to grab attention.",
+      "text_content": "VoxelRealm UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.536,
+        0.13
+      ],
+      "area_percentage": 12.61
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A clear and inviting body text stating 'Beat your rivals Play with friends tonight' in a large, friendly font.",
+      "text_content": "Beat your rivals Play with friends tonight",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent call to action button labeled 'Claim reward' at the bottom, encouraging user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and modern, VoxelRealm logo, engaging gameplay elements.",
+    "layout_text": "The headline is at the top, followed by gameplay icons, with body text centered and the CTA at the bottom.",
+    "ocr_text": "VoxelRealm UGC, Beat your rivals Play with friends tonight, Claim reward",
+    "elements_text": "logo: A stylized logo for 'VoxelRealm' appears at the top left, featuring bold, modern typography against a white background. | icon: A simple icon representing user-generated content, depicted as a square with a circular cutout in the center. | app_screenshot: A screenshot of the game interface showing a grid layout with empty squares, suggesting gameplay elements. | app_screenshot: Another screenshot of the game interface, similar to the previous one, showcasing additional gameplay elements. | icon: A small icon representing gameplay, featuring a circular shape with a subtle design. | icon: A small icon similar to the previous one, representing user-generated content, located at the top left. | icon: Another small gameplay icon, positioned at the center, featuring a circular design. | icon: A small gameplay icon located at the top right, similar in design to the other gameplay icons. | headline: A bold headline reading 'VoxelRealm UGC' at the top of the ad, designed to grab attention. text='VoxelRealm UGC' | body_text: A clear and inviting body text stating 'Beat your rivals Play with friends tonight' in a large, friendly font. text='Beat your rivals Play with friends tonight' | cta: A prominent call to action button labeled 'Claim reward' at the bottom, encouraging user interaction. text='Claim reward'"
+  }
+}

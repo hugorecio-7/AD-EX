@@ -1,0 +1,266 @@
+{
+  "creative_id": "500241",
+  "asset_file": "assets/creative_500241.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional text and app screenshots.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food options available nearby through the SnapMeal app.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo with the text 'SnapMeal' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface screenshot",
+      "description": "A rectangular screenshot of the app interface showing two food items in a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Additional app interface",
+      "description": "Another rectangular screenshot of the app interface featuring a food item, designed similarly to the first.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Circular icon",
+      "description": "A small circular icon located at the center bottom of the ad, possibly representing a user-generated content feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Fast food, fast Fresh favorites nearby' centered in the ad.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, positioned at the top left corner.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom of the ad with the text 'Get offer' in bold white font.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '€9.99' in white, located just above the call to action button.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "UGC indicator",
+      "description": "A small label indicating user-generated content, positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "SnapMeal, food delivery, interstitial, bright and modern, featuring app screenshots and promotional text.",
+    "layout_text": "The logo is at the top, followed by app screenshots in the center, with the main text below and the CTA at the bottom.",
+    "ocr_text": "Fast food, fast Fresh favorites nearby, SnapMeal, Get offer, €9.99, UGC",
+    "elements_text": "logo: A simple logo with the text 'SnapMeal' in a bold font, positioned at the top of the ad. | app_screenshot: A rectangular screenshot of the app interface showing two food items in a minimalistic design. | app_screenshot: Another rectangular screenshot of the app interface featuring a food item, designed similarly to the first. | unknown: A small circular icon located at the center bottom of the ad, possibly representing a user-generated content feature. | body_text: Bold white text stating 'Fast food, fast Fresh favorites nearby' centered in the ad. text='Fast food, fast Fresh favorites nearby' | social_proof: A small label with the text 'UGC' in white, positioned at the top left corner. text='SnapMeal' | cta: A rectangular button at the bottom of the ad with the text 'Get offer' in bold white font. text='Get offer' | price: A small price tag displaying '€9.99' in white, located just above the call to action button. text='€9.99' | unknown: A small label indicating user-generated content, positioned at the top left corner. text='UGC'"
+  }
+}

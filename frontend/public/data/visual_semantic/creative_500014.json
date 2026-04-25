@@ -6,21 +6,21 @@
     "height": 320
   },
   "global": {
-    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned in the top left. The main message is conveyed through a prominent headline 'Secure & simple' centered in the upper middle, followed by body text 'Built for peace of mind' directly below. A call to action 'Order now' is located at the bottom center. Decorative elements enhance the visual appeal without overwhelming the main content.",
-    "visual_style": "Modern design with a clean layout and vibrant accents",
-    "main_message": "Investing made easy and secure",
+    "description": "The ad features a clean layout with a focus on text and abstract shapes.",
+    "visual_style": "minimalist with abstract shapes",
+    "main_message": "Promoting a secure and simple service.",
     "dominant_colors": [
-      "blue",
-      "white"
+      "light gray",
+      "black"
     ],
-    "emotional_tone": "Reassuring and confident"
+    "emotional_tone": "calm"
   },
   "elements": [
     {
-      "id": 1,
+      "id": 0,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
       "text_content": null,
       "bbox_xyxy": [
         0,
@@ -41,82 +41,130 @@
       "area_percentage": 100.0
     },
     {
-      "id": 2,
-      "role": "logo",
-      "label": "EarnPath text logo",
-      "description": "The logo of the EarnPath app, displayed prominently at the top of the crop.",
-      "text_content": "EarnPath",
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shapes",
+      "description": "A collection of abstract shapes including an oval and a rectangle, rendered in a light gray color.",
+      "text_content": null,
       "bbox_xyxy": [
-        23,
-        23,
-        113,
-        43
+        58,
+        98,
+        249,
+        166
       ],
       "bbox_normalized": [
-        0.072,
-        0.072,
-        0.353,
-        0.134
+        0.184,
+        0.309,
+        0.78,
+        0.521
       ],
       "center_normalized": [
-        0.212,
-        0.103
+        0.482,
+        0.415
       ],
-      "area_percentage": 1.76
+      "area_percentage": 12.7
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "An overlaying rectangle shape that is slightly darker than the background, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
     },
     {
       "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Secure & simple",
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "A smaller circular shape in the background, adding visual interest to the composition.",
+      "text_content": null,
       "bbox_xyxy": [
-        32,
-        203,
-        288,
-        229
+        54,
+        76,
+        159,
+        150
       ],
       "bbox_normalized": [
-        0.1,
-        0.634,
-        0.9,
-        0.716
+        0.169,
+        0.238,
+        0.499,
+        0.47
       ],
       "center_normalized": [
-        0.5,
-        0.675
+        0.334,
+        0.354
       ],
-      "area_percentage": 6.5
+      "area_percentage": 7.64
     },
     {
       "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A thin vertical line that adds a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 5,
       "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "Built for peace of mind",
+      "label": "Main message",
+      "description": "Bold, black text stating 'Secure & simple Built for peace of mind', prominently displayed at the bottom.",
+      "text_content": "Secure & simple Built for peace of mind",
       "bbox_xyxy": [
         32,
-        229,
+        203,
         288,
         255
       ],
       "bbox_normalized": [
         0.1,
-        0.716,
+        0.634,
         0.9,
         0.797
       ],
       "center_normalized": [
         0.5,
-        0.756
+        0.716
       ],
-      "area_percentage": 6.5
+      "area_percentage": 13.0
     },
     {
-      "id": 5,
+      "id": 6,
       "role": "cta",
-      "label": "Call to Action",
-      "description": "A button with action text located at the bottom of the ad.",
+      "label": "Call to action",
+      "description": "A smaller button-like text saying 'Order now', positioned just above the bottom edge.",
       "text_content": "Order now",
       "bbox_xyxy": [
         109,
@@ -137,83 +185,34 @@
       "area_percentage": 1.95
     },
     {
-      "id": 6,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A segmented crop showing abstract shapes and a rectangular area, likely part of the ad's design.",
-      "text_content": null,
-      "bbox_xyxy": [
-        58,
-        98,
-        249,
-        166
-      ],
-      "bbox_normalized": [
-        0.181,
-        0.306,
-        0.778,
-        0.519
-      ],
-      "center_normalized": [
-        0.48,
-        0.412
-      ],
-      "area_percentage": 12.68
-    },
-    {
       "id": 7,
-      "role": "decorative_element",
-      "label": "Shapes",
-      "description": "Abstract shapes including an oval and a rectangle, positioned in the upper part of the crop.",
-      "text_content": null,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'EarnPath' displayed in a simple, modern font at the top of the ad.",
+      "text_content": "EarnPath",
       "bbox_xyxy": [
-        54,
-        76,
-        159,
-        150
+        23,
+        23,
+        113,
+        43
       ],
       "bbox_normalized": [
-        0.169,
-        0.237,
-        0.497,
-        0.469
+        0.072,
+        0.072,
+        0.353,
+        0.134
       ],
       "center_normalized": [
-        0.333,
-        0.353
+        0.212,
+        0.103
       ],
-      "area_percentage": 7.59
-    },
-    {
-      "id": 8,
-      "role": "decorative_element",
-      "label": "Circular shape",
-      "description": "A circular shape located in the crop, likely decorative.",
-      "text_content": null,
-      "bbox_xyxy": [
-        37,
-        169,
-        70,
-        201
-      ],
-      "bbox_normalized": [
-        0.116,
-        0.528,
-        0.219,
-        0.628
-      ],
-      "center_normalized": [
-        0.167,
-        0.578
-      ],
-      "area_percentage": 1.03
+      "area_percentage": 1.76
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for EarnPath Invest emphasizing security and simplicity in investing.",
-    "elements_text": "background: full canvas background. logo: EarnPath text logo, small, located at top left, text: \"EarnPath\". headline: Headline text, medium, located at center, text: \"Secure & simple\". body_text: Body text, medium, located at bottom center, text: \"Built for peace of mind\". cta: Call to Action, small, located at bottom center, text: \"Order now\". decorative_element: Segmented crop, medium, located at center. decorative_element: Shapes, medium, located at center. decorative_element: Circular shape, small, located at middle left.",
-    "ocr_text": "EarnPath Secure & simple Built for peace of mind Order now",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.072, 0.072, 0.353, 0.134]. headline Headline text at center, bbox=[0.1, 0.634, 0.9, 0.716]. body_text Body text at bottom center, bbox=[0.1, 0.716, 0.9, 0.797]. cta Call to Action at bottom center, bbox=[0.341, 0.872, 0.653, 0.934]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 320] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[23, 23, 113, 43] | bbox_norm=[0.072, 0.072, 0.353, 0.134] | center=[0.212, 0.103] | area_pct=1.76\nid=3 | role=headline | label=Headline text | text=\"Secure & simple\" | bbox_xyxy=[32, 203, 288, 229] | bbox_norm=[0.1, 0.634, 0.9, 0.716] | center=[0.5, 0.675] | area_pct=6.5\nid=4 | role=body_text | label=Body text | text=\"Built for peace of mind\" | bbox_xyxy=[32, 229, 288, 255] | bbox_norm=[0.1, 0.716, 0.9, 0.797] | center=[0.5, 0.756] | area_pct=6.5\nid=5 | role=cta | label=Call to Action | text=\"Order now\" | bbox_xyxy=[109, 279, 209, 299] | bbox_norm=[0.341, 0.872, 0.653, 0.934] | center=[0.497, 0.903] | area_pct=1.95\nid=6 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[58, 98, 249, 166] | bbox_norm=[0.181, 0.306, 0.778, 0.519] | center=[0.48, 0.412] | area_pct=12.68\nid=7 | role=decorative_element | label=Shapes | text=<none> | bbox_xyxy=[54, 76, 159, 150] | bbox_norm=[0.169, 0.237, 0.497, 0.469] | center=[0.333, 0.353] | area_pct=7.59\nid=8 | role=decorative_element | label=Circular shape | text=<none> | bbox_xyxy=[37, 169, 70, 201] | bbox_norm=[0.116, 0.528, 0.219, 0.628] | center=[0.167, 0.578] | area_pct=1.03"
+    "global_text": "unknown, unknown, native, minimalist with abstract shapes, Secure & simple, Order now",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "EarnPath, Secure & simple, Built for peace of mind, Order now",
+    "elements_text": "unknown: A collection of abstract shapes including an oval and a rectangle, rendered in a light gray color. | unknown: An overlaying rectangle shape that is slightly darker than the background, positioned centrally. | unknown: A smaller circular shape in the background, adding visual interest to the composition. | unknown: A thin vertical line that adds a decorative touch to the overall design. | body_text: Bold, black text stating 'Secure & simple Built for peace of mind', prominently displayed at the bottom. text='Secure & simple Built for peace of mind' | cta: A smaller button-like text saying 'Order now', positioned just above the bottom edge. text='Order now' | logo: The brand name 'EarnPath' displayed in a simple, modern font at the top of the ad. text='EarnPath'"
   }
 }

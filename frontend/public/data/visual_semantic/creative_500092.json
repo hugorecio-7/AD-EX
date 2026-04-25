@@ -1,0 +1,410 @@
+{
+  "creative_id": "500092",
+  "asset_file": "assets/creative_500092.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and abstract shapes.",
+    "visual_style": "modern and colorful",
+    "main_message": "Promoting a weekend escape at a special price.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of circular and rectangular shapes in lighter shades of purple, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.507
+      ],
+      "center_normalized": [
+        0.469,
+        0.373
+      ],
+      "area_percentage": 15.99
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "Bold, white text that reads 'Escape this weekend', prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.69
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "$4.99 price",
+      "description": "A large, eye-catching white text displaying the price '$4.99' below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.94
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button with rounded edges in white text that says 'Learn more', located below the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.79
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A small logo in the top left corner that reads 'HorizonHop' in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, bold 'SALE' badge in white text, positioned in the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label in the top left corner that reads 'UGC' in white text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.57
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "Additional abstract shapes in lighter shades of purple, adding visual interest around the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline at the top of the ad, featuring bold text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.607,
+        0.09
+      ],
+      "area_percentage": 5.25
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with a small area, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unidentified element, similar in size and position to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Smaller text below the price that reads 'Special fares today', in white.",
+      "text_content": "Escape this weekend $4.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        204,
+        251,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.784,
+        0.934
+      ],
+      "center_normalized": [
+        0.427,
+        0.786
+      ],
+      "area_percentage": 21.25
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "The logo of HorizonHop, displayed prominently at the top.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge indicating a sale, prominently displayed.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 16,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A label indicating user-generated content, positioned at the top.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and colorful, Escape this weekend, $4.99, Learn more",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is below the price.",
+    "ocr_text": "Escape this weekend, $4.99, Learn more, HorizonHop, SALE, UGC",
+    "elements_text": "main_subject: A combination of circular and rectangular shapes in lighter shades of purple, positioned centrally. | body_text: Bold, white text that reads 'Escape this weekend', prominently displayed in the center. | body_text: A large, eye-catching white text displaying the price '$4.99' below the main message. | cta: A rectangular button with rounded edges in white text that says 'Learn more', located below the price. | logo: A small logo in the top left corner that reads 'HorizonHop' in a modern font. | discount_badge: A small, bold 'SALE' badge in white text, positioned in the top right corner. | social_proof: A small label in the top left corner that reads 'UGC' in white text. | decorative_element: Additional abstract shapes in lighter shades of purple, adding visual interest around the main text. | headline: A prominent headline at the top of the ad, featuring bold text. | unknown: An unidentified element with a small area, possibly decorative. | unknown: Another unidentified element, similar in size and position to the previous one. | body_text: Smaller text below the price that reads 'Special fares today', in white. text='Escape this weekend $4.99 Learn more' | logo: The logo of HorizonHop, displayed prominently at the top. text='HorizonHop' | discount_badge: A small badge indicating a sale, prominently displayed. text='SALE' | social_proof: A label indicating user-generated content, positioned at the top. text='UGC'"
+  }
+}

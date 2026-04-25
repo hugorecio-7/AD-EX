@@ -6,46 +6,405 @@
     "height": 640
   },
   "global": {
-    "description": "The ad features a full canvas background with the 'PixelForge' logo positioned at the top left. The main subject includes a prominent headline 'Beat your rivals' and supporting body text 'No ads in first week' centered in the middle. A 'Claim reward' button is located at the bottom center, encouraging user interaction. Decorative elements enhance the visual appeal without distracting from the main message.",
-    "visual_style": "Modern design with vibrant colors and clear typography",
-    "main_message": "Encouragement to engage with the game by highlighting a promotional offer.",
+    "description": "The ad features a vibrant blue background with gameplay icons and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Encourages users to beat rivals with no ads in the first week.",
     "dominant_colors": [
       "blue",
-      "white",
-      "black"
+      "white"
     ],
-    "emotional_tone": "Competitive and inviting"
+    "emotional_tone": "exciting"
   },
   "elements": [
     {
       "id": 1,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the elements.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
         360,
-        640
+        639
       ],
       "bbox_normalized": [
         0.0,
         0.0,
         1.0,
-        1.0
+        0.999
       ],
       "center_normalized": [
         0.5,
         0.5
       ],
-      "area_percentage": 100.0
+      "area_percentage": 99.9
     },
     {
       "id": 2,
       "role": "logo",
-      "label": "PixelForge text logo",
-      "description": "The logo of the app 'PixelForge' displayed in the top left corner of the ad.",
+      "label": "PixelForge logo",
+      "description": "The logo 'PixelForge' is displayed in a bold, modern font at the top left corner, set against the blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        141
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.221
+      ],
+      "center_normalized": [
+        0.499,
+        0.11
+      ],
+      "area_percentage": 22.03
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Gameplay icons",
+      "description": "Four circular gameplay icons are arranged in a grid pattern at the top center, each with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A single circular gameplay icon is positioned slightly to the right of the grid, featuring a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        225
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.352
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.52
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another circular gameplay icon is located to the left of the previous icon, maintaining the minimalistic style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A circular gameplay icon is centered below the top icons, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another circular gameplay icon is centered below the top icons, maintaining the same style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "A small decorative shape is positioned at the top left, adding visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "A small decorative shape is located at the top right, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Beat your rivals' is prominently displayed in a large, bold font at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Sub-message",
+      "description": "The text 'No ads in first week' is positioned below the main message in a smaller font, providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Claim reward' is displayed in a bold font at the bottom center, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element with no clear visual identity, positioned near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element with no clear visual identity, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        182
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.285
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element with no clear visual identity, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 16,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'Beat your rivals No ads in first week' is prominently displayed in a large, bold font at the center of the ad.",
+      "text_content": "Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        463
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 17,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The logo 'PixelForge' is displayed in a bold, modern font at the top left corner, set against the blue background.",
       "text_content": "PixelForge",
       "bbox_xyxy": [
         23,
@@ -66,58 +425,10 @@
       "area_percentage": 1.63
     },
     {
-      "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Beat your rivals",
-      "bbox_xyxy": [
-        43,
-        409,
-        317,
-        436
-      ],
-      "bbox_normalized": [
-        0.119,
-        0.639,
-        0.881,
-        0.681
-      ],
-      "center_normalized": [
-        0.5,
-        0.66
-      ],
-      "area_percentage": 3.21
-    },
-    {
-      "id": 4,
-      "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "No ads in first week",
-      "bbox_xyxy": [
-        43,
-        436,
-        317,
-        463
-      ],
-      "bbox_normalized": [
-        0.119,
-        0.681,
-        0.881,
-        0.723
-      ],
-      "center_normalized": [
-        0.5,
-        0.702
-      ],
-      "area_percentage": 3.21
-    },
-    {
-      "id": 5,
+      "id": 18,
       "role": "cta",
-      "label": "Claim reward button",
-      "description": "A button with the text 'Claim reward' positioned at the bottom of the ad.",
+      "label": "Call to action",
+      "description": "The text 'Claim reward' is displayed in a bold font at the bottom center, encouraging user interaction.",
       "text_content": "Claim reward",
       "bbox_xyxy": [
         111,
@@ -136,133 +447,12 @@
         0.892
       ],
       "area_percentage": 1.18
-    },
-    {
-      "id": 6,
-      "role": "icon",
-      "label": "Play symbol",
-      "description": "A right-pointing triangle icon, indicating an action or play feature, located on the right side of the crop.",
-      "text_content": null,
-      "bbox_xyxy": [
-        315,
-        153,
-        342,
-        203
-      ],
-      "bbox_normalized": [
-        0.875,
-        0.239,
-        0.95,
-        0.317
-      ],
-      "center_normalized": [
-        0.912,
-        0.278
-      ],
-      "area_percentage": 0.59
-    },
-    {
-      "id": 7,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A small blue rectangle with a circular shape inside, likely part of a game interface.",
-      "text_content": null,
-      "bbox_xyxy": [
-        132,
-        153,
-        213,
-        225
-      ],
-      "bbox_normalized": [
-        0.367,
-        0.239,
-        0.592,
-        0.352
-      ],
-      "center_normalized": [
-        0.479,
-        0.295
-      ],
-      "area_percentage": 2.53
-    },
-    {
-      "id": 8,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A small blue square with a dark blue circle in the upper left corner.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        153,
-        115,
-        224
-      ],
-      "bbox_normalized": [
-        0.097,
-        0.239,
-        0.319,
-        0.35
-      ],
-      "center_normalized": [
-        0.208,
-        0.295
-      ],
-      "area_percentage": 2.47
-    },
-    {
-      "id": 9,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A small blue square with a dark blue circle in the upper left corner.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        243,
-        115,
-        313
-      ],
-      "bbox_normalized": [
-        0.097,
-        0.38,
-        0.319,
-        0.489
-      ],
-      "center_normalized": [
-        0.208,
-        0.434
-      ],
-      "area_percentage": 2.43
-    },
-    {
-      "id": 10,
-      "role": "decorative_element",
-      "label": "Segmented crop of a blue shape",
-      "description": "A small blue shape with a dark circle, likely part of a game interface.",
-      "text_content": null,
-      "bbox_xyxy": [
-        133,
-        243,
-        212,
-        313
-      ],
-      "bbox_normalized": [
-        0.369,
-        0.38,
-        0.589,
-        0.489
-      ],
-      "center_normalized": [
-        0.479,
-        0.434
-      ],
-      "area_percentage": 2.4
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for PixelForge Legends promoting engagement with a competitive theme.",
-    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Beat your rivals\". body_text: Body text, small, located at center, text: \"No ads in first week\". cta: Claim reward button, small, located at bottom center, text: \"Claim reward\". icon: Play symbol, tiny, located at middle right. decorative_element: Segmented crop, small, located at center. decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop of a blue shape, small, located at center.",
-    "ocr_text": "PixelForge Beat your rivals No ads in first week Claim reward",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.119, 0.639, 0.881, 0.681]. body_text Body text at center, bbox=[0.119, 0.681, 0.881, 0.723]. cta Claim reward button at bottom center, bbox=[0.308, 0.877, 0.686, 0.908]. icon Play symbol at middle right, bbox=[0.875, 0.239, 0.95, 0.317]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Beat your rivals\" | bbox_xyxy=[43, 409, 317, 436] | bbox_norm=[0.119, 0.639, 0.881, 0.681] | center=[0.5, 0.66] | area_pct=3.21\nid=4 | role=body_text | label=Body text | text=\"No ads in first week\" | bbox_xyxy=[43, 436, 317, 463] | bbox_norm=[0.119, 0.681, 0.881, 0.723] | center=[0.5, 0.702] | area_pct=3.21\nid=5 | role=cta | label=Claim reward button | text=\"Claim reward\" | bbox_xyxy=[111, 561, 247, 581] | bbox_norm=[0.308, 0.877, 0.686, 0.908] | center=[0.497, 0.892] | area_pct=1.18\nid=6 | role=icon | label=Play symbol | text=<none> | bbox_xyxy=[315, 153, 342, 203] | bbox_norm=[0.875, 0.239, 0.95, 0.317] | center=[0.912, 0.278] | area_pct=0.59\nid=7 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[132, 153, 213, 225] | bbox_norm=[0.367, 0.239, 0.592, 0.352] | center=[0.479, 0.295] | area_pct=2.53\nid=8 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 153, 115, 224] | bbox_norm=[0.097, 0.239, 0.319, 0.35] | center=[0.208, 0.295] | area_pct=2.47\nid=9 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 243, 115, 313] | bbox_norm=[0.097, 0.38, 0.319, 0.489] | center=[0.208, 0.434] | area_pct=2.43\nid=10 | role=decorative_element | label=Segmented crop of a blue shape | text=<none> | bbox_xyxy=[133, 243, 212, 313] | bbox_norm=[0.369, 0.38, 0.589, 0.489] | center=[0.479, 0.434] | area_pct=2.4"
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, PixelForge logo, gameplay icons, call to action.",
+    "layout_text": "The logo is at the top left, gameplay icons are at the top center, the main message is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Beat your rivals, No ads in first week, PixelForge, Claim reward",
+    "elements_text": "logo: The logo 'PixelForge' is displayed in a bold, modern font at the top left corner, set against the blue background. | icon: Four circular gameplay icons are arranged in a grid pattern at the top center, each with a simple design. | icon: A single circular gameplay icon is positioned slightly to the right of the grid, featuring a minimalistic design. | icon: Another circular gameplay icon is located to the left of the previous icon, maintaining the minimalistic style. | icon: A circular gameplay icon is centered below the top icons, featuring a simple design. | icon: Another circular gameplay icon is centered below the top icons, maintaining the same style. | decorative_element: A small decorative shape is positioned at the top left, adding visual interest to the ad. | decorative_element: A small decorative shape is located at the top right, complementing the overall design. | body_text: The text 'Beat your rivals' is prominently displayed in a large, bold font at the center of the ad. | body_text: The text 'No ads in first week' is positioned below the main message in a smaller font, providing additional context. | cta: The text 'Claim reward' is displayed in a bold font at the bottom center, encouraging user interaction. | unknown: A small element with no clear visual identity, positioned near the center. | unknown: A small element with no clear visual identity, positioned at the top center. | unknown: A small element with no clear visual identity, positioned at the top left. | headline: The text 'Beat your rivals No ads in first week' is prominently displayed in a large, bold font at the center of the ad. text='Beat your rivals No ads in first week' | logo: The logo 'PixelForge' is displayed in a bold, modern font at the top left corner, set against the blue background. text='PixelForge' | cta: The text 'Claim reward' is displayed in a bold font at the bottom center, encouraging user interaction. text='Claim reward'"
   }
 }

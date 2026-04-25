@@ -1,0 +1,242 @@
+{
+  "creative_id": "500116",
+  "asset_file": "assets/creative_500116.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with product displays and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting limited stock products with a call to action.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "product",
+      "label": "Product display",
+      "description": "A set of three pink rectangular shapes resembling product packaging, arranged in a row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Bold, white text stating 'Limited stock' positioned prominently in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "Smaller white text below the main message that reads 'Shop bestsellers now'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow circular badge with the word 'SALE' in bold black text at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with rounded edges that says 'Get offer' in bold text.",
+      "text_content": "Limited stock Shop bestsellers now",
+      "bbox_xyxy": [
+        62,
+        406,
+        299,
+        463
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.634,
+        0.831,
+        0.723
+      ],
+      "center_normalized": [
+        0.501,
+        0.679
+      ],
+      "area_percentage": 5.86
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "A bold, large text showing the price '€29.99' in white, located at the bottom left.",
+      "text_content": "€29.99 Get offer",
+      "bbox_xyxy": [
+        24,
+        532,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.349,
+        0.87
+      ],
+      "area_percentage": 4.32
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo 'ZenDrop' in large, bold black text at the top of the ad.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        198,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.55,
+        0.128
+      ],
+      "center_normalized": [
+        0.303,
+        0.087
+      ],
+      "area_percentage": 4.09
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small yellow badge with the word 'SALE' in bold black text at the top.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, Limited stock, Get offer",
+    "layout_text": "The logo is at the top, followed by the sale badge, the main product display in the center, and the call to action at the bottom.",
+    "ocr_text": "Limited stock, Shop bestsellers now, €29.99, Get offer, ZenDrop, SALE",
+    "elements_text": "product: A set of three pink rectangular shapes resembling product packaging, arranged in a row. | body_text: Bold, white text stating 'Limited stock' positioned prominently in the center. | body_text: Smaller white text below the main message that reads 'Shop bestsellers now'. | discount_badge: A small yellow circular badge with the word 'SALE' in bold black text at the top right. | cta: A prominent white button with rounded edges that says 'Get offer' in bold text. text='Limited stock Shop bestsellers now' | price: A bold, large text showing the price '€29.99' in white, located at the bottom left. text='€29.99 Get offer' | logo: The logo 'ZenDrop' in large, bold black text at the top of the ad. text='ZenDrop' | discount_badge: A small yellow badge with the word 'SALE' in bold black text at the top. text='SALE'"
+  }
+}

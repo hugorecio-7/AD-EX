@@ -1,0 +1,170 @@
+{
+  "creative_id": "500051",
+  "asset_file": "assets/creative_500051.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a focus on financial services.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a financial service with easy signup and instant card.",
+    "dominant_colors": [
+      "#A8E6CF",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Soft green background",
+      "description": "A smooth, soft green background that fills the entire banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        359
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.748
+      ],
+      "center_normalized": [
+        0.502,
+        0.474
+      ],
+      "area_percentage": 49.52
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A simple logo featuring the text 'CoinBridge' in a modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A combination of circles and rectangles in varying sizes, lightly overlaid on the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Your money, clearer' with a smaller tagline 'Fast signup, instant card' underneath.",
+      "text_content": "Your money, clearer Fast signup, instant card",
+      "bbox_xyxy": [
+        61,
+        305,
+        258,
+        391
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.635,
+        0.806,
+        0.815
+      ],
+      "center_normalized": [
+        0.498,
+        0.725
+      ],
+      "area_percentage": 11.03
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Book now' in white, set against a darker green background at the bottom.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Tagline text",
+      "description": "Smaller text below the headline that provides additional information about the service.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with soft colors, CoinBridge logo, clear messaging",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Fast signup, instant card, CoinBridge, Book now",
+    "elements_text": "logo: A simple logo featuring the text 'CoinBridge' in a modern font, positioned at the top left. | decorative_element: A combination of circles and rectangles in varying sizes, lightly overlaid on the background. | headline: Bold, white text stating 'Your money, clearer' with a smaller tagline 'Fast signup, instant card' underneath. text='Your money, clearer Fast signup, instant card' | cta: A prominent button with the text 'Book now' in white, set against a darker green background at the bottom. text='CoinBridge' | body_text: Smaller text below the headline that provides additional information about the service. text='Book now'"
+  }
+}

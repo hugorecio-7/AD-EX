@@ -1,0 +1,410 @@
+{
+  "creative_id": "500256",
+  "asset_file": "assets/creative_500256.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent logo and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encourages users to level up in the game with a promotional offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "The logo features bold, stylized text 'NeonArena' in a prominent position at the top, designed to catch attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Game interface screenshot",
+      "description": "A screenshot of the game interface showing interactive elements like squares and buttons, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game icon displayed at the top left, representing the app visually.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text stating 'Level up today No ads in first week' is centered, conveying a promotional message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game icon displayed at the top left, representing the app visually.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Start now', inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game icon displayed at the top right, representing the app visually.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game icon displayed at the center bottom, representing the app visually.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with minimal visual detail, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with minimal visual detail, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with minimal visual detail, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with minimal visual detail, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'NeonArena' is bold and prominently displayed at the top of the ad.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        30,
+        40,
+        358,
+        94
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.994,
+        0.147
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.69
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text stating 'Level up today No ads in first week' is centered, conveying a promotional message.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        52,
+        406,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.634,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.679
+      ],
+      "area_percentage": 6.33
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom with the text 'Start now', inviting users to take action.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, NeonArena logo, promotional text, call to action.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Level up today No ads in first week, Start now",
+    "elements_text": "logo: The logo features bold, stylized text 'NeonArena' in a prominent position at the top, designed to catch attention. | app_screenshot: A screenshot of the game interface showing interactive elements like squares and buttons, centered in the ad. | icon: A small game icon displayed at the top left, representing the app visually. | body_text: Text stating 'Level up today No ads in first week' is centered, conveying a promotional message. | icon: A small game icon displayed at the top left, representing the app visually. | cta: A rounded button at the bottom with the text 'Start now', inviting users to take action. | icon: A small game icon displayed at the top right, representing the app visually. | icon: A small game icon displayed at the center bottom, representing the app visually. | unknown: An unidentified element with minimal visual detail, possibly a decorative feature. | unknown: An unidentified element with minimal visual detail, possibly a decorative feature. | unknown: An unidentified element with minimal visual detail, possibly a decorative feature. | unknown: An unidentified element with minimal visual detail, possibly a decorative feature. | headline: The main headline 'NeonArena' is bold and prominently displayed at the top of the ad. text='NeonArena' | body_text: Text stating 'Level up today No ads in first week' is centered, conveying a promotional message. text='Level up today No ads in first week' | cta: A rounded button at the bottom with the text 'Start now', inviting users to take action. text='Start now'"
+  }
+}

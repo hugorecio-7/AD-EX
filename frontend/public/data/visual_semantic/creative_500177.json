@@ -1,0 +1,338 @@
+{
+  "creative_id": "500177",
+  "asset_file": "assets/creative_500177.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and interactive elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to stream new hits and claim rewards.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A simple logo featuring the text 'BingeLayer' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A large, bold text that reads 'Stream the hype' in a prominent position, conveying excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.502
+      ],
+      "center_normalized": [
+        0.468,
+        0.371
+      ],
+      "area_percentage": 15.73
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller text below the main body text that says 'New hits every week', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button with the text 'Claim reward', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.77
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Light green background with abstract shapes, adding visual interest without distracting from the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "An unspecified element that may contain additional visual details or shapes, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "Another unspecified element, possibly a decorative shape or icon, contributing to the ad's aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "A small circular shape in the center, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "Another small circular shape, similar to the previous one, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.217,
+        0.627
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The prominent headline text 'Stream the hype' that captures the viewer's attention.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        205,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.641,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.719
+      ],
+      "area_percentage": 12.79
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A visually distinct button at the bottom with the text 'Claim reward', encouraging user action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        279,
+        223,
+        299
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.872,
+        0.697,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A small logo at the top left corner, featuring the text 'BingeLayer' in a bold font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, key elements include bold text and call to action.",
+    "layout_text": "The logo is at the top, the main body text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Stream the hype, New hits every week, Claim reward, BingeLayer",
+    "elements_text": "logo: A simple logo featuring the text 'BingeLayer' in a bold font, positioned at the top of the ad. | body_text: A large, bold text that reads 'Stream the hype' in a prominent position, conveying excitement. | body_text: Smaller text below the main body text that says 'New hits every week', providing additional information. | cta: A bold button with the text 'Claim reward', designed to attract user interaction. | decorative_element: Light green background with abstract shapes, adding visual interest without distracting from the text. | unknown: An unspecified element that may contain additional visual details or shapes, enhancing the overall design. | unknown: Another unspecified element, possibly a decorative shape or icon, contributing to the ad's aesthetic. | unknown: A small circular shape in the center, adding a playful touch to the design. | unknown: Another small circular shape, similar to the previous one, enhancing the visual appeal. | headline: The prominent headline text 'Stream the hype' that captures the viewer's attention. text='Stream the hype New hits every week' | cta: A visually distinct button at the bottom with the text 'Claim reward', encouraging user action. text='Claim reward' | logo: A small logo at the top left corner, featuring the text 'BingeLayer' in a bold font. text='BingeLayer'"
+  }
+}

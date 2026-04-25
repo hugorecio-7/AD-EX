@@ -15,6 +15,18 @@ load_dotenv(dotenv_path=_PROJECT_ROOT / ".env")
 # Importem directament del teu pipeline
 from pipeline.step2_feature_analysis.llm_feature_gap import analyze_feature_gap_with_llm
 
+
+def save_feature_gap_result(creative_id: str, result: dict) -> Path:
+    """Guarda el resultat del feature gap a output/features/creative_<id>/creative_<id>_feature_gap.json."""
+    creative_dir = _PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}"
+    creative_dir.mkdir(parents=True, exist_ok=True)
+
+    output_path = creative_dir / f"creative_{creative_id}_feature_gap.json"
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+    return output_path
+
+
 def main():
     print("🚀 Iniciant Test del Pipeline: Vision Feature Gap Analysis")
     
@@ -37,6 +49,9 @@ def main():
     print("="*50)
     print(json.dumps(result, indent=2))
     print("="*50)
+
+    output_path = save_feature_gap_result(original_ad_id, result)
+    print(f"\n💾 JSON guardat a: {output_path}")
 
 if __name__ == "__main__":
     main()  

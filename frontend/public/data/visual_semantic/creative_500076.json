@@ -1,0 +1,386 @@
+{
+  "creative_id": "500076",
+  "asset_file": "assets/creative_500076.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple gradient background with various game icons and text elements promoting a game.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear with no ads in the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small, circular game icon with a simple design, positioned at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small, circular game icon with a distinct design, located next to the first icon at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small, circular game icon with a unique design, centered in the middle section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small, circular game icon with a different design, positioned next to the previous icon in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small, circular game icon with a simple design, located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "Text that reads 'UGC' in bold, large font, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Unlock gear text",
+      "description": "Text that states 'Unlock rare gear' in a clear, readable font, centered in the lower section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "No ads text",
+      "description": "Text that reads 'No ads in first week' in a smaller font, positioned below the unlock gear text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rectangular button with rounded corners that reads 'Get offer' in bold text, located at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, circular element at the top left, possibly decorative or functional, with no clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, circular element at the top right, possibly decorative or functional, with no clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'VoxelRealm' is prominently displayed at the top of the ad, capturing attention.",
+      "text_content": "VoxelRealm UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.536,
+        0.13
+      ],
+      "area_percentage": 12.61
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Offer details",
+      "description": "Text that reads 'Unlock rare gear No ads in first week' in a clear font, centered in the lower section of the ad.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        408,
+        326,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.637,
+        0.906,
+        0.723
+      ],
+      "center_normalized": [
+        0.504,
+        0.68
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rectangular button with rounded corners that reads 'Get offer' in bold text, located at the bottom center of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, VoxelRealm, unlock rare gear.",
+    "layout_text": "The headline is at the top, followed by icons, body text in the center, and CTA at the bottom.",
+    "ocr_text": "VoxelRealm UGC, Unlock rare gear, No ads in first week, Get offer",
+    "elements_text": "icon: A small, circular game icon with a simple design, positioned at the top left of the ad. | icon: Another small, circular game icon with a distinct design, located next to the first icon at the top. | icon: A small, circular game icon with a unique design, centered in the middle section of the ad. | icon: Another small, circular game icon with a different design, positioned next to the previous icon in the center. | icon: A small, circular game icon with a simple design, located at the top right of the ad. | body_text: Text that reads 'UGC' in bold, large font, prominently displayed at the top of the ad. | body_text: Text that states 'Unlock rare gear' in a clear, readable font, centered in the lower section of the ad. | body_text: Text that reads 'No ads in first week' in a smaller font, positioned below the unlock gear text. | cta: A rectangular button with rounded corners that reads 'Get offer' in bold text, located at the bottom center of the ad. | unknown: A small, circular element at the top left, possibly decorative or functional, with no clear visual identity. | unknown: A small, circular element at the top right, possibly decorative or functional, with no clear visual identity. | headline: The bold text 'VoxelRealm' is prominently displayed at the top of the ad, capturing attention. text='VoxelRealm UGC' | body_text: Text that reads 'Unlock rare gear No ads in first week' in a clear font, centered in the lower section of the ad. text='Unlock rare gear No ads in first week' | cta: A rectangular button with rounded corners that reads 'Get offer' in bold text, located at the bottom center of the ad. text='Get offer'"
+  }
+}

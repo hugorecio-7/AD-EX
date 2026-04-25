@@ -1,0 +1,314 @@
+{
+  "creative_id": "500029",
+  "asset_file": "assets/creative_500029.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear offer and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 meal offer with free delivery.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire banner, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        95,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.199,
+        0.955,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 47.29
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A bold, yellow 'SALE' text is positioned at the top, drawing immediate attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The text reads '2-for-1 tonight' in large, white font, centrally placed for visibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        134,
+        105,
+        292
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.28,
+        0.33,
+        0.61
+      ],
+      "center_normalized": [
+        0.233,
+        0.445
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Delivery information",
+      "description": "The text 'Free delivery over $15' is in smaller white font, positioned below the main offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.239,
+        0.438
+      ],
+      "area_percentage": 5.68
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The 'SnapMeal' logo appears at the top left in a simple, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.306,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.619,
+        0.091
+      ],
+      "area_percentage": 5.13
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Discount percentage",
+      "description": "A small, circular badge displays '30%' in white text, located at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Get offer' in white, centered at the bottom of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Visual element",
+      "description": "A simple, outlined icon resembling a food container is placed to the left of the main offer text.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        44,
+        306,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.637,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.691
+      ],
+      "area_percentage": 7.74
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand name",
+      "description": "The brand name 'SnapMeal' is displayed in a clean, modern font at the top.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Offer button",
+      "description": "A rounded button at the bottom with 'Get offer' text, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Discount label",
+      "description": "A small badge showing '30%' in white text, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Sale tag",
+      "description": "A small, yellow 'SALE' tag positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, 2-for-1 offer, free delivery",
+    "layout_text": "The headline is at the top, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight, Free delivery over $15, SnapMeal, Get offer, 30%, SALE",
+    "elements_text": "headline: A bold, yellow 'SALE' text is positioned at the top, drawing immediate attention. | body_text: The text reads '2-for-1 tonight' in large, white font, centrally placed for visibility. | body_text: The text 'Free delivery over $15' is in smaller white font, positioned below the main offer. | logo: The 'SnapMeal' logo appears at the top left in a simple, modern font. | discount_badge: A small, circular badge displays '30%' in white text, located at the bottom left. | cta: A prominent button with the text 'Get offer' in white, centered at the bottom of the banner. | decorative_element: A simple, outlined icon resembling a food container is placed to the left of the main offer text. text='2-for-1 tonight Free delivery over $15' | logo: The brand name 'SnapMeal' is displayed in a clean, modern font at the top. text='SnapMeal' | cta: A rounded button at the bottom with 'Get offer' text, inviting user interaction. text='Get offer' | discount_badge: A small badge showing '30%' in white text, indicating a discount. text='30%' | headline: A small, yellow 'SALE' tag positioned at the top right corner. text='SALE'"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "creative_id": "500231",
+  "asset_file": "assets/creative_500231.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a warm orange background with geometric shapes and clear messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a secure and simple shopping experience with no hidden fees.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in a lighter orange shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold white text reading 'Secure & simple' is prominently displayed, with a smaller line of text below it in a lighter font stating 'No hidden fees'.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.503,
+        0.69
+      ],
+      "area_percentage": 8.0
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Shop now' in white, set against a solid orange background.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'EarnPath' appears in a bold font at the top left corner, contrasting against the orange background.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        22,
+        34,
+        114,
+        58
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.356,
+        0.121
+      ],
+      "center_normalized": [
+        0.212,
+        0.096
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, secure shopping, EarnPath, Shop now",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "EarnPath, Secure & simple, No hidden fees, Shop now",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are centered in a lighter orange shade. | headline: Bold white text reading 'Secure & simple' is prominently displayed, with a smaller line of text below it in a lighter font stating 'No hidden fees'. text='Secure & simple No hidden fees' | cta: A rounded button at the bottom with the text 'Shop now' in white, set against a solid orange background. text='Shop now' | logo: The logo 'EarnPath' appears in a bold font at the top left corner, contrasting against the orange background. text='EarnPath'"
+  }
+}

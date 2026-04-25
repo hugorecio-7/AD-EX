@@ -1,0 +1,386 @@
+{
+  "creative_id": "500184",
+  "asset_file": "assets/creative_500184.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with game-related elements and a clear call-to-action.",
+    "visual_style": "bright and playful",
+    "main_message": "Win epic rewards with no ads in the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.294
+      ],
+      "center_normalized": [
+        0.499,
+        0.147
+      ],
+      "area_percentage": 29.34
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "IronQuest logo",
+      "description": "The logo of IronQuest, displayed prominently at the top with a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game-related icon, possibly representing gameplay elements, located near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another small gameplay-related icon, complementing the previous one, positioned next to it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A screenshot of the gameplay interface, showing interactive elements in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Gameplay interface",
+      "description": "Another screenshot of the gameplay interface, showcasing different features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Additional icon",
+      "description": "A small icon positioned at the top right, possibly indicating settings or options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent call-to-action button at the bottom, inviting users to get an offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Reward text",
+      "description": "Text in the center that highlights the rewards users can win.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional reward text",
+      "description": "Another line of text providing more details about the rewards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Top text",
+      "description": "Small text at the top, possibly providing additional context or information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Secondary top text",
+      "description": "Another small text element at the top, complementing the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main reward headline",
+      "description": "The main headline in bold text, emphasizing the epic rewards available.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        34,
+        405,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.633,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.507,
+        0.678
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Get offer text",
+      "description": "Text on the call-to-action button, clearly stating 'Get offer'.",
+      "text_content": "IronQuest",
+      "bbox_xyxy": [
+        23,
+        37,
+        223,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.619,
+        0.123
+      ],
+      "center_normalized": [
+        0.342,
+        0.091
+      ],
+      "area_percentage": 3.65
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, IronQuest logo, epic rewards message",
+    "layout_text": "The logo is at the top, followed by gameplay icons, the main headline in the center, and the CTA button at the bottom.",
+    "ocr_text": "Win epic rewards, No ads in first week, IronQuest, Get offer",
+    "elements_text": "logo: The logo of IronQuest, displayed prominently at the top with a bold font. | icon: A small game-related icon, possibly representing gameplay elements, located near the logo. | icon: Another small gameplay-related icon, complementing the previous one, positioned next to it. | app_screenshot: A screenshot of the gameplay interface, showing interactive elements in the center. | app_screenshot: Another screenshot of the gameplay interface, showcasing different features. | icon: A small icon positioned at the top right, possibly indicating settings or options. | cta: A prominent call-to-action button at the bottom, inviting users to get an offer. | body_text: Text in the center that highlights the rewards users can win. | body_text: Another line of text providing more details about the rewards. | body_text: Small text at the top, possibly providing additional context or information. | body_text: Another small text element at the top, complementing the previous one. | headline: The main headline in bold text, emphasizing the epic rewards available. text='Win epic rewards No ads in first week' | cta: Text on the call-to-action button, clearly stating 'Get offer'. text='IronQuest' | unknown:  text='Get offer'"
+  }
+}

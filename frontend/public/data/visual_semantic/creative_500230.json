@@ -1,0 +1,194 @@
+{
+  "creative_id": "500230",
+  "asset_file": "assets/creative_500230.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold orange background with prominent text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to earn cashback with a simple signup.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.64
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text that reads 'Earn cashback daily', prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline that states 'Fast signup, instant card'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "An abstract design featuring a circle and a square in a lighter shade of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        277,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.771,
+        0.518
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom that says 'Shop now'.",
+      "text_content": "Earn cashback daily Fast signup; instant card",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'EarnPath' displayed in a small size at the top left corner.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small text element that appears to be a brand name or title.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        27,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.214,
+        0.092
+      ],
+      "area_percentage": 0.87
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, cashback offer, call to action",
+    "layout_text": "The headline is at the top, followed by supporting text, with the call to action at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, Shop now, EarnPath",
+    "elements_text": "headline: Bold white text that reads 'Earn cashback daily', prominently displayed at the top. | body_text: Smaller white text below the headline that states 'Fast signup, instant card'. | decorative_element: An abstract design featuring a circle and a square in a lighter shade of orange. | cta: A prominent white button at the bottom that says 'Shop now'. text='Earn cashback daily Fast signup; instant card' | logo: The logo 'EarnPath' displayed in a small size at the top left corner. text='Shop now' | unknown: A small text element that appears to be a brand name or title. text='EarnPath'"
+  }
+}

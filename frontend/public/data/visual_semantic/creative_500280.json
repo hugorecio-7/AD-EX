@@ -1,0 +1,314 @@
+{
+  "creative_id": "500280",
+  "asset_file": "assets/creative_500280.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night food delivery offers.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three icons",
+      "description": "Three rectangular icons arranged horizontally, outlined with a thin border, suggesting a selection of items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "BiteRush logo",
+      "description": "The text 'BiteRush' in a bold, modern font, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        15,
+        297,
+        42
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.622,
+        0.091
+      ],
+      "area_percentage": 5.06
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cravings text",
+      "description": "The phrase 'Your cravings, delivered' in a large, clear font, centered below the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late night deals",
+      "description": "The text 'Late night deals available' in a smaller font, positioned just below the main body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer' in a bold font, designed to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element that is not clearly defined in purpose or content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, rectangular element that lacks clear identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, vertical element that appears to be an icon or graphic, but its purpose is unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Bottom section",
+      "description": "A large area at the bottom of the ad that contains the main call to action and additional text.",
+      "text_content": "Your cravings, delivered Late ble Get offer",
+      "bbox_xyxy": [
+        48,
+        198,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.619,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.505,
+        0.777
+      ],
+      "area_percentage": 22.39
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "The logo of 'BiteRush' displayed prominently at the top of the ad.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        25,
+        23,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.097
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge with the word 'SALE' in bold letters, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BiteRush logo, Get offer button",
+    "layout_text": "The logo is at the top, followed by the main body text, and the CTA button is at the bottom.",
+    "ocr_text": "BiteRush, SALE, Your cravings, delivered, Late night deals available, Get offer",
+    "elements_text": "main_subject: Three rectangular icons arranged horizontally, outlined with a thin border, suggesting a selection of items. | headline: The text 'BiteRush' in a bold, modern font, prominently displayed at the top. | body_text: The phrase 'Your cravings, delivered' in a large, clear font, centered below the logo. | body_text: The text 'Late night deals available' in a smaller font, positioned just below the main body text. | cta: A prominent button with the text 'Get offer' in a bold font, designed to stand out against the background. | unknown: A small, rectangular element that is not clearly defined in purpose or content. | unknown: Another small, rectangular element that lacks clear identification. | unknown: A small, vertical element that appears to be an icon or graphic, but its purpose is unclear. | unknown: A large area at the bottom of the ad that contains the main call to action and additional text. text='Your cravings, delivered Late ble Get offer' | logo: The logo of 'BiteRush' displayed prominently at the top of the ad. text='BiteRush' | discount_badge: A small badge with the word 'SALE' in bold letters, positioned at the top right corner. text='SALE'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500170",
+  "asset_file": "assets/creative_500170.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a food delivery app interface with promotional text and call-to-action buttons.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting quick dinner options with late-night deals.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "A simplified representation of a food delivery app interface with two empty food containers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "Another view of the food delivery app interface, featuring three circular buttons below the containers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "A close-up of the food delivery app interface, showcasing the layout of the containers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A prominent button at the bottom with the text 'Try for free' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A secondary button with the same text 'Try for free', positioned slightly to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A smaller button with 'Try for free' text, located in the lower center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Dinner promotion text",
+      "description": "Bold text in the center stating 'Dinner in minutes' with a subtitle 'Late-night deals available'.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        63,
+        305,
+        259,
+        389
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.635,
+        0.809,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.723
+      ],
+      "area_percentage": 10.72
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo of the app 'QuickFork' displayed prominently at the top left.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A call-to-action button at the bottom with 'Try for free' text in a clear font.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 12,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, food delivery app interface, promotional text",
+    "layout_text": "The logo is at the top left, the main subject is centered, and the CTA buttons are at the bottom.",
+    "ocr_text": "QuickFork, Dinner in minutes, Late-night deals available, Try for free, SALE, UGC",
+    "elements_text": "main_subject: A simplified representation of a food delivery app interface with two empty food containers. | main_subject: Another view of the food delivery app interface, featuring three circular buttons below the containers. | main_subject: A close-up of the food delivery app interface, showcasing the layout of the containers. | cta: A prominent button at the bottom with the text 'Try for free' in a bold font. | cta: A secondary button with the same text 'Try for free', positioned slightly to the right. | cta: A smaller button with 'Try for free' text, located in the lower center of the ad. | body_text: Bold text in the center stating 'Dinner in minutes' with a subtitle 'Late-night deals available'. text='Dinner in minutes Late-night deals available' | logo: The logo of the app 'QuickFork' displayed prominently at the top left. text='QuickFork' | cta: A call-to-action button at the bottom with 'Try for free' text in a clear font. text='Try for free' | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold letters. text='SALE' | social_proof: A small tag labeled 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

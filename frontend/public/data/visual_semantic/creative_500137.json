@@ -1,0 +1,338 @@
+{
+  "creative_id": "500137",
+  "asset_file": "assets/creative_500137.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a central focus on a 2-for-1 offer.",
+    "visual_style": "bright and cheerful",
+    "main_message": "Promoting a 2-for-1 offer with free delivery.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright solid yellow background fills the entire canvas, providing a vibrant and cheerful base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.183,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.591
+      ],
+      "area_percentage": 81.44
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The logo features the word 'CraveLoop' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Three empty product slots",
+      "description": "Three rectangular slots with a glass-like appearance, suggesting a product display, are centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.768,
+        0.479
+      ],
+      "center_normalized": [
+        0.578,
+        0.379
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small rectangular badge with the word 'SALE' in bold letters, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        158,
+        23,
+        297,
+        63
+      ],
+      "bbox_normalized": [
+        0.495,
+        0.05,
+        0.93,
+        0.132
+      ],
+      "center_normalized": [
+        0.713,
+        0.091
+      ],
+      "area_percentage": 3.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "2-for-1 offer text",
+      "description": "The text '2-for-1 tonight' is prominently displayed in a large, bold font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Free delivery text",
+      "description": "The text 'Free delivery over $15' is smaller and positioned below the main offer, in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A button with the text 'Order now' in a bold font, located at the bottom of the ad, inviting immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Circular indicator",
+      "description": "A small circular indicator is placed to the left of the product slots, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        330
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.221,
+        0.689
+      ],
+      "center_normalized": [
+        0.17,
+        0.618
+      ],
+      "area_percentage": 1.47
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional circular element",
+      "description": "A smaller circular element positioned below the first, possibly indicating a selection or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Main content area",
+      "description": "The central area of the ad contains the main offer and product slots, visually drawing attention.",
+      "text_content": "2-for-l tonight Free delivery over $15",
+      "bbox_xyxy": [
+        44,
+        305,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.635,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.69
+      ],
+      "area_percentage": 7.89
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The headline 'CraveLoop' is prominently displayed at the top, establishing brand identity.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        28,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.087
+      ],
+      "area_percentage": 2.39
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Order now text",
+      "description": "The text 'Order now' is clear and inviting, encouraging users to take action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "SALE text",
+      "description": "The word 'SALE' is bold and eye-catching, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and cheerful, 2-for-1 offer, free delivery",
+    "layout_text": "The logo is at the top, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight, Free delivery over $15, CraveLoop, Order now, SALE",
+    "elements_text": "logo: The logo features the word 'CraveLoop' in a bold, modern font, positioned at the top of the ad. | product: Three rectangular slots with a glass-like appearance, suggesting a product display, are centered in the ad. | discount_badge: A small rectangular badge with the word 'SALE' in bold letters, located at the top right corner. | body_text: The text '2-for-1 tonight' is prominently displayed in a large, bold font, centered in the ad. | body_text: The text 'Free delivery over $15' is smaller and positioned below the main offer, in a clear, readable font. | cta: A button with the text 'Order now' in a bold font, located at the bottom of the ad, inviting immediate action. | decorative_element: A small circular indicator is placed to the left of the product slots, adding a decorative touch. | unknown: A smaller circular element positioned below the first, possibly indicating a selection or option. | unknown: The central area of the ad contains the main offer and product slots, visually drawing attention. text='2-for-l tonight Free delivery over $15' | headline: The headline 'CraveLoop' is prominently displayed at the top, establishing brand identity. text='CraveLoop' | cta: The text 'Order now' is clear and inviting, encouraging users to take action. text='Order now' | discount_badge: The word 'SALE' is bold and eye-catching, indicating a promotional offer. text='SALE'"
+  }
+}

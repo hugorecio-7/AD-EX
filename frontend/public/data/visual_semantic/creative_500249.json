@@ -1,0 +1,386 @@
+{
+  "creative_id": "500249",
+  "asset_file": "assets/creative_500249.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a mix of graphic elements and text, centered around a promotional message.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting new seasonal drops from the brand.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a mix of shapes, including circles and rectangles, in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller graphic element positioned centrally, featuring a rounded rectangle shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        59,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.185,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.278,
+        0.327
+      ],
+      "area_percentage": 12.35
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "An overlay graphic element that appears to be a larger rectangle with a soft edge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "Another graphic element that resembles a rectangle, layered over other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small rounded rectangle graphic element with a subtle design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Layered graphic element",
+      "description": "A layered graphic element that appears as a rectangle with a soft edge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.339,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Circular graphic element",
+      "description": "A small circular graphic element that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.485,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.45
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Large graphic element",
+      "description": "A large graphic element that is rectangular in shape, providing a backdrop for text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.412,
+        0.349,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.591,
+        0.43
+      ],
+      "area_percentage": 5.79
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small graphic element positioned at the bottom, likely serving as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        206
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.646
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Vertical graphic element",
+      "description": "A narrow vertical graphic element that adds height to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.625
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Bottom corner graphic",
+      "description": "A small graphic element located in the bottom corner, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        230
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.656,
+        0.235,
+        0.719
+      ],
+      "center_normalized": [
+        0.204,
+        0.688
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text stating 'new season drops' prominently displayed at the bottom of the ad.",
+      "text_content": "new season drops Ner Shop now",
+      "bbox_xyxy": [
+        81,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.539,
+        0.795
+      ],
+      "area_percentage": 15.91
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'MoonScreen' displayed at the top, featuring a modern font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        25,
+        145,
+        43
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.078,
+        0.453,
+        0.134
+      ],
+      "center_normalized": [
+        0.266,
+        0.106
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 14,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, new season drops, MoonScreen, UGC",
+    "layout_text": "The headline is positioned at the bottom, the logo is at the top, and the CTA is integrated within the main graphic.",
+    "ocr_text": "new season drops, Ner Shop now, MoonScreen, UGC",
+    "elements_text": "unknown: A central graphic element with a mix of shapes, including circles and rectangles, in a muted color palette. | unknown: A smaller graphic element positioned centrally, featuring a rounded rectangle shape. | unknown: An overlay graphic element that appears to be a larger rectangle with a soft edge. | unknown: Another graphic element that resembles a rectangle, layered over other elements. | unknown: A small rounded rectangle graphic element with a subtle design. | unknown: A layered graphic element that appears as a rectangle with a soft edge. | unknown: A small circular graphic element that adds visual interest. | unknown: A large graphic element that is rectangular in shape, providing a backdrop for text. | unknown: A small graphic element positioned at the bottom, likely serving as a decorative feature. | unknown: A narrow vertical graphic element that adds height to the composition. | unknown: A small graphic element located in the bottom corner, possibly decorative. | headline: Bold text stating 'new season drops' prominently displayed at the bottom of the ad. text='new season drops Ner Shop now' | logo: The logo 'MoonScreen' displayed at the top, featuring a modern font. text='MoonScreen' | social_proof: A small tag labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

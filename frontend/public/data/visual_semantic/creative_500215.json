@@ -1,0 +1,242 @@
+{
+  "creative_id": "500215",
+  "asset_file": "assets/creative_500215.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo and promotional text on a light purple background with various graphic elements.",
+    "visual_style": "light purple with bold text",
+    "main_message": "Promoting exclusive new hits available tonight.",
+    "dominant_colors": [
+      "light purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears abstract, possibly a shape or icon, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.21
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element that is rectangular, positioned centrally, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        330
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.517
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.62
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular graphic element located towards the bottom, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small rectangular element",
+      "description": "A small rectangular graphic element located towards the bottom, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "Another small circular graphic element located towards the bottom, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Exclusive tonight New hits every week' in white font against a light purple background.",
+      "text_content": "Exclusive tonight New hits every week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'StarVault' displayed prominently at the top in large, bold black font against a light purple background.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        26,
+        40,
+        311,
+        95
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.864,
+        0.148
+      ],
+      "center_normalized": [
+        0.468,
+        0.105
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Learn more' in white font on a rounded rectangular shape at the bottom.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, light purple with bold text, key elements include logo and promotional text.",
+    "layout_text": "The logo is at the top, the main promotional text is centrally placed, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight New hits every week, StarVault, Learn more",
+    "elements_text": "unknown: A central graphic element that appears abstract, possibly a shape or icon, with a light purple background. | unknown: A secondary graphic element that is rectangular, positioned centrally, with a light purple background. | unknown: A small circular graphic element located towards the bottom, with a light purple background. | unknown: A small rectangular graphic element located towards the bottom, with a light purple background. | unknown: Another small circular graphic element located towards the bottom, with a light purple background. | body_text: Bold text stating 'Exclusive tonight New hits every week' in white font against a light purple background. text='Exclusive tonight New hits every week' | logo: The logo 'StarVault' displayed prominently at the top in large, bold black font against a light purple background. text='StarVault' | cta: A button with the text 'Learn more' in white font on a rounded rectangular shape at the bottom. text='Learn more'"
+  }
+}

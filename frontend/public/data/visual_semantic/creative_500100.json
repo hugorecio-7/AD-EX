@@ -1,0 +1,266 @@
+{
+  "creative_id": "500100",
+  "asset_file": "assets/creative_500100.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with food images and promotional text.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting food delivery services with a focus on freshness.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "orange background",
+      "description": "A solid orange background that fills the entire banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "three product images",
+      "description": "Three rectangular images representing food items, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.766,
+        0.479
+      ],
+      "center_normalized": [
+        0.577,
+        0.379
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "left circular icon",
+      "description": "A small circular icon located to the left of the product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "right circular icon",
+      "description": "A small circular icon located to the right of the product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "middle circular icon",
+      "description": "A small circular icon positioned between the left and right circular icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "text description",
+      "description": "Text that reads 'Your cravings, delivered Fresh favorites nearby' in a bold, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A rounded rectangular button at the bottom with the text 'Shop now' in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "advertiser name",
+      "description": "Text that reads 'FreshDash' in a prominent, bold font at the top of the banner.",
+      "text_content": "Your cravings, delivered Fresh favorites nearby",
+      "bbox_xyxy": [
+        49,
+        302,
+        274,
+        389
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.629,
+        0.856,
+        0.81
+      ],
+      "center_normalized": [
+        0.505,
+        0.72
+      ],
+      "area_percentage": 12.74
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "shop now button",
+      "description": "A button at the bottom of the banner with the text 'Shop now' in a clear, inviting font.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and inviting, FreshDash, food delivery",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "FreshDash, Your cravings, delivered, Fresh favorites nearby, Shop now",
+    "elements_text": "main_subject: Three rectangular images representing food items, arranged horizontally in the center. | decorative_element: A small circular icon located to the left of the product images. | decorative_element: A small circular icon located to the right of the product images. | decorative_element: A small circular icon positioned between the left and right circular icons. | body_text: Text that reads 'Your cravings, delivered Fresh favorites nearby' in a bold, white font. | cta: A rounded rectangular button at the bottom with the text 'Shop now' in white. | headline: Text that reads 'FreshDash' in a prominent, bold font at the top of the banner. text='Your cravings, delivered Fresh favorites nearby' | cta: A button at the bottom of the banner with the text 'Shop now' in a clear, inviting font. text='FreshDash' | unknown:  text='Shop now'"
+  }
+}

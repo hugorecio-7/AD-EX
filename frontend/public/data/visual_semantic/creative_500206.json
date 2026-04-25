@@ -1,0 +1,194 @@
+{
+  "creative_id": "500206",
+  "asset_file": "assets/creative_500206.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold orange background with clear text and a call to action.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting late-night food deals at a special price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire banner, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        317,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.992,
+        0.72
+      ],
+      "center_normalized": [
+        0.521,
+        0.46
+      ],
+      "area_percentage": 48.93
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Hungry? We got you' is prominently displayed in the center, conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        23,
+        297,
+        63
+      ],
+      "bbox_normalized": [
+        0.517,
+        0.05,
+        0.93,
+        0.132
+      ],
+      "center_normalized": [
+        0.724,
+        0.091
+      ],
+      "area_percentage": 3.39
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline reads 'Late-night deals available', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€19.99' is shown in a larger, bold white font, emphasizing the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with rounded edges at the bottom reads 'Get offer', encouraging user interaction.",
+      "text_content": "Hungry? We got you Late-night deals available €19.99 Get offer",
+      "bbox_xyxy": [
+        22,
+        306,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.487,
+        0.776
+      ],
+      "area_percentage": 23.21
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'PlateSprint' appears at the top left in a simple, modern font, establishing brand identity.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        163,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.509,
+        0.117
+      ],
+      "center_normalized": [
+        0.292,
+        0.087
+      ],
+      "area_percentage": 2.53
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold black text is positioned at the top right, indicating a promotion.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and inviting, late-night food deals, special price",
+    "layout_text": "The headline is centered, the logo is at the top left, the price is below the headline, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you, Late-night deals available, €19.99, Get offer, PlateSprint, SALE",
+    "elements_text": "headline: Bold white text stating 'Hungry? We got you' is prominently displayed in the center, conveying the main message. | body_text: Smaller white text below the headline reads 'Late-night deals available', providing additional context. | price: The price '€19.99' is shown in a larger, bold white font, emphasizing the offer. | cta: A prominent white button with rounded edges at the bottom reads 'Get offer', encouraging user interaction. text='Hungry? We got you Late-night deals available €19.99 Get offer' | logo: The logo 'PlateSprint' appears at the top left in a simple, modern font, establishing brand identity. text='PlateSprint' | discount_badge: A small yellow badge with the word 'SALE' in bold black text is positioned at the top right, indicating a promotion. text='SALE'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500046",
+  "asset_file": "assets/creative_500046.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a central logo, a prominent sale badge, and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting limited stock with free shipping offers.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A stylized logo featuring the word 'ThreadMark' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow circular badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A vague shape or design element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        330
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.689
+      ],
+      "center_normalized": [
+        0.17,
+        0.618
+      ],
+      "area_percentage": 1.46
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another vague shape or design element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A vague shape or design element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Text stating 'Limited stock Free shipping over $25' in a clear, readable font, centrally positioned.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        54,
+        308,
+        266,
+        357
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.642,
+        0.831,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.693
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'ThreadMark' in a prominent font at the top of the ad.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        24,
+        30,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.09
+      ],
+      "area_percentage": 2.51
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Start now' in a bold font, located at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "SALE text",
+      "description": "The word 'SALE' in bold text, prominently displayed at the top of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, ThreadMark logo, SALE badge, limited stock message.",
+    "layout_text": "The logo is at the top, followed by the headline, body text in the center, and the CTA at the bottom.",
+    "ocr_text": "Limited stock Free shipping over $25, ThreadMark, Start now, SALE",
+    "elements_text": "logo: A stylized logo featuring the word 'ThreadMark' in a bold font, positioned at the top of the ad. | discount_badge: A bright yellow circular badge with the word 'SALE' in bold text, located at the top right corner. | unknown: A vague shape or design element that does not convey specific information. | unknown: Another vague shape or design element that does not convey specific information. | unknown: A vague shape or design element that does not convey specific information. | body_text: Text stating 'Limited stock Free shipping over $25' in a clear, readable font, centrally positioned. text='Limited stock Free shipping over $25' | headline: The main headline text 'ThreadMark' in a prominent font at the top of the ad. text='ThreadMark' | cta: A button with the text 'Start now' in a bold font, located at the bottom of the ad. text='Start now' | discount_badge: The word 'SALE' in bold text, prominently displayed at the top of the ad. text='SALE'"
+  }
+}

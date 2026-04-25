@@ -1,0 +1,266 @@
+{
+  "creative_id": "500260",
+  "asset_file": "assets/creative_500260.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo at the top, product placeholders in the center, and a strong call to action at the bottom.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a new collection with a call to action for shopping.",
+    "dominant_colors": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "ThreadMark logo",
+      "description": "A simple logo with the text 'ThreadMark' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product images",
+      "description": "A series of three empty product image placeholders arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        89,
+        168,
+        150
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.278,
+        0.525,
+        0.471
+      ],
+      "center_normalized": [
+        0.337,
+        0.374
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product image placeholder",
+      "description": "A single empty product image placeholder, rectangular in shape, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        187,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.587,
+        0.278,
+        0.769,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.369
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product image placeholder",
+      "description": "Another empty product image placeholder, smaller and rectangular, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.278,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product image placeholder",
+      "description": "A rectangular empty product image placeholder, slightly larger, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.31,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 6,
+      "role": "product",
+      "label": "Product image placeholder",
+      "description": "A smaller rectangular empty product image placeholder, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular element",
+      "description": "A small circular decorative element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold text at the bottom of the ad that reads 'New collection drop Free Shop now', encouraging immediate action.",
+      "text_content": "New collection drop Fre e Shop now",
+      "bbox_xyxy": [
+        48,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 20.97
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Shipping information",
+      "description": "A smaller text below the main headline stating 'Free shipping over $25', providing additional information.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        119,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.372,
+        0.122
+      ],
+      "center_normalized": [
+        0.225,
+        0.097
+      ],
+      "area_percentage": 1.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, ThreadMark logo, product placeholders, call to action.",
+    "layout_text": "The logo is at the top, product images are centered, and the call to action is at the bottom.",
+    "ocr_text": "ThreadMark, New collection drop, Free shipping over $25, Shop now",
+    "elements_text": "headline: A simple logo with the text 'ThreadMark' in a modern font, positioned at the top of the ad. | product: A series of three empty product image placeholders arranged horizontally in the center of the ad. | product: A single empty product image placeholder, rectangular in shape, located in the center of the ad. | product: Another empty product image placeholder, smaller and rectangular, positioned in the center of the ad. | product: A rectangular empty product image placeholder, slightly larger, located in the center of the ad. | product: A smaller rectangular empty product image placeholder, positioned in the center of the ad. | decorative_element: A small circular decorative element located towards the bottom center of the ad. | cta: A bold text at the bottom of the ad that reads 'New collection drop Free Shop now', encouraging immediate action. text='New collection drop Fre e Shop now' | body_text: A smaller text below the main headline stating 'Free shipping over $25', providing additional information. text='ThreadMark'"
+  }
+}

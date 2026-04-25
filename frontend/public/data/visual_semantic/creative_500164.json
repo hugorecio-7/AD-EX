@@ -1,0 +1,218 @@
+{
+  "creative_id": "500164",
+  "asset_file": "assets/creative_500164.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel offers.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting travel deals for hotels and flights.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Main visual element",
+      "description": "A central graphic element that appears abstract with a combination of shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative rectangle",
+      "description": "A rectangular shape positioned near the bottom center, possibly for visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        352,
+        209,
+        390
+      ],
+      "bbox_normalized": [
+        0.476,
+        0.551,
+        0.582,
+        0.609
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "Another small shape, rectangular, located slightly above the previous elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom of the ad, featuring a compelling message about travel deals.",
+      "text_content": "destinations await Hotels flights in one tap €29.99 Start now",
+      "bbox_xyxy": [
+        24,
+        443,
+        294,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.817,
+        0.908
+      ],
+      "center_normalized": [
+        0.442,
+        0.8
+      ],
+      "area_percentage": 16.17
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'WayPoint' displayed at the top of the ad in a bold font.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        25,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.089
+      ],
+      "area_percentage": 3.63
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold and large text stating 'Dream' positioned centrally in the ad.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, travel deals, WayPoint, Dream.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "WayPoint, Dream, destinations await, Hotels + flights in one tap, €29.99, Start now",
+    "elements_text": "unknown: A central graphic element that appears abstract with a combination of shapes. | unknown: A small circular shape located towards the bottom center of the ad. | unknown: A rectangular shape positioned near the bottom center, possibly for visual interest. | unknown: Another small shape, rectangular, located slightly above the previous elements. | cta: A prominent text area at the bottom of the ad, featuring a compelling message about travel deals. text='destinations await Hotels flights in one tap €29.99 Start now' | logo: The logo 'WayPoint' displayed at the top of the ad in a bold font. text='WayPoint' | headline: A bold and large text stating 'Dream' positioned centrally in the ad. text='Dream'"
+  }
+}

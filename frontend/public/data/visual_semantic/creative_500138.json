@@ -1,0 +1,242 @@
+{
+  "creative_id": "500138",
+  "asset_file": "assets/creative_500138.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on the NeonCast brand and a clear call to action.",
+    "visual_style": "bright and modern with abstract elements",
+    "main_message": "Promoting the NeonCast service with a trending message and a call to action.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A collection of abstract shapes including a circle and a square, rendered in a light blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A bold, modern logo with the text 'NeonCast' prominently displayed in a contrasting color against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small, circular decorative element in a muted color, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small decorative element, this time a square shape, in a similar muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Text that reads 'Watch what's trending Cancel anytime' in a bold, easy-to-read font, centered at the bottom of the ad.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'NeonCast' in large, bold letters at the top of the ad, creating a strong focal point.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent call-to-action button with the text 'Order now' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in a circular shape, positioned at the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern with abstract elements, NeonCast, trending message, call to action",
+    "layout_text": "The headline is at the top, followed by abstract shapes, with body text and CTA at the bottom.",
+    "ocr_text": "NeonCast, UGC, Watch what's trending, Cancel anytime, Order now",
+    "elements_text": "unknown: A collection of abstract shapes including a circle and a square, rendered in a light blue color. | logo: A bold, modern logo with the text 'NeonCast' prominently displayed in a contrasting color against a blue background. | unknown: A small, circular decorative element in a muted color, positioned towards the bottom of the ad. | unknown: Another small decorative element, this time a square shape, in a similar muted color. | body_text: Text that reads 'Watch what's trending Cancel anytime' in a bold, easy-to-read font, centered at the bottom of the ad. text='Watch what's trending Cancel anytime' | headline: The main headline 'NeonCast' in large, bold letters at the top of the ad, creating a strong focal point. text='NeonCast' | cta: A prominent call-to-action button with the text 'Order now' in a contrasting color, located at the bottom of the ad. text='Order now' | icon: A small icon labeled 'UGC' in a circular shape, positioned at the top left corner of the ad. text='UGC'"
+  }
+}

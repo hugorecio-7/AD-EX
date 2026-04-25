@@ -1,0 +1,218 @@
+{
+  "creative_id": "500021",
+  "asset_file": "assets/creative_500021.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a blue background with various shapes and promotional text.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting travel booking services at a low price.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top blue background",
+      "description": "A solid blue background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Large circular and rectangular shapes",
+      "description": "A large circle and a rectangle in the center, both outlined and filled with a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Medium rectangular shape",
+      "description": "A medium-sized rectangle in the center, outlined and positioned slightly above the larger shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Another large circular shape",
+      "description": "A large circle in the center, overlapping with other shapes, outlined and filled with a lighter shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small shape positioned lower in the center, with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text at the bottom, stating 'Book your next trip Hotels flights in one tap €9.99 Shop now'.",
+      "text_content": "Book your next trip Hotels flights in one tap €9.99 Shop now",
+      "bbox_xyxy": [
+        23,
+        307,
+        281,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.878,
+        0.921
+      ],
+      "center_normalized": [
+        0.475,
+        0.78
+      ],
+      "area_percentage": 22.68
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A stylized logo text 'CloudRoute' in white, positioned at the top left.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        21,
+        33,
+        138,
+        58
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.069,
+        0.431,
+        0.121
+      ],
+      "center_normalized": [
+        0.248,
+        0.095
+      ],
+      "area_percentage": 1.9
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, travel booking promotion",
+    "layout_text": "The logo is at the top left, main text is at the bottom, and shapes are centered.",
+    "ocr_text": "Book your next trip Hotels flights in one tap €9.99 Shop now, CloudRoute",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad. | main_subject: A large circle and a rectangle in the center, both outlined and filled with a lighter shade of blue. | main_subject: A medium-sized rectangle in the center, outlined and positioned slightly above the larger shapes. | main_subject: A large circle in the center, overlapping with other shapes, outlined and filled with a lighter shade. | unknown: A small shape positioned lower in the center, with an unclear visual representation. | body_text: Bold white text at the bottom, stating 'Book your next trip Hotels flights in one tap €9.99 Shop now'. text='Book your next trip Hotels flights in one tap €9.99 Shop now' | logo: A stylized logo text 'CloudRoute' in white, positioned at the top left. text='CloudRoute'"
+  }
+}

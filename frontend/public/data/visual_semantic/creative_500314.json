@@ -1,0 +1,314 @@
+{
+  "creative_id": "500314",
+  "asset_file": "assets/creative_500314.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a central focus on a promotional offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer on fresh favorites.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        281
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.141,
+        0.998,
+        0.439
+      ],
+      "center_normalized": [
+        0.503,
+        0.29
+      ],
+      "area_percentage": 29.62
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three cards",
+      "description": "Three rectangular cards with rounded edges, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        93,
+        359,
+        253
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.146,
+        0.998,
+        0.396
+      ],
+      "center_normalized": [
+        0.502,
+        0.271
+      ],
+      "area_percentage": 24.83
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' is prominently displayed in bold, black font at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.141,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.249
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon located on the left side of the cards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        108,
+        108,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.169,
+        0.302,
+        0.296
+      ],
+      "center_normalized": [
+        0.151,
+        0.232
+      ],
+      "area_percentage": 3.84
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "2-for-1 offer",
+      "description": "Text stating '2-for-1 tonight' in a large, white font centered below the cards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "Smaller text below the offer, reading 'Fresh favorites nearby' in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying '€19.99' in a bold, white font at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Try for free' in white, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Abstract decorative shapes in lighter orange tones at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'FreshDash' in bold, black font at the top of the ad.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        26,
+        40,
+        339,
+        97
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.942,
+        0.152
+      ],
+      "center_normalized": [
+        0.507,
+        0.107
+      ],
+      "area_percentage": 7.74
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Offer details",
+      "description": "Text providing details about the offer, placed centrally below the main headline.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A prominent button with the text 'Try for free' in white at the bottom of the ad.",
+      "text_content": "€19.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.362,
+        0.874
+      ],
+      "area_percentage": 5.08
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, FreshDash, 2-for-1 offer",
+    "layout_text": "The logo is at the top, followed by the main offer text in the center, and the call to action at the bottom.",
+    "ocr_text": "FreshDash, 2-for-1 tonight, Fresh favorites nearby, €19.99, Try for free",
+    "elements_text": "main_subject: Three rectangular cards with rounded edges, arranged horizontally in the center. | logo: The logo 'FreshDash' is prominently displayed in bold, black font at the top. | icon: A small circular icon located on the left side of the cards. | body_text: Text stating '2-for-1 tonight' in a large, white font centered below the cards. | body_text: Smaller text below the offer, reading 'Fresh favorites nearby' in white. | price: Text displaying '€19.99' in a bold, white font at the bottom of the ad. | cta: A button with the text 'Try for free' in white, located at the bottom center. | decorative_element: Abstract decorative shapes in lighter orange tones at the top of the ad. | headline: The main headline 'FreshDash' in bold, black font at the top of the ad. text='FreshDash' | body_text: Text providing details about the offer, placed centrally below the main headline. text='2-for-1 tonight Fresh favorites nearby' | cta: A prominent button with the text 'Try for free' in white at the bottom of the ad. text='€19.99 Try for free'"
+  }
+}

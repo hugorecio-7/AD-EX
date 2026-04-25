@@ -1,0 +1,122 @@
+{
+  "creative_id": "500037",
+  "asset_file": "assets/creative_500037.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and game icons.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to compete and play with friends.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a lively and energetic atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Three circular game icons are positioned at the top right, each with a simple design and a white outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        76,
+        304,
+        102
+      ],
+      "bbox_normalized": [
+        0.878,
+        0.238,
+        0.951,
+        0.32
+      ],
+      "center_normalized": [
+        0.915,
+        0.279
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "Bold, black text in a modern font reads 'Beat your rivals' with a smaller line below it saying 'Play with friends tonight', conveying a competitive and social gaming theme.",
+      "text_content": "88 Beat your rivals Play with friends tonight Watch now",
+      "bbox_xyxy": [
+        20,
+        64,
+        285,
+        299
+      ],
+      "bbox_normalized": [
+        0.062,
+        0.2,
+        0.891,
+        0.934
+      ],
+      "center_normalized": [
+        0.477,
+        0.567
+      ],
+      "area_percentage": 60.82
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "The 'NeonArena' logo appears at the top left in a playful font, featuring a bright color that stands out against the green background.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        25,
+        22,
+        108,
+        36
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.069,
+        0.338,
+        0.113
+      ],
+      "center_normalized": [
+        0.208,
+        0.091
+      ],
+      "area_percentage": 1.13
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, Beat your rivals, Play with friends tonight",
+    "layout_text": "The logo is positioned at the top left, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Beat your rivals, Play with friends tonight, Watch now",
+    "elements_text": "icon: Three circular game icons are positioned at the top right, each with a simple design and a white outline. | body_text: Bold, black text in a modern font reads 'Beat your rivals' with a smaller line below it saying 'Play with friends tonight', conveying a competitive and social gaming theme. text='88 Beat your rivals Play with friends tonight Watch now' | logo: The 'NeonArena' logo appears at the top left in a playful font, featuring a bright color that stands out against the green background. text='NeonArena'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500062",
+  "asset_file": "assets/creative_500062.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a fast food delivery service.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A rectangular shape positioned in the center, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another rectangular shape in the center, likely a decorative or background element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape at the bottom center, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Fast food delivery offer",
+      "description": "Bold text in the center stating 'Fast food, fast Free delivery over $15' with a clear and engaging font.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button at the bottom with the text '€19.99 Install now' in a contrasting color.",
+      "text_content": "€19.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "The logo 'BiteRush' displayed at the top in a bold, eye-catching font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        27,
+        41,
+        203,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.564,
+        0.123
+      ],
+      "center_normalized": [
+        0.319,
+        0.094
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE' in a bright color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, fast food delivery offer, call to action.",
+    "layout_text": "The headline is centered, the logo is at the top, the CTA is at the bottom, and the discount badge is in the top right corner.",
+    "ocr_text": "Fast food, fast Free delivery over $15, €19.99 Install now, BiteRush, SALE, UGC",
+    "elements_text": "unknown: A rectangular shape positioned in the center, possibly a decorative element. | unknown: Another rectangular shape in the center, likely a decorative or background element. | unknown: A small rectangular shape at the bottom center, possibly a decorative element. | headline: Bold text in the center stating 'Fast food, fast Free delivery over $15' with a clear and engaging font. text='Fast food, fast Free delivery over $15' | cta: A prominent button at the bottom with the text '€19.99 Install now' in a contrasting color. text='€19.99 Install now' | logo: The logo 'BiteRush' displayed at the top in a bold, eye-catching font. text='BiteRush' | discount_badge: A small badge at the top right corner with the text 'SALE' in a bright color. text='SALE' | social_proof: A small tag at the top left corner labeled 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

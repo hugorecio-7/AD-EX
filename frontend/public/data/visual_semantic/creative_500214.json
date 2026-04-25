@@ -1,0 +1,242 @@
+{
+  "creative_id": "500214",
+  "asset_file": "assets/creative_500214.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern blue background with bold text and geometric shapes.",
+    "visual_style": "modern and dynamic",
+    "main_message": "Promoting an exclusive offer from StarVault.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue abstract background",
+      "description": "A smooth blue background with abstract shapes creating a modern and dynamic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.34
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central graphic element",
+      "description": "A large rectangular shape in the center, possibly representing a product or app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Various geometric shapes overlaying the background, adding depth and interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "A small logo positioned at the top, featuring the word 'StarVault' in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.087,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Exclusive offer text",
+      "description": "Text in a clean, modern font stating 'Exclusive tonight Cancel anytime' positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon that adds a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the top reading 'StarVault UGC', prominently displayed to attract attention.",
+      "text_content": "StarVault UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        311,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.864,
+        0.198
+      ],
+      "center_normalized": [
+        0.468,
+        0.13
+      ],
+      "area_percentage": 10.76
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Offer details",
+      "description": "Text below the headline providing details about the offer, in a clear and readable font.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Book now', designed to stand out and encourage interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and dynamic, StarVault, exclusive offer",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "StarVault UGC, Exclusive tonight Cancel anytime, Book now",
+    "elements_text": "main_subject: A large rectangular shape in the center, possibly representing a product or app interface. | decorative_element: Various geometric shapes overlaying the background, adding depth and interest to the design. | logo: A small logo positioned at the top, featuring the word 'StarVault' in bold, modern typography. | body_text: Text in a clean, modern font stating 'Exclusive tonight Cancel anytime' positioned centrally. | icon: A small circular icon that adds a decorative touch to the overall design. | headline: Bold text at the top reading 'StarVault UGC', prominently displayed to attract attention. text='StarVault UGC' | body_text: Text below the headline providing details about the offer, in a clear and readable font. text='Exclusive tonight Cancel anytime' | cta: A prominent button at the bottom with the text 'Book now', designed to stand out and encourage interaction. text='Book now'"
+  }
+}

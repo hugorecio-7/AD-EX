@@ -1,0 +1,194 @@
+{
+  "creative_id": "500169",
+  "asset_file": "assets/creative_500169.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent sale announcement with a call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a quick dining solution with a sale.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Three vertical rectangles",
+      "description": "Three vertical rectangles with a light outline, arranged in a grid-like pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Three vertical rectangles",
+      "description": "Three vertical rectangles with a light outline, arranged in a grid-like pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Three vertical rectangles",
+      "description": "Three vertical rectangles with a light outline, arranged in a grid-like pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, white text stating 'Dinner in minutes' on a solid background.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "QuickFork SALE",
+      "description": "Large, bold text at the top reading 'QuickFork SALE' in a contrasting color.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        25,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.089
+      ],
+      "area_percentage": 5.65
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in a bright color, positioned at the bottom.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, QuickFork SALE, Dinner in minutes.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, QuickFork SALE, Shop now",
+    "elements_text": "unknown: Three vertical rectangles with a light outline, arranged in a grid-like pattern. | unknown: Three vertical rectangles with a light outline, arranged in a grid-like pattern. | unknown: Three vertical rectangles with a light outline, arranged in a grid-like pattern. | headline: Bold, white text stating 'Dinner in minutes' on a solid background. text='Dinner in minutes Fresh favorites nearby' | headline: Large, bold text at the top reading 'QuickFork SALE' in a contrasting color. text='QuickFork SALE' | cta: A rounded button with the text 'Shop now' in a bright color, positioned at the bottom. text='Shop now'"
+  }
+}

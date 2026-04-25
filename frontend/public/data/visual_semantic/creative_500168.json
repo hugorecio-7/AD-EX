@@ -1,0 +1,170 @@
+{
+  "creative_id": "500168",
+  "asset_file": "assets/creative_500168.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent sale announcement with a clear promotional message and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a fast food delivery service with a sale.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small, circular decorative element positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A narrow, elongated decorative element located in the center bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A bold, eye-catching text that reads 'Fast food, fast Free delivery over $15' in a prominent position.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A large, attention-grabbing headline that states 'QuickFork SALE' at the top of the ad.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        23,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.478,
+        0.089
+      ],
+      "area_percentage": 5.69
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button with the text 'Learn more' at the bottom of the ad, inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, QuickFork SALE, Fast food, fast Free delivery over $15, Learn more",
+    "layout_text": "The headline is at the top, the main promotional message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, QuickFork SALE, Learn more",
+    "elements_text": "unknown: A small, circular decorative element positioned in the center of the ad. | unknown: A narrow, elongated decorative element located in the center bottom of the ad. | body_text: A bold, eye-catching text that reads 'Fast food, fast Free delivery over $15' in a prominent position. text='Fast food, fast Free delivery over $15' | headline: A large, attention-grabbing headline that states 'QuickFork SALE' at the top of the ad. text='QuickFork SALE' | cta: A rounded button with the text 'Learn more' at the bottom of the ad, inviting user interaction. text='Learn more'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500130",
+  "asset_file": "assets/creative_500130.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple gradient background with a prominent headline and a clear call to action.",
+    "visual_style": "vibrant and modern",
+    "main_message": "Promoting weekend escapes with flexible booking options.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.502,
+        0.468
+      ],
+      "area_percentage": 48.46
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "Bold white text stating 'Escape this weekend' is prominently displayed in the center, conveying a sense of urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.86
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller white text below the headline reads 'Flexible booking options', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.508
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.05
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded white button with the text 'Learn more' invites interaction, positioned centrally at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape consisting of an oval and a rectangle in a lighter shade of purple, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.5
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A smaller abstract shape in the background, complementing the main design without drawing focus.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional decorative shape",
+      "description": "Another abstract shape in a lighter hue, enhancing the overall aesthetic of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Secondary decorative element",
+      "description": "A smaller decorative shape that adds depth to the background design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Bottom text area",
+      "description": "A text area at the bottom of the ad that includes the main message and CTA.",
+      "text_content": "Escape this weekend Flexinla ons Learn more",
+      "bbox_xyxy": [
+        67,
+        204,
+        253,
+        299
+      ],
+      "bbox_normalized": [
+        0.209,
+        0.637,
+        0.791,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.786
+      ],
+      "area_percentage": 17.26
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "RouteBloom logo",
+      "description": "A small logo at the top left corner, featuring the text 'RouteBloom' in a simple, modern font.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.26
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, vibrant and modern, Escape this weekend, Learn more",
+    "layout_text": "The headline is centered, the body text is below it, and the CTA button is at the bottom center.",
+    "ocr_text": "Escape this weekend, Flexible booking options, Learn more, RouteBloom",
+    "elements_text": "headline: Bold white text stating 'Escape this weekend' is prominently displayed in the center, conveying a sense of urgency. | body_text: Smaller white text below the headline reads 'Flexible booking options', providing additional information. | cta: A rounded white button with the text 'Learn more' invites interaction, positioned centrally at the bottom. | unknown: An abstract shape consisting of an oval and a rectangle in a lighter shade of purple, adding visual interest. | unknown: A smaller abstract shape in the background, complementing the main design without drawing focus. | unknown: Another abstract shape in a lighter hue, enhancing the overall aesthetic of the ad. | unknown: A smaller decorative shape that adds depth to the background design. | unknown: A text area at the bottom of the ad that includes the main message and CTA. text='Escape this weekend Flexinla ons Learn more' | logo: A small logo at the top left corner, featuring the text 'RouteBloom' in a simple, modern font. text='RouteBloom'"
+  }
+}

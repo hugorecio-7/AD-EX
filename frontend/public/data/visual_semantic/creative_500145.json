@@ -1,0 +1,434 @@
+{
+  "creative_id": "500145",
+  "asset_file": "assets/creative_500145.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a gameplay interface and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to join the app with a promotional offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Gameplay interface",
+      "description": "A rectangular area displaying a simplified gameplay interface with circular buttons and a play arrow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        120,
+        188,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.378,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.479,
+        0.434
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "The logo 'GlitchWave' appears in a bold, modern font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        75,
+        188,
+        111
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.237,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.479,
+        0.293
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        76,
+        102,
+        111
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.238,
+        0.32,
+        0.349
+      ],
+      "center_normalized": [
+        0.21,
+        0.293
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent button labeled 'Book now' in a contrasting color, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.651
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "No ads message",
+      "description": "Text stating 'No ads in first week' positioned below the main call to action, emphasizing a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.22,
+        0.63
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Join the arena message",
+      "description": "The phrase 'Join the arena' is displayed prominently, inviting users to engage with the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        177,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.554,
+        0.398,
+        0.648
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Circular buttons",
+      "description": "Several circular buttons are arranged in the gameplay interface, adding a decorative and functional element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Play arrow",
+      "description": "A small play arrow icon is positioned to indicate interactivity within the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        76,
+        304,
+        102
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.238,
+        0.951,
+        0.32
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional icon",
+      "description": "An additional small icon or element that is not clearly defined, adding complexity to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        83,
+        60,
+        104
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.262,
+        0.19,
+        0.327
+      ],
+      "center_normalized": [
+        0.158,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Additional text area",
+      "description": "A small area that may contain additional text or information, enhancing the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        128,
+        60,
+        149
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.402,
+        0.19,
+        0.468
+      ],
+      "center_normalized": [
+        0.158,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Additional gameplay element",
+      "description": "Another gameplay-related element that contributes to the overall interface design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        83,
+        146,
+        104
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.262,
+        0.459,
+        0.327
+      ],
+      "center_normalized": [
+        0.426,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Additional text area",
+      "description": "A small area that may contain additional text or information, enhancing the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        128,
+        146,
+        149
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.402,
+        0.459,
+        0.468
+      ],
+      "center_normalized": [
+        0.426,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "The main headline 'Join the arena' is bold and eye-catching, designed to attract user attention.",
+      "text_content": "Join the arena No ads in first week",
+      "bbox_xyxy": [
+        47,
+        203,
+        268,
+        253
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.838,
+        0.791
+      ],
+      "center_normalized": [
+        0.492,
+        0.713
+      ],
+      "area_percentage": 10.79
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller button labeled 'Book now' positioned at the bottom, encouraging users to take action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "The logo 'GlitchWave' appears in a bold, modern font at the top of the ad.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        25,
+        23,
+        111,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.347,
+        0.122
+      ],
+      "center_normalized": [
+        0.212,
+        0.097
+      ],
+      "area_percentage": 1.34
+    },
+    {
+      "id": 17,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include gameplay interface and promotional text.",
+    "layout_text": "The logo is at the top, followed by the gameplay interface in the center, and the call to action at the bottom.",
+    "ocr_text": "Join the arena, No ads in first week, Book now, GlitchWave, UGC",
+    "elements_text": "app_screenshot: A rectangular area displaying a simplified gameplay interface with circular buttons and a play arrow. | logo: The logo 'GlitchWave' appears in a bold, modern font at the top of the ad. | icon: A small icon labeled 'UGC' indicating user-generated content, positioned near the logo. | cta: A prominent button labeled 'Book now' in a contrasting color, encouraging immediate action. | body_text: Text stating 'No ads in first week' positioned below the main call to action, emphasizing a promotional offer. | body_text: The phrase 'Join the arena' is displayed prominently, inviting users to engage with the app. | decorative_element: Several circular buttons are arranged in the gameplay interface, adding a decorative and functional element. | decorative_element: A small play arrow icon is positioned to indicate interactivity within the gameplay interface. | unknown: An additional small icon or element that is not clearly defined, adding complexity to the design. | unknown: A small area that may contain additional text or information, enhancing the overall message. | unknown: Another gameplay-related element that contributes to the overall interface design. | unknown: A small area that may contain additional text or information, enhancing the overall message. | headline: The main headline 'Join the arena' is bold and eye-catching, designed to attract user attention. text='Join the arena No ads in first week' | cta: A smaller button labeled 'Book now' positioned at the bottom, encouraging users to take action. text='Book now' | logo: The logo 'GlitchWave' appears in a bold, modern font at the top of the ad. text='GlitchWave' | icon: A small icon labeled 'UGC' indicating user-generated content, positioned near the logo. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500101",
+  "asset_file": "assets/creative_500101.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo, app previews, and a clear call to action.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting late-night food delivery services.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface preview",
+      "description": "A rectangular preview of the app interface showing three empty boxes, suggesting a selection or menu.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.278,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface preview",
+      "description": "Another rectangular preview of the app interface with three empty boxes, similar to the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App interface preview",
+      "description": "A third rectangular preview of the app interface displaying three empty boxes, consistent with the other previews.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late-night deals text",
+      "description": "Text that reads 'Late-night deals available' in a clear, readable font, positioned centrally below the app previews.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Book now' in a contrasting color, designed to attract attention and encourage interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text that reads 'We got you' in a friendly, inviting font, placed just above the call to action button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "background",
+      "label": "Background color",
+      "description": "A warm, solid background color that fills the lower portion of the ad, creating a welcoming atmosphere.",
+      "text_content": "Hungry? We got you Late ble Book now",
+      "bbox_xyxy": [
+        34,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.505,
+        0.787
+      ],
+      "area_percentage": 23.41
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A small logo featuring the text 'FreshDash' in a bold font, located at the top left corner of the ad.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and inviting, FreshDash, late-night deals, Book now",
+    "layout_text": "The logo is at the top, app previews are centered, and the call to action is at the bottom.",
+    "ocr_text": "FreshDash, Hungry? We got you, Late-night deals available, Book now",
+    "elements_text": "headline: A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top of the ad. | app_screenshot: A rectangular preview of the app interface showing three empty boxes, suggesting a selection or menu. | app_screenshot: Another rectangular preview of the app interface with three empty boxes, similar to the previous element. | app_screenshot: A third rectangular preview of the app interface displaying three empty boxes, consistent with the other previews. | body_text: Text that reads 'Late-night deals available' in a clear, readable font, positioned centrally below the app previews. | cta: A prominent button labeled 'Book now' in a contrasting color, designed to attract attention and encourage interaction. | body_text: Text that reads 'We got you' in a friendly, inviting font, placed just above the call to action button. | logo: A small logo featuring the text 'FreshDash' in a bold font, located at the top left corner of the ad. text='FreshDash'"
+  }
+}

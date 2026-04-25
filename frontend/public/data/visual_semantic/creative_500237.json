@@ -1,0 +1,194 @@
+{
+  "creative_id": "500237",
+  "asset_file": "assets/creative_500237.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a vibrant green background and clear messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel booking services with a focus on convenience.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background that fills the entire canvas, providing a fresh and inviting feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.502,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, large text that reads 'Book your next trip' in a prominent font, centered in the lower part of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text below the headline that says 'Hotels + flights in one tap', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Shop now' in a contrasting color, located at the bottom of the ad, encouraging user interaction.",
+      "text_content": "Book your next trip Hotels + flights in one tap",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        501
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.783
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 10.66
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' displayed at the top left corner, featuring a simple and modern design.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, eye-catching badge that says 'SALE' in a bright color, positioned at the top right corner.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting travel booking services.",
+    "layout_text": "The headline is centered at the bottom, the body text is below it, the logo is at the top left, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Hotels + flights in one tap, Shop now, CloudRoute, SALE",
+    "elements_text": "headline: A bold, large text that reads 'Book your next trip' in a prominent font, centered in the lower part of the ad. | body_text: A smaller text below the headline that says 'Hotels + flights in one tap', providing additional information. | cta: A button with the text 'Shop now' in a contrasting color, located at the bottom of the ad, encouraging user interaction. text='Book your next trip Hotels + flights in one tap' | logo: The logo 'CloudRoute' displayed at the top left corner, featuring a simple and modern design. text='Shop now' | discount_badge: A small, eye-catching badge that says 'SALE' in a bright color, positioned at the top right corner. text='CloudRoute' | unknown:  text='SALE'"
+  }
+}

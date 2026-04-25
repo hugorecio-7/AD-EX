@@ -1,0 +1,434 @@
+{
+  "creative_id": "500178",
+  "asset_file": "assets/creative_500178.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo, engaging text, and various graphic elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging viewers to binge-watch with a flexible cancellation policy.",
+    "dominant_colors": [
+      "#FF4C4C",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A simple logo with the text 'BingeLayer' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Main visual area",
+      "description": "A large rectangular area in the center, possibly for images or graphics, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.69
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary visual area",
+      "description": "Another rectangular area overlapping the main visual, likely containing additional graphics or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.82
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional graphic area",
+      "description": "A smaller rectangular area in the center, possibly for supplementary visuals or icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Overlay graphic area",
+      "description": "A rectangular area in the center that may contain more graphics or text overlays.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Graphic element",
+      "description": "A smaller rectangular area in the center, likely for additional imagery or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.247,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Graphic overlay",
+      "description": "A rectangular area in the center that may contain more visual elements or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element positioned towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        218
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.682
+      ],
+      "center_normalized": [
+        0.17,
+        0.606
+      ],
+      "area_percentage": 1.51
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element positioned towards the bottom center, adjacent to another graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.58,
+        0.629
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small rectangular graphic element positioned towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element positioned towards the bottom center, similar to others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small rectangular graphic element positioned towards the bottom center, adjacent to others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.532,
+        0.576,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A prominent text area at the bottom with the message 'Binge starts now Cancel anytime' in a bold font.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        25,
+        199,
+        290,
+        256
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.622,
+        0.906,
+        0.8
+      ],
+      "center_normalized": [
+        0.492,
+        0.711
+      ],
+      "area_percentage": 14.75
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text area at the bottom with 'Order now' in a clear, inviting font.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        279,
+        209,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.653,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A simple logo with the text 'BingeLayer' in a bold font, positioned at the top of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "User-generated content tag",
+      "description": "A small tag with the text 'UGC' positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "BingeLayer, UGC, Binge starts now Cancel anytime, Order now",
+    "elements_text": "logo: A simple logo with the text 'BingeLayer' in a bold font, positioned at the top of the ad. | unknown: A large rectangular area in the center, possibly for images or graphics, with a light background. | unknown: Another rectangular area overlapping the main visual, likely containing additional graphics or text. | unknown: A smaller rectangular area in the center, possibly for supplementary visuals or icons. | unknown: A rectangular area in the center that may contain more graphics or text overlays. | unknown: A smaller rectangular area in the center, likely for additional imagery or text. | unknown: A rectangular area in the center that may contain more visual elements or text. | unknown: A small circular graphic element positioned towards the bottom center. | unknown: A small circular graphic element positioned towards the bottom center, adjacent to another graphic. | unknown: A small rectangular graphic element positioned towards the bottom center. | unknown: A small circular graphic element positioned towards the bottom center, similar to others. | unknown: A small rectangular graphic element positioned towards the bottom center, adjacent to others. | body_text: A prominent text area at the bottom with the message 'Binge starts now Cancel anytime' in a bold font. text='Binge starts now Cancel anytime' | cta: A button-like text area at the bottom with 'Order now' in a clear, inviting font. text='Order now' | logo: A simple logo with the text 'BingeLayer' in a bold font, positioned at the top of the ad. text='BingeLayer' | unknown: A small tag with the text 'UGC' positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

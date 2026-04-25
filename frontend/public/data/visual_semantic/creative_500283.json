@@ -1,0 +1,362 @@
+{
+  "creative_id": "500283",
+  "asset_file": "assets/creative_500283.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with abstract shapes and clear messaging.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting new seasonal offerings with a strong call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        60,
+        305,
+        260
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.188,
+        0.953,
+        0.813
+      ],
+      "center_normalized": [
+        0.502,
+        0.5
+      ],
+      "area_percentage": 56.48
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "Two overlapping abstract shapes, one oval and one rectangle, are centered on the blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        64,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "main headline text",
+      "description": "Bold white text at the top reads 'FluxStream', indicating the brand or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "season announcement",
+      "description": "Large white text in the center states 'A new season drops', conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.19
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent white button at the bottom with the text 'Order now', encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "additional shape",
+      "description": "A smaller rectangle shape is positioned within the main subject area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.532,
+        0.429
+      ],
+      "area_percentage": 9.13
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A small, abstract shape located in the center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "additional shape",
+      "description": "Another abstract shape, similar to the main subject, adds complexity to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A small shape positioned centrally, enhancing the visual layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "additional shape",
+      "description": "A rectangle shape that complements the main subject, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.88
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A tiny shape located in the center, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        230
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.656,
+        0.235,
+        0.719
+      ],
+      "center_normalized": [
+        0.204,
+        0.688
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "season announcement",
+      "description": "Text at the bottom reads 'new season drops Order now', reinforcing the call to action.",
+      "text_content": "new season drops Order now",
+      "bbox_xyxy": [
+        84,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.263,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.544,
+        0.795
+      ],
+      "area_percentage": 15.64
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "brand logo",
+      "description": "A small logo at the top left corner, representing the brand identity.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        25,
+        23,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label at the top left corner indicating 'UGC', suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, featuring bold text and abstract shapes.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "new season drops, Order now, FluxStream, UGC",
+    "elements_text": "main_subject: Two overlapping abstract shapes, one oval and one rectangle, are centered on the blue background. | headline: Bold white text at the top reads 'FluxStream', indicating the brand or service. | body_text: Large white text in the center states 'A new season drops', conveying the main message. | cta: A prominent white button at the bottom with the text 'Order now', encouraging immediate action. | decorative_element: A smaller rectangle shape is positioned within the main subject area, adding visual interest. | unknown: A small, abstract shape located in the center, contributing to the overall design. | unknown: Another abstract shape, similar to the main subject, adds complexity to the design. | unknown: A small shape positioned centrally, enhancing the visual layout. | unknown: A rectangle shape that complements the main subject, adding depth. | unknown: A tiny shape located in the center, serving as a decorative element. | body_text: Text at the bottom reads 'new season drops Order now', reinforcing the call to action. text='new season drops Order now' | logo: A small logo at the top left corner, representing the brand identity. text='FluxStream' | unknown: A small label at the top left corner indicating 'UGC', suggesting user-generated content. text='UGC'"
+  }
+}

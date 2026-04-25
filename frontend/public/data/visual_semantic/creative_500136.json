@@ -1,0 +1,242 @@
+{
+  "creative_id": "500136",
+  "asset_file": "assets/creative_500136.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on food delivery.",
+    "visual_style": "bright and modern",
+    "main_message": "Quick and convenient dinner options available for order.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        9,
+        59,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.028,
+        0.185,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.491,
+        0.452
+      ],
+      "area_percentage": 49.49
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, white text stating 'Dinner in minutes' prominently displayed at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Food icons",
+      "description": "Two simple line-drawn icons representing food items, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "Smaller white text showing the price '€29.90' below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button with the text 'Order now' in white, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional info",
+      "description": "Smaller text indicating 'night deals available' positioned below the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top left corner indicating 'UGC' in white text.",
+      "text_content": "Dinner in minutes €2990 ble Order now",
+      "bbox_xyxy": [
+        22,
+        204,
+        259,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.809,
+        0.934
+      ],
+      "center_normalized": [
+        0.439,
+        0.786
+      ],
+      "area_percentage": 21.99
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A small logo at the top left corner with the text 'CraveLoop' in a bold font.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, quick dinner options, food icons",
+    "layout_text": "The headline is at the bottom, the product icons are centered, and the CTA is also at the bottom.",
+    "ocr_text": "Dinner in minutes, €29.90, Order now, CraveLoop, UGC",
+    "elements_text": "headline: Bold, white text stating 'Dinner in minutes' prominently displayed at the bottom. | product: Two simple line-drawn icons representing food items, centered in the middle of the ad. | body_text: Smaller white text showing the price '€29.90' below the headline. | cta: A prominent button with the text 'Order now' in white, located at the bottom of the ad. | body_text: Smaller text indicating 'night deals available' positioned below the price. | social_proof: A small label at the top left corner indicating 'UGC' in white text. text='Dinner in minutes €2990 ble Order now' | logo: A small logo at the top left corner with the text 'CraveLoop' in a bold font. text='CraveLoop' | unknown:  text='UGC'"
+  }
+}

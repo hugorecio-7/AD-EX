@@ -1,0 +1,218 @@
+{
+  "creative_id": "500134",
+  "asset_file": "assets/creative_500134.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with food icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Quick dinner delivery service with a promotional offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Three food icons",
+      "description": "Three rectangular food icons with a glossy finish, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Three food icons",
+      "description": "Another rectangular food icon with a glossy finish, positioned next to the previous icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Three food icons",
+      "description": "A third rectangular food icon with a glossy finish, completing the trio in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A small rectangular button with rounded edges, featuring the text 'Claim reward' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "A small circular food icon with a glossy finish, positioned below the main icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Dinner promotion text",
+      "description": "Bold black text stating 'Dinner in minutes' with additional smaller text below it, all centered at the bottom.",
+      "text_content": "Dinner in minutes Free delivery over $15 €29.99 Claim reward",
+      "bbox_xyxy": [
+        23,
+        308,
+        246,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.642,
+        0.769,
+        0.915
+      ],
+      "center_normalized": [
+        0.42,
+        0.778
+      ],
+      "area_percentage": 19.02
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The logo 'CraveLoop' in a bold font, positioned at the top of the ad.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        21,
+        27,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.056,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.273,
+        0.086
+      ],
+      "area_percentage": 2.51
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, food icons, promotional text",
+    "layout_text": "The logo is at the top, followed by food icons in the center, and the promotional text at the bottom.",
+    "ocr_text": "Dinner in minutes, Free delivery over $15, €29.99, Claim reward, CraveLoop",
+    "elements_text": "app_screenshot: Three rectangular food icons with a glossy finish, arranged horizontally in the center. | app_screenshot: Another rectangular food icon with a glossy finish, positioned next to the previous icons. | app_screenshot: A third rectangular food icon with a glossy finish, completing the trio in the center. | cta: A small rectangular button with rounded edges, featuring the text 'Claim reward' in a bold font. | icon: A small circular food icon with a glossy finish, positioned below the main icons. | body_text: Bold black text stating 'Dinner in minutes' with additional smaller text below it, all centered at the bottom. text='Dinner in minutes Free delivery over $15 €29.99 Claim reward' | logo: The logo 'CraveLoop' in a bold font, positioned at the top of the ad. text='CraveLoop'"
+  }
+}

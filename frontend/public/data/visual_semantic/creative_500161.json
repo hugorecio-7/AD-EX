@@ -1,0 +1,218 @@
+{
+  "creative_id": "500161",
+  "asset_file": "assets/creative_500161.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on cashback messaging and a call-to-action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Encouraging users to earn cashback and install the app.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        361
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.753
+      ],
+      "center_normalized": [
+        0.501,
+        0.477
+      ],
+      "area_percentage": 49.88
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The logo features the text 'ClearLedger' in a bold, modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Circular shapes",
+      "description": "A collection of circular shapes in varying sizes, overlapping slightly, creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.568,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.602
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape positioned slightly off-center, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cashback message",
+      "description": "The text reads 'Earn cashback daily Built for peace of mind' in a clear, bold font, centered towards the bottom of the ad.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        48,
+        308,
+        276,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.642,
+        0.863,
+        0.81
+      ],
+      "center_normalized": [
+        0.506,
+        0.726
+      ],
+      "area_percentage": 12.02
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in a circular format, located at the top left corner of the ad.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        24,
+        28,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 2.7
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button with the text 'Install now' in a bold font, located at the bottom center of the ad.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative circles",
+      "description": "Two small decorative circles positioned near the bottom of the ad, enhancing the visual appeal.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and vibrant, cashback message, call-to-action",
+    "layout_text": "The logo is at the top, followed by decorative elements, the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "ClearLedger, Earn cashback daily Built for peace of mind, Install now, UGC",
+    "elements_text": "logo: The logo features the text 'ClearLedger' in a bold, modern font, positioned at the top center of the ad. | unknown: A collection of circular shapes in varying sizes, overlapping slightly, creating a dynamic visual effect. | unknown: A rectangular shape positioned slightly off-center, adding depth to the design. | body_text: The text reads 'Earn cashback daily Built for peace of mind' in a clear, bold font, centered towards the bottom of the ad. text='Earn cashback daily Built for peace of mind' | icon: A small icon labeled 'UGC' in a circular format, located at the top left corner of the ad. text='ClearLedger' | cta: A prominent button with the text 'Install now' in a bold font, located at the bottom center of the ad. text='Install now' | unknown: Two small decorative circles positioned near the bottom of the ad, enhancing the visual appeal. text='UGC'"
+  }
+}

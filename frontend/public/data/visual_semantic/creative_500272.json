@@ -1,0 +1,242 @@
+{
+  "creative_id": "500272",
+  "asset_file": "assets/creative_500272.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a travel service promotion with a clear call to action and pricing.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting special fares for travel bookings.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A prominent logo at the top center featuring the word 'DriftPass' in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.43
+      ],
+      "area_percentage": 7.86
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline stating 'Book your next trip' positioned centrally, conveying a travel theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.431
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "An abstract shape at the top left, possibly a circle, adding visual interest without specific detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.134,
+        0.291
+      ],
+      "center_normalized": [
+        0.067,
+        0.236
+      ],
+      "area_percentage": 1.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top right shape",
+      "description": "A rectangular shape at the top right, providing a contrasting visual element to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        303,
+        31,
+        334,
+        83
+      ],
+      "bbox_normalized": [
+        0.844,
+        0.05,
+        0.929,
+        0.131
+      ],
+      "center_normalized": [
+        0.886,
+        0.09
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom left shape",
+      "description": "A small rectangular shape at the bottom left, possibly a decorative element or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text below the headline that reads 'Special fares today', in a clear, readable font.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 10.54
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "DriftPass title",
+      "description": "The word 'DriftPass' displayed prominently at the top, indicating the brand or service being advertised.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        28,
+        40,
+        302,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.839,
+        0.15
+      ],
+      "center_normalized": [
+        0.458,
+        0.106
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price label at the bottom center showing '€29.99' in a bold font, drawing attention to the cost.",
+      "text_content": "€29.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, clean and modern, DriftPass logo, special fares, €29.99",
+    "layout_text": "The logo is at the top, followed by the main headline in the center, body text below, and the price at the bottom.",
+    "ocr_text": "Book your next trip, Special fares today, DriftPass, €29.99, Start now",
+    "elements_text": "logo: A prominent logo at the top center featuring the word 'DriftPass' in bold, modern typography. | headline: A large, bold headline stating 'Book your next trip' positioned centrally, conveying a travel theme. | decorative_element: An abstract shape at the top left, possibly a circle, adding visual interest without specific detail. | decorative_element: A rectangular shape at the top right, providing a contrasting visual element to the ad. | unknown: A small rectangular shape at the bottom left, possibly a decorative element or icon. | body_text: Text below the headline that reads 'Special fares today', in a clear, readable font. text='Book your next trip Special fares today' | headline: The word 'DriftPass' displayed prominently at the top, indicating the brand or service being advertised. text='DriftPass' | price: A price label at the bottom center showing '€29.99' in a bold font, drawing attention to the cost. text='€29.99 Start now'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "500316",
+  "asset_file": "assets/creative_500316.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with food images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special sale.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright yellow background fills the entire canvas, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.183,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.591
+      ],
+      "area_percentage": 81.44
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo features the word 'FreshDash' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Food item images",
+      "description": "Three rectangular images of food items are displayed in the center, showcasing delicious meals behind glass.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Food item images",
+      "description": "Another rectangular image of food is placed next to the first three, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Food item image",
+      "description": "A smaller rectangular image of a food item is positioned below the main food images, adding variety.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A small circular icon is located in the center, possibly indicating a selection or choice.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Fast food, fast Free delivery over $15' is prominently displayed in bold, black font.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner reads 'SALE' in white text on a contrasting background.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A bright button at the bottom of the ad with the text 'Install now' encourages immediate action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge at the bottom left corner displays '-30%' in a bold font, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The word 'SALE' is displayed in a bold font at the top of the ad, drawing attention to the promotion.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, FreshDash logo, food images, sale announcement.",
+    "layout_text": "The logo is at the top, followed by the headline, product images in the center, and the CTA at the bottom.",
+    "ocr_text": "FreshDash, Fast food, fast Free delivery over $15, Install now, 30%, SALE",
+    "elements_text": "logo: The logo features the word 'FreshDash' in a bold, modern font, positioned at the top of the ad. | product: Three rectangular images of food items are displayed in the center, showcasing delicious meals behind glass. | product: Another rectangular image of food is placed next to the first three, enhancing the visual appeal. | product: A smaller rectangular image of a food item is positioned below the main food images, adding variety. | decorative_element: A small circular icon is located in the center, possibly indicating a selection or choice. | headline: The text 'Fast food, fast Free delivery over $15' is prominently displayed in bold, black font. text='Fast food, fast Free delivery over $15' | discount_badge: A small badge at the top right corner reads 'SALE' in white text on a contrasting background. text='FreshDash' | cta: A bright button at the bottom of the ad with the text 'Install now' encourages immediate action. text='Install now' | discount_badge: A small badge at the bottom left corner displays '-30%' in a bold font, indicating a discount. text='30%' | headline: The word 'SALE' is displayed in a bold font at the top of the ad, drawing attention to the promotion. text='SALE'"
+  }
+}

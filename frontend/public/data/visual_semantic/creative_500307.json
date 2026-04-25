@@ -1,0 +1,194 @@
+{
+  "creative_id": "500307",
+  "asset_file": "assets/creative_500307.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a warm color palette with a clear call to action.",
+    "visual_style": "warm and inviting",
+    "main_message": "Promoting flexible weekend getaway options.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A small logo positioned at the top left, featuring a stylized text with a rounded design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main visual area",
+      "description": "A large rectangular area in the center with a light background, possibly containing an abstract shape or image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A medium-sized text in the center, conveying additional information in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "A prominent headline in bold text, centrally placed, designed to grab attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A call-to-action button at the bottom, featuring a contrasting color to encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Background area",
+      "description": "A large background area that fills the bottom part of the ad, providing a warm, inviting color.",
+      "text_content": "Escape this weekend Flexi-a n ons Install now",
+      "bbox_xyxy": [
+        67,
+        204,
+        253,
+        299
+      ],
+      "bbox_normalized": [
+        0.209,
+        0.637,
+        0.791,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.786
+      ],
+      "area_percentage": 17.26
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A small logo positioned at the top left, featuring a stylized text with a rounded design.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, warm and inviting, HorizonHop logo, flexible booking options, escape this weekend.",
+    "layout_text": "The headline is centrally positioned, with the main subject area below it, and the CTA at the bottom.",
+    "ocr_text": "Escape this weekend, Flexible booking options, Install now, HorizonHop",
+    "elements_text": "logo: A small logo positioned at the top left, featuring a stylized text with a rounded design. | main_subject: A large rectangular area in the center with a light background, possibly containing an abstract shape or image. | body_text: A medium-sized text in the center, conveying additional information in a clear, readable font. | body_text: A prominent headline in bold text, centrally placed, designed to grab attention. | cta: A call-to-action button at the bottom, featuring a contrasting color to encourage user interaction. | logo: A small logo positioned at the top left, featuring a stylized text with a rounded design. text='HorizonHop'"
+  }
+}

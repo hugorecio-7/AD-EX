@@ -1,0 +1,362 @@
+{
+  "creative_id": "500235",
+  "asset_file": "assets/creative_500235.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with bold text and a clear call to action.",
+    "visual_style": "warm and inviting",
+    "main_message": "Promoting travel booking options at an attractive price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background pattern",
+      "description": "An abstract background pattern with geometric shapes in warm orange tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        358,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.269
+      ],
+      "center_normalized": [
+        0.498,
+        0.134
+      ],
+      "area_percentage": 26.76
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Layered geometric shapes in varying sizes and shades of orange, creating depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.24
+      ],
+      "area_percentage": 23.57
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top overlay",
+      "description": "A soft, rounded shape at the top, blending into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold, white text stating 'Dream destinations await' centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.279,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.399
+      ],
+      "area_percentage": 14.12
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Booking options",
+      "description": "Smaller white text below the main message, reading 'Flexible booking options'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent white text displaying the price '€19.99' beneath the booking options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button with the text 'Try for free' in white, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo in the top left corner, labeled 'CloudRoute' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small label in the top area indicating 'UGC', suggesting user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Bottom area",
+      "description": "A large area at the bottom of the ad, primarily for text and CTA.",
+      "text_content": "destinations await Flexible booking options €19.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        443,
+        289,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.803,
+        0.917
+      ],
+      "center_normalized": [
+        0.435,
+        0.805
+      ],
+      "area_percentage": 16.56
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Dream headline",
+      "description": "A small, elegant text reading 'Dream' positioned above the main message.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo in the top left corner, labeled 'CloudRoute' in a simple font.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "User-generated content label",
+      "description": "A small label indicating 'UGC', suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, warm and inviting, bold text and call to action",
+    "layout_text": "The headline is at the top, followed by the main message and booking options, with the CTA at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, €19.99, Try for free, Dream, CloudRoute, UGC",
+    "elements_text": "decorative_element: An abstract background pattern with geometric shapes in warm orange tones. | decorative_element: Layered geometric shapes in varying sizes and shades of orange, creating depth. | decorative_element: A soft, rounded shape at the top, blending into the background. | body_text: Bold, white text stating 'Dream destinations await' centered in the ad. | body_text: Smaller white text below the main message, reading 'Flexible booking options'. | price: A prominent white text displaying the price '€19.99' beneath the booking options. | cta: A bold button with the text 'Try for free' in white, inviting user interaction. | logo: A small logo in the top left corner, labeled 'CloudRoute' in a simple font. | social_proof: A small label in the top area indicating 'UGC', suggesting user-generated content. | unknown: A large area at the bottom of the ad, primarily for text and CTA. text='destinations await Flexible booking options €19.99 Try for free' | headline: A small, elegant text reading 'Dream' positioned above the main message. text='Dream' | logo: A small logo in the top left corner, labeled 'CloudRoute' in a simple font. text='CloudRoute' | unknown: A small label indicating 'UGC', suggesting user-generated content. text='UGC'"
+  }
+}

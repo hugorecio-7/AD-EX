@@ -1,0 +1,218 @@
+{
+  "creative_id": "500032",
+  "asset_file": "assets/creative_500032.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant gradient background with abstract shapes and clear calls to action.",
+    "visual_style": "modern minimalist with vibrant colors",
+    "main_message": "Promoting the MoonScreen app with a focus on trending content and a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background gradient",
+      "description": "A smooth gradient background transitioning from light purple to dark purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Abstract shapes",
+      "description": "An abstract design featuring a large square and a circle, both outlined and centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional graphic",
+      "description": "A smaller abstract shape, possibly a circle, positioned slightly off-center within the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area with bold white font stating 'Watch what's trending Start free today' at the bottom of the ad.",
+      "text_content": "Watch what's trending Start free today",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "A clear text area displaying the price '€29.99' in a bold font, located just above the call to action.",
+      "text_content": "€29.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "App logo",
+      "description": "The logo 'MoonScreen' displayed in a bold, modern font at the top of the ad.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with vibrant colors, MoonScreen app, trending content",
+    "layout_text": "The logo is at the top, followed by abstract shapes in the center, with the call to action and price at the bottom.",
+    "ocr_text": "MoonScreen, Watch what's trending, Start free today, €29.99, Book now",
+    "elements_text": "decorative_element: A smooth gradient background transitioning from light purple to dark purple. | app_screenshot: An abstract design featuring a large square and a circle, both outlined and centered in the middle of the ad. | unknown: A smaller abstract shape, possibly a circle, positioned slightly off-center within the main graphic. | unknown: A small circular graphic element located towards the bottom center of the ad. | cta: A prominent text area with bold white font stating 'Watch what's trending Start free today' at the bottom of the ad. text='Watch what's trending Start free today' | price: A clear text area displaying the price '€29.99' in a bold font, located just above the call to action. text='€29.99 Book now' | logo: The logo 'MoonScreen' displayed in a bold, modern font at the top of the ad. text='MoonScreen'"
+  }
+}

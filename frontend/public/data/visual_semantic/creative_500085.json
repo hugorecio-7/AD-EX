@@ -1,0 +1,242 @@
+{
+  "creative_id": "500085",
+  "asset_file": "assets/creative_500085.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and brand name.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting a secure service with a clear price and call to action.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, rounded rectangle with a soft blue background, providing a subtle backdrop for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        80,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.253,
+        0.497,
+        0.611
+      ],
+      "center_normalized": [
+        0.317,
+        0.432
+      ],
+      "area_percentage": 12.88
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A medium-sized, rounded rectangle with a light blue color, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.75
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A medium-sized, rounded rectangle with a light blue color, slightly overlapping with another element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.339,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.43
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A medium-sized, rounded rectangle with a light blue color, positioned centrally and overlapping with other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.79
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A small, rounded rectangle with a soft blue background, positioned towards the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.36
+      ],
+      "area_percentage": 6.91
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small circle with a light blue color, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with bold white text on a blue background, encouraging users to 'Order now'.",
+      "text_content": "Secure & simple No hidden fees €19.99 Order now",
+      "bbox_xyxy": [
+        22,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.787
+      ],
+      "area_percentage": 24.51
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "A large, bold text displaying 'VaultRun' in a dark font, positioned at the top of the ad.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        7,
+        25,
+        226,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.706,
+        0.212
+      ],
+      "center_normalized": [
+        0.364,
+        0.145
+      ],
+      "area_percentage": 9.2
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, simple and modern, VaultRun, Secure & simple, €19.99, Order now",
+    "layout_text": "The headline is at the top, the main message is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "VaultRun, Secure & simple, No hidden fees, €19.99, Order now",
+    "elements_text": "unknown: A large, rounded rectangle with a soft blue background, providing a subtle backdrop for the text. | unknown: A medium-sized, rounded rectangle with a light blue color, positioned centrally within the ad. | unknown: A medium-sized, rounded rectangle with a light blue color, slightly overlapping with another element. | unknown: A medium-sized, rounded rectangle with a light blue color, positioned centrally and overlapping with other elements. | unknown: A small, rounded rectangle with a soft blue background, positioned towards the top of the ad. | unknown: A small circle with a light blue color, positioned towards the bottom of the ad. | cta: A prominent button with bold white text on a blue background, encouraging users to 'Order now'. text='Secure & simple No hidden fees €19.99 Order now' | headline: A large, bold text displaying 'VaultRun' in a dark font, positioned at the top of the ad. text='VaultRun'"
+  }
+}

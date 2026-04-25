@@ -1,0 +1,362 @@
+{
+  "creative_id": "500248",
+  "asset_file": "assets/creative_500248.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark geometric background with a prominent logo and call-to-action.",
+    "visual_style": "dark geometric with modern elements",
+    "main_message": "Encouraging viewers to watch trending content with a clear call-to-action.",
+    "dominant_colors": [
+      "dark gray",
+      "light gray"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark geometric background",
+      "description": "A dark background featuring various geometric shapes in shades of gray.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        358,
+        281
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.997,
+        0.439
+      ],
+      "center_normalized": [
+        0.501,
+        0.281
+      ],
+      "area_percentage": 31.46
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "A stylized logo with the text 'MoonScreen' prominently displayed in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        156,
+        175,
+        297
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.245,
+        0.488,
+        0.465
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large circular shape in the center, filled with a muted gray color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        329
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.773,
+        0.515
+      ],
+      "center_normalized": [
+        0.587,
+        0.428
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A medium-sized square shape in the center, also filled with a muted gray color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        108,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.441,
+        0.58
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in a simple, bold font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.181,
+        0.087,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "Text reading 'Watch what's trending' in a bold, white font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Cancel anytime text",
+      "description": "Smaller text below the main message that reads 'Cancel anytime' in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button at the bottom with the text 'Watch now' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small circles",
+      "description": "Three small circles arranged horizontally, filled with a light gray color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        217
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.67,
+        0.34
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Edge element",
+      "description": "A thin vertical strip at the far right edge of the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        359,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.998,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.999,
+        0.5
+      ],
+      "area_percentage": 0.17
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'Watch what's trending' is bold and centrally aligned.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "MoonScreen text",
+      "description": "The logo text 'MoonScreen' is displayed in a modern font at the top.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        26,
+        46,
+        164,
+        70
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.456,
+        0.109
+      ],
+      "center_normalized": [
+        0.264,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Watch now text",
+      "description": "A call-to-action text 'Watch now' at the bottom, inviting users to engage.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 14,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small label 'UGC' positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, dark geometric with modern elements, MoonScreen logo, trending text, call-to-action.",
+    "layout_text": "The logo is at the top, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Watch what's trending, Cancel anytime, MoonScreen, Watch now, UGC",
+    "elements_text": "logo: A stylized logo with the text 'MoonScreen' prominently displayed in a modern font. | decorative_element: A large circular shape in the center, filled with a muted gray color. | decorative_element: A medium-sized square shape in the center, also filled with a muted gray color. | icon: A small icon labeled 'UGC' in a simple, bold font, positioned at the top. | body_text: Text reading 'Watch what's trending' in a bold, white font, centrally positioned. | body_text: Smaller text below the main message that reads 'Cancel anytime' in a lighter font. | cta: A prominent button at the bottom with the text 'Watch now' in a bold font. | decorative_element: Three small circles arranged horizontally, filled with a light gray color. | unknown: A thin vertical strip at the far right edge of the canvas. | headline: The main headline text 'Watch what's trending' is bold and centrally aligned. text='Watch what's trending Cancel anytime' | body_text: The logo text 'MoonScreen' is displayed in a modern font at the top. text='MoonScreen' | cta: A call-to-action text 'Watch now' at the bottom, inviting users to engage. text='Watch now' | icon: A small label 'UGC' positioned at the top left corner. text='UGC'"
+  }
+}

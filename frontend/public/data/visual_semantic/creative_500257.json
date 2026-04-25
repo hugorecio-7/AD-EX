@@ -1,0 +1,410 @@
+{
+  "creative_id": "500257",
+  "asset_file": "assets/creative_500257.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various icons and text elements promoting a game.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear and receive free rewards for new players.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Gear icon",
+      "description": "A stylized gear icon in the center, representing gaming elements, with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        120,
+        102,
+        156
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.378,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.434
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Gear icon",
+      "description": "Another stylized gear icon next to the first, maintaining a cohesive design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        120,
+        188,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.378,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.479,
+        0.434
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Gear icon",
+      "description": "A small gear icon at the top left, visually connecting to the gaming theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        75,
+        102,
+        111
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.237,
+        0.32,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.293
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Gear icon",
+      "description": "Another small gear icon at the top right, complementing the other icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        75,
+        188,
+        111
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.237,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.479,
+        0.293
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A screenshot of gameplay featuring colorful graphics, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A smaller gameplay screenshot showing action, located slightly below the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "Another small gameplay screenshot, showcasing different game elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        177,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.304,
+        0.554,
+        0.398,
+        0.647
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Logo element",
+      "description": "A small logo element at the top right, indicating brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        76,
+        304,
+        102
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.238,
+        0.951,
+        0.32
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "A bold headline text at the top left, capturing attention with its size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        83,
+        60,
+        104
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.262,
+        0.19,
+        0.327
+      ],
+      "center_normalized": [
+        0.158,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A smaller body text below the headline, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        128,
+        60,
+        149
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.402,
+        0.19,
+        0.468
+      ],
+      "center_normalized": [
+        0.158,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Another bold headline text at the top right, enhancing the message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        83,
+        146,
+        104
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.262,
+        0.459,
+        0.327
+      ],
+      "center_normalized": [
+        0.426,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A smaller body text below the second headline, adding context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        128,
+        146,
+        149
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.402,
+        0.459,
+        0.468
+      ],
+      "center_normalized": [
+        0.426,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent body text at the bottom, conveying the main offer of the ad.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        31,
+        203,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.634,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.716
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call to action button at the bottom, encouraging users to install the app.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "Game logo",
+      "description": "The game logo at the top left, featuring a modern design with vibrant colors.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        25,
+        22,
+        108,
+        36
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.069,
+        0.338,
+        0.113
+      ],
+      "center_normalized": [
+        0.208,
+        0.091
+      ],
+      "area_percentage": 1.13
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, unlock rare gear, free rewards",
+    "layout_text": "The headline is positioned at the top left, with icons and gameplay screenshots centered, and the CTA at the bottom.",
+    "ocr_text": "Unlock rare gear, Free rewards for new players, Install now, NeonArena",
+    "elements_text": "icon: A stylized gear icon in the center, representing gaming elements, with a simple design. | icon: Another stylized gear icon next to the first, maintaining a cohesive design theme. | icon: A small gear icon at the top left, visually connecting to the gaming theme. | icon: Another small gear icon at the top right, complementing the other icons. | app_screenshot: A screenshot of gameplay featuring colorful graphics, positioned in the center. | app_screenshot: A smaller gameplay screenshot showing action, located slightly below the center. | app_screenshot: Another small gameplay screenshot, showcasing different game elements. | logo: A small logo element at the top right, indicating brand identity. | headline: A bold headline text at the top left, capturing attention with its size. | body_text: A smaller body text below the headline, providing additional information. | headline: Another bold headline text at the top right, enhancing the message. | body_text: A smaller body text below the second headline, adding context. | body_text: A prominent body text at the bottom, conveying the main offer of the ad. text='Unlock rare gear Free rewards for new players' | cta: A clear call to action button at the bottom, encouraging users to install the app. text='Install now' | logo: The game logo at the top left, featuring a modern design with vibrant colors. text='NeonArena'"
+  }
+}

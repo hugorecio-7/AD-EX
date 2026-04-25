@@ -1,0 +1,146 @@
+{
+  "creative_id": "500049",
+  "asset_file": "assets/creative_500049.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent offer and a clear call to action.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a financial tracking service with no hidden fees.",
+    "dominant_colors": [
+      "light green",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A soft, rounded rectangle with a light green background, providing a subtle backdrop for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, white text stating 'Track every euro No hidden fees', centrally positioned and easy to read.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        29,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.497,
+        0.69
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo 'CoinBridge' appears at the top in a modern, sans-serif font, colored in white against the green background.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Get offer' in white, set against a contrasting background.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with soft colors, CoinBridge, financial tracking service",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "Track every euro No hidden fees, CoinBridge, Get offer",
+    "elements_text": "decorative_element: A soft, rounded rectangle with a light green background, providing a subtle backdrop for the text. | body_text: Bold, white text stating 'Track every euro No hidden fees', centrally positioned and easy to read. text='Track every euro No hidden fees' | logo: The logo 'CoinBridge' appears at the top in a modern, sans-serif font, colored in white against the green background. text='CoinBridge' | cta: A rounded button at the bottom with the text 'Get offer' in white, set against a contrasting background. text='Get offer'"
+  }
+}

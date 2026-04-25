@@ -1,0 +1,194 @@
+{
+  "creative_id": "500028",
+  "asset_file": "assets/creative_500028.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on promoting the SnapMeal app.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night food deals through the SnapMeal app.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient fills the background, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "SnapMeal app interface",
+      "description": "A simplified representation of a mobile app interface with a placeholder for food items, outlined in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.369
+      ],
+      "area_percentage": 3.24
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Bold white text stating 'Fast food, fast' with a smaller line below it that reads 'Late-night deals available'.",
+      "text_content": "Fast food, fast Late-night deals available",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button in white text that says '$4.99 Install now', designed to attract attention.",
+      "text_content": "$4.99 Install now",
+      "bbox_xyxy": [
+        22,
+        398,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.829,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.364,
+        0.872
+      ],
+      "area_percentage": 5.04
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' appears in a bold font at the top left, colored to stand out against the background.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in yellow with the word 'SALE' in bold black text, positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white text on a dark background, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, SnapMeal app, late-night deals",
+    "layout_text": "The logo is at the top left, the main message is centered, the app screenshot is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast, Late-night deals available, $4.99 Install now, SnapMeal, SALE, UGC",
+    "elements_text": "app_screenshot: A simplified representation of a mobile app interface with a placeholder for food items, outlined in a light color. | body_text: Bold white text stating 'Fast food, fast' with a smaller line below it that reads 'Late-night deals available'. text='Fast food, fast Late-night deals available' | cta: A prominent button in white text that says '$4.99 Install now', designed to attract attention. text='$4.99 Install now' | logo: The logo 'SnapMeal' appears in a bold font at the top left, colored to stand out against the background. text='SnapMeal' | discount_badge: A small circular badge in yellow with the word 'SALE' in bold black text, positioned at the top right. text='SALE' | social_proof: A small tag labeled 'UGC' in white text on a dark background, indicating user-generated content. text='UGC'"
+  }
+}

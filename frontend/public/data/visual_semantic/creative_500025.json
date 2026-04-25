@@ -1,0 +1,194 @@
+{
+  "creative_id": "500025",
+  "asset_file": "assets/creative_500025.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting food delivery with a clear discount message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a discount offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a vibrant backdrop for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Food item display",
+      "description": "A visual representation of two food items displayed in a simplistic, outlined style, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Food item display",
+      "description": "Another visual representation of food items, similar to the previous element, also centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold, white text stating 'Hungry? We got you' positioned at the bottom of the ad, conveying the main message.",
+      "text_content": "Hungry? We got you Fresh favorites nearby -30% Shop now",
+      "bbox_xyxy": [
+        22,
+        305,
+        290,
+        442
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.635,
+        0.906,
+        0.921
+      ],
+      "center_normalized": [
+        0.487,
+        0.778
+      ],
+      "area_percentage": 23.9
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'SnapMeal' displayed in a prominent, bold font at the top left corner of the ad.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, circular badge in the top right corner with the text 'SALE' in bold, contrasting color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, food delivery, discount offer",
+    "layout_text": "The logo is at the top left, the main promotional text is at the bottom, and the food item displays are centered.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, -30%, Shop now, SnapMeal, SALE",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a vibrant backdrop for the text. | app_screenshot: A visual representation of two food items displayed in a simplistic, outlined style, centered in the ad. | app_screenshot: Another visual representation of food items, similar to the previous element, also centered in the ad. | headline: Bold, white text stating 'Hungry? We got you' positioned at the bottom of the ad, conveying the main message. text='Hungry? We got you Fresh favorites nearby -30% Shop now' | logo: The logo 'SnapMeal' displayed in a prominent, bold font at the top left corner of the ad. text='SnapMeal' | discount_badge: A small, circular badge in the top right corner with the text 'SALE' in bold, contrasting color. text='SALE'"
+  }
+}

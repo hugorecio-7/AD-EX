@@ -1,0 +1,266 @@
+{
+  "creative_id": "500052",
+  "asset_file": "assets/creative_500052.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with layered shapes and clear text elements.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to save confidently with no hidden fees.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large rectangular shape with a subtle gradient, providing a backdrop for the text and other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        21,
+        81,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.169,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.281,
+        0.319
+      ],
+      "area_percentage": 12.91
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller rectangular shape positioned over the background, possibly representing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary overlay shape",
+      "description": "A slightly smaller rectangular shape that overlaps with the previous element, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        119,
+        155,
+        222
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.463
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.58
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Main overlay shape",
+      "description": "A large rectangular shape that serves as a prominent feature in the ad, likely highlighting key information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        130,
+        166,
+        246,
+        247
+      ],
+      "bbox_normalized": [
+        0.409,
+        0.348,
+        0.77,
+        0.515
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape that adds a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, clear text stating 'Save with confidence No hidden fees' positioned centrally for emphasis.",
+      "text_content": "Save with confidence No hidden fees",
+      "bbox_xyxy": [
+        74,
+        305,
+        246,
+        387
+      ],
+      "bbox_normalized": [
+        0.231,
+        0.635,
+        0.769,
+        0.806
+      ],
+      "center_normalized": [
+        0.5,
+        0.721
+      ],
+      "area_percentage": 9.18
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CoinBridge' displayed prominently at the top of the ad, featuring a modern font.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Watch now' at the bottom, designed to attract user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, key elements include logo, main message, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the call to action at the bottom.",
+    "ocr_text": "Save with confidence, No hidden fees, CoinBridge, Watch now, UGC",
+    "elements_text": "unknown: A large rectangular shape with a subtle gradient, providing a backdrop for the text and other elements. | unknown: A smaller rectangular shape positioned over the background, possibly representing a product or feature. | unknown: A slightly smaller rectangular shape that overlaps with the previous element, adding depth to the design. | unknown: A large rectangular shape that serves as a prominent feature in the ad, likely highlighting key information. | unknown: A small circular shape that adds a decorative touch to the overall design. | body_text: Bold, clear text stating 'Save with confidence No hidden fees' positioned centrally for emphasis. text='Save with confidence No hidden fees' | logo: The logo 'CoinBridge' displayed prominently at the top of the ad, featuring a modern font. text='CoinBridge' | cta: A button with the text 'Watch now' at the bottom, designed to attract user interaction. text='Watch now' | social_proof: A small tag labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

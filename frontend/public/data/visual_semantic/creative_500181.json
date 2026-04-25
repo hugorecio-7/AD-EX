@@ -1,0 +1,362 @@
+{
+  "creative_id": "500181",
+  "asset_file": "assets/creative_500181.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with engaging text and decorative elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to win rewards in IronQuest.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "IronQuest UGC",
+      "description": "A bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Epic rewards message",
+      "description": "A medium-sized text in the center of the ad, conveying the message 'Win epic rewards Free rewards for new players' in a clear, engaging font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small, rectangular element at the top, possibly a decorative graphic or icon, with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small, rectangular element in the center, likely another decorative graphic or icon, complementing the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left icon",
+      "description": "A tiny icon located at the top left, featuring a simple design that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.083,
+        0.296
+      ],
+      "center_normalized": [
+        0.042,
+        0.239
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top right icon",
+      "description": "A small icon at the top right, with a minimalistic design that enhances the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top center icon",
+      "description": "A very small icon in the top center, likely a decorative element that adds to the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center bottom icon",
+      "description": "A very small icon at the center bottom, serving as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top left small icon",
+      "description": "A tiny icon located at the top left, featuring a simple design that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center bottom small icon",
+      "description": "A tiny icon at the center bottom, likely a decorative element that adds to the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font.",
+      "text_content": "IronQuest UGC",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.198
+      ],
+      "center_normalized": [
+        0.486,
+        0.128
+      ],
+      "area_percentage": 11.88
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Rewards message",
+      "description": "A medium-sized text in the center of the ad, conveying the message 'Win epic rewards Free rewards for new players' in a clear, engaging font.",
+      "text_content": "Win epic rewards Free rewards for new players",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A rectangular button at the bottom of the ad with the text 'Book now', designed to attract user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, IronQuest UGC, win epic rewards.",
+    "layout_text": "The headline is positioned at the top, the body text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "IronQuest UGC, Win epic rewards Free rewards for new players, Book now",
+    "elements_text": "headline: A bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font. | body_text: A medium-sized text in the center of the ad, conveying the message 'Win epic rewards Free rewards for new players' in a clear, engaging font. | unknown: A small, rectangular element at the top, possibly a decorative graphic or icon, with a simple design. | unknown: A small, rectangular element in the center, likely another decorative graphic or icon, complementing the main message. | unknown: A tiny icon located at the top left, featuring a simple design that adds visual interest. | unknown: A small icon at the top right, with a minimalistic design that enhances the overall aesthetic. | unknown: A very small icon in the top center, likely a decorative element that adds to the visual appeal. | unknown: A very small icon at the center bottom, serving as a decorative feature. | unknown: A tiny icon located at the top left, featuring a simple design that adds visual interest. | unknown: A tiny icon at the center bottom, likely a decorative element that adds to the visual appeal. | headline: A large, bold text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font. text='IronQuest UGC' | body_text: A medium-sized text in the center of the ad, conveying the message 'Win epic rewards Free rewards for new players' in a clear, engaging font. text='Win epic rewards Free rewards for new players' | cta: A rectangular button at the bottom of the ad with the text 'Book now', designed to attract user interaction. text='Book now'"
+  }
+}

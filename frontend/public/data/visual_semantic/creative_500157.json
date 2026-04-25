@@ -1,0 +1,338 @@
+{
+  "creative_id": "500157",
+  "asset_file": "assets/creative_500157.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a central card illustration with a clear call to action and brand logo.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting a financial tracking service with instant card signup.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A simple logo featuring the text 'ClearLedger' in a bold font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Card illustration",
+      "description": "An illustration of a card with rounded edges, placed in the center, showcasing a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.771,
+        0.514
+      ],
+      "center_normalized": [
+        0.47,
+        0.376
+      ],
+      "area_percentage": 16.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text stating 'Track every euro' in a prominent font, centered within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Sub-message text",
+      "description": "Smaller text below the main message that reads 'Fast signup, instant card', also centered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Card detail",
+      "description": "A detailed illustration of a card, slightly smaller than the main card, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Card feature",
+      "description": "Another card feature illustration, similar in style to the main card, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Card element",
+      "description": "A smaller circular element representing a feature of the card, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Book now', designed to stand out.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Secondary button",
+      "description": "A smaller button below the main CTA, featuring a similar design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Footer text",
+      "description": "Text at the bottom of the ad that reinforces the main message, occupying a large area.",
+      "text_content": "Track every euro Fast signup  instant card",
+      "bbox_xyxy": [
+        29,
+        203,
+        288,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.9,
+        0.797
+      ],
+      "center_normalized": [
+        0.495,
+        0.716
+      ],
+      "area_percentage": 13.15
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A clear and inviting button at the bottom with the text 'Book now', designed for user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'ClearLedger' in a bold font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, ClearLedger logo, card illustration, call to action.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup, instant card, Book now, ClearLedger",
+    "elements_text": "logo: A simple logo featuring the text 'ClearLedger' in a bold font, positioned at the top left corner. | main_subject: An illustration of a card with rounded edges, placed in the center, showcasing a clean design. | body_text: Text stating 'Track every euro' in a prominent font, centered within the ad. | body_text: Smaller text below the main message that reads 'Fast signup, instant card', also centered. | main_subject: A detailed illustration of a card, slightly smaller than the main card, positioned in the center. | main_subject: Another card feature illustration, similar in style to the main card, centered in the ad. | main_subject: A smaller circular element representing a feature of the card, located in the center. | cta: A prominent button at the bottom with the text 'Book now', designed to stand out. | cta: A smaller button below the main CTA, featuring a similar design. | body_text: Text at the bottom of the ad that reinforces the main message, occupying a large area. text='Track every euro Fast signup  instant card' | cta: A clear and inviting button at the bottom with the text 'Book now', designed for user interaction. text='Book now' | logo: A small logo at the top left corner, featuring the brand name 'ClearLedger' in a bold font. text='ClearLedger'"
+  }
+}

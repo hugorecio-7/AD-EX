@@ -1,0 +1,434 @@
+{
+  "creative_id": "500242",
+  "asset_file": "assets/creative_500242.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with food containers and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night meal deals with a focus on quick service.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A vibrant orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        271
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.424
+      ],
+      "center_normalized": [
+        0.502,
+        0.273
+      ],
+      "area_percentage": 29.97
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three food containers",
+      "description": "Three stylized food containers arranged horizontally, with a smooth, rounded design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        250
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.123,
+        0.998,
+        0.392
+      ],
+      "center_normalized": [
+        0.502,
+        0.257
+      ],
+      "area_percentage": 26.67
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo featuring the text 'SnapMeal' in a modern font, prominently displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        156
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.244
+      ],
+      "center_normalized": [
+        0.499,
+        0.122
+      ],
+      "area_percentage": 24.37
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the word 'SALE' in bold, eye-catching typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.502,
+        0.24
+      ],
+      "area_percentage": 23.37
+    },
+    {
+      "id": 5,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label indicating 'UGC' in a clean, minimalistic style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Dinner in minutes text",
+      "description": "Bold, large text stating 'Dinner in minutes' that is easy to read.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        32,
+        335,
+        85
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.051,
+        0.931,
+        0.133
+      ],
+      "center_normalized": [
+        0.549,
+        0.092
+      ],
+      "area_percentage": 6.25
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Late-night deals text",
+      "description": "Smaller text below the main headline that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A prominent button with the text 'Start now' in a contrasting color, inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "30% discount text",
+      "description": "A small text indicating a '30%' discount, styled to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        66,
+        409,
+        292,
+        500
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.639,
+        0.811,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.93
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, SnapMeal logo, food containers, discount badge",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, SnapMeal, Start now, 30%, SALE, UGC",
+    "elements_text": "main_subject: Three stylized food containers arranged horizontally, with a smooth, rounded design. | logo: A simple logo featuring the text 'SnapMeal' in a modern font, prominently displayed. | discount_badge: A small badge with the word 'SALE' in bold, eye-catching typography. | social_proof: A small label indicating 'UGC' in a clean, minimalistic style. | body_text: Bold, large text stating 'Dinner in minutes' that is easy to read. | body_text: Smaller text below the main headline that reads 'Late-night deals available'. | cta: A prominent button with the text 'Start now' in a contrasting color, inviting action. | price: A small text indicating a '30%' discount, styled to attract attention. | unknown:  | unknown:  | unknown:  text='Dinner in minutes Late-night deals available' | unknown:  text='SnapMeal' | unknown:  text='Start now' | unknown:  text='30%' | unknown:  text='SALE' | unknown:  text='UGC'"
+  }
+}

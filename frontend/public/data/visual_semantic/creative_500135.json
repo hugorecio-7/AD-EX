@@ -1,0 +1,338 @@
+{
+  "creative_id": "500135",
+  "asset_file": "assets/creative_500135.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold red background with food images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Quick meal options with a promotional offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A vibrant red background fills the canvas, providing a bold and eye-catching base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        10,
+        60,
+        304,
+        260
+      ],
+      "bbox_normalized": [
+        0.032,
+        0.188,
+        0.952,
+        0.813
+      ],
+      "center_normalized": [
+        0.492,
+        0.501
+      ],
+      "area_percentage": 57.5
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Food images",
+      "description": "Two stylized food images are displayed prominently in the center, suggesting quick meal options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.459
+      ],
+      "area_percentage": 46.92
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "CraveLoop logo",
+      "description": "The logo 'CraveLoop' appears at the top in a modern font, conveying brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "The text 'Dinner in minutes' is bold and large, positioned centrally to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Free delivery offer",
+      "description": "The text 'Free delivery over $15' is smaller and placed below the main headline, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        164,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.513,
+        0.457
+      ],
+      "center_normalized": [
+        0.332,
+        0.368
+      ],
+      "area_percentage": 6.48
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent 'Book now' button is displayed in a contrasting color, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        145
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.456
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small 'SALE' badge is positioned at the top right, indicating a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A circular decorative element is present near the food images, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional icon",
+      "description": "A small icon is located near the food images, possibly representing a feature or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "An additional element is present at the bottom, possibly indicating further details or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The text 'Dinner in minutes Free Book now' is prominently displayed at the bottom, summarizing the offer.",
+      "text_content": "Dinner in minutes Fre Book now",
+      "bbox_xyxy": [
+        75,
+        204,
+        232,
+        299
+      ],
+      "bbox_normalized": [
+        0.234,
+        0.637,
+        0.725,
+        0.934
+      ],
+      "center_normalized": [
+        0.48,
+        0.786
+      ],
+      "area_percentage": 14.57
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The 'CraveLoop' logo appears at the top, reinforcing brand recognition.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "SALE text",
+      "description": "The word 'SALE' is displayed in a bold font at the top right, highlighting a special offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, food images, promotional text",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Free delivery over $15, CraveLoop, SALE, Book now",
+    "elements_text": "main_subject: Two stylized food images are displayed prominently in the center, suggesting quick meal options. | headline: The logo 'CraveLoop' appears at the top in a modern font, conveying brand identity. | body_text: The text 'Dinner in minutes' is bold and large, positioned centrally to attract attention. | body_text: The text 'Free delivery over $15' is smaller and placed below the main headline, providing additional information. | cta: A prominent 'Book now' button is displayed in a contrasting color, encouraging immediate action. | discount_badge: A small 'SALE' badge is positioned at the top right, indicating a promotional offer. | unknown: A circular decorative element is present near the food images, adding visual interest. | unknown: A small icon is located near the food images, possibly representing a feature or service. | unknown: An additional element is present at the bottom, possibly indicating further details or features. | body_text: The text 'Dinner in minutes Free Book now' is prominently displayed at the bottom, summarizing the offer. text='Dinner in minutes Fre Book now' | logo: The 'CraveLoop' logo appears at the top, reinforcing brand recognition. text='CraveLoop' | discount_badge: The word 'SALE' is displayed in a bold font at the top right, highlighting a special offer. text='SALE'"
+  }
+}

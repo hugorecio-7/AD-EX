@@ -1,0 +1,242 @@
+{
+  "creative_id": "500189",
+  "asset_file": "assets/creative_500189.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product displays and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product at a special weekend price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        81,
+        359,
+        281
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.127,
+        0.998,
+        0.439
+      ],
+      "center_normalized": [
+        0.499,
+        0.283
+      ],
+      "area_percentage": 31.2
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A set of three rectangular shapes resembling product packaging, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Another set of three rectangular shapes resembling product packaging, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display",
+      "description": "A third set of three rectangular shapes resembling product packaging, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top left corner element",
+      "description": "A small decorative element positioned in the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element located towards the bottom center, unclear in purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "CrispBox UGC",
+      "description": "Bold, large text reading 'CrispBox UGC' in a prominent position at the top.",
+      "text_content": "CrispBox UGC",
+      "bbox_xyxy": [
+        21,
+        31,
+        296,
+        127
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.822,
+        0.198
+      ],
+      "center_normalized": [
+        0.44,
+        0.123
+      ],
+      "area_percentage": 11.46
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text that reads 'Your next favorite pick Only this weekend' in a clear, inviting font.",
+      "text_content": "Your next favorite pick Only this weekend",
+      "bbox_xyxy": [
+        68,
+        412,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.63
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying the price '€29.99' in a noticeable format, positioned towards the bottom.",
+      "text_content": "€29.99 Get offer",
+      "bbox_xyxy": [
+        24,
+        532,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.349,
+        0.87
+      ],
+      "area_percentage": 4.32
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, CrispBox UGC, promotional message, price tag",
+    "layout_text": "The headline is at the top, product displays are centered, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox UGC, Your next favorite pick Only this weekend, €29.99 Get offer",
+    "elements_text": "product: A set of three rectangular shapes resembling product packaging, arranged horizontally. | product: Another set of three rectangular shapes resembling product packaging, arranged horizontally. | product: A third set of three rectangular shapes resembling product packaging, arranged horizontally. | decorative_element: A small decorative element positioned in the top left corner. | unknown: A small element located towards the bottom center, unclear in purpose. | headline: Bold, large text reading 'CrispBox UGC' in a prominent position at the top. text='CrispBox UGC' | body_text: Text that reads 'Your next favorite pick Only this weekend' in a clear, inviting font. text='Your next favorite pick Only this weekend' | price: Text displaying the price '€29.99' in a noticeable format, positioned towards the bottom. text='€29.99 Get offer'"
+  }
+}

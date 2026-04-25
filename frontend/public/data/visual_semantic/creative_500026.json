@@ -1,0 +1,218 @@
+{
+  "creative_id": "500026",
+  "asset_file": "assets/creative_500026.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with promotional text and food illustrations.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Two food items",
+      "description": "A simple illustration of two food items in a rectangular frame, suggesting a meal selection.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional food item",
+      "description": "An additional food item illustration, similar in style to the first, positioned to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Fast food promotion",
+      "description": "Bold white text stating 'Fast food, fast' with a smaller line below it that reads 'Free delivery over $15'.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        358
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in white, set against a light background.",
+      "text_content": "€19.99 Shop now",
+      "bbox_xyxy": [
+        23,
+        399,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.358,
+        0.876
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' appears in a bold font at the top left corner, colored white.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in yellow with the word 'SALE' in bold, contrasting text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white text on a dark background, positioned at the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, fast food delivery promotion",
+    "layout_text": "The headline is at the center, the app screenshot is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, €19.99, Shop now, SnapMeal, SALE, UGC",
+    "elements_text": "app_screenshot: A simple illustration of two food items in a rectangular frame, suggesting a meal selection. | unknown: An additional food item illustration, similar in style to the first, positioned to the left. | headline: Bold white text stating 'Fast food, fast' with a smaller line below it that reads 'Free delivery over $15'. text='Fast food, fast Free delivery over $15' | cta: A rounded button with the text 'Shop now' in white, set against a light background. text='€19.99 Shop now' | logo: The logo 'SnapMeal' appears in a bold font at the top left corner, colored white. text='SnapMeal' | discount_badge: A small circular badge in yellow with the word 'SALE' in bold, contrasting text. text='SALE' | social_proof: A small tag labeled 'UGC' in white text on a dark background, positioned at the top left. text='UGC'"
+  }
+}

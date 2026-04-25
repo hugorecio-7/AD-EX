@@ -6,69 +6,213 @@
     "height": 320
   },
   "global": {
-    "description": "The ad features a full canvas background with the EarnPath logo positioned in the top left corner. The main subject includes a prominent text logo at the top center, supported by geometric shapes and a segmented crop in the center. The body text, located at the bottom center, conveys the message 'Your money, clearer Builtfe nd Book now'.",
-    "visual_style": "Modern design with geometric elements and a clean layout",
-    "main_message": "Investing made clear and accessible",
+    "description": "The ad features a clean layout with a prominent headline and call to action.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a financial service with a clear call to action.",
     "dominant_colors": [
       "blue",
       "white"
     ],
-    "emotional_tone": "Trustworthy and inviting"
+    "emotional_tone": "trustworthy"
   },
   "elements": [
     {
       "id": 1,
-      "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "A bold, prominent text at the top of the ad that reads 'EarnPath' in a clear font.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
-        320,
-        320
+        319,
+        57
       ],
       "bbox_normalized": [
+        0.002,
         0.0,
-        0.0,
-        1.0,
-        1.0
+        0.999,
+        0.18
       ],
       "center_normalized": [
         0.5,
-        0.5
+        0.09
       ],
-      "area_percentage": 100.0
+      "area_percentage": 17.92
     },
     {
       "id": 2,
-      "role": "logo",
-      "label": "EarnPath Logo",
-      "description": "The logo of the EarnPath app, positioned at the top left corner of the crop.",
-      "text_content": "EamPath",
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A medium-sized text in the center that states 'Your money, clearer' with a friendly font style.",
+      "text_content": null,
       "bbox_xyxy": [
-        23,
-        25,
-        113,
-        43
+        54,
+        76,
+        245,
+        162
       ],
       "bbox_normalized": [
-        0.072,
-        0.078,
-        0.353,
-        0.134
+        0.17,
+        0.239,
+        0.769,
+        0.509
       ],
       "center_normalized": [
-        0.212,
-        0.106
+        0.469,
+        0.374
       ],
-      "area_percentage": 1.58
+      "area_percentage": 16.13
     },
     {
       "id": 3,
+      "role": "body_text",
+      "label": "Additional information",
+      "description": "A smaller text below the main headline that says 'Built for peace of mind' in a subtle font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button in the center that reads 'Book now' with a contrasting color to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.52
+    },
+    {
+      "id": 5,
       "role": "decorative_element",
-      "label": "Supporting text",
-      "description": "Text that supports the main message, positioned below the headline.",
+      "label": "Background shapes",
+      "description": "Various geometric shapes in soft colors that create a visually appealing background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "An unclear element in the center that may contain additional design features or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small circular shape that appears to be part of the background design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "Another small circular shape similar to the previous one, contributing to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "background",
+      "label": "Overall background",
+      "description": "A solid color background that enhances the visibility of the text and shapes.",
       "text_content": "Your money, clearer Builtfe nd Book now",
       "bbox_xyxy": [
         63,
@@ -89,83 +233,34 @@
       "area_percentage": 18.28
     },
     {
-      "id": 4,
-      "role": "decorative_element",
-      "label": "EarnPath text logo",
-      "description": "The logo of the EarnPath app, positioned at the top left corner of the crop.",
-      "text_content": "EarnPath",
+      "id": 10,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo positioned at the top left corner, representing the brand identity.",
+      "text_content": "EamPath",
       "bbox_xyxy": [
-        0,
-        0,
-        319,
-        57
+        23,
+        25,
+        113,
+        43
       ],
       "bbox_normalized": [
-        0.0,
-        0.0,
-        0.997,
-        0.178
+        0.072,
+        0.078,
+        0.353,
+        0.134
       ],
       "center_normalized": [
-        0.498,
-        0.089
+        0.212,
+        0.106
       ],
-      "area_percentage": 17.76
-    },
-    {
-      "id": 5,
-      "role": "decorative_element",
-      "label": "Geometric shapes",
-      "description": "Two geometric shapes, an oval and a rectangle, in a blue background, positioned towards the top left of the crop.",
-      "text_content": null,
-      "bbox_xyxy": [
-        54,
-        76,
-        245,
-        162
-      ],
-      "bbox_normalized": [
-        0.169,
-        0.237,
-        0.766,
-        0.506
-      ],
-      "center_normalized": [
-        0.467,
-        0.372
-      ],
-      "area_percentage": 16.04
-    },
-    {
-      "id": 6,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A segmented crop showing abstract shapes, primarily a rectangle and an oval, with a blue background.",
-      "text_content": null,
-      "bbox_xyxy": [
-        58,
-        104,
-        249,
-        166
-      ],
-      "bbox_normalized": [
-        0.181,
-        0.325,
-        0.778,
-        0.519
-      ],
-      "center_normalized": [
-        0.48,
-        0.422
-      ],
-      "area_percentage": 11.56
+      "area_percentage": 1.58
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for EarnPath Invest emphasizing clarity in investing.",
-    "elements_text": "background: full canvas background. logo: EarnPath Logo, small, located at top left, text: \"EamPath\". decorative_element: Supporting text, large, located at bottom center, text: \"Your money, clearer Builtfe nd Book now\". decorative_element: EarnPath text logo, large, located at top center, text: \"EarnPath\". decorative_element: Geometric shapes, large, located at center. decorative_element: Segmented crop, medium, located at center.",
-    "ocr_text": "EamPath Your money, clearer Builtfe nd Book now EarnPath Built for peace of mind",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath Logo at top left, bbox=[0.072, 0.078, 0.353, 0.134]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 320] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath Logo | text=\"EamPath\" | bbox_xyxy=[23, 25, 113, 43] | bbox_norm=[0.072, 0.078, 0.353, 0.134] | center=[0.212, 0.106] | area_pct=1.58\nid=3 | role=decorative_element | label=Supporting text | text=\"Your money, clearer Builtfe nd Book now\" | bbox_xyxy=[63, 203, 258, 299] | bbox_norm=[0.197, 0.634, 0.806, 0.934] | center=[0.502, 0.784] | area_pct=18.28\nid=4 | role=decorative_element | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[0, 0, 319, 57] | bbox_norm=[0.0, 0.0, 0.997, 0.178] | center=[0.498, 0.089] | area_pct=17.76\nid=5 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 76, 245, 162] | bbox_norm=[0.169, 0.237, 0.766, 0.506] | center=[0.467, 0.372] | area_pct=16.04\nid=6 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[58, 104, 249, 166] | bbox_norm=[0.181, 0.325, 0.778, 0.519] | center=[0.48, 0.422] | area_pct=11.56"
+    "global_text": "unknown, unknown, native, modern and minimalistic, EarnPath, Your money, clearer, Book now",
+    "layout_text": "The headline is at the top, followed by body text, and the CTA button is centrally located.",
+    "ocr_text": "EarnPath, Your money, clearer, Built for peace of mind, Book now",
+    "elements_text": "headline: A bold, prominent text at the top of the ad that reads 'EarnPath' in a clear font. | body_text: A medium-sized text in the center that states 'Your money, clearer' with a friendly font style. | body_text: A smaller text below the main headline that says 'Built for peace of mind' in a subtle font. | cta: A rectangular button in the center that reads 'Book now' with a contrasting color to attract attention. | decorative_element: Various geometric shapes in soft colors that create a visually appealing background. | unknown: An unclear element in the center that may contain additional design features or text. | unknown: A small circular shape that appears to be part of the background design. | unknown: Another small circular shape similar to the previous one, contributing to the background. | logo: A small logo positioned at the top left corner, representing the brand identity. text='EamPath'"
   }
 }

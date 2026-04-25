@@ -1,0 +1,266 @@
+{
+  "creative_id": "500285",
+  "asset_file": "assets/creative_500285.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with various shapes and text elements promoting a streaming service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting exclusive new hits available for order.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Circular shape",
+      "description": "A large circular shape in the center, filled with a lighter shade of green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape in the center, slightly overlapping with the circular shape, also in a lighter shade of green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular element positioned near the bottom center, filled with a lighter green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Another small circle",
+      "description": "Another small circular element positioned slightly above the previous one, also in a lighter green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, black text reading 'Exclusive tonight New hits every week' centered in the middle of the ad.",
+      "text_content": "Exclusive tonight New hits every week",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'FluxStream' in large, bold font at the top center of the ad, colored in black.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.385,
+        0.092
+      ],
+      "area_percentage": 3.91
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom center with the text 'Order now' in bold, black font.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge at the bottom left corner displaying '-30%' in bold, black font.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        25,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.158,
+        0.848
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC' in a simple, black font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting exclusive new hits.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with decorative elements and the CTA at the bottom.",
+    "ocr_text": "Exclusive tonight New hits every week, FluxStream, Order now, -30%, UGC",
+    "elements_text": "main_subject: A large circular shape in the center, filled with a lighter shade of green. | main_subject: A rectangular shape in the center, slightly overlapping with the circular shape, also in a lighter shade of green. | decorative_element: A small circular element positioned near the bottom center, filled with a lighter green. | decorative_element: Another small circular element positioned slightly above the previous one, also in a lighter green. | headline: Bold, black text reading 'Exclusive tonight New hits every week' centered in the middle of the ad. text='Exclusive tonight New hits every week' | logo: The logo 'FluxStream' in large, bold font at the top center of the ad, colored in black. text='FluxStream' | cta: A prominent button at the bottom center with the text 'Order now' in bold, black font. text='Order now' | discount_badge: A small badge at the bottom left corner displaying '-30%' in bold, black font. text='-30%' | social_proof: A small tag at the top left corner labeled 'UGC' in a simple, black font. text='UGC'"
+  }
+}

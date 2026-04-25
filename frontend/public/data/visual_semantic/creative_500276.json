@@ -1,0 +1,194 @@
+{
+  "creative_id": "500276",
+  "asset_file": "assets/creative_500276.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear promotional message about food delivery.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a special discount.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "purple background",
+      "description": "A solid purple background that fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.756
+      ],
+      "center_normalized": [
+        0.502,
+        0.478
+      ],
+      "area_percentage": 50.22
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo featuring the text 'BiteRush' in a modern font, positioned at the top of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "two mirrors icon",
+      "description": "An icon depicting two stylized mirrors, outlined in a light color, centered within the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "additional icon",
+      "description": "A small decorative icon, possibly representing food or dining, located slightly below the center of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold white text stating 'Hungry? We got you Fresh favorites nearby 30% Order now', prominently displayed at the bottom of the banner.",
+      "text_content": "Hungry? We got you Fresh favorites nearby 30% Order now",
+      "bbox_xyxy": [
+        31,
+        308,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.642,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.502,
+        0.778
+      ],
+      "area_percentage": 22.09
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "sale announcement",
+      "description": "A bright yellow text reading 'SALE', positioned at the top right corner of the banner to attract attention.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        30,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.09
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A bold, red text indicating a 30% discount, placed at the bottom of the banner to emphasize the offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, BiteRush logo, promotional text, discount badge",
+    "layout_text": "The logo is at the top, followed by decorative elements, with the main message and CTA at the bottom.",
+    "ocr_text": "BiteRush, Hungry? We got you Fresh favorites nearby 30% Order now, SALE",
+    "elements_text": "logo: A simple logo featuring the text 'BiteRush' in a modern font, positioned at the top of the banner. | decorative_element: An icon depicting two stylized mirrors, outlined in a light color, centered within the banner. | decorative_element: A small decorative icon, possibly representing food or dining, located slightly below the center of the banner. | body_text: Bold white text stating 'Hungry? We got you Fresh favorites nearby 30% Order now', prominently displayed at the bottom of the banner. text='Hungry? We got you Fresh favorites nearby 30% Order now' | headline: A bright yellow text reading 'SALE', positioned at the top right corner of the banner to attract attention. text='BiteRush' | discount_badge: A bold, red text indicating a 30% discount, placed at the bottom of the banner to emphasize the offer. text='SALE'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500172",
+  "asset_file": "assets/creative_500172.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a green background with an app interface and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a food delivery app with a free trial offer.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area showing a simplified app interface with two icons and a background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Icon representation",
+      "description": "A circular icon with a light outline, representing a feature or function of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Additional icon",
+      "description": "Another circular icon similar to the previous one, indicating another feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Third icon",
+      "description": "A third circular icon, maintaining the same style as the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Delivery message",
+      "description": "Text in a bold font stating 'Free delivery over $15' positioned below the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Try for free' in a contrasting color, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text stating 'Hungry? We got you' that captures attention at the bottom of the ad.",
+      "text_content": "Hungry? We got you Fre Try for free",
+      "bbox_xyxy": [
+        37,
+        204,
+        290,
+        299
+      ],
+      "bbox_normalized": [
+        0.116,
+        0.637,
+        0.906,
+        0.934
+      ],
+      "center_normalized": [
+        0.511,
+        0.786
+      ],
+      "area_percentage": 23.47
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'QuickFork' displayed at the top in a clear, readable font.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        23,
+        103,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.322,
+        0.122
+      ],
+      "center_normalized": [
+        0.2,
+        0.097
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 10,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "Text labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, food delivery app, free trial offer",
+    "layout_text": "The logo is at the top, followed by the headline, body text, and CTA at the bottom.",
+    "ocr_text": "Hungry? We got you, Free delivery over $15, QuickFork, UGC, Try for free",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with two icons and a background. | icon: A circular icon with a light outline, representing a feature or function of the app. | icon: Another circular icon similar to the previous one, indicating another feature. | icon: A third circular icon, maintaining the same style as the others. | body_text: Text in a bold font stating 'Free delivery over $15' positioned below the app interface. | cta: A prominent button with the text 'Try for free' in a contrasting color, encouraging user interaction. | headline: Bold text stating 'Hungry? We got you' that captures attention at the bottom of the ad. text='Hungry? We got you Fre Try for free' | logo: The logo 'QuickFork' displayed at the top in a clear, readable font. text='QuickFork' | social_proof: Text labeled 'UGC' indicating user-generated content, positioned near the logo. text='UGC'"
+  }
+}

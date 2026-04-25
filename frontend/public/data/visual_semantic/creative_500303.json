@@ -1,0 +1,194 @@
+{
+  "creative_id": "500303",
+  "asset_file": "assets/creative_500303.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a light gray background with bold text and abstract shapes.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a financial service with a focus on clarity and ease of signup.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background that fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, rendered in a simple outline style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        115,
+        159,
+        225
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.24,
+        0.499,
+        0.47
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.6
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "additional shapes",
+      "description": "Another abstract shape, possibly a rectangle, also in outline style, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.84
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold, black text stating 'Your money, clearer' with a smaller line below it that reads 'Fast signup, instant card'.",
+      "text_content": "Your money, clearer Fast signup, instant card",
+      "bbox_xyxy": [
+        61,
+        304,
+        258,
+        389
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.633,
+        0.806,
+        0.81
+      ],
+      "center_normalized": [
+        0.498,
+        0.722
+      ],
+      "area_percentage": 10.9
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo 'VaultRun' displayed in a bold font at the top left corner, likely in black.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        24,
+        32,
+        136,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.425,
+        0.117
+      ],
+      "center_normalized": [
+        0.25,
+        0.092
+      ],
+      "area_percentage": 1.75
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A prominent button at the bottom with the text 'Watch now' in white on a dark background.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small, yellow badge at the top right corner with the word 'SALE' in bold black letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, promoting financial clarity.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "VaultRun, SALE, Your money, clearer, Fast signup, instant card, Watch now",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, rendered in a simple outline style. | unknown: Another abstract shape, possibly a rectangle, also in outline style, positioned centrally. | body_text: Bold, black text stating 'Your money, clearer' with a smaller line below it that reads 'Fast signup, instant card'. text='Your money, clearer Fast signup, instant card' | logo: The logo 'VaultRun' displayed in a bold font at the top left corner, likely in black. text='VaultRun' | cta: A prominent button at the bottom with the text 'Watch now' in white on a dark background. text='Watch now' | discount_badge: A small, yellow badge at the top right corner with the word 'SALE' in bold black letters. text='SALE'"
+  }
+}
