@@ -6,11 +6,11 @@ from pathlib import Path
 import pandas as pd
 
 # Allows running:
-#   python backend/retriver/inspect_score_index.py
+#   python backend/pipeline/step1_retrieval/created/inspect_score_index.py
 if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parents[2]))
+    sys.path.append(str(Path(__file__).resolve().parents[4]))
 
-from backend.retriver.paths import CREATIVE_RETRIEVAL_INDEX_PATH
+from backend.pipeline.step1_retrieval.created.paths import CREATIVE_RETRIEVAL_INDEX_PATH
 
 
 SCORE_COLUMNS = [

@@ -6,13 +6,13 @@ from pathlib import Path
 import pandas as pd
 
 if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parents[2]))
+    sys.path.append(str(Path(__file__).resolve().parents[4]))
 
-from backend.retriver.paths import (
+from backend.pipeline.step1_retrieval.created.paths import (
     CREATIVE_RETRIEVAL_INDEX_PATH,
     SEMANTIC_EMBEDDING_INDEX_PATH,
 )
-from backend.retriver.similarity_score import (
+from backend.pipeline.step1_retrieval.created.similarity_score import (
     load_semantic_embeddings,
     compute_semantic_similarity_for_existing_creative,
 )
