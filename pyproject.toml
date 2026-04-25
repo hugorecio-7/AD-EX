@@ -3,14 +3,28 @@ name = "hackupc-smadex"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "diffusers>=0.37.1",
+    "easyocr>=1.7.2",
     "fastapi>=0.98.0",
-    "numpy>=2.4.4",
-    "pillow>=12.2.0",
-    "torch>=2.11.0",
-    "transformers>=5.6.2",
+    "numpy>=1.26.0",
+    "pillow>=10.2.0",
+    "torch>=2.4.0",
+    "torchvision>=0.19.0",
+    "transformers>=4.40.0",
+    "ultralytics>=8.4.41",
     "uvicorn>=0.46.0",
     "vite>=1.5.2",
+    "opencv-python>=4.9.0",
+    "accelerate>=0.28.0",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu121" }
+torchvision = { index = "pytorch-cu121" }

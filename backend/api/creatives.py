@@ -1,82 +1,67 @@
+"""
+API Router — /api/creatives/*
+
+  GET  /api/creatives/evaluate/{creative_id}  — score an existing creative
+  POST /api/creatives/{creative_id}/upgrade   — run full AI upgrade pipeline
+"""
 import os
 from fastapi import APIRouter, HTTPException, Request
-from PIL import Image
-from performance_prediction import evaluate_new_creative
-from generate.helpers import create_center_mask, composite_images
+from pipeline.step3_generation.core import evaluate_new_creative
+from pipeline.step4_persistence.core import compute_static_performance_score, get_creative_by_id
+from pipeline.ai_engine import generate_ai_variant_real
 
 router = APIRouter()
 
+
 @router.get("/evaluate/{creative_id}")
-async def evaluate_creative(creative_id: str, format: str = None, theme: str = None, hook: str = None):
-    results = await evaluate_new_creative(format, theme, hook, "simulated logic")
+async def evaluate_creative(
+    creative_id: str,
+    format: str = None,
+    theme: str = None,
+    hook: str = None,
+):
+    """Return performance metrics for an existing creative."""
+    results = await evaluate_new_creative(format, theme, hook, creative_id)
     return {
         "status": "success",
         "creative_id": creative_id,
         "metrics": results,
-        "ai_reasoning": f"Backend successfully computed a score of {results['performance_score']} using PixelForge Neural Engine."
+        "ai_reasoning": (
+            f"PixelForge Neural Engine computed a score of "
+            f"{results['performance_score']} with predicted uplift {results['predicted_uplift']}."
+        ),
     }
+
 
 @router.post("/{creative_id}/upgrade")
 async def upgrade_creative(creative_id: str, request: Request):
     """
-    The endpoint your React app calls when the user clicks 'Fix with AI'.
+    Full AI upgrade pipeline:
+      SAM mask → SD inpainting → composite → persist → return result.
     """
+    # Fetch metadata from the database so the pipeline has context
+    metadata = get_creative_by_id(creative_id)
+    if metadata is None:
+        # Graceful fallback — pipeline can still run with empty metadata
+        metadata = {"id": creative_id}
+
+    # Grab the shared SD pipe from app state (set in main.py)
+    pipe = getattr(request.app.state, "pipe", None)
+
     try:
-        # Access the shared diffusion pipe from app state
-        pipe = request.app.state.pipe
-        
-        # 1. Load the original image
-        # Assuming images are in a folder called 'assets' in the project root or backend
-        image_path = f"assets/{creative_id}.png"
-        if not os.path.exists(image_path):
-            # Try a different path if common
-            image_path = f"../frontend/public/assets/{creative_id}.png"
-            if not os.path.exists(image_path):
-                raise HTTPException(status_code=404, detail=f"Original creative not found at {image_path}")
-            
-        original_image = Image.open(image_path).convert("RGB")
-        
-        # Resize for faster generation during hackathon (512x512 is standard for SD)
-        orig_size = original_image.size
-        working_image = original_image.resize((512, 512))
-        
-        # 2. Create the Mask (Protecting the text)
-        mask_image = create_center_mask(working_image)
-        
-        # 3. Generate new content using Diffusion!
-        # Injecting insights from your clustering here
-        prompt = "high quality 3d rendered golden treasure chests, bright lighting, highly detailed, centered composition"
-        negative_prompt = "text, watermark, ugly, blurry, distorted"
-        
-        print(f"Running diffusion for {creative_id}... hold on tight.")
-        result = pipe(
-            prompt=prompt,
-            negative_prompt=negative_prompt,
-            image=working_image,
-            mask_image=mask_image,
-            num_inference_steps=20, # Lower steps = faster generation for demo
-            guidance_scale=7.5
-        ).images[0]
-        
-        # 4. Flawless Compositing (Put the exact text back)
-        final_image = composite_images(working_image, result, mask_image)
-        
-        # Resize back to original dimensions
-        final_image = final_image.resize(orig_size)
-        
-        # 5. Save the upgraded image
-        output_filename = f"{creative_id}_upgraded.png"
-        # Ensure 'assets' directory exists
-        os.makedirs("assets", exist_ok=True)
-        output_path = f"assets/{output_filename}"
-        final_image.save(output_path)
-        
-        return {
-            "success": True,
-            "newImageUrl": f"http://localhost:8000/assets/{output_filename}",
-            "aiReasoning": "Injected 3D treasure chests to increase contrast and engagement based on cluster top-performers."
-        }
-        
-    except Exception as e:
-        print(f"Error during upgrade: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        result = await generate_ai_variant_real(
+            creative_id=creative_id,
+            format_type=metadata.get("format", ""),
+            metadata=metadata,
+            pipe=pipe,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except Exception as exc:
+        print(f"[API] Error upgrading {creative_id}: {exc}")
+        raise HTTPException(status_code=500, detail=str(exc))
+
+    return {
+        "success": True,
+        **result,
+    }
