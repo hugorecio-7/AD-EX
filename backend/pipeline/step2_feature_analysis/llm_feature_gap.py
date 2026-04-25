@@ -43,6 +43,17 @@ FRONTEND_SEMANTIC_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "visual
 
 FRONTEND_ASSETS_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "assets"
 
+TEXTUAL_ROLES = {
+    "headline",
+    "body_text",
+    "price",
+    "discount_badge",
+    "rating",
+    "social_proof",
+    "logo",
+    "cta",
+}
+
 
 def encode_image(image_path: Path) -> str:
     with open(image_path, "rb") as image_file:
@@ -98,25 +109,51 @@ def _summarize_creative(data: dict) -> str:
         "Visual Elements:",
     ]
 
-    SKIP_ROLES = {"background", "unknown"}
+    SKIP_ROLES = {"background", "unknown", *TEXTUAL_ROLES}
     for e in elements:
         role = e.get("role", "unknown")
         if role in SKIP_ROLES:
             continue
         desc = e.get("description", "")
         label = e.get("label", "")
-        text = e.get("text_content", "")
         line = f"  [{role}] {label}"
         if desc:
             line += f" — {desc}"
-        if text:
-            line += f" (text: '{text}')"
         lines.append(line)
 
     if embedding.get("layout_text"):
         lines += ["", f"Layout: {embedding['layout_text']}"]
 
     return "\n".join(lines)
+
+
+def _remove_textual_information(data: dict[str, Any]) -> dict[str, Any]:
+    """Keep only non-textual visual context for LLM comparison."""
+    cleaned: dict[str, Any] = {
+        "creative_id": data.get("creative_id"),
+        "global": dict(data.get("global", {})),
+        "elements": [],
+        "embedding_texts": {},
+    }
+
+    for element in data.get("elements", []):
+        if not isinstance(element, dict):
+            continue
+        role = str(element.get("role", "unknown")).lower()
+        if role in TEXTUAL_ROLES:
+            continue
+
+        kept = {k: v for k, v in element.items() if k not in {"text_content", "ocr_text"}}
+        cleaned["elements"].append(kept)
+
+    if isinstance(data.get("embedding_texts"), dict):
+        embedding = dict(data["embedding_texts"])
+        embedding.pop("copy_text", None)
+        embedding.pop("headline_text", None)
+        embedding.pop("cta_text", None)
+        cleaned["embedding_texts"] = embedding
+
+    return cleaned
 
 
 # ── Core LLM call ─────────────────────────────────────────────────────────────
@@ -146,6 +183,8 @@ def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max
     if not query_json:
         print(f"[LLMGap] No semantic JSON for query {query_creative_id}.")
         return {"missing_visual_features": _visual_fallback(), "query_id": query_creative_id, "top_ids_used": []}
+
+    query_json_no_text = _remove_textual_information(query_json)
 
     query_img_path = FRONTEND_ASSETS_DIR / f"creative_{query_creative_id}.png"
 

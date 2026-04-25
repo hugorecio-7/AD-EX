@@ -128,7 +128,6 @@ def inspect_score_index() -> None:
         "overall_cvr",
         "overall_ipm",
         "overall_roas",
-        "perf_score",
         "performance_score_final",
         "asset_file",
     ]
