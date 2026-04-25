@@ -9,11 +9,11 @@ from image_generation import generate_creative_with_flux
 from performance_prediction import predict_performance_uplift
 from db_storage import store_new_creative
 
-def generate_ai_variant_real(creative_id, format_type, theme, hook):
+def generate_ai_variant_real(creative_id, format_type, metadata):
     time_s = time.time()
 
     # 1. Retrieve top cases
-    top_cases = get_best_creatives(creative_id, format_type, theme, hook)
+    top_cases = get_best_creatives(creative_id, format_type, metadata)
     
     # 2. Get the explanations 
     explanations = [n.explain() for n in top_cases]
@@ -24,7 +24,7 @@ def generate_ai_variant_real(creative_id, format_type, theme, hook):
     async def async_pipeline():
         async def generation_and_prediction():
             # 4. Generate the new creative using the missing features as a prompt
-            new_file = await generate_creative_with_flux(format_type, theme, hook, missing_features)
+            new_file = await generate_creative_with_flux(creative_id, metadata, missing_features)
             
             # 5. Predict the performance uplift based on historical data of similar cases
             uplift = await predict_performance_uplift(missing_features, creative_id)
@@ -57,7 +57,7 @@ def generate_ai_variant_real(creative_id, format_type, theme, hook):
     }
     return result
 
-def generate_ai_variant(creative_id, format_type, theme, hook):
+def generate_ai_variant(creative_id, format_type, metadata):
     """
     Mock AI Generation script.
     In a real scenario, this would call Flux/Stable Diffusion/DALL-E
