@@ -1,0 +1,268 @@
+{
+  "creative_id": "500005",
+  "asset_file": "assets/creative_500005.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'PixelForge' logo positioned at the top left. The main subject is highlighted by a bold headline 'Beat your rivals' and supporting body text 'Free rewards for new players' centrally placed. A prominent 'Shop now' call-to-action button is located at the bottom center. Decorative elements showcasing game visuals are strategically placed to enhance the theme.",
+    "visual_style": "Vibrant and engaging design with a focus on gaming elements.",
+    "main_message": "Encouragement to engage with the game through rewards and competition.",
+    "dominant_colors": [
+      "blue",
+      "green",
+      "white"
+    ],
+    "emotional_tone": "Excitement and motivation"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge text logo",
+      "description": "The logo of the app, positioned at the top left corner of the crop.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Beat your rivals",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        437
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.683
+      ],
+      "center_normalized": [
+        0.5,
+        0.661
+      ],
+      "area_percentage": 3.33
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        437,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.683,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.705
+      ],
+      "area_percentage": 3.45
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button with the text 'Shop now' positioned towards the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Play symbol",
+      "description": "A right-facing triangle icon indicating play or action, located in the upper right corner of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.239,
+        0.947,
+        0.317
+      ],
+      "center_normalized": [
+        0.911,
+        0.278
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop of game elements",
+      "description": "A crop showing two circular game elements on a blue background, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        156,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.244,
+        0.319,
+        0.491
+      ],
+      "center_normalized": [
+        0.208,
+        0.367
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A small blue square with a circular shape inside, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A cropped section showing a blue square with a dark circle, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.38,
+        0.319,
+        0.491
+      ],
+      "center_normalized": [
+        0.208,
+        0.435
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Segmented crop from ad",
+      "description": "A cropped section of the ad showing a blue background with a circular shape and a rectangular area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.592,
+        0.489
+      ],
+      "center_normalized": [
+        0.481,
+        0.434
+      ],
+      "area_percentage": 2.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for PixelForge Legends promoting gameplay and rewards.",
+    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Beat your rivals\". body_text: Body text, small, located at center, text: \"Free rewards for new players\". cta: Call to Action Button, small, located at bottom center, text: \"Shop now\". icon: Play symbol, tiny, located at middle right. decorative_element: Segmented crop of game elements, medium, located at middle left. decorative_element: Segmented crop of a game element, small, located at center. decorative_element: Segmented crop of a game element, small, located at middle left. decorative_element: Segmented crop from ad, small, located at center.",
+    "ocr_text": "PixelForge Beat your rivals Free rewards for new players Shop now",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.119, 0.639, 0.881, 0.683]. body_text Body text at center, bbox=[0.119, 0.683, 0.881, 0.728]. cta Call to Action Button at bottom center, bbox=[0.35, 0.875, 0.644, 0.912]. icon Play symbol at middle right, bbox=[0.875, 0.239, 0.947, 0.317]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Beat your rivals\" | bbox_xyxy=[43, 409, 317, 437] | bbox_norm=[0.119, 0.639, 0.881, 0.683] | center=[0.5, 0.661] | area_pct=3.33\nid=4 | role=body_text | label=Body text | text=\"Free rewards for new players\" | bbox_xyxy=[43, 437, 317, 466] | bbox_norm=[0.119, 0.683, 0.881, 0.728] | center=[0.5, 0.705] | area_pct=3.45\nid=5 | role=cta | label=Call to Action Button | text=\"Shop now\" | bbox_xyxy=[126, 560, 232, 584] | bbox_norm=[0.35, 0.875, 0.644, 0.912] | center=[0.497, 0.894] | area_pct=1.1\nid=6 | role=icon | label=Play symbol | text=<none> | bbox_xyxy=[315, 153, 341, 203] | bbox_norm=[0.875, 0.239, 0.947, 0.317] | center=[0.911, 0.278] | area_pct=0.56\nid=7 | role=decorative_element | label=Segmented crop of game elements | text=<none> | bbox_xyxy=[35, 156, 115, 314] | bbox_norm=[0.097, 0.244, 0.319, 0.491] | center=[0.208, 0.367] | area_pct=5.49\nid=8 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[133, 153, 213, 224] | bbox_norm=[0.369, 0.239, 0.592, 0.35] | center=[0.481, 0.295] | area_pct=2.47\nid=9 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[35, 243, 115, 314] | bbox_norm=[0.097, 0.38, 0.319, 0.491] | center=[0.208, 0.435] | area_pct=2.47\nid=10 | role=decorative_element | label=Segmented crop from ad | text=<none> | bbox_xyxy=[133, 243, 213, 313] | bbox_norm=[0.369, 0.38, 0.592, 0.489] | center=[0.481, 0.434] | area_pct=2.43"
+  }
+}

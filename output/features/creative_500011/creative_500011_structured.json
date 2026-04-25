@@ -1,0 +1,219 @@
+{
+  "creative_id": "500011",
+  "asset_file": "assets/creative_500011.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with a prominent VantaStyle logo positioned in the top left. The central focus is on the headline 'Flash sale live' and the body text 'Free shipping over $25', both centered for visibility. A call-to-action button 'Start now' is located at the bottom center. Decorative elements enhance the visual appeal without overwhelming the main message.",
+    "visual_style": "Modern flat design with vibrant colors",
+    "main_message": "Promoting a flash sale with free shipping on orders over $25.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Urgent and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle text logo",
+      "description": "The brand name 'VantaStyle' displayed prominently at the top left corner of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.113
+      ],
+      "center_normalized": [
+        0.242,
+        0.094
+      ],
+      "area_percentage": 1.27
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Flash sale live",
+      "bbox_xyxy": [
+        57,
+        409,
+        305,
+        437
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.639,
+        0.847,
+        0.683
+      ],
+      "center_normalized": [
+        0.503,
+        0.661
+      ],
+      "area_percentage": 3.01
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "Free shipping over $25",
+      "bbox_xyxy": [
+        57,
+        437,
+        305,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.683,
+        0.847,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.705
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button with action text located at the bottom of the ad crop.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Two rectangular shapes with diagonal lines, positioned in the upper left section of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.309,
+        0.544,
+        0.489
+      ],
+      "center_normalized": [
+        0.357,
+        0.399
+      ],
+      "area_percentage": 6.74
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop of a design element",
+      "description": "A segmented crop showing a rectangular shape with a diagonal line, likely part of a design element in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.309,
+        0.544,
+        0.489
+      ],
+      "center_normalized": [
+        0.457,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop of a decorative element",
+      "description": "A blue rectangular shape with a diagonal line, likely part of the background or design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.281,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.14
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for VantaStyle Drops promoting a flash sale with free shipping.",
+    "elements_text": "background: full canvas background. logo: VantaStyle text logo, small, located at top left, text: \"VantaStyle\". headline: Headline text, small, located at center, text: \"Flash sale live\". body_text: Body text, small, located at center, text: \"Free shipping over $25\". cta: Call to Action Button, tiny, located at bottom center, text: \"Start now\". decorative_element: Decorative shapes, medium, located at center. decorative_element: Segmented crop of a design element, small, located at center. decorative_element: Segmented crop of a decorative element, small, located at middle left.",
+    "ocr_text": "VantaStyle Flash sale live Free shipping over $25 Start now",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo VantaStyle text logo at top left, bbox=[0.072, 0.075, 0.411, 0.113]. headline Headline text at center, bbox=[0.158, 0.639, 0.847, 0.683]. body_text Body text at center, bbox=[0.158, 0.683, 0.847, 0.728]. cta Call to Action Button at bottom center, bbox=[0.353, 0.877, 0.647, 0.908]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=VantaStyle text logo | text=\"VantaStyle\" | bbox_xyxy=[26, 48, 148, 72] | bbox_norm=[0.072, 0.075, 0.411, 0.113] | center=[0.242, 0.094] | area_pct=1.27\nid=3 | role=headline | label=Headline text | text=\"Flash sale live\" | bbox_xyxy=[57, 409, 305, 437] | bbox_norm=[0.158, 0.639, 0.847, 0.683] | center=[0.503, 0.661] | area_pct=3.01\nid=4 | role=body_text | label=Body text | text=\"Free shipping over $25\" | bbox_xyxy=[57, 437, 305, 466] | bbox_norm=[0.158, 0.683, 0.847, 0.728] | center=[0.503, 0.705] | area_pct=3.12\nid=5 | role=cta | label=Call to Action Button | text=\"Start now\" | bbox_xyxy=[127, 561, 233, 581] | bbox_norm=[0.353, 0.877, 0.647, 0.908] | center=[0.5, 0.892] | area_pct=0.92\nid=6 | role=decorative_element | label=Decorative shapes | text=<none> | bbox_xyxy=[61, 198, 196, 313] | bbox_norm=[0.169, 0.309, 0.544, 0.489] | center=[0.357, 0.399] | area_pct=6.74\nid=7 | role=decorative_element | label=Segmented crop of a design element | text=<none> | bbox_xyxy=[133, 198, 196, 313] | bbox_norm=[0.369, 0.309, 0.544, 0.489] | center=[0.457, 0.399] | area_pct=3.14\nid=8 | role=decorative_element | label=Segmented crop of a decorative element | text=<none> | bbox_xyxy=[54, 180, 118, 293] | bbox_norm=[0.15, 0.281, 0.328, 0.458] | center=[0.239, 0.37] | area_pct=3.14"
+  }
+}

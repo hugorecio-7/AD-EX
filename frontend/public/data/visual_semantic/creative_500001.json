@@ -1,0 +1,268 @@
+{
+  "creative_id": "500001",
+  "asset_file": "assets/creative_500001.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'PixelForge' logo positioned at the top left. The main subject includes a prominent headline 'Beat your rivals' and supporting body text 'No ads in first week' centered in the middle. A 'Claim reward' button is located at the bottom center, encouraging user interaction. Decorative elements enhance the visual appeal without distracting from the main message.",
+    "visual_style": "Modern design with vibrant colors and clear typography",
+    "main_message": "Encouragement to engage with the game by highlighting a promotional offer.",
+    "dominant_colors": [
+      "blue",
+      "white",
+      "black"
+    ],
+    "emotional_tone": "Competitive and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge text logo",
+      "description": "The logo of the app 'PixelForge' displayed in the top left corner of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Beat your rivals",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        436
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.681
+      ],
+      "center_normalized": [
+        0.5,
+        0.66
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "No ads in first week",
+      "bbox_xyxy": [
+        43,
+        436,
+        317,
+        463
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.681,
+        0.881,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.702
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button with the text 'Claim reward' positioned at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Play symbol",
+      "description": "A right-pointing triangle icon, indicating an action or play feature, located on the right side of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.239,
+        0.95,
+        0.317
+      ],
+      "center_normalized": [
+        0.912,
+        0.278
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue rectangle with a circular shape inside, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        225
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.239,
+        0.592,
+        0.352
+      ],
+      "center_normalized": [
+        0.479,
+        0.295
+      ],
+      "area_percentage": 2.53
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue square with a dark blue circle in the upper left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.239,
+        0.319,
+        0.35
+      ],
+      "center_normalized": [
+        0.208,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue square with a dark blue circle in the upper left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.38,
+        0.319,
+        0.489
+      ],
+      "center_normalized": [
+        0.208,
+        0.434
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Segmented crop of a blue shape",
+      "description": "A small blue shape with a dark circle, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.589,
+        0.489
+      ],
+      "center_normalized": [
+        0.479,
+        0.434
+      ],
+      "area_percentage": 2.4
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for PixelForge Legends promoting engagement with a competitive theme.",
+    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Beat your rivals\". body_text: Body text, small, located at center, text: \"No ads in first week\". cta: Claim reward button, small, located at bottom center, text: \"Claim reward\". icon: Play symbol, tiny, located at middle right. decorative_element: Segmented crop, small, located at center. decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop of a blue shape, small, located at center.",
+    "ocr_text": "PixelForge Beat your rivals No ads in first week Claim reward",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.119, 0.639, 0.881, 0.681]. body_text Body text at center, bbox=[0.119, 0.681, 0.881, 0.723]. cta Claim reward button at bottom center, bbox=[0.308, 0.877, 0.686, 0.908]. icon Play symbol at middle right, bbox=[0.875, 0.239, 0.95, 0.317]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Beat your rivals\" | bbox_xyxy=[43, 409, 317, 436] | bbox_norm=[0.119, 0.639, 0.881, 0.681] | center=[0.5, 0.66] | area_pct=3.21\nid=4 | role=body_text | label=Body text | text=\"No ads in first week\" | bbox_xyxy=[43, 436, 317, 463] | bbox_norm=[0.119, 0.681, 0.881, 0.723] | center=[0.5, 0.702] | area_pct=3.21\nid=5 | role=cta | label=Claim reward button | text=\"Claim reward\" | bbox_xyxy=[111, 561, 247, 581] | bbox_norm=[0.308, 0.877, 0.686, 0.908] | center=[0.497, 0.892] | area_pct=1.18\nid=6 | role=icon | label=Play symbol | text=<none> | bbox_xyxy=[315, 153, 342, 203] | bbox_norm=[0.875, 0.239, 0.95, 0.317] | center=[0.912, 0.278] | area_pct=0.59\nid=7 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[132, 153, 213, 225] | bbox_norm=[0.367, 0.239, 0.592, 0.352] | center=[0.479, 0.295] | area_pct=2.53\nid=8 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 153, 115, 224] | bbox_norm=[0.097, 0.239, 0.319, 0.35] | center=[0.208, 0.295] | area_pct=2.47\nid=9 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 243, 115, 313] | bbox_norm=[0.097, 0.38, 0.319, 0.489] | center=[0.208, 0.434] | area_pct=2.43\nid=10 | role=decorative_element | label=Segmented crop of a blue shape | text=<none> | bbox_xyxy=[133, 243, 212, 313] | bbox_norm=[0.369, 0.38, 0.589, 0.489] | center=[0.479, 0.434] | area_pct=2.4"
+  }
+}

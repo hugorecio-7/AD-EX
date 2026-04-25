@@ -1,0 +1,244 @@
+{
+  "creative_id": "500004",
+  "asset_file": "assets/creative_500004.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with a prominent 'PixelForge' logo positioned at the top left. The main subject is highlighted by a central headline 'Level up today' and supporting body text 'Free rewards for new players' below it. A call-to-action button 'Get offer' is located at the bottom center. Decorative elements showcasing game graphics are strategically placed on the left and center, enhancing the visual appeal.",
+    "visual_style": "Vibrant and engaging with a focus on game elements",
+    "main_message": "Encouragement for new players to join and claim rewards",
+    "dominant_colors": [
+      "blue",
+      "green",
+      "white"
+    ],
+    "emotional_tone": "Exciting and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge text logo",
+      "description": "The logo of the app, displayed prominently at the top left of the crop.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Level up today",
+      "bbox_xyxy": [
+        52,
+        406,
+        308,
+        436
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.634,
+        0.856,
+        0.681
+      ],
+      "center_normalized": [
+        0.5,
+        0.658
+      ],
+      "area_percentage": 3.33
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "Free rewards for new players",
+      "bbox_xyxy": [
+        52,
+        436,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.681,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.705
+      ],
+      "area_percentage": 3.33
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button with the text 'Get offer' positioned at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Segmented crop of game elements",
+      "description": "A crop showing two game elements with circular shapes on a purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        156,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.244,
+        0.319,
+        0.491
+      ],
+      "center_normalized": [
+        0.208,
+        0.367
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small, abstract graphic element featuring a circular shape within a grid layout, located in the upper left corner of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop element",
+      "description": "A small circular shape in a purple background, likely part of a grid or game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.38,
+        0.319,
+        0.491
+      ],
+      "center_normalized": [
+        0.208,
+        0.435
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small circular shape in a grid layout, possibly part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.239,
+        0.319,
+        0.348
+      ],
+      "center_normalized": [
+        0.208,
+        0.294
+      ],
+      "area_percentage": 2.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for PixelForge Legends promoting rewards for new players.",
+    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Level up today\". body_text: Body text, small, located at center, text: \"Free rewards for new players\". cta: Call to Action Button, tiny, located at bottom center, text: \"Get offer\". decorative_element: Segmented crop of game elements, medium, located at middle left. decorative_element: Segmented crop, small, located at center. decorative_element: Segmented crop element, small, located at middle left. decorative_element: Segmented crop, small, located at middle left.",
+    "ocr_text": "PixelForge Level up today Free rewards for new players Get offer",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.144, 0.634, 0.856, 0.681]. body_text Body text at center, bbox=[0.144, 0.681, 0.856, 0.728]. cta Call to Action Button at bottom center, bbox=[0.369, 0.877, 0.631, 0.908]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Level up today\" | bbox_xyxy=[52, 406, 308, 436] | bbox_norm=[0.144, 0.634, 0.856, 0.681] | center=[0.5, 0.658] | area_pct=3.33\nid=4 | role=body_text | label=Body text | text=\"Free rewards for new players\" | bbox_xyxy=[52, 436, 308, 466] | bbox_norm=[0.144, 0.681, 0.856, 0.728] | center=[0.5, 0.705] | area_pct=3.33\nid=5 | role=cta | label=Call to Action Button | text=\"Get offer\" | bbox_xyxy=[133, 561, 227, 581] | bbox_norm=[0.369, 0.877, 0.631, 0.908] | center=[0.5, 0.892] | area_pct=0.82\nid=6 | role=decorative_element | label=Segmented crop of game elements | text=<none> | bbox_xyxy=[35, 156, 115, 314] | bbox_norm=[0.097, 0.244, 0.319, 0.491] | center=[0.208, 0.367] | area_pct=5.49\nid=7 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[133, 153, 213, 224] | bbox_norm=[0.369, 0.239, 0.592, 0.35] | center=[0.481, 0.295] | area_pct=2.47\nid=8 | role=decorative_element | label=Segmented crop element | text=<none> | bbox_xyxy=[35, 243, 115, 314] | bbox_norm=[0.097, 0.38, 0.319, 0.491] | center=[0.208, 0.435] | area_pct=2.47\nid=9 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 153, 115, 223] | bbox_norm=[0.097, 0.239, 0.319, 0.348] | center=[0.208, 0.294] | area_pct=2.43"
+  }
+}

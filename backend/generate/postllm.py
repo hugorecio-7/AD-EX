@@ -563,7 +563,7 @@ Return ONLY a valid JSON object in English, matching this EXACT structure:
     "description": "A concise literal description of the entire ad layout and composition.",
     "visual_style": "Concise visual style, for example: Flat design with high contrast",
     "main_message": "The core marketing message",
-    "dominant_colors": ["color1", "color2"],
+    "dominant_colors": ["color1"], "simple color names such as blue, purple, white, yellow, black.",
     "emotional_tone": "The psychological feeling of the ad"
   }},
   "embedding_texts": {{
@@ -661,6 +661,28 @@ def main():
     if not creative_data and feature_data.get("global_description"):
         creative_data = {"global_description": feature_data["global_description"]}
     final_elements = postprocess_elements_for_similarity(raw_elements, creative_data, img_w, img_h)
+
+    # =========================================================
+    # FILTRE D'ELEMENTS: Eliminar decoratius/desconeguts petits
+    # =========================================================
+    MIN_DECORATIVE_AREA_PCT = 1.0  # Pots ajustar aquest percentatge (ex: 1.0%)
+    
+    important = []
+    decorative = []
+    
+    for e in final_elements:
+        role = e.get("role", "unknown")
+        area = e.get("area_percentage", 0)
+        
+        if role in {"decorative_element", "unknown"}:
+            if area >= MIN_DECORATIVE_AREA_PCT:
+                decorative.append(e)
+        else:
+            important.append(e)
+            
+    # Sobreescrivim la llista d'elements només amb els que han passat el filtre
+    final_elements = important + decorative
+    # =========================================================
 
     print("📝 Generant global description i textos per embeddings...")
     global_data = generate_global_and_embeddings(creative_data, final_elements)

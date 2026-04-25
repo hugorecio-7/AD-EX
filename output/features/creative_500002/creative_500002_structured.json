@@ -1,0 +1,292 @@
+{
+  "creative_id": "500002",
+  "asset_file": "assets/creative_500002.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'PixelForge' logo positioned in the top left. The main message is conveyed through a prominent headline 'Win epic rewards' and supporting body text 'No ads in first week', both centered in the middle of the ad. A call-to-action button labeled 'Claim reward' is located at the bottom center. A 'BONUS' badge is placed in the top right corner, enhancing the promotional aspect. Decorative segmented crops are used throughout the ad to add visual interest.",
+    "visual_style": "Vibrant design with bold typography",
+    "main_message": "Encouragement to claim rewards with a promotional offer",
+    "dominant_colors": [
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "emotional_tone": "Excitement and urgency"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge text logo",
+      "description": "The logo of the app 'PixelForge' displayed in the top left corner of the crop.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Win epic rewards",
+      "bbox_xyxy": [
+        34,
+        405,
+        331,
+        434
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.633,
+        0.919,
+        0.678
+      ],
+      "center_normalized": [
+        0.507,
+        0.655
+      ],
+      "area_percentage": 3.74
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "No ads in first week",
+      "bbox_xyxy": [
+        34,
+        434,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.678,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.507,
+        0.701
+      ],
+      "area_percentage": 3.74
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button with the text 'Claim reward' positioned at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Bonus Badge",
+      "description": "A yellow badge with the word 'BONUS' prominently displayed, located in the upper right corner of the ad.",
+      "text_content": "BONUS",
+      "bbox_xyxy": [
+        263,
+        47,
+        331,
+        67
+      ],
+      "bbox_normalized": [
+        0.731,
+        0.073,
+        0.919,
+        0.105
+      ],
+      "center_normalized": [
+        0.825,
+        0.089
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue square with a dark blue circle in the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.239,
+        0.319,
+        0.35
+      ],
+      "center_normalized": [
+        0.208,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue rectangle with a circular shape inside, likely part of a larger design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.589,
+        0.35
+      ],
+      "center_normalized": [
+        0.479,
+        0.295
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue rectangle with a circular shape inside it, likely part of a larger design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.38,
+        0.319,
+        0.489
+      ],
+      "center_normalized": [
+        0.208,
+        0.434
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A small blue square with a dark blue circle inside, likely part of a larger design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.589,
+        0.489
+      ],
+      "center_normalized": [
+        0.479,
+        0.434
+      ],
+      "area_percentage": 2.4
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top corner segment",
+      "description": "A small blue segment in the top corner of the ad, featuring a gradient design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.181,
+        0.133,
+        0.295
+      ],
+      "center_normalized": [
+        0.067,
+        0.238
+      ],
+      "area_percentage": 1.52
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for PixelForge Legends promoting rewards and a no-ads offer.",
+    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Win epic rewards\". body_text: Body text, small, located at center, text: \"No ads in first week\". cta: Claim reward button, small, located at bottom center, text: \"Claim reward\". discount_badge: Bonus Badge, tiny, located at top right, text: \"BONUS\". decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop, small, located at center. decorative_element: Segmented crop, small, located at middle left. decorative_element: Segmented crop, small, located at center. unknown: Top corner segment, small, located at top left.",
+    "ocr_text": "PixelForge Win epic rewards No ads in first week Claim reward BONUS",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.094, 0.633, 0.919, 0.678]. body_text Body text at center, bbox=[0.094, 0.678, 0.919, 0.723]. cta Claim reward button at bottom center, bbox=[0.308, 0.877, 0.686, 0.908]. discount_badge Bonus Badge at top right, bbox=[0.731, 0.073, 0.919, 0.105]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Win epic rewards\" | bbox_xyxy=[34, 405, 331, 434] | bbox_norm=[0.094, 0.633, 0.919, 0.678] | center=[0.507, 0.655] | area_pct=3.74\nid=4 | role=body_text | label=Body text | text=\"No ads in first week\" | bbox_xyxy=[34, 434, 331, 463] | bbox_norm=[0.094, 0.678, 0.919, 0.723] | center=[0.507, 0.701] | area_pct=3.74\nid=5 | role=cta | label=Claim reward button | text=\"Claim reward\" | bbox_xyxy=[111, 561, 247, 581] | bbox_norm=[0.308, 0.877, 0.686, 0.908] | center=[0.497, 0.892] | area_pct=1.18\nid=6 | role=discount_badge | label=Bonus Badge | text=\"BONUS\" | bbox_xyxy=[263, 47, 331, 67] | bbox_norm=[0.731, 0.073, 0.919, 0.105] | center=[0.825, 0.089] | area_pct=0.59\nid=7 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 153, 115, 224] | bbox_norm=[0.097, 0.239, 0.319, 0.35] | center=[0.208, 0.295] | area_pct=2.47\nid=8 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[133, 153, 212, 224] | bbox_norm=[0.369, 0.239, 0.589, 0.35] | center=[0.479, 0.295] | area_pct=2.43\nid=9 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 243, 115, 313] | bbox_norm=[0.097, 0.38, 0.319, 0.489] | center=[0.208, 0.434] | area_pct=2.43\nid=10 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[133, 243, 212, 313] | bbox_norm=[0.369, 0.38, 0.589, 0.489] | center=[0.479, 0.434] | area_pct=2.4\nid=11 | role=unknown | label=Top corner segment | text=<none> | bbox_xyxy=[0, 116, 48, 189] | bbox_norm=[0.0, 0.181, 0.133, 0.295] | center=[0.067, 0.238] | area_pct=1.52"
+  }
+}

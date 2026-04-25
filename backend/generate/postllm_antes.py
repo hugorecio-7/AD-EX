@@ -25,12 +25,12 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 def resolve_model_name(raw_model):
     model = (raw_model or "").strip()
     if not model:
-        return "gpt-4o"
+        return "gpt-4o-mini"
 
     # Normalize common casing mistakes from .env (e.g., gpt-4O-mini).
     return model.lower()
 
-OPENAI_MODEL_NAME = resolve_model_name(os.environ.get("OPENAI_MODEL", "gpt-4o"))
+OPENAI_MODEL_NAME = resolve_model_name(os.environ.get("OPENAI_MODEL", "gpt-4o-mini"))
 
 # ID de l'anunci
 if len(sys.argv) > 1:
@@ -717,7 +717,7 @@ Return ONLY a valid JSON object in English, matching this EXACT structure:
     "description": "A concise literal description of the entire ad layout and composition."    
     "visual_style": "Concise visual style (e.g. 'Flat design with high contrast')",
     "main_message": "The core marketing message",
-    "dominant_colors": ["color1", "color2"],
+    "dominant_colors": ["color1"],
     "emotional_tone": "The psychological feeling of the ad"
   }},
   "embedding_texts": {{
