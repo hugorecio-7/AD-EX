@@ -25,11 +25,18 @@ import os
 import base64
 from pathlib import Path
 from typing import Any
+from dotenv import load_dotenv
 
 # ── Path resolution ────────────────────────────────────────────────────────────
 _THIS_DIR = Path(__file__).resolve().parent            # step2_feature_analysis
 _BACKEND_DIR = _THIS_DIR.parent.parent                 # backend
 _PROJECT_ROOT = _BACKEND_DIR.parent                    # repo root
+
+# Load environment variables
+env_path = _PROJECT_ROOT / ".env"
+backend_env_path = _BACKEND_DIR / ".env"
+load_dotenv(dotenv_path=env_path)
+load_dotenv(dotenv_path=backend_env_path, override=True)
 
 OUTPUT_FEATURES_DIR = _PROJECT_ROOT / "output" / "features"
 FRONTEND_SEMANTIC_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "visual_semantic"
@@ -115,98 +122,163 @@ def _summarize_creative(data: dict) -> str:
 # ── Core LLM call ─────────────────────────────────────────────────────────────
 
 def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max_features: int = 5) -> dict:
+    """
+    Calls GPT-4o Vision to identify what VISUAL BACKGROUND features the top
+    performers have that the original is missing.
+
+    Key framing: we are inpainting the BACKGROUND only. Text, CTA, and logo
+    regions are masked and will NOT be changed. So we only care about:
+      - Background colors, gradients, textures, atmospheres
+      - Lighting, glow effects, bokeh, particles
+      - Non-text decorative elements (shapes, patterns, overlays)
+      - Overall visual mood and depth
+
+    Output: SD-compatible prompt fragments, e.g.:
+      "deep cobalt blue radial gradient background"
+      "scattered golden hexagon shapes with soft glow"
+      "cinematic warm light rays from upper right"
+    """
     client = _get_client()
     model = os.environ.get("OPENAI_MODEL", "gpt-4o")
 
-    # 1. Carregar JSON i Imatge de l'Original
+    # 1. Load query creative JSON + image
     query_json = _load_semantic(query_creative_id)
     if not query_json:
-        print(f"[LLMGap] No s'ha trobat el JSON de l'original {query_creative_id}.")
-        return {"missing_visual_features": _visual_fallback(), "reasoning": "Missing original JSON", "query_id": query_creative_id, "top_ids_used": []}
+        print(f"[LLMGap] No semantic JSON for query {query_creative_id}.")
+        return {"missing_visual_features": _visual_fallback(), "query_id": query_creative_id, "top_ids_used": []}
 
     query_img_path = FRONTEND_ASSETS_DIR / f"creative_{query_creative_id}.png"
-    query_b64 = encode_image(query_img_path) if query_img_path.exists() else None
 
-    # Inicialitzar l'array de missatges
+    # Build compact query description (only background + visual style)
+    q_global = query_json.get("global", {})
+    query_desc = (
+        f"Visual style: {q_global.get('visual_style', 'unknown')}\n"
+        f"Dominant colors: {', '.join(q_global.get('dominant_colors', []))}\n"
+        f"Emotional tone: {q_global.get('emotional_tone', 'unknown')}\n"
+        f"Description: {q_global.get('description', '')}"
+    )
+
+    # 2. Build user message content
     user_content = [
         {
-            "type": "text", 
-            "text": "You are an expert creative analyst. Compare the ORIGINAL ad with TOP ads to find missing visual features.\n\n"
-                    "ORIGINAL AD JSON:\n" + json.dumps(query_json, indent=2)
+            "type": "text",
+            "text": (
+                "You are a Stable Diffusion prompt engineer specializing in mobile ad inpainting.\n\n"
+                "TASK: Identify background visual features from top-performing ads that are missing in the original.\n\n"
+                "IMPORTANT CONSTRAINT: Text, buttons, and logos are MASKED — Stable Diffusion will NOT touch them.\n"
+                "You MUST ONLY describe BACKGROUND and ATMOSPHERIC visual properties:\n"
+                "  ✓ Color gradients, solid colors, textures, patterns\n"
+                "  ✓ Lighting effects: rays, glow, bokeh, shadows\n"
+                "  ✓ Non-text decorative shapes: circles, particles, geometric forms\n"
+                "  ✓ Depth effects: blur, vignette, atmospheric haze\n"
+                "  ✗ DO NOT describe: text, badges with words, buttons, logos, UI elements\n"
+                "  ✗ DO NOT describe: abstract marketing concepts ('better CTA', 'stronger hook')\n\n"
+                f"ORIGINAL AD (to improve):\n{query_desc}"
+            )
         }
     ]
-    if query_b64:
-        user_content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{query_b64}"}})
 
-    user_content.append({"type": "text", "text": "\n\nTOP PERFORMING ADS:\n"})
+    if query_img_path.exists():
+        b64 = encode_image(query_img_path)
+        user_content.append({"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}", "detail": "low"}})
 
-    # 2. Carregar JSON i Imatge dels Anuncis Top
+    # 3. Add top performers
     top_ids_used = []
-    for tid in top_ids:
+    user_content.append({"type": "text", "text": "\n\nTOP PERFORMING REFERENCE ADS (study their backgrounds):\n"})
+
+    for tid in top_ids[:3]:  # max 3 references
         t_json = _load_semantic(tid)
-        if not t_json: 
+        if not t_json:
             continue
-            
         top_ids_used.append(tid)
-        t_img_path = FRONTEND_ASSETS_DIR / f"creative_{tid}.png"
-        t_b64 = encode_image(t_img_path) if t_img_path.exists() else None
+        t_global = t_json.get("global", {})
+        t_desc = (
+            f"Visual style: {t_global.get('visual_style', 'unknown')} | "
+            f"Colors: {', '.join(t_global.get('dominant_colors', []))} | "
+            f"Tone: {t_global.get('emotional_tone', 'unknown')}"
+        )
+        user_content.append({"type": "text", "text": f"\n[Top ad {tid}]: {t_desc}"})
+        t_img = FRONTEND_ASSETS_DIR / f"creative_{tid}.png"
+        if t_img.exists():
+            b64 = encode_image(t_img)
+            user_content.append({"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}", "detail": "low"}})
 
-        user_content.append({"type": "text", "text": f"\n--- TOP AD {tid} ---\nJSON:\n" + json.dumps(t_json, indent=2)})
-        if t_b64:
-            user_content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{t_b64}"}})
-
-    # 3. Instruccions i prompt final
+    # 4. Final instruction with strict output format
     user_content.append({
-        "type": "text", 
+        "type": "text",
         "text": f"""
-Based on the images and JSON data, identify up to {max_features} key VISUAL features present in top-performing ads but MISSING in the original ad.
+Based on what you see, produce {max_features} background enhancement suggestions for the original ad.
 
-STRICT RULES:
-1. Describe VISUAL properties (backgrounds, lighting, elements, CTA placement, colors).
-2. Return ONLY a valid JSON object matching this EXACT structure:
+Each suggestion must be:
+- A 5-12 word visual description usable directly as a Stable Diffusion prompt fragment
+- Describing ONLY the background/atmosphere (never text or UI)
+- Specific: mention color, texture, lighting direction, or effect type
+
+GOOD examples:
+  "deep cobalt blue radial gradient with soft inner glow"
+  "scattered translucent hexagon shapes floating in background"
+  "warm amber light rays streaming from upper-left corner"
+  "subtle dark vignette with bokeh particle effects"
+
+BAD examples (never output these):
+  "Bonus badge" — contains text
+  "Centered main message" — text element
+  "Better CTA placement" — UI/abstract
+  "More vibrant colors" — too vague
+
+Return ONLY this JSON (no extra keys):
 {{
-  "missing_visual_features": ["feature 1", "feature 2"],
-  "reasoning": "Explanation"
+  "sd_prompt_fragments": ["fragment 1", "fragment 2", ..., "fragment {max_features}"]
 }}"""
     })
 
-    # 4. Trucada a OpenAI
+    # 5. Call API
     try:
         response = client.chat.completions.create(
             model=model,
             response_format={"type": "json_object"},
             messages=[{"role": "user", "content": user_content}],
-            temperature=0.2
+            temperature=0.25,
+            max_tokens=400,
         )
         result = json.loads(response.choices[0].message.content.strip())
-        
-        # Neteja de paraules clau (codi que ja tenies)
-        features = result.get("missing_visual_features", [])
-        SKIP_KEYWORDS = ("format", "themed", "hook style", "ad format", "objective", "vertical", "cta", "headline")
-        features = [f for f in features if not any(k in f.lower() for k in SKIP_KEYWORDS)]
 
-        print(f"[LLMGap+Vision] ✓ Got {len(features)} visual features!")
+        # Accept both key names for robustness
+        features = (
+            result.get("sd_prompt_fragments")
+            or result.get("missing_visual_features")
+            or []
+        )
+
+        # Filter out any text/UI descriptions that slipped through
+        SKIP = ("badge", "button", "text", "cta", "headline", "logo", "message", "label",
+                "format", "hook", "themed", "engagement", "placement", "copy")
+        features = [f for f in features if not any(k in f.lower() for k in SKIP)]
+
+        print(f"[LLMGap] ✓ {len(features)} SD background fragments:")
+        for feat in features:
+            print(f"   · {feat}")
+
         return {
             "missing_visual_features": features[:max_features],
-            "reasoning": result.get("reasoning", ""),
             "query_id": query_creative_id,
             "top_ids_used": top_ids_used,
         }
 
     except Exception as e:
-        print(f"[LLMGap+Vision] Vision API fail: {e}")
+        print(f"[LLMGap] API error: {e}")
         return {
             "missing_visual_features": _visual_fallback(),
-            "reasoning": str(e),
             "query_id": query_creative_id,
             "top_ids_used": top_ids_used,
         }
 
 
 def _visual_fallback() -> list[str]:
-    """Generic visual descriptions when no semantic data is available."""
+    """Generic SD background fragments when no semantic data is available."""
     return [
-        "dynamic gradient background with vibrant colors",
-        "high quality product photography with professional lighting",
-        "cinematic depth of field effect",
+        "deep gradient background with vibrant colors and soft glow",
+        "cinematic depth of field with warm bokeh particles",
+        "subtle geometric pattern overlay with translucent shapes",
     ]
+
