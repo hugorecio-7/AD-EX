@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import base64
 import cv2
@@ -31,7 +32,10 @@ def resolve_model_name(raw_model):
 OPENAI_MODEL_NAME = resolve_model_name(os.environ.get("OPENAI_MODEL", "gpt-4o"))
 
 # ID de l'anunci
-IMG_NMBR = "500593"
+if len(sys.argv) > 1:
+    IMG_NMBR = sys.argv[1]
+else:
+    IMG_NMBR = "500000"  # Valor per defecte si no es proporciona cap argument
 
 # ==========================================
 # RUTES D'OUTPUT (Arreglades segons la captura)
@@ -114,10 +118,12 @@ def analyze_element_with_vision(full_image_base64, crop_image_path, text_ocr, co
 Analyze Image 1 (full ad) and Image 2 (specific element). 
 Bounding box (pixels): {coords}
 
-Your task is to describe this element LITERALY. 
+Your task is to describe this element LITERALLY.
 - Mention shapes, colors, and specific visual details (e.g., 'a blue rounded rectangle', 'two dots in the top left corner').
 - Describe its exact position and appearance within the context of the '{advertiser}' ad.
 - Assign one role: {ALLOWED_ROLES}
+- If text equals or closely matches the brand/app name, role must be 'logo' (not 'headline').
+- If it's a generic shape/background/panel, prefer 'decorative_element' over 'unknown'.
 
 Return ONLY a JSON:
 {{
@@ -146,6 +152,172 @@ Return ONLY a JSON:
     except Exception as e:
         print(f"Error analitzant l'element: {e}")
         return {"role": "unknown", "label": "Unknown element", "description": "Failed to analyze element."}
+
+def _clean_text(value):
+    return " ".join((value or "").strip().split())
+
+def _split_headline_body(text):
+    cleaned = _clean_text(text)
+    if not cleaned:
+        return None, None
+
+    # Prefer splitting at common supporting-text cues.
+    lowered = cleaned.lower()
+    cue_phrases = [
+        " fast signup",
+        " instant card",
+        " no fees",
+        " terms apply",
+        " learn more",
+    ]
+    split_at = -1
+    for cue in cue_phrases:
+        idx = lowered.find(cue)
+        if idx > 0 and (split_at == -1 or idx < split_at):
+            split_at = idx
+    if split_at > 0:
+        headline = cleaned[:split_at].strip(" ,")
+        body = cleaned[split_at:].strip(" ,")
+        if headline and body:
+            return headline, body
+
+    # Prefer explicit separators when available.
+    splitters = [";", "|", "\n"]
+    for sep in splitters:
+        if sep in cleaned:
+            parts = [p.strip(" ,") for p in cleaned.split(sep) if p.strip(" ,")]
+            if len(parts) >= 2:
+                return parts[0], " ".join(parts[1:])
+
+    # Fallback: short first phrase as headline, rest as body.
+    words = cleaned.replace(",", " ").split()
+    if len(words) >= 6:
+        return " ".join(words[:3]), " ".join(words[3:])
+
+    return cleaned, None
+
+def _recompute_geometry(element, img_w, img_h):
+    x1, y1, x2, y2 = element["bbox_xyxy"]
+    w = max(1, x2 - x1)
+    h = max(1, y2 - y1)
+    element["bbox_normalized"] = [
+        round(x1 / img_w, 3),
+        round(y1 / img_h, 3),
+        round(x2 / img_w, 3),
+        round(y2 / img_h, 3),
+    ]
+    element["center_normalized"] = [
+        round(((x1 + x2) / 2) / img_w, 3),
+        round(((y1 + y2) / 2) / img_h, 3),
+    ]
+    element["area_percentage"] = round((w * h * 100) / (img_w * img_h), 2)
+    return element
+
+def _create_background_element(img_w, img_h):
+    return {
+        "id": 0,
+        "role": "background",
+        "label": "Solid blue background",
+        "description": "Solid blue background covering the full canvas.",
+        "text_content": None,
+        "bbox_xyxy": [0, 0, img_w, img_h],
+        "bbox_normalized": [0.0, 0.0, 1.0, 1.0],
+        "center_normalized": [0.5, 0.5],
+        "area_percentage": 100.0,
+    }
+
+def postprocess_elements_for_similarity(elements, creative_data, img_w, img_h):
+    advertiser = _clean_text(creative_data.get("advertiser_name", "")).lower()
+    app_name = _clean_text(creative_data.get("app_name", "")).lower()
+    brand_terms = {t for t in [advertiser, app_name] if t}
+
+    processed = []
+    for element in elements:
+        e = dict(element)
+        text = _clean_text(e.get("text_content") or "")
+        text_lower = text.lower()
+        label_desc = f"{e.get('label', '')} {e.get('description', '')}".lower()
+
+        # 1) Brand text should be logo.
+        if text and any(term and term in text_lower for term in brand_terms):
+            e["role"] = "logo"
+            e["label"] = f"{text} text logo"
+
+        # 2) Reduce 'unknown' when a safer visual role is obvious.
+        if e.get("role") == "unknown":
+            if any(k in label_desc for k in ["rectangle", "shape", "panel", "box", "background"]):
+                e["role"] = "decorative_element"
+            elif any(k in label_desc for k in ["icon", "glyph"]):
+                e["role"] = "icon"
+            elif any(k in label_desc for k in ["screen", "screenshot", "ui"]):
+                e["role"] = "app_screenshot"
+            elif any(k in label_desc for k in ["product", "card"]):
+                e["role"] = "product"
+
+        processed.append(e)
+
+    # 3) Split oversized text region into headline/body_text.
+    split_done = False
+    split_elements = []
+    for e in processed:
+        text = _clean_text(e.get("text_content") or "")
+        is_textual = bool(text)
+        is_oversized = (e.get("area_percentage") or 0) >= 80
+        role = e.get("role", "")
+
+        if not split_done and is_textual and is_oversized and role in {"main_subject", "headline", "body_text", "unknown"}:
+            headline_text, body_text = _split_headline_body(text)
+            x1, y1, x2, y2 = e["bbox_xyxy"]
+
+            # If bbox is effectively full canvas, use a tighter central text region.
+            if (x2 - x1) >= int(img_w * 0.9) and (y2 - y1) >= int(img_h * 0.85):
+                hx1, hx2 = int(img_w * 0.08), int(img_w * 0.92)
+                hy1, hy2 = int(img_h * 0.40), int(img_h * 0.50)
+                by1, by2 = int(img_h * 0.50), int(img_h * 0.58)
+            else:
+                hx1, hx2 = x1, x2
+                mid_y = y1 + (y2 - y1) // 2
+                hy1, hy2 = y1, mid_y
+                by1, by2 = mid_y, y2
+
+            if headline_text:
+                h_el = {
+                    "id": 0,
+                    "role": "headline",
+                    "label": "Headline text",
+                    "description": "Primary marketing headline text.",
+                    "text_content": headline_text,
+                    "bbox_xyxy": [hx1, hy1, hx2, hy2],
+                }
+                split_elements.append(_recompute_geometry(h_el, img_w, img_h))
+
+            if body_text:
+                b_el = {
+                    "id": 0,
+                    "role": "body_text",
+                    "label": "Body text",
+                    "description": "Supporting descriptive text below the headline.",
+                    "text_content": body_text,
+                    "bbox_xyxy": [hx1, by1, hx2, by2],
+                }
+                split_elements.append(_recompute_geometry(b_el, img_w, img_h))
+
+            split_done = True
+            continue
+
+        split_elements.append(e)
+
+    processed = split_elements
+
+    # 4) Ensure background exists as first-class element.
+    if not any(e.get("role") == "background" for e in processed):
+        processed.insert(0, _create_background_element(img_w, img_h))
+
+    # 5) Reassign stable IDs.
+    for idx, e in enumerate(processed, start=1):
+        e["id"] = idx
+
+    return processed
 
 def generate_global_and_embeddings(creative_data, final_elements):
     """Genera la part global fent servir tots els detalls visuals recollits."""
@@ -289,6 +461,8 @@ def main():
     print("📝 Generant descripció global i textos per embeddings...")
     if not creative_data and feature_data.get("global_description"):
         creative_data = {"global_description": feature_data["global_description"]}
+
+    final_elements = postprocess_elements_for_similarity(final_elements, creative_data, img_w, img_h)
 
     global_data = generate_global_and_embeddings(creative_data, final_elements)
 

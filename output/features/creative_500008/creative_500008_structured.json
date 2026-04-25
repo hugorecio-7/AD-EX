@@ -1,0 +1,245 @@
+{
+  "creative_id": "500008",
+  "asset_file": "assets/creative_500008.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "An ad for VantaStyle that features a solid blue background covering the entire canvas, creating a vibrant and engaging backdrop. In the center, there are two decorative elements: a light teal square with rounded corners that has a diagonal line running from the top left to the bottom right, and another similar green square with a diagonal line, both positioned to create a sense of dynamic movement. Below these squares, the main message is presented in large, bold white text reading 'Flash sale live', which is centrally located within a teal rectangular background. Beneath this, in smaller white text, the phrase 'Only this weekend' is also centered, reinforcing the urgency of the sale. At the top left corner, we see the VantaStyle logo, which features the brand name in a bold black font against a turquoise background, accompanied by a small white rounded rectangle below it that displays the text 'UGC' in black font. At the bottom of the ad, we see a prominent call-to-action (CTA) button, which is a white rounded rectangle with the text 'Install now' in bold black font, positioned centrally and slightly above the bottom edge of the ad. Additionally, in the top right corner, there is a bright yellow sale tag with rounded corners, displaying the word 'SALE' in bold black letters, overlapping slightly with the turquoise background, drawing attention to the promotional offer.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Flash sale live - Only this weekend",
+    "dominant_colors": [
+      "blue",
+      "teal",
+      "yellow",
+      "white",
+      "black"
+    ],
+    "emotional_tone": "Urgent and enticing"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Square Icon with Diagonal Line",
+      "description": "A light teal square with rounded corners, featuring a diagonal line running from the top left to the bottom right. The icon is positioned within the ad, specifically in the bounding box coordinates provided, and is part of a pair of similar icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Green Square with Diagonal Line",
+      "description": "A light teal square with rounded corners, featuring a diagonal line running from the top left corner to the bottom right corner. It is positioned within the bounding box specified, likely representing a decorative element in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Diagonal Line",
+      "description": "A thin, diagonal line in a teal color, positioned within a bounding box defined by the coordinates [57.19, 97.81, 96.56, 129.69]. The line runs from the top left to the bottom right of the bounding box, creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Diagonal Line",
+      "description": "A thin, diagonal line in a teal color, positioned within a light teal background. The line is angled from the top left to the bottom right, creating a dynamic visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Flash Sale Text",
+      "description": "A large, bold white text reading 'Flash sale live' positioned centrally within a teal rectangular background. Below it, in smaller white text, is the phrase 'Only this weekend', also centered. The text is clear and prominent, designed to attract attention.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        50,
+        206,
+        272,
+        255
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.644,
+        0.85,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.72
+      ],
+      "area_percentage": 10.62
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "VantaStyle UGC text logo",
+      "description": "The logo features the text 'VantaStyle' in a bold, black font. It is positioned in the top left corner of the ad, occupying a rectangular area with a turquoise background. Below the logo, there is a small white rounded rectangle with the text 'UGC' in a black font.",
+      "text_content": "VantaStyle UGC",
+      "bbox_xyxy": [
+        22,
+        22,
+        132,
+        71
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.069,
+        0.412,
+        0.222
+      ],
+      "center_normalized": [
+        0.241,
+        0.145
+      ],
+      "area_percentage": 5.26
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Install Now Button",
+      "description": "A white rounded rectangle button with the text 'Install now' in bold black font. It is positioned at the bottom center of the ad, slightly above the bottom edge, with equal spacing on the left and right sides.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Yellow Sale Tag",
+      "description": "A rectangular shape with rounded corners, filled with a bright yellow color. The text 'SALE' is displayed in bold, black letters, centered within the rectangle. This element is positioned in the top right corner of the ad, overlapping slightly with the turquoise background.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for VantaStyle utilizes a vibrant blue background and features dynamic decorative elements alongside a strong promotional message, emphasizing urgency and encouraging immediate action.",
+    "elements_text": "background: solid blue; main_subject: large white text 'Flash sale live' with smaller text 'Only this weekend'; logo: 'VantaStyle' in bold black font; CTA: 'Install now' button and 'SALE' tag.",
+    "ocr_text": "Flash sale live Only this weekend VantaStyle UGC Install now SALE",
+    "layout_text": "background at [0.0, 0.0, 1.0, 1.0], decorative element (teal square) at [0.151, 0.279, 0.329, 0.457], decorative element (green square) at [0.37, 0.311, 0.548, 0.487], body text at [0.156, 0.644, 0.85, 0.797], logo at [0.069, 0.069, 0.412, 0.222], CTA button at [0.334, 0.872, 0.659, 0.934], yellow sale tag at [0.759, 0.078, 0.897, 0.128]"
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "creative_id": "500001",
+  "asset_file": "assets/creative_500001.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for PixelForge that features a gradient blue background, transitioning from a deeper blue at the top to a lighter blue towards the bottom. The upper section of the ad contains lighter blue shapes that create a dynamic visual effect, while the lower section maintains a solid blue color that provides a strong contrast against the text. In the top left corner, there is a light blue rounded rectangle that houses the PixelForge logo, with the text 'PixelForge' displayed in bold white font. This logo is prominent and easily identifiable, establishing brand recognition. In the center of the ad, there is a large white text reading 'Beat your rivals', which serves as the main promotional message. Below this, a smaller white text states 'No ads in first week', providing additional context to the offer. At the bottom, we see a white rounded rectangle button labeled 'Claim reward' in bold black font, positioned at the bottom center of the ad. This button stands out against the blue background, creating a clear call to action for users. The overall layout is structured to guide the viewer's eyes from the logo at the top, through the promotional message in the center, down to the call to action at the bottom, creating a logical flow that encourages engagement.",
+    "visual_style": "Modern flat design with high contrast elements",
+    "main_message": "Claim your reward and enjoy an ad-free experience for the first week.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Inviting and motivating, encouraging users to take action"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "cta",
+      "label": "Claim Reward Button",
+      "description": "A white rounded rectangle button located at the bottom center of the ad. The button contains the text 'Claim reward' in bold black font. The background of the ad is a gradient blue, with lighter blue shapes in the upper section.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A light blue rounded rectangle with a slightly darker blue outline, positioned at the top left corner of the ad. Inside the rectangle, the text 'PixelForge' is displayed in white, bold font. The background is a gradient of blue shades, with a jagged pattern extending from the rectangle towards the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        141
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.221
+      ],
+      "center_normalized": [
+        0.499,
+        0.11
+      ],
+      "area_percentage": 22.03
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A light blue rounded rectangle with the text 'PixelForge' in white, positioned at the top left corner of the ad. The background is a solid blue color, and the rectangle has a slight shadow effect, giving it a raised appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Blue Rounded Rectangle with Dot",
+      "description": "A light blue rounded rectangle with a dark blue circular dot positioned in the top left corner. The rectangle has a smooth edge and is located within the bounding box at coordinates [132.5, 153.12, 213.12, 225.0] in the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        225
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.352
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.52
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Dark Blue Circle on Light Blue Background",
+      "description": "A small dark blue circle positioned in the top left corner of a light blue rounded rectangle. The rectangle has slightly rounded corners and is filled with a light blue color, creating a soft appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Blue Circle Icon",
+      "description": "A small blue circle positioned at the top left corner of a light blue rounded rectangle. The rectangle has slightly rounded corners and is located within the bounding box specified. The circle is filled with a darker blue color, contrasting with the lighter blue background of the rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Blue Circle on Light Blue Rectangle",
+      "description": "A light blue rectangle with rounded corners, containing a single dark blue circle positioned in the top left corner. The rectangle is located within the specified bounding box, appearing as a small element that contrasts with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Blue Triangle",
+      "description": "A blue triangular shape located in the top right corner of the ad. The triangle has a sharp point facing downwards and is positioned against a lighter blue background, creating a subtle contrast.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Right Arrow Icon",
+      "description": "A white right-pointing triangle icon set against a light blue background. The triangle is positioned towards the right side of the ad, slightly above the center. It has a sharp point and is surrounded by a slightly darker blue area, giving it a distinct appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Light Blue Circle",
+      "description": "A light blue circle located towards the bottom of the ad, positioned centrally between two darker blue circles. The circle has a smooth, rounded appearance and is set against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Light Blue Circle",
+      "description": "A light blue circle with a thin dark blue outline. It is positioned towards the bottom center of the ad, specifically within the bounding box coordinates provided. The circle has a smooth, rounded shape and is one of two similar circles placed horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A solid dark blue circle located within the bounding box at coordinates [140.62, 250.62, 161.88, 271.88]. The circle is centered horizontally and vertically within the box, appearing as a simple geometric shape with no additional details or textures.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle positioned at coordinates [43.75, 250.62] with a diameter of approximately 21 pixels. It is located towards the bottom left of the ad, below the main text and above a white button labeled 'Claim reward'. The circle has a solid fill with no border.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle with a smooth edge, positioned towards the bottom center of the ad. It is located within a bounding box defined by the coordinates [140.62, 160.62, 161.88, 182.5]. The circle is one of two similar circles, both appearing below a set of four outlined squares.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        182
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.285
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 15,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle positioned within the bounding box at coordinates [43.75, 160.62, 65.0, 181.88]. It is centered horizontally and vertically within the box, appearing as a solid shape with no additional details or outlines.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Promotional Text",
+      "description": "A large white text reading 'Beat your rivals' positioned centrally in the lower half of the ad, with a smaller white text below it saying 'No ads in first week'. The background is a solid blue color, creating a strong contrast with the white text.",
+      "text_content": "Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        463
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 17,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A white text logo reading 'PixelForge' on a light blue background. The text is positioned in the top left corner of the ad, occupying a rectangular area. The font is bold and modern, with the letters evenly spaced.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 18,
+      "role": "cta",
+      "label": "Claim Reward Button",
+      "description": "A white rounded rectangle button with the text 'Claim reward' in bold black font. It is positioned at the bottom center of the ad, slightly elevated from the bottom edge, creating a clear call to action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for PixelForge utilizes a gradient blue background and features a prominent logo, a compelling promotional message, and a clear call to action button.",
+    "elements_text": "background: gradient blue with lighter shapes; main_subject: PixelForge logo in top left, promotional text in center, claim reward button at bottom center.",
+    "ocr_text": "Beat your rivals No ads in first week Claim reward",
+    "layout_text": "PixelForge logo at top left, promotional text at center, claim reward button at bottom center"
+  }
+}

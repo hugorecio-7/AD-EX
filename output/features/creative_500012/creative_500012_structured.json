@@ -1,0 +1,290 @@
+{
+  "creative_id": "500012",
+  "asset_file": "assets/creative_500012.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "An ad for EarnPath that features a solid blue background covering the entire canvas, creating a vibrant and cohesive visual experience. In the top left corner, there is the EarnPath logo, which is a bold white text logo that reads 'EarnPath', set against the blue background. The logo is enclosed in a slightly rounded rectangular shape, enhancing its prominence. In the center of the ad, the main message is presented in large, bold white font that states 'Your money, clearer'. This text is centrally positioned and occupies the middle section of the ad, providing a strong focal point. Below this main text, there is a smaller line of text that reads 'Built for peace of mind' in a lighter shade of blue, also centered, which adds a reassuring tone to the message. Surrounding the text, there are several decorative elements that contribute to the ad's modern aesthetic. These include a large light blue oval shape on the left side, overlapping with a smaller light blue circle below it, and a light blue rectangle with rounded corners positioned towards the center-right. Additionally, there is a light blue rounded rectangle with a cutout on the top right corner, which overlaps with the larger oval, creating a layered visual effect. At the bottom of the ad, there are two smaller light blue circles that add to the overall design, slightly overlapping with the text. The entire composition is designed to be visually appealing and modern, with a clean layout that emphasizes the core message of the ad.",
+    "visual_style": "Modern flat design with high contrast elements",
+    "main_message": "Your money, clearer",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Reassuring and confident"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath Logo",
+      "description": "A white text logo that reads 'EarnPath' in a bold font, positioned at the top left corner of the ad. The logo is set against a solid blue background, with a slightly rounded rectangular shape surrounding it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Blue Shapes",
+      "description": "The element consists of a large light blue oval shape positioned towards the left side, overlapping with a smaller light blue circle below it. To the right, there is a light blue rectangle with rounded corners. The entire element is set against a darker blue background, creating a layered visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Blue Rounded Rectangle",
+      "description": "A blue rounded rectangle positioned towards the center-right of the ad. It has a lighter blue fill and a thin dark blue outline. To the left of this rectangle, there is a larger light blue oval shape, and a small light blue circle is located below the rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Light Blue Rectangle",
+      "description": "A light blue rectangle with rounded corners, positioned towards the center of the ad. It has a thin blue outline and is slightly larger than the other shapes in the ad. The rectangle is placed to the right of an oval shape and above a smaller circle, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.52
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Light Blue Rounded Rectangle with Cutout",
+      "description": "A light blue rounded rectangle with a cutout on the top right corner, positioned towards the left side of the ad. It overlaps with a larger light blue oval shape, creating a layered effect. The overall appearance is soft and modern, contributing to the ad's visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Light Blue Rectangle",
+      "description": "A light blue rectangle with rounded corners, positioned centrally within the bounding box defined by the coordinates [127.81, 108.12, 249.69, 166.56]. The rectangle has a solid fill and is slightly elevated from the background, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Light Blue Circle",
+      "description": "A small light blue circle positioned towards the bottom left of the ad, slightly overlapping the text. The circle has a smooth, rounded shape and is set against a darker blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Light Blue Circle",
+      "description": "A light blue circle positioned towards the left side of the ad, slightly above the center. It has a smooth, rounded shape and is surrounded by a slightly darker blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main Text",
+      "description": "The text 'Your money, clearer' is displayed in large, bold white font. It is centered within the bounding box, occupying the middle section of the ad. The background is a solid blue color, providing contrast to the white text. Below this main text, there is a smaller line of text that reads 'Built for peace of mind' in a lighter shade of blue, also centered. The overall appearance is clean and modern.",
+      "text_content": "Your money, clearer Builtfe nd Book now",
+      "bbox_xyxy": [
+        63,
+        203,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.634,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.784
+      ],
+      "area_percentage": 18.28
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "EarnPath Logo",
+      "description": "The element is a text logo that reads 'EarnPath' in a bold, white font. It is positioned at the top left corner of the ad, set against a solid blue background. The text has a slight drop shadow, enhancing its visibility against the background.",
+      "text_content": "EamPath",
+      "bbox_xyxy": [
+        23,
+        25,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.078,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.106
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for EarnPath showcases a modern design with a solid blue background and bold white text, emphasizing clarity and peace of mind in financial management.",
+    "elements_text": "background: solid blue background; main_subject: EarnPath logo in the top left corner; main_message: 'Your money, clearer' centered in bold white font; secondary_message: 'Built for peace of mind' in lighter blue below the main message; decorative_elements: various light blue shapes creating a layered effect.",
+    "ocr_text": "Your money, clearer Built for peace of mind",
+    "layout_text": "background at [0.0, 0.0, 1.0, 1.0], EarnPath Logo at [0.002, 0.0, 0.999, 0.18], Main Text at [0.197, 0.634, 0.806, 0.934], Smaller Text at [0.197, 0.634, 0.806, 0.934], Decorative Blue Shapes at [0.17, 0.239, 0.769, 0.509], Light Blue Rounded Rectangle at [0.184, 0.325, 0.779, 0.52], Light Blue Rectangle at [0.316, 0.337, 0.78, 0.52], Light Blue Circle at [0.119, 0.529, 0.221, 0.63], Light Blue Circle at [0.123, 0.532, 0.218, 0.626]"
+  }
+}

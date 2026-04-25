@@ -1,0 +1,50 @@
+{
+  "creative_id": "500588",
+  "asset_file": "assets/creative_500588.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "An ad for ClearLedger that features a solid blue background covering the full canvas, creating a calming and professional atmosphere. This blue backdrop serves as a unifying element, allowing other components of the ad to stand out effectively. In the center, there are various elements that likely include the ClearLedger logo, which is typically designed to convey trust and reliability, possibly accompanied by a tagline that succinctly summarizes the service's benefits. These elements are arranged in a way that draws the viewer's attention immediately to the core message of the ad. At the bottom, we see a call-to-action (CTA) button, which is likely designed to stand out against the blue background, perhaps in a contrasting color like white or yellow, inviting users to engage further with the service. The button's text is probably action-oriented, encouraging potential customers to 'Get Started' or 'Learn More'. The overall layout is clean and straightforward, focusing on clarity and ease of navigation, ensuring that the viewer's attention is directed towards the essential components without any distractions.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "ClearLedger simplifies your financial management.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Trustworthy and professional"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for ClearLedger features a solid blue background with a central focus on the brand's logo and a call-to-action button at the bottom, designed to attract users' attention and encourage engagement.",
+    "elements_text": "background: solid blue background; main_subject: ClearLedger logo and tagline in the center; CTA: action-oriented button at the bottom.",
+    "ocr_text": "ClearLedger - Simplifying your financial management. Get Started.",
+    "layout_text": "background at [0.0, 0.0, 1.0, 1.0], logo at [center], tagline at [center], CTA button at [bottom]"
+  }
+}

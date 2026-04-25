@@ -1,0 +1,314 @@
+{
+  "creative_id": "500010",
+  "asset_file": "assets/creative_500010.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "An ad for VantaStyle that features a solid blue background covering the full canvas, creating a calming and cohesive backdrop for the other design elements. In the top left corner, there is the VantaStyle logo, which is a rounded rectangle filled with a light orange color. The logo contains the text 'VantaStyle' in bold black font, occupying a small area and establishing brand identity right away. In the upper part of the ad, centered horizontally, there are two decorative orange squares with rounded corners, each featuring a diagonal line running from the top left to the bottom right. These squares add a playful and dynamic element to the design. Below these squares, the central focus of the ad is the body text, which prominently displays the phrase 'Limited stock' in large, bold, white font, creating a strong visual contrast against the vibrant orange background. Directly beneath this, in smaller white font, is the text 'Shop bestsellers now,' guiding the viewer towards action. At the bottom left of the ad, a small light orange circle with a thin brown outline adds a subtle decorative touch, enhancing the overall aesthetic without overwhelming the main message. The layout is structured to lead the viewer's eye from the logo at the top, through the decorative elements, down to the call-to-action at the bottom, creating a seamless flow throughout the ad.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Encouragement to shop limited stock bestsellers",
+    "dominant_colors": [
+      "solid blue",
+      "light orange"
+    ],
+    "emotional_tone": "Urgent and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A rounded rectangle with a light orange background, containing the text 'VantaStyle' in bold black font. The logo is positioned at the top left corner of the ad, occupying a small area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Two Orange Squares",
+      "description": "Two orange squares with rounded corners, each containing a diagonal line from the top left to the bottom right. The squares are positioned side by side, centered horizontally within the bounding box, which is located towards the upper part of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.278,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.58
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Orange Square with Diagonal Line",
+      "description": "A square shape with rounded corners, filled with a light orange color. It features a diagonal line running from the top left corner to the bottom right corner, which is slightly darker than the background. The element is positioned within the bounding box specified, appearing as a decorative detail in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Orange Square with Diagonal Line",
+      "description": "A light orange square with a slightly darker orange diagonal line running from the top left corner to the bottom right corner. It is positioned within the bounding box coordinates [188.44, 89.38, 245.31, 146.25] in the ad, appearing as a decorative element among other shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Orange Square with Diagonal Line",
+      "description": "A light orange square with a diagonal brown line running from the top left corner to the bottom right corner. It is positioned within the bounding box at coordinates [118.44, 99.38] and has a width and height of approximately 175.0 and 155.94 pixels respectively.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Diagonal Line",
+      "description": "A thin, diagonal line in a light brown color, positioned within a rectangular area. The line runs from the top left corner to the bottom right corner of the bounding box, creating a dynamic visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Diagonal Line",
+      "description": "A thin, diagonal line in a medium brown color, positioned diagonally across the bounding box area. The line is slightly tilted from the top left to the bottom right, adding a dynamic visual element to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Diagonal Line",
+      "description": "A thin, diagonal line in a medium brown color, positioned diagonally across the bounding box area. The line is slightly tilted and spans from the top left to the bottom right within the specified pixel dimensions.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Light Orange Circle",
+      "description": "A small light orange circle with a thin brown outline, positioned towards the bottom left of the ad, slightly above the bottom edge and to the left of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Limited Stock Text",
+      "description": "The text 'Limited stock' is displayed in large, bold, white font. It is positioned centrally within the bounding box, with the words 'Shop bestsellers now' in smaller, white font directly below it. The background is a solid orange color, creating a vibrant contrast with the text.",
+      "text_content": "Limited stock Shop bestsellers now $4.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        204,
+        266,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.831,
+        0.934
+      ],
+      "center_normalized": [
+        0.45,
+        0.786
+      ],
+      "area_percentage": 22.64
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "VantaStyle text logo",
+      "description": "The element is a rectangular shape with rounded corners, featuring the text 'VantaStyle' in a bold, dark font. The background color is a light orange, and the text color is dark brown. It is positioned at the top left corner of the ad, occupying a small area within the overall design.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        22,
+        132,
+        46
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.069,
+        0.412,
+        0.144
+      ],
+      "center_normalized": [
+        0.241,
+        0.106
+      ],
+      "area_percentage": 2.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for VantaStyle combines a solid blue background with vibrant orange elements to create an engaging visual experience that encourages immediate action.",
+    "elements_text": "background: solid blue; main_subject: VantaStyle logo, decorative orange squares, body text, light orange circle",
+    "ocr_text": "Limited stock Shop bestsellers now VantaStyle",
+    "layout_text": "VantaStyle logo at top left, two orange squares at upper center, body text at center, light orange circle at bottom left"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "creative_id": "500005",
+  "asset_file": "assets/creative_500005.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for PixelForge that features a deep blue background, creating a visually striking contrast with the lighter elements present throughout the design. At the top left corner, there is the PixelForge logo, which consists of a light blue rounded rectangle with the text 'PixelForge' in bold white font, standing out prominently against the darker blue backdrop. In the center of the ad, there are several icons arranged in a symmetrical manner, including two blue rounded rectangles stacked vertically, each containing a dark blue circle, contributing to a cohesive and balanced visual layout. Additionally, there are light blue squares and rectangles with dark blue circles positioned strategically, enhancing the overall geometric aesthetic of the ad. Towards the bottom of the ad, we see the main text, which reads 'Beat your rivals' in large, bold, white font, capturing attention immediately. Below this, in smaller white font, the text 'Free rewards for new players' is positioned, providing additional context and enticing potential players. Finally, at the bottom center of the ad, there is a call-to-action button that reads 'Shop now' in dark gray text on a white rectangular button with rounded corners, inviting viewers to engage with the ad and take action.",
+    "visual_style": "Modern flat design with high contrast and geometric shapes",
+    "main_message": "Engage with PixelForge and enjoy free rewards for new players.",
+    "dominant_colors": [
+      "dark blue",
+      "light blue"
+    ],
+    "emotional_tone": "Inviting and competitive, encouraging action and engagement"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A light blue rounded rectangle with the text 'PixelForge' in white, positioned at the top left corner of the ad. The background is a darker blue, creating a contrast that highlights the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Blue Game Icon",
+      "description": "Two blue rounded rectangles stacked vertically, each containing a dark blue circle in the center. The rectangles have a light blue background and white outlines. The top rectangle is positioned slightly above the center of the bounding box, while the bottom rectangle is aligned directly below it, creating a symmetrical appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        156,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.244,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.368
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Blue Circle in Square",
+      "description": "A light blue square with rounded corners containing a dark blue circle positioned in the top left quadrant. The square has a thin white outline, and the circle is centered within the square's top left area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Blue Circle on Light Blue Rectangle",
+      "description": "A light blue rounded rectangle with a dark blue circle positioned in the top left corner. The rectangle has a slight border, and the circle is centered within the upper section of the rectangle. This element is located within the grid layout of the ad, specifically in the upper left quadrant.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Blue Square with Circle",
+      "description": "A light blue square with a dark blue circle positioned in the top left corner. The square has rounded corners and is located within the bounding box at coordinates [133.12, 243.75] to [213.75, 313.75] in the ad. The circle is placed slightly away from the top edge and left edge of the square.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.594,
+        0.49
+      ],
+      "center_normalized": [
+        0.482,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Blue Circle Icon",
+      "description": "A small dark blue circle positioned in the top left corner of a light blue square with rounded corners. The square has a thin white outline and is located within the bounding box specified. The overall appearance is simple and minimalistic, fitting within the context of the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Light Blue Circle",
+      "description": "A light blue circle with a darker blue outline, positioned towards the bottom left of the ad. The circle is divided vertically by a thin white line, creating a two-tone effect. It is located within a grid layout, surrounded by a solid blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Light Blue Circle",
+      "description": "A light blue circle with a horizontal line across the middle, positioned towards the bottom left of the ad. It is centered within the bounding box defined by the coordinates [43.75, 353.12, 79.38, 389.38]. The circle is simple and lacks any additional details or embellishments.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Right Arrow Icon",
+      "description": "A white right-pointing triangle icon positioned in the upper right corner of the bounding box. The triangle is set against a light blue background, with its base aligned horizontally and its tip pointing towards the right. The icon has a sharp, clean edge and is slightly larger than the surrounding grid elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle with a solid fill, positioned within the bounding box at coordinates [140.62, 250.62] to [161.88, 271.88]. The circle is centered in the lower part of the bounding box, appearing as a simple geometric shape against a lighter blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle located within the bounding box at coordinates [43.75, 250.62] to [65.0, 271.88]. The circle has a smooth, rounded edge and is positioned towards the bottom left of the bounding box.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle located towards the bottom left of the ad, positioned within a grid layout. The circle has a smooth, rounded shape and is filled with a solid dark blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "icon",
+      "label": "Dark Blue Circle",
+      "description": "A dark blue circle located within the bounding box at the bottom left corner of the ad. It has a smooth, rounded shape and is positioned slightly above the bottom edge, centered horizontally within the box.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main Text",
+      "description": "The text 'Beat your rivals' is displayed in large, bold, white font on a blue background. Below it, in smaller white font, the text 'Free rewards for new players' is positioned. The text is centered horizontally within the bounding box, occupying the lower portion of the ad.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A white text logo reading 'PixelForge' on a light blue background. The logo is positioned at the top left corner of the ad, occupying a rectangular area. The text is bold and modern, with a slight drop shadow effect to enhance visibility against the background.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Shop Now Button",
+      "description": "A rectangular button with rounded corners, colored in white with a dark gray text that reads 'Shop now'. It is positioned towards the bottom center of the ad, slightly elevated from the bottom edge, creating a clear call to action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "The PixelForge ad features a modern design with a strong contrast between dark and light colors, emphasizing engagement and competition.",
+    "elements_text": "background: deep blue; main_subject: PixelForge logo, icons, main text, call-to-action button.",
+    "ocr_text": "Beat your rivals Free rewards for new players Shop now",
+    "layout_text": "PixelForge logo at [top left], blue game icon at [center], blue circle in square at [center], main text at [bottom], Shop now button at [bottom center]"
+  }
+}

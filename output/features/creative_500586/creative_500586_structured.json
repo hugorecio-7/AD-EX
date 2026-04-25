@@ -1,0 +1,49 @@
+{
+  "creative_id": "500586",
+  "asset_file": "assets/creative_500586.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "An ad for LuxShelf that features a solid blue background covering the full canvas, creating a serene and calming atmosphere. This background serves as a canvas that enhances the visibility of any text or images that may be overlaid. In the center, there are elements that likely include the LuxShelf logo and possibly product images or features, which are designed to capture the viewer's attention immediately. The logo is bold and distinct, possibly in a contrasting color to stand out against the blue background. At the bottom, we see a call-to-action (CTA) that encourages viewers to engage with the ad, such as 'Shop Now' or 'Discover More', which is likely presented in a clear and legible font. The overall layout is structured to guide the viewer's eye from the central elements down to the CTA, ensuring that the message is communicated effectively. The solid blue background not only provides a cohesive look but also evokes feelings of trust and reliability, which are essential for a brand like LuxShelf that aims to promote its products.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Discover the innovative storage solutions offered by LuxShelf.",
+    "dominant_colors": [
+      "blue"
+    ],
+    "emotional_tone": "Calm and trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for LuxShelf utilizes a solid blue background to create a calming effect while presenting the brand's message clearly and effectively.",
+    "elements_text": "background: solid blue background; main_subject: LuxShelf logo and product images in the center; CTA: 'Shop Now' at the bottom.",
+    "ocr_text": "LuxShelf Shop Now",
+    "layout_text": "background at (0.0, 0.0, 1.0, 1.0), main_subject at center, CTA at bottom"
+  }
+}

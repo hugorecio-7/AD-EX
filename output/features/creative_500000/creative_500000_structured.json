@@ -1,0 +1,362 @@
+{
+  "creative_id": "500000",
+  "asset_file": "assets/creative_500000.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for PixelForge that features a vibrant purple background, creating a visually striking canvas that draws attention. The background is a smooth gradient of purple shades, providing a modern and appealing aesthetic. In the top left corner, there is the PixelForge logo, which consists of the word 'PixelForge' in bold white font set against a rounded rectangle with a light purple background. This logo serves as a brand identifier and is prominently displayed to ensure brand recognition. Below the logo, there are several small purple circle icons, each varying slightly in shade and positioned in a minimalistic manner, contributing to the overall design without overwhelming the viewer. In the center of the ad, there is a prominent text area that conveys the main message. The text reads 'Level up today' in large, bold white font, which is eye-catching and encourages engagement. Below this, in a smaller white font, is the phrase 'Play with friends tonight', which adds context and further entices the viewer. This text is set against a light purple rectangular background, ensuring it stands out against the darker purple tones surrounding it. At the bottom, we see the call-to-action (CTA), which is a white rounded rectangle button labeled 'Order now' in bold dark gray font. This button is centrally positioned and has a slight shadow effect, giving it a raised appearance that invites interaction. The overall layout is structured to guide the viewer's eye from the logo at the top, through the main message in the center, and down to the CTA at the bottom, creating a logical flow that enhances the ad's effectiveness.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Encouraging users to order now and engage with PixelForge.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "Inviting and energetic"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "cta",
+      "label": "Order Now Button",
+      "description": "A white rounded rectangle button located at the bottom center of the ad. The button contains the text 'Order now' in bold, dark gray font. The button has a slight shadow, giving it a raised appearance against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A rounded rectangle with a light purple background and the text 'PixelForge' in white, positioned at the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Purple Circle Icon",
+      "description": "A small purple circle positioned in the top left corner of a light purple rounded rectangle. The rectangle has a thin white outline and is filled with a lighter shade of purple. The circle is solid and occupies a small portion of the rectangle, creating a simple yet distinct visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Purple Circle Icon",
+      "description": "A small purple circle positioned at the top left corner of a light purple square. The square has rounded corners and a thin white outline. The circle is filled with a darker shade of purple, creating a contrast against the lighter background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Purple Circle Icon",
+      "description": "A small purple circle positioned within a light purple rounded rectangle. The circle is located in the top left corner of the rectangle, which has a thin white outline. The overall appearance is simple and minimalistic, with the icon being part of a larger design in the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Purple Circle Icon",
+      "description": "A small purple circle positioned in the top left corner of a light purple square. The circle is filled with a darker shade of purple, contrasting with the lighter background of the square.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Right Arrow Icon",
+      "description": "A white right-pointing triangle with a purple background. The triangle is positioned towards the right side of the bounding box, slightly elevated from the center. It has sharp edges and is outlined by a thin white border, creating a clean and modern appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Purple Circle",
+      "description": "A solid purple circle with a diameter that fits within the bounding box dimensions. It is positioned centrally within the specified area, blending seamlessly with the background color of the ad, which is a lighter purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Purple Circle",
+      "description": "A small, solid purple circle located within the bounding box at coordinates [43.75, 160.62, 65.0, 181.88]. It appears as a single rounded shape with no additional details, set against a lighter purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Purple Circle",
+      "description": "A solid purple circle, positioned within the bounding box at coordinates [140.62, 250.62] to [161.88, 271.88]. The circle has a smooth, rounded shape and is filled with a uniform purple color, blending with the background of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Purple Circle",
+      "description": "A small purple circle located within the bounding box at coordinates [43.75, 250.62] with a diameter of approximately 21 pixels. It is positioned in the top left corner of the bounding box, surrounded by a lighter purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main Text",
+      "description": "The text 'Level up today' is displayed in large, bold white font, centered horizontally within a rectangular area. Below it, in smaller white font, is the text 'Play with friends tonight'. The background of this text area is a light purple, contrasting with the white text.",
+      "text_content": "Level up today Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.681
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "The element is a text logo that reads 'PixelForge' in white font on a purple background. It is positioned at the top left corner of the ad, occupying a rectangular area. The logo has a slightly rounded rectangle shape with a solid purple background, and the text is centered within this area.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Order Now Button",
+      "description": "A white rounded rectangle button with the text 'Order now' in bold black font. It is positioned at the bottom center of the ad, with a slight shadow effect, creating a 3D appearance.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for PixelForge utilizes a vibrant purple background and features a prominent logo, engaging text, and a clear call-to-action, designed to attract users and encourage interaction.",
+    "elements_text": "background: purple gradient; main_subject: PixelForge logo, main text 'Level up today', CTA button 'Order now'",
+    "ocr_text": "Level up today Play with friends tonight Order now",
+    "layout_text": "PixelForge logo at top left, main text at center, CTA button at bottom center"
+  }
+}

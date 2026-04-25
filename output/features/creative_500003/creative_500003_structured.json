@@ -1,0 +1,388 @@
+{
+  "creative_id": "500003",
+  "asset_file": "assets/creative_500003.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for PixelForge that features a vibrant orange background, creating an energetic and inviting atmosphere. The ad is structured with a clear hierarchy of elements, drawing the viewer's attention from the top to the bottom. In the top left corner, there is the PixelForge logo, which consists of bold black text against a light orange rounded rectangle, giving it a prominent and eye-catching presence. Below the logo, there are two vertically stacked rounded rectangles, each with a light orange background and a small brown dot in the top left corner, adding a playful touch to the design. In the center of the ad, there is a large, bold white text that reads 'Level up today', which is the main message of the ad, positioned centrally within the orange background. Just below this message, in smaller white text, it states 'No ads in first week', reinforcing the promotional offer. At the bottom of the ad, we see a rounded rectangle button with a white background and bold black text that reads 'Order now', positioned at the bottom center, slightly elevated from the edge, inviting users to take action. The overall layout is balanced and organized, with a combination of text and icons that guide the viewer's eye through the ad.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Level up today with no ads in the first week",
+    "dominant_colors": [
+      "light orange",
+      "black",
+      "white",
+      "brown"
+    ],
+    "emotional_tone": "Energetic and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "body_text",
+      "label": "Level Up Today Text",
+      "description": "The text 'Level up today' is displayed in white, bold font, centered horizontally within the bounding box. It is positioned towards the upper part of the lower section of the ad, above the text 'No ads in first week', which is smaller and also in white. The background of this section is a light orange color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A light orange rounded rectangle with the text 'PixelForge' in bold black font. The logo is positioned at the top left corner of the ad, occupying a small area, with a slight shadow effect to give it depth against the darker orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Two Orange Rectangles with Dots",
+      "description": "Two vertically stacked rounded rectangles with a light orange background. Each rectangle has a brown dot positioned in the top left corner. The rectangles have a thin white border and are centered within the bounding box, which is located towards the upper half of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        158,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.248,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.37
+      ],
+      "area_percentage": 5.4
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Brown Dot on Light Orange Background",
+      "description": "A small brown circle positioned at the top left corner of a light orange square. The square has slightly rounded corners and is part of a grid layout within the ad. The element is located within the bounding box specified, contributing to the overall design of the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Brown Dot on Light Background",
+      "description": "A small brown circle positioned in the top left corner of a light orange rounded rectangle. The rectangle has slightly rounded corners and is set against a lighter orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Brown Dot on Light Orange Background",
+      "description": "A small brown circle positioned in the top left corner of a light orange rounded rectangle. The rectangle has slightly rounded corners and is placed within the bounding box defined by the coordinates [133.12, 153.12, 213.12, 223.75] in the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Brown Dot Icon",
+      "description": "A small brown circle positioned in the top left corner of a light orange rounded rectangle. The rectangle has soft corners and is slightly larger than the dot, creating a subtle contrast with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "White Arrow Icon",
+      "description": "A white triangular arrow pointing to the right, positioned in the upper right quadrant of the ad. The arrow is set against an orange background, with its tip extending towards the edge of the bounding box. The arrow has sharp edges and a clean, minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Brown Circle",
+      "description": "A small brown circle located within a grid of four squares, positioned in the lower left square of the grid. The circle has a solid fill and is centered within the square, which has a white outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Brown Circle",
+      "description": "A small brown circle, positioned within a grid layout. The circle has a solid fill and is located in the second row, first column of the grid. It is surrounded by a light orange background, which contrasts with its darker hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Brown Circle",
+      "description": "A small brown circle, positioned within the bounding box at coordinates [43.75, 250.62] to [65.0, 271.88]. It appears as a solid shape with a smooth edge, contrasting against the lighter orange background of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "Brown Circle",
+      "description": "A small brown circle positioned within the bounding box at coordinates [140.62, 250.62, 161.88, 271.88]. It appears as a solid shape with a uniform color, located in the lower left quadrant of the ad, surrounded by a light orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Promotional Text",
+      "description": "A large, bold, white text that reads 'Level up today' is positioned centrally within the orange background of the ad. Below it, in smaller white text, it states 'No ads in first week'. The text is aligned to the center, creating a clear and inviting message.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        53,
+        405,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.633,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.501,
+        0.678
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "The element is a black text logo that reads 'PixelForge'. It is positioned at the top left corner of the ad, occupying a rectangular area. The background is a light orange color, and the logo has a bold font style, making it prominent against the background.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Order Now Button",
+      "description": "A rounded rectangle button with a white background and bold black text that reads 'Order now'. It is positioned at the bottom center of the ad, slightly elevated from the bottom edge.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for PixelForge features a vibrant orange background with a prominent logo, engaging text, and a clear call to action, designed to attract users and promote the app effectively.",
+    "elements_text": "background: vibrant orange; main_subject: PixelForge logo, promotional text, order button",
+    "ocr_text": "Level up today No ads in first week Order now",
+    "layout_text": "PixelForge logo at top left, two rounded rectangles with dots below logo, 'Level up today' at center, 'No ads in first week' below main text, 'Order now' button at bottom center"
+  }
+}

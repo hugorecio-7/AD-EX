@@ -1,0 +1,49 @@
+{
+  "creative_id": "500587",
+  "asset_file": "assets/creative_500587.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for LuxShelf that features a solid blue background covering the entire canvas, creating a sense of calm and stability. In the center, there are no additional elements described, which suggests a minimalist approach that emphasizes the background color itself. The simplicity of the design allows the viewer to focus solely on the calming effect of the blue hue. At the bottom, we see a call-to-action (CTA) that is not specified in the provided elements, but typically, such CTAs are designed to encourage engagement, perhaps inviting the viewer to learn more about LuxShelf or to make a purchase. The overall layout is clean and uncluttered, with the blue background serving as the primary visual element, creating a serene and inviting atmosphere. The absence of other elements allows for a strong emphasis on the brand identity of LuxShelf, suggesting a modern and sophisticated product. The ad's structure is straightforward, with the background dominating the visual space and the CTA likely positioned to draw attention without overwhelming the viewer.",
+    "visual_style": "Minimalist design with a focus on a solid color background",
+    "main_message": "LuxShelf offers a serene and sophisticated shelving solution.",
+    "dominant_colors": [
+      "blue"
+    ],
+    "emotional_tone": "Calm and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for LuxShelf utilizes a solid blue background to create a calming atmosphere, emphasizing simplicity and sophistication.",
+    "elements_text": "background: solid blue background; main_subject: none specified",
+    "ocr_text": "No visible text provided",
+    "layout_text": "background at full canvas"
+  }
+}

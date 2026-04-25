@@ -1,0 +1,220 @@
+{
+  "creative_id": "500014",
+  "asset_file": "assets/creative_500014.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "An ad for EarnPath that features a solid blue background covering the entire canvas, creating a vibrant and inviting atmosphere. In the center, there are several decorative elements including a large outlined rectangle that is positioned slightly to the right, with straight edges and an empty interior, complemented by a smaller outlined circle to its left. Both shapes are in a light gray color, which contrasts well against the white background they are visually associated with. Additionally, there is a gray rectangle with rounded corners that is also centered within the ad, outlined in a thin gray line, and slightly to the right of the central area. Above this rectangle, an outlined oval shape in a light gray color is positioned towards the top left corner, slightly overlapping with the rectangle, giving a layered effect. Towards the bottom left, a gray circle with a smooth outline is located, adding to the visual interest of the composition. Centrally positioned within the ad is the body text, which reads 'Secure & simple' in a bold, large black font, making it the focal point of the ad. Below this, in a smaller regular black font, the text 'Built for peace of mind' appears, providing additional context and reassurance to the viewer. At the bottom of the ad, we see the 'Order Now' button, which is a rounded rectangular shape with a dark background and white text, giving it a prominent and inviting appearance. This button is centered horizontally and has a slight shadow effect, enhancing its raised look and encouraging interaction. In the top left corner, the EarnPath text logo is displayed in bold black font, clear and prominent against the light gray background, establishing brand identity effectively.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Secure and simple solutions designed for peace of mind.",
+    "dominant_colors": [
+      "blue",
+      "light gray",
+      "black",
+      "white"
+    ],
+    "emotional_tone": "Reassuring and inviting, instilling a sense of trust and simplicity."
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "Solid blue background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Outlined Rectangle and Circle",
+      "description": "A large, outlined rectangle positioned centrally within the ad, slightly to the right, with a smaller outlined circle located to the left of the rectangle. The rectangle has straight edges and is empty inside, while the circle is a simple round shape. Both shapes are in a light gray color against a white background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Gray Rectangle",
+      "description": "A gray rectangle with rounded corners positioned towards the center of the ad. It is outlined in a thin gray line and has a width that is larger than its height. The rectangle is placed slightly to the right of the center, with a small gray circle to its left and an oval shape above it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Outlined Oval",
+      "description": "An outlined oval shape in a light gray color, positioned towards the top left corner of the bounding box. It has a thin border and is slightly overlapping with a rectangular shape that is also outlined. The oval is larger than the rectangle and has a smooth, rounded appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.499,
+        0.47
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.64
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Gray Circle",
+      "description": "A gray circular shape located towards the bottom left of the bounding box, with a smooth outline and no fill. It is positioned slightly above the bottom edge and to the left of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Body Text",
+      "description": "The text 'Secure & simple' is displayed in bold, large black font, positioned centrally within the ad. Below it, in smaller font, the text 'Built for peace of mind' appears in regular black font. The background is light gray, providing contrast to the text.",
+      "text_content": "Secure & simple Built for peace of mind",
+      "bbox_xyxy": [
+        32,
+        203,
+        288,
+        255
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.634,
+        0.9,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.716
+      ],
+      "area_percentage": 13.0
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order Now Button",
+      "description": "A rounded rectangular button with a dark background and white text that reads 'Order now'. It is positioned at the bottom of the ad, centered horizontally, and has a slight shadow effect, giving it a raised appearance.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        279,
+        209,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.653,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "EarnPath text logo",
+      "description": "The element consists of the text 'EarnPath' in a bold, black font. It is positioned at the top left corner of the ad, occupying a horizontal space. The text is clear and prominent against a light gray background.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "This ad for EarnPath emphasizes security and simplicity through its clear layout and inviting colors, featuring prominent text and a call to action.",
+    "elements_text": "background: Solid blue background; main_subject: Large outlined rectangle and smaller circle, gray rectangle, outlined oval, gray circle, body text, 'Order Now' button, EarnPath text logo.",
+    "ocr_text": "Secure & simple Built for peace of mind Order now EarnPath",
+    "layout_text": "Solid blue background at [0.0, 0.0, 1.0, 1.0], outlined rectangle at [0.184, 0.309, 0.78, 0.521], gray rectangle at [0.313, 0.338, 0.78, 0.521], outlined oval at [0.169, 0.238, 0.499, 0.47], gray circle at [0.118, 0.528, 0.221, 0.63], body text at [0.1, 0.634, 0.9, 0.797], 'Order Now' button at [0.341, 0.872, 0.653, 0.934], EarnPath text logo at [0.072, 0.072, 0.353, 0.134]."
+  }
+}

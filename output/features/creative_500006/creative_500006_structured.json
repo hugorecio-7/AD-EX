@@ -1,0 +1,269 @@
+{
+  "creative_id": "500006",
+  "asset_file": "assets/creative_500006.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "An ad for VantaStyle that features a bold red background, creating a vibrant and attention-grabbing canvas. The top left corner showcases the VantaStyle logo, which is a pink rounded rectangle with the brand name 'VantaStyle' written in white, modern, and bold font. Adjacent to the logo, at the top right corner, is a bright yellow rectangular tag that reads 'SALE' in uppercase, dark-colored letters, slightly overlapping the main content area. In the center of the ad, there are three decorative pink rectangles with diagonal lines inside them, arranged horizontally above the main text. Below these rectangles, centrally positioned in the lower part of the ad, is the primary body text that states 'Up to 40% off' in a large, bold white font, followed by the smaller text 'Only this weekend' in white, both set against a light red rectangular area. Towards the bottom of the ad, we see a prominent call-to-action button that is a white rounded rectangle with the text 'Order now' in bold black font, designed to stand out against the red background. This button is centrally located at the bottom, inviting immediate action from viewers.",
+    "visual_style": "Flat design with high contrast and vibrant colors",
+    "main_message": "Limited-time offer of up to 40% off on VantaStyle products, encouraging immediate purchase.",
+    "dominant_colors": [
+      "red",
+      "pink",
+      "yellow",
+      "white",
+      "black"
+    ],
+    "emotional_tone": "Urgent and exciting, creating a sense of limited-time opportunity and encouraging action."
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "body_text",
+      "label": "Discount Text",
+      "description": "The text 'Up to 40% off' is displayed in bold white font, positioned centrally within the lower part of the element. Below it, in smaller white font, is the text 'Only this weekend'. The background of the element is a solid red color, and there are three pink rectangles with diagonal lines inside them, arranged horizontally above the text. To the left of the rectangles, there is a small pink circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.8
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A pink rounded rectangle with the text 'VantaStyle' in white, positioned at the top left corner of the ad. To the right, there is a small yellow rounded rectangle with the text 'SALE' in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Pink Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a diagonal line running from the top left to the bottom right. It is positioned centrally within the bounding box defined by the coordinates [48.28, 135.0, 105.47, 220.31], appearing as a decorative element in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Diagonal Line in Pink Rectangle",
+      "description": "A pink rounded rectangle with a diagonal line running from the top left corner to the bottom right corner. The rectangle is positioned centrally within the bounding box, occupying a significant portion of the space. The line is a darker shade of pink, creating a contrast against the lighter pink background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Diagonal Line in Pink Rectangle",
+      "description": "A pink rounded rectangle with a diagonal line running from the top left corner to the bottom right corner. The rectangle is positioned centrally within the bounding box, occupying a significant portion of the area. The line is darker pink, creating a contrast against the lighter pink background of the rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Pink Circle",
+      "description": "A small, solid pink circle located towards the left side of the ad, positioned below three vertical rectangular shapes. The circle has a smooth, rounded appearance and is centered vertically between the bottom of the ad and the rectangular shapes above it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Discount Text",
+      "description": "A rectangular area with a light red background. The text 'Up to 40% off' is prominently displayed in white, bold font, centered within the rectangle. Below it, in smaller white font, is the text 'Only this weekend'. The element is positioned in the lower middle section of the ad, occupying a significant portion of the width.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "The logo consists of the text 'VantaStyle' in a light pink color. It is positioned in the top left corner of the ad, occupying a rectangular area. The background behind the logo is a darker red, creating contrast. The font appears modern and bold, enhancing visibility.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        134,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.419,
+        0.125
+      ],
+      "center_normalized": [
+        0.244,
+        0.098
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Order now Button",
+      "description": "A white rounded rectangle button with the text 'Order now' in bold black font. It is positioned centrally at the bottom of the ad, with a slight shadow effect, making it stand out against the red background.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Yellow SALE Tag",
+      "description": "A rectangular shape with rounded corners, filled with a bright yellow color. The text 'SALE' is displayed in bold, uppercase letters in a contrasting dark color. This element is positioned at the top right corner of the ad, slightly overlapping the main content area.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "The VantaStyle ad features a vibrant red background with a prominent logo, discount text, and a call-to-action button, designed to attract attention and encourage immediate purchases.",
+    "elements_text": "background: red; main_subject: VantaStyle logo, discount text, SALE tag, call-to-action button.",
+    "ocr_text": "Up to 40% off Only this weekend VantaStyle SALE Order now",
+    "layout_text": "VantaStyle logo at [top left], SALE tag at [top right], pink rectangles at [center], discount text at [lower center], Order now button at [bottom center]."
+  }
+}
