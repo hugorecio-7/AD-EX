@@ -1,0 +1,171 @@
+{
+  "creative_id": "500012",
+  "asset_file": "assets/creative_500012.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the EarnPath logo positioned in the top left corner. The main subject includes a prominent text logo at the top center, supported by geometric shapes and a segmented crop in the center. The body text, located at the bottom center, conveys the message 'Your money, clearer Builtfe nd Book now'.",
+    "visual_style": "Modern design with geometric elements and a clean layout",
+    "main_message": "Investing made clear and accessible",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Trustworthy and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath Logo",
+      "description": "The logo of the EarnPath app, positioned at the top left corner of the crop.",
+      "text_content": "EamPath",
+      "bbox_xyxy": [
+        23,
+        25,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.078,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.106
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Supporting text",
+      "description": "Text that supports the main message, positioned below the headline.",
+      "text_content": "Your money, clearer Builtfe nd Book now",
+      "bbox_xyxy": [
+        63,
+        203,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.634,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.784
+      ],
+      "area_percentage": 18.28
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "EarnPath text logo",
+      "description": "The logo of the EarnPath app, positioned at the top left corner of the crop.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.178
+      ],
+      "center_normalized": [
+        0.498,
+        0.089
+      ],
+      "area_percentage": 17.76
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two geometric shapes, an oval and a rectangle, in a blue background, positioned towards the top left of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.237,
+        0.766,
+        0.506
+      ],
+      "center_normalized": [
+        0.467,
+        0.372
+      ],
+      "area_percentage": 16.04
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A segmented crop showing abstract shapes, primarily a rectangle and an oval, with a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.325,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for EarnPath Invest emphasizing clarity in investing.",
+    "elements_text": "background: full canvas background. logo: EarnPath Logo, small, located at top left, text: \"EamPath\". decorative_element: Supporting text, large, located at bottom center, text: \"Your money, clearer Builtfe nd Book now\". decorative_element: EarnPath text logo, large, located at top center, text: \"EarnPath\". decorative_element: Geometric shapes, large, located at center. decorative_element: Segmented crop, medium, located at center.",
+    "ocr_text": "EamPath Your money, clearer Builtfe nd Book now EarnPath Built for peace of mind",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath Logo at top left, bbox=[0.072, 0.078, 0.353, 0.134]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 320] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath Logo | text=\"EamPath\" | bbox_xyxy=[23, 25, 113, 43] | bbox_norm=[0.072, 0.078, 0.353, 0.134] | center=[0.212, 0.106] | area_pct=1.58\nid=3 | role=decorative_element | label=Supporting text | text=\"Your money, clearer Builtfe nd Book now\" | bbox_xyxy=[63, 203, 258, 299] | bbox_norm=[0.197, 0.634, 0.806, 0.934] | center=[0.502, 0.784] | area_pct=18.28\nid=4 | role=decorative_element | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[0, 0, 319, 57] | bbox_norm=[0.0, 0.0, 0.997, 0.178] | center=[0.498, 0.089] | area_pct=17.76\nid=5 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 76, 245, 162] | bbox_norm=[0.169, 0.237, 0.766, 0.506] | center=[0.467, 0.372] | area_pct=16.04\nid=6 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[58, 104, 249, 166] | bbox_norm=[0.181, 0.325, 0.778, 0.519] | center=[0.48, 0.422] | area_pct=11.56"
+  }
+}

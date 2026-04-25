@@ -6,21 +6,22 @@
     "height": 640
   },
   "global": {
-    "description": "An ad for PixelForge that features a solid blue background covering the entire canvas, creating a calm and inviting atmosphere. In the top left corner, there is a rounded rectangle with a light purple background that houses the PixelForge logo, which consists of the word 'PixelForge' written in white. This logo is prominent and easily identifiable, setting the tone for the ad. Adjacent to the logo, there are several decorative elements, including multiple purple circles of varying shades and sizes, which add a playful and dynamic feel to the design. These circles are strategically placed around the logo and throughout the ad, creating a sense of movement and interest. In the center of the ad, there is a bold headline text that serves as the primary marketing message, drawing attention to the core offering of PixelForge. Below the headline, supporting body text provides additional descriptive information, enhancing the viewer's understanding of the product. At the bottom of the ad, we see a call-to-action button that reads 'Order now'. This button is a rounded rectangle with a white background and black text, positioned centrally and slightly elevated from the bottom edge, making it easily accessible for interaction. The overall layout is clean and organized, with a clear hierarchy of information that guides the viewer's eye from the logo to the headline, body text, and finally to the call-to-action.",
-    "visual_style": "Flat design with high contrast",
-    "main_message": "Encouraging users to order PixelForge",
+    "description": "The ad features a full canvas background with the 'PixelForge' logo positioned in the top left. The main message is conveyed through a prominent headline 'Level up today' and supporting body text 'Play with friends tonight', both centered in the middle of the ad. A call to action 'Order now' is located at the bottom center. The ad includes several decorative elements showcasing game graphics, enhancing the visual appeal.",
+    "visual_style": "Vibrant design with engaging game-themed graphics",
+    "main_message": "Encouraging players to engage with friends and enhance their gaming experience.",
     "dominant_colors": [
       "blue",
-      "purple"
+      "green",
+      "white"
     ],
-    "emotional_tone": "Inviting and playful"
+    "emotional_tone": "Exciting and inviting"
   },
   "elements": [
     {
       "id": 1,
       "role": "background",
-      "label": "Solid blue background",
-      "description": "Solid blue background covering the full canvas.",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
       "text_content": null,
       "bbox_xyxy": [
         0,
@@ -43,245 +44,29 @@
     {
       "id": 2,
       "role": "logo",
-      "label": "PixelForge Logo",
-      "description": "A rounded rectangle with a light purple background and the text 'PixelForge' in white, positioned at the top left corner of the ad.",
-      "text_content": null,
+      "label": "PixelForge text logo",
+      "description": "The brand name 'PixelForge' displayed prominently at the top of the ad in a bold font.",
+      "text_content": "PixelForge",
       "bbox_xyxy": [
-        0,
-        0,
-        359,
-        115
+        23,
+        44,
+        144,
+        75
       ],
       "bbox_normalized": [
-        0.0,
-        0.0,
-        0.998,
-        0.18
+        0.064,
+        0.069,
+        0.4,
+        0.117
       ],
       "center_normalized": [
-        0.499,
-        0.09
+        0.232,
+        0.093
       ],
-      "area_percentage": 17.94
+      "area_percentage": 1.63
     },
     {
       "id": 3,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A single purple circle positioned within a light purple rounded rectangle. The circle is located in the top left corner of the rectangle, with a slightly darker shade of purple than the background.",
-      "text_content": null,
-      "bbox_xyxy": [
-        133,
-        153,
-        213,
-        223
-      ],
-      "bbox_normalized": [
-        0.37,
-        0.239,
-        0.592,
-        0.35
-      ],
-      "center_normalized": [
-        0.481,
-        0.294
-      ],
-      "area_percentage": 2.45
-    },
-    {
-      "id": 4,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small dark purple circle positioned in the top left corner of a light purple square. The square has rounded corners and is located within the bounding box defined by the coordinates [35.62, 243.12, 115.62, 313.75].",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        243,
-        115,
-        313
-      ],
-      "bbox_normalized": [
-        0.099,
-        0.38,
-        0.321,
-        0.49
-      ],
-      "center_normalized": [
-        0.21,
-        0.435
-      ],
-      "area_percentage": 2.45
-    },
-    {
-      "id": 5,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A single dark purple circle positioned in the top left corner of a light purple rounded rectangle. The rectangle has a thin white outline and is located within the bounding box defined by the coordinates [133.12, 243.12, 213.12, 313.75].",
-      "text_content": null,
-      "bbox_xyxy": [
-        133,
-        243,
-        213,
-        313
-      ],
-      "bbox_normalized": [
-        0.37,
-        0.38,
-        0.592,
-        0.49
-      ],
-      "center_normalized": [
-        0.481,
-        0.435
-      ],
-      "area_percentage": 2.45
-    },
-    {
-      "id": 6,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small purple circle positioned in the top left corner of a light purple rounded rectangle. The rectangle has a thin white outline and is set against a darker purple background.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        153,
-        115,
-        223
-      ],
-      "bbox_normalized": [
-        0.099,
-        0.239,
-        0.321,
-        0.35
-      ],
-      "center_normalized": [
-        0.21,
-        0.294
-      ],
-      "area_percentage": 2.45
-    },
-    {
-      "id": 7,
-      "role": "decorative_element",
-      "label": "Right Arrow",
-      "description": "A white right-pointing triangle with a purple background. It is positioned towards the right side of the ad, near the top right corner of the bounding box specified.",
-      "text_content": null,
-      "bbox_xyxy": [
-        315,
-        153,
-        341,
-        203
-      ],
-      "bbox_normalized": [
-        0.877,
-        0.24,
-        0.95,
-        0.318
-      ],
-      "center_normalized": [
-        0.913,
-        0.279
-      ],
-      "area_percentage": 0.57
-    },
-    {
-      "id": 8,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small purple circle located within the bounding box at the coordinates specified. It is positioned in the top left corner of the bounding box, with a diameter that appears to be consistent with the other circles in the ad. The circle is solid purple, blending into the background, which is a lighter shade of purple.",
-      "text_content": null,
-      "bbox_xyxy": [
-        140,
-        160,
-        161,
-        181
-      ],
-      "bbox_normalized": [
-        0.391,
-        0.251,
-        0.45,
-        0.284
-      ],
-      "center_normalized": [
-        0.42,
-        0.268
-      ],
-      "area_percentage": 0.2
-    },
-    {
-      "id": 9,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small purple circle located within the bounding box at coordinates [43.75, 160.62, 65.0, 181.88]. The circle is solid and blends with the background color, which is a lighter shade of purple.",
-      "text_content": null,
-      "bbox_xyxy": [
-        43,
-        160,
-        65,
-        181
-      ],
-      "bbox_normalized": [
-        0.122,
-        0.251,
-        0.181,
-        0.284
-      ],
-      "center_normalized": [
-        0.151,
-        0.268
-      ],
-      "area_percentage": 0.2
-    },
-    {
-      "id": 10,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small, solid purple circle located within the specified bounding box. The circle is centered in the box, with a smooth, rounded shape and no additional details or outlines.",
-      "text_content": null,
-      "bbox_xyxy": [
-        140,
-        250,
-        161,
-        271
-      ],
-      "bbox_normalized": [
-        0.391,
-        0.392,
-        0.45,
-        0.425
-      ],
-      "center_normalized": [
-        0.42,
-        0.408
-      ],
-      "area_percentage": 0.2
-    },
-    {
-      "id": 11,
-      "role": "decorative_element",
-      "label": "Purple Circle",
-      "description": "A small purple circle located within the bounding box at coordinates [43.75, 250.62, 65.0, 271.88]. The circle is filled with a solid purple color and has a smooth, rounded shape, blending seamlessly with the background of the ad.",
-      "text_content": null,
-      "bbox_xyxy": [
-        43,
-        250,
-        65,
-        271
-      ],
-      "bbox_normalized": [
-        0.122,
-        0.392,
-        0.181,
-        0.425
-      ],
-      "center_normalized": [
-        0.151,
-        0.408
-      ],
-      "area_percentage": 0.2
-    },
-    {
-      "id": 12,
       "role": "headline",
       "label": "Headline text",
       "description": "Primary marketing headline text.",
@@ -305,7 +90,7 @@
       "area_percentage": 3.32
     },
     {
-      "id": 13,
+      "id": 4,
       "role": "body_text",
       "label": "Body text",
       "description": "Supporting descriptive text below the headline.",
@@ -329,34 +114,10 @@
       "area_percentage": 3.32
     },
     {
-      "id": 14,
-      "role": "logo",
-      "label": "PixelForge text logo",
-      "description": "A white text logo reading 'PixelForge' on a purple background. The text is positioned in the top left corner of the ad, occupying a rectangular area that is wider than it is tall.",
-      "text_content": "PixelForge",
-      "bbox_xyxy": [
-        23,
-        44,
-        144,
-        75
-      ],
-      "bbox_normalized": [
-        0.064,
-        0.069,
-        0.4,
-        0.117
-      ],
-      "center_normalized": [
-        0.232,
-        0.093
-      ],
-      "area_percentage": 1.63
-    },
-    {
-      "id": 15,
+      "id": 5,
       "role": "cta",
-      "label": "Order Now Button",
-      "description": "A rounded rectangle button with a white background and black text that reads 'Order now'. It is positioned at the bottom center of the ad, slightly elevated from the bottom edge.",
+      "label": "Call to Action",
+      "description": "A button at the bottom of the ad encouraging users to take action, located centrally.",
       "text_content": "Order now",
       "bbox_xyxy": [
         125,
@@ -375,12 +136,133 @@
         0.892
       ],
       "area_percentage": 0.95
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Play symbol",
+      "description": "A right-facing triangular play symbol in the top right corner of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.239,
+        0.947,
+        0.317
+      ],
+      "center_normalized": [
+        0.911,
+        0.278
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A small circular shape in a purple background, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.592,
+        0.348
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A small circular element on a purple background, possibly part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.38,
+        0.319,
+        0.489
+      ],
+      "center_normalized": [
+        0.208,
+        0.434
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A small circular element with a purple background, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.592,
+        0.489
+      ],
+      "center_normalized": [
+        0.481,
+        0.434
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Segmented crop of a game element",
+      "description": "A small purple square with a single dark circle inside, likely part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.239,
+        0.319,
+        0.348
+      ],
+      "center_normalized": [
+        0.208,
+        0.294
+      ],
+      "area_percentage": 2.43
     }
   ],
   "embedding_texts": {
-    "global_text": "This ad for PixelForge features a solid blue background, a prominent logo, engaging decorative elements, clear headline and body text, and a call-to-action button, all designed to attract and inform potential customers.",
-    "elements_text": "id=1 | role=background | label=Solid blue background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge Logo | text=<none> | bbox_xyxy=[0, 0, 359, 115] | bbox_norm=[0.0, 0.0, 0.998, 0.18] | center=[0.499, 0.09] | area_pct=17.94\nid=3 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[133, 153, 213, 223] | bbox_norm=[0.37, 0.239, 0.592, 0.35] | center=[0.481, 0.294] | area_pct=2.45\nid=4 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[35, 243, 115, 313] | bbox_norm=[0.099, 0.38, 0.321, 0.49] | center=[0.21, 0.435] | area_pct=2.45\nid=5 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[133, 243, 213, 313] | bbox_norm=[0.37, 0.38, 0.592, 0.49] | center=[0.481, 0.435] | area_pct=2.45\nid=6 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[35, 153, 115, 223] | bbox_norm=[0.099, 0.239, 0.321, 0.35] | center=[0.21, 0.294] | area_pct=2.45\nid=7 | role=decorative_element | label=Right Arrow | text=<none> | bbox_xyxy=[315, 153, 341, 203] | bbox_norm=[0.877, 0.24, 0.95, 0.318] | center=[0.913, 0.279] | area_pct=0.57\nid=8 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[140, 160, 161, 181] | bbox_norm=[0.391, 0.251, 0.45, 0.284] | center=[0.42, 0.268] | area_pct=0.2\nid=9 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[43, 160, 65, 181] | bbox_norm=[0.122, 0.251, 0.181, 0.284] | center=[0.151, 0.268] | area_pct=0.2\nid=10 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[140, 250, 161, 271] | bbox_norm=[0.391, 0.392, 0.45, 0.425] | center=[0.42, 0.408] | area_pct=0.2\nid=11 | role=decorative_element | label=Purple Circle | text=<none> | bbox_xyxy=[43, 250, 65, 271] | bbox_norm=[0.122, 0.392, 0.181, 0.425] | center=[0.151, 0.408] | area_pct=0.2\nid=12 | role=headline | label=Headline text | text=\"Level up today\" | bbox_xyxy=[53, 406, 308, 436] | bbox_norm=[0.147, 0.634, 0.856, 0.681] | center=[0.501, 0.658] | area_pct=3.32\nid=13 | role=body_text | label=Body text | text=\"Play with friends tonight\" | bbox_xyxy=[53, 436, 308, 466] | bbox_norm=[0.147, 0.681, 0.856, 0.728] | center=[0.501, 0.705] | area_pct=3.32\nid=14 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=15 | role=cta | label=Order Now Button | text=\"Order now\" | bbox_xyxy=[125, 561, 235, 581] | bbox_norm=[0.347, 0.877, 0.653, 0.908] | center=[0.5, 0.892] | area_pct=0.95",
-    "ocr_text": "PixelForge Order now",
-    "layout_text": "background at [0.0, 0.0, 1.0, 1.0], PixelForge Logo at [0.0, 0.0, 0.998, 0.18], headline text at [0.147, 0.634, 0.856, 0.681], body text at [0.147, 0.681, 0.856, 0.728], Order Now Button at [0.347, 0.877, 0.653, 0.908]"
+    "global_text": "Mobile ad for PixelForge Legends promoting social gaming experience.",
+    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Level up today\". body_text: Body text, small, located at center, text: \"Play with friends tonight\". cta: Call to Action, tiny, located at bottom center, text: \"Order now\". icon: Play symbol, tiny, located at middle right. decorative_element: Segmented crop of a game element, small, located at center. decorative_element: Segmented crop of a game element, small, located at middle left. decorative_element: Segmented crop of a game element, small, located at center. decorative_element: Segmented crop of a game element, small, located at middle left.",
+    "ocr_text": "PixelForge Level up today Play with friends tonight Order now",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.147, 0.634, 0.856, 0.681]. body_text Body text at center, bbox=[0.147, 0.681, 0.856, 0.728]. cta Call to Action at bottom center, bbox=[0.347, 0.877, 0.653, 0.908]. icon Play symbol at middle right, bbox=[0.875, 0.239, 0.947, 0.317]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Level up today\" | bbox_xyxy=[53, 406, 308, 436] | bbox_norm=[0.147, 0.634, 0.856, 0.681] | center=[0.501, 0.658] | area_pct=3.32\nid=4 | role=body_text | label=Body text | text=\"Play with friends tonight\" | bbox_xyxy=[53, 436, 308, 466] | bbox_norm=[0.147, 0.681, 0.856, 0.728] | center=[0.501, 0.705] | area_pct=3.32\nid=5 | role=cta | label=Call to Action | text=\"Order now\" | bbox_xyxy=[125, 561, 235, 581] | bbox_norm=[0.347, 0.877, 0.653, 0.908] | center=[0.5, 0.892] | area_pct=0.95\nid=6 | role=icon | label=Play symbol | text=<none> | bbox_xyxy=[315, 153, 341, 203] | bbox_norm=[0.875, 0.239, 0.947, 0.317] | center=[0.911, 0.278] | area_pct=0.56\nid=7 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[133, 153, 213, 223] | bbox_norm=[0.369, 0.239, 0.592, 0.348] | center=[0.481, 0.294] | area_pct=2.43\nid=8 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[35, 243, 115, 313] | bbox_norm=[0.097, 0.38, 0.319, 0.489] | center=[0.208, 0.434] | area_pct=2.43\nid=9 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[133, 243, 213, 313] | bbox_norm=[0.369, 0.38, 0.592, 0.489] | center=[0.481, 0.434] | area_pct=2.43\nid=10 | role=decorative_element | label=Segmented crop of a game element | text=<none> | bbox_xyxy=[35, 153, 115, 223] | bbox_norm=[0.097, 0.239, 0.319, 0.348] | center=[0.208, 0.294] | area_pct=2.43"
   }
 }

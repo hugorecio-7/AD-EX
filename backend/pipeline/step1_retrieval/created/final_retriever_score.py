@@ -101,6 +101,14 @@ def add_final_retriever_score(
 
     df["final_retriever_score"] = df["final_retriever_score"].clip(0.0, 1.0)
 
+    context_score = _safe_numeric_score(df, "context_score_final")
+
+    df["context_gate_multiplier"] = (0.50 + 0.50 * context_score).clip(0.50, 1.0)
+
+    df["final_retriever_score"] = (
+        df["final_retriever_score"] * df["context_gate_multiplier"]
+    ).clip(0.0, 1.0)
+
     return df
 
 

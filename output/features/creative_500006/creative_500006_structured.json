@@ -1,0 +1,244 @@
+{
+  "creative_id": "500006",
+  "asset_file": "assets/creative_500006.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a full canvas background with a prominent VantaStyle logo positioned in the top left. The main subject is highlighted by a bold headline stating 'Up to 40%' centered in the middle of the ad, followed by body text 'off Only this weekend' directly below. A call-to-action button labeled 'Order now' is located at the bottom center. A 'SALE' badge is placed in the top right corner, enhancing the promotional aspect. The overall layout is complemented by segmented decorative elements on the sides and center, creating a dynamic visual appeal.",
+    "visual_style": "Modern flat design with vibrant colors",
+    "main_message": "Limited time offer with significant discounts",
+    "dominant_colors": [
+      "red",
+      "white",
+      "black"
+    ],
+    "emotional_tone": "Urgency and excitement"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle text logo",
+      "description": "The logo of the VantaStyle app, displayed prominently in the top left corner of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        134,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.419,
+        0.125
+      ],
+      "center_normalized": [
+        0.244,
+        0.098
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Up to 40%",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        332
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.692
+      ],
+      "center_normalized": [
+        0.506,
+        0.666
+      ],
+      "area_percentage": 3.48
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        332,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.692,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.719
+      ],
+      "area_percentage": 3.62
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button with the text 'Order now' positioned at the bottom of the crop.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale Badge",
+      "description": "A yellow badge with the word 'SALE' prominently displayed, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Segmented crop of a red rectangle",
+      "description": "A cropped segment showing a red rectangle with a diagonal line, likely part of a larger design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.281,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Segmented crop",
+      "description": "A rectangular shape with a diagonal line across it, likely serving as a visual decoration.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.591,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Segmented rectangle",
+      "description": "A pink rectangle with a diagonal line, positioned centrally within the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.31,
+        0.544,
+        0.485
+      ],
+      "center_normalized": [
+        0.458,
+        0.398
+      ],
+      "area_percentage": 3.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for VantaStyle Drops promoting a weekend sale with a strong call to action.",
+    "elements_text": "background: full canvas background. logo: VantaStyle text logo, small, located at top left, text: \"VantaStyle\". headline: Headline text, small, located at center, text: \"Up to 40%\". body_text: Body text, small, located at center, text: \"off Only this weekend\". cta: Call to Action Button, small, located at bottom center, text: \"Order now\". discount_badge: Sale Badge, tiny, located at top right, text: \"SALE\". decorative_element: Segmented crop of a red rectangle, small, located at middle left. decorative_element: Segmented crop, small, located at middle right. decorative_element: Segmented rectangle, small, located at center.",
+    "ocr_text": "VantaStyle Up to 40% off Only this weekend Order now SALE",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo VantaStyle text logo at top left, bbox=[0.069, 0.071, 0.419, 0.125]. headline Headline text at center, bbox=[0.172, 0.64, 0.841, 0.692]. body_text Body text at center, bbox=[0.172, 0.692, 0.841, 0.746]. cta Call to Action Button at bottom center, bbox=[0.341, 0.873, 0.653, 0.915]. discount_badge Sale Badge at top right, bbox=[0.759, 0.077, 0.897, 0.11]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=VantaStyle text logo | text=\"VantaStyle\" | bbox_xyxy=[22, 34, 134, 60] | bbox_norm=[0.069, 0.071, 0.419, 0.125] | center=[0.244, 0.098] | area_pct=1.9\nid=3 | role=headline | label=Headline text | text=\"Up to 40%\" | bbox_xyxy=[55, 307, 269, 332] | bbox_norm=[0.172, 0.64, 0.841, 0.692] | center=[0.506, 0.666] | area_pct=3.48\nid=4 | role=body_text | label=Body text | text=\"off Only this weekend\" | bbox_xyxy=[55, 332, 269, 358] | bbox_norm=[0.172, 0.692, 0.841, 0.746] | center=[0.506, 0.719] | area_pct=3.62\nid=5 | role=cta | label=Call to Action Button | text=\"Order now\" | bbox_xyxy=[109, 419, 209, 439] | bbox_norm=[0.341, 0.873, 0.653, 0.915] | center=[0.497, 0.894] | area_pct=1.3\nid=6 | role=discount_badge | label=Sale Badge | text=\"SALE\" | bbox_xyxy=[243, 37, 287, 53] | bbox_norm=[0.759, 0.077, 0.897, 0.11] | center=[0.828, 0.094] | area_pct=0.46\nid=7 | role=decorative_element | label=Segmented crop of a red rectangle | text=<none> | bbox_xyxy=[48, 135, 105, 220] | bbox_norm=[0.15, 0.281, 0.328, 0.458] | center=[0.239, 0.37] | area_pct=3.15\nid=8 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[189, 135, 245, 220] | bbox_norm=[0.591, 0.281, 0.766, 0.458] | center=[0.678, 0.37] | area_pct=3.1\nid=9 | role=decorative_element | label=Segmented rectangle | text=<none> | bbox_xyxy=[119, 149, 174, 233] | bbox_norm=[0.372, 0.31, 0.544, 0.485] | center=[0.458, 0.398] | area_pct=3.01"
+  }
+}
