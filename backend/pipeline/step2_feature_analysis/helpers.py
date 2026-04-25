@@ -503,9 +503,10 @@ def extract_missing_features_from_enriched(
     top_creatives: list,
 ) -> list[str]:
     """
-    Compare enriched visual_semantic.json roles between query and top performers
-    to identify high-impact missing features.
-    Falls back to explain()-based parsing if no enriched data is available.
+    Compare enriched visual_semantic.json elements between query and top performers.
+    Returns VISUAL DESCRIPTIONS suitable for a Stable Diffusion prompt.
+    e.g. ["warm golden gradient background", "person smiling holding phone"]
+    NOT metadata labels like ["rewarded_video ad format"].
     """
     query_dir = OUTPUT_FEATURES_DIR / f"creative_{query_creative_id}"
     query_sem_path = query_dir / "visual_semantic.json"
@@ -517,49 +518,101 @@ def extract_missing_features_from_enriched(
     else:
         query_roles = set()
 
-    top_role_counts: Counter = Counter()
+    SKIP_ROLES = {"background", "decorative_element", "unknown", "headline", "body_text", "cta"}
+    VISUAL_ROLES = {"main_subject", "person", "face", "product", "app_screenshot", "gameplay", "logo", "icon", "rating", "social_proof", "price", "discount_badge"}
+
+    # Collect visual descriptions from top performers for roles the query is missing
+    visual_fragments: list[str] = []
+    seen_roles: set[str] = set()
+
     for creative in top_creatives:
         cid = str(creative.get("creative_id", creative.get("id", "")))
-        sem_path = OUTPUT_FEATURES_DIR / f"creative_{cid}" / "visual_semantic.json"
-        if sem_path.exists():
-            with sem_path.open("r", encoding="utf-8") as f:
-                data = json.load(f)
-            for e in data.get("elements", []):
-                top_role_counts[e.get("role", "unknown")] += 1
+        # Search both output/features and frontend mock location
+        sem_paths = [
+            OUTPUT_FEATURES_DIR / f"creative_{cid}" / "visual_semantic.json",
+            _PROJECT_ROOT / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{cid}.json",
+        ]
+        for sem_path in sem_paths:
+            if sem_path.exists():
+                with sem_path.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+                # Skip mock JSONs — they have no real descriptions
+                if data.get("mock"):
+                    break
+                for e in data.get("elements", []):
+                    role = e.get("role", "unknown")
+                    desc = (e.get("description") or "").strip()
+                    label = (e.get("label") or "").strip()
+                    if role in SKIP_ROLES or role in seen_roles:
+                        continue
+                    if role not in query_roles and role in VISUAL_ROLES and desc:
+                        # Use the element's literal visual description
+                        visual_fragments.append(desc)
+                        seen_roles.add(role)
+                # Also pull global visual style as a fragment
+                global_block = data.get("global", {})
+                vs = (global_block.get("visual_style") or "").strip()
+                colors = global_block.get("dominant_colors", [])
+                tone = (global_block.get("emotional_tone") or "").strip()
+                if vs and "mock" not in vs.lower() and "synthetic" not in vs.lower():
+                    visual_fragments.append(vs)
+                break
 
-    if not top_role_counts:
-        return parse_explanations_to_features([c.explain() for c in top_creatives])
+        if len(visual_fragments) >= 5:
+            break
 
-    SKIP_ROLES = {"background", "decorative_element", "unknown"}
-    missing = [
-        role for role, _ in top_role_counts.most_common(8)
-        if role not in query_roles and role not in SKIP_ROLES
-    ]
-    return missing[:6]
+    return visual_fragments[:5]
 
 
 def parse_explanations_to_features(explanations: list[str]) -> list[str]:
-    """Legacy fallback: parse explain() strings and return top 6 prompt fragments."""
-    feature_counts: Counter = Counter()
-    for explanation in explanations:
-        for part in explanation.split(","):
-            part = part.strip()
-            if "=" in part:
-                key, val = part.split("=", 1)
-                key, val = key.strip(), val.strip()
-                if key in ("theme", "format", "hook"):
-                    feature_counts[f"{key}:{val}"] += 1
+    """
+    Visual-cue fallback when no enriched semantic data is available.
+    Derives SD-compatible visual descriptions from semantic JSON global fields,
+    rather than metadata category labels.
+    """
+    # Try to extract visual cues from semantic global block fields
+    visual_cues: list[str] = []
 
-    fragments = []
-    for feat, _ in feature_counts.most_common(6):
-        key, val = feat.split(":", 1)
-        if key == "theme":
-            fragments.append(f"{val} themed")
-        elif key == "format":
-            fragments.append(f"{val} ad format")
-        elif key == "hook":
-            fragments.append(f"{val} hook style")
-    return fragments
+    for explanation in explanations:
+        # explanations may be raw strings or dicts (from Creative.explain())
+        if isinstance(explanation, dict):
+            global_block = explanation.get("global", {})
+            style = (global_block.get("visual_style") or "").strip()
+            tone = (global_block.get("emotional_tone") or "").strip()
+            colors = global_block.get("dominant_colors", [])
+            if style and "mock" not in style.lower() and "synthetic" not in style.lower():
+                visual_cues.append(style)
+            if tone:
+                visual_cues.append(f"{tone} mood lighting")
+            if colors:
+                visual_cues.append(f"{' and '.join(colors[:2])} color palette")
+        else:
+            # Plain string from explain() — try to extract visual keywords
+            lc = explanation.lower()
+            if "dark" in lc or "light" in lc or "gradient" in lc:
+                visual_cues.append("dynamic gradient background")
+            elif "colorful" in lc or "vibrant" in lc:
+                visual_cues.append("vibrant colorful composition")
+            elif "minimal" in lc or "clean" in lc:
+                visual_cues.append("clean minimalist layout")
+
+    if not visual_cues:
+        # Hard fallback — better than metadata labels
+        visual_cues = [
+            "dynamic advertising background",
+            "high quality product photography",
+            "professional lighting",
+        ]
+
+    # Deduplicate while preserving order
+    seen = set()
+    result = []
+    for cue in visual_cues:
+        if cue not in seen:
+            seen.add(cue)
+            result.append(cue)
+
+    return result[:5]
 
 
 def format_explanation_paragraph(missing_features: list[str], creative_id: str) -> str:
