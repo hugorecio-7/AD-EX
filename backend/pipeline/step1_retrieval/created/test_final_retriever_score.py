@@ -16,7 +16,7 @@ def test_final_retriever_score() -> None:
     retrieval_index_df = load_creative_retrieval_index()
 
     # Use a creative that exists in the mock semantic JSONs.
-    query_creative_id = "500000"
+    query_creative_id = "500009"
 
     query_row = retrieval_index_df[
         retrieval_index_df["creative_id"].astype(str) == str(query_creative_id)
@@ -38,6 +38,7 @@ def test_final_retriever_score() -> None:
         "confidence_score_final",
         "health_score_final",
         "asset_file",
+        "context_gate_multiplier",
     ]
     query_display_cols = [c for c in query_display_cols if c in query_row.index]
 

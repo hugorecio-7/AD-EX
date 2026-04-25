@@ -15,8 +15,10 @@ CREATIVE_RETRIEVAL_INDEX_PATH = FRONTEND_DATA_DIR / "creative_retrieval_index.cs
 # Kept because your README already mentions this file.
 PERFORMANCE_SCORES_PATH = FRONTEND_DATA_DIR / "performance_scores.csv"
 
-VISUAL_SEMANTIC_DIR = REPO_ROOT / "output" / "features"
+# Final semantic JSONs used by the retriever.
+VISUAL_SEMANTIC_DIR = FRONTEND_DATA_DIR / "visual_semantic"
 
-SEMANTIC_EMBEDDINGS_DIR = REPO_ROOT / "output" / "semantic"
+# Final semantic embeddings used by the retriever.
+SEMANTIC_EMBEDDINGS_DIR = FRONTEND_DATA_DIR / "semantic_embeddings"
 SEMANTIC_EMBEDDINGS_PATH = SEMANTIC_EMBEDDINGS_DIR / "semantic_embeddings.pkl"
-SEMANTIC_EMBEDDING_INDEX_PATH = SEMANTIC_EMBEDDINGS_DIR / "semantic_embedding_index.csv"
+SEMANTIC_EMBEDDING_INDEX_PATH = SEMANTIC_EMBEDDINGS_DIR / "semantic_embedding_index.csv"
