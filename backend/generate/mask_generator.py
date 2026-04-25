@@ -49,6 +49,7 @@ def _get_models(project_root: str):
 def _analyze_image(
     image_path: str,
     project_root: str,
+    output_dir: str = None,
     min_area_pct: float = 0.1,
 ) -> tuple[np.ndarray, list[dict]]:
     """
@@ -64,6 +65,24 @@ def _analyze_image(
         raise FileNotFoundError(f"Image not found: {image_path}")
     img_h, img_w = img_cv2.shape[:2]
     total_area = img_h * img_w
+
+    # =========================================================
+    # NOU: LÒGICA DINÀMICA DE PERCENTATGE (QUADRADES VS VERTICALS)
+    # =========================================================
+    aspect_ratio = max(img_w, img_h) / min(img_w, img_h)
+    
+    if aspect_ratio < 1.3:
+        # És una imatge quadrada (ex: 1080x1080, ratio 1.0)
+        # Pugem el límit perquè l'àrea total és més petita. 
+        # Tallem brossa petita.
+        dynamic_min_pct = 0.8  
+    else:
+        # És una imatge rectangular (ex: 1080x1920, ratio 1.77)
+        # Baixem el límit perquè l'àrea total és molt més gran.
+        dynamic_min_pct = 0.35 
+
+    print(f"[MaskGen] Format: {img_w}x{img_h} (Ratio {aspect_ratio:.2f}) -> Filtre fixat al {dynamic_min_pct}%")
+    # =========================================================
 
     # ── SAM: segment everything ──────────────────────────────────────────────
     print(f"[MaskGen] Running SAM on {image_path}...")
@@ -84,7 +103,9 @@ def _analyze_image(
             h = coords[3] - coords[1]
             area = w * h
             pct = (area / total_area) * 100
-            if pct >= min_area_pct:
+            
+            # ATENCIÓ: Aquí fem servir el nou valor dinàmic en lloc de l'antic
+            if pct >= dynamic_min_pct:
                 raw_boxes.append({
                     "coords": coords,
                     "area_abs": area,
@@ -127,6 +148,25 @@ def _analyze_image(
         }
         for idx, b in enumerate(raw_boxes)
     ]
+
+    # =======================================================
+    # NOU: FER ELS RETALLS (CROPS) DURANT LA FASE D'ANÀLISI
+    # =======================================================
+    if output_dir:
+        crops_folder = os.path.join(output_dir, "cropped_elements")
+        os.makedirs(crops_folder, exist_ok=True)
+        
+        for obj in elements:
+            x1, y1, x2, y2 = map(int, obj["coords"])
+            cx1, cy1 = max(0, x1), max(0, y1)
+            cx2, cy2 = min(img_w, x2), min(img_h, y2)
+            
+            crop = img_cv2[cy1:cy2, cx1:cx2]
+            if crop.size > 0:
+                cv2.imwrite(os.path.join(crops_folder, f"element_{obj['id']}.jpg"), crop)
+        
+        print(f"[MaskGen] ✓ {len(elements)} retalls guardats a -> {crops_folder}/")
+    # =======================================================
 
     return img_cv2, elements
 
@@ -226,7 +266,7 @@ def generate_diffusion_mask(
       elements   — list of element dicts {id, label, text, coords, area_pct}
       mask_path  — path to the saved mask PNG (or None)
     """
-    img_cv2, elements = _analyze_image(image_path, project_root, min_area_pct)
+    img_cv2, elements = _analyze_image(image_path, project_root, output_dir, min_area_pct)
 
     # OUTPUT A: diffusion mask
     mask_np = _build_diffusion_mask(img_cv2, elements, text_padding)
