@@ -39,7 +39,7 @@ async def test_generation():
         metadata=metadata,
         missing_features=missing_features,
         pipe=pipe,
-        num_steps=20 # Faster for testing
+        # num_steps=20 # Faster for testing
     )
     
     print(f"✅ Success! Upgraded image saved at: {output_path}")

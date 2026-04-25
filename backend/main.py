@@ -25,8 +25,7 @@ print("Loading Diffusion Model... (This takes a minute on first run)")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 pipe = StableDiffusionInpaintPipeline.from_pretrained(
     "runwayml/stable-diffusion-inpainting",
-    use_safetensors=True,
-    torch_dtype=torch.float16 if device == "cuda" else torch.float32
+    torch_dtype=torch.float16 if device == "cuda" else torch.float32,
 ).to(device)
 
 # Optional: Disable safety checker to speed up hackathon dev (use responsibly)
