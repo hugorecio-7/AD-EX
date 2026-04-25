@@ -1,0 +1,194 @@
+{
+  "creative_id": "500119",
+  "asset_file": "assets/creative_500119.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with promotional text and a product display area.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Promoting a limited-time offer for ZenDrop.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, creating a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Product display area",
+      "description": "A rectangular area in the center with a light pink outline, suggesting a placeholder for a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text in the center reads 'Your next favorite pick Only this weekend', conveying urgency and excitement.",
+      "text_content": "Your next favorite pick Only this weekend",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.713
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo 'ZenDrop' is displayed in a large, bold font at the top left, colored in black for contrast against the red background.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.304,
+        0.087
+      ],
+      "area_percentage": 4.12
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom with the text 'Try for free', inviting user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow circular badge at the top right corner with the word 'SALE' in bold black text, indicating a special offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small white tag in the top left corner labeled 'UGC', suggesting authenticity and user engagement.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and vibrant, ZenDrop, SALE, Try for free",
+    "layout_text": "The logo is positioned at the top left, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Only this weekend, ZenDrop, Try for free, SALE, UGC",
+    "elements_text": "app_screenshot: A rectangular area in the center with a light pink outline, suggesting a placeholder for a product image. | body_text: Bold white text in the center reads 'Your next favorite pick Only this weekend', conveying urgency and excitement. text='Your next favorite pick Only this weekend' | logo: The logo 'ZenDrop' is displayed in a large, bold font at the top left, colored in black for contrast against the red background. text='ZenDrop' | cta: A prominent white button at the bottom with the text 'Try for free', inviting user interaction. text='Try for free' | discount_badge: A small yellow circular badge at the top right corner with the word 'SALE' in bold black text, indicating a special offer. text='SALE' | social_proof: A small white tag in the top left corner labeled 'UGC', suggesting authenticity and user engagement. text='UGC'"
+  }
+}

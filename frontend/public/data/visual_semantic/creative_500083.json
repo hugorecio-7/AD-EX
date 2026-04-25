@@ -1,0 +1,434 @@
+{
+  "creative_id": "500083",
+  "asset_file": "assets/creative_500083.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Limited stock offer for a product at €29.99.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Gradient orange background",
+      "description": "A smooth gradient background transitioning from light to dark orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area showcasing three product images with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area showcasing three product images with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area showcasing three product images with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area showcasing three product images with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area showcasing three product images with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Bold white text stating 'Limited stock' with a smaller line below it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        99,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.31,
+        0.528,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.445,
+        0.579
+      ],
+      "area_percentage": 2.75
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Weekend offer",
+      "description": "Smaller white text saying 'Only this weekend' beneath the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent white text displaying the price '€29.99' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Watch now' in bold, inviting users to click.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' displayed in a bold font at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the text 'SALE' in bold yellow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that does not fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that does not fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.531,
+        0.577,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 15,
+      "role": "main_subject",
+      "label": "Main offer area",
+      "description": "A large rectangular area at the bottom featuring the main offer details.",
+      "text_content": "Limited stock Only this weekend €29.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        204,
+        266,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.831,
+        0.934
+      ],
+      "center_normalized": [
+        0.45,
+        0.786
+      ],
+      "area_percentage": 22.64
+    },
+    {
+      "id": 16,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'BoltCart' prominently displayed at the top of the ad.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the text 'SALE' in bold yellow.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, limited stock offer, price tag.",
+    "layout_text": "The headline is at the top, product images are centered, and the CTA is at the bottom.",
+    "ocr_text": "Limited stock, Only this weekend, €29.99, Watch now, BoltCart, SALE",
+    "elements_text": "product: A rectangular area showcasing three product images with a light outline. | product: A rectangular area showcasing three product images with a light outline. | product: A rectangular area showcasing three product images with a light outline. | product: A rectangular area showcasing three product images with a light outline. | product: A rectangular area showcasing three product images with a light outline. | body_text: Bold white text stating 'Limited stock' with a smaller line below it. | body_text: Smaller white text saying 'Only this weekend' beneath the main message. | price: A prominent white text displaying the price '€29.99' in a bold font. | cta: A rounded button with the text 'Watch now' in bold, inviting users to click. | logo: The logo 'BoltCart' displayed in a bold font at the top left corner. | discount_badge: A small badge in the top right corner with the text 'SALE' in bold yellow. | unknown: An unclear element that does not fit into the defined roles. | unknown: An unclear element that does not fit into the defined roles. | main_subject: A large rectangular area at the bottom featuring the main offer details. text='Limited stock Only this weekend €29.99 Watch now' | headline: The text 'BoltCart' prominently displayed at the top of the ad. text='BoltCart' | discount_badge: A small badge in the top right corner with the text 'SALE' in bold yellow. text='SALE'"
+  }
+}

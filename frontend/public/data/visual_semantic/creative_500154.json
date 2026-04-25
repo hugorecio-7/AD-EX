@@ -1,0 +1,218 @@
+{
+  "creative_id": "500154",
+  "asset_file": "assets/creative_500154.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on product promotion and brand visibility.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting a new collection with a special price offer.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Top background area",
+      "description": "A light gray rectangular area at the top of the ad, providing a neutral backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "LuxShelf brand name",
+      "description": "Bold, modern text reading 'LuxShelf' in black, positioned prominently at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        23,
+        297,
+        62
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.05,
+        0.93,
+        0.131
+      ],
+      "center_normalized": [
+        0.677,
+        0.09
+      ],
+      "area_percentage": 4.11
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A blank rectangular area in the center, suggesting a placeholder for product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.331,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular shape in the center, possibly representing a product or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        261,
+        71,
+        295
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.545,
+        0.223,
+        0.615
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Another circular element",
+      "description": "Another small circular shape, similar to the previous one, positioned slightly below.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        271,
+        129,
+        305
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.566,
+        0.404,
+        0.636
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.73
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Large, bold text stating 'New collection drop Shop bestsellers now' in black, centered in the lower part of the ad.",
+      "text_content": "New collection drop Shop bestsellers now $4.99 Try for free",
+      "bbox_xyxy": [
+        22,
+        305,
+        275,
+        442
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.635,
+        0.859,
+        0.921
+      ],
+      "center_normalized": [
+        0.464,
+        0.778
+      ],
+      "area_percentage": 22.57
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Sale badge",
+      "description": "A small rectangular badge with the word 'SALE' in white text on a bright background, positioned at the top right.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent '$4.99' displayed in bold black text, located just below the main promotional text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "LuxShelf, unknown, banner, minimalist with bold typography, promoting a new collection.",
+    "layout_text": "The headline is at the top left, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "LuxShelf, SALE, New collection drop, Shop bestsellers now, $4.99, Try for free",
+    "elements_text": "headline: Bold, modern text reading 'LuxShelf' in black, positioned prominently at the top left. | product: A blank rectangular area in the center, suggesting a placeholder for product images. | unknown: A small circular shape in the center, possibly representing a product or decorative element. | unknown: Another small circular shape, similar to the previous one, positioned slightly below. | body_text: Large, bold text stating 'New collection drop Shop bestsellers now' in black, centered in the lower part of the ad. text='New collection drop Shop bestsellers now $4.99 Try for free' | logo: A small rectangular badge with the word 'SALE' in white text on a bright background, positioned at the top right. text='LuxShelf' | price: A prominent '$4.99' displayed in bold black text, located just below the main promotional text. text='SALE'"
+  }
+}

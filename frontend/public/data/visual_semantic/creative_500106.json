@@ -1,0 +1,266 @@
+{
+  "creative_id": "500106",
+  "asset_file": "assets/creative_500106.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with prominent text and decorative shapes.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting the PulsePlay service with an exclusive offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red gradient background",
+      "description": "A vibrant red gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        91,
+        359,
+        230
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.143,
+        0.998,
+        0.359
+      ],
+      "center_normalized": [
+        0.503,
+        0.251
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The logo 'PulsePlay' is prominently displayed in bold, black font at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        176,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.491,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Exclusive offer text",
+      "description": "Text reading 'Exclusive tonight New hits every week' in white, centered below the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        330
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.517
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A light-colored circular shape positioned in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A smaller light-colored circle located below the larger circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Another small circle",
+      "description": "Another small light-colored circle positioned next to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A light-colored square shape located below the circular elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'PulsePlay' at the top of the ad, capturing immediate attention.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        25,
+        319,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        0.886,
+        0.163
+      ],
+      "center_normalized": [
+        0.474,
+        0.101
+      ],
+      "area_percentage": 10.18
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Additional offer text",
+      "description": "Text stating 'Exclusive tonight New hits every week' in a clear, readable font.",
+      "text_content": "Exclusive tonight New hits every week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text '€19.99 Start now' at the bottom, encouraging action.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and modern, PulsePlay logo, exclusive offer text",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "PulsePlay, Exclusive tonight New hits every week, €19.99 Start now",
+    "elements_text": "logo: The logo 'PulsePlay' is prominently displayed in bold, black font at the top center. | body_text: Text reading 'Exclusive tonight New hits every week' in white, centered below the logo. | decorative_element: A light-colored circular shape positioned in the center, adding visual interest. | decorative_element: A smaller light-colored circle located below the larger circular shape. | decorative_element: Another small light-colored circle positioned next to the previous one. | decorative_element: A light-colored square shape located below the circular elements. | headline: The bold text 'PulsePlay' at the top of the ad, capturing immediate attention. text='PulsePlay' | body_text: Text stating 'Exclusive tonight New hits every week' in a clear, readable font. text='Exclusive tonight New hits every week' | cta: A prominent button with the text '€19.99 Start now' at the bottom, encouraging action. text='€19.99 Start now'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500078",
+  "asset_file": "assets/creative_500078.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear focus on a flash sale.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a flash sale with bestsellers at a discounted price.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold white text stating 'Flash sale live' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Two stylized product images with reflective surfaces, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "Smaller white text below the headline that reads 'Shop bestsellers now'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent price tag in white text showing '€29.99' at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with white text saying 'Get offer' located at the bottom center.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        308,
+        272,
+        358
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.85,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.694
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' displayed at the top left in bold white text.",
+      "text_content": "€29.99 Get offer",
+      "bbox_xyxy": [
+        23,
+        399,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.353,
+        0.873
+      ],
+      "area_percentage": 4.69
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in yellow with the word 'SALE' in bold black text at the top right.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        24,
+        30,
+        127,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.397,
+        0.117
+      ],
+      "center_normalized": [
+        0.236,
+        0.09
+      ],
+      "area_percentage": 1.74
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white text at the top left corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, flash sale, bestsellers, discount",
+    "layout_text": "The headline is centered, product images are in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live, Shop bestsellers now, €29.99, Get offer, BoltCart, SALE, UGC",
+    "elements_text": "headline: Bold white text stating 'Flash sale live' prominently displayed in the center. | product: Two stylized product images with reflective surfaces, positioned centrally. | body_text: Smaller white text below the headline that reads 'Shop bestsellers now'. | price: A prominent price tag in white text showing '€29.99' at the bottom left. | cta: A rounded button with white text saying 'Get offer' located at the bottom center. text='Flash sale live Shop bestsellers now' | logo: The logo 'BoltCart' displayed at the top left in bold white text. text='€29.99 Get offer' | discount_badge: A small circular badge in yellow with the word 'SALE' in bold black text at the top right. text='BoltCart' | social_proof: A small tag labeled 'UGC' in white text at the top left corner. text='SALE' | unknown:  text='UGC'"
+  }
+}

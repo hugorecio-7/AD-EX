@@ -1,0 +1,218 @@
+{
+  "creative_id": "500023",
+  "asset_file": "assets/creative_500023.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant and engaging layout promoting a weekend escape offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend getaway with flexible booking options at an affordable price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A soft, abstract background featuring a large oval and a square shape in muted tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        126,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.197,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.466
+      ],
+      "area_percentage": 48.67
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "Bold, white text prominently displayed in the center, conveying a sense of urgency and excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller, white text beneath the headline, providing additional information in a clean, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A bright, contrasting button with the text 'Install now' in bold, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A clear, prominent price displayed in white, emphasizing affordability and value.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.712
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A simple, recognizable logo positioned at the top, featuring the brand name in a modern font.",
+      "text_content": "$4.99 Install now",
+      "bbox_xyxy": [
+        26,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.365,
+        0.87
+      ],
+      "area_percentage": 4.49
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, eye-catching badge in the corner with the word 'SALE' in bold, contrasting colors.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, Escape this weekend, Install now",
+    "layout_text": "The headline is centered, the body text is below it, the price is at the bottom, and the CTA is prominently displayed.",
+    "ocr_text": "CloudRoute, SALE, Escape this weekend, Flexible booking options, $4.99, Install now",
+    "elements_text": "headline: Bold, white text prominently displayed in the center, conveying a sense of urgency and excitement. | body_text: Smaller, white text beneath the headline, providing additional information in a clean, modern font. | cta: A bright, contrasting button with the text 'Install now' in bold, inviting users to take action. | price: A clear, prominent price displayed in white, emphasizing affordability and value. text='Escape this weekend Flexible booking options' | logo: A simple, recognizable logo positioned at the top, featuring the brand name in a modern font. text='$4.99 Install now' | discount_badge: A small, eye-catching badge in the corner with the word 'SALE' in bold, contrasting colors. text='CloudRoute' | unknown:  text='SALE'"
+  }
+}

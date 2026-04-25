@@ -1,0 +1,242 @@
+{
+  "creative_id": "500053",
+  "asset_file": "assets/creative_500053.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the CoinBridge logo and a strong call to action.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting the CoinBridge app as secure and user-friendly.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A collection of abstract shapes including circles and rectangles in a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A larger rectangle with a blue background, possibly representing a product or app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "small circles",
+      "description": "Two small circles positioned in a row, likely decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "small rectangle",
+      "description": "A small rectangle shape, possibly a decorative element or placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Bold text stating 'Secure & simple Built for peace of mind' in a prominent position.",
+      "text_content": "Secure & simple Built for peace of mind",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo of CoinBridge displayed at the top of the ad in a clear font.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        22,
+        34,
+        244,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.678,
+        0.128
+      ],
+      "center_normalized": [
+        0.369,
+        0.091
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "install button",
+      "description": "A button with the text 'Install now' at the bottom, designed to attract attention.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC tag",
+      "description": "A small tag labeled 'UGC' positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, simple and modern, CoinBridge logo, secure messaging",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, Built for peace of mind, CoinBridge, Install now, UGC",
+    "elements_text": "unknown: A collection of abstract shapes including circles and rectangles in a blue background. | unknown: A larger rectangle with a blue background, possibly representing a product or app interface. | unknown: Two small circles positioned in a row, likely decorative elements. | unknown: A small rectangle shape, possibly a decorative element or placeholder. | body_text: Bold text stating 'Secure & simple Built for peace of mind' in a prominent position. text='Secure & simple Built for peace of mind' | logo: The logo of CoinBridge displayed at the top of the ad in a clear font. text='CoinBridge' | cta: A button with the text 'Install now' at the bottom, designed to attract attention. text='Install now' | icon: A small tag labeled 'UGC' positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

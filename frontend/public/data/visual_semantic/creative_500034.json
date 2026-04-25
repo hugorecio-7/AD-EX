@@ -1,0 +1,242 @@
+{
+  "creative_id": "500034",
+  "asset_file": "assets/creative_500034.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear call-to-action text.",
+    "visual_style": "modern minimalist with geometric shapes",
+    "main_message": "Promoting an exclusive offer for an app subscription.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are positioned in the center, overlapping slightly, with a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlapping shapes",
+      "description": "Another circle is placed in the center, slightly smaller than the first, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.323,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.88
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Rectangle shape",
+      "description": "A medium-sized rectangle is positioned slightly above the center, filled with a lighter blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Large circle",
+      "description": "A large circle is centered in the ad, filled with a soft blue hue, creating a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle is located towards the bottom left, appearing as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text block at the bottom features a bold white font stating 'Exclusive tonight Cancel anytime €9.99 Install now'.",
+      "text_content": "Exclusive tonight Cancel anytime €9.99 Install now",
+      "bbox_xyxy": [
+        23,
+        308,
+        234,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.642,
+        0.731,
+        0.915
+      ],
+      "center_normalized": [
+        0.402,
+        0.778
+      ],
+      "area_percentage": 18.0
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "App logo",
+      "description": "The text 'MoonScreen' appears in the top left corner in a clean, modern font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        23,
+        34,
+        146,
+        58
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.071,
+        0.456,
+        0.121
+      ],
+      "center_normalized": [
+        0.264,
+        0.096
+      ],
+      "area_percentage": 1.92
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "The text 'UGC' is displayed in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with geometric shapes, exclusive offer, app subscription",
+    "layout_text": "The headline and call-to-action are positioned at the bottom, while the main subject shapes are centered.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, €9.99, Install now, MoonScreen, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are positioned in the center, overlapping slightly, with a lighter blue shade. | main_subject: Another circle is placed in the center, slightly smaller than the first, creating a layered effect. | main_subject: A medium-sized rectangle is positioned slightly above the center, filled with a lighter blue color. | main_subject: A large circle is centered in the ad, filled with a soft blue hue, creating a focal point. | unknown: A small circle is located towards the bottom left, appearing as a decorative element. | cta: A prominent text block at the bottom features a bold white font stating 'Exclusive tonight Cancel anytime €9.99 Install now'. text='Exclusive tonight Cancel anytime €9.99 Install now' | logo: The text 'MoonScreen' appears in the top left corner in a clean, modern font. text='MoonScreen' | social_proof: The text 'UGC' is displayed in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

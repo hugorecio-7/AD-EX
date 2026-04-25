@@ -1,0 +1,218 @@
+{
+  "creative_id": "500017",
+  "asset_file": "assets/creative_500017.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a mix of text and abstract shapes.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Encouraging users to save with confidence and try the service for free.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top left corner against a purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "A large purple square with a smaller circle and rectangle overlapping, creating an abstract design in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        133,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.278,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.62
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Confidence message",
+      "description": "Text in a clean, modern font stating 'Save with confidence' positioned prominently in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Peace of mind",
+      "description": "A smaller line of text below the main message that reads 'Built for peace of mind', maintaining a consistent font style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.82
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom of the ad with the text 'Try for free' in a contrasting color, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire ad space, providing a vibrant backdrop for the other elements.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        72,
+        308,
+        247,
+        389
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.772,
+        0.81
+      ],
+      "center_normalized": [
+        0.498,
+        0.726
+      ],
+      "area_percentage": 9.23
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Free trial button",
+      "description": "A small button at the bottom with the text 'Try for free', designed to stand out against the background.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "The logo 'EarnPath' appears again in a smaller size at the top left corner, reinforcing brand identity.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        37,
+        113,
+        55
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.353,
+        0.115
+      ],
+      "center_normalized": [
+        0.212,
+        0.096
+      ],
+      "area_percentage": 1.05
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with bold colors, EarnPath logo, call to action",
+    "layout_text": "The logo is at the top left, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "EarnPath, Save with confidence, Built for peace of mind, Try for free",
+    "elements_text": "logo: A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top left corner against a purple background. | decorative_element: A large purple square with a smaller circle and rectangle overlapping, creating an abstract design in the center of the ad. | body_text: Text in a clean, modern font stating 'Save with confidence' positioned prominently in the center of the ad. | body_text: A smaller line of text below the main message that reads 'Built for peace of mind', maintaining a consistent font style. | cta: A rounded button at the bottom of the ad with the text 'Try for free' in a contrasting color, inviting user interaction. | cta: A small button at the bottom with the text 'Try for free', designed to stand out against the background. text='Try for free' | logo: The logo 'EarnPath' appears again in a smaller size at the top left corner, reinforcing brand identity. text='EarnPath'"
+  }
+}

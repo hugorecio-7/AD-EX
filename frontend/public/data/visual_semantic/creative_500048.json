@@ -1,0 +1,386 @@
+{
+  "creative_id": "500048",
+  "asset_file": "assets/creative_500048.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a solid blue background with text and shapes conveying a financial service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a secure and simple financial service.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.198,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 48.52
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CoinBridge logo",
+      "description": "A simple logo at the top featuring the text 'CoinBridge' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Secure & simple' is prominently displayed in a large, white font, conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.77,
+        0.513
+      ],
+      "center_normalized": [
+        0.47,
+        0.375
+      ],
+      "area_percentage": 16.51
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting message",
+      "description": "The phrase 'Built for peace of mind' appears below the main message in a smaller, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the center, possibly a rounded rectangle, adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.508,
+        0.429
+      ],
+      "area_percentage": 9.99
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "Another rounded shape overlapping with the first, contributing to the modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.5
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape positioned near the center, enhancing the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Large rectangle",
+      "description": "A large rectangle shape that serves as a background for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A smaller rectangle shape positioned within the larger rectangle, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom with the text 'Shop now' in a bold, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Button shadow",
+      "description": "A subtle shadow effect around the 'Shop now' button, giving it a three-dimensional appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A decorative element at the bottom, possibly a gradient or additional shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        210,
+        171,
+        230
+      ],
+      "bbox_normalized": [
+        0.474,
+        0.656,
+        0.536,
+        0.719
+      ],
+      "center_normalized": [
+        0.505,
+        0.688
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Secure simple Built for peace of mind' is displayed prominently in a large, white font.",
+      "text_content": "Secure simple Built for peace of mind",
+      "bbox_xyxy": [
+        34,
+        205,
+        289,
+        255
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.641,
+        0.903,
+        0.797
+      ],
+      "center_normalized": [
+        0.505,
+        0.719
+      ],
+      "area_percentage": 12.45
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A small button at the bottom with the text 'Shop now' in a bold, white font.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        113,
+        279,
+        205,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.641,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.8
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "CoinBridge logo",
+      "description": "A simple logo at the top featuring the text 'CoinBridge' in a bold, modern font.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, CoinBridge logo, secure and simple message",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge, Secure simple Built for peace of mind, Shop now",
+    "elements_text": "headline: A simple logo at the top featuring the text 'CoinBridge' in a bold, modern font. | body_text: The text 'Secure & simple' is prominently displayed in a large, white font, conveying the main message. | body_text: The phrase 'Built for peace of mind' appears below the main message in a smaller, white font. | unknown: An abstract shape in the center, possibly a rounded rectangle, adds visual interest. | unknown: Another rounded shape overlapping with the first, contributing to the modern design. | unknown: A small circle shape positioned near the center, enhancing the abstract design. | unknown: A large rectangle shape that serves as a background for the text elements. | unknown: A smaller rectangle shape positioned within the larger rectangle, adding depth. | cta: A prominent button at the bottom with the text 'Shop now' in a bold, white font. | unknown: A subtle shadow effect around the 'Shop now' button, giving it a three-dimensional appearance. | unknown: A decorative element at the bottom, possibly a gradient or additional shape. | body_text: The text 'Secure simple Built for peace of mind' is displayed prominently in a large, white font. text='Secure simple Built for peace of mind' | cta: A small button at the bottom with the text 'Shop now' in a bold, white font. text='Shop now' | headline: A simple logo at the top featuring the text 'CoinBridge' in a bold, modern font. text='CoinBridge'"
+  }
+}

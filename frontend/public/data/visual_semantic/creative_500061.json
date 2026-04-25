@@ -1,0 +1,266 @@
+{
+  "creative_id": "500061",
+  "asset_file": "assets/creative_500061.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear promotional message at the bottom.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a food delivery service with a special offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        166,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.284,
+        0.52,
+        0.457
+      ],
+      "center_normalized": [
+        0.335,
+        0.371
+      ],
+      "area_percentage": 6.4
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A medium-sized, centered element with a light background and a rectangular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        145
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.456
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.04
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        91,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.287,
+        0.322,
+        0.451
+      ],
+      "center_normalized": [
+        0.239,
+        0.369
+      ],
+      "area_percentage": 2.72
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and a simple shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "A large, bold text element at the bottom, featuring a vibrant color and clear font, stating a promotional offer.",
+      "text_content": "Hungry? We got you €29.90 Da Watch now",
+      "bbox_xyxy": [
+        22,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.787
+      ],
+      "area_percentage": 24.51
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "A prominent, bold text element at the top, featuring a large font that stands out against the background.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        8,
+        24,
+        277,
+        79
+      ],
+      "bbox_normalized": [
+        0.025,
+        0.075,
+        0.866,
+        0.247
+      ],
+      "center_normalized": [
+        0.445,
+        0.161
+      ],
+      "area_percentage": 14.45
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BiteRush, promotional offer",
+    "layout_text": "The headline is positioned at the top, the main offer text is at the bottom.",
+    "ocr_text": "BiteRush, Hungry? We got you, €29.90, Watch now",
+    "elements_text": "unknown: A small, centered element with a light background and a simple shape. | unknown: A medium-sized, centered element with a light background and a rectangular shape. | unknown: A small, centered element with a light background and a simple shape. | unknown: A small, centered element with a light background and a simple shape. | unknown: A small, centered element with a light background and a simple shape. | unknown: A small, centered element with a light background and a simple shape. | unknown: A small, centered element with a light background and a simple shape. | body_text: A large, bold text element at the bottom, featuring a vibrant color and clear font, stating a promotional offer. text='Hungry? We got you €29.90 Da Watch now' | headline: A prominent, bold text element at the top, featuring a large font that stands out against the background. text='BiteRush'"
+  }
+}

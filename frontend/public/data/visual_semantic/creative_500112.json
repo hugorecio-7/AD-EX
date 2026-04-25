@@ -1,0 +1,362 @@
+{
+  "creative_id": "500112",
+  "asset_file": "assets/creative_500112.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and call-to-action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to play a game and win rewards.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "A bold, stylized text logo reading 'StormByte' in a prominent position at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Epic rewards message",
+      "description": "A clear, large text message stating 'Win epic rewards' centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Play with friends",
+      "description": "A smaller text line below the main message that reads 'Play with friends tonight'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Game interface",
+      "description": "A grid-like layout with empty circles, suggesting a game interface, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A prominent button at the bottom of the ad with the text 'Try for free' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the top right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element in the center bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "StormByte headline",
+      "description": "The main headline 'StormByte' in large, bold text at the top of the ad.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        24,
+        34,
+        347,
+        101
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.964,
+        0.158
+      ],
+      "center_normalized": [
+        0.515,
+        0.105
+      ],
+      "area_percentage": 9.39
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A large text message in the center of the ad that communicates the main offer.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Try for free",
+      "description": "A clear call-to-action button at the bottom of the ad inviting users to try the game for free.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, StormByte logo, epic rewards message, call-to-action.",
+    "layout_text": "The headline is at the top, followed by the main message in the center, and the call-to-action at the bottom.",
+    "ocr_text": "StormByte, Win epic rewards, Play with friends tonight, Try for free",
+    "elements_text": "logo: A bold, stylized text logo reading 'StormByte' in a prominent position at the top of the ad. | body_text: A clear, large text message stating 'Win epic rewards' centered in the ad. | body_text: A smaller text line below the main message that reads 'Play with friends tonight'. | decorative_element: A grid-like layout with empty circles, suggesting a game interface, positioned in the center. | cta: A prominent button at the bottom of the ad with the text 'Try for free' in a contrasting color. | unknown: A small, unclear element at the top right corner of the ad. | unknown: A small, unclear element in the center of the ad. | unknown: A small, unclear element at the top center of the ad. | unknown: A small, unclear element at the top left corner of the ad. | unknown: A small, unclear element in the center bottom of the ad. | headline: The main headline 'StormByte' in large, bold text at the top of the ad. text='StormByte' | body_text: A large text message in the center of the ad that communicates the main offer. text='Win epic rewards Play with friends tonight' | cta: A clear call-to-action button at the bottom of the ad inviting users to try the game for free. text='Try for free'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500165",
+  "asset_file": "assets/creative_500165.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, abstract shapes, and clear messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting hotel and flight bookings with a focus on ease and rewards.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "A simple logo featuring the word 'WayPoint' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes, including a circle and a square, rendered in a soft blue color, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text block stating 'Dream destinations await Hotels + flights in one tap' in a clear, legible font, located at the bottom of the ad.",
+      "text_content": "destinations await Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        443,
+        295,
+        535
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.692,
+        0.819,
+        0.836
+      ],
+      "center_normalized": [
+        0.499,
+        0.764
+      ],
+      "area_percentage": 9.22
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "WayPoint",
+      "description": "The word 'WayPoint' displayed at the top of the ad in a large, bold font, conveying the brand identity.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Dream text",
+      "description": "The word 'Dream' in a smaller font, centered above the main message, adding emphasis to the ad's theme.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A call-to-action button labeled 'Claim reward' in a contrasting color, positioned at the bottom of the ad to encourage user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, WayPoint logo, call-to-action.",
+    "layout_text": "The logo is at the top, followed by abstract shapes in the center, the main message at the bottom, and the CTA at the very bottom.",
+    "ocr_text": "destinations await Hotels + flights in one tap, WayPoint, Dream, Claim reward",
+    "elements_text": "logo: A simple logo featuring the word 'WayPoint' in a bold, modern font, positioned at the top of the ad. | decorative_element: A combination of geometric shapes, including a circle and a square, rendered in a soft blue color, centered in the ad. | body_text: A prominent text block stating 'Dream destinations await Hotels + flights in one tap' in a clear, legible font, located at the bottom of the ad. text='destinations await Hotels + flights in one tap' | headline: The word 'WayPoint' displayed at the top of the ad in a large, bold font, conveying the brand identity. text='WayPoint' | body_text: The word 'Dream' in a smaller font, centered above the main message, adding emphasis to the ad's theme. text='Dream' | cta: A call-to-action button labeled 'Claim reward' in a contrasting color, positioned at the bottom of the ad to encourage user interaction. text='Claim reward'"
+  }
+}

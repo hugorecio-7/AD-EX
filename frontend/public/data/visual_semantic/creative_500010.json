@@ -1,0 +1,290 @@
+{
+  "creative_id": "500010",
+  "asset_file": "assets/creative_500010.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product images and a strong call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Limited stock on bestsellers for $4.99.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Top orange background",
+      "description": "A solid orange background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product showcase",
+      "description": "A rectangular area displaying three product images with rounded corners, set against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.278,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.58
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "First product image",
+      "description": "A small rectangular image of a product, positioned on the left side of the main subject area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Second product image",
+      "description": "A small rectangular image of a product, positioned in the center of the main subject area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Third product image",
+      "description": "A small rectangular image of a product, positioned on the right side of the main subject area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text area with a light font color, providing additional information about the products.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A small text area with a light font color, providing further details about the products.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "More body text",
+      "description": "A small text area with a light font color, offering more information about the products.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Final body text",
+      "description": "A small text area with a light font color, giving additional context about the products.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom of the ad, encouraging viewers to shop bestsellers with a bold font.",
+      "text_content": "Limited stock Shop bestsellers now $4.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        204,
+        266,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.831,
+        0.934
+      ],
+      "center_normalized": [
+        0.45,
+        0.786
+      ],
+      "area_percentage": 22.64
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'VantaStyle' in a stylish font.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        22,
+        132,
+        46
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.069,
+        0.412,
+        0.144
+      ],
+      "center_normalized": [
+        0.241,
+        0.106
+      ],
+      "area_percentage": 2.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, limited stock, bestsellers, $4.99",
+    "layout_text": "The logo is at the top left, the main subject area is centered, and the CTA is at the bottom.",
+    "ocr_text": "VantaStyle, Limited stock, Shop bestsellers now, $4.99, Watch now",
+    "elements_text": "main_subject: A rectangular area displaying three product images with rounded corners, set against a light background. | product: A small rectangular image of a product, positioned on the left side of the main subject area. | product: A small rectangular image of a product, positioned in the center of the main subject area. | product: A small rectangular image of a product, positioned on the right side of the main subject area. | body_text: A small text area with a light font color, providing additional information about the products. | body_text: A small text area with a light font color, providing further details about the products. | body_text: A small text area with a light font color, offering more information about the products. | body_text: A small text area with a light font color, giving additional context about the products. | cta: A prominent text area at the bottom of the ad, encouraging viewers to shop bestsellers with a bold font. text='Limited stock Shop bestsellers now $4.99 Watch now' | logo: A small logo at the top left corner, featuring the brand name 'VantaStyle' in a stylish font. text='VantaStyle'"
+  }
+}

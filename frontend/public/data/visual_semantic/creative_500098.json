@@ -1,0 +1,194 @@
+{
+  "creative_id": "500098",
+  "asset_file": "assets/creative_500098.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on food delivery services.",
+    "visual_style": "bright and cheerful",
+    "main_message": "Promoting late-night food delivery deals.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge with the text 'SALE' in a contrasting color, located at the top right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Hungry? We got you",
+      "description": "A prominent headline in a large, bold font that reads 'Hungry? We got you', centered in the lower part of the ad.",
+      "text_content": "Hungry? We got you Late-night deals available",
+      "bbox_xyxy": [
+        43,
+        409,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 10.98
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A call-to-action button with the text 'Try for free' in a bold font, located just below the headline in the bottom section of the ad.",
+      "text_content": "$4.99 Try for free",
+      "bbox_xyxy": [
+        26,
+        532,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.369,
+        0.873
+      ],
+      "area_percentage": 5.02
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late-night deals message",
+      "description": "A smaller text below the headline that reads 'Late-night deals available', providing additional context in a clear, readable font.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        27,
+        40,
+        232,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.644,
+        0.122
+      ],
+      "center_normalized": [
+        0.36,
+        0.092
+      ],
+      "area_percentage": 3.38
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A price tag displaying '$4.99' in a bold font, positioned at the bottom left corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and cheerful, FreshDash logo, SALE badge, headline, CTA, price tag",
+    "layout_text": "The logo is at the top center, the headline is centered in the lower part, the CTA is below the headline, and the price tag is at the bottom left.",
+    "ocr_text": "Hungry? We got you Late-night deals available, $4.99, FreshDash, SALE",
+    "elements_text": "logo: A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top center of the ad. | discount_badge: A small, circular badge with the text 'SALE' in a contrasting color, located at the top right corner of the ad. | headline: A prominent headline in a large, bold font that reads 'Hungry? We got you', centered in the lower part of the ad. text='Hungry? We got you Late-night deals available' | cta: A call-to-action button with the text 'Try for free' in a bold font, located just below the headline in the bottom section of the ad. text='$4.99 Try for free' | body_text: A smaller text below the headline that reads 'Late-night deals available', providing additional context in a clear, readable font. text='FreshDash' | price: A price tag displaying '$4.99' in a bold font, positioned at the bottom left corner of the ad. text='SALE'"
+  }
+}

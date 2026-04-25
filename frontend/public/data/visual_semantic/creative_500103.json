@@ -1,0 +1,218 @@
+{
+  "creative_id": "500103",
+  "asset_file": "assets/creative_500103.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold red background with geometric shapes and prominent text.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Stream the hype with a call to action to claim a reward.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangular shape with a circular element overlapping it, both in a lighter shade, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Stream the hype",
+      "description": "Bold, white text stating 'Stream the hype' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cancel anytime",
+      "description": "Smaller white text below the main message reads 'Cancel anytime', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button at the bottom with the text 'Claim reward' in bold, inviting users to take action.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        29,
+        307,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.692
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The logo 'PulsePlay' is displayed in a bold font at the top left corner, contrasting against the red background.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        23,
+        27,
+        142,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.444,
+        0.117
+      ],
+      "center_normalized": [
+        0.258,
+        0.086
+      ],
+      "area_percentage": 2.25
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, positioned at the top left, indicating user-generated content.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional circles",
+      "description": "Two small circular shapes in a lighter color, positioned near the center, adding visual interest.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and vibrant, key elements include geometric shapes and a call to action.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "PulsePlay, Stream the hype, Cancel anytime, Claim reward, UGC",
+    "elements_text": "main_subject: A large rectangular shape with a circular element overlapping it, both in a lighter shade, positioned centrally. | body_text: Bold, white text stating 'Stream the hype' is prominently displayed in the center of the ad. | body_text: Smaller white text below the main message reads 'Cancel anytime', providing additional information. | cta: A rectangular button at the bottom with the text 'Claim reward' in bold, inviting users to take action. text='Stream the hype Cancel anytime' | logo: The logo 'PulsePlay' is displayed in a bold font at the top left corner, contrasting against the red background. text='PulsePlay' | body_text: A small label with the text 'UGC' in white, positioned at the top left, indicating user-generated content. text='Claim reward' | unknown: Two small circular shapes in a lighter color, positioned near the center, adding visual interest. text='UGC'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500110",
+  "asset_file": "assets/creative_500110.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to win rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A grid-like arrangement of four circular shapes, possibly representing game icons or buttons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "A bold, stylized logo with the text 'StormByte' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.479,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "Another grid-like arrangement of four circular shapes, similar to the center element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A continuation of the grid-like arrangement, possibly indicating more game features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A smaller circular shape, possibly a button or icon, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small circular shape positioned at the top right, likely part of the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small circular shape located in the center, possibly an interactive element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "Another small circular shape in the center, similar to the previous elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small circular shape positioned at the top left, part of the grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "Another small circular shape at the top right, completing the grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.283
+      ],
+      "center_normalized": [
+        0.42,
+        0.267
+      ],
+      "area_percentage": 0.19
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "A bold text message stating 'Win epic rewards Free rewards for new players' in a large font.",
+      "text_content": "Win epic rewards Free rewards for new players",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "The logo 'StormByte' displayed prominently at the top of the ad.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        22,
+        34,
+        238,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.661,
+        0.128
+      ],
+      "center_normalized": [
+        0.361,
+        0.091
+      ],
+      "area_percentage": 4.5
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button with the text 'Shop now' at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, StormByte logo, promotional message, call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Win epic rewards Free rewards for new players, StormByte, Shop now",
+    "elements_text": "unknown: A grid-like arrangement of four circular shapes, possibly representing game icons or buttons. | logo: A bold, stylized logo with the text 'StormByte' prominently displayed at the top. | unknown: Another grid-like arrangement of four circular shapes, similar to the center element. | unknown: A continuation of the grid-like arrangement, possibly indicating more game features. | unknown: A smaller circular shape, possibly a button or icon, located in the center. | unknown: A small circular shape positioned at the top right, likely part of the grid. | unknown: A small circular shape located in the center, possibly an interactive element. | unknown: Another small circular shape in the center, similar to the previous elements. | unknown: A small circular shape positioned at the top left, part of the grid layout. | unknown: Another small circular shape at the top right, completing the grid layout. | headline: A bold text message stating 'Win epic rewards Free rewards for new players' in a large font. text='Win epic rewards Free rewards for new players' | logo: The logo 'StormByte' displayed prominently at the top of the ad. text='StormByte' | cta: A clear and inviting button with the text 'Shop now' at the bottom of the ad. text='Shop now'"
+  }
+}

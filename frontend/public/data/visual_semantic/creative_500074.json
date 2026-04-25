@@ -1,0 +1,410 @@
+{
+  "creative_id": "500074",
+  "asset_file": "assets/creative_500074.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting the game VoxelRealm with engaging text and icons.",
+    "visual_style": "playful and colorful",
+    "main_message": "Join the arena and play with friends tonight.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo featuring the text 'VoxelRealm' in bold, prominent letters at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Four circular game icons arranged in a grid, each with a simple design and a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Join the arena text",
+      "description": "A bold, inviting text that reads 'Join the arena' in a large font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "A smaller text below the main message that says 'Play with friends tonight', encouraging social interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game controls",
+      "description": "Two circular buttons representing game controls, placed at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Next arrow",
+      "description": "A right-facing arrow icon indicating progression or next steps, located at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button at the bottom of the ad with the text 'Watch now', designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Geometric shapes in the background, adding depth and visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small, circular icon that is not clearly defined, placed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "Another small, circular icon similar to the previous one, located near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top small icon",
+      "description": "A small circular icon at the top of the ad, not clearly defined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top small icon",
+      "description": "Another small circular icon at the top, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'VoxelRealm' is large and bold, capturing immediate attention.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Secondary message",
+      "description": "A secondary message that invites users to play with friends, positioned centrally.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        55,
+        409,
+        303,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.842,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.684
+      ],
+      "area_percentage": 6.14
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call-to-action button at the bottom of the ad encouraging viewers to engage.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and colorful, VoxelRealm logo, engaging text.",
+    "layout_text": "The headline is at the top, followed by game icons, body text in the center, and a CTA at the bottom.",
+    "ocr_text": "VoxelRealm, Join the arena, Play with friends tonight, Watch now",
+    "elements_text": "logo: A stylized logo featuring the text 'VoxelRealm' in bold, prominent letters at the top of the ad. | icon: Four circular game icons arranged in a grid, each with a simple design and a light background. | body_text: A bold, inviting text that reads 'Join the arena' in a large font, centered in the ad. | body_text: A smaller text below the main message that says 'Play with friends tonight', encouraging social interaction. | icon: Two circular buttons representing game controls, placed at the top left of the ad. | icon: A right-facing arrow icon indicating progression or next steps, located at the top right. | cta: A prominent button at the bottom of the ad with the text 'Watch now', designed to attract clicks. | decorative_element: Geometric shapes in the background, adding depth and visual interest to the ad. | unknown: A small, circular icon that is not clearly defined, placed in the center of the ad. | unknown: Another small, circular icon similar to the previous one, located near the center. | unknown: A small circular icon at the top of the ad, not clearly defined. | unknown: Another small circular icon at the top, similar to the previous one. | headline: The main headline text 'VoxelRealm' is large and bold, capturing immediate attention. text='VoxelRealm' | body_text: A secondary message that invites users to play with friends, positioned centrally. text='Join the arena Play with friends tonight' | cta: A clear call-to-action button at the bottom of the ad encouraging viewers to engage. text='Watch now'"
+  }
+}

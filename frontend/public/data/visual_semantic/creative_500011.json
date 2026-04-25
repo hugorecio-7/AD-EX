@@ -1,0 +1,266 @@
+{
+  "creative_id": "500011",
+  "asset_file": "assets/creative_500011.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with product displays and a prominent sale announcement.",
+    "visual_style": "minimalistic and modern",
+    "main_message": "Promoting a flash sale with free shipping.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Product display",
+      "description": "A rectangular area showing a minimalistic product display with two outlined rectangles representing items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.359,
+        0.4
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Product display",
+      "description": "Another rectangular area showing a minimalistic product display with two outlined rectangles representing items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Product display",
+      "description": "A smaller rectangular area showing a minimalistic product display with one outlined rectangle representing an item.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon located at the bottom right, possibly representing a user-generated content feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        179,
+        359,
+        303
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.28,
+        0.998,
+        0.475
+      ],
+      "center_normalized": [
+        0.978,
+        0.377
+      ],
+      "area_percentage": 0.78
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon located at the bottom left, possibly representing a user-generated content feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold white text stating 'Flash sale live Free shipping over $25' prominently displayed in the center.",
+      "text_content": "Flash sale live Free shipping over $25",
+      "bbox_xyxy": [
+        57,
+        409,
+        305,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.639,
+        0.847,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.14
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'VantaStyle' is displayed in a bold font at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.113
+      ],
+      "center_normalized": [
+        0.242,
+        0.094
+      ],
+      "area_percentage": 1.27
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom center with the text 'Start now' in bold white font.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "User-generated content tag",
+      "description": "Small text reading 'UGC' located at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic and modern, Flash sale live Free shipping over $25",
+    "layout_text": "The headline is centered, product displays are in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Free shipping over $25, VantaStyle, Start now, UGC",
+    "elements_text": "app_screenshot: A rectangular area showing a minimalistic product display with two outlined rectangles representing items. | app_screenshot: Another rectangular area showing a minimalistic product display with two outlined rectangles representing items. | app_screenshot: A smaller rectangular area showing a minimalistic product display with one outlined rectangle representing an item. | icon: A small circular icon located at the bottom right, possibly representing a user-generated content feature. | icon: A small circular icon located at the bottom left, possibly representing a user-generated content feature. | headline: Bold white text stating 'Flash sale live Free shipping over $25' prominently displayed in the center. text='Flash sale live Free shipping over $25' | logo: The logo 'VantaStyle' is displayed in a bold font at the top left corner. text='VantaStyle' | cta: A rectangular button at the bottom center with the text 'Start now' in bold white font. text='Start now' | body_text: Small text reading 'UGC' located at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

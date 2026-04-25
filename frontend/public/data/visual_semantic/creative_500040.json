@@ -1,0 +1,386 @@
+{
+  "creative_id": "500040",
+  "asset_file": "assets/creative_500040.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with game-related icons and text promoting rewards.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear with free rewards for new players.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A stylized game icon with rounded edges, featuring a grid of squares, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element, visually resembling a button or interactive feature, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "Another small circular gameplay element, similar to the previous one, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element, resembling a button, located at the center right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element at the top left, visually similar to other gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element positioned at the top right, matching the style of other icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element located at the center bottom, consistent with the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element positioned in the center, resembling an interactive feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element located in the center left, similar to other gameplay icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The text 'NeonArena' in a bold, prominent font at the top of the ad, conveying the game's name.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Reward message",
+      "description": "The text 'Unlock rare gear Free rewards for new players' in a clear font, positioned below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The text 'NeonArena' in a bold, prominent font at the top of the ad, conveying the game's name.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        30,
+        40,
+        358,
+        94
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.994,
+        0.147
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.69
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Reward message",
+      "description": "The text 'Unlock rare gear Free rewards for new players' in a clear font, positioned below the headline.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Book now' in a bold font at the bottom of the ad, encouraging immediate action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, NeonArena, free rewards.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "NeonArena, Unlock rare gear Free rewards for new players, Book now",
+    "elements_text": "icon: A stylized game icon with rounded edges, featuring a grid of squares, positioned at the top center. | icon: A small circular gameplay element, visually resembling a button or interactive feature, located in the center. | icon: Another small circular gameplay element, similar to the previous one, positioned at the top left. | icon: A small circular gameplay element, resembling a button, located at the center right. | icon: A small circular gameplay element at the top left, visually similar to other gameplay elements. | icon: A small circular gameplay element positioned at the top right, matching the style of other icons. | icon: A small circular gameplay element located at the center bottom, consistent with the overall design. | icon: A small circular gameplay element positioned in the center, resembling an interactive feature. | icon: A small circular gameplay element located in the center left, similar to other gameplay icons. | headline: The text 'NeonArena' in a bold, prominent font at the top of the ad, conveying the game's name. | body_text: The text 'Unlock rare gear Free rewards for new players' in a clear font, positioned below the headline. | headline: The text 'NeonArena' in a bold, prominent font at the top of the ad, conveying the game's name. text='NeonArena' | body_text: The text 'Unlock rare gear Free rewards for new players' in a clear font, positioned below the headline. text='Unlock rare gear Free rewards for new players' | cta: The text 'Book now' in a bold font at the bottom of the ad, encouraging immediate action. text='Book now'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500089",
+  "asset_file": "assets/creative_500089.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a prominent logo and call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Encouraging users to save confidently with a quick signup.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo features the text 'VaultRun' in bold, modern typography, positioned prominently at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "An abstract design with a circular and square shape in lighter purple tones, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label in the top left corner that reads 'UGC' in white text, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular element in the bottom left, adding a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Save with confidence' is displayed prominently in white, bold font, with a subtext below it in smaller font.",
+      "text_content": "Save with confidence Fast signup; instant card",
+      "bbox_xyxy": [
+        72,
+        407,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.636,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "VaultRun headline",
+      "description": "The headline 'VaultRun' is in large, bold letters at the top, capturing immediate attention.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        39,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.324,
+        0.092
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom center that reads 'Get offer' in white text on a contrasting background, encouraging user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "UGC tag",
+      "description": "A small tag labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, VaultRun logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA button at the bottom.",
+    "ocr_text": "Save with confidence, Fast signup, instant card, VaultRun, Get offer, UGC",
+    "elements_text": "logo: The logo features the text 'VaultRun' in bold, modern typography, positioned prominently at the top center. | unknown: An abstract design with a circular and square shape in lighter purple tones, adding visual interest to the background. | social_proof: A small label in the top left corner that reads 'UGC' in white text, indicating user-generated content. | unknown: A small circular element in the bottom left, adding a decorative touch to the overall design. | body_text: The text 'Save with confidence' is displayed prominently in white, bold font, with a subtext below it in smaller font. text='Save with confidence Fast signup; instant card' | headline: The headline 'VaultRun' is in large, bold letters at the top, capturing immediate attention. text='VaultRun' | cta: A button at the bottom center that reads 'Get offer' in white text on a contrasting background, encouraging user interaction. text='Get offer' | unknown: A small tag labeled 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

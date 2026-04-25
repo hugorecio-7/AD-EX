@@ -1,0 +1,170 @@
+{
+  "creative_id": "500096",
+  "asset_file": "assets/creative_500096.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with promotional text and a call-to-action button.",
+    "visual_style": "bright and inviting",
+    "main_message": "Order fast food with free delivery over $15.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background that fills the entire canvas, providing a bright and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        12,
+        62,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.04,
+        0.196,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.497,
+        0.459
+      ],
+      "area_percentage": 47.97
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "A simple logo at the top left, featuring the text 'FreshDash' in a bold, modern font against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A blank rectangular area in the center, suggesting a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold black text at the bottom stating 'Fast food, fast Free delivery over $15' with a smaller font for the price '€9.99'.",
+      "text_content": "Fast food, fast Free delivery over $15 €9.99 Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.789
+      ],
+      "area_percentage": 22.89
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Sale badge",
+      "description": "A small rectangular badge in the top right corner with the word 'SALE' in white text on a contrasting background.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button at the bottom with the text 'Order now' in bold, inviting font, encouraging immediate action.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and inviting, FreshDash, fast food, free delivery",
+    "layout_text": "The logo is positioned at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, €9.99, Order now, FreshDash, SALE",
+    "elements_text": "headline: A simple logo at the top left, featuring the text 'FreshDash' in a bold, modern font against a light background. | unknown: A blank rectangular area in the center, suggesting a placeholder for an image or graphic. | body_text: Bold black text at the bottom stating 'Fast food, fast Free delivery over $15' with a smaller font for the price '€9.99'. text='Fast food, fast Free delivery over $15 €9.99 Order now' | logo: A small rectangular badge in the top right corner with the word 'SALE' in white text on a contrasting background. text='FreshDash' | cta: A prominent button at the bottom with the text 'Order now' in bold, inviting font, encouraging immediate action. text='SALE'"
+  }
+}

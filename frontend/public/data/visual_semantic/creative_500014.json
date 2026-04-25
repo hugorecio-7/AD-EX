@@ -1,0 +1,218 @@
+{
+  "creative_id": "500014",
+  "asset_file": "assets/creative_500014.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on text and abstract shapes.",
+    "visual_style": "minimalist with abstract shapes",
+    "main_message": "Promoting a secure and simple service.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shapes",
+      "description": "A collection of abstract shapes including an oval and a rectangle, rendered in a light gray color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "An overlaying rectangle shape that is slightly darker than the background, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "A smaller circular shape in the background, adding visual interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.499,
+        0.47
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.64
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A thin vertical line that adds a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold, black text stating 'Secure & simple Built for peace of mind', prominently displayed at the bottom.",
+      "text_content": "Secure & simple Built for peace of mind",
+      "bbox_xyxy": [
+        32,
+        203,
+        288,
+        255
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.634,
+        0.9,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.716
+      ],
+      "area_percentage": 13.0
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A smaller button-like text saying 'Order now', positioned just above the bottom edge.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        279,
+        209,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.653,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'EarnPath' displayed in a simple, modern font at the top of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with abstract shapes, Secure & simple, Order now",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "EarnPath, Secure & simple, Built for peace of mind, Order now",
+    "elements_text": "unknown: A collection of abstract shapes including an oval and a rectangle, rendered in a light gray color. | unknown: An overlaying rectangle shape that is slightly darker than the background, positioned centrally. | unknown: A smaller circular shape in the background, adding visual interest to the composition. | unknown: A thin vertical line that adds a decorative touch to the overall design. | body_text: Bold, black text stating 'Secure & simple Built for peace of mind', prominently displayed at the bottom. text='Secure & simple Built for peace of mind' | cta: A smaller button-like text saying 'Order now', positioned just above the bottom edge. text='Order now' | logo: The brand name 'EarnPath' displayed in a simple, modern font at the top of the ad. text='EarnPath'"
+  }
+}

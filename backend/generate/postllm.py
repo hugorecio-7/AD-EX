@@ -16,10 +16,20 @@ backend_dir = os.path.dirname(script_dir)               # Apunta a 'backend'
 project_root = os.path.dirname(backend_dir)             # Apunta a l'arrel
 
 env_path = os.path.join(project_root, ".env")
-load_dotenv(dotenv_path=env_path)
+backend_env_path = os.path.join(backend_dir, ".env")
+
+# Load both — backend/.env takes precedence (last wins)
+load_dotenv(dotenv_path=env_path)          # repo root .env
+load_dotenv(dotenv_path=backend_env_path, override=True)  # backend/.env overrides
+
+api_key = os.environ.get("OPENAI_API_KEY")
+if not api_key:
+    raise EnvironmentError(
+        "OPENAI_API_KEY not found. Add it to backend/.env or the repo root .env file."
+    )
 
 # Inicialitzar el client de OpenAI
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key=api_key)
 
 def resolve_model_name(raw_model):
     model = (raw_model or "").strip()

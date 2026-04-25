@@ -1,0 +1,314 @@
+{
+  "creative_id": "500066",
+  "asset_file": "assets/creative_500066.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a blue gradient background with a prominent logo and call to action.",
+    "visual_style": "clean and modern",
+    "main_message": "Encouraging users to engage with the FluxStream app.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue gradient background",
+      "description": "A smooth blue gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "A bold, stylized logo with the text 'FluxStream' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.398
+      ],
+      "area_percentage": 14.42
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Circular app screenshot",
+      "description": "A circular shape representing an app screenshot, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Square app screenshot",
+      "description": "A square shape representing another app screenshot, also centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small decorative icon",
+      "description": "A small circular decorative icon located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "Text that reads 'Watch what's trending', displayed in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Cancellation notice",
+      "description": "Text that states 'Cancel anytime', positioned below the trending text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small decorative icon",
+      "description": "Another small circular decorative icon located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small decorative icon",
+      "description": "A small decorative icon positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom that reads 'Start now', inviting user interaction.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'FluxStream' is bold and stands out at the top of the ad.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Start now text",
+      "description": "Text that reads 'Start now', located at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, clean and modern, FluxStream logo, call to action.",
+    "layout_text": "The headline is at the top, followed by app screenshots in the center, and the CTA at the bottom.",
+    "ocr_text": "Watch what's trending, Cancel anytime, FluxStream, Start now",
+    "elements_text": "logo: A bold, stylized logo with the text 'FluxStream' prominently displayed at the top. | app_screenshot: A circular shape representing an app screenshot, positioned in the center. | app_screenshot: A square shape representing another app screenshot, also centered in the ad. | decorative_element: A small circular decorative icon located at the top left of the ad. | body_text: Text that reads 'Watch what's trending', displayed in a clear, readable font. | body_text: Text that states 'Cancel anytime', positioned below the trending text. | decorative_element: Another small circular decorative icon located towards the bottom center. | decorative_element: A small decorative icon positioned in the center of the ad. | cta: A prominent button at the bottom that reads 'Start now', inviting user interaction. text='Watch what's trending Cancel anytime' | headline: The main headline 'FluxStream' is bold and stands out at the top of the ad. text='FluxStream' | body_text: Text that reads 'Start now', located at the bottom of the ad. text='Start now'"
+  }
+}

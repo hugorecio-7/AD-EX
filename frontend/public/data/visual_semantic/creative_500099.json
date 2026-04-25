@@ -1,0 +1,194 @@
+{
+  "creative_id": "500099",
+  "asset_file": "assets/creative_500099.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with a logo, headline, and call-to-action button.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting food delivery service with an emphasis on freshness.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        469
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.733
+      ],
+      "center_normalized": [
+        0.5,
+        0.467
+      ],
+      "area_percentage": 48.05
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo features the word 'FreshDash' in bold, modern typography, positioned prominently at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Two empty containers",
+      "description": "A simple line drawing of two empty containers with a circular element, suggesting food delivery or freshness.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular element",
+      "description": "A small circular element is placed near the containers, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Hungry? We got you",
+      "description": "The headline text is bold and white, conveying a sense of urgency and inviting the viewer to engage.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        43,
+        409,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 10.98
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button with the text 'Learn more' in white, set against an orange background, encouraging action.",
+      "text_content": "€19.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "The body text is in a lighter font, providing additional context about the service offered.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        39,
+        233,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.647,
+        0.123
+      ],
+      "center_normalized": [
+        0.358,
+        0.092
+      ],
+      "area_percentage": 3.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, FreshDash logo, headline, and CTA.",
+    "layout_text": "The logo is at the top, followed by the headline, body text, and CTA button at the bottom.",
+    "ocr_text": "FreshDash, Hungry? We got you, Fresh favorites nearby, €19.99, Learn more",
+    "elements_text": "logo: The logo features the word 'FreshDash' in bold, modern typography, positioned prominently at the top center. | icon: A simple line drawing of two empty containers with a circular element, suggesting food delivery or freshness. | decorative_element: A small circular element is placed near the containers, adding a decorative touch to the design. | headline: The headline text is bold and white, conveying a sense of urgency and inviting the viewer to engage. text='Hungry? We got you Fresh favorites nearby' | cta: A prominent button with the text 'Learn more' in white, set against an orange background, encouraging action. text='€19.99 Learn more' | body_text: The body text is in a lighter font, providing additional context about the service offered. text='FreshDash'"
+  }
+}

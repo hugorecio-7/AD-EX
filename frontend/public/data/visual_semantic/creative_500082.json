@@ -1,0 +1,290 @@
+{
+  "creative_id": "500082",
+  "asset_file": "assets/creative_500082.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on a discount offer and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a discount on products with a call to action.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "BoltCart Sale",
+      "description": "A bold, large text reading 'BoltCart' with a smaller 'UGC' underneath, prominently displayed at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        108,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.17,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.315
+      ],
+      "area_percentage": 5.24
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "30% Discount",
+      "description": "A small, circular badge indicating a '30%' discount, positioned at the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Background Shape",
+      "description": "A light teal background with abstract shapes and patterns that add visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.087,
+        0.296
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Favorite Pick Message",
+      "description": "Text that reads 'Your next favorite pick' in a clean, modern font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.581
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Shipping Information",
+      "description": "A line of text stating 'Free shipping over $25', positioned just below the main body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Get Offer Button",
+      "description": "A prominent button with the text 'Get offer', designed to stand out and encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Main Visual Element",
+      "description": "A large, rectangular shape in the center of the ad, possibly representing a product or app screenshot.",
+      "text_content": "BoltCart {ALE UGC",
+      "bbox_xyxy": [
+        28,
+        40,
+        321,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.892,
+        0.198
+      ],
+      "center_normalized": [
+        0.485,
+        0.13
+      ],
+      "area_percentage": 11.06
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional Visual Element",
+      "description": "A secondary visual element that adds depth to the ad, located at the bottom of the canvas.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.713
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Get Offer Text",
+      "description": "A small text button that reads 'Get offer', encouraging users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "30% Discount Text",
+      "description": "A small text indicating a '30%' discount, designed to attract attention.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        35,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.172,
+        0.848
+      ],
+      "area_percentage": 0.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, BoltCart, discount offer, call to action",
+    "layout_text": "The headline is at the top center, body text is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "BoltCart {ALE UGC, Your next favorite pick, Free shipping over $25, Get offer, 30%",
+    "elements_text": "headline: A bold, large text reading 'BoltCart' with a smaller 'UGC' underneath, prominently displayed at the top center of the ad. | discount_badge: A small, circular badge indicating a '30%' discount, positioned at the bottom left of the ad. | decorative_element: A light teal background with abstract shapes and patterns that add visual interest to the ad. | body_text: Text that reads 'Your next favorite pick' in a clean, modern font, centered in the middle of the ad. | body_text: A line of text stating 'Free shipping over $25', positioned just below the main body text. | cta: A prominent button with the text 'Get offer', designed to stand out and encourage user interaction. | main_subject: A large, rectangular shape in the center of the ad, possibly representing a product or app screenshot. text='BoltCart {ALE UGC' | unknown: A secondary visual element that adds depth to the ad, located at the bottom of the canvas. text='Your next favorite pick Free shipping over $25' | cta: A small text button that reads 'Get offer', encouraging users to take action. text='Get offer' | discount_badge: A small text indicating a '30%' discount, designed to attract attention. text='30%'"
+  }
+}

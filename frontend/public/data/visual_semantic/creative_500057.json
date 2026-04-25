@@ -1,0 +1,218 @@
+{
+  "creative_id": "500057",
+  "asset_file": "assets/creative_500057.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with abstract shapes and clear text elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel options with flexible booking.",
+    "dominant_colors": [
+      "light green",
+      "black"
+    ],
+    "emotional_tone": "adventurous"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large abstract shape in the center, possibly a combination of circles and rectangles in a light green color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller abstract shape overlapping the central graphic, also in light green, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A tiny circular shape located towards the bottom, contributing to the overall abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Dream destinations await' positioned centrally, conveying the main offer.",
+      "text_content": "destinations await Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        443,
+        288,
+        534
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.692,
+        0.8,
+        0.834
+      ],
+      "center_normalized": [
+        0.5,
+        0.763
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "Prominent green text at the top reading 'DriftPass', indicating the brand identity.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional message",
+      "description": "Smaller black text below the main message stating 'Flexible booking options', providing more details.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text 'Learn more' in black, positioned at the bottom, encouraging user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, DriftPass, Dream destinations await, Flexible booking options.",
+    "layout_text": "The brand name is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, DriftPass, Dream, Learn more",
+    "elements_text": "unknown: A large abstract shape in the center, possibly a combination of circles and rectangles in a light green color. | unknown: A smaller abstract shape overlapping the central graphic, also in light green, adding depth to the design. | unknown: A tiny circular shape located towards the bottom, contributing to the overall abstract theme. | body_text: Bold, black text stating 'Dream destinations await' positioned centrally, conveying the main offer. text='destinations await Flexible booking options' | headline: Prominent green text at the top reading 'DriftPass', indicating the brand identity. text='DriftPass' | body_text: Smaller black text below the main message stating 'Flexible booking options', providing more details. text='Dream' | cta: A button-like text 'Learn more' in black, positioned at the bottom, encouraging user interaction. text='Learn more'"
+  }
+}

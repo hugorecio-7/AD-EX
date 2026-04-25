@@ -1,0 +1,242 @@
+{
+  "creative_id": "500175",
+  "asset_file": "assets/creative_500175.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a central content area showcasing an exclusive offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting an exclusive viewing offer for BingeLayer.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        573
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.895
+      ],
+      "center_normalized": [
+        0.501,
+        0.548
+      ],
+      "area_percentage": 62.56
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular content area in the center, featuring abstract shapes like circles and rectangles in lighter shades.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "An arrangement of abstract shapes, including a large rectangle and a circle, in a lighter blue tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shape",
+      "description": "A smaller rectangle positioned within the content area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small element",
+      "description": "A small circular element that appears to be a decorative feature within the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Exclusive offer text",
+      "description": "Text that reads 'Exclusive tonight Cancel anytime' in a bold, clear font, prominently displayed in the content area.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo 'BingeLayer' appears at the top in a bold font, contrasting against the blue background.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom labeled 'Watch now' in a clear, inviting font, encouraging user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "The text 'UGC' appears at the top left, indicating user-generated content, in a simple font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, BingeLayer, exclusive offer",
+    "layout_text": "The logo is at the top, the main content area is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, BingeLayer, Watch now, UGC",
+    "elements_text": "main_subject: A rectangular content area in the center, featuring abstract shapes like circles and rectangles in lighter shades. | decorative_element: An arrangement of abstract shapes, including a large rectangle and a circle, in a lighter blue tone. | decorative_element: A smaller rectangle positioned within the content area, adding visual interest. | unknown: A small circular element that appears to be a decorative feature within the content area. | body_text: Text that reads 'Exclusive tonight Cancel anytime' in a bold, clear font, prominently displayed in the content area. text='Exclusive tonight Cancel anytime' | logo: The logo 'BingeLayer' appears at the top in a bold font, contrasting against the blue background. text='BingeLayer' | cta: A button at the bottom labeled 'Watch now' in a clear, inviting font, encouraging user interaction. text='Watch now' | social_proof: The text 'UGC' appears at the top left, indicating user-generated content, in a simple font. text='UGC'"
+  }
+}

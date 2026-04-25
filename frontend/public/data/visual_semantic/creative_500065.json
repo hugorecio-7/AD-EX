@@ -1,0 +1,146 @@
+{
+  "creative_id": "500065",
+  "asset_file": "assets/creative_500065.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a logo, main offer text, and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting late-night food delivery offers.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo featuring a circular icon next to the text 'BiteRush' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.329,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A circular icon that appears empty or outlined, positioned near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold text stating 'Your cravings, delivered' with a smaller price tag of '$4.98' below it.",
+      "text_content": "Your cravings, delivered $4.98e Hable Get offer",
+      "bbox_xyxy": [
+        22,
+        203,
+        273,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.853,
+        0.934
+      ],
+      "center_normalized": [
+        0.461,
+        0.784
+      ],
+      "area_percentage": 23.53
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Get offer' in a contrasting color, encouraging user interaction.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        25,
+        23,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.097
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, BiteRush logo, food delivery offer",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "BiteRush, Your cravings, delivered, $4.98, Get offer",
+    "elements_text": "logo: A simple logo featuring a circular icon next to the text 'BiteRush' in a bold font. | decorative_element: A circular icon that appears empty or outlined, positioned near the logo. | body_text: Bold text stating 'Your cravings, delivered' with a smaller price tag of '$4.98' below it. text='Your cravings, delivered $4.98e Hable Get offer' | cta: A prominent button with the text 'Get offer' in a contrasting color, encouraging user interaction. text='BiteRush'"
+  }
+}

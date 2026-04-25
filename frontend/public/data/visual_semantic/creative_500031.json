@@ -1,0 +1,218 @@
+{
+  "creative_id": "500031",
+  "asset_file": "assets/creative_500031.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a mix of text and geometric shapes.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "The ad promotes trending content and encourages users to claim a reward.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        471
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.736
+      ],
+      "center_normalized": [
+        0.5,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Watch what's trending' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline reads 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A large, semi-transparent circle and square overlap in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom with the text 'Claim reward', encouraging user interaction.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        64,
+        408,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.637,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "App logo",
+      "description": "The logo 'MoonScreen' appears in the top left corner, styled in white against the blue background.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is positioned in the top left, indicating user-generated content.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "This element is too small and unclear to determine its visual characteristics.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, trending content, call to action",
+    "layout_text": "The headline is at the top, followed by body text, with a call to action at the bottom and logo in the top left.",
+    "ocr_text": "MoonScreen, Watch what's trending, New hits every week, Claim reward, UGC",
+    "elements_text": "headline: Bold white text stating 'Watch what's trending' is prominently displayed at the top of the ad. | body_text: Smaller white text below the headline reads 'New hits every week', providing additional context. | decorative_element: A large, semi-transparent circle and square overlap in the center, adding visual interest. | cta: A prominent white button at the bottom with the text 'Claim reward', encouraging user interaction. text='Watch what's trending New hits every week' | logo: The logo 'MoonScreen' appears in the top left corner, styled in white against the blue background. text='MoonScreen' | social_proof: A small tag labeled 'UGC' is positioned in the top left, indicating user-generated content. text='Claim reward' | unknown: This element is too small and unclear to determine its visual characteristics. text='UGC'"
+  }
+}

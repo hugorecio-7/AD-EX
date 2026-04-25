@@ -1,0 +1,218 @@
+{
+  "creative_id": "500016",
+  "asset_file": "assets/creative_500016.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear messaging.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a secure and simple signup process for a card service.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are displayed in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A prominent rectangular area in the center contains text and shapes, designed to draw attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular decorative element is positioned within the main content area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Signup message",
+      "description": "Bold white text stating 'Secure & simple Fast signup; instant card' is prominently displayed in the center.",
+      "text_content": "Secure & simple Fast signup; instant card",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom with the text 'Order now' in white, inviting user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'EarnPath' is displayed in a small font at the top left corner, serving as the logo.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, secure signup message, call to action",
+    "layout_text": "The headline and main content are centered, with the logo at the top left and the CTA at the bottom.",
+    "ocr_text": "Secure & simple Fast signup; instant card, Order now, EarnPath, UGC",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are displayed in a lighter blue shade. | main_subject: A prominent rectangular area in the center contains text and shapes, designed to draw attention. | decorative_element: A small circular decorative element is positioned within the main content area, adding visual interest. | body_text: Bold white text stating 'Secure & simple Fast signup; instant card' is prominently displayed in the center. text='Secure & simple Fast signup; instant card' | cta: A rounded rectangular button at the bottom with the text 'Order now' in white, inviting user interaction. text='Order now' | logo: The brand name 'EarnPath' is displayed in a small font at the top left corner, serving as the logo. text='EarnPath' | social_proof: A small tag labeled 'UGC' is positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

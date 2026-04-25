@@ -1,0 +1,194 @@
+{
+  "creative_id": "500067",
+  "asset_file": "assets/creative_500067.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear text elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting the FluxStream service with a focus on streaming flexibility.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.429
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "The logo features the text 'FluxStream' in a bold, modern font, positioned prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A combination of a large square and a smaller circle, outlined in a lighter shade, is centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shape",
+      "description": "A small circle is placed towards the bottom right, adding visual interest without being a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Stream the hype Cancel anytime' is displayed in a large, bold font, centered within the main subject area.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        35,
+        409,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.684
+      ],
+      "area_percentage": 7.2
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The headline 'FluxStream' is prominently displayed at the top of the ad in a clear, eye-catching font.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        80
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.125
+      ],
+      "center_normalized": [
+        0.385,
+        0.093
+      ],
+      "area_percentage": 4.0
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom reads 'Order now' in a bold font, inviting immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, FluxStream logo, call to action.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, FluxStream, Order now",
+    "elements_text": "logo: The logo features the text 'FluxStream' in a bold, modern font, positioned prominently at the top. | main_subject: A combination of a large square and a smaller circle, outlined in a lighter shade, is centered in the ad. | decorative_element: A small circle is placed towards the bottom right, adding visual interest without being a focal point. | body_text: The text 'Stream the hype Cancel anytime' is displayed in a large, bold font, centered within the main subject area. text='Stream the hype Cancel anytime' | headline: The headline 'FluxStream' is prominently displayed at the top of the ad in a clear, eye-catching font. text='FluxStream' | cta: A rounded button at the bottom reads 'Order now' in a bold font, inviting immediate action. text='Order now'"
+  }
+}

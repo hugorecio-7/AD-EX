@@ -1,0 +1,386 @@
+{
+  "creative_id": "500148",
+  "asset_file": "assets/creative_500148.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with interactive gameplay elements and clear messaging.",
+    "visual_style": "playful and modern",
+    "main_message": "Encouraging users to play and win rewards with friends.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue abstract background",
+      "description": "A smooth blue background with abstract shapes and gradients creating a vibrant atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "gameplay icons",
+      "description": "Four circular icons arranged in a grid, each with a light outline, suggesting interactive gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "gameplay indicator",
+      "description": "A circular button at the center, indicating an interactive gameplay feature with a subtle shadow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "gameplay icon",
+      "description": "A circular icon at the top left, featuring a light outline, representing another gameplay element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "gameplay indicator",
+      "description": "A circular button at the center right, indicating an interactive gameplay feature with a subtle shadow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "small gameplay icon",
+      "description": "A small circular icon at the top left, suggesting a minor gameplay feature with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "small gameplay icon",
+      "description": "A small circular icon at the top right, featuring a light outline, representing another minor gameplay element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "small gameplay indicator",
+      "description": "A small circular button at the center bottom, indicating an interactive gameplay feature with a subtle shadow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "small gameplay indicator",
+      "description": "A tiny circular button at the center, suggesting an interactive gameplay feature with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "small gameplay indicator",
+      "description": "A tiny circular button at the center left, indicating another interactive gameplay feature with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "headline text",
+      "description": "Bold text at the top center reading 'GlitchWave', prominently displayed in a large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "headline text",
+      "description": "Bold text at the top left reading 'GlitchWave', prominently displayed in a large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "reward message",
+      "description": "Text in the center stating 'Win epic rewards Play with friends tonight', presented in a clear, readable font.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        24,
+        36,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.056,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.533,
+        0.105
+      ],
+      "area_percentage": 9.19
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent button at the bottom center with the text 'Start now', inviting user interaction.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        31,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.086,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.682
+      ],
+      "area_percentage": 7.68
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, playful and modern, GlitchWave, win epic rewards.",
+    "layout_text": "The headline is positioned at the top, gameplay icons are centered, and the CTA is at the bottom.",
+    "ocr_text": "GlitchWave, Win epic rewards Play with friends tonight, Start now",
+    "elements_text": "icon: Four circular icons arranged in a grid, each with a light outline, suggesting interactive gameplay elements. | icon: A circular button at the center, indicating an interactive gameplay feature with a subtle shadow. | icon: A circular icon at the top left, featuring a light outline, representing another gameplay element. | icon: A circular button at the center right, indicating an interactive gameplay feature with a subtle shadow. | icon: A small circular icon at the top left, suggesting a minor gameplay feature with a light outline. | icon: A small circular icon at the top right, featuring a light outline, representing another minor gameplay element. | icon: A small circular button at the center bottom, indicating an interactive gameplay feature with a subtle shadow. | icon: A tiny circular button at the center, suggesting an interactive gameplay feature with a light outline. | icon: A tiny circular button at the center left, indicating another interactive gameplay feature with a light outline. | headline: Bold text at the top center reading 'GlitchWave', prominently displayed in a large font. | headline: Bold text at the top left reading 'GlitchWave', prominently displayed in a large font. | body_text: Text in the center stating 'Win epic rewards Play with friends tonight', presented in a clear, readable font. text='GlitchWave' | cta: A prominent button at the bottom center with the text 'Start now', inviting user interaction. text='Win epic rewards Play with friends tonight' | unknown:  text='Start now'"
+  }
+}

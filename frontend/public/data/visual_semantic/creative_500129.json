@@ -1,0 +1,314 @@
+{
+  "creative_id": "500129",
+  "asset_file": "assets/creative_500129.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and clear calls to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service with a focus on convenience.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "RouteBloon UGC",
+      "description": "A bold, uppercase text label in a dark color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.391
+      ],
+      "area_percentage": 15.1
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Fly smarter Hotels",
+      "description": "A medium-sized text in a lighter color, conveying a message about smarter travel options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "flights in one tap",
+      "description": "A smaller text below the main body text, emphasizing convenience in travel booking.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract geometric shapes in a warm color palette, creating a visually engaging background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now",
+      "description": "A prominent button with rounded edges, inviting users to take action with a clear call to action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circle",
+      "description": "A small circular shape in a light color, serving as a decorative element in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangular shape, possibly a decorative element, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangle in a light color, positioned in the center of the ad, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top banner",
+      "description": "A wide banner at the top of the ad, providing a background for the headline text.",
+      "text_content": "RouteBloon UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.536,
+        0.13
+      ],
+      "area_percentage": 12.61
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Hotels + flights",
+      "description": "A text element that highlights the services offered, positioned centrally in the ad.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        295,
+        467
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.819,
+        0.73
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.59
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Order button",
+      "description": "A clear, rounded button at the bottom of the ad, encouraging immediate action from viewers.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, RouteBloon UGC, Fly smarter Hotels flights in one tap, Order now",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "RouteBloon UGC, Fly smarter Hotels flights in one tap, Order now",
+    "elements_text": "headline: A bold, uppercase text label in a dark color, prominently displayed at the top of the ad. | body_text: A medium-sized text in a lighter color, conveying a message about smarter travel options. | body_text: A smaller text below the main body text, emphasizing convenience in travel booking. | decorative_element: Abstract geometric shapes in a warm color palette, creating a visually engaging background. | cta: A prominent button with rounded edges, inviting users to take action with a clear call to action. | icon: A small circular shape in a light color, serving as a decorative element in the design. | unknown: A small rectangular shape, possibly a decorative element, positioned towards the bottom of the ad. | unknown: A medium-sized rectangle in a light color, positioned in the center of the ad, possibly decorative. | unknown: A wide banner at the top of the ad, providing a background for the headline text. text='RouteBloon UGC' | body_text: A text element that highlights the services offered, positioned centrally in the ad. text='Fly smarter Hotels flights in one tap' | cta: A clear, rounded button at the bottom of the ad, encouraging immediate action from viewers. text='Order now'"
+  }
+}

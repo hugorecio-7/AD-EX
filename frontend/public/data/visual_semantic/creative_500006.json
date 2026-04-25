@@ -1,0 +1,266 @@
+{
+  "creative_id": "500006",
+  "asset_file": "assets/creative_500006.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with promotional text and product images.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting a weekend sale with significant discounts.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A vibrant red background fills the entire banner, creating a bold and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.8
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' is displayed prominently at the top in a stylish font, likely in white or contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Three rectangular shapes resembling product images are centered, with a glossy finish and slight reflections.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display",
+      "description": "Another rectangular shape resembling a product image, positioned next to the first, maintaining the same glossy appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product display",
+      "description": "A third rectangular shape resembling a product image, completing the trio with a similar glossy finish.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon is located below the product images, possibly indicating a feature or selection.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Discount message",
+      "description": "The text 'Up to 40% off Only this weekend' is prominently displayed in a bold font, conveying urgency and excitement.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The word 'SALE' is positioned at the top right in a bright color, drawing attention to the promotional event.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        134,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.419,
+        0.125
+      ],
+      "center_normalized": [
+        0.244,
+        0.098
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded button at the bottom with the text 'Order now' in a clear, inviting font, encouraging immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The word 'SALE' appears in a bold, eye-catching font, likely in a contrasting color to the background.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and modern, VantaStyle logo, discount message, call to action.",
+    "layout_text": "The logo is at the top, followed by product images in the center, with the discount message below and the CTA at the bottom.",
+    "ocr_text": "Up to 40% off Only this weekend, VantaStyle, Order now, SALE",
+    "elements_text": "headline: The logo 'VantaStyle' is displayed prominently at the top in a stylish font, likely in white or contrasting color. | product: Three rectangular shapes resembling product images are centered, with a glossy finish and slight reflections. | product: Another rectangular shape resembling a product image, positioned next to the first, maintaining the same glossy appearance. | product: A third rectangular shape resembling a product image, completing the trio with a similar glossy finish. | icon: A small circular icon is located below the product images, possibly indicating a feature or selection. | body_text: The text 'Up to 40% off Only this weekend' is prominently displayed in a bold font, conveying urgency and excitement. text='Up to 40% off Only this weekend' | headline: The word 'SALE' is positioned at the top right in a bright color, drawing attention to the promotional event. text='VantaStyle' | cta: A rounded button at the bottom with the text 'Order now' in a clear, inviting font, encouraging immediate action. text='Order now' | headline: The word 'SALE' appears in a bold, eye-catching font, likely in a contrasting color to the background. text='SALE'"
+  }
+}

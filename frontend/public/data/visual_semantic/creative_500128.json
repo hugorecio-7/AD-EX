@@ -1,0 +1,218 @@
+{
+  "creative_id": "500128",
+  "asset_file": "assets/creative_500128.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo at the top, a main message in the center, and a call to action at the bottom.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting special weekend fares for travel.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "adventurous"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears to be a placeholder shape, possibly an abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.252,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.516,
+        0.43
+      ],
+      "area_percentage": 9.48
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "Another central graphic element that resembles a placeholder shape, likely complementing the first.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.72
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top, possibly a simple shape or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.134,
+        0.291
+      ],
+      "center_normalized": [
+        0.067,
+        0.236
+      ],
+      "area_percentage": 1.46
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "RouteBloon logo",
+      "description": "The logo 'RouteBloon' displayed prominently at the top in a bold, modern font.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        26,
+        37,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.99
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A bold text message at the bottom stating 'Escape this weekend Special fares today' in a clear, readable font.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button labeled 'Get offer' at the bottom, designed to stand out with a contrasting color.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        228,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.633,
+        0.909
+      ],
+      "center_normalized": [
+        0.5,
+        0.891
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price tag displaying '$4.99' in a prominent font, positioned near the call to action.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalistic with bold text, RouteBloon logo, special fares message, call to action.",
+    "layout_text": "Logo at the top, main message in the center, and call to action at the bottom.",
+    "ocr_text": "RouteBloon, Escape this weekend, Special fares today, Get offer, $4.99",
+    "elements_text": "unknown: A central graphic element that appears to be a placeholder shape, possibly an abstract design. | unknown: Another central graphic element that resembles a placeholder shape, likely complementing the first. | unknown: A small decorative element positioned at the top, possibly a simple shape or icon. | logo: The logo 'RouteBloon' displayed prominently at the top in a bold, modern font. text='RouteBloon' | body_text: A bold text message at the bottom stating 'Escape this weekend Special fares today' in a clear, readable font. text='Escape this weekend Special fares today' | cta: A button labeled 'Get offer' at the bottom, designed to stand out with a contrasting color. text='Get offer' | price: A price tag displaying '$4.99' in a prominent font, positioned near the call to action. text='$4.99'"
+  }
+}

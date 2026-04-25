@@ -1,0 +1,218 @@
+{
+  "creative_id": "500121",
+  "asset_file": "assets/creative_500121.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a blue background with abstract shapes and clear text.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting transparent financial tracking with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "top background area",
+      "description": "A solid blue background occupying the top portion of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "A large blue circle and a rectangle in the center, creating an abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "smaller rectangle",
+      "description": "A smaller blue rectangle positioned slightly above the larger shapes, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "additional shape",
+      "description": "A small blue circle located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold white text stating 'Track every euro No hidden fees' prominently displayed.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        29,
+        306,
+        288,
+        355
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.637,
+        0.9,
+        0.74
+      ],
+      "center_normalized": [
+        0.495,
+        0.689
+      ],
+      "area_percentage": 8.26
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo 'NovaPay' in white text against a blue background, positioned at the top.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A white button with the text 'Shop now' at the bottom of the ad, inviting action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, key elements include abstract shapes and clear messaging.",
+    "layout_text": "The logo is at the top, followed by abstract shapes in the center, with the main message text above the CTA at the bottom.",
+    "ocr_text": "Track every euro No hidden fees, NovaPay, Shop now",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the banner. | main_subject: A large blue circle and a rectangle in the center, creating an abstract visual. | main_subject: A smaller blue rectangle positioned slightly above the larger shapes, adding depth. | unknown: A small blue circle located towards the bottom center of the ad. | body_text: Bold white text stating 'Track every euro No hidden fees' prominently displayed. text='Track every euro No hidden fees' | logo: The logo 'NovaPay' in white text against a blue background, positioned at the top. text='NovaPay' | cta: A white button with the text 'Shop now' at the bottom of the ad, inviting action. text='Shop now'"
+  }
+}

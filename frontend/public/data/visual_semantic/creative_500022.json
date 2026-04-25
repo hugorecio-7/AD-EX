@@ -1,0 +1,338 @@
+{
+  "creative_id": "500022",
+  "asset_file": "assets/creative_500022.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a purple gradient background and clear messaging.",
+    "visual_style": "modern minimalist with vibrant colors",
+    "main_message": "Promoting a travel service for booking hotels and flights easily.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        163
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.256
+      ],
+      "center_normalized": [
+        0.499,
+        0.128
+      ],
+      "area_percentage": 25.54
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Abstract geometric shapes in lighter shades of purple, creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.502,
+        0.239
+      ],
+      "area_percentage": 23.47
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large, light purple circular shape positioned towards the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A rectangular area in the center featuring the main message, with a clean and modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        306
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.767,
+        0.479
+      ],
+      "center_normalized": [
+        0.469,
+        0.359
+      ],
+      "area_percentage": 14.35
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Secondary content area",
+      "description": "Another rectangular area below the main content, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.3
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Fly smarter Hotels + flights in one tap' prominently displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Learn more' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A small logo in the top left corner, featuring the text 'CloudRoute' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.298
+      ],
+      "center_normalized": [
+        0.044,
+        0.24
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional message",
+      "description": "Text below the main message providing more context about the service offered.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        295,
+        467
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.819,
+        0.73
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.59
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Small text in the top left corner, reading 'CloudRoute', indicating the brand.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A button at the bottom center with the text 'Learn more', inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "UGC tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern minimalist with vibrant colors, key elements include a call to action and main message.",
+    "layout_text": "The headline is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter Hotels flights in one tap, CloudRoute, Learn more, UGC",
+    "elements_text": "decorative_element: Abstract geometric shapes in lighter shades of purple, creating a dynamic visual effect. | decorative_element: A large, light purple circular shape positioned towards the center of the ad. | main_subject: A rectangular area in the center featuring the main message, with a clean and modern design. | main_subject: Another rectangular area below the main content, providing additional information. | body_text: Bold, white text stating 'Fly smarter Hotels + flights in one tap' prominently displayed. | cta: A rounded button at the bottom with the text 'Learn more' in a contrasting color. | logo: A small logo in the top left corner, featuring the text 'CloudRoute' in a simple font. | social_proof: A small tag labeled 'UGC' indicating user-generated content, positioned near the logo. | body_text: Text below the main message providing more context about the service offered. text='Fly smarter Hotels flights in one tap' | headline: Small text in the top left corner, reading 'CloudRoute', indicating the brand. text='CloudRoute' | cta: A button at the bottom center with the text 'Learn more', inviting user interaction. text='Learn more' | social_proof: A small tag labeled 'UGC' indicating user-generated content, positioned near the logo. text='UGC'"
+  }
+}

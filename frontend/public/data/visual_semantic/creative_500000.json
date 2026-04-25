@@ -2,16 +2,16 @@
   "creative_id": "500000",
   "asset_file": "assets/creative_500000.png",
   "canvas": {
-    "width": 1080,
-    "height": 1920
+    "width": 360,
+    "height": 640
   },
   "global": {
-    "description": "Mobile ad for PixelForge Legends. Vertical: gaming. Objective: install. Format: interstitial. The creative shows a central subject, a visible headline, and a call-to-action button.",
-    "visual_style": "synthetic mock visual style",
-    "main_message": "Promote PixelForge Legends for install.",
+    "description": "The ad features a vibrant purple background with gameplay elements and a clear call to action.",
+    "visual_style": "modern and playful",
+    "main_message": "Encouraging users to level up and play with friends.",
     "dominant_colors": [
-      "blue",
-      "yellow"
+      "purple",
+      "white"
     ],
     "emotional_tone": "exciting"
   },
@@ -19,106 +19,344 @@
     {
       "id": 1,
       "role": "background",
-      "label": "Ad background",
-      "description": "Full canvas mobile advertising background.",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
-        1080,
-        1920
+        360,
+        639
       ],
       "bbox_normalized": [
         0.0,
         0.0,
         1.0,
-        1.0
+        0.999
       ],
       "center_normalized": [
         0.5,
         0.5
       ],
-      "area_percentage": 100.0
+      "area_percentage": 99.9
     },
     {
       "id": 2,
-      "role": "main_subject",
-      "label": "Central subject",
-      "description": "Main visual subject placed in the center of the creative.",
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The logo 'PixelForge' is displayed prominently at the top, featuring a modern font in white against the purple background.",
       "text_content": null,
       "bbox_xyxy": [
-        180,
-        450,
-        900,
-        1450
+        0,
+        0,
+        359,
+        115
       ],
       "bbox_normalized": [
-        0.167,
-        0.234,
-        0.833,
-        0.755
+        0.0,
+        0.0,
+        0.998,
+        0.18
       ],
       "center_normalized": [
-        0.5,
-        0.495
+        0.499,
+        0.09
       ],
-      "area_percentage": 35.0
+      "area_percentage": 17.94
     },
     {
       "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Promotional headline placed near the top of the ad.",
-      "text_content": "INSTALL NOW",
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A rectangular area shows a gameplay screenshot with four game icons arranged in a grid, each with a small dot indicating interaction.",
+      "text_content": null,
       "bbox_xyxy": [
-        120,
-        120,
-        960,
-        300
+        133,
+        153,
+        213,
+        223
       ],
       "bbox_normalized": [
-        0.111,
-        0.063,
-        0.889,
-        0.156
+        0.37,
+        0.239,
+        0.592,
+        0.35
       ],
       "center_normalized": [
-        0.5,
-        0.109
+        0.481,
+        0.294
       ],
-      "area_percentage": 7.2
+      "area_percentage": 2.45
     },
     {
       "id": 4,
-      "role": "cta",
-      "label": "CTA button",
-      "description": "Call-to-action button placed at the bottom center.",
-      "text_content": "PLAY NOW",
+      "role": "main_subject",
+      "label": "Game icons",
+      "description": "Four game icons are displayed in a grid format, each outlined in white with a dark circle in the center.",
+      "text_content": null,
       "bbox_xyxy": [
-        320,
-        1600,
-        760,
-        1760
+        35,
+        243,
+        115,
+        313
       ],
       "bbox_normalized": [
-        0.296,
-        0.833,
-        0.704,
-        0.917
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Game icons",
+      "description": "Another set of four game icons is shown below the first, maintaining the same grid layout and design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A smaller rectangular area shows another gameplay screenshot with similar game icons and interaction dots.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small white arrow icon pointing to the right is positioned at the top right, suggesting navigation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small dot",
+      "description": "A small dark dot is placed in the upper section, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small dot",
+      "description": "Another small dark dot is positioned near the top left, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Level up today Play with friends tonight' is prominently displayed in white, conveying the main message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Sub-message",
+      "description": "A smaller text below the main message reinforces the call to action, also in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded button at the bottom with the text 'Order now' in bold white font, inviting immediate action.",
+      "text_content": "Level up today Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.681
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The headline 'Level up today' is bold and eye-catching, positioned centrally to attract attention.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Call to action",
+      "description": "The text 'Order now' is displayed in a button format, encouraging users to take action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
       ],
       "center_normalized": [
         0.5,
-        0.875
+        0.892
       ],
-      "area_percentage": 5.8
+      "area_percentage": 0.95
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for PixelForge Legends. Vertical: gaming. Objective: install. Format: interstitial. The creative shows a central subject, a visible headline, and a call-to-action button.",
-    "elements_text": "background: full canvas advertising background. main_subject: central visual subject in the middle of the ad. headline: promotional headline near the top. cta: call-to-action button near the bottom.",
-    "ocr_text": "PLAY NOW. INSTALL NOW.",
-    "layout_text": "Portrait mobile ad layout. Main subject centered. Headline at the top. CTA button at the bottom center."
-  },
-  "mock": true,
-  "mock_note": "This JSON is only for pipeline testing, not for real similarity evaluation."
+    "global_text": "unknown, unknown, interstitial, modern and playful, PixelForge logo, gameplay screenshots, call to action.",
+    "layout_text": "The logo is at the top, followed by gameplay screenshots and the main message in the center, with the CTA button at the bottom.",
+    "ocr_text": "Level up today, Play with friends tonight, PixelForge, Order now",
+    "elements_text": "logo: The logo 'PixelForge' is displayed prominently at the top, featuring a modern font in white against the purple background. | app_screenshot: A rectangular area shows a gameplay screenshot with four game icons arranged in a grid, each with a small dot indicating interaction. | main_subject: Four game icons are displayed in a grid format, each outlined in white with a dark circle in the center. | main_subject: Another set of four game icons is shown below the first, maintaining the same grid layout and design. | app_screenshot: A smaller rectangular area shows another gameplay screenshot with similar game icons and interaction dots. | icon: A small white arrow icon pointing to the right is positioned at the top right, suggesting navigation. | decorative_element: A small dark dot is placed in the upper section, adding a decorative touch to the layout. | decorative_element: Another small dark dot is positioned near the top left, complementing the overall design. | body_text: The text 'Level up today Play with friends tonight' is prominently displayed in white, conveying the main message of the ad. | body_text: A smaller text below the main message reinforces the call to action, also in white. | cta: A rounded button at the bottom with the text 'Order now' in bold white font, inviting immediate action. text='Level up today Play with friends tonight' | headline: The headline 'Level up today' is bold and eye-catching, positioned centrally to attract attention. text='PixelForge' | body_text: The text 'Order now' is displayed in a button format, encouraging users to take action. text='Order now'"
+  }
 }

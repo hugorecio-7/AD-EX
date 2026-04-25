@@ -1,0 +1,194 @@
+{
+  "creative_id": "500159",
+  "asset_file": "assets/creative_500159.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean, modern design with abstract shapes and clear text elements.",
+    "visual_style": "minimalist with vibrant colors",
+    "main_message": "Encouraging users to save money with a reward offer.",
+    "dominant_colors": [
+      "light green",
+      "dark green"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A collection of geometric shapes including a large rectangle and a circle, rendered in a light green color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "An overlay of a smaller rectangle and circle, slightly darker than the background, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small, solid circle positioned towards the bottom of the ad, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Save with confidence' with a smaller tagline below it, set against a light green background.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'ClearLedger' displayed prominently at the top in a bold, modern font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        21,
+        28,
+        268,
+        84
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.044,
+        0.744,
+        0.131
+      ],
+      "center_normalized": [
+        0.401,
+        0.087
+      ],
+      "area_percentage": 6.0
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright button with the text 'Claim reward' in white, set against a darker green background, positioned at the bottom of the ad.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.79
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with vibrant colors, ClearLedger, reward offer",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Save with confidence, Built for peace of mind, ClearLedger, €9.99, Claim reward",
+    "elements_text": "unknown: A collection of geometric shapes including a large rectangle and a circle, rendered in a light green color. | unknown: An overlay of a smaller rectangle and circle, slightly darker than the background, creating a layered effect. | unknown: A small, solid circle positioned towards the bottom of the ad, contributing to the abstract design. | body_text: Bold, black text stating 'Save with confidence' with a smaller tagline below it, set against a light green background. text='Save with confidence Built for peace of mind' | logo: The brand name 'ClearLedger' displayed prominently at the top in a bold, modern font. text='ClearLedger' | cta: A bright button with the text 'Claim reward' in white, set against a darker green background, positioned at the bottom of the ad. text='€9.99 Claim reward'"
+  }
+}

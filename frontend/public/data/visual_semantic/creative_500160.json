@@ -1,0 +1,314 @@
+{
+  "creative_id": "500160",
+  "asset_file": "assets/creative_500160.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a combination of shapes and text elements centered around a brand message.",
+    "visual_style": "simple and modern",
+    "main_message": "Encouraging users to save with confidence.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "reassuring"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Circular shape",
+      "description": "A large circular shape in the center of the ad, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A large rectangular shape in the center of the ad, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        156,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.325,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.423
+      ],
+      "area_percentage": 11.76
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Vertical rectangle",
+      "description": "A vertical rectangle positioned slightly off-center, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Large circular shape",
+      "description": "Another large circular shape in the center of the ad, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Medium circle",
+      "description": "A medium-sized circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text message at the bottom of the ad, conveying a reassuring message.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        73,
+        308,
+        247,
+        389
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.642,
+        0.772,
+        0.81
+      ],
+      "center_normalized": [
+        0.5,
+        0.726
+      ],
+      "area_percentage": 9.18
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand logo 'ClearLedger' displayed at the top of the ad in a bold font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        23,
+        173,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.048,
+        0.541,
+        0.125
+      ],
+      "center_normalized": [
+        0.305,
+        0.086
+      ],
+      "area_percentage": 3.64
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad inviting users to 'Try for free' in a clear, bold font.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small label indicating 'UGC' positioned at the top left of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, simple and modern, ClearLedger, Save with confidence.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "ClearLedger, Save with confidence, Built for peace of mind, Try for free, UGC",
+    "elements_text": "unknown: A large circular shape in the center of the ad, filled with a solid color. | unknown: A large rectangular shape in the center of the ad, filled with a solid color. | unknown: A vertical rectangle positioned slightly off-center, filled with a solid color. | unknown: Another large circular shape in the center of the ad, filled with a solid color. | unknown: A small rectangle located towards the bottom center of the ad. | unknown: A small circular shape located towards the bottom left of the ad. | unknown: A medium-sized circular shape located towards the bottom center of the ad. | body_text: A prominent text message at the bottom of the ad, conveying a reassuring message. text='Save with confidence Built for peace of mind' | logo: The brand logo 'ClearLedger' displayed at the top of the ad in a bold font. text='ClearLedger' | cta: A button at the bottom of the ad inviting users to 'Try for free' in a clear, bold font. text='Try for free' | social_proof: A small label indicating 'UGC' positioned at the top left of the ad. text='UGC'"
+  }
+}

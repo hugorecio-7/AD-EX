@@ -1,0 +1,194 @@
+{
+  "creative_id": "500142",
+  "asset_file": "assets/creative_500142.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on promotional messaging and a clear call to action.",
+    "visual_style": "dark minimalistic with neon accents",
+    "main_message": "Promoting the NeonCast service with a focus on streaming and flexibility.",
+    "dominant_colors": [
+      "black",
+      "neon green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A dark background featuring abstract shapes, including a large rectangle and a circle, creating a modern and minimalistic look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        325
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.764,
+        0.509
+      ],
+      "center_normalized": [
+        0.467,
+        0.375
+      ],
+      "area_percentage": 15.94
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A bold, stylized logo with the text 'NeonCast' prominently displayed at the top, likely in a bright color against the dark background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape positioned towards the bottom left, adding a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "A large, bold headline that reads 'Stream the hype' in a clear, modern font, positioned centrally on the ad.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        34,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button at the bottom center with the text 'Learn more' in a contrasting color, inviting user interaction.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        39,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.091
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright badge at the top right corner with the word 'SALE' in bold text, drawing attention to a promotional offer.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, dark minimalistic with neon accents, NeonCast, Stream the hype, Learn more",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, NeonCast, Learn more, SALE",
+    "elements_text": "logo: A bold, stylized logo with the text 'NeonCast' prominently displayed at the top, likely in a bright color against the dark background. | unknown: A small circular shape positioned towards the bottom left, adding a decorative touch to the overall design. | headline: A large, bold headline that reads 'Stream the hype' in a clear, modern font, positioned centrally on the ad. text='Stream the hype Cancel anytime' | cta: A rectangular button at the bottom center with the text 'Learn more' in a contrasting color, inviting user interaction. text='NeonCast' | discount_badge: A small, bright badge at the top right corner with the word 'SALE' in bold text, drawing attention to a promotional offer. text='Learn more' | unknown:  text='SALE'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500079",
+  "asset_file": "assets/creative_500079.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a promotional message and product images.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting products with free shipping offer.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background that fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "Three rectangular outlines representing product images, arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "Three rectangular outlines representing product images, arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        187,
+        134,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.587,
+        0.279,
+        0.768,
+        0.459
+      ],
+      "center_normalized": [
+        0.677,
+        0.369
+      ],
+      "area_percentage": 3.24
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "Three rectangular outlines representing product images, arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "promotional message",
+      "description": "A bold, black text message stating 'Your next favorite pick' with a smaller line below it saying 'Free shipping over $25'.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        59,
+        305,
+        261,
+        390
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.635,
+        0.816,
+        0.812
+      ],
+      "center_normalized": [
+        0.5,
+        0.724
+      ],
+      "area_percentage": 11.18
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "The logo of BoltCart, displayed in a simple and modern font at the top left corner of the ad.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        24,
+        30,
+        127,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.397,
+        0.117
+      ],
+      "center_normalized": [
+        0.236,
+        0.09
+      ],
+      "area_percentage": 1.74
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A rounded black button with white text saying 'Book now', positioned at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge with the word 'SALE' in bold, black letters, located at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, promotional message, product images",
+    "layout_text": "The logo is at the top left, the product images are centered, the promotional message is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "BoltCart, SALE, Your next favorite pick, Free shipping over $25, Book now",
+    "elements_text": "app_screenshot: Three rectangular outlines representing product images, arranged horizontally in the center of the ad. | app_screenshot: Three rectangular outlines representing product images, arranged horizontally in the center of the ad. | app_screenshot: Three rectangular outlines representing product images, arranged horizontally in the center of the ad. | body_text: A bold, black text message stating 'Your next favorite pick' with a smaller line below it saying 'Free shipping over $25'. text='Your next favorite pick Free shipping over $25' | logo: The logo of BoltCart, displayed in a simple and modern font at the top left corner of the ad. text='BoltCart' | cta: A rounded black button with white text saying 'Book now', positioned at the bottom of the ad. text='Book now' | discount_badge: A small yellow badge with the word 'SALE' in bold, black letters, located at the top right corner of the ad. text='SALE'"
+  }
+}

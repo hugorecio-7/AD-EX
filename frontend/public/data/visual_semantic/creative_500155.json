@@ -1,0 +1,266 @@
+{
+  "creative_id": "500155",
+  "asset_file": "assets/creative_500155.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, product images, and a strong call to action.",
+    "visual_style": "minimalistic and modern",
+    "main_message": "Promoting best-selling products from LuxShelf.",
+    "dominant_colors": [
+      "beige",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A simple, modern logo featuring the text 'LuxShelf' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        32,
+        205,
+        291
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.051,
+        0.571,
+        0.455
+      ],
+      "center_normalized": [
+        0.311,
+        0.253
+      ],
+      "area_percentage": 21.06
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Product display",
+      "description": "A visual representation of three product images with a clean, minimalistic design, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        193,
+        305
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.538,
+        0.478
+      ],
+      "center_normalized": [
+        0.344,
+        0.379
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product image",
+      "description": "A single product image displayed in a rectangular frame, showcasing a sleek design and appealing colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        179,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product image",
+      "description": "Another product image in a similar rectangular frame, maintaining a consistent aesthetic with the previous image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        179,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.28,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product image",
+      "description": "A third product image, also in a rectangular frame, completing the trio of product displays.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.458,
+        0.4
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, inviting text stating 'Your next favorite pick Shop bestsellers now' in a prominent position at the bottom of the ad.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "LuxShelf headline",
+      "description": "The headline 'LuxShelf' is displayed in a large, eye-catching font at the top of the ad.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        26,
+        38,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.315,
+        0.091
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Start now' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Product price",
+      "description": "The price '€9.99' is displayed in a clear, bold font, positioned near the call to action.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic and modern, LuxShelf logo, product images, call to action.",
+    "layout_text": "The logo is at the top, followed by product images in the center, and the main message and CTA at the bottom.",
+    "ocr_text": "Your next favorite pick, Shop bestsellers now, LuxShelf, Start now, €9.99",
+    "elements_text": "logo: A simple, modern logo featuring the text 'LuxShelf' in a bold font, positioned at the top of the ad. | app_screenshot: A visual representation of three product images with a clean, minimalistic design, centered in the ad. | product: A single product image displayed in a rectangular frame, showcasing a sleek design and appealing colors. | product: Another product image in a similar rectangular frame, maintaining a consistent aesthetic with the previous image. | product: A third product image, also in a rectangular frame, completing the trio of product displays. | body_text: Bold, inviting text stating 'Your next favorite pick Shop bestsellers now' in a prominent position at the bottom of the ad. text='Your next favorite pick Shop bestsellers now' | headline: The headline 'LuxShelf' is displayed in a large, eye-catching font at the top of the ad. text='LuxShelf' | cta: A prominent button labeled 'Start now' in a contrasting color, located at the bottom of the ad. text='Start now' | price: The price '€9.99' is displayed in a clear, bold font, positioned near the call to action. text='€9.99'"
+  }
+}

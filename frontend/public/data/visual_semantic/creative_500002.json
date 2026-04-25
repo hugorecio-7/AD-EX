@@ -1,0 +1,386 @@
+{
+  "creative_id": "500002",
+  "asset_file": "assets/creative_500002.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear call-to-action and game elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encourages users to claim rewards with no ads in the first week.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Win epic rewards' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A small logo for 'PixelForge' appears at the top left corner, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Bonus badge",
+      "description": "A bright yellow 'BONUS' badge is positioned at the top right, drawing attention with its contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Game screenshot",
+      "description": "A screenshot of a game interface is displayed in the center, showcasing a grid of game elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Game screenshot",
+      "description": "Another screenshot of the game interface is shown, complementing the first with additional game elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the main headline reads 'No ads in first week', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button labeled 'Claim reward' is located at the bottom, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned in the center, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, unclear element at the top, likely serving a decorative purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        182
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.285
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the top, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Reward message",
+      "description": "The text 'Claim reward' is displayed in a clear, inviting font at the bottom of the ad.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        34,
+        405,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.633,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.507,
+        0.678
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "PixelForge branding",
+      "description": "The 'PixelForge' branding appears at the top left, reinforcing brand identity.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A clear call-to-action button labeled 'Claim reward' is positioned at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "Bonus offer",
+      "description": "A bright yellow 'BONUS' badge is displayed at the top right, highlighting a special offer.",
+      "text_content": "BONUS",
+      "bbox_xyxy": [
+        263,
+        47,
+        331,
+        67
+      ],
+      "bbox_normalized": [
+        0.731,
+        0.073,
+        0.919,
+        0.105
+      ],
+      "center_normalized": [
+        0.825,
+        0.089
+      ],
+      "area_percentage": 0.59
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, key elements include game screenshots and a call-to-action.",
+    "layout_text": "The headline is at the top, followed by the logo and bonus badge, with game screenshots in the center and the CTA at the bottom.",
+    "ocr_text": "Win epic rewards, No ads in first week, PixelForge, Claim reward, BONUS",
+    "elements_text": "headline: Bold white text stating 'Win epic rewards' is prominently displayed at the top of the ad. | logo: A small logo for 'PixelForge' appears at the top left corner, featuring a simple design. | decorative_element: A bright yellow 'BONUS' badge is positioned at the top right, drawing attention with its contrasting color. | app_screenshot: A screenshot of a game interface is displayed in the center, showcasing a grid of game elements. | app_screenshot: Another screenshot of the game interface is shown, complementing the first with additional game elements. | body_text: Smaller white text below the main headline reads 'No ads in first week', providing additional information. | cta: A prominent button labeled 'Claim reward' is located at the bottom, encouraging user interaction. | unknown: A small, unclear element positioned in the center, possibly decorative or functional. | unknown: Another small, unclear element at the top, likely serving a decorative purpose. | unknown: A small, unclear element at the top, possibly decorative or functional. | body_text: The text 'Claim reward' is displayed in a clear, inviting font at the bottom of the ad. text='Win epic rewards No ads in first week' | headline: The 'PixelForge' branding appears at the top left, reinforcing brand identity. text='PixelForge' | cta: A clear call-to-action button labeled 'Claim reward' is positioned at the bottom of the ad. text='Claim reward' | discount_badge: A bright yellow 'BONUS' badge is displayed at the top right, highlighting a special offer. text='BONUS'"
+  }
+}
