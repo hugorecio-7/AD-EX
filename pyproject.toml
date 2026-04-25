@@ -3,15 +3,18 @@ name = "hackupc-smadex"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "diffusers>=0.37.1",
     "easyocr>=1.7.2",
     "fastapi>=0.98.0",
     "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "sentence-transformers>=3.0.0",
     "pillow>=10.2.0",
     "torch>=2.4.0",
     "torchvision>=0.19.0",
+    "torchaudio>=2.4.0",
     "transformers>=4.40.0",
     "ultralytics>=8.4.41",
     "uvicorn>=0.46.0",
@@ -21,10 +24,11 @@ dependencies = [
 ]
 
 [[tool.uv.index]]
-name = "pytorch-cu121"
-url = "https://download.pytorch.org/whl/cu121"
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
 explicit = true
 
 [tool.uv.sources]
-torch = { index = "pytorch-cu121" }
-torchvision = { index = "pytorch-cu121" }
+torch = { index = "pytorch-cu124" }
+torchvision = { index = "pytorch-cu124" }
+torchaudio = { index = "pytorch-cu124" }

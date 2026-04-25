@@ -21,8 +21,21 @@ __pycache__/
 .idea
 .DS_Store
 *.suo
+*.env
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
 .history/
+
+# Large models and weights
+models/
+
+# Generated assets and analysis
+output/
+backend/generate/output/
+frontend/public/data/assets/creative_*_upgraded.png
+
+# Local environment
+.venv/
+.env
