@@ -1,14 +1,25 @@
 import React, { useState } from 'react';
 import { upgradeImage } from '../services/api';
 
+const UPGRADE_STEPS = [
+  'Retrieving top-performing creatives...',
+  'Running GPT-4o Visual Enrichment...',
+  'Identifying missing features...',
+  'Running SAM mask generation...',
+  'Stable Diffusion inpainting...',
+  'Evaluating with LightGBM...',
+];
+
 export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   const [isUpgrading, setIsUpgrading] = useState(false);
   const [upgradedData, setUpgradedData] = useState(null);
+  const [currentStep, setCurrentStep] = useState(0);
 
   React.useEffect(() => {
     if (isOpen) {
       setUpgradedData(null);
       setIsUpgrading(false);
+      setCurrentStep(0);
     }
   }, [isOpen, creative?.id]);
 
@@ -16,7 +27,15 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
 
   const handleUpgrade = async () => {
     setIsUpgrading(true);
+    setCurrentStep(0);
+
+    // Animate through steps while waiting for backend
+    const stepInterval = setInterval(() => {
+      setCurrentStep(prev => prev < UPGRADE_STEPS.length - 1 ? prev + 1 : prev);
+    }, 2800);
+
     const result = await upgradeImage(creative.id);
+    clearInterval(stepInterval);
     setUpgradedData(result);
     setIsUpgrading(false);
   };
@@ -81,14 +100,34 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
             )}
 
             {isUpgrading && (
-              <div className="text-center">
-                <div className="w-12 h-12 md:w-20 md:h-20 border-4 md:border-8 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mx-auto mb-6 md:mb-8"></div>
-                <h4 className="text-lg md:text-xl font-black text-slate-800 italic animate-pulse tracking-tighter">RECONSTRUCTING ASSET...</h4>
-                <p className="text-[9px] text-indigo-400 font-bold uppercase tracking-[0.3em] mt-4">Analyzing performance clusters</p>
+              <div className="text-center w-full">
+                <div className="w-12 h-12 md:w-16 md:h-16 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mx-auto mb-6"></div>
+                <h4 className="text-base md:text-lg font-black text-slate-800 italic animate-pulse tracking-tighter mb-6">RUNNING AI PIPELINE...</h4>
+                <div className="space-y-2 text-left max-w-xs mx-auto">
+                  {UPGRADE_STEPS.map((step, i) => (
+                    <div key={i} className={`flex items-center gap-3 text-[11px] font-bold transition-all ${
+                      i < currentStep ? 'text-emerald-600' :
+                      i === currentStep ? 'text-indigo-600 animate-pulse' :
+                      'text-slate-300'
+                    }`}>
+                      <span>{i < currentStep ? '✓' : i === currentStep ? '⟳' : '○'}</span>
+                      {step}
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
 
-            {upgradedData && (
+            {upgradedData && !upgradedData.success && (
+              <div className="text-center">
+                <div className="text-5xl mb-4">⚠️</div>
+                <h4 className="text-base font-black text-red-600 mb-2">Upgrade Failed</h4>
+                <p className="text-xs text-slate-500 font-mono bg-slate-100 p-3 rounded-xl">{upgradedData.error}</p>
+                <button onClick={() => setUpgradedData(null)} className="mt-4 text-[10px] font-black text-indigo-500 uppercase tracking-widest hover:underline">Try Again</button>
+              </div>
+            )}
+
+            {upgradedData && upgradedData.success && (
               <div className="animate-in zoom-in duration-700 w-full h-full flex flex-col">
                 <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-emerald-200 mb-6 md:mb-8 border-4 border-emerald-500 bg-slate-900 flex items-center justify-center">
                   <img 

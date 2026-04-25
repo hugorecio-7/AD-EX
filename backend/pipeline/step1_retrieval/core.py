@@ -60,9 +60,13 @@ def _load_semantic_embeddings() -> dict | None:
         return None
 
     import pickle
-    with SEMANTIC_EMBEDDINGS_PATH.open("rb") as f:
-        _semantic_embeddings = pickle.load(f)
-    print("[Retrieval] Loaded semantic embeddings.")
+    try:
+        with SEMANTIC_EMBEDDINGS_PATH.open("rb") as f:
+            _semantic_embeddings = pickle.load(f)
+        print("[Retrieval] Loaded semantic embeddings.")
+    except Exception as e:
+        print(f"[Retrieval] Warning: Failed to load semantic embeddings: {e}")
+        return None
     return _semantic_embeddings
 
 
@@ -76,22 +80,10 @@ def get_best_creatives(
 ) -> list[Creative]:
     """
     Return the top_n creatives most likely to improve the target creative.
-
-    Scoring pipeline (offline pre-computed):
-        PerformanceScore  — weighted percentile across CTR, CVR, IPM, ROAS
-        HealthScore       — creative fatigue status and decay
-        ConfidenceScore   — data volume / statistical significance
-        CreativeQualityScore — readability, brand visibility, etc.
-
-    Online scoring (computed here per-request):
-        ContextScore      — how well each candidate matches the query's
-                            vertical / objective / format / language
-        SimilarityScore   — semantic embedding cosine similarity (optional)
-
-    Falls back to the JSON-based helpers.py approach if the index is missing.
     """
+    print(f"[Retrieval] Querying best creatives for {creative_id} (Format: {format_type})")
+    
     df = _load_index()
-
     if df.empty:
         # Graceful fallback to old JSON-based retrieval
         from .helpers import load_data
@@ -114,6 +106,7 @@ def get_best_creatives(
     candidates = compute_context_score(query, candidates)
 
     # ── Online: SimilarityScore (optional) ──────────────────────────────────
+    candidates["similarity_score_final"] = 0.5 # Default
     embeddings = _load_semantic_embeddings()
     if embeddings is not None:
         try:
@@ -123,13 +116,13 @@ def get_best_creatives(
                 sim_df[["creative_id", "similarity_score_final"]],
                 on="creative_id",
                 how="left",
+                suffixes=("", "_new")
             )
-            candidates["similarity_score_final"] = candidates["similarity_score_final"].fillna(0.5)
-        except (ValueError, KeyError):
-            # creative not in embedding index — skip similarity
-            candidates["similarity_score_final"] = 0.5
-    else:
-        candidates["similarity_score_final"] = 0.5
+            if "similarity_score_final_new" in candidates.columns:
+                candidates["similarity_score_final"] = candidates["similarity_score_final_new"].fillna(0.5)
+                candidates = candidates.drop(columns=["similarity_score_final_new"])
+        except Exception as e:
+            print(f"[Retrieval] Warning: Similarity calculation failed: {e}")
 
     # ── Final blended score ──────────────────────────────────────────────────
     # performance_score_final (offline) × context × similarity
@@ -154,7 +147,10 @@ def get_best_creatives(
         candidates[FINAL_SCORE_COL] = (candidates[FINAL_SCORE_COL] / (total_w + 0.40)).clip(0.0, 1.0)
 
     top = candidates.nlargest(top_n, FINAL_SCORE_COL)
-    print(f"[Retrieval] Returning {len(top)} top creatives for query '{creative_id_str}'.")
+    
+    print(f"[Retrieval] Found {len(top)} top candidates for creative {creative_id_str}:")
+    for idx, row in top.iterrows():
+        print(f"  - ID: {row['creative_id']} | Final Score: {row[FINAL_SCORE_COL]:.4f} (Perf: {row.get(perf_col, 0):.2f}, Sim: {row['similarity_score_final']:.2f})")
 
     return [Creative(row.to_dict()) for _, row in top.iterrows()]
 

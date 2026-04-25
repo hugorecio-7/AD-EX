@@ -19,31 +19,57 @@ export const updateCreativeImage = (id, newImageUrl) => {
 };
 
 export const upgradeImage = async (creativeId) => {
-  console.log('[API] Requesting Backend Evaluation for:', creativeId);
-  
+  console.log('[API] Triggering full AI upgrade pipeline for:', creativeId);
+
+  try {
+    // POST /api/creatives/{id}/upgrade — runs SAM mask → SD inpainting → LightGBM evaluation
+    const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/upgrade`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({}),
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({ detail: response.statusText }));
+      throw new Error(`Upgrade failed: ${err.detail || response.status}`);
+    }
+
+    const data = await response.json();
+    console.log('[API] Upgrade result:', data);
+
+    return {
+      success: true,
+      // Backend returns the new image URL inside metadata or as new_image_url
+      newImageUrl: data.new_image_url || `/data/assets/creative_${creativeId}_upgraded.png`,
+      predictedUplift: data.metadata?.predicted_uplift ?? '+0.0%',
+      performanceScore: data.metadata?.performance_score ?? null,
+      aiReasoning: data.metadata?.missing_features_explained ?? 'AI upgrade complete.',
+    };
+
+  } catch (error) {
+    console.error('[API] Upgrade request failed:', error.message);
+
+    // Hard fail — show error instead of silently returning the original image
+    return {
+      success: false,
+      error: error.message,
+      newImageUrl: null,
+      predictedUplift: null,
+      performanceScore: null,
+      aiReasoning: `Upgrade failed: ${error.message}`,
+    };
+  }
+};
+
+// Separate lightweight call just for the score card in the dashboard header
+export const evaluateCreative = async (creativeId) => {
+  console.log('[API] Evaluating creative score for:', creativeId);
   try {
     const response = await fetch(`http://localhost:8000/evaluate/${creativeId}`);
     const data = await response.json();
-    
-    if (data.status === 'success') {
-      return {
-        success: true,
-        newImageUrl: `/data/assets/creative_${creativeId}.png`, 
-        predictedUplift: data.metrics.predicted_uplift,
-        performanceScore: data.metrics.performance_score,
-        aiReasoning: data.ai_reasoning
-      };
-    }
-  } catch (error) {
-    console.error('[API] Backend unreachable, falling back to mock:', error);
+    if (data.status === 'success') return data.metrics;
+  } catch (e) {
+    console.error('[API] Evaluation failed:', e);
   }
-
-  // Fallback for demo stability
-  return {
-    success: true,
-    newImageUrl: `/data/assets/creative_${creativeId}.png`, 
-    predictedUplift: "+22.4%",
-    performanceScore: 0.85,
-    aiReasoning: 'Computed via local fallback engine. Backend connection failed.'
-  };
+  return null;
 };

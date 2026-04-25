@@ -33,6 +33,18 @@ async def evaluate_creative(
     }
 
 
+# Top-level alias so both /evaluate/{id} and /api/creatives/evaluate/{id} work
+@router.get("/{creative_id}/evaluate")
+async def evaluate_creative_alias(
+    creative_id: str,
+    format: str = None,
+    theme: str = None,
+    hook: str = None,
+):
+    """Alias for GET /evaluate/{creative_id}."""
+    return await evaluate_creative(creative_id, format, theme, hook)
+
+
 @router.post("/{creative_id}/upgrade")
 async def upgrade_creative(creative_id: str, request: Request):
     """
