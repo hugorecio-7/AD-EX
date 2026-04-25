@@ -14,6 +14,7 @@ function Dashboard() {
     theme: 'All',
     hook_type: 'All'
   });
+  const [sortOrder, setSortOrder] = useState('score'); // 'default', 'fatigue', 'score', 'ctr'
   const [selectedCreative, setSelectedCreative] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -43,7 +44,7 @@ function Dashboard() {
     if (advertiser) {
       applyFilters();
     }
-  }, [filters, allCreatives]);
+  }, [filters, allCreatives, sortOrder]);
 
   const loadInitialData = async () => {
     setLoading(true);
@@ -64,6 +65,16 @@ function Dashboard() {
     if (filters.hook_type !== 'All') {
       filtered = filtered.filter(c => c.hook_type === filters.hook_type);
     }
+
+    // Apply Sorting
+    if (sortOrder === 'fatigue') {
+      filtered.sort((a, b) => (b.fatigued === a.fatigued) ? 0 : b.fatigued ? 1 : -1);
+    } else if (sortOrder === 'score') {
+      filtered.sort((a, b) => b.performance_score - a.performance_score);
+    } else if (sortOrder === 'ctr') {
+      filtered.sort((a, b) => b.ctr - a.ctr);
+    }
+    
     setCreatives(filtered);
   };
 
@@ -132,7 +143,11 @@ function Dashboard() {
         
         <div className="flex flex-wrap md:flex-nowrap justify-center gap-2 md:gap-3 bg-slate-100/50 p-1.5 rounded-2xl md:rounded-3xl shadow-inner border border-slate-200 w-full md:w-auto">
           <button 
-            onClick={() => setAdvertiser(null)}
+            onClick={() => {
+              setAdvertiser(null);
+              resetFilters();
+              setSortOrder('default');
+            }}
             className="px-3 md:px-4 py-1.5 md:py-2 rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-red-500 transition-colors"
           >
             Logout
@@ -176,6 +191,18 @@ function Dashboard() {
             <p className="text-slate-500 font-medium">Monitoring Smadex Creative Dataset: <code>creatives_v1.csv</code></p>
           </div>
           <div className="flex gap-4">
+            <button 
+              onClick={() => setSortOrder(prev => prev === 'fatigue' ? 'score' : prev === 'score' ? 'ctr' : prev === 'ctr' ? 'default' : 'fatigue')}
+              className={`px-6 py-3 rounded-3xl border transition-all flex items-center gap-3 shadow-xl ${
+                sortOrder !== 'default' ? 'bg-indigo-600 border-indigo-400 text-white shadow-indigo-200' : 'bg-white border-slate-100 text-slate-400 shadow-slate-200/50'
+              }`}
+            >
+              <span className="font-bold text-[10px] uppercase tracking-widest">
+                {sortOrder === 'default' ? 'Default Order' : sortOrder === 'fatigue' ? 'Sorting: Fatigue' : sortOrder === 'score' ? 'Sorting: Score' : 'Sorting: CTR'}
+              </span>
+              <span className={`text-xs transition-transform duration-300 ${sortOrder !== 'default' ? 'rotate-180' : ''}`}>↓</span>
+            </button>
+
             {fatiguedCount > 0 && (
               <div className="px-6 py-3 bg-red-50 border border-red-100 rounded-3xl shadow-xl shadow-red-200/50 flex items-center gap-3 animate-bounce">
                 <span className="w-3 h-3 bg-red-500 rounded-full"></span>

@@ -100,11 +100,21 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                     Optimized
                   </div>
                 </div>
-                <div className="bg-emerald-50/50 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-emerald-100">
-                  <h5 className="text-[10px] font-black text-emerald-600 uppercase tracking-widest mb-2 md:mb-3 flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                    AI Logic Engine
-                  </h5>
+                <div className="bg-emerald-50/50 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-emerald-100 mb-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <h5 className="text-[10px] font-black text-emerald-600 uppercase tracking-widest flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
+                      AI Logic Engine
+                    </h5>
+                    <div className="flex gap-2">
+                      <div className="bg-slate-800 text-white text-[10px] font-black px-3 py-1 rounded-lg shadow-lg">
+                        Score: {upgradedData.performanceScore}
+                      </div>
+                      <div className="bg-emerald-600 text-white text-[10px] font-black px-3 py-1 rounded-lg shadow-lg animate-pulse">
+                        Predicted Uplift: {upgradedData.predictedUplift}
+                      </div>
+                    </div>
+                  </div>
                   <p className="text-[11px] md:text-sm text-slate-600 font-medium leading-relaxed italic">
                     "{upgradedData.aiReasoning}"
                   </p>

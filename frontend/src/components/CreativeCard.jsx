@@ -27,6 +27,7 @@ const CreativeCard = ({ creative, onUpgrade }) => {
               <h3 className="text-white font-bold text-lg leading-tight">{creative.subject}</h3>
             </div>
             <div className="text-right">
+              <span className="block text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-1">Score: {creative.performance_score}</span>
               <span className="block text-xl font-black text-green-400">{creative.ctr}% <span className="text-[10px] uppercase text-white/50 block">CTR</span></span>
             </div>
           </div>
