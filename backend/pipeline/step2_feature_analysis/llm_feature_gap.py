@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import os
+import base64
 from pathlib import Path
 from typing import Any
 
@@ -33,6 +34,12 @@ _PROJECT_ROOT = _BACKEND_DIR.parent                    # repo root
 OUTPUT_FEATURES_DIR = _PROJECT_ROOT / "output" / "features"
 FRONTEND_SEMANTIC_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "visual_semantic"
 
+FRONTEND_ASSETS_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "assets"
+
+
+def encode_image(image_path: Path) -> str:
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
 # ── OpenAI client (lazy) ──────────────────────────────────────────────────────
 _client = None
 
@@ -107,161 +114,90 @@ def _summarize_creative(data: dict) -> str:
 
 # ── Core LLM call ─────────────────────────────────────────────────────────────
 
-def analyze_feature_gap_with_llm(
-    query_creative_id: str,
-    top_creative_ids: list[str],
-    max_features: int = 5,
-) -> dict[str, Any]:
-    """
-    Call GPT-4o to identify visual features present in top performers
-    that are missing from the query creative.
+def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max_features: int = 5) -> dict:
+    client = _get_client()
+    model = os.environ.get("OPENAI_MODEL", "gpt-4o")
 
-    Returns:
+    # 1. Carregar JSON i Imatge de l'Original
+    query_json = _load_semantic(query_creative_id)
+    if not query_json:
+        print(f"[LLMGap] No s'ha trobat el JSON de l'original {query_creative_id}.")
+        return {"missing_visual_features": _visual_fallback(), "reasoning": "Missing original JSON", "query_id": query_creative_id, "top_ids_used": []}
+
+    query_img_path = FRONTEND_ASSETS_DIR / f"creative_{query_creative_id}.png"
+    query_b64 = encode_image(query_img_path) if query_img_path.exists() else None
+
+    # Inicialitzar l'array de missatges
+    user_content = [
         {
-            "missing_visual_features": ["description1", "description2", ...],
-            "reasoning": "brief explanation of why these features matter",
-            "query_id": str,
-            "top_ids_used": [str, ...],
+            "type": "text", 
+            "text": "You are an expert creative analyst. Compare the ORIGINAL ad with TOP ads to find missing visual features.\n\n"
+                    "ORIGINAL AD JSON:\n" + json.dumps(query_json, indent=2)
         }
-    """
-    # Load query semantic data
-    print(f"[LLMGap] ─── Feature Gap Analysis ───")
-    print(f"[LLMGap] Query creative : {query_creative_id}")
-    print(f"[LLMGap] Top candidates : {top_creative_ids}")
-    print(f"[LLMGap] Checking query semantic data...")
-    query_data = _load_semantic(query_creative_id)
-    if query_data is None:
-        print(f"[LLMGap] ✗ SKIPPING LLM — query creative has no real semantic data.")
-        print(f"[LLMGap]   → Run GPT-4o Vision enrichment first: enrich_creative_with_vision('{query_creative_id}', ...)")
-        print(f"[LLMGap]   → Using generic visual fallback instead.")
-        return {
-            "missing_visual_features": _visual_fallback(),
-            "reasoning": "No semantic data available for LLM analysis.",
-            "query_id": query_creative_id,
-            "top_ids_used": [],
-        }
+    ]
+    if query_b64:
+        user_content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{query_b64}"}})
 
-    # Load top performers' semantic data (skip mocks and missing)
-    print(f"[LLMGap] Checking top performers' semantic data...")
-    top_data = []
+    user_content.append({"type": "text", "text": "\n\nTOP PERFORMING ADS:\n"})
+
+    # 2. Carregar JSON i Imatge dels Anuncis Top
     top_ids_used = []
-    for cid in top_creative_ids:
-        data = _load_semantic(cid)
-        if data:
-            top_data.append(data)
-            top_ids_used.append(cid)
-        if len(top_data) >= 3:
-            break
+    for tid in top_ids:
+        t_json = _load_semantic(tid)
+        if not t_json: 
+            continue
+            
+        top_ids_used.append(tid)
+        t_img_path = FRONTEND_ASSETS_DIR / f"creative_{tid}.png"
+        t_b64 = encode_image(t_img_path) if t_img_path.exists() else None
 
-    if not top_data:
-        print(f"[LLMGap] ✗ SKIPPING LLM — no real semantic data for any top performer.")
-        print(f"[LLMGap]   → Checked: {top_creative_ids}")
-        print(f"[LLMGap]   → Run preprocess_semantic_enrichment.py to generate visual_semantic.json files.")
-        print(f"[LLMGap]   → Using generic visual fallback instead.")
-        return {
-            "missing_visual_features": _visual_fallback(),
-            "reasoning": "No enriched top-performer data available.",
-            "query_id": query_creative_id,
-            "top_ids_used": [],
-        }
+        user_content.append({"type": "text", "text": f"\n--- TOP AD {tid} ---\nJSON:\n" + json.dumps(t_json, indent=2)})
+        if t_b64:
+            user_content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{t_b64}"}})
 
-    print(f"[LLMGap] ✓ Using {len(top_data)} real semantic files for LLM analysis.")
-
-    # Build the LLM prompt
-    query_summary = _summarize_creative(query_data)
-    top_summaries = "\n\n---\n\n".join(
-        f"TOP PERFORMER #{i+1}:\n{_summarize_creative(d)}"
-        for i, d in enumerate(top_data)
-    )
-
-    system_prompt = (
-        "You are an expert mobile advertising creative analyst specializing in performance optimization. "
-        "You analyze visual compositions to identify what makes high-performing ads successful. "
-        "You ONLY output valid JSON."
-    )
-
-    user_prompt = f"""You are comparing a low-performing mobile ad against {len(top_data)} top-performing ads 
-in the same campaign segment. Your job is to identify what VISUAL features the top performers have 
-that the original creative is MISSING.
-
-ORIGINAL CREATIVE (to be improved):
-{query_summary}
-
-TOP PERFORMING CREATIVES (reference):
-{top_summaries}
-
-Identify up to {max_features} visual features that appear in the top performers but NOT in the original.
+    # 3. Instruccions i prompt final
+    user_content.append({
+        "type": "text", 
+        "text": f"""
+Based on the images and JSON data, identify up to {max_features} key VISUAL features present in top-performing ads but MISSING in the original ad.
 
 STRICT RULES:
-1. Only describe VISUAL properties that an image generation model (Stable Diffusion) can reproduce
-2. Be SPECIFIC and LITERAL — describe what you actually SEE in the elements, not abstract concepts
-3. Focus on: backgrounds, lighting, subjects, colors, textures, composition, mood, visual effects
-4. DO NOT include: text content, button labels, marketing copy, metadata labels, format names
-5. DO NOT include abstract marketing terms like "better hook", "stronger CTA", "more engaging"
-
-GOOD examples:
-  "warm golden-hour sunlight streaming from upper left"
-  "smiling young woman looking directly at camera, holding product"
-  "deep navy-to-purple gradient background with subtle particle effects"
-  "product centered with dramatic drop shadow on clean white surface"
-
-BAD examples (do NOT output these):
-  "rewarded_video ad format"
-  "discount themed"
-  "stronger CTA"
-  "better headline"
-
-Return ONLY this JSON:
+1. Describe VISUAL properties (backgrounds, lighting, elements, CTA placement, colors).
+2. Return ONLY a valid JSON object matching this EXACT structure:
 {{
-  "missing_visual_features": ["feature 1", "feature 2", ...],
-  "reasoning": "2-3 sentences explaining what the top performers do visually that makes them more impactful"
+  "missing_visual_features": ["feature 1", "feature 2"],
+  "reasoning": "Explanation"
 }}"""
+    })
 
-    print(f"[LLMGap] Calling GPT-4o to analyze gap: {query_creative_id} vs {top_ids_used}...")
-    print(f"[LLMGap] ── SYSTEM PROMPT ──────────────────────────────────")
-    print(system_prompt)
-    print(f"[LLMGap] ── USER PROMPT ────────────────────────────────────")
-    print(user_prompt)
-    print(f"[LLMGap] ─────────────────────────────────────────────────")
+    # 4. Trucada a OpenAI
     try:
-        response = _get_client().chat.completions.create(
-            model="gpt-4o",
+        response = client.chat.completions.create(
+            model=model,
             response_format={"type": "json_object"},
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=0.3,
-            max_tokens=800,
+            messages=[{"role": "user", "content": user_content}],
+            temperature=0.2
         )
         result = json.loads(response.choices[0].message.content.strip())
-        features = result.get("missing_visual_features", [])
-        reasoning = result.get("reasoning", "")
         
-        # Filter out any metadata labels that slipped through
+        # Neteja de paraules clau (codi que ja tenies)
+        features = result.get("missing_visual_features", [])
         SKIP_KEYWORDS = ("format", "themed", "hook style", "ad format", "objective", "vertical", "cta", "headline")
-        features = [
-            f for f in features
-            if not any(k in f.lower() for k in SKIP_KEYWORDS)
-        ]
+        features = [f for f in features if not any(k in f.lower() for k in SKIP_KEYWORDS)]
 
-        print(f"[LLMGap] ✓ Got {len(features)} visual features:")
-        for f in features:
-            print(f"   · {f}")
-        print(f"[LLMGap] Reasoning: {reasoning}")
-
+        print(f"[LLMGap+Vision] ✓ Got {len(features)} visual features!")
         return {
             "missing_visual_features": features[:max_features],
-            "reasoning": reasoning,
+            "reasoning": result.get("reasoning", ""),
             "query_id": query_creative_id,
             "top_ids_used": top_ids_used,
         }
 
     except Exception as e:
-        print(f"[LLMGap] GPT-4o call failed: {e}. Using visual fallback.")
+        print(f"[LLMGap+Vision] Vision API fail: {e}")
         return {
             "missing_visual_features": _visual_fallback(),
-            "reasoning": f"LLM analysis failed: {e}",
+            "reasoning": str(e),
             "query_id": query_creative_id,
             "top_ids_used": top_ids_used,
         }
