@@ -32,7 +32,7 @@ def _get_models(project_root: str):
     global _sam_model, _ocr_reader
     device = "cuda" if torch.cuda.is_available() else "cpu"
     if _sam_model is None:
-        model_path = os.path.join(project_root, "models", "sam2.1_t.pt")
+        model_path = os.path.join(project_root, "models", "sam2.1_l.pt")
         print(f"[MaskGen] Loading SAM from {model_path} on {device}...")
         _sam_model = SAM(model_path).to(device)
     if _ocr_reader is None:

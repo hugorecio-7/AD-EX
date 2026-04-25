@@ -13,6 +13,9 @@ def run_script(path):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
+    # 0. Build the retrieval scoring index (Performance, Health, Confidence scores)
+    run_script(os.path.join(script_dir, "preprocess_retrieval_index.py"))
+    
     # 1. Preprocess Scores (Initializes data.json and performance_scores.csv)
     run_script(os.path.join(script_dir, "preprocess_scores.py"))
     
