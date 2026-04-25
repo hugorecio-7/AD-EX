@@ -8,20 +8,20 @@ import numpy as np
 import pandas as pd
 
 if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parents[2]))
+    sys.path.append(str(Path(__file__).resolve().parents[4]))
 
 from sentence_transformers import SentenceTransformer
 
-from backend.retriver.config import (
+from backend.pipeline.step1_retrieval.created.config import (
     SENTENCE_EMBEDDING_MODEL,
     SEMANTIC_TEXT_FIELDS,
 )
-from backend.retriver.paths import (
+from backend.pipeline.step1_retrieval.created.paths import (
     SEMANTIC_EMBEDDINGS_DIR,
     SEMANTIC_EMBEDDINGS_PATH,
     SEMANTIC_EMBEDDING_INDEX_PATH,
 )
-from backend.retriver.semantic_json_loader import load_semantic_json_records
+from backend.pipeline.step1_retrieval.created.semantic_json_loader import load_semantic_json_records
 
 
 def _encode_texts(
