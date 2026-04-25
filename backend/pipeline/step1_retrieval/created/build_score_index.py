@@ -4,31 +4,31 @@ import sys
 from pathlib import Path
 
 # Allows running:
-#   python backend/retriver/build_score_index.py
+#   python backend/pipeline/step1_retrieval/created/build_score_index.py
 if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parents[2]))
+    sys.path.append(str(Path(__file__).resolve().parents[4]))
 
-from backend.retriver.config import (
+from backend.pipeline.step1_retrieval.created.config import (
     IDENTITY_COLUMNS,
     RAW_PERFORMANCE_COLUMNS,
     RAW_CREATIVE_QUALITY_COLUMNS,
     RAW_CONFIDENCE_COLUMNS,
     RAW_HEALTH_COLUMNS,
 )
-from backend.retriver.paths import (
+from backend.pipeline.step1_retrieval.created.paths import (
     CREATIVE_RETRIEVAL_INDEX_PATH,
     PERFORMANCE_SCORES_PATH,
 )
-from backend.retriver.data_loader import (
+from backend.pipeline.step1_retrieval.created.data_loader import (
     load_raw_tables,
     build_master_creative_table,
 )
-from backend.retriver.performance_score import add_performance_score
-from backend.retriver.creative_quality_score import add_creative_quality_score
-from backend.retriver.confidence_score import add_confidence_score
-from backend.retriver.health_score import add_health_score
+from backend.pipeline.step1_retrieval.created.performance_score import add_performance_score
+from backend.pipeline.step1_retrieval.created.creative_quality_score import add_creative_quality_score
+from backend.pipeline.step1_retrieval.created.confidence_score import add_confidence_score
+from backend.pipeline.step1_retrieval.created.health_score import add_health_score
 
-from backend.retriver.score_utils import (
+from backend.pipeline.step1_retrieval.created.score_utils import (
     fill_missing_categoricals,
     assert_score_range,
 )
