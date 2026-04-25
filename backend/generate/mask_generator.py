@@ -137,12 +137,23 @@ def _analyze_image(
         ua = (a[2]-a[0])*(a[3]-a[1]) + (b[2]-b[0])*(b[3]-b[1]) - inter
         return inter / ua if ua > 0 else 0.0
 
+    def centre_inside(box_coords, region) -> bool:
+        """True if the centre of box_coords falls inside region."""
+        cx = (box_coords[0] + box_coords[2]) / 2
+        cy = (box_coords[1] + box_coords[3]) / 2
+        return (region[0] <= cx <= region[2]) and (region[1] <= cy <= region[3])
+
     text_coords_list = [e["coords"] for e in text_elements]
 
     visual_sam_boxes = []
     for box in sam_boxes:
-        overlaps_text = any(iou(box["coords"], tc) > 0.15 for tc in text_coords_list)
-        if not overlaps_text:
+        # Filter 1: IoU against paragraph-level OCR (catches big overlaps)
+        overlaps_paragraph = any(iou(box["coords"], tc) > 0.15 for tc in text_coords_list)
+        
+        # Filter 2: centre falls inside any individual word box (catches letter-shaped segments)
+        overlaps_word = any(centre_inside(box["coords"], wb) for wb in word_boxes)
+        
+        if not overlaps_paragraph and not overlaps_word:
             visual_sam_boxes.append(box)
 
     # ── Build unified elements list ───────────────────────────────────────────
