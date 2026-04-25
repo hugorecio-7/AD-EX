@@ -1,0 +1,242 @@
+{
+  "creative_id": "500243",
+  "asset_file": "assets/creative_500243.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with minimalistic illustrations and bold text promoting a food delivery service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.178
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.76
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "two glasses",
+      "description": "Two stylized glasses are depicted in a minimalistic line art style, positioned centrally in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.487
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.53
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "two glasses",
+      "description": "Another view of the two glasses, maintaining the same minimalistic line art style, slightly overlapping with the first.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "two glasses",
+      "description": "A third representation of the two glasses, continuing the minimalistic theme and enhancing the central focus.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        232
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.485
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "promotional text",
+      "description": "Bold black text stating 'Fast food, fast' is prominently displayed, with a smaller line below it indicating 'Free delivery over $15'.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        47,
+        304,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.633,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.689
+      ],
+      "area_percentage": 7.87
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' appears in a clean, modern font at the top left corner, colored in black.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        22,
+        36,
+        122,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.075,
+        0.381,
+        0.125
+      ],
+      "center_normalized": [
+        0.225,
+        0.1
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A bright button at the bottom center reads 'Get offer' in bold white text against a contrasting background.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "price tag",
+      "description": "The price '€9.99' is displayed in a bold, eye-catching font at the bottom left, colored in black.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        23,
+        399,
+        87,
+        419
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.873
+      ],
+      "center_normalized": [
+        0.172,
+        0.852
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small yellow badge in the top right corner with the word 'SALE' in bold black text, drawing attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, promotional text, call to action",
+    "layout_text": "The logo is at the top left, the main subject is centered, the body text is below the subject, and the CTA is at the bottom center.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, SnapMeal, Get offer, €9.99, SALE",
+    "elements_text": "main_subject: Two stylized glasses are depicted in a minimalistic line art style, positioned centrally in the ad. | main_subject: Another view of the two glasses, maintaining the same minimalistic line art style, slightly overlapping with the first. | main_subject: A third representation of the two glasses, continuing the minimalistic theme and enhancing the central focus. | body_text: Bold black text stating 'Fast food, fast' is prominently displayed, with a smaller line below it indicating 'Free delivery over $15'. text='Fast food, fast Free delivery over $15' | logo: The logo 'SnapMeal' appears in a clean, modern font at the top left corner, colored in black. text='SnapMeal' | cta: A bright button at the bottom center reads 'Get offer' in bold white text against a contrasting background. text='Get offer' | price: The price '€9.99' is displayed in a bold, eye-catching font at the bottom left, colored in black. text='€9.99' | discount_badge: A small yellow badge in the top right corner with the word 'SALE' in bold black text, drawing attention. text='SALE'"
+  }
+}

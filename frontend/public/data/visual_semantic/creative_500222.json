@@ -1,0 +1,194 @@
+{
+  "creative_id": "500222",
+  "asset_file": "assets/creative_500222.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a clear focus on discounts and a call to action.",
+    "visual_style": "minimalist and modern",
+    "main_message": "Promoting a limited-time discount on a fashion app.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Mirror image icons",
+      "description": "Two mirrored icons resembling mirrors are centered, outlined in a light color, suggesting a beauty or fashion theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional icons",
+      "description": "Another set of icons or images is placed slightly below the first, maintaining a minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Discount announcement",
+      "description": "Bold white text stating 'Up to 40% off Only this weekend' is prominently displayed in the center of the ad.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        357
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.744
+      ],
+      "center_normalized": [
+        0.506,
+        0.692
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'VantaStyle' appears in a smaller font at the top left corner, styled in a contrasting color.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Install now' is located at the bottom center, designed to stand out with a clear call to action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' is positioned at the bottom left, indicating a special offer.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist and modern, discount announcement, call to action",
+    "layout_text": "The headline is centered, the app screenshot is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Up to 40% off Only this weekend, VantaStyle, Install now, 30%",
+    "elements_text": "app_screenshot: Two mirrored icons resembling mirrors are centered, outlined in a light color, suggesting a beauty or fashion theme. | unknown: Another set of icons or images is placed slightly below the first, maintaining a minimalist design. | headline: Bold white text stating 'Up to 40% off Only this weekend' is prominently displayed in the center of the ad. text='Up to 40% off Only this weekend' | logo: The logo 'VantaStyle' appears in a smaller font at the top left corner, styled in a contrasting color. text='VantaStyle' | cta: A button with the text 'Install now' is located at the bottom center, designed to stand out with a clear call to action. text='Install now' | discount_badge: A small badge displaying '30%' is positioned at the bottom left, indicating a special offer. text='30%'"
+  }
+}

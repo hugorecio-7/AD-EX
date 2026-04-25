@@ -1,0 +1,218 @@
+{
+  "creative_id": "500236",
+  "asset_file": "assets/creative_500236.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm background with abstract shapes and prominent text elements.",
+    "visual_style": "modern minimalist with soft shapes",
+    "main_message": "Promoting a travel app with a focus on convenience and discounts.",
+    "dominant_colors": [
+      "warm orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A warm, solid color background that fills the entire canvas, providing a cohesive backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of abstract shapes, including an oval and a rectangle, positioned centrally with a soft, rounded appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional abstract shape",
+      "description": "A larger rectangle shape that overlaps with the other shapes, creating a layered effect in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, circular decorative element located near the center, adding visual interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text that reads 'Escape this weekend', prominently displayed at the bottom of the ad.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' appears in a smaller font at the top left corner, featuring a simple and modern design.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom center that reads 'Install now', designed to attract user interaction.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge at the bottom left corner displaying '30%' in a contrasting color, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with soft shapes, promoting travel convenience.",
+    "layout_text": "The headline is at the bottom, the logo is at the top left, and the CTA is centered at the bottom.",
+    "ocr_text": "Escape this weekend, Hotels + flights in one tap, CloudRoute, Install now, 30%",
+    "elements_text": "main_subject: A combination of abstract shapes, including an oval and a rectangle, positioned centrally with a soft, rounded appearance. | main_subject: A larger rectangle shape that overlaps with the other shapes, creating a layered effect in the center of the ad. | decorative_element: A small, circular decorative element located near the center, adding visual interest to the composition. | headline: Bold, white text that reads 'Escape this weekend', prominently displayed at the bottom of the ad. text='Escape this weekend Hotels flights in one tap' | logo: The logo 'CloudRoute' appears in a smaller font at the top left corner, featuring a simple and modern design. text='CloudRoute' | cta: A prominent button at the bottom center that reads 'Install now', designed to attract user interaction. text='Install now' | discount_badge: A small badge at the bottom left corner displaying '30%' in a contrasting color, indicating a discount. text='30%'"
+  }
+}

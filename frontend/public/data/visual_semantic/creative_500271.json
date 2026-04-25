@@ -1,0 +1,194 @@
+{
+  "creative_id": "500271",
+  "asset_file": "assets/creative_500271.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a logo, headline, and call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting DriftPass with flexible booking options.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.5,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A bold, modern logo with the text 'DriftPass' prominently displayed at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Fly smarter' in a large, bold font, positioned centrally with a smaller subtitle below it.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        411,
+        286,
+        466
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.642,
+        0.794,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.685
+      ],
+      "area_percentage": 5.11
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A smaller text below the headline that reads 'Flexible booking options' in a clean, readable font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rounded button at the bottom center with the text 'Watch now' in white on an orange background.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small, bold text badge at the bottom left corner displaying '30%' in white on an orange background.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, DriftPass, flexible booking options",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA at the bottom.",
+    "ocr_text": "Fly smarter, Flexible booking options, DriftPass, Watch now, 30%",
+    "elements_text": "logo: A bold, modern logo with the text 'DriftPass' prominently displayed at the top center. | decorative_element: Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of orange. | headline: The text 'Fly smarter' in a large, bold font, positioned centrally with a smaller subtitle below it. text='Fly smarter Flexible booking options' | body_text: A smaller text below the headline that reads 'Flexible booking options' in a clean, readable font. text='DriftPass' | cta: A rounded button at the bottom center with the text 'Watch now' in white on an orange background. text='Watch now' | discount_badge: A small, bold text badge at the bottom left corner displaying '30%' in white on an orange background. text='30%'"
+  }
+}

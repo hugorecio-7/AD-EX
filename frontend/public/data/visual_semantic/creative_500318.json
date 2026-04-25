@@ -1,0 +1,218 @@
+{
+  "creative_id": "500318",
+  "asset_file": "assets/creative_500318.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a central content area highlighting the main message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting binge-worthy content available now.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central rectangular area with a light orange hue, featuring abstract shapes that suggest media content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.481
+      ],
+      "center_normalized": [
+        0.468,
+        0.361
+      ],
+      "area_percentage": 14.36
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, in a lighter shade of orange, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Additional abstract shapes in the background, subtly enhancing the design without overpowering the main content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Binge starts now' with a smaller tagline 'New hits every week' underneath, prominently displayed in the center.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        34,
+        407,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.636,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.5
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The logo 'PulsePlay' appears at the top in a bold, modern font, contrasting against the orange background.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        28,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.086
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Shop now' in white, inviting users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small label in the top corner marked 'UGC' in white, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, main message about binge-worthy content.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, New hits every week, PulsePlay, Shop now, UGC",
+    "elements_text": "main_subject: A central rectangular area with a light orange hue, featuring abstract shapes that suggest media content. | decorative_element: Two overlapping geometric shapes, one circular and one square, in a lighter shade of orange, adding visual interest. | decorative_element: Additional abstract shapes in the background, subtly enhancing the design without overpowering the main content. | body_text: Bold, white text stating 'Binge starts now' with a smaller tagline 'New hits every week' underneath, prominently displayed in the center. text='Binge starts now New hits every week' | logo: The logo 'PulsePlay' appears at the top in a bold, modern font, contrasting against the orange background. text='PulsePlay' | cta: A rounded button at the bottom with the text 'Shop now' in white, inviting users to take action. text='Shop now' | icon: A small label in the top corner marked 'UGC' in white, indicating user-generated content. text='UGC'"
+  }
+}

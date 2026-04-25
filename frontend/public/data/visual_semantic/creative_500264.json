@@ -1,0 +1,194 @@
+{
+  "creative_id": "500264",
+  "asset_file": "assets/creative_500264.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a minimalist design with layered shapes and prominent text elements.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to track their spending with a fast signup process.",
+    "dominant_colors": [
+      "gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A gray circular shape overlapping a rectangular shape, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A similar gray circular shape overlapping another rectangular shape, maintaining a consistent design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        118,
+        156,
+        222
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.247,
+        0.488,
+        0.463
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A larger gray rectangular shape that serves as a backdrop for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        130,
+        166,
+        246,
+        247
+      ],
+      "bbox_normalized": [
+        0.409,
+        0.347,
+        0.77,
+        0.515
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.08
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Track every euro' with a smaller tagline 'Fast signup, instant card' beneath it.",
+      "text_content": "Track every euro Fast signup, instant card",
+      "bbox_xyxy": [
+        28,
+        306,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.087,
+        0.637,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.495,
+        0.691
+      ],
+      "area_percentage": 8.67
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A simple logo with the text 'CoinBridge' displayed prominently at the top.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "A clear white button text saying 'Watch now' positioned at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, CoinBridge, Track every euro, Watch now",
+    "layout_text": "The logo is at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup, instant card, CoinBridge, Watch now",
+    "elements_text": "unknown: A gray circular shape overlapping a rectangular shape, creating a layered effect. | unknown: A similar gray circular shape overlapping another rectangular shape, maintaining a consistent design. | unknown: A larger gray rectangular shape that serves as a backdrop for the text elements. | headline: Bold white text stating 'Track every euro' with a smaller tagline 'Fast signup, instant card' beneath it. text='Track every euro Fast signup, instant card' | logo: A simple logo with the text 'CoinBridge' displayed prominently at the top. text='CoinBridge' | cta: A clear white button text saying 'Watch now' positioned at the bottom of the ad. text='Watch now'"
+  }
+}

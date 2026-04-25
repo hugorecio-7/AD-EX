@@ -1,0 +1,266 @@
+{
+  "creative_id": "500295",
+  "asset_file": "assets/creative_500295.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product displays and clear calls to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection with a limited-time offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas, providing a vibrant and warm base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        348,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.2,
+        0.969,
+        0.735
+      ],
+      "center_normalized": [
+        0.509,
+        0.468
+      ],
+      "area_percentage": 49.24
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A simple illustration of three rectangular shapes resembling product packaging, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Another rectangular shape, slightly larger, representing a product, positioned to the right of the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display",
+      "description": "A third rectangular shape, similar in size to the second, positioned to the right of the second product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular shape located below the product displays, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "Another small circular shape, similar to the previous one, positioned next to it for symmetry.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold white text stating 'New collection drop Only this weekend' prominently displayed at the bottom of the ad.",
+      "text_content": "New collection drop Only this weekend",
+      "bbox_xyxy": [
+        53,
+        407,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.709
+      ],
+      "area_percentage": 10.25
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A white button with the text '€29.99 Book now' that stands out against the orange background, encouraging user interaction.",
+      "text_content": "€29.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' in bold black text, positioned at the top left of the ad.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        26,
+        39,
+        193,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.536,
+        0.123
+      ],
+      "center_normalized": [
+        0.304,
+        0.092
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in black, located at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, new collection, call to action",
+    "layout_text": "The headline is at the bottom, the product displays are centered, and the CTA is below the headline.",
+    "ocr_text": "BoltCart, SALE, New collection drop Only this weekend, €29.99 Book now",
+    "elements_text": "product: A simple illustration of three rectangular shapes resembling product packaging, centered in the ad. | product: Another rectangular shape, slightly larger, representing a product, positioned to the right of the previous element. | product: A third rectangular shape, similar in size to the second, positioned to the right of the second product display. | decorative_element: A small circular shape located below the product displays, adding a decorative touch. | decorative_element: Another small circular shape, similar to the previous one, positioned next to it for symmetry. | headline: Bold white text stating 'New collection drop Only this weekend' prominently displayed at the bottom of the ad. text='New collection drop Only this weekend' | cta: A white button with the text '€29.99 Book now' that stands out against the orange background, encouraging user interaction. text='€29.99 Book now' | logo: The logo 'BoltCart' in bold black text, positioned at the top left of the ad. text='BoltCart' | discount_badge: A small yellow badge with the text 'SALE' in black, located at the top right corner of the ad. text='SALE'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500183",
+  "asset_file": "assets/creative_500183.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with engaging text elements promoting a game.",
+    "visual_style": "playful and colorful",
+    "main_message": "Join the game and play with friends tonight.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "IronQuest BONUS",
+      "description": "A bold, prominent text element at the top, likely in a playful font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, top-positioned element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, top-positioned element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, top-positioned element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, top-positioned element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Join the arena",
+      "description": "A large, bold text element in the center, inviting users to join the game.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        407,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.492,
+        0.682
+      ],
+      "area_percentage": 6.35
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "IronQuest BONUS",
+      "description": "A bold, eye-catching text element at the top, likely in a playful font.",
+      "text_content": "IronQuest BONUS",
+      "bbox_xyxy": [
+        25,
+        39,
+        331,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.919,
+        0.123
+      ],
+      "center_normalized": [
+        0.494,
+        0.092
+      ],
+      "area_percentage": 5.31
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "A small, clear text element at the bottom, encouraging users to get more information.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, playful and colorful, Join the arena, IronQuest BONUS",
+    "layout_text": "The headline is at the top, the main call-to-action is centered, and the secondary CTA is at the bottom.",
+    "ocr_text": "Join the arena, Play with friends tonight, IronQuest BONUS, Learn more",
+    "elements_text": "unknown: A small, centered element with an undefined visual appearance. | unknown: Another small, centered element with an undefined visual appearance. | headline: A bold, prominent text element at the top, likely in a playful font. | unknown: A small, top-positioned element with an undefined visual appearance. | unknown: A small, top-positioned element with an undefined visual appearance. | unknown: A small, top-positioned element with an undefined visual appearance. | unknown: A small, top-positioned element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | cta: A large, bold text element in the center, inviting users to join the game. text='Join the arena Play with friends tonight' | headline: A bold, eye-catching text element at the top, likely in a playful font. text='IronQuest BONUS' | cta: A small, clear text element at the bottom, encouraging users to get more information. text='Learn more'"
+  }
+}

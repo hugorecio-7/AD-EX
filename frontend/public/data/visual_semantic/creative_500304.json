@@ -1,0 +1,266 @@
+{
+  "creative_id": "500304",
+  "asset_file": "assets/creative_500304.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern, abstract design with a focus on reassurance and action.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Encouraging users to shop confidently with VaultRun.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "reassuring"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Main visual element",
+      "description": "A central abstract shape that appears to be a combination of geometric forms, possibly representing a digital interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.498,
+        0.399
+      ],
+      "area_percentage": 13.57
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary visual element",
+      "description": "Another central abstract shape, similar to the first, but with a different configuration, enhancing the digital theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        83,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.233,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.506,
+        0.43
+      ],
+      "area_percentage": 9.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, soft-edged shape that serves as a background element, providing depth to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        153,
+        179,
+        300
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.239,
+        0.498,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.6
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "An overlay shape that adds complexity to the design, positioned centrally with a subtle contrast.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A simple, bold logo text that reads 'VaultRun', positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.134,
+        0.291
+      ],
+      "center_normalized": [
+        0.067,
+        0.236
+      ],
+      "area_percentage": 1.46
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape located towards the bottom, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, prominent text stating 'Save with confidence Built for peace of mind', conveying reassurance.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The headline text 'VaultRun' is large and eye-catching, positioned at the top of the ad.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        40,
+        300,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.833,
+        0.15
+      ],
+      "center_normalized": [
+        0.453,
+        0.106
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button text 'Shop now' located at the bottom, encouraging user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold typography, VaultRun, Save with confidence.",
+    "layout_text": "The headline is at the top, the main message is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "VaultRun, Save with confidence, Built for peace of mind, Shop now",
+    "elements_text": "unknown: A central abstract shape that appears to be a combination of geometric forms, possibly representing a digital interface. | unknown: Another central abstract shape, similar to the first, but with a different configuration, enhancing the digital theme. | unknown: A large, soft-edged shape that serves as a background element, providing depth to the overall design. | unknown: An overlay shape that adds complexity to the design, positioned centrally with a subtle contrast. | logo: A simple, bold logo text that reads 'VaultRun', positioned at the top of the ad. | unknown: A small circular shape located towards the bottom, adding a decorative touch to the layout. | body_text: Bold, prominent text stating 'Save with confidence Built for peace of mind', conveying reassurance. text='Save with confidence Built for peace of mind' | headline: The headline text 'VaultRun' is large and eye-catching, positioned at the top of the ad. text='VaultRun' | cta: A clear and inviting button text 'Shop now' located at the bottom, encouraging user interaction. text='Shop now'"
+  }
+}

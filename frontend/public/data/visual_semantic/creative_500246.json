@@ -1,0 +1,266 @@
+{
+  "creative_id": "500246",
+  "asset_file": "assets/creative_500246.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and clear calls to action.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Encouraging users to start binge-watching with a subscription service.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.08
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "A simple logo positioned at the top, featuring the text 'MoonScreen' in a clean, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A combination of circular and rectangular shapes in a lighter shade of purple, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "Two smaller circular shapes in a lighter hue, adding visual interest to the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Overlapping shape",
+      "description": "A rectangular shape overlapping with the main geometric shapes, contributing to the design's complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Binge starts now text",
+      "description": "Bold white text stating 'Binge starts now' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Cancel anytime text",
+      "description": "Smaller white text below the main message reads 'Cancel anytime', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A rounded button at the bottom with the text 'Book now' in white, inviting user interaction.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalistic with bold text, MoonScreen logo, binge starts now message, Book now CTA",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "MoonScreen, Binge starts now, Cancel anytime, Book now",
+    "elements_text": "logo: A simple logo positioned at the top, featuring the text 'MoonScreen' in a clean, modern font. | main_subject: A combination of circular and rectangular shapes in a lighter shade of purple, centered in the ad. | decorative_element: Two smaller circular shapes in a lighter hue, adding visual interest to the center of the ad. | unknown: A rectangular shape overlapping with the main geometric shapes, contributing to the design's complexity. | body_text: Bold white text stating 'Binge starts now' is prominently displayed in the center of the ad. | body_text: Smaller white text below the main message reads 'Cancel anytime', providing additional information. | cta: A rounded button at the bottom with the text 'Book now' in white, inviting user interaction. text='Binge starts now Cancel anytime' | unknown:  text='MoonScreen' | unknown:  text='Book now'"
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "creative_id": "500212",
+  "asset_file": "assets/creative_500212.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a blue background with prominent text and a call-to-action button.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting an exclusive offer from StarVault.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.562,
+        0.374
+      ],
+      "area_percentage": 22.04
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StarVault",
+      "description": "Bold, large text at the top of the ad, colored in a contrasting shade to stand out.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        72,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.228,
+        0.94,
+        0.52
+      ],
+      "center_normalized": [
+        0.62,
+        0.374
+      ],
+      "area_percentage": 18.77
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Exclusive tonight",
+      "description": "Medium-sized text in the center, conveying urgency and exclusivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        72,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.228,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.669,
+        0.374
+      ],
+      "area_percentage": 15.85
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button at the bottom with a clear call to action, inviting users to engage.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.378
+      ],
+      "area_percentage": 14.97
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the center, possibly a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.278,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.62
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "Another abstract shape, smaller and positioned near the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.73
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular element that adds to the decorative aspect of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Rectangle shape",
+      "description": "A rectangular shape that could serve as a placeholder for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circular element, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.92
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small element positioned towards the bottom, contributing to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small element, similar in size and position to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular element, adding to the decorative theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small circular element, enhancing the visual complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        177,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.304,
+        0.555,
+        0.397,
+        0.647
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.87
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Exclusive tonight text",
+      "description": "Text at the bottom of the ad, emphasizing urgency and exclusivity.",
+      "text_content": "Exclusive tonight Learn more",
+      "bbox_xyxy": [
+        88,
+        204,
+        234,
+        299
+      ],
+      "bbox_normalized": [
+        0.275,
+        0.637,
+        0.731,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 13.54
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "StarVault headline",
+      "description": "Bold text at the top, prominently displaying the brand name.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        7,
+        25,
+        238,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.744,
+        0.212
+      ],
+      "center_normalized": [
+        0.383,
+        0.145
+      ],
+      "area_percentage": 9.7
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, simple and modern, StarVault, exclusive offer.",
+    "layout_text": "Headline at the top, body text in the center, and CTA button at the bottom.",
+    "ocr_text": "StarVault, Exclusive tonight, Learn more",
+    "elements_text": "headline: Bold, large text at the top of the ad, colored in a contrasting shade to stand out. | body_text: Medium-sized text in the center, conveying urgency and exclusivity. | cta: A rounded button at the bottom with a clear call to action, inviting users to engage. | unknown: An abstract shape in the center, possibly a placeholder for an image or graphic. | unknown: Another abstract shape, smaller and positioned near the center, adding visual interest. | unknown: A small circular element that adds to the decorative aspect of the ad. | unknown: A rectangular shape that could serve as a placeholder for additional content. | unknown: Another small circular element, complementing the overall design. | unknown: A small element positioned towards the bottom, contributing to the overall layout. | unknown: Another small element, similar in size and position to the previous one. | unknown: A small circular element, adding to the decorative theme. | unknown: Another small circular element, enhancing the visual complexity. | body_text: Text at the bottom of the ad, emphasizing urgency and exclusivity. text='Exclusive tonight Learn more' | headline: Bold text at the top, prominently displaying the brand name. text='StarVault'"
+  }
+}

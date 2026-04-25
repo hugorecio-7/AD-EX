@@ -1,0 +1,290 @@
+{
+  "creative_id": "500320",
+  "asset_file": "assets/creative_500320.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with bold text and geometric shapes.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Discover trending content and shop for new hits.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.144,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.299
+      ],
+      "area_percentage": 30.94
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Various geometric shapes in lighter shades of blue are scattered across the top, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.143,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.25
+      ],
+      "area_percentage": 21.43
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "PulsePlay",
+      "description": "The word 'PulsePlay' is prominently displayed in bold, black font at the top, conveying a strong brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.29
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "The text 'Watch what's trending' is presented in a clean, white font, emphasizing the ad's focus on current content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "New hits message",
+      "description": "The phrase 'New hits every week' appears below the trending message in a slightly smaller white font, reinforcing the ad's message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circle",
+      "description": "A small, light blue circle is positioned near the top left, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small, dark shape is located towards the bottom center, its purpose is unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Medium shape",
+      "description": "A medium-sized shape in a lighter color is positioned in the center, adding to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'PulsePlay' stands out prominently against the blue background, capturing attention.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        24,
+        25,
+        319,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        0.886,
+        0.163
+      ],
+      "center_normalized": [
+        0.476,
+        0.101
+      ],
+      "area_percentage": 10.12
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button with the text 'Shop now' is located at the bottom, inviting user interaction.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        64,
+        408,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.637,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Shop now message",
+      "description": "The text 'Shop now' is displayed in a clear, white font within a button, encouraging immediate action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, PulsePlay, trending content, shop now",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "PulsePlay, Watch what's trending, New hits every week, Shop now",
+    "elements_text": "decorative_element: Various geometric shapes in lighter shades of blue are scattered across the top, adding visual interest. | headline: The word 'PulsePlay' is prominently displayed in bold, black font at the top, conveying a strong brand identity. | body_text: The text 'Watch what's trending' is presented in a clean, white font, emphasizing the ad's focus on current content. | body_text: The phrase 'New hits every week' appears below the trending message in a slightly smaller white font, reinforcing the ad's message. | icon: A small, light blue circle is positioned near the top left, serving as a decorative element. | unknown: A small, dark shape is located towards the bottom center, its purpose is unclear. | unknown: A medium-sized shape in a lighter color is positioned in the center, adding to the abstract design. | headline: The bold text 'PulsePlay' stands out prominently against the blue background, capturing attention. text='PulsePlay' | cta: A rounded button with the text 'Shop now' is located at the bottom, inviting user interaction. text='Watch what's trending New hits every week' | body_text: The text 'Shop now' is displayed in a clear, white font within a button, encouraging immediate action. text='Shop now'"
+  }
+}

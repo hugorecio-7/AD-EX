@@ -1,0 +1,314 @@
+{
+  "creative_id": "500190",
+  "asset_file": "assets/creative_500190.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a light gray background with a prominent discount offer and a call-to-action.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting a sale with discounts and free shipping.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray rectangular background that fills the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A simple logo featuring the text 'CrispBox' in a bold font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small rectangular badge with the word 'SALE' in bold, bright text, located at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.31,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Product display",
+      "description": "An abstract representation of product boxes, with two square shapes and one circular shape, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        168,
+        127,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.527,
+        0.399,
+        0.631
+      ],
+      "center_normalized": [
+        0.259,
+        0.579
+      ],
+      "area_percentage": 2.91
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Discount offer text",
+      "description": "Bold text stating 'Up to 40% off' in a large font, prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        175,
+        129,
+        214
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.55,
+        0.403,
+        0.669
+      ],
+      "center_normalized": [
+        0.351,
+        0.609
+      ],
+      "area_percentage": 1.24
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Shipping offer text",
+      "description": "Smaller text below the discount offer stating 'Free shipping over $25' in a clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button with the text 'Learn more' in a bold font, located at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        175,
+        129,
+        208
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.55,
+        0.403,
+        0.652
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Additional product shapes",
+      "description": "Two small circular shapes positioned below the main product display, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The main promotional text 'Up to 40% off Free shipping over $25' in a large, bold font at the bottom of the ad.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        56,
+        206,
+        268,
+        256
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.838,
+        0.8
+      ],
+      "center_normalized": [
+        0.506,
+        0.722
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Learn more text",
+      "description": "Text on a button that invites users to 'Learn more', positioned at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        107,
+        281,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.878,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.906
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "The logo of CrispBox, displayed in a bold font at the top left corner.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        21,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "SALE label",
+      "description": "A bright 'SALE' label in bold text, positioned at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, CrispBox logo, SALE badge, discount offer text",
+    "layout_text": "The logo is at the top left, the SALE badge at the top right, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox, SALE, Up to 40% off, Free shipping over $25, Learn more",
+    "elements_text": "logo: A simple logo featuring the text 'CrispBox' in a bold font, positioned at the top left. | discount_badge: A small rectangular badge with the word 'SALE' in bold, bright text, located at the top right. | main_subject: An abstract representation of product boxes, with two square shapes and one circular shape, centered in the ad. | body_text: Bold text stating 'Up to 40% off' in a large font, prominently displayed in the center of the ad. | body_text: Smaller text below the discount offer stating 'Free shipping over $25' in a clear font. | cta: A rectangular button with the text 'Learn more' in a bold font, located at the bottom center of the ad. | decorative_element: Two small circular shapes positioned below the main product display, adding visual interest. | body_text: The main promotional text 'Up to 40% off Free shipping over $25' in a large, bold font at the bottom of the ad. text='Up to 40% off Free shipping over $25' | cta: Text on a button that invites users to 'Learn more', positioned at the bottom of the ad. text='Learn more' | logo: The logo of CrispBox, displayed in a bold font at the top left corner. text='CrispBox' | discount_badge: A bright 'SALE' label in bold text, positioned at the top right corner of the ad. text='SALE'"
+  }
+}

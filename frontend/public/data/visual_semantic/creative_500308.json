@@ -1,0 +1,290 @@
+{
+  "creative_id": "500308",
+  "asset_file": "assets/creative_500308.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a travel theme with a focus on special fares.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for travel with HorizonHop.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "HorizonHop logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'HorizonHop' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center, visually representing a travel-related theme with abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Abstract shape",
+      "description": "An oval shape in the center, adding a dynamic visual element to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A larger rectangle in the center, providing a backdrop for the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small abstract shape",
+      "description": "A smaller oval shape positioned slightly above the main rectangle, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Fly smarter text",
+      "description": "Bold text in white, centrally positioned, stating 'Fly smarter' with a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "Smaller text below the main message, reading 'Special fares today' in a clean, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom center, labeled 'Shop now' in bold white text against a contrasting background.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        69,
+        204,
+        253,
+        255
+      ],
+      "bbox_normalized": [
+        0.216,
+        0.637,
+        0.791,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.717
+      ],
+      "area_percentage": 9.16
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Shop now text",
+      "description": "Text on the button that encourages action, designed to stand out for easy visibility.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        113,
+        279,
+        205,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.641,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.8
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'HorizonHop' in a modern font.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, HorizonHop, special fares",
+    "layout_text": "The logo is at the top left, the main content area is central, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter, Special fares today, Shop now",
+    "elements_text": "headline: A small logo positioned at the top left corner, featuring the text 'HorizonHop' in a bold, modern font. | main_subject: A large rectangular area in the center, visually representing a travel-related theme with abstract shapes. | decorative_element: An oval shape in the center, adding a dynamic visual element to the ad. | decorative_element: A larger rectangle in the center, providing a backdrop for the main message. | decorative_element: A smaller oval shape positioned slightly above the main rectangle, enhancing the visual interest. | body_text: Bold text in white, centrally positioned, stating 'Fly smarter' with a modern font. | body_text: Smaller text below the main message, reading 'Special fares today' in a clean, readable font. | cta: A prominent button at the bottom center, labeled 'Shop now' in bold white text against a contrasting background. text='Fly smarter Special fares today' | body_text: Text on the button that encourages action, designed to stand out for easy visibility. text='Shop now' | logo: A small logo at the top left corner, featuring the brand name 'HorizonHop' in a modern font. text='HorizonHop'"
+  }
+}

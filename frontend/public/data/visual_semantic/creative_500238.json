@@ -1,0 +1,218 @@
+{
+  "creative_id": "500238",
+  "asset_file": "assets/creative_500238.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a blue background and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special fares for CloudRoute.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background with shapes",
+      "description": "A solid blue background featuring a faint outline of a circle and a rectangle in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CloudRoute logo",
+      "description": "The logo of CloudRoute displayed prominently at the top, featuring a modern font and a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Main visual element",
+      "description": "A large, abstract shape that combines a circle and a rectangle, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text in a bold font stating 'Fly smarter' positioned below the main visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Special fares message",
+      "description": "A smaller text below the main message that reads 'Special fares today', conveying urgency.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        81,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.685
+      ],
+      "area_percentage": 4.82
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rounded button at the bottom with the text 'Watch now' in a contrasting color, inviting action.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, eye-catching badge in the top right corner with the word 'SALE' in bold, bright letters.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "CloudRoute, travel, interstitial, modern and minimalistic, promoting special fares.",
+    "layout_text": "The logo is at the top, the main visual is centered, and the CTA is at the bottom.",
+    "ocr_text": "CloudRoute, Fly smarter, Special fares today, Watch now, SALE",
+    "elements_text": "headline: The logo of CloudRoute displayed prominently at the top, featuring a modern font and a clean design. | main_subject: A large, abstract shape that combines a circle and a rectangle, positioned centrally. | body_text: Text in a bold font stating 'Fly smarter' positioned below the main visual element. | body_text: A smaller text below the main message that reads 'Special fares today', conveying urgency. text='Fly smarter Special fares today' | cta: A rounded button at the bottom with the text 'Watch now' in a contrasting color, inviting action. text='CloudRoute' | discount_badge: A small, eye-catching badge in the top right corner with the word 'SALE' in bold, bright letters. text='Watch now' | unknown:  text='SALE'"
+  }
+}

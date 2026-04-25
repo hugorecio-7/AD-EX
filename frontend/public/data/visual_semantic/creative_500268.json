@@ -1,0 +1,194 @@
+{
+  "creative_id": "500268",
+  "asset_file": "assets/creative_500268.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a modern logo and promotional text.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Encouraging users to track their spending with a fast signup process.",
+    "dominant_colors": [
+      "orange",
+      "light orange"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant and warm base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        306
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.767,
+        0.479
+      ],
+      "center_normalized": [
+        0.469,
+        0.359
+      ],
+      "area_percentage": 14.23
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo features the text 'CoinBridge' prominently displayed in a bold, modern font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and a smaller circle are centered in the ad, rendered in a lighter shade of orange, creating a minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle is positioned towards the bottom left, adding a subtle decorative touch to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "The text 'Track every euro Fast signup; instant card' is displayed in a clear, readable font, positioned centrally within the ad.",
+      "text_content": "Track every euro Fast signup;instant card",
+      "bbox_xyxy": [
+        34,
+        408,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.637,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.499,
+        0.683
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The headline 'CoinBridge' is bold and prominent, located at the top of the ad, drawing immediate attention.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        22,
+        34,
+        244,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.678,
+        0.128
+      ],
+      "center_normalized": [
+        0.369,
+        0.091
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Claim reward' is presented in a contrasting color at the bottom, encouraging user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold colors, CoinBridge logo, promotional text.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup; instant card, CoinBridge, Claim reward",
+    "elements_text": "logo: The logo features the text 'CoinBridge' prominently displayed in a bold, modern font at the top of the ad. | main_subject: A large square and a smaller circle are centered in the ad, rendered in a lighter shade of orange, creating a minimalist design. | decorative_element: A small circle is positioned towards the bottom left, adding a subtle decorative touch to the overall layout. | body_text: The text 'Track every euro Fast signup; instant card' is displayed in a clear, readable font, positioned centrally within the ad. text='Track every euro Fast signup;instant card' | headline: The headline 'CoinBridge' is bold and prominent, located at the top of the ad, drawing immediate attention. text='CoinBridge' | cta: The phrase 'Claim reward' is presented in a contrasting color at the bottom, encouraging user interaction. text='Claim reward'"
+  }
+}

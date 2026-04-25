@@ -1,0 +1,218 @@
+{
+  "creative_id": "500240",
+  "asset_file": "assets/creative_500240.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with food icons and promotional text.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting food delivery with a discount offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, creating a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Food icons",
+      "description": "Three stylized food icons are displayed in a row, representing various meal options, with a simple and modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food icons",
+      "description": "Another food icon, similar in style to the previous ones, is positioned to the right, enhancing the meal theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food icons",
+      "description": "A third food icon, consistent in design with the others, is placed in the center, contributing to the overall meal representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon is located below the food icons, adding a decorative element to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text reads 'Hungry? We got you Free delivery over $15 -30% Install now', prominently displayed at the bottom.",
+      "text_content": "Hungry? We got you Free delivery over $15 -30% Install now",
+      "bbox_xyxy": [
+        22,
+        305,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.635,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.487,
+        0.775
+      ],
+      "area_percentage": 23.38
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' is presented in a clean, modern font at the top left, establishing brand identity.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' is positioned at the top right, drawing attention to the promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and modern, food icons, promotional text",
+    "layout_text": "The logo is at the top left, food icons are centered, and the promotional text is at the bottom.",
+    "ocr_text": "Hungry? We got you, Free delivery over $15, -30%, Install now, SnapMeal, SALE",
+    "elements_text": "main_subject: Three stylized food icons are displayed in a row, representing various meal options, with a simple and modern design. | main_subject: Another food icon, similar in style to the previous ones, is positioned to the right, enhancing the meal theme. | main_subject: A third food icon, consistent in design with the others, is placed in the center, contributing to the overall meal representation. | icon: A small circular icon is located below the food icons, adding a decorative element to the design. | body_text: Bold white text reads 'Hungry? We got you Free delivery over $15 -30% Install now', prominently displayed at the bottom. text='Hungry? We got you Free delivery over $15 -30% Install now' | logo: The logo 'SnapMeal' is presented in a clean, modern font at the top left, establishing brand identity. text='SnapMeal' | discount_badge: A small yellow badge with the word 'SALE' is positioned at the top right, drawing attention to the promotional offer. text='SALE'"
+  }
+}

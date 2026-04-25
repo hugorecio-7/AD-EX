@@ -1,0 +1,362 @@
+{
+  "creative_id": "500302",
+  "asset_file": "assets/creative_500302.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on a strong call to action and user confidence.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encourages users to save confidently with a free trial.",
+    "dominant_colors": [
+      "light green",
+      "white"
+    ],
+    "emotional_tone": "confident"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A light green rectangular area at the top of the ad, providing a subtle background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center, featuring a light green background with abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.502
+      ],
+      "center_normalized": [
+        0.469,
+        0.371
+      ],
+      "area_percentage": 15.7
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "Bold white text stating 'Save with confidence' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.311,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.416
+      ],
+      "area_percentage": 12.51
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main message, reading 'Fast signup, instant card'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Try for free' in white, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Secondary content area",
+      "description": "A smaller rectangular area in the center with a light green background, possibly for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional content area",
+      "description": "Another rectangular area in the center, similar in style to the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "Small circular shapes in the center area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Lower content area",
+      "description": "A small rectangular area at the bottom, possibly for additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.553,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Lower left area",
+      "description": "A small rectangular area at the bottom left, likely for supplementary content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.531,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message area",
+      "description": "A large area at the bottom featuring the main text and call to action.",
+      "text_content": "Save with confidence Fast ard Try for free",
+      "bbox_xyxy": [
+        67,
+        206,
+        253,
+        302
+      ],
+      "bbox_normalized": [
+        0.209,
+        0.644,
+        0.791,
+        0.944
+      ],
+      "center_normalized": [
+        0.5,
+        0.794
+      ],
+      "area_percentage": 17.44
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, labeled 'Vaultkun'.",
+      "text_content": "Vaultkun",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with soft colors, key elements include strong call to action and user confidence.",
+    "layout_text": "The headline is centered with the main subject, and the CTA is prominently displayed at the bottom.",
+    "ocr_text": "Save with confidence, Fast signup, instant card, Try for free, Vaultkun, UGC",
+    "elements_text": "decorative_element: A light green rectangular area at the top of the ad, providing a subtle background. | main_subject: A large rectangular area in the center, featuring a light green background with abstract shapes. | body_text: Bold white text stating 'Save with confidence' prominently displayed in the center. | body_text: Smaller white text below the main message, reading 'Fast signup, instant card'. | cta: A prominent button with the text 'Try for free' in white, encouraging user interaction. | unknown: A smaller rectangular area in the center with a light green background, possibly for additional content. | unknown: Another rectangular area in the center, similar in style to the previous element. | unknown: Small circular shapes in the center area, adding visual interest. | unknown: A small rectangular area at the bottom, possibly for additional information. | unknown: A small rectangular area at the bottom left, likely for supplementary content. | body_text: A large area at the bottom featuring the main text and call to action. text='Save with confidence Fast ard Try for free' | logo: A small logo at the top left corner, labeled 'Vaultkun'. text='Vaultkun' | social_proof: A small tag at the top left corner labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

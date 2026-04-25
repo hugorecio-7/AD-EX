@@ -1,0 +1,386 @@
+{
+  "creative_id": "500216",
+  "asset_file": "assets/creative_500216.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with game-related icons and text.",
+    "visual_style": "playful and colorful",
+    "main_message": "Encouraging players to unlock rare gear and play with friends.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green geometric background",
+      "description": "A vibrant green background with abstract geometric shapes creating a playful atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small square icon with a circular design, representing a game feature or item.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small square icon with a circular design, similar to the previous one, indicating a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small square icon with a circular design, representing another game feature or item.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small square icon with a circular design, indicating a game feature or item.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon located on the left side, representing a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.295
+      ],
+      "center_normalized": [
+        0.068,
+        0.238
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small right-facing arrow icon, suggesting navigation or progression.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon located at the bottom center, representing a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Unlock rare gear text",
+      "description": "Bold text stating 'Unlock rare gear' in a prominent font, conveying excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "Smaller text below the main message, inviting players to engage with friends.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon located on the left side, representing a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon located at the bottom left, representing a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold and large text that captures attention, stating 'Unlock rare gear Play with friends tonight'.",
+      "text_content": "Unlock rare gear Play with friends tonight",
+      "bbox_xyxy": [
+        37,
+        408,
+        328,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.637,
+        0.911,
+        0.728
+      ],
+      "center_normalized": [
+        0.507,
+        0.683
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A logo at the top left corner, featuring the name 'PixelForge' in a stylized font.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button at the bottom with the text 'Watch now', encouraging immediate action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.503,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, playful and colorful, key elements include game icons and a call to action.",
+    "layout_text": "The headline is at the center, icons are distributed across the top and center, with the CTA at the bottom.",
+    "ocr_text": "Unlock rare gear, Play with friends tonight, PixelForge, Watch now",
+    "elements_text": "icon: A small square icon with a circular design, representing a game feature or item. | icon: Another small square icon with a circular design, similar to the previous one, indicating a game feature. | icon: A small square icon with a circular design, representing another game feature or item. | icon: A small square icon with a circular design, indicating a game feature or item. | icon: A small circular icon located on the left side, representing a game feature. | icon: A small right-facing arrow icon, suggesting navigation or progression. | icon: A small circular icon located at the bottom center, representing a game feature. | body_text: Bold text stating 'Unlock rare gear' in a prominent font, conveying excitement. | body_text: Smaller text below the main message, inviting players to engage with friends. | icon: A small circular icon located on the left side, representing a game feature. | icon: A small circular icon located at the bottom left, representing a game feature. | headline: Bold and large text that captures attention, stating 'Unlock rare gear Play with friends tonight'. text='Unlock rare gear Play with friends tonight' | logo: A logo at the top left corner, featuring the name 'PixelForge' in a stylized font. text='PixelForge' | cta: A prominent button at the bottom with the text 'Watch now', encouraging immediate action. text='Watch now'"
+  }
+}

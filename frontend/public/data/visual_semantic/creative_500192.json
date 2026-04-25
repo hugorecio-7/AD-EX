@@ -1,0 +1,194 @@
+{
+  "creative_id": "500192",
+  "asset_file": "assets/creative_500192.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting cashback offers with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas, providing a vibrant and warm base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A large square and a smaller circle in a lighter shade of orange, positioned in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Additional geometric shape",
+      "description": "A medium-sized square in a lighter shade of orange, also centered, complementing the other shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle in a lighter shade of orange, positioned near the bottom center, enhancing the geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold white text stating 'Earn cashback daily' with a smaller line below it in white, conveying a promotional message.",
+      "text_content": "Earn cashback daily Fast signup; instant card",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "The word 'SwiftStack' in bold, dark text at the top, serving as the brand identifier.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        27,
+        40,
+        238,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.661,
+        0.122
+      ],
+      "center_normalized": [
+        0.368,
+        0.092
+      ],
+      "area_percentage": 3.48
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent white button with the text 'Watch now' at the bottom, encouraging user action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, cashback offer, SwiftStack logo, Watch now button",
+    "layout_text": "The logo is at the top, followed by geometric shapes in the center, with body text above the CTA at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, SwiftStack, Watch now",
+    "elements_text": "decorative_element: A large square and a smaller circle in a lighter shade of orange, positioned in the center, adding visual interest. | decorative_element: A medium-sized square in a lighter shade of orange, also centered, complementing the other shapes. | decorative_element: A small circle in a lighter shade of orange, positioned near the bottom center, enhancing the geometric theme. | body_text: Bold white text stating 'Earn cashback daily' with a smaller line below it in white, conveying a promotional message. text='Earn cashback daily Fast signup; instant card' | logo: The word 'SwiftStack' in bold, dark text at the top, serving as the brand identifier. text='SwiftStack' | cta: A prominent white button with the text 'Watch now' at the bottom, encouraging user action. text='Watch now'"
+  }
+}

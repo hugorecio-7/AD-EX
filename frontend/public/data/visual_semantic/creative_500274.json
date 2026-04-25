@@ -1,0 +1,338 @@
+{
+  "creative_id": "500274",
+  "asset_file": "assets/creative_500274.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a mix of abstract shapes and text elements centered around a travel theme.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel destinations with a call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large, abstract shape in the center, possibly representing a destination or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.374
+      ],
+      "area_percentage": 22.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A medium-sized, rounded rectangle shape, likely serving as a background or highlight.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.506
+      ],
+      "center_normalized": [
+        0.468,
+        0.379
+      ],
+      "area_percentage": 15.14
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "Another medium-sized rectangle, positioned centrally, possibly for text or imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.278,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.59
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Vertical graphic element",
+      "description": "A tall, narrow rectangle that adds verticality to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        80,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.253,
+        0.498,
+        0.611
+      ],
+      "center_normalized": [
+        0.317,
+        0.432
+      ],
+      "area_percentage": 12.98
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Central rectangle",
+      "description": "A central rectangle that may contain important information or imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.308,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.414
+      ],
+      "area_percentage": 12.81
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Lower central rectangle",
+      "description": "A rectangle positioned lower in the ad, likely for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.339,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.43
+      ],
+      "area_percentage": 10.85
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small, circular shape that adds detail to the overall composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circle located towards the bottom, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Another small circular element",
+      "description": "Another small circle, similar to the previous one, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with text urging users to 'Order now' with additional details below.",
+      "text_content": "destinations Order now Special tares today",
+      "bbox_xyxy": [
+        64,
+        236,
+        258,
+        317
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.738,
+        0.806,
+        0.991
+      ],
+      "center_normalized": [
+        0.503,
+        0.864
+      ],
+      "area_percentage": 15.35
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the top reading 'DriftPass', indicating the main focus of the ad.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        9,
+        25,
+        229,
+        69
+      ],
+      "bbox_normalized": [
+        0.028,
+        0.078,
+        0.716,
+        0.216
+      ],
+      "center_normalized": [
+        0.372,
+        0.147
+      ],
+      "area_percentage": 9.45
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Text reading 'Dream' positioned centrally, likely supporting the main message.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        108,
+        206,
+        212,
+        236
+      ],
+      "bbox_normalized": [
+        0.338,
+        0.644,
+        0.662,
+        0.738
+      ],
+      "center_normalized": [
+        0.5,
+        0.691
+      ],
+      "area_percentage": 3.05
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, DriftPass, Order now",
+    "layout_text": "The headline is at the top, the main graphic elements are centered, and the CTA is at the bottom.",
+    "ocr_text": "DriftPass, Dream, destinations, Order now, Special fares today",
+    "elements_text": "unknown: A large, abstract shape in the center, possibly representing a destination or service. | unknown: A medium-sized, rounded rectangle shape, likely serving as a background or highlight. | unknown: Another medium-sized rectangle, positioned centrally, possibly for text or imagery. | unknown: A tall, narrow rectangle that adds verticality to the design. | unknown: A central rectangle that may contain important information or imagery. | unknown: A rectangle positioned lower in the ad, likely for additional content. | unknown: A small, circular shape that adds detail to the overall composition. | unknown: A small circle located towards the bottom, possibly decorative. | unknown: Another small circle, similar to the previous one, enhancing the design. | cta: A prominent button with text urging users to 'Order now' with additional details below. text='destinations Order now Special tares today' | headline: Bold text at the top reading 'DriftPass', indicating the main focus of the ad. text='DriftPass' | body_text: Text reading 'Dream' positioned centrally, likely supporting the main message. text='Dream'"
+  }
+}

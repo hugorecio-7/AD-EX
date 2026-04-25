@@ -1,0 +1,314 @@
+{
+  "creative_id": "500311",
+  "asset_file": "assets/creative_500311.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of text and visual elements promoting travel destinations.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting discounted travel destinations with a call to action.",
+    "dominant_colors": [
+      "#00B2A9",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main visual area",
+      "description": "A large rectangular area in the center of the ad, possibly showcasing an abstract design or image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.504
+      ],
+      "center_normalized": [
+        0.468,
+        0.372
+      ],
+      "area_percentage": 15.84
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary visual area",
+      "description": "Another rectangular area in the center, slightly overlapping with the main visual area, featuring a different design or image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Overlay visual area",
+      "description": "A smaller rectangular area in the center, layered on top of the previous visuals, possibly containing additional imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional visual area",
+      "description": "A smaller rectangular area in the center, positioned to the right of the overlay visual, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Left visual area",
+      "description": "A rectangular area on the left side of the ad, featuring a design or image that complements the central visuals.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Right visual area",
+      "description": "A rectangular area on the right side of the ad, showcasing a design or image that balances the left visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Top left visual area",
+      "description": "A smaller rectangular area in the top left, featuring a design or image that adds to the overall composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold text at the bottom of the ad stating 'destinations -30% Learn more Special fares today', designed to attract attention.",
+      "text_content": "destinations -30% Learn more Special fares today",
+      "bbox_xyxy": [
+        22,
+        236,
+        257,
+        317
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.738,
+        0.803,
+        0.991
+      ],
+      "center_normalized": [
+        0.436,
+        0.864
+      ],
+      "area_percentage": 18.59
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The word 'Dream' in a prominent font, positioned centrally to draw focus.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        108,
+        206,
+        212,
+        236
+      ],
+      "bbox_normalized": [
+        0.338,
+        0.644,
+        0.662,
+        0.738
+      ],
+      "center_normalized": [
+        0.5,
+        0.691
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, promotional text and visuals",
+    "layout_text": "The logo is at the top, the main headline is centrally positioned, and the promotional text is at the bottom.",
+    "ocr_text": "HorizonHop, Dream, destinations -30% Learn more Special fares today",
+    "elements_text": "logo: A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad. | main_subject: A large rectangular area in the center of the ad, possibly showcasing an abstract design or image. | main_subject: Another rectangular area in the center, slightly overlapping with the main visual area, featuring a different design or image. | main_subject: A smaller rectangular area in the center, layered on top of the previous visuals, possibly containing additional imagery. | main_subject: A smaller rectangular area in the center, positioned to the right of the overlay visual, contributing to the overall design. | main_subject: A rectangular area on the left side of the ad, featuring a design or image that complements the central visuals. | main_subject: A rectangular area on the right side of the ad, showcasing a design or image that balances the left visual. | main_subject: A smaller rectangular area in the top left, featuring a design or image that adds to the overall composition. | body_text: Bold text at the bottom of the ad stating 'destinations -30% Learn more Special fares today', designed to attract attention. text='destinations -30% Learn more Special fares today' | headline: The word 'Dream' in a prominent font, positioned centrally to draw focus. text='Dream' | logo: A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad. text='HorizonHop'"
+  }
+}

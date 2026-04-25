@@ -1,0 +1,146 @@
+{
+  "creative_id": "500205",
+  "asset_file": "assets/creative_500205.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold promotional message with a clear call to action.",
+    "visual_style": "bright and engaging",
+    "main_message": "Promoting a sale with a special offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "A simple rectangular shape in the center of the ad, possibly representing a product or placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PlateSprint SALE",
+      "description": "Bold, eye-catching text at the top of the ad, prominently displayed in a bright color against a contrasting background.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        21,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.475,
+        0.088
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "2-for-1 tonight",
+      "description": "Clear, large text in the center of the ad, conveying a promotional message about a special offer.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Shop now",
+      "description": "A rounded button at the bottom of the ad with inviting text encouraging immediate action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and engaging, PlateSprint SALE, 2-for-1 tonight",
+    "layout_text": "Headline is positioned at the top, body text is centered, and CTA is at the bottom.",
+    "ocr_text": "PlateSprint SALE, 2-for-1 tonight Late-night deals available, Shop now",
+    "elements_text": "unknown: A simple rectangular shape in the center of the ad, possibly representing a product or placeholder. | headline: Bold, eye-catching text at the top of the ad, prominently displayed in a bright color against a contrasting background. text='PlateSprint SALE' | body_text: Clear, large text in the center of the ad, conveying a promotional message about a special offer. text='2-for-1 tonight Late-night deals available' | cta: A rounded button at the bottom of the ad with inviting text encouraging immediate action. text='Shop now'"
+  }
+}

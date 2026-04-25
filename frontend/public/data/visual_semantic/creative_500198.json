@@ -1,0 +1,242 @@
+{
+  "creative_id": "500198",
+  "asset_file": "assets/creative_500198.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and a clear call to action.",
+    "visual_style": "modern and playful",
+    "main_message": "Promoting weekend travel deals with a focus on user-generated content.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.34
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Various abstract geometric shapes in lighter shades of purple scattered across the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        306
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.767,
+        0.479
+      ],
+      "center_normalized": [
+        0.469,
+        0.36
+      ],
+      "area_percentage": 14.29
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "A large, semi-transparent rectangle overlaying the background, creating depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A prominent rectangular area in the center featuring text and a call-to-action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NomadLaye logo",
+      "description": "A small logo positioned at the top left, featuring the text 'NomadLaye' in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "User-generated content badge",
+      "description": "A small badge next to the logo indicating 'UGC' in a simple, clean font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold, large text at the top stating 'NomadLaye UGC' in a striking font.",
+      "text_content": "NomadLaye UGC",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.119
+      ],
+      "area_percentage": 14.88
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A clear, inviting message in the center stating 'Escape this weekend Special fares today' in a friendly font.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent price tag reading '€29.99' in a bold font, positioned at the bottom.",
+      "text_content": "€29.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and playful, NomadLaye logo, promotional message, price display.",
+    "layout_text": "The headline is at the top, followed by the main content area in the center, with the price and CTA at the bottom.",
+    "ocr_text": "NomadLaye UGC, Escape this weekend Special fares today, €29.99 Learn more",
+    "elements_text": "decorative_element: Various abstract geometric shapes in lighter shades of purple scattered across the background. | decorative_element: A large, semi-transparent rectangle overlaying the background, creating depth. | main_subject: A prominent rectangular area in the center featuring text and a call-to-action. | logo: A small logo positioned at the top left, featuring the text 'NomadLaye' in bold, modern typography. | icon: A small badge next to the logo indicating 'UGC' in a simple, clean font. | headline: Bold, large text at the top stating 'NomadLaye UGC' in a striking font. text='NomadLaye UGC' | body_text: A clear, inviting message in the center stating 'Escape this weekend Special fares today' in a friendly font. text='Escape this weekend Special fares today' | price: A prominent price tag reading '€29.99' in a bold font, positioned at the bottom. text='€29.99 Learn more'"
+  }
+}

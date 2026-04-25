@@ -1,0 +1,362 @@
+{
+  "creative_id": "500233",
+  "asset_file": "assets/creative_500233.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of abstract graphics and text elements focused on financial tracking.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Track your finances with no hidden fees.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element with an abstract shape, possibly representing a financial concept.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay graphic",
+      "description": "An overlay graphic that complements the central element, featuring a similar abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional graphic",
+      "description": "An additional graphic element that enhances the visual complexity of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large background shape that provides a base for the other elements, likely in a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Secondary graphic",
+      "description": "A secondary graphic element that adds depth to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A decorative shape that adds visual interest to the ad's composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.249,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.45
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Supporting graphic",
+      "description": "A supporting graphic element that ties together the overall theme of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.412,
+        0.349,
+        0.769,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.78
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that conveys the main message, prominently displayed in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        176,
+        128,
+        206
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.551,
+        0.401,
+        0.646
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button or text prompting user action, designed to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.625
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A button with the text 'Learn more', inviting users to engage further.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.53,
+        0.579,
+        0.625
+      ],
+      "center_normalized": [
+        0.53,
+        0.578
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The headline text 'Track every euro No hidden fees' is bold and eye-catching.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        253
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.791
+      ],
+      "center_normalized": [
+        0.497,
+        0.713
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Learn more text",
+      "description": "A smaller text button that encourages users to learn more about the service.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand logo 'EarnPath' is positioned at the top, clearly visible.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern minimalist with bold text, financial tracking, no hidden fees.",
+    "layout_text": "The headline is at the bottom, the logo is at the top, and the CTA is centrally positioned.",
+    "ocr_text": "EarnPath, Track every euro, No hidden fees, Learn more",
+    "elements_text": "unknown: A central graphic element with an abstract shape, possibly representing a financial concept. | unknown: An overlay graphic that complements the central element, featuring a similar abstract design. | unknown: An additional graphic element that enhances the visual complexity of the ad. | unknown: A large background shape that provides a base for the other elements, likely in a muted color. | unknown: A secondary graphic element that adds depth to the overall design. | unknown: A decorative shape that adds visual interest to the ad's composition. | unknown: A supporting graphic element that ties together the overall theme of the ad. | body_text: Text that conveys the main message, prominently displayed in a bold font. | cta: A button or text prompting user action, designed to stand out against the background. | cta: A button with the text 'Learn more', inviting users to engage further. | headline: The headline text 'Track every euro No hidden fees' is bold and eye-catching. text='Track every euro No hidden fees' | cta: A smaller text button that encourages users to learn more about the service. text='Learn more' | logo: The brand logo 'EarnPath' is positioned at the top, clearly visible. text='EarnPath'"
+  }
+}

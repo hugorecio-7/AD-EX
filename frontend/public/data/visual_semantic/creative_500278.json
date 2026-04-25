@@ -1,0 +1,218 @@
+{
+  "creative_id": "500278",
+  "asset_file": "assets/creative_500278.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional text and a logo.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        317,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.993,
+        0.755
+      ],
+      "center_normalized": [
+        0.521,
+        0.478
+      ],
+      "area_percentage": 52.33
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central image placeholder",
+      "description": "A large rectangular placeholder in the center, suggesting an image or product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Top headline area",
+      "description": "A wide rectangular area at the top with a light color, likely for a headline or title.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small central element",
+      "description": "A small rectangular element in the center, possibly an icon or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A bold, large text area at the bottom with white text on an orange background, promoting a delivery offer.",
+      "text_content": "Hungry? We got you Free delivery over $15 €19.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        306,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.487,
+        0.776
+      ],
+      "area_percentage": 23.21
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A small logo at the top left, featuring the brand name 'BiteRush' in a distinctive font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        32,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.092
+      ],
+      "area_percentage": 1.72
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right with the word 'SALE' in bold text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, promotional text, logo, sale badge",
+    "layout_text": "The headline is at the top, the logo is in the top left, the main text is at the bottom, and the central image is in the middle.",
+    "ocr_text": "Hungry? We got you Free delivery over $15 €19.99 Learn more, BiteRush, SALE, UGC",
+    "elements_text": "main_subject: A large rectangular placeholder in the center, suggesting an image or product display. | headline: A wide rectangular area at the top with a light color, likely for a headline or title. | unknown: A small rectangular element in the center, possibly an icon or decorative feature. | body_text: A bold, large text area at the bottom with white text on an orange background, promoting a delivery offer. text='Hungry? We got you Free delivery over $15 €19.99 Learn more' | logo: A small logo at the top left, featuring the brand name 'BiteRush' in a distinctive font. text='BiteRush' | discount_badge: A small yellow badge at the top right with the word 'SALE' in bold text. text='SALE' | social_proof: A small tag at the top left corner labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

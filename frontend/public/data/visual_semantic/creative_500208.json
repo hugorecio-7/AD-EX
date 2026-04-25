@@ -1,0 +1,266 @@
+{
+  "creative_id": "500208",
+  "asset_file": "assets/creative_500208.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo, a main message, and a clear call to action.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting fresh food options with a strong call to action.",
+    "dominant_colors": [
+      "dark gray",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire banner, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.63
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "A simple, modern logo featuring the text 'PlateSprint' in a bold font, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        171,
+        227
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.535,
+        0.474
+      ],
+      "center_normalized": [
+        0.343,
+        0.377
+      ],
+      "area_percentage": 7.38
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.516,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.724,
+        0.091
+      ],
+      "area_percentage": 3.41
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text area displaying 'Hungry? We got you' in a large, bold font, centered in the middle of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text below the main message that reads 'Fresh favorites nearby' in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.458,
+        0.398
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Image placeholders",
+      "description": "Three rectangular shapes representing image placeholders, arranged horizontally in the center of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        244,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.765,
+        0.458
+      ],
+      "center_normalized": [
+        0.677,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button at the bottom center of the banner with the text 'Start now' in a clear, inviting font.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        35,
+        305,
+        290,
+        389
+      ],
+      "bbox_normalized": [
+        0.109,
+        0.635,
+        0.906,
+        0.81
+      ],
+      "center_normalized": [
+        0.508,
+        0.723
+      ],
+      "area_percentage": 13.95
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The text 'PlateSprint' displayed prominently at the top of the banner in a bold, modern font.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        22,
+        28,
+        164,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.512,
+        0.117
+      ],
+      "center_normalized": [
+        0.291,
+        0.087
+      ],
+      "area_percentage": 2.59
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "CTA button",
+      "description": "A clear, inviting button at the bottom of the banner with the text 'Start now' in a bold font.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, bright yellow badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, PlateSprint logo, call to action.",
+    "layout_text": "The logo is at the top center, the main message is in the middle, and the CTA is at the bottom center.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, PlateSprint, SALE, Start now",
+    "elements_text": "logo: A simple, modern logo featuring the text 'PlateSprint' in a bold font, positioned at the top center. | discount_badge: A small, bright yellow badge with the word 'SALE' in bold text, located at the top right corner. | body_text: A prominent text area displaying 'Hungry? We got you' in a large, bold font, centered in the middle of the banner. | body_text: A smaller text below the main message that reads 'Fresh favorites nearby' in a lighter font. | unknown: Three rectangular shapes representing image placeholders, arranged horizontally in the center of the banner. | cta: A bold button at the bottom center of the banner with the text 'Start now' in a clear, inviting font. text='Hungry? We got you Fresh favorites nearby' | headline: The text 'PlateSprint' displayed prominently at the top of the banner in a bold, modern font. text='PlateSprint' | cta: A clear, inviting button at the bottom of the banner with the text 'Start now' in a bold font. text='Start now' | discount_badge: A small, bright yellow badge with the word 'SALE' in bold text, positioned at the top right corner. text='SALE'"
+  }
+}

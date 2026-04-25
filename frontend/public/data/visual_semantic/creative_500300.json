@@ -1,0 +1,170 @@
+{
+  "creative_id": "500300",
+  "asset_file": "assets/creative_500300.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a logo, a headline about cashback, and a call-to-action button.",
+    "visual_style": "minimalistic with soft tones",
+    "main_message": "Encouraging users to earn cashback and order now.",
+    "dominant_colors": [
+      "light gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A simple logo featuring the text 'VaultRun' in a clean, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.501,
+        0.089
+      ],
+      "area_percentage": 17.8
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Main visual area",
+      "description": "A central area that likely contains a placeholder for images or graphics, with a light background and abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary visual area",
+      "description": "Another central area with a light background, possibly containing additional graphics or text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.59
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Cashback offer",
+      "description": "Bold text stating 'Earn cashback daily' in a large, eye-catching font, with a smaller tagline 'Built for peace of mind' below it.",
+      "text_content": "Earn cashback daily Built nd Order now",
+      "bbox_xyxy": [
+        50,
+        204,
+        276,
+        299
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.637,
+        0.863,
+        0.934
+      ],
+      "center_normalized": [
+        0.509,
+        0.786
+      ],
+      "area_percentage": 20.97
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button with the text 'Order now' in a clear, actionable font, designed to attract user interaction.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalistic with soft tones, cashback offer, call-to-action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA button is at the bottom.",
+    "ocr_text": "VaultRun, Earn cashback daily, Built for peace of mind, Order now",
+    "elements_text": "logo: A simple logo featuring the text 'VaultRun' in a clean, modern font, positioned at the top of the ad. | unknown: A central area that likely contains a placeholder for images or graphics, with a light background and abstract shapes. | unknown: Another central area with a light background, possibly containing additional graphics or text elements. | headline: Bold text stating 'Earn cashback daily' in a large, eye-catching font, with a smaller tagline 'Built for peace of mind' below it. text='Earn cashback daily Built nd Order now' | cta: A prominent button with the text 'Order now' in a clear, actionable font, designed to attract user interaction. text='VaultRun'"
+  }
+}

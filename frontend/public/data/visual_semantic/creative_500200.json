@@ -1,0 +1,194 @@
+{
+  "creative_id": "500200",
+  "asset_file": "assets/creative_500200.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent logo, engaging text, and abstract shapes.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting flexible booking options for travel with a sale offer.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NomadLayer logo",
+      "description": "A simple logo featuring the text 'NomadLayer' in a clean, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        115,
+        159,
+        225
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.24,
+        0.499,
+        0.471
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, rendered in a minimalistic style, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.81
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dream destinations await",
+      "description": "Bold, large text stating 'Dream destinations await' in a prominent position at the bottom of the ad, conveying a sense of adventure.",
+      "text_content": "destinations await Flexible hooking ontions Install now",
+      "bbox_xyxy": [
+        63,
+        337,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.702,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.503,
+        0.808
+      ],
+      "area_percentage": 13.02
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "NomadLayer",
+      "description": "The brand name 'NomadLayer' displayed in a clear, legible font at the top of the ad, establishing brand identity.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        23,
+        26,
+        178,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.054,
+        0.556,
+        0.117
+      ],
+      "center_normalized": [
+        0.314,
+        0.085
+      ],
+      "area_percentage": 3.03
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller text below the main headline that reads 'Flexible booking options', providing additional information about the service.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        108,
+        310,
+        212,
+        340
+      ],
+      "bbox_normalized": [
+        0.338,
+        0.646,
+        0.662,
+        0.708
+      ],
+      "center_normalized": [
+        0.5,
+        0.677
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, eye-catching badge with the word 'SALE' in bold letters, positioned at the top right corner of the ad to attract attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalistic with bold text, NomadLayer logo, sale badge, and engaging body text.",
+    "layout_text": "The logo is at the top, followed by the main headline at the bottom, with additional text and a sale badge at the top right.",
+    "ocr_text": "NomadLayer, SALE, Dream destinations await, Flexible booking options, Install now",
+    "elements_text": "logo: A simple logo featuring the text 'NomadLayer' in a clean, modern font, positioned at the top of the ad. | unknown: Two overlapping geometric shapes, one circular and one rectangular, rendered in a minimalistic style, located in the center of the ad. | body_text: Bold, large text stating 'Dream destinations await' in a prominent position at the bottom of the ad, conveying a sense of adventure. text='destinations await Flexible hooking ontions Install now' | headline: The brand name 'NomadLayer' displayed in a clear, legible font at the top of the ad, establishing brand identity. text='NomadLayer' | body_text: Smaller text below the main headline that reads 'Flexible booking options', providing additional information about the service. text='Dream' | discount_badge: A small, eye-catching badge with the word 'SALE' in bold letters, positioned at the top right corner of the ad to attract attention. text='SALE'"
+  }
+}
