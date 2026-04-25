@@ -37,11 +37,10 @@ IDENTITY_COLUMNS = [
 PERFORMANCE_SCORE_SPEC = {
     "name": "performance",
     "metrics": {
-        "overall_ctr": 0.25,
+        "overall_ctr": 0.20,
         "overall_cvr": 0.25,
-        "overall_ipm": 0.25,
-        "overall_roas": 0.15,
-        "perf_score": 0.10,
+        "overall_ipm": 0.35,
+        "overall_roas": 0.20,
     },
     "invert_metrics": [],
     "contextual_weight": CONTEXTUAL_WEIGHT,
@@ -52,13 +51,12 @@ PERFORMANCE_SCORE_SPEC = {
 CREATIVE_QUALITY_SCORE_SPEC = {
     "name": "creative_quality",
     "metrics": {
+        "brand_visibility_score": 0.35,
         "readability_score": 0.25,
-        "brand_visibility_score": 0.30,
-        "clutter_score": 0.20,
-        "novelty_score": 0.15,
-        "motion_score": 0.10,
+        "clutter_score": 0.25,
+        "novelty_score": 0.10,
+        "motion_score": 0.05,
     },
-    # Higher clutter is worse, so its percentile is inverted.
     "invert_metrics": ["clutter_score"],
     "contextual_weight": CONTEXTUAL_WEIGHT,
     "global_weight": GLOBAL_WEIGHT,
@@ -70,7 +68,6 @@ RAW_PERFORMANCE_COLUMNS = [
     "overall_cvr",
     "overall_ipm",
     "overall_roas",
-    "perf_score",
     "total_impressions",
     "total_clicks",
     "total_conversions",
@@ -101,10 +98,9 @@ FUTURE_SCORE_COLUMNS = [
 # ---------------------------------------------------------------------
 
 CONFIDENCE_SCORE_WEIGHTS = {
-    "total_impressions": 0.40,
-    "total_spend_usd": 0.25,
-    "total_clicks": 0.15,
-    "total_conversions": 0.15,
+    "total_impressions": 0.45,
+    "total_clicks": 0.25,
+    "total_conversions": 0.25,
     "total_days_active": 0.05,
 }
 
@@ -114,7 +110,6 @@ CONFIDENCE_QUANTILE_THRESHOLD = 0.90
 
 RAW_CONFIDENCE_COLUMNS = [
     "total_impressions",
-    "total_spend_usd",
     "total_clicks",
     "total_conversions",
     "total_days_active",
@@ -134,27 +129,23 @@ HEALTH_STATUS_MAPPING = {
 }
 
 HEALTH_SCORE_WEIGHTS = {
-    "status": 0.45,
-    "ctr_decay": 0.25,
-    "cvr_decay": 0.20,
-    "fatigue_timing": 0.10,
+    "ctr_decay": 0.55,
+    "cvr_decay": 0.45,
 }
 
 RAW_HEALTH_COLUMNS = [
-    "creative_status",
-    "fatigue_day",
     "ctr_decay_pct",
     "cvr_decay_pct",
 ]
 
 CONTEXT_SCORE_WEIGHTS = {
-    "vertical": 0.30,
-    "objective": 0.25,
-    "format": 0.15,
-    "language": 0.10,
+    "vertical": 0.32,
+    "objective": 0.28,
+    "format": 0.17,
     "target_os": 0.10,
-    "countries": 0.05,
-    "target_age_segment": 0.05,
+    "countries": 0.07,
+    "target_age_segment": 0.03,
+    "language": 0.03,
 }
 
 # ---------------------------------------------------------------------
@@ -171,10 +162,10 @@ SEMANTIC_TEXT_FIELDS = [
 ]
 
 SEMANTIC_SIMILARITY_WEIGHTS = {
-    "global": 0.30,
-    "elements": 0.30,
+    "global": 0.20,
+    "elements": 0.35,
     "ocr": 0.20,
-    "layout": 0.20,
+    "layout": 0.25,
 }
 
 # ---------------------------------------------------------------------
