@@ -1,0 +1,219 @@
+{
+  "creative_id": "500017",
+  "asset_file": "assets/creative_500017.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned at the top left. The central focus includes a prominent headline stating 'Save with confidence' followed by body text that reads 'Built for peace of mind'. A call to action, 'Try for free', is located at the bottom center. The layout incorporates geometric shapes as decorative elements, enhancing the visual appeal without overwhelming the main message.",
+    "visual_style": "Modern design with geometric elements and a clean layout",
+    "main_message": "Encouraging users to invest with confidence and peace of mind",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Reassuring and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath text logo",
+      "description": "The logo of the EarnPath app, displayed in the top left corner of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        37,
+        113,
+        55
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.353,
+        0.115
+      ],
+      "center_normalized": [
+        0.212,
+        0.096
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Save with confidence",
+      "bbox_xyxy": [
+        72,
+        308,
+        247,
+        348
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.772,
+        0.725
+      ],
+      "center_normalized": [
+        0.498,
+        0.683
+      ],
+      "area_percentage": 4.56
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "Built for peace of mind",
+      "bbox_xyxy": [
+        72,
+        348,
+        247,
+        389
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.725,
+        0.772,
+        0.81
+      ],
+      "center_normalized": [
+        0.498,
+        0.768
+      ],
+      "area_percentage": 4.67
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A button with action text located at the bottom of the crop.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A crop showing a circle and a rectangle in a purple background, positioned towards the left side of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        133,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.477,
+        0.398
+      ],
+      "area_percentage": 14.58
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A combination of a circle and a rectangle in a purple background, positioned centrally within the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.242,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.331,
+        0.354
+      ],
+      "area_percentage": 7.31
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Segmented crop",
+      "description": "A plain purple rectangular area without any visible text or identifiable elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for EarnPath Invest promoting confidence in saving and investing.",
+    "elements_text": "background: full canvas background. logo: EarnPath text logo, small, located at top left, text: \"EarnPath\". headline: Headline text, small, located at center, text: \"Save with confidence\". body_text: Body text, small, located at bottom center, text: \"Built for peace of mind\". cta: Call to Action, small, located at bottom center, text: \"Try for free\". decorative_element: Geometric shapes, medium, located at center. decorative_element: Geometric shapes, medium, located at center. unknown: Segmented crop, medium, located at center.",
+    "ocr_text": "EarnPath Save with confidence Built for peace of mind Try for free",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.072, 0.077, 0.353, 0.115]. headline Headline text at center, bbox=[0.225, 0.642, 0.772, 0.725]. body_text Body text at bottom center, bbox=[0.225, 0.725, 0.772, 0.81]. cta Call to Action at bottom center, bbox=[0.331, 0.871, 0.669, 0.921]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[23, 37, 113, 55] | bbox_norm=[0.072, 0.077, 0.353, 0.115] | center=[0.212, 0.096] | area_pct=1.05\nid=3 | role=headline | label=Headline text | text=\"Save with confidence\" | bbox_xyxy=[72, 308, 247, 348] | bbox_norm=[0.225, 0.642, 0.772, 0.725] | center=[0.498, 0.683] | area_pct=4.56\nid=4 | role=body_text | label=Body text | text=\"Built for peace of mind\" | bbox_xyxy=[72, 348, 247, 389] | bbox_norm=[0.225, 0.725, 0.772, 0.81] | center=[0.498, 0.768] | area_pct=4.67\nid=5 | role=cta | label=Call to Action | text=\"Try for free\" | bbox_xyxy=[106, 418, 214, 442] | bbox_norm=[0.331, 0.871, 0.669, 0.921] | center=[0.5, 0.896] | area_pct=1.69\nid=6 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[56, 133, 249, 249] | bbox_norm=[0.175, 0.277, 0.778, 0.519] | center=[0.477, 0.398] | area_pct=14.58\nid=7 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 116, 158, 224] | bbox_norm=[0.169, 0.242, 0.494, 0.467] | center=[0.331, 0.354] | area_pct=7.31\nid=9 | role=unknown | label=Segmented crop | text=<none> | bbox_xyxy=[128, 163, 249, 249] | bbox_norm=[0.4, 0.34, 0.778, 0.519] | center=[0.589, 0.429] | area_pct=6.77"
+  }
+}

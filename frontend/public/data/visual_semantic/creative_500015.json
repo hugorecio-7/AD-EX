@@ -1,0 +1,195 @@
+{
+  "creative_id": "500015",
+  "asset_file": "assets/creative_500015.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned in the top left corner. The main subject is highlighted by a prominent headline stating 'Track every euro' and supporting body text that reads 'Built for peace of mind', both centered in the middle of the ad. A call to action button labeled 'Start now' is located at the bottom center. The composition includes geometric shapes as decorative elements, enhancing the visual appeal without distracting from the main message.",
+    "visual_style": "Modern flat design with high contrast",
+    "main_message": "Encouraging users to track their investments for peace of mind",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Reassuring and motivating"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath text logo",
+      "description": "The logo of the EarnPath app, displayed prominently in the upper left corner of the crop.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        37,
+        113,
+        55
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.353,
+        0.115
+      ],
+      "center_normalized": [
+        0.212,
+        0.096
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Track every euro",
+      "bbox_xyxy": [
+        29,
+        309,
+        289,
+        333
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.644,
+        0.903,
+        0.694
+      ],
+      "center_normalized": [
+        0.497,
+        0.669
+      ],
+      "area_percentage": 4.06
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "Built for peace of mind",
+      "bbox_xyxy": [
+        29,
+        333,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.694,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.497,
+        0.719
+      ],
+      "area_percentage": 4.06
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button with the text 'Start now' positioned at the bottom of the crop.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A combination of a circle and a rectangle in a blue background, positioned towards the left side of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.294,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.478,
+        0.406
+      ],
+      "area_percentage": 13.5
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A combination of a circle and a rectangle in a blue background, positioned in the upper part of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.242,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.331,
+        0.354
+      ],
+      "area_percentage": 7.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for EarnPath Invest promoting investment tracking.",
+    "elements_text": "background: full canvas background. logo: EarnPath text logo, small, located at top left, text: \"EarnPath\". headline: Headline text, small, located at center, text: \"Track every euro\". body_text: Body text, small, located at center, text: \"Built for peace of mind\". cta: Call to Action Button, small, located at bottom center, text: \"Start now\". decorative_element: Geometric shapes, medium, located at center. decorative_element: Geometric shapes, medium, located at center.",
+    "ocr_text": "EarnPath Track every euro Built for peace of mind Start now",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.072, 0.077, 0.353, 0.115]. headline Headline text at center, bbox=[0.091, 0.644, 0.903, 0.694]. body_text Body text at center, bbox=[0.091, 0.694, 0.903, 0.744]. cta Call to Action Button at bottom center, bbox=[0.353, 0.873, 0.647, 0.915]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[23, 37, 113, 55] | bbox_norm=[0.072, 0.077, 0.353, 0.115] | center=[0.212, 0.096] | area_pct=1.05\nid=3 | role=headline | label=Headline text | text=\"Track every euro\" | bbox_xyxy=[29, 309, 289, 333] | bbox_norm=[0.091, 0.644, 0.903, 0.694] | center=[0.497, 0.669] | area_pct=4.06\nid=4 | role=body_text | label=Body text | text=\"Built for peace of mind\" | bbox_xyxy=[29, 333, 289, 357] | bbox_norm=[0.091, 0.694, 0.903, 0.744] | center=[0.497, 0.719] | area_pct=4.06\nid=5 | role=cta | label=Call to Action Button | text=\"Start now\" | bbox_xyxy=[113, 419, 207, 439] | bbox_norm=[0.353, 0.873, 0.647, 0.915] | center=[0.5, 0.894] | area_pct=1.22\nid=6 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[57, 141, 249, 249] | bbox_norm=[0.178, 0.294, 0.778, 0.519] | center=[0.478, 0.406] | area_pct=13.5\nid=7 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 116, 158, 224] | bbox_norm=[0.169, 0.242, 0.494, 0.467] | center=[0.331, 0.354] | area_pct=7.31"
+  }
+}

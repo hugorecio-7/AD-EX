@@ -1,0 +1,195 @@
+{
+  "creative_id": "500016",
+  "asset_file": "assets/creative_500016.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned in the top left corner. The main message is conveyed through a prominent headline stating 'Secure & simple Fast signup' and supporting body text 'instant card' centered below it. A call-to-action button labeled 'Order now' is located at the bottom center. The layout is complemented by abstract shapes and a segmented crop that add visual interest without overwhelming the main content.",
+    "visual_style": "Modern flat design with vibrant colors",
+    "main_message": "Encourages quick and easy signup for financial services.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Inviting and reassuring"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Full canvas background",
+      "description": "Background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath text logo",
+      "description": "The logo of the EarnPath app, displayed in the top left corner of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Primary marketing headline text.",
+      "text_content": "Secure & simple Fast signup",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        437
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.683
+      ],
+      "center_normalized": [
+        0.5,
+        0.661
+      ],
+      "area_percentage": 3.43
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Supporting descriptive text below the headline.",
+      "text_content": "instant card",
+      "bbox_xyxy": [
+        39,
+        437,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.683,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.705
+      ],
+      "area_percentage": 3.55
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A button at the bottom of the ad encouraging users to take action, located centrally.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "An abstract design featuring a large circle and a smaller rectangle, positioned in the center of the crop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.353
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Segmented crop",
+      "description": "A blue rectangular area with no visible elements or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for EarnPath Invest promoting easy signup for financial services.",
+    "elements_text": "background: full canvas background. logo: EarnPath text logo, tiny, located at top left, text: \"EarnPath\". headline: Headline text, small, located at center, text: \"Secure & simple Fast signup\". body_text: Body text, small, located at center, text: \"instant card\". cta: Call to Action Button, tiny, located at bottom center, text: \"Order now\". decorative_element: Abstract shapes, medium, located at center. unknown: Segmented crop, medium, located at center.",
+    "ocr_text": "EarnPath Secure & simple Fast signup instant card Order now Fast signup, instant card",
+    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.069, 0.077, 0.353, 0.108]. headline Headline text at center, bbox=[0.108, 0.639, 0.892, 0.683]. body_text Body text at center, bbox=[0.108, 0.683, 0.892, 0.728]. cta Call to Action Button at bottom center, bbox=[0.347, 0.877, 0.653, 0.908]",
+    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[25, 49, 127, 69] | bbox_norm=[0.069, 0.077, 0.353, 0.108] | center=[0.211, 0.092] | area_pct=0.89\nid=3 | role=headline | label=Headline text | text=\"Secure & simple Fast signup\" | bbox_xyxy=[39, 409, 321, 437] | bbox_norm=[0.108, 0.639, 0.892, 0.683] | center=[0.5, 0.661] | area_pct=3.43\nid=4 | role=body_text | label=Body text | text=\"instant card\" | bbox_xyxy=[39, 437, 321, 466] | bbox_norm=[0.108, 0.683, 0.892, 0.728] | center=[0.5, 0.705] | area_pct=3.55\nid=5 | role=cta | label=Call to Action Button | text=\"Order now\" | bbox_xyxy=[125, 561, 235, 581] | bbox_norm=[0.347, 0.877, 0.653, 0.908] | center=[0.5, 0.892] | area_pct=0.95\nid=6 | role=decorative_element | label=Abstract shapes | text=<none> | bbox_xyxy=[61, 153, 178, 299] | bbox_norm=[0.169, 0.239, 0.494, 0.467] | center=[0.332, 0.353] | area_pct=7.41\nid=8 | role=unknown | label=Segmented crop | text=<none> | bbox_xyxy=[142, 218, 280, 332] | bbox_norm=[0.394, 0.341, 0.778, 0.519] | center=[0.586, 0.43] | area_pct=6.83"
+  }
+}
