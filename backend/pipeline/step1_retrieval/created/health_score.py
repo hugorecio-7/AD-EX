@@ -30,38 +30,34 @@ def _status_health_score(df: pd.DataFrame) -> pd.Series:
     )
 
 
-def _normalize_decay_series(df: pd.DataFrame, column: str) -> pd.Series:
+def _normalize_drop_series(df: pd.DataFrame, column: str) -> pd.Series:
     """
-    Converts decay into a penalty-like value in [0, 1].
+    Converts relative change into a drop severity in [0, 1].
 
-    Positive decay means performance dropped.
-    Negative decay means performance improved, so it is treated as 0 decay.
+    In this dataset, negative values usually mean:
+        last period < first period
+        performance dropped
 
-    If values look like percentages instead of ratios, for example 30 instead
-    of 0.30, the function automatically divides by 100.
+    Example:
+        -0.80 -> 0.80 drop severity
+         0.20 -> 0.00 drop severity, because performance improved
     """
     if column not in df.columns:
         return pd.Series(0.0, index=df.index)
 
-    decay = pd.to_numeric(df[column], errors="coerce").fillna(0.0)
+    change = pd.to_numeric(df[column], errors="coerce").fillna(0.0)
 
-    # If values are likely percentage points, convert to ratio.
-    if decay.abs().quantile(0.95) > 2.0:
-        decay = decay / 100.0
+    if change.abs().quantile(0.95) > 2.0:
+        change = change / 100.0
 
-    decay = decay.clip(lower=0.0, upper=1.0)
-    return decay
+    drop = (-change).clip(lower=0.0, upper=1.0)
+
+    return drop
 
 
 def _decay_health_score(df: pd.DataFrame, column: str) -> pd.Series:
-    """
-    Converts decay into health.
-
-    No decay      -> 1
-    Full decay    -> 0
-    """
-    decay = _normalize_decay_series(df, column)
-    return (1.0 - decay).clip(0.0, 1.0)
+    drop = _normalize_drop_series(df, column)
+    return (1.0 - drop).clip(0.0, 1.0)
 
 
 def _fatigue_timing_score(df: pd.DataFrame) -> pd.Series:
@@ -97,39 +93,20 @@ def _fatigue_timing_score(df: pd.DataFrame) -> pd.Series:
 
 
 def add_health_score(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Adds HealthScore columns.
-
-    HealthScore estimates whether the creative is still a good reference
-    candidate or whether it is affected by fatigue/decay.
-
-    Output columns:
-        creative_status_health_score
-        ctr_decay_health_score
-        cvr_decay_health_score
-        fatigue_timing_score
-        health_score_final
-    """
     df = df.copy()
 
-    df["creative_status_health_score"] = _status_health_score(df)
     df["ctr_decay_health_score"] = _decay_health_score(df, "ctr_decay_pct")
     df["cvr_decay_health_score"] = _decay_health_score(df, "cvr_decay_pct")
-    df["fatigue_timing_score"] = _fatigue_timing_score(df)
 
     total_weight = float(sum(HEALTH_SCORE_WEIGHTS.values()))
     if total_weight <= 0:
         raise ValueError("Health score weights must sum to a positive value.")
 
     df["health_score_final"] = (
-        (HEALTH_SCORE_WEIGHTS["status"] / total_weight)
-        * df["creative_status_health_score"]
-        + (HEALTH_SCORE_WEIGHTS["ctr_decay"] / total_weight)
+        (HEALTH_SCORE_WEIGHTS["ctr_decay"] / total_weight)
         * df["ctr_decay_health_score"]
         + (HEALTH_SCORE_WEIGHTS["cvr_decay"] / total_weight)
         * df["cvr_decay_health_score"]
-        + (HEALTH_SCORE_WEIGHTS["fatigue_timing"] / total_weight)
-        * df["fatigue_timing_score"]
     ).clip(0.0, 1.0)
 
     return df
