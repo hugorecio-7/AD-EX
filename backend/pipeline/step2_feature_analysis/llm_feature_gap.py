@@ -36,6 +36,17 @@ FRONTEND_SEMANTIC_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "visual
 
 FRONTEND_ASSETS_DIR = _PROJECT_ROOT / "frontend" / "public" / "data" / "assets"
 
+TEXTUAL_ROLES = {
+    "headline",
+    "body_text",
+    "price",
+    "discount_badge",
+    "rating",
+    "social_proof",
+    "logo",
+    "cta",
+}
+
 
 def encode_image(image_path: Path) -> str:
     with open(image_path, "rb") as image_file:
@@ -91,25 +102,51 @@ def _summarize_creative(data: dict) -> str:
         "Visual Elements:",
     ]
 
-    SKIP_ROLES = {"background", "unknown"}
+    SKIP_ROLES = {"background", "unknown", *TEXTUAL_ROLES}
     for e in elements:
         role = e.get("role", "unknown")
         if role in SKIP_ROLES:
             continue
         desc = e.get("description", "")
         label = e.get("label", "")
-        text = e.get("text_content", "")
         line = f"  [{role}] {label}"
         if desc:
             line += f" — {desc}"
-        if text:
-            line += f" (text: '{text}')"
         lines.append(line)
 
     if embedding.get("layout_text"):
         lines += ["", f"Layout: {embedding['layout_text']}"]
 
     return "\n".join(lines)
+
+
+def _remove_textual_information(data: dict[str, Any]) -> dict[str, Any]:
+    """Keep only non-textual visual context for LLM comparison."""
+    cleaned: dict[str, Any] = {
+        "creative_id": data.get("creative_id"),
+        "global": dict(data.get("global", {})),
+        "elements": [],
+        "embedding_texts": {},
+    }
+
+    for element in data.get("elements", []):
+        if not isinstance(element, dict):
+            continue
+        role = str(element.get("role", "unknown")).lower()
+        if role in TEXTUAL_ROLES:
+            continue
+
+        kept = {k: v for k, v in element.items() if k not in {"text_content", "ocr_text"}}
+        cleaned["elements"].append(kept)
+
+    if isinstance(data.get("embedding_texts"), dict):
+        embedding = dict(data["embedding_texts"])
+        embedding.pop("copy_text", None)
+        embedding.pop("headline_text", None)
+        embedding.pop("cta_text", None)
+        cleaned["embedding_texts"] = embedding
+
+    return cleaned
 
 
 # ── Core LLM call ─────────────────────────────────────────────────────────────
@@ -124,6 +161,8 @@ def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max
         print(f"[LLMGap] No s'ha trobat el JSON de l'original {query_creative_id}.")
         return {"missing_visual_features": _visual_fallback(), "reasoning": "Missing original JSON", "query_id": query_creative_id, "top_ids_used": []}
 
+    query_json_no_text = _remove_textual_information(query_json)
+
     query_img_path = FRONTEND_ASSETS_DIR / f"creative_{query_creative_id}.png"
     query_b64 = encode_image(query_img_path) if query_img_path.exists() else None
 
@@ -132,7 +171,9 @@ def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max
         {
             "type": "text", 
             "text": "You are an expert creative analyst. Compare the ORIGINAL ad with TOP ads to find missing visual features.\n\n"
-                    "ORIGINAL AD JSON:\n" + json.dumps(query_json, indent=2)
+                    "IMPORTANT: Ignore all textual content and copywriting. Ignore headlines, body copy, CTA wording, logo text, prices, discounts, and OCR.\n"
+                    "Focus only on concrete visual differences that can be drawn/generated in an image.\n\n"
+                    "ORIGINAL AD JSON (TEXT FILTERED):\n" + json.dumps(query_json_no_text, indent=2)
         }
     ]
     if query_b64:
@@ -146,12 +187,14 @@ def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max
         t_json = _load_semantic(tid)
         if not t_json: 
             continue
+
+        t_json_no_text = _remove_textual_information(t_json)
             
         top_ids_used.append(tid)
         t_img_path = FRONTEND_ASSETS_DIR / f"creative_{tid}.png"
         t_b64 = encode_image(t_img_path) if t_img_path.exists() else None
 
-        user_content.append({"type": "text", "text": f"\n--- TOP AD {tid} ---\nJSON:\n" + json.dumps(t_json, indent=2)})
+        user_content.append({"type": "text", "text": f"\n--- TOP AD {tid} ---\nJSON (TEXT FILTERED):\n" + json.dumps(t_json_no_text, indent=2)})
         if t_b64:
             user_content.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{t_b64}"}})
 
@@ -162,11 +205,14 @@ def analyze_feature_gap_with_llm(query_creative_id: str, top_ids: list[str], max
 Based on the images and JSON data, identify up to {max_features} key VISUAL features present in top-performing ads but MISSING in the original ad.
 
 STRICT RULES:
-1. Describe VISUAL properties (backgrounds, lighting, elements, CTA placement, colors).
+1. Ignore all text and copywriting. Do not mention headlines, body text, CTA text, logo text, offers, prices, percentages, typography, or messaging.
+2. Describe only concrete visual properties (backgrounds, lighting, composition, subject pose, objects, color treatment, depth, textures, non-text icons/shapes).
+3. Avoid abstract recommendations (forbidden examples: "make it more engaging", "improve hook", "stronger message").
+4. Each feature must be a drawable/generable visual change, specific enough for image generation.
 2. Return ONLY a valid JSON object matching this EXACT structure:
 {{
   "missing_visual_features": ["feature 1", "feature 2"],
-  "reasoning": "Explanation"
+    "reasoning": "Brief visual-only explanation"
 }}"""
     })
 
@@ -182,8 +228,34 @@ STRICT RULES:
         
         # Neteja de paraules clau (codi que ja tenies)
         features = result.get("missing_visual_features", [])
-        SKIP_KEYWORDS = ("format", "themed", "hook style", "ad format", "objective", "vertical", "cta", "headline")
-        features = [f for f in features if not any(k in f.lower() for k in SKIP_KEYWORDS)]
+        SKIP_KEYWORDS = (
+            "format",
+            "themed",
+            "hook style",
+            "ad format",
+            "objective",
+            "vertical",
+            "cta",
+            "headline",
+            "body text",
+            "copy",
+            "message",
+            "slogan",
+            "price",
+            "discount",
+            "offer",
+            "%",
+            "font",
+            "typography",
+            "text",
+            "logo text",
+            "more engaging",
+            "better conversion",
+        )
+        features = [
+            f for f in features
+            if isinstance(f, str) and not any(k in f.lower() for k in SKIP_KEYWORDS)
+        ]
 
         print(f"[LLMGap+Vision] ✓ Got {len(features)} visual features!")
         return {
