@@ -71,9 +71,11 @@ async def generate_creative_with_flux(
         print("[ImageGen] No diffusion pipe provided — skipping generation step.")
         return mask_path or image_path
 
+    # Prepare for inpainting
     original_pil = Image.open(image_path).convert("RGB")
     orig_w, orig_h = original_pil.size
 
+    # Diffusers works best with multiples of 8
     target_w = (orig_w // 8) * 8
     target_h = (orig_h // 8) * 8
 
@@ -83,7 +85,8 @@ async def generate_creative_with_flux(
     prompt = build_prompt(metadata, missing_features)
     negative_prompt = "text, watermark, typography, words, letters, blurry, ugly, distorted, low quality"
 
-    print(f"[ImageGen] Running inpainting with prompt: {prompt[:80]}...")
+    print(f"[ImageGen] Running inpainting with prompt: {prompt[:100]}...")
+    
     result_sd = await loop.run_in_executor(
         None,
         lambda: pipe(
@@ -98,6 +101,8 @@ async def generate_creative_with_flux(
         ).images[0],
     )
 
+    # Composite: keep the original pixels where the mask was black (0)
+    # and use AI pixels where the mask was white (255)
     result_native = result_sd.resize((orig_w, orig_h), Image.LANCZOS)
     mask_native = Image.fromarray(mask_np).convert("L")
     inverted_mask = mask_native.point(lambda px: 255 - px)
@@ -105,12 +110,13 @@ async def generate_creative_with_flux(
     final_image = result_native.copy()
     final_image.paste(original_pil, (0, 0), inverted_mask)
 
+    # Save output
     os.makedirs(OUTPUT_ASSETS_DIR, exist_ok=True)
     output_filename = f"creative_{creative_id}_upgraded.png"
     output_path = os.path.join(OUTPUT_ASSETS_DIR, output_filename)
     final_image.save(output_path)
 
-    print(f"[ImageGen] Saved upgraded creative → {output_path}")
+    print(f"[ImageGen] ✓ Successfully saved upgraded creative → {output_path}")
     return output_path
 
 
@@ -126,31 +132,15 @@ def evaluate_dynamic_creative(
 ) -> dict:
     """
     Synchronous evaluation entry-point.
-
-    If `metadata` is provided it is forwarded directly to the LightGBM model.
-    Otherwise a best-effort mapping is built from the feature list strings
-    (for backwards compat with calls that only pass format/theme/hook).
-
-    Returns the same dict shape as before so callers don't need to change:
-        {
-            "performance_score": float,
-            "predicted_uplift":  str,
-            "predicted_ctr":     float,
-            "is_fatigued":       bool,
-            "logic_version":     str,
-            ...
-        }
     """
+    print(f"[Evaluation] Evaluating creative {creative_id}...")
+    
     if metadata:
         result = evaluate_creative_from_metadata(metadata, old_ctr=old_ctr)
     else:
         # Legacy path: build minimal creative_params from the free-text feature list
-        # The evaluator will rely on defaults for fields not inferrable from text.
-        theme = None
-        fmt = None
-        hook = None
+        theme, fmt, hook = None, None, None
         if features:
-            # The features list sometimes carries format/theme/hook as plain strings
             for f in features:
                 fl = f.lower()
                 if any(k in fl for k in ("video", "banner", "interstitial", "rewarded", "playable")):
@@ -166,6 +156,10 @@ def evaluate_dynamic_creative(
             "hook_type": hook or "unknown",
         }
         result = evaluate_creative(creative_params, old_ctr=old_ctr)
+
+    print(f"[Evaluation] SUCCESS: Score={result.get('performance_score')} | CTR={result.get('predicted_ctr', 0):.5f} | Uplift={result.get('predicted_uplift')}")
+    if result.get("is_fatigued"):
+        print(f"[Evaluation] ⚠️  FATIGUE WARNING: Performance is expected to drop significantly (Day {result.get('fatigue_day')})")
 
     return result
 
@@ -190,14 +184,25 @@ async def evaluate_new_creative(
 
 async def predict_performance_uplift(
     missing_features: list[str],
-    creative_id: str,
+    creative_id: str | None = None,
     metadata: dict | None = None,
 ) -> str:
-    """Returns only the predicted uplift string (e.g. '+12.3%')."""
-    result = await asyncio.get_event_loop().run_in_executor(
-        None,
-        lambda: evaluate_dynamic_creative(
-            creative_id, features=missing_features, metadata=metadata
-        ),
-    )
-    return result["predicted_uplift"]
+    """
+    Calculates the % uplift by comparing the original creative vs the upgraded one.
+    """
+    # 1. Base Score
+    base = evaluate_dynamic_creative(creative_id, metadata=metadata)
+    
+    # 2. Upgraded Score (simulated by adding the missing features to metadata)
+    upgraded_meta = dict(metadata or {})
+    # For simplicity, we just assume the missing features are applied
+    # and call the evaluator again. 
+    # In a real model, these would be feature flags or text tokens.
+    upgraded = evaluate_dynamic_creative(creative_id, features=missing_features, metadata=upgraded_meta)
+    
+    u1 = base.get("performance_score", 0.5)
+    u2 = upgraded.get("performance_score", 0.5)
+    
+    if u1 == 0: return "+0.0%"
+    diff = (u2 - u1) / u1
+    return f"+{diff*100:.1f}%"

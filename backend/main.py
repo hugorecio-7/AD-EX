@@ -42,6 +42,22 @@ app.include_router(creatives_router, prefix="/api/creatives", tags=["creatives"]
 async def root():
     return {"message": "PixelForge Backend API is running"}
 
+
+@app.get("/evaluate/{creative_id}")
+async def evaluate_root(creative_id: str, format: str = None, theme: str = None, hook: str = None):
+    """Root-level alias so /evaluate/{id} works without the /api/creatives prefix."""
+    from pipeline.step3_generation.core import evaluate_new_creative
+    results = await evaluate_new_creative(format, theme, hook, creative_id)
+    return {
+        "status": "success",
+        "creative_id": creative_id,
+        "metrics": results,
+        "ai_reasoning": (
+            f"PixelForge Neural Engine computed a score of "
+            f"{results['performance_score']} with predicted uplift {results['predicted_uplift']}."
+        ),
+    }
+
 if __name__ == "__main__":
     print("[SYSTEM] Starting Backend API Server at http://localhost:8000")
     uvicorn.run(app, host="0.0.0.0", port=8000)
