@@ -6,10 +6,10 @@ from pathlib import Path
 import pandas as pd
 
 if __package__ is None or __package__ == "":
-    sys.path.append(str(Path(__file__).resolve().parents[2]))
+    sys.path.append(str(Path(__file__).resolve().parents[4]))
 
-from backend.retriver.paths import CREATIVE_RETRIEVAL_INDEX_PATH
-from backend.retriver.context_score import compute_context_score
+from backend.pipeline.step1_retrieval.created.paths import CREATIVE_RETRIEVAL_INDEX_PATH
+from backend.pipeline.step1_retrieval.created.context_score import compute_context_score
 
 
 def test_context_score() -> None:
