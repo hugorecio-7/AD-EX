@@ -79,6 +79,8 @@ ALLOWED_ROLES = [
     "discount_badge", "rating", "social_proof", "icon", "decorative_element", "unknown"
 ]
 
+MAX_ELEMENT_AREA_PCT = 98.0
+
 def encode_image(image_path):
     """Llegeix una imatge i la converteix en Base64."""
     with open(image_path, "rb") as image_file:
@@ -161,11 +163,32 @@ def _split_headline_body(text):
     if not cleaned:
         return None, None
 
-    # Prefer splitting at common supporting-text cues.
     lowered = cleaned.lower()
+
+    # Explicit promo pattern: headline + shipping/support line.
+    if "limited stock" in lowered and "free shipping" in lowered:
+        i1 = lowered.find("limited stock")
+        i2 = lowered.find("free shipping")
+        if i1 >= 0 and i2 > i1:
+            headline = cleaned[i1:i2].strip(" ,;.-")
+            body = cleaned[i2:].strip(" ,;.-")
+            if headline and body:
+                return headline, body
+
+    # Prefer explicit separators when available.
+    splitters = [";", "|", "\n"]
+    for sep in splitters:
+        if sep in cleaned:
+            parts = [p.strip(" ,") for p in cleaned.split(sep) if p.strip(" ,")]
+            if len(parts) >= 2:
+                return parts[0], " ".join(parts[1:])
+
+    # Prefer splitting at common supporting-text cues.
     cue_phrases = [
         " fast signup",
         " instant card",
+        " free shipping",
+        " limited stock",
         " no fees",
         " terms apply",
         " learn more",
@@ -180,14 +203,6 @@ def _split_headline_body(text):
         body = cleaned[split_at:].strip(" ,")
         if headline and body:
             return headline, body
-
-    # Prefer explicit separators when available.
-    splitters = [";", "|", "\n"]
-    for sep in splitters:
-        if sep in cleaned:
-            parts = [p.strip(" ,") for p in cleaned.split(sep) if p.strip(" ,")]
-            if len(parts) >= 2:
-                return parts[0], " ".join(parts[1:])
 
     # Fallback: short first phrase as headline, rest as body.
     words = cleaned.replace(",", " ").split()
@@ -226,6 +241,12 @@ def _create_background_element(img_w, img_h):
         "area_percentage": 100.0,
     }
 
+def _is_oversized_element(element):
+    """Drop very large noisy boxes, but keep explicit background if present."""
+    area = float(element.get("area_percentage", 0) or 0)
+    role = element.get("role")
+    return area > MAX_ELEMENT_AREA_PCT and role != "background"
+
 def postprocess_elements_for_similarity(elements, creative_data, img_w, img_h):
     advertiser = _clean_text(creative_data.get("advertiser_name", "")).lower()
     app_name = _clean_text(creative_data.get("app_name", "")).lower()
@@ -256,8 +277,7 @@ def postprocess_elements_for_similarity(elements, creative_data, img_w, img_h):
 
         processed.append(e)
 
-    # 3) Split oversized text region into headline/body_text.
-    split_done = False
+    # 3) Split text regions into headline/body_text whenever two phrases are detected.
     split_elements = []
     for e in processed:
         text = _clean_text(e.get("text_content") or "")
@@ -265,8 +285,13 @@ def postprocess_elements_for_similarity(elements, creative_data, img_w, img_h):
         is_oversized = (e.get("area_percentage") or 0) >= 80
         role = e.get("role", "")
 
-        if not split_done and is_textual and is_oversized and role in {"main_subject", "headline", "body_text", "unknown"}:
+        if is_textual and role in {"main_subject", "headline", "body_text", "unknown"}:
             headline_text, body_text = _split_headline_body(text)
+            should_split = bool(body_text) and headline_text and headline_text.lower() != text.lower()
+            if not should_split:
+                split_elements.append(e)
+                continue
+
             x1, y1, x2, y2 = e["bbox_xyxy"]
 
             # If bbox is effectively full canvas, use a tighter central text region.
@@ -301,13 +326,14 @@ def postprocess_elements_for_similarity(elements, creative_data, img_w, img_h):
                     "bbox_xyxy": [hx1, by1, hx2, by2],
                 }
                 split_elements.append(_recompute_geometry(b_el, img_w, img_h))
-
-            split_done = True
             continue
 
         split_elements.append(e)
 
     processed = split_elements
+
+    # 3.1) Remove oversized non-background elements.
+    processed = [e for e in processed if not _is_oversized_element(e)]
 
     # 4) Ensure background exists as first-class element.
     if not any(e.get("role") == "background" for e in processed):
@@ -372,6 +398,27 @@ Return ONLY a valid JSON object in English, matching this EXACT structure:
     except Exception as e:
         print(f"Error generant globals: {e}")
         return {}
+
+def build_precise_elements_text(final_elements):
+    """Build a complete, precise elements_text from deterministic fields."""
+    lines = []
+    for e in final_elements:
+        role = e.get("role", "unknown")
+        label = _clean_text(e.get("label", "")) or "-"
+        text = _clean_text(e.get("text_content", ""))
+        text_str = f'text="{text}"' if text else "text=<none>"
+        bbox_xyxy = e.get("bbox_xyxy", [])
+        bbox_norm = e.get("bbox_normalized", [])
+        center = e.get("center_normalized", [])
+        area = e.get("area_percentage", 0)
+
+        line = (
+            f"id={e.get('id')} | role={role} | label={label} | {text_str} | "
+            f"bbox_xyxy={bbox_xyxy} | bbox_norm={bbox_norm} | center={center} | area_pct={area}"
+        )
+        lines.append(line)
+
+    return "\n".join(lines)
 
 def main():
     print("🚀 INICIANT PIPELINE JSON ESTRUCTURAT...")
@@ -445,7 +492,7 @@ def main():
                 advertiser=creative_data.get("advertiser_name", "unknown")
             )
             
-            final_elements.append({
+            candidate_element = {
                 "id": obj["id"],
                 "role": ia_data.get("role", "unknown"),
                 "label": ia_data.get("label", ""),
@@ -455,7 +502,13 @@ def main():
                 "bbox_normalized": bbox_norm,
                 "center_normalized": [cx_norm, cy_norm],
                 "area_percentage": round(obj.get("area_percentage", obj.get("percentatge_area", 0)), 2)
-            })
+            }
+
+            if _is_oversized_element(candidate_element):
+                print(f"  -> Saltant element ID:{obj['id']} per area_percentage={candidate_element['area_percentage']} (> {MAX_ELEMENT_AREA_PCT})")
+                continue
+
+            final_elements.append(candidate_element)
 
     # 4. Generar dades Globals i Embeddings
     print("📝 Generant descripció global i textos per embeddings...")
@@ -465,6 +518,13 @@ def main():
     final_elements = postprocess_elements_for_similarity(final_elements, creative_data, img_w, img_h)
 
     global_data = generate_global_and_embeddings(creative_data, final_elements)
+
+    # Force elements_text to be complete and precise from deterministic geometry/text fields.
+    if not isinstance(global_data, dict):
+        global_data = {}
+    if not isinstance(global_data.get("embedding_texts"), dict):
+        global_data["embedding_texts"] = {}
+    global_data["embedding_texts"]["elements_text"] = build_precise_elements_text(final_elements)
 
     # 5. Muntar el JSON Final segons l'especificació
     final_json = {

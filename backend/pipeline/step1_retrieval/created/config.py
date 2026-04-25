@@ -176,3 +176,20 @@ SEMANTIC_SIMILARITY_WEIGHTS = {
     "ocr": 0.20,
     "layout": 0.20,
 }
+
+# ---------------------------------------------------------------------
+# FinalRetrieverScore
+# ---------------------------------------------------------------------
+
+FINAL_RETRIEVER_SCORE_WEIGHTS = {
+    "similarity_score_final": 0.40,
+    "context_score_final": 0.30,
+    "performance_score_final": 0.15,
+    "creative_quality_score_final": 0.08,
+    "confidence_score_final": 0.03,
+    "health_score_final": 0.04,
+}
+
+# Candidate must perform better than the query by at least this margin.
+# 0.0 means strictly better than the query.
+MIN_PERFORMANCE_DELTA_FOR_RETRIEVAL = 0.0
