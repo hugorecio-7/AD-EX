@@ -20,6 +20,8 @@ SCORE_COLUMNS = [
     "creative_quality_score_contextual",
     "creative_quality_score_global",
     "creative_quality_score_final",
+    "confidence_score_final",
+    "health_score_final",
 ]
 
 
@@ -188,6 +190,76 @@ def inspect_score_index() -> None:
         )
 
         print(group_summary.to_string(index=False))
+
+    # ------------------------------------------------------------
+    # Check: creative status distribution
+    # ------------------------------------------------------------
+    print("\n=== Creative status distribution ===")
+
+    if "creative_status" in df.columns:
+        print(df["creative_status"].value_counts(dropna=False).to_string())
+    else:
+        print("creative_status column not found.")
+
+    # ------------------------------------------------------------
+    # Check: top creatives by ConfidenceScore
+    # ------------------------------------------------------------
+    print("\n=== Top 10 by ConfidenceScore ===")
+
+    display_cols = [
+        "creative_id",
+        "app_name",
+        "vertical",
+        "objective",
+        "format",
+        "total_impressions",
+        "total_clicks",
+        "total_conversions",
+        "total_spend_usd",
+        "total_days_active",
+        "confidence_score_final",
+        "asset_file",
+    ]
+    display_cols = [c for c in display_cols if c in df.columns]
+
+    if "confidence_score_final" in df.columns:
+        print(
+            df.sort_values("confidence_score_final", ascending=False)
+            .head(10)[display_cols]
+            .to_string(index=False)
+        )
+    else:
+        print("confidence_score_final not found.")
+
+    # ------------------------------------------------------------
+    # Check: lowest health creatives
+    # ------------------------------------------------------------
+    print("\n=== Bottom 10 by HealthScore ===")
+
+    display_cols = [
+        "creative_id",
+        "app_name",
+        "vertical",
+        "objective",
+        "format",
+        "creative_status",
+        "fatigue_day",
+        "total_days_active",
+        "ctr_decay_pct",
+        "cvr_decay_pct",
+        "health_score_final",
+        "asset_file",
+    ]
+    display_cols = [c for c in display_cols if c in df.columns]
+
+    if "health_score_final" in df.columns:
+        print(
+            df.sort_values("health_score_final", ascending=True)
+            .head(10)[display_cols]
+            .to_string(index=False)
+        )
+    else:
+        print("health_score_final not found.")
 
     # ------------------------------------------------------------
     # Check 8: correlation between main scores

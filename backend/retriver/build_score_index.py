@@ -12,7 +12,8 @@ from backend.retriver.config import (
     IDENTITY_COLUMNS,
     RAW_PERFORMANCE_COLUMNS,
     RAW_CREATIVE_QUALITY_COLUMNS,
-    FUTURE_SCORE_COLUMNS,
+    RAW_CONFIDENCE_COLUMNS,
+    RAW_HEALTH_COLUMNS,
 )
 from backend.retriver.paths import (
     CREATIVE_RETRIEVAL_INDEX_PATH,
@@ -24,6 +25,9 @@ from backend.retriver.data_loader import (
 )
 from backend.retriver.performance_score import add_performance_score
 from backend.retriver.creative_quality_score import add_creative_quality_score
+from backend.retriver.confidence_score import add_confidence_score
+from backend.retriver.health_score import add_health_score
+
 from backend.retriver.score_utils import (
     fill_missing_categoricals,
     assert_score_range,
@@ -31,7 +35,15 @@ from backend.retriver.score_utils import (
 
 
 def _existing_columns(columns: list[str], df_columns: list[str]) -> list[str]:
-    return [col for col in columns if col in df_columns]
+    result = []
+    seen = set()
+
+    for col in columns:
+        if col in df_columns and col not in seen:
+            result.append(col)
+            seen.add(col)
+
+    return result
 
 
 def _build_output_column_order(df_columns: list[str]) -> list[str]:
@@ -81,7 +93,26 @@ def _build_output_column_order(df_columns: list[str]) -> list[str]:
     ]
     preferred_columns += creative_quality_percentile_columns
 
-    preferred_columns += FUTURE_SCORE_COLUMNS
+    confidence_score_columns = [
+        "total_impressions_confidence_score",
+        "total_spend_usd_confidence_score",
+        "total_clicks_confidence_score",
+        "total_conversions_confidence_score",
+        "total_days_active_confidence_score",
+        "confidence_score_final",
+    ]
+    preferred_columns += confidence_score_columns
+
+    preferred_columns += RAW_HEALTH_COLUMNS
+
+    health_score_columns = [
+        "creative_status_health_score",
+        "ctr_decay_health_score",
+        "cvr_decay_health_score",
+        "fatigue_timing_score",
+        "health_score_final",
+    ]
+    preferred_columns += health_score_columns
 
     existing_preferred = _existing_columns(preferred_columns, df_columns)
     remaining = [col for col in df_columns if col not in existing_preferred]
@@ -123,6 +154,12 @@ def build_creative_retrieval_index() -> None:
     print("[retriver] Adding CreativeQualityScore...")
     df = add_creative_quality_score(df)
 
+    print("[retriver] Adding ConfidenceScore...")
+    df = add_confidence_score(df)
+
+    print("[retriver] Adding HealthScore...")
+    df = add_health_score(df)
+
     assert_score_range(
         df,
         score_columns=[
@@ -132,6 +169,8 @@ def build_creative_retrieval_index() -> None:
             "creative_quality_score_contextual",
             "creative_quality_score_global",
             "creative_quality_score_final",
+            "confidence_score_final",
+            "health_score_final",
         ],
     )
 
@@ -165,6 +204,8 @@ def build_creative_retrieval_index() -> None:
             "creative_quality_score_contextual",
             "creative_quality_score_global",
             "creative_quality_score_final",
+            "confidence_score_final",
+            "health_score_final",
         ],
         list(df.columns),
     )

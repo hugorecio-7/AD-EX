@@ -95,3 +95,64 @@ FUTURE_SCORE_COLUMNS = [
     "cvr_decay_pct",
     "total_days_active",
 ]
+
+# ---------------------------------------------------------------------
+# ConfidenceScore
+# ---------------------------------------------------------------------
+
+CONFIDENCE_SCORE_WEIGHTS = {
+    "total_impressions": 0.40,
+    "total_spend_usd": 0.25,
+    "total_clicks": 0.15,
+    "total_conversions": 0.15,
+    "total_days_active": 0.05,
+}
+
+# Used as the saturation threshold for log-scaled confidence.
+# A creative reaching the 75th percentile of volume gets close to max confidence.
+CONFIDENCE_QUANTILE_THRESHOLD = 0.90
+
+RAW_CONFIDENCE_COLUMNS = [
+    "total_impressions",
+    "total_spend_usd",
+    "total_clicks",
+    "total_conversions",
+    "total_days_active",
+]
+
+
+# ---------------------------------------------------------------------
+# HealthScore
+# ---------------------------------------------------------------------
+
+HEALTH_STATUS_MAPPING = {
+    "top_performer": 1.00,
+    "stable": 0.90,
+    "underperformer": 0.60,
+    "fatigued": 0.30,
+    "unknown": 0.50,
+}
+
+HEALTH_SCORE_WEIGHTS = {
+    "status": 0.45,
+    "ctr_decay": 0.25,
+    "cvr_decay": 0.20,
+    "fatigue_timing": 0.10,
+}
+
+RAW_HEALTH_COLUMNS = [
+    "creative_status",
+    "fatigue_day",
+    "ctr_decay_pct",
+    "cvr_decay_pct",
+]
+
+CONTEXT_SCORE_WEIGHTS = {
+    "vertical": 0.30,
+    "objective": 0.25,
+    "format": 0.15,
+    "language": 0.10,
+    "target_os": 0.10,
+    "countries": 0.05,
+    "target_age_segment": 0.05,
+}
