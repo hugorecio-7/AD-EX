@@ -25,7 +25,6 @@ print("Loading Diffusion Model... (This takes a minute on first run)")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 pipe = StableDiffusionInpaintPipeline.from_pretrained(
     "runwayml/stable-diffusion-inpainting",
-    variant="fp16" if device == "cuda" else None,
     torch_dtype=torch.float16 if device == "cuda" else torch.float32,
 ).to(device)
 
