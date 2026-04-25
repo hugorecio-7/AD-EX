@@ -1,0 +1,194 @@
+{
+  "creative_id": "500050",
+  "asset_file": "assets/creative_500050.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with a blue background and clear messaging.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background with shapes",
+      "description": "A solid blue background featuring a large rectangle and a smaller circle, creating a modern and abstract feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo 'CoinBridge' is displayed prominently in a bold, modern font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned towards the bottom left, adding a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Secure & simple message",
+      "description": "The text 'Secure & simple No hidden fees' is presented in a large, clear font, centered in the middle of the ad.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.503,
+        0.69
+      ],
+      "area_percentage": 8.0
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A rounded button at the bottom of the ad with the text 'Start now' in a bold font, inviting user interaction.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in a bright color, drawing attention.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, CoinBridge, Secure & simple, Start now",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge, Secure & simple No hidden fees, Start now, SALE",
+    "elements_text": "logo: The logo 'CoinBridge' is displayed prominently in a bold, modern font at the top of the ad. | decorative_element: A small circle positioned towards the bottom left, adding a decorative touch to the overall design. | headline: The text 'Secure & simple No hidden fees' is presented in a large, clear font, centered in the middle of the ad. text='Secure & simple No hidden fees' | cta: A rounded button at the bottom of the ad with the text 'Start now' in a bold font, inviting user interaction. text='CoinBridge' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in a bright color, drawing attention. text='Start now' | unknown:  text='SALE'"
+  }
+}

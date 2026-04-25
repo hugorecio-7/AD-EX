@@ -1,0 +1,218 @@
+{
+  "creative_id": "500213",
+  "asset_file": "assets/creative_500213.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and geometric shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting exclusive content available tonight.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and energetic base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo features the word 'StarVault' in bold, modern typography, prominently displayed at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape positioned towards the bottom left, adding a subtle design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Exclusive offer text",
+      "description": "The text 'Exclusive tonight New hits every week' is bold and large, centered in the middle of the ad.",
+      "text_content": "Exclusive tonight New hits every week",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom center with the text 'Try for free' in a bold, easy-to-read font.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        27,
+        41,
+        213,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.592,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.094
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "The text 'UGC' is displayed in a small font at the top left corner, indicating user-generated content.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, features bold text and a call to action.",
+    "layout_text": "The logo is at the top, followed by geometric shapes in the center, with the headline in the middle and the CTA at the bottom.",
+    "ocr_text": "StarVault, Exclusive tonight New hits every week, Try for free, UGC",
+    "elements_text": "logo: The logo features the word 'StarVault' in bold, modern typography, prominently displayed at the top center. | decorative_element: Two overlapping geometric shapes, one circular and one rectangular, are centered in the middle of the ad. | unknown: A small circular shape positioned towards the bottom left, adding a subtle design element. | headline: The text 'Exclusive tonight New hits every week' is bold and large, centered in the middle of the ad. text='Exclusive tonight New hits every week' | cta: A prominent button at the bottom center with the text 'Try for free' in a bold, easy-to-read font. text='StarVault' | body_text: The text 'UGC' is displayed in a small font at the top left corner, indicating user-generated content. text='Try for free' | unknown:  text='UGC'"
+  }
+}

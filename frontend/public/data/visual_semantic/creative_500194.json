@@ -1,0 +1,266 @@
+{
+  "creative_id": "500194",
+  "asset_file": "assets/creative_500194.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with various shapes and text elements promoting cashback offers.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Encouraging users to earn cashback and order now.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.83
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Circular and rectangular shapes",
+      "description": "A large circular shape and a rectangular shape are centered, both outlined in a lighter shade, creating a modern design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        140,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.293,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.73
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional circular shape",
+      "description": "Another circular shape is slightly lower than the first, maintaining the same outline style, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        154,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.322,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.421
+      ],
+      "area_percentage": 11.96
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape is positioned slightly above the center, outlined similarly to the other shapes, contributing to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button with rounded edges that reads 'Order now', positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.568,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.602
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text element that conveys additional information, positioned near the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        69,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.218,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "Another small text element located near the bottom right, complementing the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.548,
+        0.579,
+        0.613
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline that reads 'Earn cashback daily', prominently displayed in the center of the ad.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        48,
+        308,
+        276,
+        390
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.642,
+        0.863,
+        0.812
+      ],
+      "center_normalized": [
+        0.506,
+        0.727
+      ],
+      "area_percentage": 12.17
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'Swiftstack' is displayed at the top left, featuring a simple and modern font.",
+      "text_content": "Swiftstack",
+      "bbox_xyxy": [
+        24,
+        30,
+        155,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.484,
+        0.117
+      ],
+      "center_normalized": [
+        0.28,
+        0.09
+      ],
+      "area_percentage": 2.22
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller call to action text that says 'Order now', located at the bottom of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, cashback offers, shapes and text elements",
+    "layout_text": "The headline is centered, the logo is at the top left, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, Swiftstack, Order now",
+    "elements_text": "main_subject: A large circular shape and a rectangular shape are centered, both outlined in a lighter shade, creating a modern design element. | main_subject: Another circular shape is slightly lower than the first, maintaining the same outline style, adding depth to the design. | main_subject: A rectangular shape is positioned slightly above the center, outlined similarly to the other shapes, contributing to the overall layout. | cta: A small button with rounded edges that reads 'Order now', positioned towards the bottom of the ad. | body_text: A small text element that conveys additional information, positioned near the bottom left of the ad. | body_text: Another small text element located near the bottom right, complementing the main message. | headline: A bold headline that reads 'Earn cashback daily', prominently displayed in the center of the ad. text='Earn cashback daily Built for peace of mind' | logo: The logo 'Swiftstack' is displayed at the top left, featuring a simple and modern font. text='Swiftstack' | cta: A smaller call to action text that says 'Order now', located at the bottom of the ad. text='Order now'"
+  }
+}

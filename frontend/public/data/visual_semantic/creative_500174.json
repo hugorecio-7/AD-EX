@@ -1,0 +1,266 @@
+{
+  "creative_id": "500174",
+  "asset_file": "assets/creative_500174.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a focus on app promotion.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting the BingeLayer app with a seasonal offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        473
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.74
+      ],
+      "center_normalized": [
+        0.502,
+        0.471
+      ],
+      "area_percentage": 48.67
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A simplified app interface with geometric shapes, including circles and squares, displayed in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.673,
+        0.43
+      ],
+      "area_percentage": 9.84
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Various geometric shapes in light purple tones, adding visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "More geometric shapes in light purple, complementing the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small element",
+      "description": "A small, circular element in a muted color, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Another small element",
+      "description": "Another small circular element, similar to the previous one, positioned slightly above it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold white text stating 'A new season drops Start free today' prominently displayed in the center.",
+      "text_content": "A new season drops Start free today",
+      "bbox_xyxy": [
+        65,
+        413,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo 'BingeLayer' in bold white text, positioned at the top of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Get offer' in white, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in white, positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "A new season drops Start free today, BingeLayer, Get offer, UGC",
+    "elements_text": "app_screenshot: A simplified app interface with geometric shapes, including circles and squares, displayed in a muted color palette. | decorative_element: Various geometric shapes in light purple tones, adding visual interest to the ad. | decorative_element: More geometric shapes in light purple, complementing the app interface. | unknown: A small, circular element in a muted color, positioned towards the bottom of the ad. | unknown: Another small circular element, similar to the previous one, positioned slightly above it. | headline: Bold white text stating 'A new season drops Start free today' prominently displayed in the center. text='A new season drops Start free today' | logo: The logo 'BingeLayer' in bold white text, positioned at the top of the ad. text='BingeLayer' | cta: A button with the text 'Get offer' in white, located at the bottom of the ad. text='Get offer' | icon: A small icon labeled 'UGC' in white, positioned at the top left corner. text='UGC'"
+  }
+}

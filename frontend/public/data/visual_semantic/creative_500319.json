@@ -1,0 +1,266 @@
+{
+  "creative_id": "500319",
+  "asset_file": "assets/creative_500319.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with geometric shapes and bold text.",
+    "visual_style": "modern and abstract",
+    "main_message": "Promoting a streaming service with new content updates.",
+    "dominant_colors": [
+      "red",
+      "pink"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large pink rectangle and an oval shape are centered, creating a modern and abstract visual focus.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circles",
+      "description": "Two small pink circles are positioned near the bottom left, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "Another pink rectangle is layered within the main subject, contributing to the abstract composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom center with the text 'Learn more' invites user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' is placed at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'Binge starts now' is prominently displayed in the center, conveying urgency and excitement.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The 'PulsePlay' logo is positioned at the top, featuring a modern font that stands out against the red background.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        28,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.086
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "The text 'New hits every week' is placed below the main headline, providing additional context in a smaller font.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small icon labeled 'UGC' appears at the top left, indicating the presence of user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and abstract, bold headline and call to action",
+    "layout_text": "The headline is centered, the main subject is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, New hits every week, PulsePlay, Learn more, UGC",
+    "elements_text": "main_subject: A large pink rectangle and an oval shape are centered, creating a modern and abstract visual focus. | decorative_element: Two small pink circles are positioned near the bottom left, adding a playful touch to the design. | unknown: Another pink rectangle is layered within the main subject, contributing to the abstract composition. | cta: A rounded button at the bottom center with the text 'Learn more' invites user interaction. | icon: A small circular icon labeled 'UGC' is placed at the top left, indicating user-generated content. | headline: The bold text 'Binge starts now' is prominently displayed in the center, conveying urgency and excitement. text='Binge starts now New hits every week' | logo: The 'PulsePlay' logo is positioned at the top, featuring a modern font that stands out against the red background. text='PulsePlay' | body_text: The text 'New hits every week' is placed below the main headline, providing additional context in a smaller font. text='Learn more' | icon: A small icon labeled 'UGC' appears at the top left, indicating the presence of user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500162",
+  "asset_file": "assets/creative_500162.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with abstract shapes and clear text elements.",
+    "visual_style": "soft purple with minimalistic design",
+    "main_message": "Encouraging users to book their next trip with special fares.",
+    "dominant_colors": [
+      "purple",
+      "light purple"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shape",
+      "description": "A large, abstract shape in the center with a soft purple hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        306
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.767,
+        0.479
+      ],
+      "center_normalized": [
+        0.469,
+        0.359
+      ],
+      "area_percentage": 14.29
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A slightly smaller overlay shape in the center, also in a soft purple tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.14
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Vertical shape",
+      "description": "A vertical shape in the center, featuring a muted purple color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape in the center with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle at the bottom center, colored in a light shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small oval",
+      "description": "A small oval shape positioned towards the bottom, in a light purple hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top logo",
+      "description": "A small logo positioned at the top, featuring the text 'WayPoint UGC' in bold.",
+      "text_content": null,
+      "bbox_xyxy": [
+        311,
+        31,
+        335,
+        83
+      ],
+      "bbox_normalized": [
+        0.866,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.898,
+        0.09
+      ],
+      "area_percentage": 0.52
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center shape",
+      "description": "A medium-sized shape in the center with a light purple color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'WayPoint UGC' is prominently displayed at the top in bold, large font.",
+      "text_content": "WayPoint UGC",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        127
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.198
+      ],
+      "center_normalized": [
+        0.475,
+        0.127
+      ],
+      "area_percentage": 11.5
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Trip booking text",
+      "description": "The text 'Book your next trip Special fares today' is centered at the bottom in a clear, readable font.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        51,
+        409,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.639,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Learn more' is displayed in a button format at the bottom center, inviting interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, soft purple with minimalistic design, WayPoint UGC, book your next trip.",
+    "layout_text": "The headline is at the top, the main body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "WayPoint UGC, Book your next trip Special fares today, Learn more",
+    "elements_text": "unknown: A large, abstract shape in the center with a soft purple hue. | unknown: A slightly smaller overlay shape in the center, also in a soft purple tone. | unknown: A vertical shape in the center, featuring a muted purple color. | unknown: A rectangular shape in the center with a light purple background. | unknown: A small circle at the bottom center, colored in a light shade of purple. | unknown: A small oval shape positioned towards the bottom, in a light purple hue. | unknown: A small logo positioned at the top, featuring the text 'WayPoint UGC' in bold. | unknown: A medium-sized shape in the center with a light purple color. | headline: The text 'WayPoint UGC' is prominently displayed at the top in bold, large font. text='WayPoint UGC' | body_text: The text 'Book your next trip Special fares today' is centered at the bottom in a clear, readable font. text='Book your next trip Special fares today' | cta: The text 'Learn more' is displayed in a button format at the bottom center, inviting interaction. text='Learn more'"
+  }
+}

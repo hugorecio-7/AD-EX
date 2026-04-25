@@ -1,0 +1,218 @@
+{
+  "creative_id": "500151",
+  "asset_file": "assets/creative_500151.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with a focus on a product display and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time offer for a product at a low price.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A stylized logo featuring the word 'LuxShelf' in bold, modern typography, set against a pink background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        197,
+        313
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.311,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.359,
+        0.4
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A minimalist representation of two shelves, outlined in a simple design, suggesting a product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A simple circular icon, possibly representing a button or feature, placed in the center of the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom element",
+      "description": "A small rectangular area at the bottom of the ad, with no specific identifiable features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Text stating 'Limited stock Only this weekend' in a bold, eye-catching font, prominently displayed.",
+      "text_content": "Limited stock Only this weekend",
+      "bbox_xyxy": [
+        63,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button with the text '€9.99 Try for free', designed to attract attention with a contrasting color.",
+      "text_content": "€9.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.362,
+        0.874
+      ],
+      "area_percentage": 5.08
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The word 'LuxShelf' prominently displayed at the top of the ad in a large, bold font.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        27,
+        39,
+        201,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.558,
+        0.12
+      ],
+      "center_normalized": [
+        0.317,
+        0.091
+      ],
+      "area_percentage": 2.87
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, LuxShelf logo, limited stock message, call to action",
+    "layout_text": "The headline is at the top, the product display is centered, and the call to action is at the bottom.",
+    "ocr_text": "Limited stock Only this weekend, €9.99 Try for free, LuxShelf",
+    "elements_text": "logo: A stylized logo featuring the word 'LuxShelf' in bold, modern typography, set against a pink background. | product: A minimalist representation of two shelves, outlined in a simple design, suggesting a product display. | decorative_element: A simple circular icon, possibly representing a button or feature, placed in the center of the design. | unknown: A small rectangular area at the bottom of the ad, with no specific identifiable features. | body_text: Text stating 'Limited stock Only this weekend' in a bold, eye-catching font, prominently displayed. text='Limited stock Only this weekend' | cta: A rounded button with the text '€9.99 Try for free', designed to attract attention with a contrasting color. text='€9.99 Try for free' | headline: The word 'LuxShelf' prominently displayed at the top of the ad in a large, bold font. text='LuxShelf'"
+  }
+}

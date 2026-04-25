@@ -1,0 +1,242 @@
+{
+  "creative_id": "500043",
+  "asset_file": "assets/creative_500043.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with promotional text and a product display area.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Promoting a sale with free shipping on a product.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A vibrant red background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area with a placeholder for a product image, featuring a simple outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Three circular icons",
+      "description": "Three evenly spaced circular icons below the product display area, suggesting options or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Left circular icon",
+      "description": "A small circular icon positioned on the left side, part of the three circular icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Right circular icon",
+      "description": "A small circular icon positioned on the right side, part of the three circular icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.581
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Your next favorite pick' with a subtext 'Free shipping over $25' below it.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        291,
+        500
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.808,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.713
+      ],
+      "area_percentage": 8.48
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Large, bold text at the top reading 'ThreadMark SALE' in a contrasting color.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        27,
+        40,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.092
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Order now' in bold, inviting font.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Product price",
+      "description": "A small text displaying the price '€9.99' in a clear, readable font.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and vibrant, promoting a sale with free shipping.",
+    "layout_text": "The headline is at the top, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Free shipping over $25, ThreadMark SALE, Order now, €9.99",
+    "elements_text": "product: A rectangular area with a placeholder for a product image, featuring a simple outline. | decorative_element: Three evenly spaced circular icons below the product display area, suggesting options or features. | decorative_element: A small circular icon positioned on the left side, part of the three circular icons. | decorative_element: A small circular icon positioned on the right side, part of the three circular icons. | body_text: Bold white text stating 'Your next favorite pick' with a subtext 'Free shipping over $25' below it. text='Your next favorite pick Free shipping over $25' | headline: Large, bold text at the top reading 'ThreadMark SALE' in a contrasting color. text='ThreadMark SALE' | cta: A prominent button at the bottom with the text 'Order now' in bold, inviting font. text='Order now' | price: A small text displaying the price '€9.99' in a clear, readable font. text='€9.99'"
+  }
+}

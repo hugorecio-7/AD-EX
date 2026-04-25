@@ -1,0 +1,266 @@
+{
+  "creative_id": "500322",
+  "asset_file": "assets/creative_500322.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and graphic elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a music streaming service with new hits.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large circular shape centered in the ad, possibly representing a visual or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        274,
+        328
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.762,
+        0.513
+      ],
+      "center_normalized": [
+        0.466,
+        0.376
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A rectangular shape centered below the main graphic, likely serving as a background or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "A smaller circular shape overlapping with the central graphic, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large rectangular shape that serves as the main background for the ad, providing a solid color base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A tiny circular shape positioned towards the bottom, likely a decorative or accent element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold text stating 'Stream the hype New hits every week', prominently displayed in the center of the ad.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The word 'PulsePlay' in a bold font, positioned at the top of the ad, representing the brand identity.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        28,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.086
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Learn more' in a clear, inviting font at the bottom of the ad, encouraging user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "The abbreviation 'UGC' in a small font at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, features bold text and graphics.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, PulsePlay, Learn more, UGC",
+    "elements_text": "unknown: A large circular shape centered in the ad, possibly representing a visual or decorative element. | unknown: A rectangular shape centered below the main graphic, likely serving as a background or decorative feature. | unknown: A smaller circular shape overlapping with the central graphic, adding depth to the design. | unknown: A large rectangular shape that serves as the main background for the ad, providing a solid color base. | unknown: A tiny circular shape positioned towards the bottom, likely a decorative or accent element. | body_text: Bold text stating 'Stream the hype New hits every week', prominently displayed in the center of the ad. text='Stream the hype New hits every week' | logo: The word 'PulsePlay' in a bold font, positioned at the top of the ad, representing the brand identity. text='PulsePlay' | cta: The phrase 'Learn more' in a clear, inviting font at the bottom of the ad, encouraging user interaction. text='Learn more' | social_proof: The abbreviation 'UGC' in a small font at the top left, indicating user-generated content. text='UGC'"
+  }
+}

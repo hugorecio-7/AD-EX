@@ -1,0 +1,290 @@
+{
+  "creative_id": "500054",
+  "asset_file": "assets/creative_500054.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute travel savings through the DriftPass app.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        88,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.139,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.249
+      ],
+      "area_percentage": 21.78
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Last-minute savings' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.311,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.415
+      ],
+      "area_percentage": 12.24
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline reads 'Hotels + flights in one tap', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.52
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in a lighter teal color is positioned in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        156,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.244,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.19
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Learn more' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Logo text",
+      "description": "The word 'DriftPass' appears in bold, large font at the top of the ad, serving as the brand identifier.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Decorative icon",
+      "description": "A small circular icon in the top right corner, possibly representing a feature or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        303,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.844,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.887,
+        0.091
+      ],
+      "area_percentage": 0.71
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A rectangular shape in a lighter shade, positioned near the center, contributing to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text at the bottom of the ad reiterates the offer with 'Last-minute savings Hotels flights in one tap'.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.5,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'DriftPass' is displayed prominently at the top in a bold, eye-catching font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        28,
+        40,
+        302,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.839,
+        0.15
+      ],
+      "center_normalized": [
+        0.458,
+        0.106
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A small button at the bottom with the text 'Learn more', encouraging user engagement.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, Last-minute savings, Hotels + flights in one tap, Learn more",
+    "layout_text": "The headline is centered, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Last-minute savings, Hotels + flights in one tap, DriftPass, Learn more",
+    "elements_text": "headline: Bold white text stating 'Last-minute savings' is prominently displayed in the center of the ad. | body_text: Smaller white text below the headline reads 'Hotels + flights in one tap', providing additional information. | unknown: An abstract shape in a lighter teal color is positioned in the center, adding visual interest. | cta: A rounded button with the text 'Learn more' in white, inviting users to take action. | logo: The word 'DriftPass' appears in bold, large font at the top of the ad, serving as the brand identifier. | icon: A small circular icon in the top right corner, possibly representing a feature or service. | unknown: A rectangular shape in a lighter shade, positioned near the center, contributing to the design. | body_text: Text at the bottom of the ad reiterates the offer with 'Last-minute savings Hotels flights in one tap'. text='Last-minute savings Hotels flights in one tap' | logo: The brand name 'DriftPass' is displayed prominently at the top in a bold, eye-catching font. text='DriftPass' | cta: A small button at the bottom with the text 'Learn more', encouraging user engagement. text='Learn more'"
+  }
+}

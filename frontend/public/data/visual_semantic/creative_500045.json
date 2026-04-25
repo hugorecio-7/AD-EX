@@ -1,0 +1,242 @@
+{
+  "creative_id": "500045",
+  "asset_file": "assets/creative_500045.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear call-to-action with a sense of urgency.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to install the app due to limited stock.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element positioned at the top, visually unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "ThreadMarE UGC",
+      "description": "A prominent headline in bold text, likely in a modern font, set against a colorful background.",
+      "text_content": "ThreadMarE UGC",
+      "bbox_xyxy": [
+        25,
+        39,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.535,
+        0.13
+      ],
+      "area_percentage": 12.8
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "A medium-sized text element that conveys urgency, likely in a clear, readable font.",
+      "text_content": "Limited stock Only this weekend",
+      "bbox_xyxy": [
+        63,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom with clear call-to-action text, visually distinct from the background.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, ThreadMarE UGC, limited stock message, install now button",
+    "layout_text": "The headline is at the top, the body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "ThreadMarE UGC, Limited stock Only this weekend, Install now",
+    "elements_text": "unknown: A small, centered element with an undefined visual appearance. | unknown: Another small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | unknown: A small element positioned at the top, visually unclear. | unknown: A small, centered element with an undefined visual appearance. | headline: A prominent headline in bold text, likely in a modern font, set against a colorful background. text='ThreadMarE UGC' | body_text: A medium-sized text element that conveys urgency, likely in a clear, readable font. text='Limited stock Only this weekend' | cta: A rounded button at the bottom with clear call-to-action text, visually distinct from the background. text='Install now'"
+  }
+}

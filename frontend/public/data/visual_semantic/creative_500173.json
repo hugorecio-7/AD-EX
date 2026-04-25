@@ -1,0 +1,218 @@
+{
+  "creative_id": "500173",
+  "asset_file": "assets/creative_500173.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a logo, icons, and text promoting a food service.",
+    "visual_style": "bright and cheerful",
+    "main_message": "Promoting quick food options with a discount offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background that fills the entire ad space.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.183,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.591
+      ],
+      "area_percentage": 81.44
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A simple logo featuring the text 'QuickFork' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Food icon",
+      "description": "Two stylized food containers represented as simple outlines, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Food icon",
+      "description": "Another stylized food container icon, also represented as a simple outline, positioned near the first icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Text that reads 'Fast food, fast Fresh favorites nearby' in a large, bold font, centered in the ad.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small badge displaying '-30%' in a bold font, located at the bottom left of the ad.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent button with the text 'Book now' in a bold font, located at the bottom center of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and cheerful, QuickFork logo, food icons, discount offer",
+    "layout_text": "The logo is at the top, followed by icons in the center, main message in the middle, and CTA at the bottom.",
+    "ocr_text": "QuickFork, Fast food, fast Fresh favorites nearby, Book now, -30%",
+    "elements_text": "logo: A simple logo featuring the text 'QuickFork' in a bold font, positioned at the top of the ad. | icon: Two stylized food containers represented as simple outlines, centered in the ad. | icon: Another stylized food container icon, also represented as a simple outline, positioned near the first icon. | body_text: Text that reads 'Fast food, fast Fresh favorites nearby' in a large, bold font, centered in the ad. text='Fast food, fast Fresh favorites nearby' | discount_badge: A small badge displaying '-30%' in a bold font, located at the bottom left of the ad. text='QuickFork' | cta: A prominent button with the text 'Book now' in a bold font, located at the bottom center of the ad. text='Book now' | unknown:  text='30%'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "500150",
+  "asset_file": "assets/creative_500150.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern product display with promotional text and a clear call to action.",
+    "visual_style": "minimalist with bold accents",
+    "main_message": "Promoting a product with a special sale and free shipping offer.",
+    "dominant_colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        82,
+        5,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.229,
+        0.009,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.615,
+        0.504
+      ],
+      "area_percentage": 76.33
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "product display",
+      "description": "A stylized representation of a shelf with three compartments, showcasing a modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        466
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.729
+      ],
+      "center_normalized": [
+        0.501,
+        0.465
+      ],
+      "area_percentage": 47.52
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "The logo 'LuxShelf' appears prominently at the top, featuring a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        186,
+        111,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.291,
+        0.309,
+        0.606
+      ],
+      "center_normalized": [
+        0.214,
+        0.449
+      ],
+      "area_percentage": 5.97
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, bright badge labeled 'SALE' positioned at the top right corner, drawing attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "favorite pick text",
+      "description": "Text stating 'Your next favorite pick' in a bold, friendly font, located centrally below the product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        275,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "shipping info",
+      "description": "Additional text 'Free shipping over $25' in a smaller font, placed directly below the favorite pick text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "shelf icon",
+      "description": "A small circular icon representing a shelf, located to the left of the product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent button labeled 'Book now' in a bold font, positioned at the bottom center of the ad.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        407,
+        293,
+        502
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.636,
+        0.814,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "price tag",
+      "description": "The price '€29.99' displayed in a clear, bold font, located just above the 'Book now' button.",
+      "text_content": "€29.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        38,
+        201,
+        80
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.059,
+        0.558,
+        0.125
+      ],
+      "center_normalized": [
+        0.312,
+        0.092
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold accents, product display, promotional text",
+    "layout_text": "The logo is at the top, the product display is center, with body text below and the CTA at the bottom.",
+    "ocr_text": "LuxShelf, SALE, Your next favorite pick, Free shipping over $25, €29.99, Book now",
+    "elements_text": "main_subject: A stylized representation of a shelf with three compartments, showcasing a modern design. | logo: The logo 'LuxShelf' appears prominently at the top, featuring a clean and modern font. | discount_badge: A small, bright badge labeled 'SALE' positioned at the top right corner, drawing attention. | body_text: Text stating 'Your next favorite pick' in a bold, friendly font, located centrally below the product display. | body_text: Additional text 'Free shipping over $25' in a smaller font, placed directly below the favorite pick text. | icon: A small circular icon representing a shelf, located to the left of the product display. | cta: A prominent button labeled 'Book now' in a bold font, positioned at the bottom center of the ad. text='Your next favorite pick Free shipping over $25' | price: The price '€29.99' displayed in a clear, bold font, located just above the 'Book now' button. text='€29.99 Book now' | unknown:  text='LuxShelf' | unknown:  text='SALE'"
+  }
+}

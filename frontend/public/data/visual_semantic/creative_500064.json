@@ -1,0 +1,218 @@
+{
+  "creative_id": "500064",
+  "asset_file": "assets/creative_500064.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a promotional message for a food delivery service with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A rectangular shape with a light background, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another rectangular shape with a light background, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text in a bold font stating 'Fast food, fast Free delivery over $15' in a prominent position.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "The logo 'BiteRush' displayed in a bold, modern font at the top of the ad.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        25,
+        39,
+        202,
+        78
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.561,
+        0.122
+      ],
+      "center_normalized": [
+        0.315,
+        0.091
+      ],
+      "area_percentage": 3.0
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Try for free' in a rounded rectangle shape at the bottom of the ad.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in a bold font, positioned at the bottom left.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promotional message, call to action",
+    "layout_text": "The logo is at the top, followed by the body text in the center, and the CTA at the bottom.",
+    "ocr_text": "Fast food, fast Free delivery over $15, BiteRush, Try for free, 30%",
+    "elements_text": "unknown: A rectangular shape with a light background, possibly a decorative element. | unknown: Another rectangular shape with a light background, possibly a decorative element. | unknown: A small circular shape, possibly a decorative element. | body_text: Text in a bold font stating 'Fast food, fast Free delivery over $15' in a prominent position. text='Fast food, fast Free delivery over $15' | logo: The logo 'BiteRush' displayed in a bold, modern font at the top of the ad. text='BiteRush' | cta: A button with the text 'Try for free' in a rounded rectangle shape at the bottom of the ad. text='Try for free' | discount_badge: A small badge displaying '30%' in a bold font, positioned at the bottom left. text='30%'"
+  }
+}

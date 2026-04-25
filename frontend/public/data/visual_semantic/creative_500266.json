@@ -1,0 +1,170 @@
+{
+  "creative_id": "500266",
+  "asset_file": "assets/creative_500266.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, abstract shapes, and clear messaging.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to save confidently with CoinBridge.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A simple logo featuring the text 'CoinBridge' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, rendered in a soft blue color, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Confidence message",
+      "description": "A prominent text block that reads 'Save with confidence Built for peace of mind' in a clear, legible font, located at the bottom of the ad.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        407,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.636,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 7.99
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "CoinBridge title",
+      "description": "The title 'CoinBridge' displayed in a bold font at the top of the ad, contrasting against the background.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        21,
+        29,
+        244,
+        83
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        0.678,
+        0.13
+      ],
+      "center_normalized": [
+        0.368,
+        0.087
+      ],
+      "area_percentage": 5.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call-to-action button that says 'Start now' in a bold font, positioned at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, CoinBridge logo, confidence message, call to action.",
+    "layout_text": "The logo is at the top, abstract shapes are centered, and the body text and CTA are at the bottom.",
+    "ocr_text": "Save with confidence, Built for peace of mind, CoinBridge, Start now",
+    "elements_text": "logo: A simple logo featuring the text 'CoinBridge' in a bold, modern font, positioned at the top of the ad. | unknown: Two overlapping geometric shapes, one circular and one square, rendered in a soft blue color, centered in the ad. | body_text: A prominent text block that reads 'Save with confidence Built for peace of mind' in a clear, legible font, located at the bottom of the ad. text='Save with confidence Built for peace of mind' | headline: The title 'CoinBridge' displayed in a bold font at the top of the ad, contrasting against the background. text='CoinBridge' | cta: A clear call-to-action button that says 'Start now' in a bold font, positioned at the bottom of the ad. text='Start now'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500225",
+  "asset_file": "assets/creative_500225.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a prominent logo and product display.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with a call to action for trying the product for free.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant and warm base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.5,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' is displayed prominently at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "A minimalist representation of two rectangular products with rounded edges, resembling mirrors or screens.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product indicators",
+      "description": "Three circular indicators below the product display, suggesting options or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A rounded button at the bottom with the text 'Try for free' in a clear, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Discount message",
+      "description": "Text stating 'Up to 40% off Shop bestsellers now' in a prominent, eye-catching font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label in the top left corner marked 'UGC' in a simple, bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, bright badge in the top right corner with the word 'SALE' in a contrasting color.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        463
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.723
+      ],
+      "center_normalized": [
+        0.508,
+        0.681
+      ],
+      "area_percentage": 5.53
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Call to action",
+      "description": "The text 'Try for free' is displayed in a clear, inviting font at the bottom of the ad.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        74
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.116
+      ],
+      "center_normalized": [
+        0.242,
+        0.095
+      ],
+      "area_percentage": 1.38
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, VantaStyle logo, discount message, call to action.",
+    "layout_text": "The logo is at the top, followed by the product display and indicators, with the discount message in the center and the CTA at the bottom.",
+    "ocr_text": "Up to 40% off Shop bestsellers now, Try for free, VantaStyle, SALE, UGC",
+    "elements_text": "headline: The logo 'VantaStyle' is displayed prominently at the top in a bold, modern font. | product: A minimalist representation of two rectangular products with rounded edges, resembling mirrors or screens. | product: Three circular indicators below the product display, suggesting options or features. | cta: A rounded button at the bottom with the text 'Try for free' in a clear, inviting font. | body_text: Text stating 'Up to 40% off Shop bestsellers now' in a prominent, eye-catching font. | social_proof: A small label in the top left corner marked 'UGC' in a simple, bold font. | discount_badge: A small, bright badge in the top right corner with the word 'SALE' in a contrasting color. text='Up to 40% off Shop bestsellers now' | body_text: The text 'Try for free' is displayed in a clear, inviting font at the bottom of the ad. text='Try for free' | unknown:  text='VantaStyle' | unknown:  text='SALE' | unknown:  text='UGC'"
+  }
+}

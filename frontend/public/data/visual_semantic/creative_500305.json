@@ -1,0 +1,170 @@
+{
+  "creative_id": "500305",
+  "asset_file": "assets/creative_500305.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, abstract shapes, and clear text elements.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting cashback offers with a free trial.",
+    "dominant_colors": [
+      "#A8E6CE",
+      "#DCEDC1"
+    ],
+    "emotional_tone": "playful"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A simple logo featuring the text 'VaultRun' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, in a muted color palette, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cashback offer",
+      "description": "A prominent text block stating 'Earn cashback daily No hidden fees' in a clear, modern font, located at the bottom of the ad.",
+      "text_content": "Earn cashback daily No hidden fees",
+      "bbox_xyxy": [
+        53,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.5,
+        0.708
+      ],
+      "area_percentage": 9.7
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "VaultRun title",
+      "description": "The title 'VaultRun' displayed in a bold and eye-catching font at the top of the ad.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        39,
+        205,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.569,
+        0.123
+      ],
+      "center_normalized": [
+        0.321,
+        0.092
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Try for free' in a contrasting color, positioned at the bottom of the ad.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, cashback offer, free trial",
+    "layout_text": "The logo is at the top, abstract shapes are centered, body text is at the bottom, and the CTA is at the very bottom.",
+    "ocr_text": "Earn cashback daily, No hidden fees, VaultRun, Try for free",
+    "elements_text": "logo: A simple logo featuring the text 'VaultRun' in a bold font, positioned at the top of the ad. | unknown: Two overlapping geometric shapes, one circular and one square, in a muted color palette, centered in the ad. | body_text: A prominent text block stating 'Earn cashback daily No hidden fees' in a clear, modern font, located at the bottom of the ad. text='Earn cashback daily No hidden fees' | headline: The title 'VaultRun' displayed in a bold and eye-catching font at the top of the ad. text='VaultRun' | cta: A button with the text 'Try for free' in a contrasting color, positioned at the bottom of the ad. text='Try for free'"
+  }
+}

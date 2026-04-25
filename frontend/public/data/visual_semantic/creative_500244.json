@@ -1,0 +1,242 @@
+{
+  "creative_id": "500244",
+  "asset_file": "assets/creative_500244.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold offer with a clear call to action on a bright yellow background.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer on meals.",
+    "dominant_colors": [
+      "yellow",
+      "dark"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "yellow background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.201,
+        0.954,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.03
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "Bold, large text stating '2-for-1 tonight' in a dark font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional offer details",
+      "description": "Smaller text below the headline that reads 'Fresh favorites nearby' in a dark font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Discount percentage",
+      "description": "A small badge displaying '-30%' in a prominent dark font, positioned at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Learn more' in a dark font, located at the bottom center.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        45,
+        307,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.64,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo for 'SnapMeal' in a dark font, positioned at the top left.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        22,
+        36,
+        122,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.075,
+        0.381,
+        0.125
+      ],
+      "center_normalized": [
+        0.225,
+        0.1
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in a white font, located at the top left corner.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Discount icon",
+      "description": "A small icon indicating a discount, positioned at the bottom left.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not fit into the defined roles.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, 2-for-1 offer, SnapMeal logo",
+    "layout_text": "The headline is at the center, the logo is at the top left, and the CTA is at the bottom center.",
+    "ocr_text": "2-for-1 tonight, Fresh favorites nearby, SnapMeal, Learn more, 30%, UGC",
+    "elements_text": "headline: Bold, large text stating '2-for-1 tonight' in a dark font, centrally positioned. | body_text: Smaller text below the headline that reads 'Fresh favorites nearby' in a dark font. | discount_badge: A small badge displaying '-30%' in a prominent dark font, positioned at the bottom left. | cta: A rectangular button with the text 'Learn more' in a dark font, located at the bottom center. text='2-for-1 tonight Fresh favorites nearby' | logo: A small logo for 'SnapMeal' in a dark font, positioned at the top left. text='SnapMeal' | social_proof: A small tag labeled 'UGC' in a white font, located at the top left corner. text='Learn more' | icon: A small icon indicating a discount, positioned at the bottom left. text='30%' | unknown: An unspecified element that does not fit into the defined roles. text='UGC'"
+  }
+}

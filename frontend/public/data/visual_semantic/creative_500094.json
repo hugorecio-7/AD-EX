@@ -1,0 +1,314 @@
+{
+  "creative_id": "500094",
+  "asset_file": "assets/creative_500094.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend getaway with affordable hotel and flight options.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "HorizonHop UGC",
+      "description": "Bold, uppercase text in a large font, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.186,
+        0.277,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "Medium-sized text in a friendly font, centered below the headline, conveying a sense of urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Hotels + flights in one tap",
+      "description": "Smaller text in a clean font, positioned below the main body text, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.49
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in soft colors, creating a visually appealing background that enhances the ad's theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now",
+      "description": "Bold, eye-catching button with a contrasting color, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "€29.99",
+      "description": "Prominent price tag displayed in a clear font, emphasizing affordability.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small, simple icon located at the bottom of the ad, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A small geometric shape in the background, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top banner",
+      "description": "A wide banner at the top of the ad, featuring the main headline.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        22,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.531,
+        0.12
+      ],
+      "area_percentage": 14.82
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text that describes the offer, centered at the bottom of the ad, inviting engagement.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Order price",
+      "description": "A clear price display at the bottom, emphasizing the cost of the offer.",
+      "text_content": "€29.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, HorizonHop UGC, Escape this weekend, Order now",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "HorizonHop UGC, Escape this weekend, Hotels + flights in one tap, €29.99, Order now",
+    "elements_text": "headline: Bold, uppercase text in a large font, prominently displayed at the top of the ad. | body_text: Medium-sized text in a friendly font, centered below the headline, conveying a sense of urgency. | body_text: Smaller text in a clean font, positioned below the main body text, providing additional information. | decorative_element: Abstract shapes in soft colors, creating a visually appealing background that enhances the ad's theme. | cta: Bold, eye-catching button with a contrasting color, inviting users to take action. | price: Prominent price tag displayed in a clear font, emphasizing affordability. | unknown: A small, simple icon located at the bottom of the ad, adding a decorative touch. | unknown: A small geometric shape in the background, contributing to the overall design. | unknown: A wide banner at the top of the ad, featuring the main headline. text='HorizonHop UGC' | body_text: Text that describes the offer, centered at the bottom of the ad, inviting engagement. text='Escape this weekend Hotels flights in one tap' | price: A clear price display at the bottom, emphasizing the cost of the offer. text='€29.99 Order now'"
+  }
+}

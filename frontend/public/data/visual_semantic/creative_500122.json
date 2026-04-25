@@ -1,0 +1,218 @@
+{
+  "creative_id": "500122",
+  "asset_file": "assets/creative_500122.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with abstract shapes and clear text elements promoting a financial service.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a fast signup for a financial service with a clear call to action.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element features two overlapping geometric shapes, one circular and one rectangular, in a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element contains a similar design to ID 1, with overlapping shapes that are slightly different in size and position.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        118,
+        156,
+        222
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.247,
+        0.488,
+        0.463
+      ],
+      "center_normalized": [
+        0.335,
+        0.355
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element displays a larger abstract design with various geometric forms, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        130,
+        166,
+        246,
+        247
+      ],
+      "bbox_normalized": [
+        0.409,
+        0.348,
+        0.77,
+        0.515
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "This element features bold, prominent text that reads 'Track every euro Fast signup, instant card' in a clear, modern font.",
+      "text_content": "Track every euro Fast signup, instant card",
+      "bbox_xyxy": [
+        28,
+        306,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.087,
+        0.637,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.495,
+        0.691
+      ],
+      "area_percentage": 8.67
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "This element is a button with the text '$4.99 Install now' in a contrasting color, designed to attract attention.",
+      "text_content": "$4.99 Install now",
+      "bbox_xyxy": [
+        22,
+        398,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.829,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.364,
+        0.872
+      ],
+      "area_percentage": 5.04
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "This element displays the logo 'NovaPay' in a simple, recognizable font at the top of the ad.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "This element is a small tag labeled 'UGC' positioned at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, key elements include a headline, call to action, and logo.",
+    "layout_text": "The headline is centrally positioned, the call to action is at the bottom, and the logo is at the top.",
+    "ocr_text": "Track every euro Fast signup, instant card, $4.99 Install now, NovaPay, UGC",
+    "elements_text": "unknown: This element features two overlapping geometric shapes, one circular and one rectangular, in a muted color. | unknown: This element contains a similar design to ID 1, with overlapping shapes that are slightly different in size and position. | unknown: This element displays a larger abstract design with various geometric forms, creating a layered effect. | headline: This element features bold, prominent text that reads 'Track every euro Fast signup, instant card' in a clear, modern font. text='Track every euro Fast signup, instant card' | cta: This element is a button with the text '$4.99 Install now' in a contrasting color, designed to attract attention. text='$4.99 Install now' | logo: This element displays the logo 'NovaPay' in a simple, recognizable font at the top of the ad. text='NovaPay' | icon: This element is a small tag labeled 'UGC' positioned at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500167",
+  "asset_file": "assets/creative_500167.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a clear focus on savings and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute travel savings with a clear call to action.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        95,
+        305,
+        359
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.199,
+        0.954,
+        0.748
+      ],
+      "center_normalized": [
+        0.502,
+        0.474
+      ],
+      "area_percentage": 49.6
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Last-minute savings",
+      "description": "Bold, white text that reads 'Last-minute savings' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Smaller white text below the headline states 'Special fares today', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Shop now",
+      "description": "A bright yellow button with rounded edges that says 'Shop now' is positioned at the bottom of the ad.",
+      "text_content": "Last-minute savings Special fares today €29.99 Shop now",
+      "bbox_xyxy": [
+        23,
+        308,
+        254,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.642,
+        0.794,
+        0.921
+      ],
+      "center_normalized": [
+        0.433,
+        0.781
+      ],
+      "area_percentage": 20.15
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "A small logo labeled 'WayPoint' appears at the top left corner of the ad, in a simple font.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        23,
+        27,
+        142,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.444,
+        0.119
+      ],
+      "center_normalized": [
+        0.258,
+        0.087
+      ],
+      "area_percentage": 2.32
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label that reads 'UGC' is positioned near the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, last-minute savings, call to action",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "Last-minute savings, Special fares today, €29.99, Shop now, WayPoint, SALE, UGC",
+    "elements_text": "headline: Bold, white text that reads 'Last-minute savings' is prominently displayed at the top of the ad. | body_text: Smaller white text below the headline states 'Special fares today', providing additional context. | cta: A bright yellow button with rounded edges that says 'Shop now' is positioned at the bottom of the ad. text='Last-minute savings Special fares today €29.99 Shop now' | logo: A small logo labeled 'WayPoint' appears at the top left corner of the ad, in a simple font. text='WayPoint' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting text. text='SALE' | social_proof: A small label that reads 'UGC' is positioned near the top left, indicating user-generated content. text='UGC'"
+  }
+}

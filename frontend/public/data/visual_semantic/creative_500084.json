@@ -1,0 +1,266 @@
+{
+  "creative_id": "500084",
+  "asset_file": "assets/creative_500084.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with placeholders for graphics and prominent text elements.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting a financial tracking service with a call to action.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Gray background",
+      "description": "A light gray background fills the top portion of the ad, providing a neutral base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A large rectangular area in the center, designed to hold key visuals or graphics, with a subtle outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Graphic placeholder",
+      "description": "An empty rectangular shape within the main graphic area, suggesting a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        80,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.251,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.516,
+        0.43
+      ],
+      "area_percentage": 9.72
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Secondary graphic placeholder",
+      "description": "A smaller rectangular shape within the main graphic area, indicating another placeholder for additional imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.306,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.543,
+        0.43
+      ],
+      "area_percentage": 8.72
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional graphic area",
+      "description": "A smaller rectangular area positioned slightly above the center, intended for supplementary graphics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.59
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Another graphic placeholder",
+      "description": "A rectangular shape within the main graphic area, designed to hold another visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text at the bottom of the ad reads 'Track every euro Built for peace of mind', emphasizing the main message.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button at the bottom with the text 'Get offer', inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left corner, labeled 'VaultRun', indicating the brand.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE', highlighting a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalistic with bold text, key elements include a headline and call to action.",
+    "layout_text": "The headline is positioned at the bottom, with the logo at the top left and the call to action at the bottom.",
+    "ocr_text": "VaultRun, SALE, Track every euro, Built for peace of mind, Get offer",
+    "elements_text": "main_subject: A large rectangular area in the center, designed to hold key visuals or graphics, with a subtle outline. | main_subject: An empty rectangular shape within the main graphic area, suggesting a placeholder for an image or graphic. | main_subject: A smaller rectangular shape within the main graphic area, indicating another placeholder for additional imagery. | main_subject: A smaller rectangular area positioned slightly above the center, intended for supplementary graphics. | main_subject: A rectangular shape within the main graphic area, designed to hold another visual element. | headline: Bold text at the bottom of the ad reads 'Track every euro Built for peace of mind', emphasizing the main message. text='Track every euro Built for peace of mind' | cta: A small button at the bottom with the text 'Get offer', inviting user interaction. text='Get offer' | logo: A small logo at the top left corner, labeled 'VaultRun', indicating the brand. text='VaultRun' | discount_badge: A small badge at the top right corner with the text 'SALE', highlighting a promotional offer. text='SALE'"
+  }
+}

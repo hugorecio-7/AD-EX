@@ -1,0 +1,194 @@
+{
+  "creative_id": "500127",
+  "asset_file": "assets/creative_500127.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel booking.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to book travel easily.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A light blue circular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A light blue square shape positioned in the center of the ad, overlapping with the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small light blue circle located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' centered at the bottom of the ad.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        51,
+        411,
+        313,
+        501
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.642,
+        0.869,
+        0.783
+      ],
+      "center_normalized": [
+        0.506,
+        0.713
+      ],
+      "area_percentage": 10.23
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The text 'RouteBloom' in a bold font, positioned at the top of the ad in a contrasting color.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        37,
+        263,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.731,
+        0.123
+      ],
+      "center_normalized": [
+        0.4,
+        0.091
+      ],
+      "area_percentage": 4.34
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Shop now' in white, located at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, travel booking.",
+    "layout_text": "The logo is at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Hotels + flights in one tap, RouteBloom, Shop now",
+    "elements_text": "decorative_element: A light blue circular shape positioned in the center of the ad. | decorative_element: A light blue square shape positioned in the center of the ad, overlapping with the circular shape. | decorative_element: A small light blue circle located towards the bottom center of the ad. | headline: Bold white text stating 'Book your next trip' centered at the bottom of the ad. text='Book your next trip Hotels flights in one tap' | logo: The text 'RouteBloom' in a bold font, positioned at the top of the ad in a contrasting color. text='RouteBloom' | cta: A prominent button with the text 'Shop now' in white, located at the bottom of the ad. text='Shop now'"
+  }
+}

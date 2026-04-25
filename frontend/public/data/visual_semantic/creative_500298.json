@@ -1,0 +1,290 @@
+{
+  "creative_id": "500298",
+  "asset_file": "assets/creative_500298.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with product image placeholders and promotional text.",
+    "visual_style": "minimalistic with soft colors",
+    "main_message": "Promoting a new collection at a discounted price.",
+    "dominant_colors": [
+      "beige",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Image placeholders",
+      "description": "Three empty rectangular frames arranged horizontally, suggesting product images or thumbnails.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.278,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Image placeholder",
+      "description": "A small empty rectangular frame positioned to the left, indicating a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Image placeholder",
+      "description": "A small empty rectangular frame positioned to the right, indicating a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.588,
+        0.278,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Image placeholder",
+      "description": "A medium empty rectangular frame positioned slightly above the center, indicating a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.311,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Image placeholder",
+      "description": "A small empty rectangular frame positioned slightly below the center, indicating a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular area at the bottom left, possibly a decorative element or background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular area adjacent to the previous element, possibly another decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold text stating 'New collection drop €19, 9 Book now' prominently displayed at the bottom of the ad.",
+      "text_content": "New collection drop €19, 9 Book now",
+      "bbox_xyxy": [
+        22,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.786
+      ],
+      "area_percentage": 23.38
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' displayed at the top left in a simple, modern font.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small rectangular badge at the top right with the text 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalistic with soft colors, new collection drop, sale offer",
+    "layout_text": "The logo is positioned at the top left, the sale badge at the top right, and the main offer text is centered at the bottom.",
+    "ocr_text": "BoltCart, SALE, New collection drop, €19, 9 Book now",
+    "elements_text": "unknown: Three empty rectangular frames arranged horizontally, suggesting product images or thumbnails. | unknown: A small empty rectangular frame positioned to the left, indicating a product image. | unknown: A small empty rectangular frame positioned to the right, indicating a product image. | unknown: A medium empty rectangular frame positioned slightly above the center, indicating a product image. | unknown: A small empty rectangular frame positioned slightly below the center, indicating a product image. | unknown: A small rectangular area at the bottom left, possibly a decorative element or background feature. | unknown: A small rectangular area adjacent to the previous element, possibly another decorative feature. | body_text: Bold text stating 'New collection drop €19, 9 Book now' prominently displayed at the bottom of the ad. text='New collection drop €19, 9 Book now' | logo: The logo 'BoltCart' displayed at the top left in a simple, modern font. text='BoltCart' | discount_badge: A small rectangular badge at the top right with the text 'SALE' in bold letters. text='SALE'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "500125",
+  "asset_file": "assets/creative_500125.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a solid green background with abstract shapes and clear messaging.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting financial clarity and peace of mind with NovaPay.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and calming base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        208
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.325
+      ],
+      "center_normalized": [
+        0.499,
+        0.163
+      ],
+      "area_percentage": 32.46
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping abstract shapes, one circular and one rectangular, in lighter shades of green, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        400
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.626
+      ],
+      "center_normalized": [
+        0.333,
+        0.433
+      ],
+      "area_percentage": 12.59
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional abstract shape",
+      "description": "A smaller abstract shape, possibly another rectangle, in a lighter hue, located slightly below the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional abstract shape",
+      "description": "A larger rectangular shape in a lighter shade, positioned below the main subject, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular decorative element in a lighter shade, located towards the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small circular decorative element in a lighter shade, positioned towards the center bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular decorative element in a lighter shade, located towards the bottom right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text stating 'Your money, clearer Built for peace of mind' positioned centrally at the bottom.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        71,
+        407,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.636,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.709
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo 'NovaPay' in bold white font, located at the top left corner.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        25,
+        30,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.047,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.311,
+        0.087
+      ],
+      "area_percentage": 3.93
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text 'Shop now' at the bottom center.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        585
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.914
+      ],
+      "center_normalized": [
+        0.496,
+        0.893
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small white text displaying the price '$4.99' located at the bottom left.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, key elements include abstract shapes and clear messaging.",
+    "layout_text": "The logo is at the top left, the main message is centered at the bottom, and the CTA is at the bottom center.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, NovaPay, Shop now, $4.99",
+    "elements_text": "main_subject: Two overlapping abstract shapes, one circular and one rectangular, in lighter shades of green, positioned centrally. | unknown: A smaller abstract shape, possibly another rectangle, in a lighter hue, located slightly below the main subject. | unknown: A larger rectangular shape in a lighter shade, positioned below the main subject, adding depth to the design. | unknown: A small circular decorative element in a lighter shade, located towards the bottom left. | unknown: Another small circular decorative element in a lighter shade, positioned towards the center bottom. | unknown: A small circular decorative element in a lighter shade, located towards the bottom right. | body_text: Bold white text stating 'Your money, clearer Built for peace of mind' positioned centrally at the bottom. text='Your money, clearer Built for peace of mind' | logo: The logo 'NovaPay' in bold white font, located at the top left corner. text='NovaPay' | cta: A prominent white button with the text 'Shop now' at the bottom center. text='Shop now' | price: A small white text displaying the price '$4.99' located at the bottom left. text='$4.99'"
+  }
+}

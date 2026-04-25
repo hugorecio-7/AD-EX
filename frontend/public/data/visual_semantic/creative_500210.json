@@ -1,0 +1,290 @@
+{
+  "creative_id": "500210",
+  "asset_file": "assets/creative_500210.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and bold text elements.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Encourages users to stream content for free.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are outlined in a lighter blue, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlay rectangle",
+      "description": "A slightly smaller rectangle is placed over the geometric shapes, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.324,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.82
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Additional shapes",
+      "description": "A medium-sized rectangle is positioned slightly above the center, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'Stream the hype' is prominently displayed in bold, white font at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.447,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.689,
+        0.091
+      ],
+      "area_percentage": 3.98
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle is located towards the bottom left, adding a decorative element to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Start free today' is written in bold white text beneath the main headline, encouraging user engagement.",
+      "text_content": "Stream the hype Start free today",
+      "bbox_xyxy": [
+        29,
+        307,
+        291,
+        358
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.909,
+        0.746
+      ],
+      "center_normalized": [
+        0.5,
+        0.693
+      ],
+      "area_percentage": 8.7
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo 'StarVault' is displayed in a bold font at the top left corner, establishing brand identity.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        22,
+        30,
+        140,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.438,
+        0.117
+      ],
+      "center_normalized": [
+        0.253,
+        0.09
+      ],
+      "area_percentage": 2.0
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A button with the text 'Learn more' is positioned at the bottom center, inviting users to take action.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' is located at the top right, drawing attention to a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' is placed at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with bold colors, key elements include geometric shapes and a strong call to action.",
+    "layout_text": "The headline is centrally positioned, with the main subject shapes behind it, and the CTA buttons are at the bottom.",
+    "ocr_text": "Stream the hype, Start free today, StarVault, Learn more, SALE, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are outlined in a lighter blue, positioned centrally within the ad. | main_subject: A slightly smaller rectangle is placed over the geometric shapes, creating a layered effect. | main_subject: A medium-sized rectangle is positioned slightly above the center, adding depth to the design. | headline: The text 'Stream the hype' is prominently displayed in bold, white font at the center of the ad. | unknown: A small circle is located towards the bottom left, adding a decorative element to the composition. | cta: The phrase 'Start free today' is written in bold white text beneath the main headline, encouraging user engagement. text='Stream the hype Start free today' | logo: The logo 'StarVault' is displayed in a bold font at the top left corner, establishing brand identity. text='StarVault' | cta: A button with the text 'Learn more' is positioned at the bottom center, inviting users to take action. text='Learn more' | discount_badge: A small yellow badge with the word 'SALE' is located at the top right, drawing attention to a promotional offer. text='SALE' | social_proof: A small label with the text 'UGC' is placed at the top left, indicating user-generated content. text='UGC'"
+  }
+}

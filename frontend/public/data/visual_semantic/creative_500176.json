@@ -1,0 +1,314 @@
+{
+  "creative_id": "500176",
+  "asset_file": "assets/creative_500176.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a central content area showcasing various shapes and text.",
+    "visual_style": "bold and colorful",
+    "main_message": "Promoting binge-watching content with a call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        573
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.951,
+        0.896
+      ],
+      "center_normalized": [
+        0.501,
+        0.548
+      ],
+      "area_percentage": 62.74
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central rectangular area with a light red hue, featuring abstract shapes and placeholders for images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large circular shape in a lighter shade of red, positioned within the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A square shape in a lighter shade of red, also located within the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon in the bottom section of the content area, colored in a light red.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "Another small circular icon, similar in size and color to the previous one, located nearby.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small arrow icon pointing to the right, positioned at the top right corner of the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, located in the top left corner of the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline text reading 'Binge starts now' in white, prominently displayed in the center of the content area.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'BingeLayer' in a bold font, positioned at the top of the ad in a contrasting color.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Book now' in white, located at the bottom center of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "UGC text",
+      "description": "A small text label reading 'UGC' in white, positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and colorful, promoting binge-watching content.",
+    "layout_text": "The headline is centered, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "BingeLayer, Binge starts now, New hits every week, Book now, UGC",
+    "elements_text": "main_subject: A central rectangular area with a light red hue, featuring abstract shapes and placeholders for images. | decorative_element: A large circular shape in a lighter shade of red, positioned within the content area. | decorative_element: A square shape in a lighter shade of red, also located within the content area. | icon: A small circular icon in the bottom section of the content area, colored in a light red. | icon: Another small circular icon, similar in size and color to the previous one, located nearby. | icon: A small arrow icon pointing to the right, positioned at the top right corner of the content area. | icon: A small label with the text 'UGC' in white, located in the top left corner of the content area. | headline: A bold headline text reading 'Binge starts now' in white, prominently displayed in the center of the content area. text='Binge starts now New hits every week' | logo: The logo 'BingeLayer' in a bold font, positioned at the top of the ad in a contrasting color. text='BingeLayer' | cta: A button with the text 'Book now' in white, located at the bottom center of the ad. text='Book now' | body_text: A small text label reading 'UGC' in white, positioned at the top left corner. text='UGC'"
+  }
+}

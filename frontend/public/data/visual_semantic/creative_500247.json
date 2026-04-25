@@ -1,0 +1,242 @@
+{
+  "creative_id": "500247",
+  "asset_file": "assets/creative_500247.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with promotional text and a call to action.",
+    "visual_style": "bold and minimalistic",
+    "main_message": "Promoting the MoonScreen app with a focus on streaming content.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid red background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center featuring abstract shapes in a lighter shade of red.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "An abstract shape overlaying the main content area, possibly a circle or square in a lighter tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "A small circular shape positioned towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Stream the hype' with a smaller line below it saying 'Cancel anytime'.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The word 'MoonScreen' displayed in a prominent position at the top left corner.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        26,
+        46,
+        164,
+        70
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.456,
+        0.109
+      ],
+      "center_normalized": [
+        0.264,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A white button with the text 'Start now' located at the bottom center of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and minimalistic, promoting streaming content.",
+    "layout_text": "The logo is at the top left, the main content area is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, MoonScreen, Start now, UGC",
+    "elements_text": "decorative_element: A solid red background occupying the top portion of the ad. | app_screenshot: A large rectangular area in the center featuring abstract shapes in a lighter shade of red. | unknown: An abstract shape overlaying the main content area, possibly a circle or square in a lighter tone. | unknown: A small circular shape positioned towards the bottom center of the ad. | body_text: Bold white text stating 'Stream the hype' with a smaller line below it saying 'Cancel anytime'. text='Stream the hype Cancel anytime' | logo: The word 'MoonScreen' displayed in a prominent position at the top left corner. text='MoonScreen' | cta: A white button with the text 'Start now' located at the bottom center of the ad. text='Start now' | icon: A small tag labeled 'UGC' positioned at the top left corner of the ad. text='UGC'"
+  }
+}

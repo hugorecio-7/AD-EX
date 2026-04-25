@@ -1,0 +1,410 @@
+{
+  "creative_id": "500108",
+  "asset_file": "assets/creative_500108.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with game gear icons and a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear and play with friends tonight.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Game gear icons",
+      "description": "Four circular icons representing game gear are arranged in a grid pattern, each with a dark circle in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        186,
+        235
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.38,
+        0.583,
+        0.49
+      ],
+      "center_normalized": [
+        0.341,
+        0.435
+      ],
+      "area_percentage": 5.33
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "The logo 'StormByte' is displayed prominently in bold, white text at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        186,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.582,
+        0.35
+      ],
+      "center_normalized": [
+        0.341,
+        0.294
+      ],
+      "area_percentage": 5.32
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small circular icon placeholder is positioned above the logo, possibly for user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "Another small circular icon placeholder is located next to the previous one, maintaining symmetry.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        102,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A third circular icon placeholder is positioned below the main subject, similar in style to the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        182,
+        188,
+        234
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.59,
+        0.489
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.42
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A fourth circular icon placeholder is located next to the previous one, completing the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        102,
+        234
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.38,
+        0.321,
+        0.489
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.42
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Arrow icon",
+      "description": "A small right-facing arrow icon is positioned at the top right corner, suggesting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Unlock message",
+      "description": "The text 'Unlock rare gear' is displayed in bold white font, emphasizing the main action of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Play with friends",
+      "description": "The text 'Play with friends tonight' is shown in a smaller font beneath the main message, providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        147,
+        143
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.46,
+        0.3
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "The text 'UGC' is displayed in a small white box at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "UGC icon",
+      "description": "A small circular icon is positioned below the UGC label, possibly representing user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main message",
+      "description": "The main message 'Unlock rare gear Play with friends tonight' is prominently displayed in bold white text.",
+      "text_content": "Unlock rare gear Play with friends tonight",
+      "bbox_xyxy": [
+        31,
+        307,
+        293,
+        358
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.64,
+        0.916,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 8.7
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button 'Try for free' is shown at the bottom in a rounded rectangular shape, inviting user interaction.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        23,
+        27,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.086
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Footer text",
+      "description": "The text 'Try for free' is displayed in a smaller font at the bottom of the ad, encouraging action.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "The text 'UGC' is displayed in a small white box at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, Unlock rare gear, Play with friends tonight",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Unlock rare gear, Play with friends tonight, StormByte, Try for free, UGC",
+    "elements_text": "main_subject: Four circular icons representing game gear are arranged in a grid pattern, each with a dark circle in the center. | logo: The logo 'StormByte' is displayed prominently in bold, white text at the top of the ad. | unknown: A small circular icon placeholder is positioned above the logo, possibly for user-generated content. | unknown: Another small circular icon placeholder is located next to the previous one, maintaining symmetry. | unknown: A third circular icon placeholder is positioned below the main subject, similar in style to the others. | unknown: A fourth circular icon placeholder is located next to the previous one, completing the grid. | decorative_element: A small right-facing arrow icon is positioned at the top right corner, suggesting action. | body_text: The text 'Unlock rare gear' is displayed in bold white font, emphasizing the main action of the ad. | body_text: The text 'Play with friends tonight' is shown in a smaller font beneath the main message, providing additional context. | unknown: The text 'UGC' is displayed in a small white box at the top left, indicating user-generated content. | unknown: A small circular icon is positioned below the UGC label, possibly representing user-generated content. | headline: The main message 'Unlock rare gear Play with friends tonight' is prominently displayed in bold white text. text='Unlock rare gear Play with friends tonight' | cta: The button 'Try for free' is shown at the bottom in a rounded rectangular shape, inviting user interaction. text='StormByte' | unknown: The text 'Try for free' is displayed in a smaller font at the bottom of the ad, encouraging action. text='Try for free' | unknown: The text 'UGC' is displayed in a small white box at the top left, indicating user-generated content. text='UGC'"
+  }
+}

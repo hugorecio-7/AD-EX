@@ -6,21 +6,21 @@
     "height": 480
   },
   "global": {
-    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned in the top left. The main message is conveyed through a prominent headline 'Secure & simple' and supporting body text 'Built for peace of mind', both centered in the middle of the ad. A call-to-action button labeled 'Claim reward' is located at the bottom center. The overall composition includes geometric decorative elements that enhance the visual appeal without overpowering the main content.",
-    "visual_style": "Modern flat design with high contrast elements",
-    "main_message": "Promoting a secure and simple investment experience with a reward incentive.",
+    "description": "The ad features a prominent logo, a central graphic, and a clear call to action.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting a secure and simple service with a reward offer.",
     "dominant_colors": [
       "blue",
-      "white"
+      "light gray"
     ],
-    "emotional_tone": "Reassuring and inviting"
+    "emotional_tone": "calm"
   },
   "elements": [
     {
-      "id": 1,
+      "id": 0,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
       "text_content": null,
       "bbox_xyxy": [
         0,
@@ -41,82 +41,106 @@
       "area_percentage": 100.0
     },
     {
-      "id": 2,
+      "id": 1,
       "role": "logo",
-      "label": "EarnPath text logo",
-      "description": "The logo of the EarnPath app, displayed in the top left corner of the crop.",
-      "text_content": "EarnPath",
+      "label": "EarnPath logo",
+      "description": "A simple logo featuring the text 'EarnPath' in a rounded font, positioned at the top of the ad.",
+      "text_content": null,
       "bbox_xyxy": [
-        23,
-        37,
-        113,
-        55
+        0,
+        0,
+        319,
+        86
       ],
       "bbox_normalized": [
-        0.072,
-        0.077,
-        0.353,
-        0.115
+        0.0,
+        0.0,
+        0.998,
+        0.18
       ],
       "center_normalized": [
-        0.212,
-        0.096
+        0.499,
+        0.09
       ],
-      "area_percentage": 1.05
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic element",
+      "description": "A large graphic element in the center, consisting of a circle and a rectangle, both outlined in a light color against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        134,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.279,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.4
+      ],
+      "area_percentage": 14.56
     },
     {
       "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Secure & simple",
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller graphic element in the center, resembling a rectangle, also outlined in a light color.",
+      "text_content": null,
       "bbox_xyxy": [
-        33,
-        307,
-        289,
-        332
+        54,
+        116,
+        158,
+        224
       ],
       "bbox_normalized": [
-        0.103,
-        0.64,
-        0.903,
-        0.692
+        0.171,
+        0.243,
+        0.497,
+        0.468
       ],
       "center_normalized": [
-        0.503,
-        0.666
+        0.334,
+        0.355
       ],
-      "area_percentage": 4.17
+      "area_percentage": 7.3
     },
     {
       "id": 4,
-      "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "Built for peace of mind",
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text reading 'Secure & simple Built for peace of mind' in a large font, centrally positioned within the ad.",
+      "text_content": "Secure & simple Built for peace of mind",
       "bbox_xyxy": [
         33,
-        332,
+        307,
         289,
         357
       ],
       "bbox_normalized": [
         0.103,
-        0.692,
+        0.64,
         0.903,
         0.744
       ],
       "center_normalized": [
         0.503,
-        0.718
+        0.692
       ],
-      "area_percentage": 4.17
+      "area_percentage": 8.33
     },
     {
       "id": 5,
       "role": "cta",
-      "label": "Claim reward button",
-      "description": "A rounded button at the bottom of the crop with the text 'Claim reward'.",
+      "label": "Call to action button",
+      "description": "A button at the bottom of the ad with the text 'Claim reward' in a clear, inviting font.",
       "text_content": "Claim reward",
       "bbox_xyxy": [
         97,
@@ -138,58 +162,33 @@
     },
     {
       "id": 6,
-      "role": "decorative_element",
-      "label": "Geometric shapes",
-      "description": "A circular and rectangular shape in a blue background, positioned in the upper left area of the crop.",
-      "text_content": null,
+      "role": "body_text",
+      "label": "Logo text",
+      "description": "The text 'EarnPath' displayed in a smaller font above the main graphic element.",
+      "text_content": "EarnPath",
       "bbox_xyxy": [
-        56,
-        134,
-        249,
-        249
+        23,
+        37,
+        113,
+        55
       ],
       "bbox_normalized": [
-        0.175,
-        0.279,
-        0.778,
-        0.519
+        0.072,
+        0.077,
+        0.353,
+        0.115
       ],
       "center_normalized": [
-        0.477,
-        0.399
+        0.212,
+        0.096
       ],
-      "area_percentage": 14.45
-    },
-    {
-      "id": 7,
-      "role": "decorative_element",
-      "label": "Geometric shapes",
-      "description": "A combination of a circle and a rectangle in a blue background, positioned in the upper part of the ad.",
-      "text_content": null,
-      "bbox_xyxy": [
-        54,
-        116,
-        158,
-        224
-      ],
-      "bbox_normalized": [
-        0.169,
-        0.242,
-        0.494,
-        0.467
-      ],
-      "center_normalized": [
-        0.331,
-        0.354
-      ],
-      "area_percentage": 7.31
+      "area_percentage": 1.05
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for EarnPath Invest emphasizing security and simplicity with a call to action.",
-    "elements_text": "background: full canvas background. logo: EarnPath text logo, small, located at top left, text: \"EarnPath\". headline: Headline text, small, located at center, text: \"Secure & simple\". body_text: Body text, small, located at center, text: \"Built for peace of mind\". cta: Claim reward button, small, located at bottom center, text: \"Claim reward\". decorative_element: Geometric shapes, medium, located at center. decorative_element: Geometric shapes, medium, located at center.",
-    "ocr_text": "EarnPath Secure & simple Built for peace of mind Claim reward",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.072, 0.077, 0.353, 0.115]. headline Headline text at center, bbox=[0.103, 0.64, 0.903, 0.692]. body_text Body text at center, bbox=[0.103, 0.692, 0.903, 0.744]. cta Claim reward button at bottom center, bbox=[0.303, 0.873, 0.691, 0.915]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[23, 37, 113, 55] | bbox_norm=[0.072, 0.077, 0.353, 0.115] | center=[0.212, 0.096] | area_pct=1.05\nid=3 | role=headline | label=Headline text | text=\"Secure & simple\" | bbox_xyxy=[33, 307, 289, 332] | bbox_norm=[0.103, 0.64, 0.903, 0.692] | center=[0.503, 0.666] | area_pct=4.17\nid=4 | role=body_text | label=Body text | text=\"Built for peace of mind\" | bbox_xyxy=[33, 332, 289, 357] | bbox_norm=[0.103, 0.692, 0.903, 0.744] | center=[0.503, 0.718] | area_pct=4.17\nid=5 | role=cta | label=Claim reward button | text=\"Claim reward\" | bbox_xyxy=[97, 419, 221, 439] | bbox_norm=[0.303, 0.873, 0.691, 0.915] | center=[0.497, 0.894] | area_pct=1.61\nid=6 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[56, 134, 249, 249] | bbox_norm=[0.175, 0.279, 0.778, 0.519] | center=[0.477, 0.399] | area_pct=14.45\nid=7 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 116, 158, 224] | bbox_norm=[0.169, 0.242, 0.494, 0.467] | center=[0.331, 0.354] | area_pct=7.31"
+    "global_text": "unknown, unknown, banner, simple and modern, EarnPath logo, secure service.",
+    "layout_text": "The logo is at the top, the main graphic is centered, the headline is below the graphic, and the CTA is at the bottom.",
+    "ocr_text": "EarnPath, Secure & simple Built for peace of mind, Claim reward",
+    "elements_text": "logo: A simple logo featuring the text 'EarnPath' in a rounded font, positioned at the top of the ad. | main_subject: A large graphic element in the center, consisting of a circle and a rectangle, both outlined in a light color against a blue background. | unknown: A smaller graphic element in the center, resembling a rectangle, also outlined in a light color. | headline: Bold text reading 'Secure & simple Built for peace of mind' in a large font, centrally positioned within the ad. text='Secure & simple Built for peace of mind' | cta: A button at the bottom of the ad with the text 'Claim reward' in a clear, inviting font. text='Claim reward' | body_text: The text 'EarnPath' displayed in a smaller font above the main graphic element. text='EarnPath'"
   }
 }

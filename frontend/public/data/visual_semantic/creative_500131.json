@@ -1,0 +1,170 @@
+{
+  "creative_id": "500131",
+  "asset_file": "assets/creative_500131.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a logo, headline, and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book travel easily.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "RouteBloom logo",
+      "description": "A stylized logo featuring the text 'RouteBloom' in a bold, modern font, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "Two overlapping abstract shapes, one circular and one rectangular, drawn with a thin outline in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'Book your next trip' positioned at the bottom center of the ad.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline that reads 'Hotels + flights in one tap'.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        27,
+        40,
+        262,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.728,
+        0.122
+      ],
+      "center_normalized": [
+        0.401,
+        0.092
+      ],
+      "area_percentage": 3.88
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text 'Book now' centered at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, RouteBloom logo, call to action.",
+    "layout_text": "The logo is at the top, followed by abstract shapes in the center, with the headline and subheadline at the bottom, and the CTA button at the very bottom.",
+    "ocr_text": "RouteBloom, Book your next trip, Hotels + flights in one tap, Book now",
+    "elements_text": "logo: A stylized logo featuring the text 'RouteBloom' in a bold, modern font, positioned at the top center. | decorative_element: Two overlapping abstract shapes, one circular and one rectangular, drawn with a thin outline in the center. | headline: Bold, white text stating 'Book your next trip' positioned at the bottom center of the ad. text='Book your next trip Hotels flights in one tap' | body_text: Smaller white text below the headline that reads 'Hotels + flights in one tap'. text='RouteBloom' | cta: A prominent white button with the text 'Book now' centered at the bottom of the ad. text='Book now'"
+  }
+}

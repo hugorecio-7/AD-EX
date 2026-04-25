@@ -1,0 +1,362 @@
+{
+  "creative_id": "500069",
+  "asset_file": "assets/creative_500069.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design with abstract shapes and clear text elements promoting a streaming service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting the new season of FluxStream with a call to action to watch now.",
+    "dominant_colors": [
+      "#FF6F61",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A collection of abstract geometric shapes in soft colors, creating a visually engaging background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic",
+      "description": "A prominent central graphic that features a large, colorful square with rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.24
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "overlapping shape",
+      "description": "An overlapping circular shape that adds depth and interest to the central graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "additional shape",
+      "description": "A smaller rectangular shape that complements the main graphic, positioned slightly off-center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "colorful circle",
+      "description": "A colorful circular element that enhances the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.62
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "The logo 'FluxStream' displayed prominently at the top in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "season announcement",
+      "description": "Text announcing 'new season drops' in a clear, friendly font, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button labeled 'Watch now' in a contrasting color, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "subscription price",
+      "description": "The price '€9.99' displayed in a simple, easy-to-read format at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "main title",
+      "description": "The headline 'FluxStream' in large, bold letters, capturing immediate attention.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "additional info",
+      "description": "Text providing additional information about the service, positioned below the headline.",
+      "text_content": "new season drops Start free today",
+      "bbox_xyxy": [
+        98,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.549,
+        0.714
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "watch now button",
+      "description": "A prominent button with the text 'Watch now', designed to attract clicks.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 13,
+      "role": "price",
+      "label": "price tag",
+      "description": "A small price tag displaying '€9.99', indicating the cost of the service.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, FluxStream, new season drops, watch now.",
+    "layout_text": "The headline is at the top, the main graphic is central, and the CTA is at the bottom.",
+    "ocr_text": "FluxStream, new season drops, Start free today, Watch now, €9.99",
+    "elements_text": "decorative_element: A collection of abstract geometric shapes in soft colors, creating a visually engaging background. | main_subject: A prominent central graphic that features a large, colorful square with rounded edges. | main_subject: An overlapping circular shape that adds depth and interest to the central graphic. | decorative_element: A smaller rectangular shape that complements the main graphic, positioned slightly off-center. | decorative_element: A colorful circular element that enhances the visual appeal of the ad. | logo: The logo 'FluxStream' displayed prominently at the top in bold, modern typography. | body_text: Text announcing 'new season drops' in a clear, friendly font, positioned centrally. | cta: A button labeled 'Watch now' in a contrasting color, inviting user interaction. | price: The price '€9.99' displayed in a simple, easy-to-read format at the bottom. | headline: The headline 'FluxStream' in large, bold letters, capturing immediate attention. text='FluxStream' | body_text: Text providing additional information about the service, positioned below the headline. text='new season drops Start free today' | cta: A prominent button with the text 'Watch now', designed to attract clicks. text='Watch now' | price: A small price tag displaying '€9.99', indicating the cost of the service. text='€9.99'"
+  }
+}

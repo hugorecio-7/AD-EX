@@ -1,0 +1,266 @@
+{
+  "creative_id": "500187",
+  "asset_file": "assets/creative_500187.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a flash sale with free shipping and a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient fills the background, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        309,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.197,
+        0.966,
+        0.72
+      ],
+      "center_normalized": [
+        0.508,
+        0.458
+      ],
+      "area_percentage": 47.81
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Flash sale live",
+      "description": "Bold white text stating 'Flash sale live' prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product image",
+      "description": "A simple outline of two boxes, representing a product, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.361,
+        0.399
+      ],
+      "area_percentage": 6.68
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product image",
+      "description": "Another simple outline of a box, slightly overlapping with the first, indicating a product offering.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Free shipping text",
+      "description": "Smaller white text below the headline that reads 'Free shipping over $25'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A bold white text displaying the price '€19.99' located below the body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent black button with white text saying 'Claim reward' at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A small logo at the top left corner, featuring the text 'CrispBox' in a clean font.",
+      "text_content": "Flash sale live Free shipping over $25 €19.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        206,
+        272,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.85,
+        0.934
+      ],
+      "center_normalized": [
+        0.459,
+        0.789
+      ],
+      "area_percentage": 22.71
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        21,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A subtle design element that adds visual interest without detracting from the main message.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, flash sale, free shipping, claim reward",
+    "layout_text": "The headline is at the top, product images are centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live, Free shipping over $25, €19.99, Claim reward, CrispBox, UGC",
+    "elements_text": "headline: Bold white text stating 'Flash sale live' prominently displayed at the top of the ad. | product: A simple outline of two boxes, representing a product, centered in the ad. | product: Another simple outline of a box, slightly overlapping with the first, indicating a product offering. | body_text: Smaller white text below the headline that reads 'Free shipping over $25'. | price: A bold white text displaying the price '€19.99' located below the body text. | cta: A prominent black button with white text saying 'Claim reward' at the bottom of the ad. | logo: A small logo at the top left corner, featuring the text 'CrispBox' in a clean font. text='Flash sale live Free shipping over $25 €19.99 Claim reward' | icon: A small icon labeled 'UGC' positioned at the top left, indicating user-generated content. text='CrispBox' | decorative_element: A subtle design element that adds visual interest without detracting from the main message. text='UGC'"
+  }
+}

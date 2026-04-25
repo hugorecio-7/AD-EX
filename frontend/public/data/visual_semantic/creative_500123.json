@@ -1,0 +1,170 @@
+{
+  "creative_id": "500123",
+  "asset_file": "assets/creative_500123.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a strong emphasis on the main message.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to engage with NovaPay for financial clarity.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a fresh and modern look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in lighter shades of green, add visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle in a lighter green hue positioned near the center, contributing to the overall geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Your money, clearer' is prominently displayed in the center, conveying the main message.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        61,
+        304,
+        258,
+        387
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.633,
+        0.806,
+        0.806
+      ],
+      "center_normalized": [
+        0.498,
+        0.72
+      ],
+      "area_percentage": 10.65
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The 'NovaPay' logo appears in a bold font at the top left, enhancing brand visibility.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Book now' in white, positioned at the bottom, inviting user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, NovaPay logo, call to action.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, NovaPay, Book now",
+    "elements_text": "decorative_element: Two overlapping geometric shapes, one circular and one rectangular, in lighter shades of green, add visual interest. | decorative_element: A small circle in a lighter green hue positioned near the center, contributing to the overall geometric theme. | headline: Bold, black text stating 'Your money, clearer' is prominently displayed in the center, conveying the main message. text='Your money, clearer Built for peace of mind' | logo: The 'NovaPay' logo appears in a bold font at the top left, enhancing brand visibility. text='NovaPay' | cta: A rectangular button with the text 'Book now' in white, positioned at the bottom, inviting user interaction. text='Book now'"
+  }
+}

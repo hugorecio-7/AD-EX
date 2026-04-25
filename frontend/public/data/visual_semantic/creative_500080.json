@@ -1,0 +1,218 @@
+{
+  "creative_id": "500080",
+  "asset_file": "assets/creative_500080.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a light gray background with promotional text and a discount badge.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting limited stock and free shipping with a discount offer.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A smooth light gray background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.181,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.59
+      ],
+      "area_percentage": 81.84
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A simple, bold logo featuring the text 'BoltCart' in a prominent position at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        295
+      ],
+      "bbox_normalized": [
+        0.148,
+        0.281,
+        0.33,
+        0.461
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A rectangular area with no visible content, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Empty circles",
+      "description": "Two empty circular shapes located below the central area, suggesting placeholders for images or icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold text stating 'Limited stock Free shipping over $25' in the center of the ad, conveying a promotional message.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        63,
+        409,
+        299,
+        468
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.639,
+        0.831,
+        0.731
+      ],
+      "center_normalized": [
+        0.503,
+        0.685
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A bold '-30%' text in a prominent position at the bottom, indicating a discount offer.",
+      "text_content": "-30% Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.79
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'BoltCart' displayed prominently at the top of the ad in a clear, bold font.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        26,
+        37,
+        193,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.536,
+        0.123
+      ],
+      "center_normalized": [
+        0.304,
+        0.091
+      ],
+      "area_percentage": 3.04
+    },
+    {
+      "id": 8,
+      "role": "app_screenshot",
+      "label": "Uic placeholder",
+      "description": "A small placeholder labeled 'Uic' positioned at the top left, possibly indicating an app screenshot or icon.",
+      "text_content": "Uic",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, promotional message, discount offer",
+    "layout_text": "The logo is at the top, followed by the promotional text in the center, and the discount badge at the bottom.",
+    "ocr_text": "Limited stock, Free shipping over $25, -30%, Claim reward, BoltCart, Uic",
+    "elements_text": "logo: A simple, bold logo featuring the text 'BoltCart' in a prominent position at the top center. | unknown: A rectangular area with no visible content, positioned in the center of the ad. | unknown: Two empty circular shapes located below the central area, suggesting placeholders for images or icons. | body_text: Bold text stating 'Limited stock Free shipping over $25' in the center of the ad, conveying a promotional message. text='Limited stock Free shipping over $25' | discount_badge: A bold '-30%' text in a prominent position at the bottom, indicating a discount offer. text='-30% Claim reward' | headline: The brand name 'BoltCart' displayed prominently at the top of the ad in a clear, bold font. text='BoltCart' | app_screenshot: A small placeholder labeled 'Uic' positioned at the top left, possibly indicating an app screenshot or icon. text='Uic'"
+  }
+}

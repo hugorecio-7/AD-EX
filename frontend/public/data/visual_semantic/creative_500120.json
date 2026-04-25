@@ -1,0 +1,242 @@
+{
+  "creative_id": "500120",
+  "asset_file": "assets/creative_500120.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a warm orange background with a clear call to action and promotional text.",
+    "visual_style": "warm and inviting",
+    "main_message": "Promoting cashback offers with a free trial.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'NovaPay' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Earn cashback daily",
+      "description": "A prominent text element in the center, displaying the message 'Earn cashback daily' in a bold, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.64
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Built for peace of mind",
+      "description": "A smaller text element below the main message, stating 'Built for peace of mind' in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.238,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.353
+      ],
+      "area_percentage": 7.53
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A rounded button in the center with the text 'Try for free' in a bold font, designed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two circular shapes positioned near the bottom, adding a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A rectangular shape that is not clearly defined, possibly serving as a background or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape that appears to be a decorative element without specific details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 8,
+      "role": "background",
+      "label": "Background color",
+      "description": "A solid orange background that fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": "Earn cashback daily Buil Try for free",
+      "bbox_xyxy": [
+        50,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.506,
+        0.786
+      ],
+      "area_percentage": 20.78
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'NovaPay' in a simple font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        19,
+        93,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.291,
+        0.116
+      ],
+      "center_normalized": [
+        0.183,
+        0.087
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, warm and inviting, cashback offers, free trial",
+    "layout_text": "The logo is at the top left, the main message is centered, followed by a smaller text, and the CTA button is below.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, Try for free, NovaPay",
+    "elements_text": "logo: A small logo positioned at the top left corner, featuring the text 'NovaPay' in a simple font. | body_text: A prominent text element in the center, displaying the message 'Earn cashback daily' in a bold, clear font. | body_text: A smaller text element below the main message, stating 'Built for peace of mind' in a lighter font. | cta: A rounded button in the center with the text 'Try for free' in a bold font, designed to attract attention. | decorative_element: Two circular shapes positioned near the bottom, adding a decorative touch to the overall design. | unknown: A rectangular shape that is not clearly defined, possibly serving as a background or decorative element. | unknown: A small circular shape that appears to be a decorative element without specific details. | logo: A small logo positioned at the top left corner, featuring the text 'NovaPay' in a simple font. text='NovaPay'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500114",
+  "asset_file": "assets/creative_500114.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection with free shipping.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A vibrant orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        85,
+        359,
+        271
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.134,
+        0.998,
+        0.425
+      ],
+      "center_normalized": [
+        0.502,
+        0.279
+      ],
+      "area_percentage": 28.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "ZenDrop ALE",
+      "description": "Bold, large text at the top, prominently displaying the brand name 'ZenDrop ALE' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        85,
+        359,
+        253
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.134,
+        0.998,
+        0.396
+      ],
+      "center_normalized": [
+        0.502,
+        0.265
+      ],
+      "area_percentage": 25.99
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "New collection drop",
+      "description": "Medium-sized text below the headline, stating 'New collection drop' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        85,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.134,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.246
+      ],
+      "area_percentage": 22.17
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product placeholder",
+      "description": "A rectangular placeholder in the center, suggesting a product image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Decorative element",
+      "description": "A small decorative icon positioned at the top, possibly representing a feature or benefit.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom with the text 'Shop now', designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '€9.99' in a clear font, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Free shipping badge",
+      "description": "A badge stating 'Free shipping over $25', positioned near the price to highlight a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo of ZenDrop, prominently displayed at the top of the ad.",
+      "text_content": "ZenDrop ALE",
+      "bbox_xyxy": [
+        21,
+        25,
+        321,
+        105
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.039,
+        0.892,
+        0.164
+      ],
+      "center_normalized": [
+        0.475,
+        0.102
+      ],
+      "area_percentage": 10.42
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "Text at the bottom providing additional information about the collection drop.",
+      "text_content": "New collection drop Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Call to action",
+      "description": "A small text element encouraging users to take action, located at the bottom.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Price display",
+      "description": "A small text element displaying the price, located at the bottom of the ad.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, ZenDrop ALE, new collection drop, free shipping over $25",
+    "layout_text": "The headline is at the top, followed by the body text, product placeholder in the center, and the CTA at the bottom.",
+    "ocr_text": "ZenDrop ALE, New collection drop, Free shipping over $25, Shop now, €9.99",
+    "elements_text": "headline: Bold, large text at the top, prominently displaying the brand name 'ZenDrop ALE' in a contrasting color. | body_text: Medium-sized text below the headline, stating 'New collection drop' in a clear, readable font. | product: A rectangular placeholder in the center, suggesting a product image or graphic. | icon: A small decorative icon positioned at the top, possibly representing a feature or benefit. | cta: A prominent button at the bottom with the text 'Shop now', designed to attract clicks. | price: A small price tag displaying '€9.99' in a clear font, located at the bottom of the ad. | discount_badge: A badge stating 'Free shipping over $25', positioned near the price to highlight a promotional offer. | logo: The logo of ZenDrop, prominently displayed at the top of the ad. text='ZenDrop ALE' | unknown: Text at the bottom providing additional information about the collection drop. text='New collection drop Free shipping over $25' | unknown: A small text element encouraging users to take action, located at the bottom. text='Shop now' | unknown: A small text element displaying the price, located at the bottom of the ad. text='€9.99'"
+  }
+}

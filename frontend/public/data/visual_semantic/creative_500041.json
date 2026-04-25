@@ -1,0 +1,386 @@
+{
+  "creative_id": "500041",
+  "asset_file": "assets/creative_500041.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various game icons and text elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to unlock rare gear and play with friends.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A simple game icon with a square shape, featuring a light outline and a transparent center, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another square game icon similar to the previous one, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A third square game icon with a light outline, positioned at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A fourth square game icon, located in the center right of the ad, matching the style of the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon at the top left, featuring a light outline and a transparent center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "Another small circular icon at the top right, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon located in the center bottom, featuring a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon positioned in the center, below the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "Another small circular icon located below the previous one, maintaining the same design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon at the top center, featuring a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon positioned next to the previous one at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The text 'NeonArena' in bold, large font at the top of the ad, prominently displayed.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        30,
+        40,
+        358,
+        94
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.994,
+        0.147
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.69
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Unlock rare gear Play with friends tonight' in a medium-sized font, centered in the ad.",
+      "text_content": "Unlock rare gear Play with friends tonight",
+      "bbox_xyxy": [
+        36,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.684
+      ],
+      "area_percentage": 7.2
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Shop now' in a bold, eye-catching font at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, NeonArena, unlock rare gear.",
+    "layout_text": "The headline is at the top, followed by icons and the main message in the center, with the CTA at the bottom.",
+    "ocr_text": "NeonArena, Unlock rare gear Play with friends tonight, Shop now",
+    "elements_text": "icon: A simple game icon with a square shape, featuring a light outline and a transparent center, positioned at the top. | icon: Another square game icon similar to the previous one, located in the center of the ad. | icon: A third square game icon with a light outline, positioned at the top left of the ad. | icon: A fourth square game icon, located in the center right of the ad, matching the style of the others. | icon: A small circular icon at the top left, featuring a light outline and a transparent center. | icon: Another small circular icon at the top right, similar in style to the previous one. | icon: A small circular icon located in the center bottom, featuring a light outline. | icon: A small circular icon positioned in the center, below the main text. | icon: Another small circular icon located below the previous one, maintaining the same design. | icon: A small circular icon at the top center, featuring a light outline. | icon: A small circular icon positioned next to the previous one at the top. | headline: The text 'NeonArena' in bold, large font at the top of the ad, prominently displayed. text='NeonArena' | body_text: The text 'Unlock rare gear Play with friends tonight' in a medium-sized font, centered in the ad. text='Unlock rare gear Play with friends tonight' | cta: The text 'Shop now' in a bold, eye-catching font at the bottom of the ad. text='Shop now'"
+  }
+}

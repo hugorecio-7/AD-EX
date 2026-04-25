@@ -1,0 +1,242 @@
+{
+  "creative_id": "500020",
+  "asset_file": "assets/creative_500020.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and brand logo.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for the CloudRoute app.",
+    "dominant_colors": [
+      "light green",
+      "dark green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A light green rectangular area at the top of the ad, providing a soft backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Main app interface",
+      "description": "A large rectangular area in the center displaying a simplified app interface with rounded shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.6
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Secondary text",
+      "description": "Text in a bold font, positioned centrally, conveying additional information about the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "An abstract shape in the center, possibly a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.44
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Highlighted text",
+      "description": "Text in a prominent position, emphasizing a key feature or benefit of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A rounded shape in the center, adding visual interest without specific context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold, attention-grabbing text at the bottom urging users to install the app, with a price highlighted.",
+      "text_content": "Fly smarter Special fares today €29.92 Install now",
+      "bbox_xyxy": [
+        22,
+        201,
+        252,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.628,
+        0.787,
+        0.934
+      ],
+      "center_normalized": [
+        0.428,
+        0.781
+      ],
+      "area_percentage": 22.01
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'CloudRoute' in a clear font.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        23,
+        23,
+        136,
+        42
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.425,
+        0.131
+      ],
+      "center_normalized": [
+        0.248,
+        0.102
+      ],
+      "area_percentage": 2.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include a call to action and brand logo.",
+    "layout_text": "The logo is positioned at the top left, the main app interface is centered, and the call to action is at the bottom.",
+    "ocr_text": "Fly smarter, Special fares today, €29.92, Install now, CloudRoute",
+    "elements_text": "decorative_element: A light green rectangular area at the top of the ad, providing a soft backdrop. | app_screenshot: A large rectangular area in the center displaying a simplified app interface with rounded shapes. | body_text: Text in a bold font, positioned centrally, conveying additional information about the app. | unknown: An abstract shape in the center, possibly a placeholder for an image or graphic. | body_text: Text in a prominent position, emphasizing a key feature or benefit of the app. | unknown: A rounded shape in the center, adding visual interest without specific context. | cta: A bold, attention-grabbing text at the bottom urging users to install the app, with a price highlighted. text='Fly smarter Special fares today €29.92 Install now' | logo: A small logo at the top left corner, featuring the brand name 'CloudRoute' in a clear font. text='CloudRoute'"
+  }
+}

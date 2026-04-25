@@ -1,0 +1,146 @@
+{
+  "creative_id": "500186",
+  "asset_file": "assets/creative_500186.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a light beige background with a product image and promotional text.",
+    "visual_style": "minimalist and modern",
+    "main_message": "Promoting the CrispBox product at a price of €19.99.",
+    "dominant_colors": [
+      "beige",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light beige background",
+      "description": "A smooth, light beige background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "CrispBox product image",
+      "description": "A simple outline of a box with a circular element, suggesting a product packaging design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular design element",
+      "description": "A small circular shape next to the product image, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold, black text stating 'Your next favorite pick' with a smaller line below it for the call to action.",
+      "text_content": "Your next favorite pick Shop bestsellers now €19.99 Watch now",
+      "bbox_xyxy": [
+        23,
+        305,
+        263,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.635,
+        0.822,
+        0.915
+      ],
+      "center_normalized": [
+        0.447,
+        0.775
+      ],
+      "area_percentage": 20.94
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "The word 'CrispBox' displayed in a clean, modern font at the top of the ad.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        21,
+        26,
+        134,
+        59
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.054,
+        0.419,
+        0.123
+      ],
+      "center_normalized": [
+        0.242,
+        0.089
+      ],
+      "area_percentage": 2.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist and modern, CrispBox, promotional text",
+    "layout_text": "The logo is at the top, the product image is centered, and the promotional text is at the bottom.",
+    "ocr_text": "CrispBox, Your next favorite pick, Shop bestsellers now, €19.99, Watch now",
+    "elements_text": "product: A simple outline of a box with a circular element, suggesting a product packaging design. | decorative_element: A small circular shape next to the product image, adding a decorative touch. | body_text: Bold, black text stating 'Your next favorite pick' with a smaller line below it for the call to action. text='Your next favorite pick Shop bestsellers now €19.99 Watch now' | logo: The word 'CrispBox' displayed in a clean, modern font at the top of the ad. text='CrispBox'"
+  }
+}

@@ -6,117 +6,141 @@
     "height": 480
   },
   "global": {
-    "description": "The ad features a full canvas background with the 'EarnPath' logo positioned in the top left corner. The main subject is highlighted by a prominent headline stating 'Track every euro' and supporting body text that reads 'Built for peace of mind', both centered in the middle of the ad. A call to action button labeled 'Start now' is located at the bottom center. The composition includes geometric shapes as decorative elements, enhancing the visual appeal without distracting from the main message.",
-    "visual_style": "Modern flat design with high contrast",
-    "main_message": "Encouraging users to track their investments for peace of mind",
+    "description": "The ad features a modern design with geometric shapes and clear messaging.",
+    "visual_style": "minimalist with geometric shapes",
+    "main_message": "Encourages users to track their spending with peace of mind.",
     "dominant_colors": [
       "blue",
       "white"
     ],
-    "emotional_tone": "Reassuring and motivating"
+    "emotional_tone": "trustworthy"
   },
   "elements": [
     {
       "id": 1,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
-        320,
-        480
+        319,
+        86
       ],
       "bbox_normalized": [
         0.0,
         0.0,
-        1.0,
-        1.0
+        0.999,
+        0.181
       ],
       "center_normalized": [
         0.5,
-        0.5
+        0.09
       ],
-      "area_percentage": 100.0
+      "area_percentage": 18.05
     },
     {
       "id": 2,
-      "role": "logo",
-      "label": "EarnPath text logo",
-      "description": "The logo of the EarnPath app, displayed prominently in the upper left corner of the crop.",
-      "text_content": "EarnPath",
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are centered in the ad, both outlined in a lighter shade, creating a modern and abstract look.",
+      "text_content": null,
       "bbox_xyxy": [
-        23,
-        37,
-        113,
-        55
+        57,
+        141,
+        249,
+        249
       ],
       "bbox_normalized": [
-        0.072,
-        0.077,
-        0.353,
-        0.115
+        0.179,
+        0.294,
+        0.781,
+        0.52
       ],
       "center_normalized": [
-        0.212,
-        0.096
+        0.48,
+        0.407
       ],
-      "area_percentage": 1.05
+      "area_percentage": 13.64
     },
     {
       "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Track every euro",
+      "role": "main_subject",
+      "label": "Rectangle shape",
+      "description": "A prominent rectangle shape is positioned centrally, with a light outline, suggesting a placeholder for content.",
+      "text_content": null,
       "bbox_xyxy": [
-        29,
-        309,
-        289,
-        333
+        54,
+        116,
+        158,
+        224
       ],
       "bbox_normalized": [
-        0.091,
-        0.644,
-        0.903,
-        0.694
+        0.171,
+        0.243,
+        0.497,
+        0.468
       ],
       "center_normalized": [
-        0.497,
-        0.669
+        0.334,
+        0.355
       ],
-      "area_percentage": 4.06
+      "area_percentage": 7.3
     },
     {
       "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle is placed near the rectangle, adding to the geometric theme of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
       "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "Built for peace of mind",
+      "label": "Main message text",
+      "description": "The text reads 'Track every euro Built for peace of mind' in a clear, bold font, centrally positioned for emphasis.",
+      "text_content": "Track every euro Built for peace of mind",
       "bbox_xyxy": [
         29,
-        333,
+        309,
         289,
         357
       ],
       "bbox_normalized": [
         0.091,
-        0.694,
+        0.644,
         0.903,
         0.744
       ],
       "center_normalized": [
         0.497,
-        0.719
+        0.694
       ],
-      "area_percentage": 4.06
+      "area_percentage": 8.12
     },
     {
-      "id": 5,
+      "id": 6,
       "role": "cta",
-      "label": "Call to Action Button",
-      "description": "A button with the text 'Start now' positioned at the bottom of the crop.",
+      "label": "Call to action button",
+      "description": "A button with the text 'Start now' is located at the bottom, designed to stand out with a contrasting color.",
       "text_content": "Start now",
       "bbox_xyxy": [
         113,
@@ -137,59 +161,58 @@
       "area_percentage": 1.22
     },
     {
-      "id": 6,
-      "role": "decorative_element",
-      "label": "Geometric shapes",
-      "description": "A combination of a circle and a rectangle in a blue background, positioned towards the left side of the crop.",
-      "text_content": null,
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'EarnPath' is displayed at the top left, featuring a simple and modern font.",
+      "text_content": "EarnPath",
       "bbox_xyxy": [
-        57,
-        141,
-        249,
-        249
+        23,
+        37,
+        113,
+        55
       ],
       "bbox_normalized": [
-        0.178,
-        0.294,
-        0.778,
-        0.519
+        0.072,
+        0.077,
+        0.353,
+        0.115
       ],
       "center_normalized": [
-        0.478,
-        0.406
+        0.212,
+        0.096
       ],
-      "area_percentage": 13.5
+      "area_percentage": 1.05
     },
     {
-      "id": 7,
-      "role": "decorative_element",
-      "label": "Geometric shapes",
-      "description": "A combination of a circle and a rectangle in a blue background, positioned in the upper part of the crop.",
-      "text_content": null,
+      "id": 8,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
       "bbox_xyxy": [
-        54,
-        116,
-        158,
-        224
+        25,
+        85,
+        57,
+        99
       ],
       "bbox_normalized": [
-        0.169,
-        0.242,
-        0.494,
-        0.467
+        0.078,
+        0.177,
+        0.178,
+        0.206
       ],
       "center_normalized": [
-        0.331,
-        0.354
+        0.128,
+        0.192
       ],
-      "area_percentage": 7.31
+      "area_percentage": 0.29
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for EarnPath Invest promoting investment tracking.",
-    "elements_text": "background: full canvas background. logo: EarnPath text logo, small, located at top left, text: \"EarnPath\". headline: Headline text, small, located at center, text: \"Track every euro\". body_text: Body text, small, located at center, text: \"Built for peace of mind\". cta: Call to Action Button, small, located at bottom center, text: \"Start now\". decorative_element: Geometric shapes, medium, located at center. decorative_element: Geometric shapes, medium, located at center.",
-    "ocr_text": "EarnPath Track every euro Built for peace of mind Start now",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo EarnPath text logo at top left, bbox=[0.072, 0.077, 0.353, 0.115]. headline Headline text at center, bbox=[0.091, 0.644, 0.903, 0.694]. body_text Body text at center, bbox=[0.091, 0.694, 0.903, 0.744]. cta Call to Action Button at bottom center, bbox=[0.353, 0.873, 0.647, 0.915]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 320, 480] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=EarnPath text logo | text=\"EarnPath\" | bbox_xyxy=[23, 37, 113, 55] | bbox_norm=[0.072, 0.077, 0.353, 0.115] | center=[0.212, 0.096] | area_pct=1.05\nid=3 | role=headline | label=Headline text | text=\"Track every euro\" | bbox_xyxy=[29, 309, 289, 333] | bbox_norm=[0.091, 0.644, 0.903, 0.694] | center=[0.497, 0.669] | area_pct=4.06\nid=4 | role=body_text | label=Body text | text=\"Built for peace of mind\" | bbox_xyxy=[29, 333, 289, 357] | bbox_norm=[0.091, 0.694, 0.903, 0.744] | center=[0.497, 0.719] | area_pct=4.06\nid=5 | role=cta | label=Call to Action Button | text=\"Start now\" | bbox_xyxy=[113, 419, 207, 439] | bbox_norm=[0.353, 0.873, 0.647, 0.915] | center=[0.5, 0.894] | area_pct=1.22\nid=6 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[57, 141, 249, 249] | bbox_norm=[0.178, 0.294, 0.778, 0.519] | center=[0.478, 0.406] | area_pct=13.5\nid=7 | role=decorative_element | label=Geometric shapes | text=<none> | bbox_xyxy=[54, 116, 158, 224] | bbox_norm=[0.169, 0.242, 0.494, 0.467] | center=[0.331, 0.354] | area_pct=7.31"
+    "global_text": "unknown, unknown, banner, minimalist with geometric shapes, Track every euro, Start now",
+    "layout_text": "The headline is at the top with the logo, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Built for peace of mind, Start now, EarnPath, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are centered in the ad, both outlined in a lighter shade, creating a modern and abstract look. | main_subject: A prominent rectangle shape is positioned centrally, with a light outline, suggesting a placeholder for content. | decorative_element: A small circle is placed near the rectangle, adding to the geometric theme of the ad. | body_text: The text reads 'Track every euro Built for peace of mind' in a clear, bold font, centrally positioned for emphasis. text='Track every euro Built for peace of mind' | cta: A button with the text 'Start now' is located at the bottom, designed to stand out with a contrasting color. text='Start now' | logo: The logo 'EarnPath' is displayed at the top left, featuring a simple and modern font. text='EarnPath' | icon: A small tag labeled 'UGC' is positioned at the top left, indicating user-generated content. text='UGC'"
   }
 }

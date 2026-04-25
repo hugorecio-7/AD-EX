@@ -1,0 +1,170 @@
+{
+  "creative_id": "500086",
+  "asset_file": "assets/creative_500086.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, abstract shapes, and clear messaging.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Encouraging users to earn cashback with the VaultRun app.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A stylized logo featuring the text 'VaultRun' in a bold font, set against a purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, rendered in a light purple hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cashback message",
+      "description": "Text reading 'Earn cashback daily Built for peace of mind' in a clear, modern font, prominently displayed in white.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "VaultRun title",
+      "description": "The word 'VaultRun' in a bold, eye-catching font, positioned at the top of the ad.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        39,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.324,
+        0.092
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button with the text 'Install now' in a bold font, set against a contrasting background at the bottom of the ad.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold colors, VaultRun logo, cashback message, install now button",
+    "layout_text": "The logo is at the top, followed by the body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "Earn cashback daily Built for peace of mind, VaultRun, Install now",
+    "elements_text": "logo: A stylized logo featuring the text 'VaultRun' in a bold font, set against a purple background. | unknown: Two overlapping geometric shapes, one circular and one square, rendered in a light purple hue. | body_text: Text reading 'Earn cashback daily Built for peace of mind' in a clear, modern font, prominently displayed in white. text='Earn cashback daily Built for peace of mind' | headline: The word 'VaultRun' in a bold, eye-catching font, positioned at the top of the ad. text='VaultRun' | cta: A prominent button with the text 'Install now' in a bold font, set against a contrasting background at the bottom of the ad. text='Install now'"
+  }
+}

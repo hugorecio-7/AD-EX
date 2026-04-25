@@ -1,0 +1,290 @@
+{
+  "creative_id": "500105",
+  "asset_file": "assets/creative_500105.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with an app interface mockup and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting the PulsePlay app with a focus on binge-watching content.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, creating a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.08
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface mockup",
+      "description": "A rectangular mockup of an app interface with rounded corners, featuring placeholder shapes for content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large circular shape in the app mockup, visually representing a placeholder for an image or video.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape in the app mockup, serving as another placeholder for content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon at the bottom of the app mockup, possibly representing a feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "Another small circular icon similar to the previous one, adding to the app's interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A third small circular icon, completing the set of interactive elements in the app mockup.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Binge starts now' with a smaller line below it saying 'Cancel anytime', prominently displayed.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The 'PulsePlay' logo is positioned at the top of the ad, featuring a modern font style.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        28,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.086
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom of the ad with the text 'Learn more', inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "User-generated content label",
+      "description": "A small label at the top left corner indicating 'UGC', suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, PulsePlay, binge starts now.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, PulsePlay, Learn more, UGC",
+    "elements_text": "app_screenshot: A rectangular mockup of an app interface with rounded corners, featuring placeholder shapes for content. | decorative_element: A large circular shape in the app mockup, visually representing a placeholder for an image or video. | decorative_element: A rectangular shape in the app mockup, serving as another placeholder for content. | icon: A small circular icon at the bottom of the app mockup, possibly representing a feature or option. | icon: Another small circular icon similar to the previous one, adding to the app's interactive elements. | icon: A third small circular icon, completing the set of interactive elements in the app mockup. | headline: Bold white text stating 'Binge starts now' with a smaller line below it saying 'Cancel anytime', prominently displayed. text='Binge starts now Cancel anytime' | logo: The 'PulsePlay' logo is positioned at the top of the ad, featuring a modern font style. text='PulsePlay' | cta: A rectangular button at the bottom of the ad with the text 'Learn more', inviting user interaction. text='Learn more' | body_text: A small label at the top left corner indicating 'UGC', suggesting user-generated content. text='UGC'"
+  }
+}

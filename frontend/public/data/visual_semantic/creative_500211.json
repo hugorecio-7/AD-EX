@@ -1,0 +1,242 @@
+{
+  "creative_id": "500211",
+  "asset_file": "assets/creative_500211.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a prominent logo and clear call to action.",
+    "visual_style": "bright and minimalistic",
+    "main_message": "Promoting the new season of StarVault with a clear invitation to watch.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "A bold, modern logo featuring the text 'StarVault' in a prominent position at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A graphic representation of abstract shapes, including a circle and a square, in a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "small circles",
+      "description": "Three small circles arranged horizontally, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "small rectangle",
+      "description": "A small rectangle positioned below the circles, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "small square",
+      "description": "A small square located near the bottom of the abstract shapes, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "season announcement",
+      "description": "Text that reads 'A new season drops Cancel anytime' in a bold, clear font, centrally positioned.",
+      "text_content": "A new season drops Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        413,
+        298,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.828,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.713
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "main title",
+      "description": "The headline 'StarVault' in a large, eye-catching font at the top of the ad.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        39,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.092
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button labeled 'Watch now' at the bottom, designed to encourage user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and minimalistic, StarVault logo, call to action.",
+    "layout_text": "The headline is at the top, followed by abstract shapes, body text in the center, and the CTA at the bottom.",
+    "ocr_text": "A new season drops Cancel anytime, StarVault, Watch now",
+    "elements_text": "logo: A bold, modern logo featuring the text 'StarVault' in a prominent position at the top. | unknown: A graphic representation of abstract shapes, including a circle and a square, in a light blue background. | decorative_element: Three small circles arranged horizontally, adding a decorative touch to the design. | decorative_element: A small rectangle positioned below the circles, contributing to the abstract design. | decorative_element: A small square located near the bottom of the abstract shapes, enhancing the visual interest. | body_text: Text that reads 'A new season drops Cancel anytime' in a bold, clear font, centrally positioned. text='A new season drops Cancel anytime' | headline: The headline 'StarVault' in a large, eye-catching font at the top of the ad. text='StarVault' | cta: A button labeled 'Watch now' at the bottom, designed to encourage user interaction. text='Watch now'"
+  }
+}

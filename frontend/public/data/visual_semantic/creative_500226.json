@@ -1,0 +1,338 @@
+{
+  "creative_id": "500226",
+  "asset_file": "assets/creative_500226.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with product displays and promotional text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a new collection with a special offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red abstract background",
+      "description": "A vibrant red background with abstract shapes and patterns creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A prominent area at the top featuring a large, stylized product representation with a soft outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        253
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.396
+      ],
+      "center_normalized": [
+        0.502,
+        0.259
+      ],
+      "area_percentage": 27.15
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary product area",
+      "description": "A slightly smaller area below the main product display, showcasing additional product elements with a similar design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.239
+      ],
+      "area_percentage": 23.43
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "A sleek and modern logo positioned at the top, featuring the brand name 'VantaStyle' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Stylized product shape",
+      "description": "A stylized representation of a product, resembling a watch, with a minimalist design in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge at the top right corner with the word 'SALE' in bold, eye-catching text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        258,
+        31,
+        348,
+        108
+      ],
+      "bbox_normalized": [
+        0.719,
+        0.05,
+        0.967,
+        0.169
+      ],
+      "center_normalized": [
+        0.843,
+        0.109
+      ],
+      "area_percentage": 2.96
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "A decorative element on the left side, resembling a geometric shape that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Collection announcement",
+      "description": "Text in the center that announces 'New collection drop' in a clear, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Shipping offer",
+      "description": "Text below the collection announcement stating 'Free shipping over $25' in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Watch now' encouraging user interaction.",
+      "text_content": "New collection drop Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        407,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.636,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 10.17
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Product price",
+      "description": "Text displaying the price '€19.99' in a bold font, positioned above the call to action.",
+      "text_content": "€19.99 Watch now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'VantaStyle' displayed prominently at the top in a stylish font.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small badge indicating a sale, positioned at the top right with the word 'SALE' in bright text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, new collection, sale, free shipping",
+    "layout_text": "The logo is at the top, followed by the main product display, collection announcement, and call to action at the bottom.",
+    "ocr_text": "New collection drop, Free shipping over $25, €19.99, Watch now, VantaStyle, SALE",
+    "elements_text": "main_subject: A prominent area at the top featuring a large, stylized product representation with a soft outline. | main_subject: A slightly smaller area below the main product display, showcasing additional product elements with a similar design. | logo: A sleek and modern logo positioned at the top, featuring the brand name 'VantaStyle' in a bold font. | product: A stylized representation of a product, resembling a watch, with a minimalist design in the center. | discount_badge: A small, circular badge at the top right corner with the word 'SALE' in bold, eye-catching text. | decorative_element: A decorative element on the left side, resembling a geometric shape that adds visual interest. | body_text: Text in the center that announces 'New collection drop' in a clear, modern font. | body_text: Text below the collection announcement stating 'Free shipping over $25' in a smaller font. | cta: A prominent button at the bottom with the text 'Watch now' encouraging user interaction. text='New collection drop Free shipping over $25' | price: Text displaying the price '€19.99' in a bold font, positioned above the call to action. text='€19.99 Watch now' | headline: The brand name 'VantaStyle' displayed prominently at the top in a stylish font. text='VantaStyle' | discount_badge: A small badge indicating a sale, positioned at the top right with the word 'SALE' in bright text. text='SALE'"
+  }
+}

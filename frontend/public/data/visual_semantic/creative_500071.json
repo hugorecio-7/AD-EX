@@ -1,0 +1,434 @@
+{
+  "creative_id": "500071",
+  "asset_file": "assets/creative_500071.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and call to action with a central content area filled with shapes.",
+    "visual_style": "light purple with bold text",
+    "main_message": "Encouraging users to stream new hits weekly.",
+    "dominant_colors": [
+      "light purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "A small logo at the top left corner featuring the text 'FluxStream' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center with a light purple background, containing various shapes and placeholders.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Shape placeholder",
+      "description": "An oval shape in the center of the main content area, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Rectangle placeholder",
+      "description": "A rectangular shape below the oval, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small rectangle placeholder",
+      "description": "A smaller rectangular shape positioned below the larger rectangle, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.49
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Left shape placeholder",
+      "description": "A smaller oval shape on the left side of the main content area, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Right shape placeholder",
+      "description": "A small rectangular shape on the right side of the main content area, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top left shape placeholder",
+      "description": "A small oval shape at the top left of the main content area, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top right shape placeholder",
+      "description": "A small rectangular shape at the top right of the main content area, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.591,
+        0.43
+      ],
+      "area_percentage": 5.9
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text in the center of the ad stating 'Stream the hype New hits every week' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.579,
+        0.629
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom center with the text 'Watch now' in a bold font, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Bottom left shape placeholder",
+      "description": "A small oval shape at the bottom left of the ad, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Bottom right shape placeholder",
+      "description": "A small rectangular shape at the bottom right of the ad, visually empty and outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.482,
+        0.532,
+        0.576,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "A prominent text at the bottom of the ad stating 'Stream the hype New hits every week' in a bold font.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        203,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.716
+      ],
+      "area_percentage": 13.3
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A button at the bottom of the ad with the text 'Watch now' in a bold font, encouraging action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.99
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "A small logo at the top left corner featuring the text 'FluxStream' in a bold font.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        25,
+        23,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.2
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, light purple with bold text, main message about streaming new hits.",
+    "layout_text": "The logo is positioned at the top left, the main content area is centered, and the call to action is at the bottom.",
+    "ocr_text": "FluxStream, Stream the hype New hits every week, Watch now",
+    "elements_text": "logo: A small logo at the top left corner featuring the text 'FluxStream' in a bold font. | main_subject: A large rectangular area in the center with a light purple background, containing various shapes and placeholders. | unknown: An oval shape in the center of the main content area, visually empty and outlined. | unknown: A rectangular shape below the oval, visually empty and outlined. | unknown: A smaller rectangular shape positioned below the larger rectangle, visually empty and outlined. | unknown: A smaller oval shape on the left side of the main content area, visually empty and outlined. | unknown: A small rectangular shape on the right side of the main content area, visually empty and outlined. | unknown: A small oval shape at the top left of the main content area, visually empty and outlined. | unknown: A small rectangular shape at the top right of the main content area, visually empty and outlined. | body_text: Text in the center of the ad stating 'Stream the hype New hits every week' in a bold font. | cta: A button at the bottom center with the text 'Watch now' in a bold font, inviting user interaction. | unknown: A small oval shape at the bottom left of the ad, visually empty and outlined. | unknown: A small rectangular shape at the bottom right of the ad, visually empty and outlined. | headline: A prominent text at the bottom of the ad stating 'Stream the hype New hits every week' in a bold font. text='Stream the hype New hits every week' | cta: A button at the bottom of the ad with the text 'Watch now' in a bold font, encouraging action. text='Watch now' | logo: A small logo at the top left corner featuring the text 'FluxStream' in a bold font. text='FluxStream'"
+  }
+}

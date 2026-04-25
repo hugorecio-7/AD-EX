@@ -1,0 +1,242 @@
+{
+  "creative_id": "500317",
+  "asset_file": "assets/creative_500317.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a sale with clear offers and calls to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a 2-for-1 sale on late-night deals.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "2-for-1 deal text",
+      "description": "A prominent text element in the center, featuring a bold font that communicates a special offer.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "FreshDash SALE",
+      "description": "A large, eye-catching headline at the top, styled to attract attention with a vibrant color.",
+      "text_content": "FreshDash SALE",
+      "bbox_xyxy": [
+        25,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.092
+      ],
+      "area_percentage": 5.14
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A clear call-to-action button at the bottom, designed to encourage immediate engagement.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top indicating user-generated content, styled to blend with the overall design.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, 2-for-1 deal, FreshDash SALE",
+    "layout_text": "The headline is at the top, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight Late-night deals available, FreshDash SALE, €19.99 Start now, UGC",
+    "elements_text": "unknown: A small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | body_text: A prominent text element in the center, featuring a bold font that communicates a special offer. text='2-for-1 tonight Late-night deals available' | headline: A large, eye-catching headline at the top, styled to attract attention with a vibrant color. text='FreshDash SALE' | cta: A clear call-to-action button at the bottom, designed to encourage immediate engagement. text='€19.99 Start now' | social_proof: A small label at the top indicating user-generated content, styled to blend with the overall design. text='UGC'"
+  }
+}

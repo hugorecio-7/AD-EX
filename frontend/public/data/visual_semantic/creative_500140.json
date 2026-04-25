@@ -1,0 +1,242 @@
+{
+  "creative_id": "500140",
+  "asset_file": "assets/creative_500140.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with abstract shapes and clear messaging.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting trending content with a call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of overlapping circles and squares in a light red background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A large square shape with a slightly darker red hue, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.31
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A large circle shape in a lighter red tone, also centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape in a light red color, located towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Bold white text stating 'Watch what's trending Cancel anytime' at the bottom of the ad.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The word 'NeonCast' in a bold, modern font at the top of the ad.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        39,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.091
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent white button with the text 'Get offer' at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, trending message, call to action",
+    "layout_text": "The logo is at the top, followed by a sale badge, with body text and CTA positioned at the bottom.",
+    "ocr_text": "NeonCast, Watch what's trending Cancel anytime, Get offer, SALE",
+    "elements_text": "unknown: A combination of overlapping circles and squares in a light red background. | unknown: A large square shape with a slightly darker red hue, positioned centrally. | unknown: A large circle shape in a lighter red tone, also centrally positioned. | unknown: A small circle shape in a light red color, located towards the bottom. | body_text: Bold white text stating 'Watch what's trending Cancel anytime' at the bottom of the ad. text='Watch what's trending Cancel anytime' | logo: The word 'NeonCast' in a bold, modern font at the top of the ad. text='NeonCast' | cta: A prominent white button with the text 'Get offer' at the bottom of the ad. text='Get offer' | discount_badge: A small yellow badge with the word 'SALE' in bold text at the top right corner. text='SALE'"
+  }
+}

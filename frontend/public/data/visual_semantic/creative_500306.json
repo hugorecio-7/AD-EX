@@ -1,0 +1,314 @@
+{
+  "creative_id": "500306",
+  "asset_file": "assets/creative_500306.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with prominent text and shapes to attract attention.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book a trip with a discount.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.198,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 48.6
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A small logo positioned at the top left, featuring the text 'HorizonHop' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "Bold white text in the center reads 'Book your next trip', conveying the main message clearly.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.47,
+        0.376
+      ],
+      "area_percentage": 16.48
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A prominent badge displaying '-30%' in a contrasting color, emphasizing the discount offered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "Smaller white text below the main message reads 'Special fares today', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the background, possibly an oval or rectangle, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "Another abstract shape, similar to the first, positioned centrally to enhance the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A smaller decorative shape that complements the overall design, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Minor shape",
+      "description": "A small abstract shape located towards the bottom, contributing to the overall composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Another minor shape",
+      "description": "A similar small shape to ID 9, positioned closely to it, maintaining visual balance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bold button at the bottom with the text 'Book now', inviting immediate action from viewers.",
+      "text_content": "Book your next trip 30% Book now",
+      "bbox_xyxy": [
+        30,
+        206,
+        278,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.644,
+        0.869,
+        0.934
+      ],
+      "center_normalized": [
+        0.481,
+        0.789
+      ],
+      "area_percentage": 22.52
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "The logo appears again, reinforcing brand identity in the top section of the ad.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include discount and call to action.",
+    "layout_text": "The logo is at the top left, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, 30%, Book now, HorizonHop",
+    "elements_text": "logo: A small logo positioned at the top left, featuring the text 'HorizonHop' in a simple font. | body_text: Bold white text in the center reads 'Book your next trip', conveying the main message clearly. | discount_badge: A prominent badge displaying '-30%' in a contrasting color, emphasizing the discount offered. | body_text: Smaller white text below the main message reads 'Special fares today', providing additional information. | unknown: An abstract shape in the background, possibly an oval or rectangle, adding visual interest. | unknown: Another abstract shape, similar to the first, positioned centrally to enhance the design. | unknown: A smaller decorative shape that complements the overall design, adding depth. | unknown: A small abstract shape located towards the bottom, contributing to the overall composition. | unknown: A similar small shape to ID 9, positioned closely to it, maintaining visual balance. | cta: A bold button at the bottom with the text 'Book now', inviting immediate action from viewers. text='Book your next trip 30% Book now' | logo: The logo appears again, reinforcing brand identity in the top section of the ad. text='HorizonHop'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500156",
+  "asset_file": "assets/creative_500156.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a green background with various graphic elements and text promoting a financial tracking service.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting a financial tracking service with a clear call to action.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "main graphic element",
+      "description": "An abstract shape that includes an oval and a rectangle, outlined but not filled.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.504
+      ],
+      "center_normalized": [
+        0.468,
+        0.372
+      ],
+      "area_percentage": 15.84
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "main graphic element",
+      "description": "A larger rectangle shape, outlined, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "main graphic element",
+      "description": "Another rectangle shape, similar to the previous one, slightly lower in position.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "smaller graphic element",
+      "description": "A smaller rectangle shape, outlined, positioned towards the center-left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "graphic element",
+      "description": "A rectangle shape, outlined, positioned towards the center-right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "smaller graphic element",
+      "description": "A smaller rectangle shape, outlined, positioned slightly above the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Text in a bold font stating 'Track every euro Built for peace of mind' centered in the ad.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button with the text 'Get offer' in a prominent position at the bottom.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A small logo text 'ClearLedger' positioned at the top left.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge with the text 'SALE' in a bright color, positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 12,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' positioned at the top left, above the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, simple and modern, financial tracking service, call to action.",
+    "layout_text": "The headline is centrally positioned, with graphic elements surrounding it, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Built for peace of mind, Get offer, ClearLedger, SALE, UGC",
+    "elements_text": "main_subject: An abstract shape that includes an oval and a rectangle, outlined but not filled. | main_subject: A larger rectangle shape, outlined, positioned centrally within the ad. | main_subject: Another rectangle shape, similar to the previous one, slightly lower in position. | main_subject: A smaller rectangle shape, outlined, positioned towards the center-left. | main_subject: A rectangle shape, outlined, positioned towards the center-right. | main_subject: A smaller rectangle shape, outlined, positioned slightly above the center. | body_text: Text in a bold font stating 'Track every euro Built for peace of mind' centered in the ad. text='Track every euro Built for peace of mind' | cta: A button with the text 'Get offer' in a prominent position at the bottom. text='Get offer' | logo: A small logo text 'ClearLedger' positioned at the top left. text='ClearLedger' | discount_badge: A small badge with the text 'SALE' in a bright color, positioned at the top right. text='SALE' | social_proof: A small label with the text 'UGC' positioned at the top left, above the logo. text='UGC'"
+  }
+}

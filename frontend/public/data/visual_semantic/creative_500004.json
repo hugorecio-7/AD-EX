@@ -6,46 +6,309 @@
     "height": 640
   },
   "global": {
-    "description": "The ad features a full canvas background with a prominent 'PixelForge' logo positioned at the top left. The main subject is highlighted by a central headline 'Level up today' and supporting body text 'Free rewards for new players' below it. A call-to-action button 'Get offer' is located at the bottom center. Decorative elements showcasing game graphics are strategically placed on the left and center, enhancing the visual appeal.",
-    "visual_style": "Vibrant and engaging with a focus on game elements",
-    "main_message": "Encouragement for new players to join and claim rewards",
+    "description": "The ad features a vibrant purple background with gameplay elements and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to engage with the game and claim rewards.",
     "dominant_colors": [
-      "blue",
-      "green",
+      "purple",
       "white"
     ],
-    "emotional_tone": "Exciting and inviting"
+    "emotional_tone": "exciting"
   },
   "elements": [
     {
       "id": 1,
       "role": "background",
-      "label": "Full canvas background",
-      "description": "Background covering the full canvas.",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
       "text_content": null,
       "bbox_xyxy": [
         0,
         0,
-        360,
-        640
+        359,
+        114
       ],
       "bbox_normalized": [
         0.0,
         0.0,
-        1.0,
-        1.0
+        0.998,
+        0.179
       ],
       "center_normalized": [
-        0.5,
-        0.5
+        0.499,
+        0.089
       ],
-      "area_percentage": 100.0
+      "area_percentage": 17.84
     },
     {
       "id": 2,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A screenshot of a game interface showing a grid layout with circular icons, indicating interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        156,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.244,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.368
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay grid",
+      "description": "A section of the game interface displaying a grid with empty circular slots, suggesting a puzzle or matching game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Gameplay grid",
+      "description": "Another part of the game interface showing a grid with circular icons, emphasizing the gameplay mechanics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Gameplay grid",
+      "description": "A grid section featuring circular icons, contributing to the overall game interface design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Gameplay grid",
+      "description": "A grid area with circular icons, enhancing the visual appeal of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.594,
+        0.49
+      ],
+      "center_normalized": [
+        0.482,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon located in the center, representing an interactive element in the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon positioned in the center, indicating a gameplay feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "Another small circular icon in the center, part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The title 'PixelForge' is displayed prominently at the top, using a bold and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Game title",
+      "description": "A smaller version of the game title 'PixelForge' appears at the top, maintaining brand visibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "The text 'Level up today Free rewards for new players' is presented in a clear, inviting font, encouraging engagement.",
+      "text_content": "Level up today Free rewards for new players",
+      "bbox_xyxy": [
+        52,
+        406,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.634,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 13,
       "role": "logo",
-      "label": "PixelForge text logo",
-      "description": "The logo of the app, displayed prominently at the top left of the crop.",
+      "label": "Brand logo",
+      "description": "The logo 'PixelForge' is displayed at the top left, representing the game's branding.",
       "text_content": "PixelForge",
       "bbox_xyxy": [
         23,
@@ -66,58 +329,10 @@
       "area_percentage": 1.63
     },
     {
-      "id": 3,
-      "role": "headline",
-      "label": "Headline text",
-      "description": "Primary marketing headline text.",
-      "text_content": "Level up today",
-      "bbox_xyxy": [
-        52,
-        406,
-        308,
-        436
-      ],
-      "bbox_normalized": [
-        0.144,
-        0.634,
-        0.856,
-        0.681
-      ],
-      "center_normalized": [
-        0.5,
-        0.658
-      ],
-      "area_percentage": 3.33
-    },
-    {
-      "id": 4,
-      "role": "body_text",
-      "label": "Body text",
-      "description": "Supporting descriptive text below the headline.",
-      "text_content": "Free rewards for new players",
-      "bbox_xyxy": [
-        52,
-        436,
-        308,
-        466
-      ],
-      "bbox_normalized": [
-        0.144,
-        0.681,
-        0.856,
-        0.728
-      ],
-      "center_normalized": [
-        0.5,
-        0.705
-      ],
-      "area_percentage": 3.33
-    },
-    {
-      "id": 5,
+      "id": 14,
       "role": "cta",
-      "label": "Call to Action Button",
-      "description": "A button with the text 'Get offer' positioned at the bottom of the ad.",
+      "label": "Call to action",
+      "description": "The button 'Get offer' is prominently displayed at the bottom, designed to attract user interaction.",
       "text_content": "Get offer",
       "bbox_xyxy": [
         133,
@@ -136,109 +351,12 @@
         0.892
       ],
       "area_percentage": 0.82
-    },
-    {
-      "id": 6,
-      "role": "decorative_element",
-      "label": "Segmented crop of game elements",
-      "description": "A crop showing two game elements with circular shapes on a purple background.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        156,
-        115,
-        314
-      ],
-      "bbox_normalized": [
-        0.097,
-        0.244,
-        0.319,
-        0.491
-      ],
-      "center_normalized": [
-        0.208,
-        0.367
-      ],
-      "area_percentage": 5.49
-    },
-    {
-      "id": 7,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A small, abstract graphic element featuring a circular shape within a grid layout, located in the upper left corner of the crop.",
-      "text_content": null,
-      "bbox_xyxy": [
-        133,
-        153,
-        213,
-        224
-      ],
-      "bbox_normalized": [
-        0.369,
-        0.239,
-        0.592,
-        0.35
-      ],
-      "center_normalized": [
-        0.481,
-        0.295
-      ],
-      "area_percentage": 2.47
-    },
-    {
-      "id": 8,
-      "role": "decorative_element",
-      "label": "Segmented crop element",
-      "description": "A small circular shape in a purple background, likely part of a grid or game interface.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        243,
-        115,
-        314
-      ],
-      "bbox_normalized": [
-        0.097,
-        0.38,
-        0.319,
-        0.491
-      ],
-      "center_normalized": [
-        0.208,
-        0.435
-      ],
-      "area_percentage": 2.47
-    },
-    {
-      "id": 9,
-      "role": "decorative_element",
-      "label": "Segmented crop",
-      "description": "A small circular shape in a grid layout, possibly part of a game interface.",
-      "text_content": null,
-      "bbox_xyxy": [
-        35,
-        153,
-        115,
-        223
-      ],
-      "bbox_normalized": [
-        0.097,
-        0.239,
-        0.319,
-        0.348
-      ],
-      "center_normalized": [
-        0.208,
-        0.294
-      ],
-      "area_percentage": 2.43
     }
   ],
   "embedding_texts": {
-    "global_text": "Mobile ad for PixelForge Legends promoting rewards for new players.",
-    "elements_text": "background: full canvas background. logo: PixelForge text logo, small, located at top left, text: \"PixelForge\". headline: Headline text, small, located at center, text: \"Level up today\". body_text: Body text, small, located at center, text: \"Free rewards for new players\". cta: Call to Action Button, tiny, located at bottom center, text: \"Get offer\". decorative_element: Segmented crop of game elements, medium, located at middle left. decorative_element: Segmented crop, small, located at center. decorative_element: Segmented crop element, small, located at middle left. decorative_element: Segmented crop, small, located at middle left.",
-    "ocr_text": "PixelForge Level up today Free rewards for new players Get offer",
-    "layout_text": "background Full canvas background at center, bbox=[0.0, 0.0, 1.0, 1.0]. logo PixelForge text logo at top left, bbox=[0.064, 0.069, 0.4, 0.117]. headline Headline text at center, bbox=[0.144, 0.634, 0.856, 0.681]. body_text Body text at center, bbox=[0.144, 0.681, 0.856, 0.728]. cta Call to Action Button at bottom center, bbox=[0.369, 0.877, 0.631, 0.908]",
-    "debug_elements_text": "id=1 | role=background | label=Full canvas background | text=<none> | bbox_xyxy=[0, 0, 360, 640] | bbox_norm=[0.0, 0.0, 1.0, 1.0] | center=[0.5, 0.5] | area_pct=100.0\nid=2 | role=logo | label=PixelForge text logo | text=\"PixelForge\" | bbox_xyxy=[23, 44, 144, 75] | bbox_norm=[0.064, 0.069, 0.4, 0.117] | center=[0.232, 0.093] | area_pct=1.63\nid=3 | role=headline | label=Headline text | text=\"Level up today\" | bbox_xyxy=[52, 406, 308, 436] | bbox_norm=[0.144, 0.634, 0.856, 0.681] | center=[0.5, 0.658] | area_pct=3.33\nid=4 | role=body_text | label=Body text | text=\"Free rewards for new players\" | bbox_xyxy=[52, 436, 308, 466] | bbox_norm=[0.144, 0.681, 0.856, 0.728] | center=[0.5, 0.705] | area_pct=3.33\nid=5 | role=cta | label=Call to Action Button | text=\"Get offer\" | bbox_xyxy=[133, 561, 227, 581] | bbox_norm=[0.369, 0.877, 0.631, 0.908] | center=[0.5, 0.892] | area_pct=0.82\nid=6 | role=decorative_element | label=Segmented crop of game elements | text=<none> | bbox_xyxy=[35, 156, 115, 314] | bbox_norm=[0.097, 0.244, 0.319, 0.491] | center=[0.208, 0.367] | area_pct=5.49\nid=7 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[133, 153, 213, 224] | bbox_norm=[0.369, 0.239, 0.592, 0.35] | center=[0.481, 0.295] | area_pct=2.47\nid=8 | role=decorative_element | label=Segmented crop element | text=<none> | bbox_xyxy=[35, 243, 115, 314] | bbox_norm=[0.097, 0.38, 0.319, 0.491] | center=[0.208, 0.435] | area_pct=2.47\nid=9 | role=decorative_element | label=Segmented crop | text=<none> | bbox_xyxy=[35, 153, 115, 223] | bbox_norm=[0.097, 0.239, 0.319, 0.348] | center=[0.208, 0.294] | area_pct=2.43"
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, PixelForge, level up today, free rewards",
+    "layout_text": "The headline is at the top, the gameplay screenshot is centered, and the CTA is at the bottom.",
+    "ocr_text": "Level up today Free rewards for new players, PixelForge, Get offer",
+    "elements_text": "app_screenshot: A screenshot of a game interface showing a grid layout with circular icons, indicating interactive elements. | app_screenshot: A section of the game interface displaying a grid with empty circular slots, suggesting a puzzle or matching game. | app_screenshot: Another part of the game interface showing a grid with circular icons, emphasizing the gameplay mechanics. | app_screenshot: A grid section featuring circular icons, contributing to the overall game interface design. | app_screenshot: A grid area with circular icons, enhancing the visual appeal of the game interface. | icon: A small circular icon located in the center, representing an interactive element in the game. | icon: A small circular icon positioned in the center, indicating a gameplay feature. | icon: Another small circular icon in the center, part of the game interface. | headline: The title 'PixelForge' is displayed prominently at the top, using a bold and modern font. | headline: A smaller version of the game title 'PixelForge' appears at the top, maintaining brand visibility. | body_text: The text 'Level up today Free rewards for new players' is presented in a clear, inviting font, encouraging engagement. text='Level up today Free rewards for new players' | logo: The logo 'PixelForge' is displayed at the top left, representing the game's branding. text='PixelForge' | cta: The button 'Get offer' is prominently displayed at the bottom, designed to attract user interaction. text='Get offer'"
   }
 }

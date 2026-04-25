@@ -1,0 +1,338 @@
+{
+  "creative_id": "500209",
+  "asset_file": "assets/creative_500209.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with food images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with an enticing offer.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background that fills the entire canvas, providing a fresh and lively atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        62,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.194,
+        0.952,
+        0.719
+      ],
+      "center_normalized": [
+        0.501,
+        0.457
+      ],
+      "area_percentage": 47.27
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PlateSprint logo",
+      "description": "A simple logo featuring the text 'PlateSprint' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small icon or badge labeled 'UGC' indicating user-generated content, located near the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.279,
+        0.767,
+        0.458
+      ],
+      "center_normalized": [
+        0.583,
+        0.369
+      ],
+      "area_percentage": 6.58
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food images",
+      "description": "Three stylized images of food items arranged horizontally, suggesting a variety of meal options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.45,
+        0.278,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.609,
+        0.368
+      ],
+      "area_percentage": 5.7
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "A single stylized image of a food item, visually appealing and centered within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.329,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "Another stylized image of a food item, colorful and enticing, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "A third stylized image of a food item, designed to attract attention and evoke cravings.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "A small, appealing image of a food item, designed to complement the other food images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "Another small, enticing image of a food item, adding variety to the visual presentation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "main_subject",
+      "label": "Food image",
+      "description": "A small, colorful image of a food item, enhancing the overall food theme of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold text stating 'Your cravings, delivered' with a price tag of '€2900' prominently displayed.",
+      "text_content": "Your cravings, delivered €2900 Jable Get offer",
+      "bbox_xyxy": [
+        22,
+        198,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.619,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.464,
+        0.777
+      ],
+      "area_percentage": 24.95
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer', designed to encourage user interaction.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        20,
+        112,
+        36
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.35,
+        0.113
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.36
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "UGC badge",
+      "description": "A small badge labeled 'UGC', serving as a decorative element to highlight user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, food images, promotional text",
+    "layout_text": "The logo is at the top, followed by food images in the center, and the main offer text at the bottom with a CTA button.",
+    "ocr_text": "PlateSprint, UGC, Your cravings, delivered, €2900, Get offer",
+    "elements_text": "headline: A simple logo featuring the text 'PlateSprint' in a bold, modern font, positioned at the top of the ad. | social_proof: A small icon or badge labeled 'UGC' indicating user-generated content, located near the top. | main_subject: Three stylized images of food items arranged horizontally, suggesting a variety of meal options. | main_subject: A single stylized image of a food item, visually appealing and centered within the ad. | main_subject: Another stylized image of a food item, colorful and enticing, positioned centrally. | main_subject: A third stylized image of a food item, designed to attract attention and evoke cravings. | main_subject: A small, appealing image of a food item, designed to complement the other food images. | main_subject: Another small, enticing image of a food item, adding variety to the visual presentation. | main_subject: A small, colorful image of a food item, enhancing the overall food theme of the ad. | body_text: Bold text stating 'Your cravings, delivered' with a price tag of '€2900' prominently displayed. text='Your cravings, delivered €2900 Jable Get offer' | cta: A prominent button with the text 'Get offer', designed to encourage user interaction. text='PlateSprint' | decorative_element: A small badge labeled 'UGC', serving as a decorative element to highlight user-generated content. text='UGC'"
+  }
+}

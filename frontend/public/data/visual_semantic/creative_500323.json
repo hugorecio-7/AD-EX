@@ -1,0 +1,386 @@
+{
+  "creative_id": "500323",
+  "asset_file": "assets/creative_500323.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with abstract shapes and clear calls to action.",
+    "visual_style": "modern and colorful",
+    "main_message": "Encourages users to explore trending content and shop.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic element",
+      "description": "An abstract shape composed of overlapping circles and rectangles in varying sizes, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.508
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.05
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "Bold white text stating 'Watch what's trending' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.69
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main text reads 'Start free today,' providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        106,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.333,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.427
+      ],
+      "area_percentage": 11.15
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright button with the text 'Shop now' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller abstract shape, possibly a circle, positioned to the left of the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "Another abstract shape, similar in style to the main graphic, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 7.03
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A smaller decorative shape, possibly an oval, positioned near the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "A rectangle shape located towards the bottom center, complementing the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.345,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 6.02
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular shape located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "Another small circular shape positioned slightly above the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Main call to action",
+      "description": "A prominent button at the bottom of the ad with the text 'Shop now' in bold white letters.",
+      "text_content": "Watch what's trending Shop now",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'PulsePlay' is displayed in a small font at the top left corner of the ad.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    },
+    {
+      "id": 14,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in bold, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 15,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' located at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and colorful, trending text and call to action.",
+    "layout_text": "The headline is centered, with the main subject graphic behind it, and the CTA button at the bottom.",
+    "ocr_text": "Watch what's trending, Start free today, Shop now, PulsePlay, SALE, UGC",
+    "elements_text": "main_subject: An abstract shape composed of overlapping circles and rectangles in varying sizes, centered in the ad. | body_text: Bold white text stating 'Watch what's trending' is prominently displayed in the center of the ad. | body_text: Smaller white text below the main text reads 'Start free today,' providing additional context. | cta: A bright button with the text 'Shop now' in white, inviting users to take action. | unknown: A smaller abstract shape, possibly a circle, positioned to the left of the main graphic. | unknown: Another abstract shape, similar in style to the main graphic, located towards the bottom center. | unknown: A smaller decorative shape, possibly an oval, positioned near the top left of the ad. | unknown: A rectangle shape located towards the bottom center, complementing the main graphic. | unknown: A small circular shape located towards the bottom left of the ad. | unknown: Another small circular shape positioned slightly above the previous element. | cta: A prominent button at the bottom of the ad with the text 'Shop now' in bold white letters. text='Watch what's trending Shop now' | logo: The logo 'PulsePlay' is displayed in a small font at the top left corner of the ad. text='PulsePlay' | discount_badge: A small yellow badge with the text 'SALE' in bold, positioned at the top right corner. text='SALE' | social_proof: A small tag labeled 'UGC' located at the top left, indicating user-generated content. text='UGC'"
+  }
+}

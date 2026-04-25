@@ -1,0 +1,170 @@
+{
+  "creative_id": "500301",
+  "asset_file": "assets/creative_500301.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent logo, a clear message, and a call to action.",
+    "visual_style": "minimalistic and modern",
+    "main_message": "Encouraging users to sign up for a service with a free trial.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A simple, modern logo featuring the text 'VaultRun' in bold, clear typography against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.43
+      ],
+      "area_percentage": 7.86
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "An abstract shape that appears to be a combination of a circle and a rectangle, rendered in a minimalistic style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Secure & simple' followed by smaller text 'Fast signup, instant card', conveying a straightforward message.",
+      "text_content": "Secure & simple Fast signup, instant card",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "VaultRun headline",
+      "description": "The word 'VaultRun' prominently displayed at the top of the ad in a large, bold font.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        27,
+        40,
+        204,
+        76
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.567,
+        0.119
+      ],
+      "center_normalized": [
+        0.321,
+        0.091
+      ],
+      "area_percentage": 2.77
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom of the ad with the text 'Try for free' in white on a dark background.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic and modern, VaultRun logo, secure signup message, call to action.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, Fast signup, instant card, VaultRun, Try for free",
+    "elements_text": "logo: A simple, modern logo featuring the text 'VaultRun' in bold, clear typography against a light background. | unknown: An abstract shape that appears to be a combination of a circle and a rectangle, rendered in a minimalistic style. | body_text: Bold, black text stating 'Secure & simple' followed by smaller text 'Fast signup, instant card', conveying a straightforward message. text='Secure & simple Fast signup, instant card' | headline: The word 'VaultRun' prominently displayed at the top of the ad in a large, bold font. text='VaultRun' | cta: A rectangular button at the bottom of the ad with the text 'Try for free' in white on a dark background. text='Try for free'"
+  }
+}

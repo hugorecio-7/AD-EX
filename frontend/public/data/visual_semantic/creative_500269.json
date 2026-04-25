@@ -1,0 +1,314 @@
+{
+  "creative_id": "500269",
+  "asset_file": "assets/creative_500269.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with key information and calls to action prominently displayed.",
+    "visual_style": "clean and modern",
+    "main_message": "Encouraging users to track their finances with the CoinBridge app.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        246
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.161,
+        0.998,
+        0.385
+      ],
+      "center_normalized": [
+        0.501,
+        0.273
+      ],
+      "area_percentage": 22.25
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Various geometric shapes in lighter shades of blue are scattered across the top, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.162,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.49
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center contains key information, framed by rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.29
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "A medium-sized text block in white that reads 'Track every euro Built for peace of mind', centered within the main content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area showcasing a simplified app interface, featuring rounded corners and a clean layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A small logo positioned at the top left, featuring the text 'CoinBridge' in bold, dark font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Try for free' in bold, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        353,
+        79,
+        435
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.552,
+        0.22,
+        0.681
+      ],
+      "center_normalized": [
+        0.169,
+        0.616
+      ],
+      "area_percentage": 1.32
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape in the center, adding a subtle decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A rectangular shape positioned in the center, possibly representing additional content or decoration.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline at the top reading 'CoinBridge', designed to grab attention.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        32,
+        358,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.05,
+        0.994,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.106
+      ],
+      "area_percentage": 10.44
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text block below the headline, providing additional context about the app's purpose.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        35,
+        409,
+        323,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.897,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.684
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller call to action text at the bottom, encouraging users to try the app for free.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, clean and modern, CoinBridge, track every euro.",
+    "layout_text": "The headline is at the top, followed by descriptive text in the center, and a call to action button at the bottom.",
+    "ocr_text": "CoinBridge, Track every euro Built for peace of mind, Try for free",
+    "elements_text": "decorative_element: Various geometric shapes in lighter shades of blue are scattered across the top, adding visual interest. | main_subject: A large rectangular area in the center contains key information, framed by rounded edges. | body_text: A medium-sized text block in white that reads 'Track every euro Built for peace of mind', centered within the main content area. | app_screenshot: A rectangular area showcasing a simplified app interface, featuring rounded corners and a clean layout. | logo: A small logo positioned at the top left, featuring the text 'CoinBridge' in bold, dark font. | cta: A rounded button at the bottom center with the text 'Try for free' in bold, inviting users to take action. | unknown: A small circular shape in the center, adding a subtle decorative touch. | unknown: A rectangular shape positioned in the center, possibly representing additional content or decoration. | headline: A large, bold headline at the top reading 'CoinBridge', designed to grab attention. text='CoinBridge' | body_text: A smaller text block below the headline, providing additional context about the app's purpose. text='Track every euro Built for peace of mind' | cta: A smaller call to action text at the bottom, encouraging users to try the app for free. text='Try for free'"
+  }
+}

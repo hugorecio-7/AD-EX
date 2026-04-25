@@ -1,0 +1,242 @@
+{
+  "creative_id": "500227",
+  "asset_file": "assets/creative_500227.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with discounts and free shipping.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "Bold white text stating 'Up to 40% off' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Mirror product image",
+      "description": "A simple line drawing of two mirrors, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional product image",
+      "description": "A secondary line drawing of a product, slightly offset from the first mirror.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Shipping offer text",
+      "description": "Smaller white text below the main offer stating 'Free shipping over $25'.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'VantaStyle' displayed in a small white font at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded white button at the bottom center with the text 'Get offer' in bold.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow circular badge at the top right corner with the text 'SALE'.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small white tag at the top left corner with the text 'UGC'.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, main offer text, call to action.",
+    "layout_text": "The headline is centered, the product images are in the middle, and the CTA is at the bottom.",
+    "ocr_text": "VantaStyle, Up to 40% off, Free shipping over $25, Get offer, SALE, UGC",
+    "elements_text": "headline: Bold white text stating 'Up to 40% off' prominently displayed in the center. | product: A simple line drawing of two mirrors, positioned centrally within the ad. | unknown: A secondary line drawing of a product, slightly offset from the first mirror. | body_text: Smaller white text below the main offer stating 'Free shipping over $25'. text='Up to 40% off Free shipping over $25' | logo: The logo 'VantaStyle' displayed in a small white font at the top left corner. text='VantaStyle' | cta: A rounded white button at the bottom center with the text 'Get offer' in bold. text='Get offer' | discount_badge: A small yellow circular badge at the top right corner with the text 'SALE'. text='SALE' | social_proof: A small white tag at the top left corner with the text 'UGC'. text='UGC'"
+  }
+}

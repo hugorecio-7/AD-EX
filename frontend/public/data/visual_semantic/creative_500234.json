@@ -1,0 +1,218 @@
+{
+  "creative_id": "500234",
+  "asset_file": "assets/creative_500234.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and clear messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend escape with flexible booking options.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, rendered in a lighter shade of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Escape this weekend' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.773,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.431
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main message reads 'Flexible booking options', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent white button at the bottom of the ad with the text 'Claim reward' encourages user interaction.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.712
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€29.99' is displayed in bold white text, positioned just above the call to action.",
+      "text_content": "€29.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.376,
+        0.87
+      ],
+      "area_percentage": 4.74
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' appears at the top left corner in a simple, modern font.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge with the word 'SALE' is positioned at the top right corner, drawing attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include geometric shapes and a call to action.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Escape this weekend, Flexible booking options, €29.99, Claim reward, CloudRoute, SALE",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, rendered in a lighter shade of orange. | body_text: Bold, white text stating 'Escape this weekend' is prominently displayed in the center of the ad. | body_text: Smaller white text below the main message reads 'Flexible booking options', providing additional information. | cta: A prominent white button at the bottom of the ad with the text 'Claim reward' encourages user interaction. text='Escape this weekend Flexible booking options' | price: The price '€29.99' is displayed in bold white text, positioned just above the call to action. text='€29.99 Claim reward' | logo: The logo 'CloudRoute' appears at the top left corner in a simple, modern font. text='CloudRoute' | discount_badge: A small, bright yellow badge with the word 'SALE' is positioned at the top right corner, drawing attention. text='SALE'"
+  }
+}

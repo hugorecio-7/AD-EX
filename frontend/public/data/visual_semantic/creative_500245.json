@@ -1,0 +1,242 @@
+{
+  "creative_id": "500245",
+  "asset_file": "assets/creative_500245.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on food delivery services.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a food delivery service with a special offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, creating a fresh and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        348,
+        469
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.2,
+        0.969,
+        0.733
+      ],
+      "center_normalized": [
+        0.509,
+        0.467
+      ],
+      "area_percentage": 49.06
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, black text stating 'Your cravings, delivered' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller black text below the headline reads 'Fresh favorites nearby', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        111,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.309,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.62,
+        0.091
+      ],
+      "area_percentage": 5.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Two mirrors icon",
+      "description": "A simple, outlined icon resembling two mirrors is centered in the ad, suggesting a reflection or choice.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another decorative element is present, possibly representing food or delivery, but lacks specific detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        197,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.46,
+        0.4
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Claim reward' in bold, inviting users to take action.",
+      "text_content": "Your cravings, delivered Fresh favorites nearby",
+      "bbox_xyxy": [
+        54,
+        404,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.631,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.706
+      ],
+      "area_percentage": 10.54
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€19.99' is displayed in a bold, eye-catching format, drawing attention to the offer.",
+      "text_content": "€19.99 Claim reward",
+      "bbox_xyxy": [
+        25,
+        533,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.381,
+        0.87
+      ],
+      "area_percentage": 4.67
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' is positioned at the top left, featuring a modern font that represents the brand.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        24,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.17
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge at the top right corner with the word 'SALE' in bold, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include food delivery and promotional offers.",
+    "layout_text": "The headline is centered, with supporting text below, a logo at the top left, and a CTA at the bottom.",
+    "ocr_text": "Your cravings, delivered, Fresh favorites nearby, €19.99, Claim reward, SnapMeal, SALE",
+    "elements_text": "headline: Bold, black text stating 'Your cravings, delivered' is prominently displayed in the center of the ad. | body_text: Smaller black text below the headline reads 'Fresh favorites nearby', providing additional context. | unknown: A simple, outlined icon resembling two mirrors is centered in the ad, suggesting a reflection or choice. | unknown: Another decorative element is present, possibly representing food or delivery, but lacks specific detail. | cta: A prominent button at the bottom with the text 'Claim reward' in bold, inviting users to take action. text='Your cravings, delivered Fresh favorites nearby' | price: The price '€19.99' is displayed in a bold, eye-catching format, drawing attention to the offer. text='€19.99 Claim reward' | logo: The logo 'SnapMeal' is positioned at the top left, featuring a modern font that represents the brand. text='SnapMeal' | discount_badge: A small, circular badge at the top right corner with the word 'SALE' in bold, indicating a promotional offer. text='SALE'"
+  }
+}

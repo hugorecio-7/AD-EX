@@ -1,0 +1,266 @@
+{
+  "creative_id": "500133",
+  "asset_file": "assets/creative_500133.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a discount offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green gradient background",
+      "description": "A smooth green gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.201,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large black text that reads 'Hungry? We got you' positioned at the center top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller black text below the headline that says 'Fresh favorites nearby'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        157,
+        23,
+        297,
+        62
+      ],
+      "bbox_normalized": [
+        0.494,
+        0.05,
+        0.93,
+        0.131
+      ],
+      "center_normalized": [
+        0.712,
+        0.09
+      ],
+      "area_percentage": 3.54
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Three product images",
+      "description": "Three outlined rectangles representing product images, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A bold black text '-30%' displayed prominently below the product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright yellow button with the text 'Order now' in black, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CraveLoop' in white text on a small rectangular background at the top left.",
+      "text_content": "Hungry? We got you Fresh favorites nearby -30% Order now",
+      "bbox_xyxy": [
+        23,
+        307,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.489,
+        0.777
+      ],
+      "area_percentage": 22.95
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in black, positioned at the top right.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        27,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.086
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small white tag with the text 'UGC' in black, located at the top left corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, discount offer, food delivery.",
+    "layout_text": "The headline is at the top center, product images are in the middle, and the CTA is at the bottom center.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, -30%, Order now, CraveLoop, SALE, UGC",
+    "elements_text": "headline: Bold, large black text that reads 'Hungry? We got you' positioned at the center top. | body_text: Smaller black text below the headline that says 'Fresh favorites nearby'. | product: Three outlined rectangles representing product images, centered in the middle of the ad. | discount_badge: A bold black text '-30%' displayed prominently below the product images. | cta: A bright yellow button with the text 'Order now' in black, located at the bottom center. | logo: The logo 'CraveLoop' in white text on a small rectangular background at the top left. text='Hungry? We got you Fresh favorites nearby -30% Order now' | discount_badge: A small yellow badge with the text 'SALE' in black, positioned at the top right. text='CraveLoop' | social_proof: A small white tag with the text 'UGC' in black, located at the top left corner. text='SALE' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500058",
+  "asset_file": "assets/creative_500058.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with bold text and abstract shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel bookings with a special offer.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.86
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping abstract shapes, one oval and one rectangle, are centered in the ad, outlined in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.504
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.82
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "Bold white text stating 'Book your next trip' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main message reads 'Special fares today', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright yellow button with the text 'Try for free' invites user interaction, positioned below the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.47
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller oval shape is positioned to the left of the main text, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional rectangle",
+      "description": "A larger rectangle shape is positioned behind the main text, enhancing the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Advertiser logo",
+      "description": "The logo 'DriftPass' is displayed in the top left corner, in a bold font against the teal background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        15,
+        297,
+        42
+      ],
+      "bbox_normalized": [
+        0.126,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.528,
+        0.091
+      ],
+      "area_percentage": 6.6
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' is positioned in the top right corner, drawing attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unidentifiable element is located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, unidentifiable element is positioned near the bottom left, slightly overlapping the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Bottom area",
+      "description": "The bottom area of the ad is filled with a lighter shade of teal, creating a visual separation.",
+      "text_content": "Book your next trip Try for free",
+      "bbox_xyxy": [
+        43,
+        205,
+        279,
+        302
+      ],
+      "bbox_normalized": [
+        0.134,
+        0.641,
+        0.872,
+        0.944
+      ],
+      "center_normalized": [
+        0.503,
+        0.792
+      ],
+      "area_percentage": 22.36
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo 'DriftPass' appears prominently at the top, styled in a modern font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 14,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, bright yellow 'SALE' text is displayed in the top right corner, indicating a promotion.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting travel bookings.",
+    "layout_text": "The headline is at the top left, the main subject is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Book your next trip, Special fares today, Try for free, DriftPass, SALE",
+    "elements_text": "main_subject: Two overlapping abstract shapes, one oval and one rectangle, are centered in the ad, outlined in a light color. | body_text: Bold white text stating 'Book your next trip' is prominently displayed in the center of the ad. | body_text: Smaller white text below the main message reads 'Special fares today', providing additional information. | cta: A bright yellow button with the text 'Try for free' invites user interaction, positioned below the main text. | unknown: A smaller oval shape is positioned to the left of the main text, adding visual interest. | unknown: A larger rectangle shape is positioned behind the main text, enhancing the layout. | headline: The logo 'DriftPass' is displayed in the top left corner, in a bold font against the teal background. | discount_badge: A small yellow badge with the word 'SALE' is positioned in the top right corner, drawing attention. | unknown: A small, unidentifiable element is located towards the bottom left of the ad. | unknown: Another small, unidentifiable element is positioned near the bottom left, slightly overlapping the previous element. | unknown: The bottom area of the ad is filled with a lighter shade of teal, creating a visual separation. text='Book your next trip Try for free' | logo: The logo 'DriftPass' appears prominently at the top, styled in a modern font. text='DriftPass' | discount_badge: A small, bright yellow 'SALE' text is displayed in the top right corner, indicating a promotion. text='SALE'"
+  }
+}

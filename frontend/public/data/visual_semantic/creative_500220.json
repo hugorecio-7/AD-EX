@@ -1,0 +1,338 @@
+{
+  "creative_id": "500220",
+  "asset_file": "assets/creative_500220.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with game elements and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to play and win rewards with friends.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A square icon with a simple design, featuring four circular shapes arranged in a grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        103,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.322,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another square icon similar to the first, with a simple design and four circular shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Game grid",
+      "description": "A grid layout showcasing game elements, with a clean and minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        182,
+        188,
+        234
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.381,
+        0.59,
+        0.489
+      ],
+      "center_normalized": [
+        0.479,
+        0.435
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Game grid",
+      "description": "Another grid layout showcasing game elements, maintaining a clean and minimalistic style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        102,
+        234
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.381,
+        0.321,
+        0.489
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.4
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular element that appears to be part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular element positioned at the top, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        147,
+        143
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.46,
+        0.3
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular element that appears to be part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular element positioned at the top, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold and prominent text stating 'Win epic rewards Play with friends tonight' in a clear font.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        65,
+        307,
+        255,
+        389
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.64,
+        0.797,
+        0.81
+      ],
+      "center_normalized": [
+        0.5,
+        0.725
+      ],
+      "area_percentage": 10.14
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'PixelForge' displayed in a clear and readable font at the top of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        21,
+        31,
+        130,
+        61
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.065,
+        0.406,
+        0.127
+      ],
+      "center_normalized": [
+        0.236,
+        0.096
+      ],
+      "area_percentage": 2.13
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Learn more' in a contrasting color, inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "Bonus badge",
+      "description": "A small circular badge with the text 'BONUS' in a bright color, indicating a special offer.",
+      "text_content": "BONUS",
+      "bbox_xyxy": [
+        235,
+        37,
+        295,
+        53
+      ],
+      "bbox_normalized": [
+        0.734,
+        0.077,
+        0.922,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.62
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, game icons, promotional text",
+    "layout_text": "The logo is at the top, followed by the main headline in the center, with game icons and a CTA at the bottom.",
+    "ocr_text": "Win epic rewards Play with friends tonight, PixelForge, Learn more, BONUS",
+    "elements_text": "icon: A square icon with a simple design, featuring four circular shapes arranged in a grid. | icon: Another square icon similar to the first, with a simple design and four circular shapes. | main_subject: A grid layout showcasing game elements, with a clean and minimalistic design. | main_subject: Another grid layout showcasing game elements, maintaining a clean and minimalistic style. | unknown: A small rectangular element that appears to be part of the game interface. | unknown: A small rectangular element positioned at the top, possibly a decorative feature. | unknown: A small rectangular element that appears to be part of the game interface. | unknown: A small rectangular element positioned at the top, possibly a decorative feature. | headline: A bold and prominent text stating 'Win epic rewards Play with friends tonight' in a clear font. text='Win epic rewards Play with friends tonight' | logo: The logo 'PixelForge' displayed in a clear and readable font at the top of the ad. text='PixelForge' | cta: A button with the text 'Learn more' in a contrasting color, inviting user interaction. text='Learn more' | discount_badge: A small circular badge with the text 'BONUS' in a bright color, indicating a special offer. text='BONUS'"
+  }
+}

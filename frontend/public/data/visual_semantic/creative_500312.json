@@ -1,0 +1,194 @@
+{
+  "creative_id": "500312",
+  "asset_file": "assets/creative_500312.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with promotional text and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a food delivery service with a special sale.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A blank area in the center of the ad, possibly reserved for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, white text stating 'Hungry? We got you Free delivery over $15' is centrally positioned at the bottom.",
+      "text_content": "Hungry? We got you Free delivery over $15",
+      "bbox_xyxy": [
+        43,
+        411,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.642,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.74
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The text 'FreshDash SALE' is prominently displayed at the top in a contrasting color, indicating a promotional offer.",
+      "text_content": "FreshDash SALE",
+      "bbox_xyxy": [
+        25,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.092
+      ],
+      "area_percentage": 5.14
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button labeled 'Book now' is located at the bottom center, encouraging user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '$4.99' is shown in a bold font at the bottom left, drawing attention to the cost.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small badge labeled 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, main offer text, call to action",
+    "layout_text": "The headline is at the top, the main offer text is centered at the bottom, and the CTA is also at the bottom.",
+    "ocr_text": "Hungry? We got you Free delivery over $15, FreshDash SALE, Book now, $4.99, UGC",
+    "elements_text": "unknown: A blank area in the center of the ad, possibly reserved for an image or graphic. | body_text: Bold, white text stating 'Hungry? We got you Free delivery over $15' is centrally positioned at the bottom. text='Hungry? We got you Free delivery over $15' | headline: The text 'FreshDash SALE' is prominently displayed at the top in a contrasting color, indicating a promotional offer. text='FreshDash SALE' | cta: A bright button labeled 'Book now' is located at the bottom center, encouraging user interaction. text='Book now' | price: The price '$4.99' is shown in a bold font at the bottom left, drawing attention to the cost. text='$4.99' | social_proof: A small badge labeled 'UGC' is positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

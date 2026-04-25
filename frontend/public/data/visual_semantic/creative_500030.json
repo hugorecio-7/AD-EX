@@ -1,0 +1,362 @@
+{
+  "creative_id": "500030",
+  "asset_file": "assets/creative_500030.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging viewers to binge-watch new content.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A vibrant orange background with geometric shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        358,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.269
+      ],
+      "center_normalized": [
+        0.498,
+        0.134
+      ],
+      "area_percentage": 26.76
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large central area featuring a soft, rounded shape that contrasts with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.24
+      ],
+      "area_percentage": 23.57
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A subtle, rounded shape at the top of the ad, blending into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'Binge starts now' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline that reads 'New hits every week'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "An abstract shape in the center that adds visual interest without being a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Lower decorative element",
+      "description": "A rounded shape at the bottom center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Logo text",
+      "description": "The word 'MoonScreen' in a bold font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Watch now' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A small circular shape positioned in the center, adding to the design complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Text at the bottom stating 'Binge starts now New hits every week', emphasizing the offer.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        34,
+        407,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.636,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.5
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Logo text",
+      "description": "The word 'MoonScreen' in a bold font, positioned at the top left.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        46,
+        164,
+        72
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.072,
+        0.456,
+        0.113
+      ],
+      "center_normalized": [
+        0.263,
+        0.092
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Watch now' in a contrasting color.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 14,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, bold text and call to action",
+    "layout_text": "The headline is centered, with supporting text below it, and the CTA button at the bottom.",
+    "ocr_text": "Binge starts now, New hits every week, MoonScreen, Watch now, UGC",
+    "elements_text": "main_subject: A large central area featuring a soft, rounded shape that contrasts with the background. | unknown: A subtle, rounded shape at the top of the ad, blending into the background. | headline: Bold, white text stating 'Binge starts now' prominently displayed in the center. | body_text: Smaller white text below the headline that reads 'New hits every week'. | unknown: An abstract shape in the center that adds visual interest without being a focal point. | unknown: A rounded shape at the bottom center, contributing to the overall design. | logo: The word 'MoonScreen' in a bold font, positioned at the top left. | cta: A rounded button at the bottom center with the text 'Watch now' in a contrasting color. | unknown: A small circular shape positioned in the center, adding to the design complexity. | body_text: Text at the bottom stating 'Binge starts now New hits every week', emphasizing the offer. text='Binge starts now New hits every week' | logo: The word 'MoonScreen' in a bold font, positioned at the top left. text='MoonScreen' | cta: A rounded button at the bottom center with the text 'Watch now' in a contrasting color. text='Watch now' | icon: A small tag labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

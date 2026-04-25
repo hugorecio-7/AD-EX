@@ -1,0 +1,362 @@
+{
+  "creative_id": "500141",
+  "asset_file": "assets/creative_500141.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with various graphic elements and text promoting trending content.",
+    "visual_style": "bright and modern",
+    "main_message": "Discover trending content with NeonCast.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A vibrant orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.143,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.299
+      ],
+      "area_percentage": 31.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Circular graphic element",
+      "description": "A large circular graphic element in the center, with a smooth, rounded shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Rectangular graphic element",
+      "description": "A rectangular graphic element overlapping the circular one, featuring soft edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Irregular shape",
+      "description": "An irregularly shaped graphic element positioned centrally, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional rectangular element",
+      "description": "Another rectangular graphic element, similar in style to the previous ones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small icon located at the top left, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "Text in a bold font stating 'Watch what's trending', positioned towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "New hits text",
+      "description": "Text below the trending message that reads 'New hits every week', in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Watch now', designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo 'NeonCast UGC' displayed prominently at the top, in a bold and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        316,
+        31,
+        335,
+        83
+      ],
+      "bbox_normalized": [
+        0.88,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.905,
+        0.09
+      ],
+      "area_percentage": 0.41
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "A smaller graphic element that adds to the overall design but is not clearly defined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'NeonCast UGC' in a large, eye-catching font at the top.",
+      "text_content": "NeonCast UGC",
+      "bbox_xyxy": [
+        28,
+        42,
+        315,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.875,
+        0.198
+      ],
+      "center_normalized": [
+        0.476,
+        0.132
+      ],
+      "area_percentage": 10.59
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Text that communicates the trending nature of the content, positioned centrally.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button at the bottom with the text 'Watch now', inviting user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, NeonCast UGC, trending content.",
+    "layout_text": "The headline is at the top, main subjects are centered, and the CTA buttons are at the bottom.",
+    "ocr_text": "NeonCast UGC, Watch what's trending, New hits every week, Watch now",
+    "elements_text": "main_subject: A large circular graphic element in the center, with a smooth, rounded shape. | main_subject: A rectangular graphic element overlapping the circular one, featuring soft edges. | decorative_element: An irregularly shaped graphic element positioned centrally, adding visual interest. | main_subject: Another rectangular graphic element, similar in style to the previous ones. | icon: A small icon located at the top left, featuring a simple design. | body_text: Text in a bold font stating 'Watch what's trending', positioned towards the bottom. | body_text: Text below the trending message that reads 'New hits every week', in a smaller font. | cta: A rounded button at the bottom with the text 'Watch now', designed to attract clicks. | logo: The logo 'NeonCast UGC' displayed prominently at the top, in a bold and modern font. | unknown: A smaller graphic element that adds to the overall design but is not clearly defined. | headline: The main headline 'NeonCast UGC' in a large, eye-catching font at the top. text='NeonCast UGC' | body_text: Text that communicates the trending nature of the content, positioned centrally. text='Watch what's trending New hits every week' | cta: A prominent button at the bottom with the text 'Watch now', inviting user interaction. text='Watch now'"
+  }
+}

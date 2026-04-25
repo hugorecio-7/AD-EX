@@ -1,0 +1,266 @@
+{
+  "creative_id": "500095",
+  "asset_file": "assets/creative_500095.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call-to-action and branding elements.",
+    "visual_style": "modern and clean",
+    "main_message": "Encouraging users to book their next trip with flexible options.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Booking message",
+      "description": "A prominent text area displaying 'Book your next trip' in a bold, easy-to-read font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        243,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.76,
+        0.505
+      ],
+      "center_normalized": [
+        0.464,
+        0.372
+      ],
+      "area_percentage": 15.75
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible options",
+      "description": "A smaller text area below the main message that reads 'Flexible booking options', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Booking message",
+      "description": "A duplicate text area displaying 'Book your next trip' in a bold, easy-to-read font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A bold, rectangular button with the text 'Order now' in a contrasting color, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.88
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular graphic",
+      "description": "A simple circular graphic element, adding visual interest without specific branding.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular graphic",
+      "description": "Another circular graphic element, similar to the previous one, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        152,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.478,
+        0.528,
+        0.581,
+        0.631
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Rectangular graphic",
+      "description": "A rectangular graphic element that complements the circular graphics, adding depth to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        175,
+        129,
+        208
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.55,
+        0.403,
+        0.651
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A light-colored background that provides a clean and modern canvas for the text and graphics.",
+      "text_content": "Book your next trip Flexible ons Order now",
+      "bbox_xyxy": [
+        43,
+        205,
+        281,
+        299
+      ],
+      "bbox_normalized": [
+        0.134,
+        0.641,
+        0.878,
+        0.934
+      ],
+      "center_normalized": [
+        0.506,
+        0.787
+      ],
+      "area_percentage": 21.85
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "HorizonHop headline",
+      "description": "The headline text 'HorizonHop' displayed prominently at the top, establishing brand identity.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, key elements include booking message and call-to-action.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop, Book your next trip, Flexible booking options, Order now",
+    "elements_text": "logo: A simple logo featuring the text 'HorizonHop' in a clean, modern font, positioned at the top of the ad. | body_text: A prominent text area displaying 'Book your next trip' in a bold, easy-to-read font, centered in the ad. | body_text: A smaller text area below the main message that reads 'Flexible booking options', providing additional context. | body_text: A duplicate text area displaying 'Book your next trip' in a bold, easy-to-read font, centered in the ad. | cta: A bold, rectangular button with the text 'Order now' in a contrasting color, encouraging immediate action. | decorative_element: A simple circular graphic element, adding visual interest without specific branding. | decorative_element: Another circular graphic element, similar to the previous one, enhancing the overall design. | decorative_element: A rectangular graphic element that complements the circular graphics, adding depth to the layout. | headline: The headline text 'HorizonHop' displayed prominently at the top, establishing brand identity. text='HorizonHop'"
+  }
+}

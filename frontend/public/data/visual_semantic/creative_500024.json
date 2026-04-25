@@ -1,0 +1,242 @@
+{
+  "creative_id": "500024",
+  "asset_file": "assets/creative_500024.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a clear focus on meal options and a strong call to action.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Quick meal options available for installation.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background that fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        96,
+        304,
+        362
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.952,
+        0.756
+      ],
+      "center_normalized": [
+        0.502,
+        0.478
+      ],
+      "area_percentage": 50.06
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, white text prominently displayed at the center, conveying the main offer of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Meal selection",
+      "description": "Three rectangular placeholders representing meal options, arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.584,
+        0.37
+      ],
+      "area_percentage": 6.48
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Meal option",
+      "description": "A rectangular shape representing a meal option, positioned to the left of the app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Meal option",
+      "description": "A rectangular shape representing a meal option, positioned to the right of the app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 6,
+      "role": "product",
+      "label": "Meal option",
+      "description": "A rectangular shape representing a meal option, positioned slightly below the app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.374,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.46,
+        0.398
+      ],
+      "area_percentage": 3.04
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now",
+      "description": "A prominent button with the text 'Install now' in white, located at the bottom of the ad to encourage action.",
+      "text_content": "Dinner in minutes Fresh favorites nearby $4.99 Install now",
+      "bbox_xyxy": [
+        22,
+        308,
+        247,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.642,
+        0.772,
+        0.915
+      ],
+      "center_normalized": [
+        0.42,
+        0.778
+      ],
+      "area_percentage": 19.19
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo text 'SnapMeal' in a bold font, positioned at the top left corner of the ad.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge with the text 'SALE' in white, positioned at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and vibrant, Dinner in minutes, SnapMeal, SALE",
+    "layout_text": "The headline is centered, the app screenshot is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, $4.99, Install now, SnapMeal, SALE",
+    "elements_text": "headline: Bold, white text prominently displayed at the center, conveying the main offer of the ad. | app_screenshot: Three rectangular placeholders representing meal options, arranged horizontally in the center of the ad. | product: A rectangular shape representing a meal option, positioned to the left of the app screenshot. | product: A rectangular shape representing a meal option, positioned to the right of the app screenshot. | product: A rectangular shape representing a meal option, positioned slightly below the app screenshot. | cta: A prominent button with the text 'Install now' in white, located at the bottom of the ad to encourage action. text='Dinner in minutes Fresh favorites nearby $4.99 Install now' | logo: The logo text 'SnapMeal' in a bold font, positioned at the top left corner of the ad. text='SnapMeal' | discount_badge: A small badge with the text 'SALE' in white, positioned at the top right corner of the ad. text='SALE'"
+  }
+}

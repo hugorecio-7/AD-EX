@@ -1,0 +1,314 @@
+{
+  "creative_id": "500091",
+  "asset_file": "assets/creative_500091.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of text and abstract shapes on a blue background.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special fares for a weekend getaway.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "HorizonHop UGC",
+      "description": "A bold, uppercase text label in a light color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.481
+      ],
+      "center_normalized": [
+        0.47,
+        0.36
+      ],
+      "area_percentage": 14.51
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "A medium-sized text in a contrasting color, conveying a sense of urgency and adventure.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.399
+      ],
+      "area_percentage": 14.36
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "A smaller text below the main body text, emphasizing a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Start now",
+      "description": "A rounded button with a clear call-to-action, inviting users to engage immediately.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "An abstract shape at the top of the ad, adding visual interest without specific imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A small, abstract shape at the bottom, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Left decorative element",
+      "description": "A small circular shape on the left side, enhancing the visual composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center decorative shape",
+      "description": "An oval shape in the center, providing a focal point in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A stylized logo representing the brand, prominently featured at the top.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        24,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.12
+      ],
+      "area_percentage": 14.73
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A larger text at the bottom, detailing the special offer to entice viewers.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button inviting immediate action, placed at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, HorizonHop UGC, special fares today",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "HorizonHop UGC, Escape this weekend, Special fares today, Start now",
+    "elements_text": "headline: A bold, uppercase text label in a light color, prominently displayed at the top of the ad. | body_text: A medium-sized text in a contrasting color, conveying a sense of urgency and adventure. | body_text: A smaller text below the main body text, emphasizing a promotional offer. | cta: A rounded button with a clear call-to-action, inviting users to engage immediately. | decorative_element: An abstract shape at the top of the ad, adding visual interest without specific imagery. | unknown: A small, abstract shape at the bottom, contributing to the overall design. | unknown: A small circular shape on the left side, enhancing the visual composition. | unknown: An oval shape in the center, providing a focal point in the design. | logo: A stylized logo representing the brand, prominently featured at the top. text='HorizonHop UGC' | body_text: A larger text at the bottom, detailing the special offer to entice viewers. text='Escape this weekend Special fares today' | cta: A small button inviting immediate action, placed at the bottom of the ad. text='Start now'"
+  }
+}

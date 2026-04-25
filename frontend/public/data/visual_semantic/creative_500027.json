@@ -1,0 +1,146 @@
+{
+  "creative_id": "500027",
+  "asset_file": "assets/creative_500027.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a logo, headline, body text, and a call-to-action button.",
+    "visual_style": "bright and cheerful",
+    "main_message": "Promoting quick meal options with SnapMeal.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright, solid yellow background fills the entire banner, providing a vibrant and cheerful base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo featuring a stylized meal icon, positioned at the top left corner with a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, black text stating 'Dinner in minutes' is prominently displayed in the center, conveying urgency and appeal.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        75,
+        305,
+        247,
+        389
+      ],
+      "bbox_normalized": [
+        0.234,
+        0.635,
+        0.772,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.723
+      ],
+      "area_percentage": 9.41
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "Smaller black text below the headline reads 'Fresh favorites nearby', providing additional context.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        22,
+        36,
+        122,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.075,
+        0.381,
+        0.125
+      ],
+      "center_normalized": [
+        0.225,
+        0.1
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button with the text 'Learn more' in white, set against a contrasting background, located at the bottom center.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and cheerful, SnapMeal logo, Dinner in minutes headline",
+    "layout_text": "The logo is at the top left, the headline is centered, body text is below the headline, and the CTA is at the bottom center.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, SnapMeal, Learn more",
+    "elements_text": "logo: A simple logo featuring a stylized meal icon, positioned at the top left corner with a clean design. | headline: Bold, black text stating 'Dinner in minutes' is prominently displayed in the center, conveying urgency and appeal. text='Dinner in minutes Fresh favorites nearby' | body_text: Smaller black text below the headline reads 'Fresh favorites nearby', providing additional context. text='SnapMeal' | cta: A rectangular button with the text 'Learn more' in white, set against a contrasting background, located at the bottom center. text='Learn more'"
+  }
+}

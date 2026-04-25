@@ -1,0 +1,194 @@
+{
+  "creative_id": "500299",
+  "asset_file": "assets/creative_500299.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a focus on a promotional offer.",
+    "visual_style": "minimalistic with vibrant colors",
+    "main_message": "Promoting a special weekend offer for a product.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid teal background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        95,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.199,
+        0.954,
+        0.719
+      ],
+      "center_normalized": [
+        0.502,
+        0.459
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text that reads 'Your next favorite pick' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product image",
+      "description": "Two stylized mirrors or reflective surfaces depicted in a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline that says 'Only this weekend'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with white text 'Install now' set against the teal background at the bottom.",
+      "text_content": "Your next favorite pick Only this weekend €29.99 Install now",
+      "bbox_xyxy": [
+        23,
+        306,
+        263,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.637,
+        0.822,
+        0.915
+      ],
+      "center_normalized": [
+        0.447,
+        0.776
+      ],
+      "area_percentage": 20.78
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' in a bold font, displayed in white at the top left corner.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        24,
+        30,
+        127,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.397,
+        0.117
+      ],
+      "center_normalized": [
+        0.236,
+        0.09
+      ],
+      "area_percentage": 1.74
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in yellow with the word 'SALE' in bold, black text at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalistic with vibrant colors, promoting a weekend sale.",
+    "layout_text": "The headline is at the top, the product image is centered, and the CTA is at the bottom.",
+    "ocr_text": "BoltCart, SALE, Your next favorite pick, Only this weekend, €29.99, Install now",
+    "elements_text": "headline: Bold, white text that reads 'Your next favorite pick' prominently displayed at the top. | product: Two stylized mirrors or reflective surfaces depicted in a minimalistic design. | body_text: Smaller white text below the headline that says 'Only this weekend'. | cta: A prominent button with white text 'Install now' set against the teal background at the bottom. text='Your next favorite pick Only this weekend €29.99 Install now' | logo: The logo 'BoltCart' in a bold font, displayed in white at the top left corner. text='BoltCart' | discount_badge: A small, circular badge in yellow with the word 'SALE' in bold, black text at the top right. text='SALE'"
+  }
+}

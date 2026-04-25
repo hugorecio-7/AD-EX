@@ -1,0 +1,218 @@
+{
+  "creative_id": "500163",
+  "asset_file": "assets/creative_500163.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with geometric shapes and clear text elements promoting a travel service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a travel app for booking hotels and flights easily.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and two circles are arranged in the center, creating a modern and abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "The text is bold and centered, stating 'Fly smarter Hotels flights in one tap' in a clean, sans-serif font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned near the main text, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Secondary text",
+      "description": "The text 'Fly smarter Hotels flights in one tap' is prominently displayed in white, contrasting against the teal background.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        59,
+        309,
+        259,
+        358
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.644,
+        0.809,
+        0.746
+      ],
+      "center_normalized": [
+        0.497,
+        0.695
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' is displayed in a bold font at the top left, enhancing brand visibility.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        23,
+        27,
+        142,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.444,
+        0.119
+      ],
+      "center_normalized": [
+        0.258,
+        0.087
+      ],
+      "area_percentage": 2.32
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Get offer' in white, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge in the top right corner with the word 'SALE' in bold, drawing attention to a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, WayPoint logo, call to action.",
+    "layout_text": "The logo is positioned at the top left, the main text is centered, and the call to action is at the bottom.",
+    "ocr_text": "WayPoint, Fly smarter Hotels flights in one tap, Get offer, SALE",
+    "elements_text": "main_subject: A large rectangle and two circles are arranged in the center, creating a modern and abstract visual. | body_text: The text is bold and centered, stating 'Fly smarter Hotels flights in one tap' in a clean, sans-serif font. | decorative_element: A small circle positioned near the main text, adding a playful touch to the design. | body_text: The text 'Fly smarter Hotels flights in one tap' is prominently displayed in white, contrasting against the teal background. text='Fly smarter Hotels flights in one tap' | logo: The logo 'WayPoint' is displayed in a bold font at the top left, enhancing brand visibility. text='WayPoint' | cta: A rounded button at the bottom with the text 'Get offer' in white, inviting user interaction. text='Get offer' | discount_badge: A small yellow badge in the top right corner with the word 'SALE' in bold, drawing attention to a promotional offer. text='SALE'"
+  }
+}

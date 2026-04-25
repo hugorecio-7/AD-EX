@@ -1,0 +1,266 @@
+{
+  "creative_id": "500056",
+  "asset_file": "assets/creative_500056.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with abstract shapes and inviting text.",
+    "visual_style": "bright and playful",
+    "main_message": "Book hotels and flights easily this weekend.",
+    "dominant_colors": [
+      "turquoise",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large, abstract shape in the center of the ad, possibly a rounded rectangle with a soft color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller, rounded shape positioned centrally, complementing the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central square element",
+      "description": "A prominent square shape in the center, likely filled with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small, vertical rectangle at the top, possibly serving as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.296
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small, rounded shape at the bottom, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Middle graphic element",
+      "description": "A small, rectangular shape in the middle, likely with a soft color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "DriftPass UGC",
+      "description": "Bold, prominent text at the top of the ad, likely in a contrasting color to stand out.",
+      "text_content": "DriftPass UGC",
+      "bbox_xyxy": [
+        28,
+        40,
+        302,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.839,
+        0.198
+      ],
+      "center_normalized": [
+        0.458,
+        0.13
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "Clear, inviting text in the center, encouraging action with a friendly tone.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.5,
+        0.711
+      ],
+      "area_percentage": 9.18
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Book now",
+      "description": "A bold call-to-action button at the bottom, designed to attract immediate attention.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, DriftPass UGC, Escape this weekend.",
+    "layout_text": "The headline is at the top, the main body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "DriftPass UGC, Escape this weekend, Hotels + flights in one tap, Book now",
+    "elements_text": "unknown: A large, abstract shape in the center of the ad, possibly a rounded rectangle with a soft color. | unknown: A smaller, rounded shape positioned centrally, complementing the main graphic. | unknown: A prominent square shape in the center, likely filled with a light color. | unknown: A small, vertical rectangle at the top, possibly serving as a decorative feature. | unknown: A small, rounded shape at the bottom, adding visual interest. | unknown: A small, rectangular shape in the middle, likely with a soft color. | headline: Bold, prominent text at the top of the ad, likely in a contrasting color to stand out. text='DriftPass UGC' | body_text: Clear, inviting text in the center, encouraging action with a friendly tone. text='Escape this weekend Hotels flights in one tap' | cta: A bold call-to-action button at the bottom, designed to attract immediate attention. text='Book now'"
+  }
+}

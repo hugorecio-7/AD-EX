@@ -1,0 +1,266 @@
+{
+  "creative_id": "500261",
+  "asset_file": "assets/creative_500261.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional text and a mobile device outline.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting discounts and free shipping on products.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A vibrant orange background with abstract shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        358,
+        251
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.997,
+        0.393
+      ],
+      "center_normalized": [
+        0.501,
+        0.277
+      ],
+      "area_percentage": 22.94
+    },
+    {
+      "id": 2,
+      "role": "background",
+      "label": "Layered orange design",
+      "description": "A layered design in varying shades of orange, adding depth to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        102,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.16,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.259
+      ],
+      "area_percentage": 19.56
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Mobile device outline",
+      "description": "An outline of a mobile device in a light color, positioned centrally with a blank screen.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        131,
+        400
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.365,
+        0.626
+      ],
+      "center_normalized": [
+        0.257,
+        0.454
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Two circular icons below the mobile device outline, simple and minimalistic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "The logo 'ThreadMarF' displayed prominently in bold, dark text at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        32,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.09,
+        0.297
+      ],
+      "center_normalized": [
+        0.045,
+        0.239
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Discount offer text",
+      "description": "Text stating 'Up to 40% off Free shipping over $25' in a clear, readable font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Additional offer text",
+      "description": "Text '$4.99' in a bold font, indicating a price, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A button labeled 'Learn more' in a contrasting color, inviting user interaction.",
+      "text_content": "ThreadMarF UGC",
+      "bbox_xyxy": [
+        25,
+        39,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.535,
+        0.13
+      ],
+      "area_percentage": 12.8
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        468
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.731
+      ],
+      "center_normalized": [
+        0.508,
+        0.685
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "$4.99 Learn more",
+      "bbox_xyxy": [
+        26,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.371,
+        0.87
+      ],
+      "area_percentage": 4.57
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, ThreadMarF logo, discount offer",
+    "layout_text": "The logo is at the top, followed by the discount offer text in the center, and the CTA button at the bottom.",
+    "ocr_text": "ThreadMarF UGC, Up to 40% off, Free shipping over $25, $4.99, Learn more",
+    "elements_text": "app_screenshot: An outline of a mobile device in a light color, positioned centrally with a blank screen. | decorative_element: Two circular icons below the mobile device outline, simple and minimalistic. | logo: The logo 'ThreadMarF' displayed prominently in bold, dark text at the top. | body_text: Text stating 'Up to 40% off Free shipping over $25' in a clear, readable font, centrally positioned. | body_text: Text '$4.99' in a bold font, indicating a price, located at the bottom of the ad. | cta: A button labeled 'Learn more' in a contrasting color, inviting user interaction. text='ThreadMarF UGC' | unknown:  text='Up to 40% off Free shipping over $25' | unknown:  text='$4.99 Learn more'"
+  }
+}

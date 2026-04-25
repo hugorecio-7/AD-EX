@@ -1,0 +1,362 @@
+{
+  "creative_id": "500290",
+  "asset_file": "assets/creative_500290.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with engaging text and decorative elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to join and earn rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo featuring the text 'VoxelRealm' in bold, prominent letters at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A geometric shape or pattern in the background, adding visual interest without specific details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A similar geometric shape or pattern as the top element, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "Another geometric shape or pattern, complementing the overall design in the center area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left decorative element",
+      "description": "A small decorative shape located at the top left, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text reading 'Beat your rivals Free rewards for new players' in a clear, readable font centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top right decorative element",
+      "description": "A small decorative shape located at the top right, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center right decorative element",
+      "description": "A small decorative shape positioned in the center right area of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top left small decorative element",
+      "description": "A tiny decorative shape located at the top left, adding detail to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center left small decorative element",
+      "description": "A tiny decorative shape positioned in the center left area of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The prominent text 'VoxelRealm' at the top, designed to catch the viewer's attention.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Beat your rivals Free rewards for new players' in a bold, engaging font.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        465
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.727
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Shop now' at the bottom, inviting users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, VoxelRealm, rewards for new players",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "VoxelRealm, Beat your rivals Free rewards for new players, Shop now",
+    "elements_text": "logo: A stylized logo featuring the text 'VoxelRealm' in bold, prominent letters at the top of the ad. | unknown: A geometric shape or pattern in the background, adding visual interest without specific details. | unknown: A similar geometric shape or pattern as the top element, positioned in the center of the ad. | unknown: Another geometric shape or pattern, complementing the overall design in the center area. | unknown: A small decorative shape located at the top left, contributing to the overall design. | body_text: Text reading 'Beat your rivals Free rewards for new players' in a clear, readable font centered in the ad. | unknown: A small decorative shape located at the top right, enhancing the visual appeal. | unknown: A small decorative shape positioned in the center right area of the ad. | unknown: A tiny decorative shape located at the top left, adding detail to the design. | unknown: A tiny decorative shape positioned in the center left area of the ad. | headline: The prominent text 'VoxelRealm' at the top, designed to catch the viewer's attention. text='VoxelRealm' | body_text: The text 'Beat your rivals Free rewards for new players' in a bold, engaging font. text='Beat your rivals Free rewards for new players' | cta: A button with the text 'Shop now' at the bottom, inviting users to take action. text='Shop now'"
+  }
+}

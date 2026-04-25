@@ -1,0 +1,434 @@
+{
+  "creative_id": "500251",
+  "asset_file": "assets/creative_500251.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant layout with various shapes and text elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting new seasonal drops from MoonScreen.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center featuring various shapes and colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary content area",
+      "description": "Another rectangular area in the center, slightly overlapping with the main content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Overlay shape",
+      "description": "An oval shape in the center, adding visual interest to the content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Content rectangle",
+      "description": "A prominent rectangular area in the center, likely containing text or images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Additional shape",
+      "description": "A smaller rectangular shape in the center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.47
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular area in the center, possibly showcasing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.347,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.88
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small shape",
+      "description": "A small oval shape located in the center, enhancing the visual layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.528,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular element positioned in the center, adding detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangular shape in the center, likely for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Small oval",
+      "description": "A small oval shape in the center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        169,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.53,
+        0.577,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Tiny circle",
+      "description": "A tiny circular element in the center, adding detail to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "Bottom shape",
+      "description": "A small rectangular shape at the bottom, likely for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        229
+      ],
+      "bbox_normalized": [
+        0.173,
+        0.656,
+        0.235,
+        0.718
+      ],
+      "center_normalized": [
+        0.204,
+        0.687
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text at the bottom stating 'new season drops Start now' in a prominent font.",
+      "text_content": "new season drops Start now",
+      "bbox_xyxy": [
+        84,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.263,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.544,
+        0.795
+      ],
+      "area_percentage": 15.64
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'MoonScreen' displayed at the top in a clear, readable font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        25,
+        145,
+        43
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.078,
+        0.453,
+        0.134
+      ],
+      "center_normalized": [
+        0.266,
+        0.106
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "Text labeled 'UGC' positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, new season drops, MoonScreen logo",
+    "layout_text": "The headline is at the bottom, the logo is at the top, and the main content is centered.",
+    "ocr_text": "new season drops Start now, MoonScreen, UGC",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad. | main_subject: A large rectangular area in the center featuring various shapes and colors. | main_subject: Another rectangular area in the center, slightly overlapping with the main content. | decorative_element: An oval shape in the center, adding visual interest to the content. | main_subject: A prominent rectangular area in the center, likely containing text or images. | decorative_element: A smaller rectangular shape in the center, contributing to the overall design. | main_subject: A rectangular area in the center, possibly showcasing a product or feature. | decorative_element: A small oval shape located in the center, enhancing the visual layout. | decorative_element: A small circular element positioned in the center, adding detail. | decorative_element: A medium-sized rectangular shape in the center, likely for additional content. | decorative_element: A small oval shape in the center, contributing to the overall design. | decorative_element: A tiny circular element in the center, adding detail to the layout. | decorative_element: A small rectangular shape at the bottom, likely for additional content. | headline: Bold text at the bottom stating 'new season drops Start now' in a prominent font. text='new season drops Start now' | logo: The logo 'MoonScreen' displayed at the top in a clear, readable font. text='MoonScreen' | body_text: Text labeled 'UGC' positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

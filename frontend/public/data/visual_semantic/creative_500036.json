@@ -1,0 +1,362 @@
+{
+  "creative_id": "500036",
+  "asset_file": "assets/creative_500036.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting the game 'NeonArena' with engaging visuals and clear calls to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encourages users to level up and claim rewards in the game.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A stylized logo featuring the text 'NeonArena' in bold, modern typography, set against a vibrant background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Game icons",
+      "description": "Four circular game icons arranged in a grid, each with a simple design and a light color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay preview",
+      "description": "A screenshot showcasing gameplay elements, with colorful graphics and interactive features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Game icons",
+      "description": "Another set of circular game icons, similar in style to the previous ones, positioned below the first set.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element in the top left corner, possibly a design accent or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Level up message",
+      "description": "Text reading 'Level up today No ads in first week' in a clear, readable font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button labeled 'Claim reward', designed to attract attention with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Game icons",
+      "description": "Small circular game icons, similar to others, positioned near the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element in the top center, possibly an icon or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small decorative element in the top right corner, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'NeonArena' in large, bold text, prominently displayed at the top of the ad.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        30,
+        40,
+        358,
+        94
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.994,
+        0.147
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.69
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text that conveys a promotional message, encouraging users to engage with the app.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        52,
+        406,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.634,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.679
+      ],
+      "area_percentage": 6.33
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Claim reward text",
+      "description": "Text reading 'Claim reward' in a clear font, positioned at the bottom of the ad to prompt action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, NeonArena, Level up today No ads in first week, Claim reward",
+    "layout_text": "The headline is at the top, followed by game icons, with the main body text centered and CTAs at the bottom.",
+    "ocr_text": "NeonArena, Level up today No ads in first week, Claim reward",
+    "elements_text": "logo: A stylized logo featuring the text 'NeonArena' in bold, modern typography, set against a vibrant background. | unknown: Four circular game icons arranged in a grid, each with a simple design and a light color scheme. | app_screenshot: A screenshot showcasing gameplay elements, with colorful graphics and interactive features. | unknown: Another set of circular game icons, similar in style to the previous ones, positioned below the first set. | unknown: A small decorative element in the top left corner, possibly a design accent or icon. | body_text: Text reading 'Level up today No ads in first week' in a clear, readable font, centrally positioned. | cta: A prominent button labeled 'Claim reward', designed to attract attention with a contrasting color. | unknown: Small circular game icons, similar to others, positioned near the center of the ad. | unknown: A small decorative element in the top center, possibly an icon or design feature. | unknown: Another small decorative element in the top right corner, complementing the overall design. | headline: The main headline 'NeonArena' in large, bold text, prominently displayed at the top of the ad. text='NeonArena' | body_text: Text that conveys a promotional message, encouraging users to engage with the app. text='Level up today No ads in first week' | cta: Text reading 'Claim reward' in a clear font, positioned at the bottom of the ad to prompt action. text='Claim reward'"
+  }
+}

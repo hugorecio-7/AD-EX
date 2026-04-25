@@ -1,0 +1,242 @@
+{
+  "creative_id": "500042",
+  "asset_file": "assets/creative_500042.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on a flash sale promotion.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a flash sale with a call to action to shop bestsellers.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring two overlapping rectangles, representing a modern and minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.365,
+        0.398
+      ],
+      "area_percentage": 6.45
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Icon representation",
+      "description": "An icon of two stylized windows or panels, suggesting a digital or app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.309,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.458,
+        0.397
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small circular element that adds visual interest, positioned near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small badge displaying '30%' in a bold font, indicating a discount offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "A prominent headline in bold text stating 'Flash sale live', designed to grab attention.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        308,
+        272,
+        358
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.85,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.694
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Shop bestsellers now",
+      "description": "A supportive body text below the headline, encouraging users to shop bestsellers.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        24,
+        30,
+        171,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.534,
+        0.117
+      ],
+      "center_normalized": [
+        0.305,
+        0.09
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Try for free', inviting users to take action.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Discount percentage",
+      "description": "A small text element displaying '30%', indicating a promotional discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with bold text, flash sale announcement, discount offer",
+    "layout_text": "The logo is positioned at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "ThreadMark, Flash sale live, Shop bestsellers now, Try for free, 30%",
+    "elements_text": "logo: A simple logo featuring two overlapping rectangles, representing a modern and minimalist design. | icon: An icon of two stylized windows or panels, suggesting a digital or app interface. | decorative_element: A small circular element that adds visual interest, positioned near the logo. | discount_badge: A small badge displaying '30%' in a bold font, indicating a discount offer. | headline: A prominent headline in bold text stating 'Flash sale live', designed to grab attention. text='Flash sale live Shop bestsellers now' | body_text: A supportive body text below the headline, encouraging users to shop bestsellers. text='ThreadMark' | cta: A rounded button with the text 'Try for free', inviting users to take action. text='Try for free' | price: A small text element displaying '30%', indicating a promotional discount. text='30%'"
+  }
+}

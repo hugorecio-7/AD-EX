@@ -1,0 +1,242 @@
+{
+  "creative_id": "500055",
+  "asset_file": "assets/creative_500055.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a mix of text and abstract graphic elements, promoting a booking service.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting flexible booking options for travel destinations.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears to be an abstract shape or design, possibly a placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        93,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.259,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.519,
+        0.43
+      ],
+      "area_percentage": 9.36
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "Another central graphic element that resembles a different abstract shape or design, likely a placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.85
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Lower graphic element",
+      "description": "A small graphic element located lower in the ad, possibly a placeholder or decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        352,
+        209,
+        390
+      ],
+      "bbox_normalized": [
+        0.476,
+        0.551,
+        0.582,
+        0.609
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Lower graphic element",
+      "description": "A small graphic element positioned towards the bottom left, likely a placeholder or decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        353,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.552,
+        0.222,
+        0.609
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Lower graphic element",
+      "description": "A small graphic element located towards the bottom center, possibly a placeholder or decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold text at the bottom of the ad, featuring a promotional message about destinations and booking options.",
+      "text_content": "destinations await Flexible booking options €29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.8
+      ],
+      "area_percentage": 15.81
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Ad title",
+      "description": "Large text at the top of the ad that reads 'DriftPass UGC', prominently displayed.",
+      "text_content": "DriftPass UGC",
+      "bbox_xyxy": [
+        26,
+        37,
+        303,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.842,
+        0.198
+      ],
+      "center_normalized": [
+        0.457,
+        0.128
+      ],
+      "area_percentage": 10.82
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Dream text",
+      "description": "A small text element in the center that simply states the word 'Dream'.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalistic with bold text, promoting flexible booking options.",
+    "layout_text": "The headline is at the top, the main promotional text is at the bottom, with various graphic elements centered.",
+    "ocr_text": "destinations await, Flexible booking options, €29.99, Install now, DriftPass UGC, Dream",
+    "elements_text": "unknown: A central graphic element that appears to be an abstract shape or design, possibly a placeholder. | unknown: Another central graphic element that resembles a different abstract shape or design, likely a placeholder. | unknown: A small graphic element located lower in the ad, possibly a placeholder or decorative shape. | unknown: A small graphic element positioned towards the bottom left, likely a placeholder or decorative shape. | unknown: A small graphic element located towards the bottom center, possibly a placeholder or decorative shape. | body_text: Bold text at the bottom of the ad, featuring a promotional message about destinations and booking options. text='destinations await Flexible booking options €29.99 Install now' | headline: Large text at the top of the ad that reads 'DriftPass UGC', prominently displayed. text='DriftPass UGC' | body_text: A small text element in the center that simply states the word 'Dream'. text='Dream'"
+  }
+}

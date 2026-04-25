@@ -1,0 +1,338 @@
+{
+  "creative_id": "500321",
+  "asset_file": "assets/creative_500321.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting an exclusive offer for PulsePlay.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.49
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large, light green circular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A large, light green square shape positioned in the center of the ad, overlapping with the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle located towards the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        244,
+        359,
+        363
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.382,
+        0.998,
+        0.568
+      ],
+      "center_normalized": [
+        0.978,
+        0.475
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the right side of the ad, below the small circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        180,
+        359,
+        303
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.281,
+        0.998,
+        0.474
+      ],
+      "center_normalized": [
+        0.979,
+        0.377
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the bottom left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the right side of the ad, overlapping with the small circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        243,
+        359,
+        306
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.381,
+        0.998,
+        0.479
+      ],
+      "center_normalized": [
+        0.978,
+        0.43
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the right side of the ad, above the small rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        179,
+        359,
+        243
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.28,
+        0.998,
+        0.38
+      ],
+      "center_normalized": [
+        0.979,
+        0.33
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangle located towards the right side of the ad, below the small rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        308,
+        359,
+        371
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.481,
+        0.998,
+        0.58
+      ],
+      "center_normalized": [
+        0.979,
+        0.531
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, black text stating 'Exclusive tonight Start free today' prominently displayed in the center.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'PulsePlay' displayed in bold, black text at the top of the ad.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        28,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.086
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Learn more' in white on a black background, located at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white text on a black background, positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, exclusive offer, PulsePlay.",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight Start free today, PulsePlay, Learn more, UGC",
+    "elements_text": "decorative_element: A large, light green circular shape positioned in the center of the ad. | decorative_element: A large, light green square shape positioned in the center of the ad, overlapping with the circular shape. | unknown: A small circle located towards the right side of the ad. | unknown: A small rectangle located towards the right side of the ad, below the small circle. | unknown: A small rectangle located towards the bottom left corner of the ad. | unknown: A small rectangle located towards the right side of the ad, overlapping with the small circle. | unknown: A small rectangle located towards the right side of the ad, above the small rectangle. | unknown: A small rectangle located towards the right side of the ad, below the small rectangle. | body_text: Bold, black text stating 'Exclusive tonight Start free today' prominently displayed in the center. text='Exclusive tonight Start free today' | logo: The logo 'PulsePlay' displayed in bold, black text at the top of the ad. text='PulsePlay' | cta: A button with the text 'Learn more' in white on a black background, located at the bottom of the ad. text='Learn more' | social_proof: A small tag labeled 'UGC' in white text on a black background, positioned at the top left corner. text='UGC'"
+  }
+}

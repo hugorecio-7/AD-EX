@@ -1,0 +1,170 @@
+{
+  "creative_id": "500273",
+  "asset_file": "assets/creative_500273.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings on special fares.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background that fills the entire canvas, providing a fresh and energetic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        473
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.74
+      ],
+      "center_normalized": [
+        0.501,
+        0.471
+      ],
+      "area_percentage": 48.76
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A bold, stylized logo with the text 'DriftPass' prominently displayed at the top center, featuring a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, rendered in a lighter shade of green, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Last-minute savings",
+      "description": "A large, bold headline in black text that reads 'Last-minute savings', positioned centrally to grab attention.",
+      "text_content": "Last-minute savings Special fares today",
+      "bbox_xyxy": [
+        76,
+        409,
+        284,
+        500
+      ],
+      "bbox_normalized": [
+        0.211,
+        0.639,
+        0.789,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.71
+      ],
+      "area_percentage": 8.22
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "A smaller, yet clear text below the headline that states 'Special fares today', providing additional context.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent black button at the bottom center with the text 'Shop now' in white, encouraging immediate action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, DriftPass logo, last-minute savings.",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "Last-minute savings, Special fares today, DriftPass, Shop now",
+    "elements_text": "logo: A bold, stylized logo with the text 'DriftPass' prominently displayed at the top center, featuring a modern font. | decorative_element: Two overlapping geometric shapes, one circular and one square, rendered in a lighter shade of green, adding visual interest. | headline: A large, bold headline in black text that reads 'Last-minute savings', positioned centrally to grab attention. text='Last-minute savings Special fares today' | body_text: A smaller, yet clear text below the headline that states 'Special fares today', providing additional context. text='DriftPass' | cta: A prominent black button at the bottom center with the text 'Shop now' in white, encouraging immediate action. text='Shop now'"
+  }
+}

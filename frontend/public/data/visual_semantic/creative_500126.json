@@ -1,0 +1,434 @@
+{
+  "creative_id": "500126",
+  "asset_file": "assets/creative_500126.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of geometric shapes and text elements, promoting a last-minute offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings with a clear call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a base for other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A combination of overlapping geometric shapes in the center, creating a visually engaging focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.19
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "Additional geometric shapes in the center, enhancing the visual complexity of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "Another geometric shape in the center, contributing to the layered design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A smaller geometric shape in the center, adding to the overall design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A larger geometric shape in the center, providing a strong visual anchor.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A smaller geometric shape in the center, complementing the other shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.249,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Text area",
+      "description": "A small text area in the center, likely containing additional information or details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Text area",
+      "description": "Another small text area in the center, providing supplementary information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Bottom CTA button",
+      "description": "A small button at the bottom of the ad, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        269,
+        36,
+        285
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.841,
+        0.115,
+        0.893
+      ],
+      "center_normalized": [
+        0.098,
+        0.867
+      ],
+      "area_percentage": 0.18
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Bottom CTA button",
+      "description": "Another small button at the bottom, encouraging user engagement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        268,
+        50,
+        282
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.84,
+        0.157,
+        0.884
+      ],
+      "center_normalized": [
+        0.139,
+        0.862
+      ],
+      "area_percentage": 0.16
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Bottom CTA button",
+      "description": "A small button at the bottom, part of the call-to-action section.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        269,
+        70,
+        282
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.841,
+        0.222,
+        0.884
+      ],
+      "center_normalized": [
+        0.205,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Bottom CTA button",
+      "description": "A small button at the bottom, contributing to the call-to-action area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        83,
+        282
+      ],
+      "bbox_normalized": [
+        0.227,
+        0.841,
+        0.262,
+        0.884
+      ],
+      "center_normalized": [
+        0.244,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "A prominent text area at the bottom, highlighting the main offer with bold typography.",
+      "text_content": "Last-minute savings $4.99exible ons Get offer",
+      "bbox_xyxy": [
+        22,
+        204,
+        254,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.794,
+        0.934
+      ],
+      "center_normalized": [
+        0.431,
+        0.786
+      ],
+      "area_percentage": 21.52
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left, representing the brand identity.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.26
+    },
+    {
+      "id": 16,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top, indicating user-generated content or testimonials.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, last-minute savings offer",
+    "layout_text": "The headline is at the bottom, the main subject is centered, and the CTA buttons are positioned at the bottom.",
+    "ocr_text": "Last-minute savings $4.99exible ons Get offer, RouteBloom, UGC",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a base for other elements. | main_subject: A combination of overlapping geometric shapes in the center, creating a visually engaging focal point. | main_subject: Additional geometric shapes in the center, enhancing the visual complexity of the ad. | main_subject: Another geometric shape in the center, contributing to the layered design. | main_subject: A smaller geometric shape in the center, adding to the overall design theme. | main_subject: A larger geometric shape in the center, providing a strong visual anchor. | main_subject: A smaller geometric shape in the center, complementing the other shapes. | body_text: A small text area in the center, likely containing additional information or details. | body_text: Another small text area in the center, providing supplementary information. | cta: A small button at the bottom of the ad, inviting user interaction. | cta: Another small button at the bottom, encouraging user engagement. | cta: A small button at the bottom, part of the call-to-action section. | cta: A small button at the bottom, contributing to the call-to-action area. | headline: A prominent text area at the bottom, highlighting the main offer with bold typography. text='Last-minute savings $4.99exible ons Get offer' | logo: A small logo at the top left, representing the brand identity. text='RouteBloom' | social_proof: A small tag at the top, indicating user-generated content or testimonials. text='UGC'"
+  }
+}
