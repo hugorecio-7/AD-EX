@@ -36,18 +36,13 @@ def _load_model():
     if _model is not None:
         return _model, _features
 
-    # On Windows, this model file crashes the native LightGBM runtime in this
-    # project setup. Force the caller to use the safe heuristic fallback.
-    if os.name == "nt":
-        raise RuntimeError("LightGBM evaluator disabled on Windows; using fallback scorer")
-
     try:
         import lightgbm as lgb
         import joblib
     except ImportError as e:
         raise ImportError(
             "lightgbm and joblib are required for the evaluator. "
-            "Run: uv add lightgbm joblib"
+            "Run: pip install lightgbm joblib"
         ) from e
 
     if not _MODEL_PATH.exists():

@@ -36,7 +36,7 @@ class CreativeChatMessage(BaseModel):
 class CreativeChatRequest(BaseModel):
     message: str = Field(..., min_length=1)
     history: list[CreativeChatMessage] = Field(default_factory=list)
-    language: str = "catalan"
+    language: str = "english"
     agentic: bool = False   # If True, detect modify intent and return action
 
 
@@ -479,11 +479,8 @@ async def implement_chat_suggestion(creative_id: str, payload: ImplementRequest,
         }
         store_new_creative(new_id, new_entry)   # append as new entry, not replace original
 
-        try:
-            from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
-            enrich_upgraded_creative(creative_id, new_id, dst)
-        except Exception as e:
-            print(f"[API] Background enrichment trigger failed: {e}")
+        # NOTE: SAM enrichment is NOT triggered here.
+        # Frontend calls POST /enrich only after the user clicks 'Replace Image'.
 
         return {
             "success": True,

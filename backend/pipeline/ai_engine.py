@@ -145,16 +145,10 @@ async def generate_ai_variant_real(
     }
     store_new_creative(new_id, new_entry)
 
-    # Trigger Enrichment (Background)
-    try:
-        from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
-        enrich_upgraded_creative(creative_id, new_id, dst_asset)
-    except Exception as e:
-        print(f"[Engine] Background enrichment trigger failed: {e}")
-
-    # Note: enrichment (SAM mask + visual_semantic.json) is triggered by the frontend
-    # AFTER the user clicks 'Replace Image', via POST /enrich — not here.
-    # This prevents GPU contention with RNN forecasting.
+    # NOTE: SAM enrichment (mask + visual_semantic.json) is intentionally NOT triggered here.
+    # It only runs when the user explicitly clicks 'Replace Image' → POST /api/creatives/{id}/enrich.
+    # This prevents GPU contention with RNN forecasting and avoids wasted work if the user
+    # clicks 'Forecast' without keeping the upgraded image.
 
     time_e = time.time()
 

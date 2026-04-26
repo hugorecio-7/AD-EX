@@ -1,0 +1,242 @@
+{
+  "creative_id": "501123",
+  "asset_file": "assets/creative_501123.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting quick meal solutions.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting quick meal preparation with a sale offer.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown Element",
+      "description": "A small, centered element with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        99,
+        237,
+        132,
+        304
+      ],
+      "bbox_normalized": [
+        0.311,
+        0.495,
+        0.413,
+        0.634
+      ],
+      "center_normalized": [
+        0.362,
+        0.564
+      ],
+      "area_percentage": 1.42
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown Element",
+      "description": "A small, centered element with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        286,
+        183,
+        297
+      ],
+      "bbox_normalized": [
+        0.453,
+        0.598,
+        0.574,
+        0.62
+      ],
+      "center_normalized": [
+        0.513,
+        0.609
+      ],
+      "area_percentage": 0.27
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "A large, bold text element in the center, conveying a message about quick meal preparation.",
+      "text_content": "0 Ite #ilrio J lna Donf JJilt Lo murtorles Dinner in minutes",
+      "bbox_xyxy": [
+        87,
+        183,
+        233,
+        370
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.381,
+        0.728,
+        0.771
+      ],
+      "center_normalized": [
+        0.5,
+        0.576
+      ],
+      "area_percentage": 17.77
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Engage with QuickFork",
+      "description": "A prominent headline at the top, featuring stylized text that is slightly distorted.",
+      "text_content": "Engee @onianc pS Pun Dnm MI AIIL",
+      "bbox_xyxy": [
+        47,
+        117,
+        258,
+        161
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.244,
+        0.806,
+        0.335
+      ],
+      "center_normalized": [
+        0.477,
+        0.29
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "QuickFork Sale",
+      "description": "A bold, eye-catching text at the top indicating a sale, with a playful font style.",
+      "text_content": "QuickFork plele_ SALE",
+      "bbox_xyxy": [
+        24,
+        30,
+        287,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.897,
+        0.117
+      ],
+      "center_normalized": [
+        0.486,
+        0.09
+      ],
+      "area_percentage": 4.45
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Late-night deals available",
+      "description": "A smaller text element at the bottom, providing additional information about deals.",
+      "text_content": "Late-night deals available",
+      "bbox_xyxy": [
+        62,
+        366,
+        260,
+        390
+      ],
+      "bbox_normalized": [
+        0.194,
+        0.762,
+        0.812,
+        0.812
+      ],
+      "center_normalized": [
+        0.503,
+        0.787
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Try for free",
+      "description": "A clear call-to-action button at the bottom, inviting users to try the service.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User Generated Content",
+      "description": "A small icon at the top indicating user-generated content, likely a badge or label.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, Dinner in minutes, QuickFork Sale",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "0 Ite #ilrio J lna Donf JJilt Lo murtorles Dinner in minutes, Engee @onianc pS Pun Dnm MI AIIL, QuickFork plele_ SALE, Late-night deals available, Try for free, UGC",
+    "elements_text": "unknown: A small, centered element with an unclear visual representation. | unknown: A small, centered element with an unclear visual representation. | body_text: A large, bold text element in the center, conveying a message about quick meal preparation. text='0 Ite #ilrio J lna Donf JJilt Lo murtorles Dinner in minutes' | headline: A prominent headline at the top, featuring stylized text that is slightly distorted. text='Engee @onianc pS Pun Dnm MI AIIL' | headline: A bold, eye-catching text at the top indicating a sale, with a playful font style. text='QuickFork plele_ SALE' | body_text: A smaller text element at the bottom, providing additional information about deals. text='Late-night deals available' | cta: A clear call-to-action button at the bottom, inviting users to try the service. text='Try for free' | social_proof: A small icon at the top indicating user-generated content, likely a badge or label. text='UGC'"
+  }
+}

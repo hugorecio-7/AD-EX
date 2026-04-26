@@ -1,0 +1,242 @@
+{
+  "creative_id": "501126",
+  "asset_file": "assets/creative_501126.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on inviting text and a clear call to action.",
+    "visual_style": "minimalistic with soft colors",
+    "main_message": "Encouraging users to install the app for travel bookings.",
+    "dominant_colors": [
+      "white",
+      "light gray"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "DriftPass UGC",
+      "description": "A bold, modern font displaying the text 'DriftPass UGC' prominently at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        145,
+        217,
+        279,
+        361
+      ],
+      "bbox_normalized": [
+        0.405,
+        0.34,
+        0.776,
+        0.564
+      ],
+      "center_normalized": [
+        0.59,
+        0.452
+      ],
+      "area_percentage": 8.35
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Dream destinations await",
+      "description": "A clear, inviting font showcasing the phrase 'Dream destinations await' in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        145,
+        218,
+        278,
+        332
+      ],
+      "bbox_normalized": [
+        0.405,
+        0.341,
+        0.774,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A smaller, straightforward font presenting 'Flexible booking options' above the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        11,
+        161,
+        128,
+        189
+      ],
+      "bbox_normalized": [
+        0.033,
+        0.252,
+        0.356,
+        0.296
+      ],
+      "center_normalized": [
+        0.194,
+        0.274
+      ],
+      "area_percentage": 1.42
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "€29.99",
+      "description": "A prominent price tag in a bold font, highlighted to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        20,
+        107,
+        73,
+        159
+      ],
+      "bbox_normalized": [
+        0.057,
+        0.168,
+        0.203,
+        0.249
+      ],
+      "center_normalized": [
+        0.13,
+        0.208
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now",
+      "description": "A bright, eye-catching button with the text 'Install now' encouraging user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        351,
+        80,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.55,
+        0.222,
+        0.607
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Light background",
+      "description": "A soft, light-colored background that enhances the visibility of the text and elements.",
+      "text_content": "destinations await Flexible booking options €29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.8
+      ],
+      "area_percentage": 15.81
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A decorative label indicating user-generated content, styled to stand out at the top.",
+      "text_content": "DriftPass UGC",
+      "bbox_xyxy": [
+        28,
+        40,
+        302,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.839,
+        0.198
+      ],
+      "center_normalized": [
+        0.458,
+        0.13
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Dream",
+      "description": "A vague element labeled 'Dream', possibly an abstract or decorative feature.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        122,
+        410,
+        239,
+        446
+      ],
+      "bbox_normalized": [
+        0.339,
+        0.641,
+        0.664,
+        0.697
+      ],
+      "center_normalized": [
+        0.501,
+        0.669
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Text fragment",
+      "description": "A fragmented text element that appears unclear and may not convey a specific message.",
+      "text_content": "DTe[ ntintzu;",
+      "bbox_xyxy": [
+        138,
+        160,
+        210,
+        168
+      ],
+      "bbox_normalized": [
+        0.383,
+        0.25,
+        0.583,
+        0.263
+      ],
+      "center_normalized": [
+        0.483,
+        0.256
+      ],
+      "area_percentage": 0.25
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalistic with soft colors, DriftPass UGC, Dream destinations await, Install now",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, €29.99, Install now, DriftPass UGC, DTe[ ntintzu;",
+    "elements_text": "headline: A bold, modern font displaying the text 'DriftPass UGC' prominently at the top of the ad. | body_text: A clear, inviting font showcasing the phrase 'Dream destinations await' in the center of the ad. | body_text: A smaller, straightforward font presenting 'Flexible booking options' above the main message. | price: A prominent price tag in a bold font, highlighted to attract attention. | cta: A bright, eye-catching button with the text 'Install now' encouraging user action. | decorative_element: A decorative label indicating user-generated content, styled to stand out at the top. text='DriftPass UGC' | unknown: A vague element labeled 'Dream', possibly an abstract or decorative feature. text='Dream' | unknown: A fragmented text element that appears unclear and may not convey a specific message. text='DTe[ ntintzu;'"
+  }
+}
