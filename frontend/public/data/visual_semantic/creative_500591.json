@@ -1,0 +1,266 @@
+{
+  "creative_id": "500591",
+  "asset_file": "assets/creative_500591.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and informative text.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting a financial app with clear pricing and no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A simple logo featuring the text 'ClearLedger' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface screenshot",
+      "description": "A screenshot of an app interface showing various financial elements, with a clean and modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "Text that reads 'No hidden fees' in a clear, readable font, emphasizing transparency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.326,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.58
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional information",
+      "description": "Another line of text providing further details about the app's features, maintaining a professional tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product feature",
+      "description": "A visual representation of a financial product, depicted as a rectangular shape with rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Feature highlight",
+      "description": "Text highlighting a key feature of the app, designed to attract user interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Feature description",
+      "description": "A brief description of another feature, presented in a concise and engaging manner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Shop now' in a bold font, encouraging immediate action.",
+      "text_content": "Your money, clearer €9.99 Shop now",
+      "bbox_xyxy": [
+        22,
+        203,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.438,
+        0.784
+      ],
+      "area_percentage": 22.12
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline reads 'Your money, clearer €9.99' in a large, eye-catching font, positioned centrally.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "ClearLedger, financial app, native format, modern and clean visual style, key elements include a logo, app screenshot, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main headline, body text in the center, and the call to action at the bottom.",
+    "ocr_text": "ClearLedger, Your money, clearer, €9.99, Shop now",
+    "elements_text": "logo: A simple logo featuring the text 'ClearLedger' in a bold font, positioned at the top of the ad. | app_screenshot: A screenshot of an app interface showing various financial elements, with a clean and modern design. | body_text: Text that reads 'No hidden fees' in a clear, readable font, emphasizing transparency. | body_text: Another line of text providing further details about the app's features, maintaining a professional tone. | product: A visual representation of a financial product, depicted as a rectangular shape with rounded edges. | body_text: Text highlighting a key feature of the app, designed to attract user interest. | body_text: A brief description of another feature, presented in a concise and engaging manner. | cta: A prominent button with the text 'Shop now' in a bold font, encouraging immediate action. text='Your money, clearer €9.99 Shop now' | headline: The main headline reads 'Your money, clearer €9.99' in a large, eye-catching font, positioned centrally. text='ClearLedger'"
+  }
+}

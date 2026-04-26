@@ -1,0 +1,338 @@
+{
+  "creative_id": "500568",
+  "asset_file": "assets/creative_500568.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and a clear call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a fast food app with a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        10,
+        60,
+        318,
+        231
+      ],
+      "bbox_normalized": [
+        0.032,
+        0.189,
+        0.994,
+        0.725
+      ],
+      "center_normalized": [
+        0.513,
+        0.457
+      ],
+      "area_percentage": 51.48
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top stating 'CraveLoop' against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Body text description",
+      "description": "White text in the center reading 'Fast food, fast' with a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.595,
+        0.368
+      ],
+      "area_percentage": 6.11
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "Smaller white text below the main body stating 'Fresh favorites nearby'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent white text showing the price '€19.99' in the lower part of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bold white button with the text 'Install now' at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.544,
+        0.486
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.0
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Three outlined circles in the center, possibly representing app features or options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        49,
+        90,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.155,
+        0.283,
+        0.322,
+        0.451
+      ],
+      "center_normalized": [
+        0.239,
+        0.367
+      ],
+      "area_percentage": 2.81
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular element that appears to be a button or indicator.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small circular element similar to the previous one, adding to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular element that adds visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular element positioned towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Secondary body text",
+      "description": "Text at the bottom that reinforces the main message, 'Fast food, fast Fresh favorites nearby €19.99 Install now'.",
+      "text_content": "Fast food, fast Fresh favorites nearby €19.99 Install now",
+      "bbox_xyxy": [
+        22,
+        203,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.464,
+        0.784
+      ],
+      "area_percentage": 23.72
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand logo 'CraveLoop' displayed prominently at the top of the ad.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, CraveLoop, fast food, install now",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "Fast food, fast, Fresh favorites nearby, €19.99, Install now, CraveLoop",
+    "elements_text": "headline: Bold white text at the top stating 'CraveLoop' against the purple background. | body_text: White text in the center reading 'Fast food, fast' with a modern font. | body_text: Smaller white text below the main body stating 'Fresh favorites nearby'. | price: A prominent white text showing the price '€19.99' in the lower part of the ad. | cta: A bold white button with the text 'Install now' at the bottom of the ad. | unknown: Three outlined circles in the center, possibly representing app features or options. | unknown: A small circular element that appears to be a button or indicator. | unknown: Another small circular element similar to the previous one, adding to the design. | unknown: A small rectangular element that adds visual interest to the ad. | unknown: A small rectangular element positioned towards the bottom left of the ad. | body_text: Text at the bottom that reinforces the main message, 'Fast food, fast Fresh favorites nearby €19.99 Install now'. text='Fast food, fast Fresh favorites nearby €19.99 Install now' | logo: The brand logo 'CraveLoop' displayed prominently at the top of the ad. text='CraveLoop'"
+  }
+}

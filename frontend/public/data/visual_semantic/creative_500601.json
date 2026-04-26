@@ -1,0 +1,194 @@
+{
+  "creative_id": "500601",
+  "asset_file": "assets/creative_500601.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A visually appealing element centered in the ad, possibly abstract or thematic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "Another decorative element centered in the ad, enhancing the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold text stating '2-for-1 tonight Fresh favorites nearby', prominently displayed in the center.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Text reading 'QuickFork SALE' at the top, designed to grab attention with a bold font.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        25,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.089
+      ],
+      "area_percentage": 5.65
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom saying 'Shop now', inviting users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "Text showing the price '$4.99' at the bottom, clearly indicating the cost.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promotional text and call to action",
+    "layout_text": "The headline is at the top, the main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight Fresh favorites nearby, QuickFork SALE, Shop now, $4.99",
+    "elements_text": "unknown: A visually appealing element centered in the ad, possibly abstract or thematic. | unknown: Another decorative element centered in the ad, enhancing the overall aesthetic. | headline: Bold text stating '2-for-1 tonight Fresh favorites nearby', prominently displayed in the center. text='2-for-1 tonight Fresh favorites nearby' | headline: Text reading 'QuickFork SALE' at the top, designed to grab attention with a bold font. text='QuickFork SALE' | cta: A button at the bottom saying 'Shop now', inviting users to take action. text='Shop now' | price: Text showing the price '$4.99' at the bottom, clearly indicating the cost. text='$4.99'"
+  }
+}

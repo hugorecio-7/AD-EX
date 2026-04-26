@@ -1,0 +1,314 @@
+{
+  "creative_id": "500712",
+  "asset_file": "assets/creative_500712.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant yellow background with fast food elements and a clear call to action.",
+    "visual_style": "bright and minimalist",
+    "main_message": "Promoting late-night fast food deals with a strong call to action.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background fills the entire canvas, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Food containers",
+      "description": "Two outlined food containers are depicted in a simple, minimalist style, suggesting fast food.",
+      "text_content": null,
+      "bbox_xyxy": [
+        49,
+        141,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.155,
+        0.294,
+        0.549,
+        0.487
+      ],
+      "center_normalized": [
+        0.352,
+        0.391
+      ],
+      "area_percentage": 7.62
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food containers",
+      "description": "Another set of outlined food containers, similar to the first, reinforcing the fast food theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.365,
+        0.398
+      ],
+      "area_percentage": 6.45
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food icon",
+      "description": "A small circular icon representing food, placed centrally to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Food icon",
+      "description": "Another small circular icon representing food, complementing the overall fast food theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.458,
+        0.398
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text in a bold font stating 'Fast food, fast' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Additional text 'Late-night deals available' is placed below the main promotional text, enhancing the message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button with the text 'Install now' is located at the bottom, encouraging user interaction.",
+      "text_content": "Fast food, fast Late-night deals available",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BiteRush' is displayed at the top left, featuring a modern and clean font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        32,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.092
+      ],
+      "area_percentage": 1.72
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE' is positioned at the top right, indicating a promotional offer.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "The text 'UGC' is displayed in the top left corner, suggesting user-generated content is featured.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and minimalist, fast food, late-night deals",
+    "layout_text": "The logo is at the top left, the main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast, Late-night deals available, BiteRush, Install now, SALE, UGC",
+    "elements_text": "main_subject: Two outlined food containers are depicted in a simple, minimalist style, suggesting fast food. | main_subject: Another set of outlined food containers, similar to the first, reinforcing the fast food theme. | main_subject: A small circular icon representing food, placed centrally to attract attention. | main_subject: Another small circular icon representing food, complementing the overall fast food theme. | body_text: Text in a bold font stating 'Fast food, fast' is prominently displayed in the center of the ad. | body_text: Additional text 'Late-night deals available' is placed below the main promotional text, enhancing the message. | cta: A bold button with the text 'Install now' is located at the bottom, encouraging user interaction. text='Fast food, fast Late-night deals available' | logo: The logo 'BiteRush' is displayed at the top left, featuring a modern and clean font. text='BiteRush' | discount_badge: A small badge with the text 'SALE' is positioned at the top right, indicating a promotional offer. text='Install now' | social_proof: The text 'UGC' is displayed in the top left corner, suggesting user-generated content is featured. text='SALE' | unknown:  text='UGC'"
+  }
+}

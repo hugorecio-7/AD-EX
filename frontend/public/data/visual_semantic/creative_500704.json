@@ -1,0 +1,218 @@
+{
+  "creative_id": "500704",
+  "asset_file": "assets/creative_500704.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a clear promotional message and call to action.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special fares with a call to action.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo features the word 'DriftPass' in bold, modern typography, positioned prominently at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' is located at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A simple geometric shape, possibly an oval and a rectangle, is placed in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "The text reads 'Fly smarter Special fares today' in a clear, legible font, centered in the lower half of the ad.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        79,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.219,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.685
+      ],
+      "area_percentage": 4.87
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€19.99' is displayed in a bold font at the bottom left, drawing attention to the offer.",
+      "text_content": "€19.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.376,
+        0.87
+      ],
+      "area_percentage": 4.74
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded button with the text 'Claim reward' is positioned at the bottom right, inviting user interaction.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "This element is not clearly defined but appears to be a small icon or label.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, DriftPass logo, promotional text, price tag.",
+    "layout_text": "The logo is at the top, followed by the UGC icon, with the promotional text in the center and the price tag and CTA at the bottom.",
+    "ocr_text": "Fly smarter Special fares today, €19.99, Claim reward, DriftPass, UGC",
+    "elements_text": "logo: The logo features the word 'DriftPass' in bold, modern typography, positioned prominently at the top center. | icon: A small circular icon labeled 'UGC' is located at the top left, indicating user-generated content. | decorative_element: A simple geometric shape, possibly an oval and a rectangle, is placed in the center, adding visual interest. | body_text: The text reads 'Fly smarter Special fares today' in a clear, legible font, centered in the lower half of the ad. text='Fly smarter Special fares today' | price: The price '€19.99' is displayed in a bold font at the bottom left, drawing attention to the offer. text='€19.99 Claim reward' | cta: A rounded button with the text 'Claim reward' is positioned at the bottom right, inviting user interaction. text='DriftPass' | unknown: This element is not clearly defined but appears to be a small icon or label. text='UGC'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500501",
+  "asset_file": "assets/creative_500501.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout with a focus on promoting trending content.",
+    "visual_style": "bold and colorful",
+    "main_message": "Promoting trending content on FluxStream with a clear call to action.",
+    "dominant_colors": [
+      "red",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A soft, abstract background featuring overlapping circles and rectangles in muted tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        471
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.469
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "A stylized logo for FluxStream, prominently displayed at the top with a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow SALE badge with a bold font, positioned near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' in white text on a contrasting background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "A clear, bold text message stating 'Watch what's trending' with a smaller line below it saying 'Cancel anytime'.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button with the text 'Watch now' in a bold font, designed to attract attention.",
+      "text_content": "FluxStream SALE",
+      "bbox_xyxy": [
+        27,
+        41,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.483,
+        0.094
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and colorful, FluxStream, trending content, call to action",
+    "layout_text": "The logo and SALE badge are at the top, followed by the body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "FluxStream SALE, UGC, Watch what's trending, Cancel anytime, Watch now",
+    "elements_text": "logo: A stylized logo for FluxStream, prominently displayed at the top with a bold font. | discount_badge: A bright yellow SALE badge with a bold font, positioned near the logo. | icon: A small circular icon labeled 'UGC' in white text on a contrasting background. | body_text: A clear, bold text message stating 'Watch what's trending' with a smaller line below it saying 'Cancel anytime'. text='Watch what's trending Cancel anytime' | cta: A prominent button with the text 'Watch now' in a bold font, designed to attract attention. text='FluxStream SALE' | unknown:  text='Watch now' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "500520",
+  "asset_file": "assets/creative_500520.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean design with a focus on the brand and its message.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting transparency in financial services with no hidden fees.",
+    "dominant_colors": [
+      "#A8E6CE",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green gradient background",
+      "description": "A smooth green gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        86,
+        358,
+        291
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.135,
+        0.997,
+        0.455
+      ],
+      "center_normalized": [
+        0.5,
+        0.295
+      ],
+      "area_percentage": 31.81
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo 'VaultRun' appears prominently at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        85,
+        359,
+        266
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.134,
+        0.998,
+        0.417
+      ],
+      "center_normalized": [
+        0.502,
+        0.275
+      ],
+      "area_percentage": 28.13
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Your money, clearer' is displayed in a large, clear font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        86,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.135,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.247
+      ],
+      "area_percentage": 22.21
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "The phrase 'No hidden fees' is presented below the headline in a smaller font, maintaining clarity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.497,
+        0.398
+      ],
+      "area_percentage": 13.47
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Learn more' at the bottom, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Abstract geometric shapes in lighter shades of green are subtly integrated into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        330
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.774,
+        0.517
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small icon located at the top left, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "An oval shape in the center, adding visual interest without specific context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Secondary message",
+      "description": "The text 'Your money, clearer No hidden fees' is bold and clear, emphasizing the ad's message.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        71,
+        408,
+        288,
+        497
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.637,
+        0.8,
+        0.777
+      ],
+      "center_normalized": [
+        0.499,
+        0.707
+      ],
+      "area_percentage": 8.38
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "VaultRun branding",
+      "description": "The brand name 'VaultRun' is prominently displayed at the top in a modern, bold font.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        40,
+        298,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.828,
+        0.15
+      ],
+      "center_normalized": [
+        0.45,
+        0.106
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A simple, rounded button at the bottom with the text 'Learn more', encouraging user engagement.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with soft colors, VaultRun, financial transparency.",
+    "layout_text": "The logo is at the top, followed by the main headline, supporting text, and CTA button at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, VaultRun, Learn more",
+    "elements_text": "logo: The logo 'VaultRun' appears prominently at the top in a bold, modern font. | headline: The text 'Your money, clearer' is displayed in a large, clear font, centered in the middle of the ad. | body_text: The phrase 'No hidden fees' is presented below the headline in a smaller font, maintaining clarity. | cta: A rounded button with the text 'Learn more' at the bottom, inviting user interaction. | decorative_element: Abstract geometric shapes in lighter shades of green are subtly integrated into the background. | unknown: A small icon located at the top left, possibly decorative or functional. | unknown: An oval shape in the center, adding visual interest without specific context. | body_text: The text 'Your money, clearer No hidden fees' is bold and clear, emphasizing the ad's message. text='Your money, clearer No hidden fees' | headline: The brand name 'VaultRun' is prominently displayed at the top in a modern, bold font. text='VaultRun' | cta: A simple, rounded button at the bottom with the text 'Learn more', encouraging user engagement. text='Learn more'"
+  }
+}

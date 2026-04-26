@@ -1,0 +1,386 @@
+{
+  "creative_id": "500505",
+  "asset_file": "assets/creative_500505.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with various game icons and text elements promoting a mobile game.",
+    "visual_style": "playful and colorful",
+    "main_message": "Encouraging users to engage with the game and claim rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A simple, stylized game icon with a square shape, featuring a light color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another square-shaped game icon, similar in style to the previous one, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A third square-shaped game icon, slightly smaller and positioned to the left of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A fourth square-shaped game icon, positioned at the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element located at the top left, designed to indicate interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element positioned at the top right, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Gameplay element",
+      "description": "A small circular gameplay element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Text description",
+      "description": "A small text element that provides additional information, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Text description",
+      "description": "Another small text element, similar to the previous one, positioned slightly to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Text description",
+      "description": "A small text element at the top center, providing context or information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Text description",
+      "description": "Another small text element at the top left, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The bold title 'VoxelRealm' displayed prominently at the top of the ad in a large font.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A larger text element that reads 'Level up today No ads in first week', positioned centrally.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.501,
+        0.679
+      ],
+      "area_percentage": 6.31
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom of the ad with the text 'Claim reward', inviting user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, playful and colorful, VoxelRealm, Level up today No ads in first week, Claim reward",
+    "layout_text": "The headline is at the top, followed by promotional text in the center, with icons and a CTA button at the bottom.",
+    "ocr_text": "VoxelRealm, Level up today No ads in first week, Claim reward",
+    "elements_text": "icon: A simple, stylized game icon with a square shape, featuring a light color palette. | icon: Another square-shaped game icon, similar in style to the previous one, positioned centrally. | icon: A third square-shaped game icon, slightly smaller and positioned to the left of the center. | icon: A fourth square-shaped game icon, positioned at the top left corner of the ad. | icon: A small circular gameplay element located at the top left, designed to indicate interaction. | icon: A small circular gameplay element positioned at the top right, similar in style to the previous one. | icon: A small circular gameplay element located towards the bottom center of the ad. | body_text: A small text element that provides additional information, positioned centrally. | body_text: Another small text element, similar to the previous one, positioned slightly to the left. | body_text: A small text element at the top center, providing context or information. | body_text: Another small text element at the top left, similar in style to the previous one. | headline: The bold title 'VoxelRealm' displayed prominently at the top of the ad in a large font. text='VoxelRealm' | body_text: A larger text element that reads 'Level up today No ads in first week', positioned centrally. text='Level up today No ads in first week' | cta: A rounded button at the bottom of the ad with the text 'Claim reward', inviting user interaction. text='Claim reward'"
+  }
+}

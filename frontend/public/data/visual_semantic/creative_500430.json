@@ -1,0 +1,218 @@
+{
+  "creative_id": "500430",
+  "asset_file": "assets/creative_500430.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and a call to action with abstract graphic elements.",
+    "visual_style": "vibrant and modern",
+    "main_message": "Encouraging users to stream and start for free.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element featuring abstract shapes in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element with a larger rectangular shape, possibly representing content or a feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small circular graphic element positioned at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Stream the hype Start free today' prominently displayed in the center.",
+      "text_content": "Stream the hype Start free today",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'StarVault' is displayed in a large, bold font at the top of the ad.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        41,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.064,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.094
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Claim reward' in a contrasting color at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, vibrant and modern, bold headline and call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype Start free today, StarVault, Claim reward, UGC",
+    "elements_text": "unknown: A central graphic element featuring abstract shapes in a muted color palette. | unknown: Another central graphic element with a larger rectangular shape, possibly representing content or a feature. | unknown: A small circular graphic element positioned at the bottom center of the ad. | headline: Bold white text stating 'Stream the hype Start free today' prominently displayed in the center. text='Stream the hype Start free today' | logo: The logo 'StarVault' is displayed in a large, bold font at the top of the ad. text='StarVault' | cta: A button with the text 'Claim reward' in a contrasting color at the bottom of the ad. text='Claim reward' | icon: A small tag labeled 'UGC' positioned at the top left corner of the ad. text='UGC'"
+  }
+}

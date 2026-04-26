@@ -1,0 +1,266 @@
+{
+  "creative_id": "500582",
+  "asset_file": "assets/creative_500582.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with product details and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product at a discounted price for a limited time.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A stylized logo featuring the text 'LuxShelf' in a modern font, placed at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.425,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.678,
+        0.091
+      ],
+      "area_percentage": 4.16
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "A rectangular product display with two vertical rectangles representing shelves, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Product description",
+      "description": "Text below the product display that reads 'Your next favorite pick' in a bold, friendly font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "$4.99 price",
+      "description": "A prominent price tag reading '$4.99' in a large, eye-catching font at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.568,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.602
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Try for free' in a bold font, located below the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large headline text stating 'Only this weekend' in a clear, attention-grabbing font at the center.",
+      "text_content": "Your next favorite pick Only this weekend $4.99 Try for free",
+      "bbox_xyxy": [
+        22,
+        305,
+        263,
+        442
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.635,
+        0.822,
+        0.921
+      ],
+      "center_normalized": [
+        0.445,
+        0.778
+      ],
+      "area_percentage": 21.5
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small circular badge with the word 'SALE' in bold letters, positioned at the top right.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in a simple font, placed at the top left corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, LuxShelf logo, SALE badge, product display",
+    "layout_text": "The logo is at the top left, the headline is centered, the product display is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Only this weekend, $4.99, Try for free, LuxShelf, SALE, UGC",
+    "elements_text": "logo: A stylized logo featuring the text 'LuxShelf' in a modern font, placed at the top left. | product: A rectangular product display with two vertical rectangles representing shelves, centered in the ad. | body_text: Text below the product display that reads 'Your next favorite pick' in a bold, friendly font. | price: A prominent price tag reading '$4.99' in a large, eye-catching font at the bottom center. | cta: A button with the text 'Try for free' in a bold font, located below the price. | headline: A large headline text stating 'Only this weekend' in a clear, attention-grabbing font at the center. text='Your next favorite pick Only this weekend $4.99 Try for free' | discount_badge: A small circular badge with the word 'SALE' in bold letters, positioned at the top right. text='LuxShelf' | social_proof: A small label with the text 'UGC' in a simple font, placed at the top left corner. text='SALE' | unknown:  text='UGC'"
+  }
+}

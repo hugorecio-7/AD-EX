@@ -1,0 +1,218 @@
+{
+  "creative_id": "500405",
+  "asset_file": "assets/creative_500405.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and clear messaging about limited stock and rewards.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Limited stock promotion with a call to action for rewards.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        70,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.196,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.598,
+        0.5
+      ],
+      "area_percentage": 80.31
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A stylized logo for 'CrispBox' displayed prominently at the top center, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "UGC tag",
+      "description": "A small tag labeled 'UGC' positioned near the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An ambiguous element with no clear visual identity, possibly a decorative or placeholder graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "A prominent text block stating 'Limited stock Free shipping over $25' in a bold, easy-to-read font.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        61,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 5.89
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A call-to-action button labeled 'Claim reward' in a contrasting color, positioned at the bottom center.",
+      "text_content": "30% Claim reward",
+      "bbox_xyxy": [
+        34,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.39,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "CrispBox headline",
+      "description": "The headline 'CrispBox' is displayed in large, bold letters at the top of the ad.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        23,
+        35,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.311,
+        0.089
+      ],
+      "area_percentage": 3.4
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC indicator",
+      "description": "A small label indicating user-generated content, adding credibility to the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, CrispBox logo, limited stock message",
+    "layout_text": "The logo is at the top, followed by the headline, body text in the center, and the CTA at the bottom.",
+    "ocr_text": "Limited stock, Free shipping over $25, 30%, Claim reward, CrispBox, UGC",
+    "elements_text": "logo: A stylized logo for 'CrispBox' displayed prominently at the top center, featuring bold typography. | decorative_element: A small tag labeled 'UGC' positioned near the top left, indicating user-generated content. | unknown: An ambiguous element with no clear visual identity, possibly a decorative or placeholder graphic. | body_text: A prominent text block stating 'Limited stock Free shipping over $25' in a bold, easy-to-read font. text='Limited stock Free shipping over $25' | cta: A call-to-action button labeled 'Claim reward' in a contrasting color, positioned at the bottom center. text='30% Claim reward' | headline: The headline 'CrispBox' is displayed in large, bold letters at the top of the ad. text='CrispBox' | social_proof: A small label indicating user-generated content, adding credibility to the ad. text='UGC'"
+  }
+}

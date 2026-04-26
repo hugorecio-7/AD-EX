@@ -1,0 +1,386 @@
+{
+  "creative_id": "500540",
+  "asset_file": "assets/creative_500540.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo, gameplay screenshot, and clear call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to try the game for free with no ads initially.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A central decorative element with a subtle design, possibly a background pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StormByte logo",
+      "description": "A bold logo at the top, featuring the text 'StormByte' in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top, possibly a graphic or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "Another small decorative element at the top, similar in style to ID 3.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A central decorative element, possibly a graphic or icon that complements the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A screenshot of gameplay in the center, showing a grid layout with icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element at the top right, possibly an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the center bottom with the text 'Try for free' in a clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small decorative element in the center, possibly an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element at the top left, possibly an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "Another small decorative element at the top right, similar in style to ID 10.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "A large text block in the center stating 'Unlock rare gear No ads in first week' in an engaging font.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "StormByte logo",
+      "description": "The same bold logo at the top, featuring the text 'StormByte' in a modern font.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        22,
+        34,
+        238,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.661,
+        0.128
+      ],
+      "center_normalized": [
+        0.361,
+        0.091
+      ],
+      "area_percentage": 4.5
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "A smaller text at the bottom stating 'Try for free' in a clear font.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, StormByte logo, gameplay screenshot, call to action.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Unlock rare gear No ads in first week, StormByte, Try for free",
+    "elements_text": "unknown: A central decorative element with a subtle design, possibly a background pattern. | headline: A bold logo at the top, featuring the text 'StormByte' in a modern font. | unknown: A small decorative element positioned at the top, possibly a graphic or icon. | unknown: Another small decorative element at the top, similar in style to ID 3. | unknown: A central decorative element, possibly a graphic or icon that complements the main subject. | app_screenshot: A screenshot of gameplay in the center, showing a grid layout with icons. | unknown: A small decorative element at the top right, possibly an icon or graphic. | cta: A prominent button at the center bottom with the text 'Try for free' in a clear font. | unknown: A small decorative element in the center, possibly an icon or graphic. | unknown: A small decorative element at the top left, possibly an icon or graphic. | unknown: Another small decorative element at the top right, similar in style to ID 10. | body_text: A large text block in the center stating 'Unlock rare gear No ads in first week' in an engaging font. text='Unlock rare gear No ads in first week' | headline: The same bold logo at the top, featuring the text 'StormByte' in a modern font. text='StormByte' | cta: A smaller text at the bottom stating 'Try for free' in a clear font. text='Try for free'"
+  }
+}

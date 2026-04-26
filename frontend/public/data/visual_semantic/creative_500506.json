@@ -1,0 +1,410 @@
+{
+  "creative_id": "500506",
+  "asset_file": "assets/creative_500506.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a central grid graphic with promotional text and a call-to-action button.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a bonus offer with no ads for the first week.",
+    "dominant_colors": [
+      "light purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a light purple background and circular shapes arranged in a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VoxelRealm BONUS",
+      "description": "Bold, uppercase text in a contrasting color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area with a light purple background, possibly containing additional graphics or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "Another rectangular area similar to ID 3, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a light purple background and circular shapes arranged in a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element with a light purple background and circular shapes arranged in a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top right, possibly containing an icon or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom center with a contrasting color, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small circular graphic element positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another small circular graphic element positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top left, possibly containing an icon or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "Another small rectangular area at the top right, possibly containing an icon or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Text in the center of the ad stating 'Level up today No ads in first week' in a clear, readable font.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.501,
+        0.679
+      ],
+      "area_percentage": 6.31
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "VoxelRealm BONUS",
+      "description": "Bold, uppercase text in a contrasting color, prominently displayed at the top of the ad.",
+      "text_content": "VoxelRealm BONUS",
+      "bbox_xyxy": [
+        27,
+        40,
+        331,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.919,
+        0.122
+      ],
+      "center_normalized": [
+        0.497,
+        0.092
+      ],
+      "area_percentage": 5.01
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom center with a contrasting color, inviting users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, VoxelRealm BONUS, Level up today No ads in first week, Get offer",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Level up today No ads in first week, VoxelRealm BONUS, Get offer",
+    "elements_text": "unknown: A central graphic element with a light purple background and circular shapes arranged in a grid pattern. | headline: Bold, uppercase text in a contrasting color, prominently displayed at the top of the ad. | unknown: A rectangular area with a light purple background, possibly containing additional graphics or text. | unknown: Another rectangular area similar to ID 3, positioned at the top of the ad. | unknown: A central graphic element with a light purple background and circular shapes arranged in a grid pattern. | unknown: Another central graphic element with a light purple background and circular shapes arranged in a grid pattern. | unknown: A small rectangular area at the top right, possibly containing an icon or decorative element. | cta: A rounded button at the bottom center with a contrasting color, inviting users to take action. | unknown: A small circular graphic element positioned in the center of the ad. | unknown: Another small circular graphic element positioned in the center of the ad. | unknown: A small rectangular area at the top left, possibly containing an icon or decorative element. | unknown: Another small rectangular area at the top right, possibly containing an icon or decorative element. | body_text: Text in the center of the ad stating 'Level up today No ads in first week' in a clear, readable font. text='Level up today No ads in first week' | headline: Bold, uppercase text in a contrasting color, prominently displayed at the top of the ad. text='VoxelRealm BONUS' | cta: A rounded button at the bottom center with a contrasting color, inviting users to take action. text='Get offer'"
+  }
+}

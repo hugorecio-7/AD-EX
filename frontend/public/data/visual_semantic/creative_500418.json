@@ -1,0 +1,170 @@
+{
+  "creative_id": "500418",
+  "asset_file": "assets/creative_500418.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of text and graphic elements promoting travel booking.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book their next trip with special fares.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element that appears as a combination of shapes, possibly abstract, with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element, likely a different shape or design, also set against a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Trip booking message",
+      "description": "Bold white text that reads 'Book your next trip Special fares today', prominently displayed in the center of the ad.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "NomadLayer logo",
+      "description": "The logo 'NomadLayer' is displayed at the top of the ad in a clear, bold font, likely in white against a blue background.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        23,
+        30,
+        274,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.761,
+        0.127
+      ],
+      "center_normalized": [
+        0.412,
+        0.087
+      ],
+      "area_percentage": 5.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom of the ad with the text 'Shop now' in white, set against a blue background.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, features travel booking message and call to action.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip Special fares today, NomadLayer, Shop now",
+    "elements_text": "unknown: A central graphic element that appears as a combination of shapes, possibly abstract, with a light blue background. | unknown: Another central graphic element, likely a different shape or design, also set against a light blue background. | body_text: Bold white text that reads 'Book your next trip Special fares today', prominently displayed in the center of the ad. text='Book your next trip Special fares today' | logo: The logo 'NomadLayer' is displayed at the top of the ad in a clear, bold font, likely in white against a blue background. text='NomadLayer' | cta: A rectangular button at the bottom of the ad with the text 'Shop now' in white, set against a blue background. text='Shop now'"
+  }
+}

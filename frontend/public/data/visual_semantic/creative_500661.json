@@ -1,0 +1,314 @@
+{
+  "creative_id": "500661",
+  "asset_file": "assets/creative_500661.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a central logo and a strong call to action with abstract shapes in the background.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a simple and secure signup for a card service.",
+    "dominant_colors": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shapes",
+      "description": "A collection of abstract shapes including an oval and a rectangle, lightly outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        76,
+        233,
+        160
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.238,
+        0.73,
+        0.502
+      ],
+      "center_normalized": [
+        0.449,
+        0.37
+      ],
+      "area_percentage": 14.81
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Background shapes",
+      "description": "Another abstract shape, a rectangle with a light outline, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.62
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Background shapes",
+      "description": "A large rectangle shape with a light outline, centrally placed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.549,
+        0.43
+      ],
+      "area_percentage": 8.5
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A smaller oval shape with a light outline, positioned towards the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.353
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large rectangle shape with a light outline, centrally placed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 7.07
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape, lightly outlined, located towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        175,
+        129,
+        208
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.55,
+        0.403,
+        0.652
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape, lightly outlined, positioned towards the left bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape, lightly outlined, located towards the right bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        152,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.478,
+        0.528,
+        0.581,
+        0.631
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape, lightly outlined, positioned at the very bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        210,
+        171,
+        229
+      ],
+      "bbox_normalized": [
+        0.474,
+        0.656,
+        0.536,
+        0.718
+      ],
+      "center_normalized": [
+        0.505,
+        0.687
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with bold text stating 'Watch now', set against a dark background.",
+      "text_content": "Secure simple Fast signup, instant card €29.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        203,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.784
+      ],
+      "area_percentage": 25.03
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'EarnPath' displayed in a simple, bold font at the top of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, key elements include a logo and call to action.",
+    "layout_text": "The logo is at the top, the main message is centrally placed, and the CTA is at the bottom.",
+    "ocr_text": "EarnPath, Secure simple Fast signup, instant card, €29.99, Watch now",
+    "elements_text": "unknown: A collection of abstract shapes including an oval and a rectangle, lightly outlined. | unknown: Another abstract shape, a rectangle with a light outline, positioned centrally. | unknown: A large rectangle shape with a light outline, centrally placed. | unknown: A smaller oval shape with a light outline, positioned towards the center. | unknown: A large rectangle shape with a light outline, centrally placed. | unknown: A small circular shape, lightly outlined, located towards the bottom. | unknown: A small circular shape, lightly outlined, positioned towards the left bottom. | unknown: A small circular shape, lightly outlined, located towards the right bottom. | unknown: A small circular shape, lightly outlined, positioned at the very bottom. | cta: A prominent button with bold text stating 'Watch now', set against a dark background. text='Secure simple Fast signup, instant card €29.99 Watch now' | logo: The logo 'EarnPath' displayed in a simple, bold font at the top of the ad. text='EarnPath'"
+  }
+}

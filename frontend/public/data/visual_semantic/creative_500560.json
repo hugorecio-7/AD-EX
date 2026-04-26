@@ -1,0 +1,242 @@
+{
+  "creative_id": "500560",
+  "asset_file": "assets/creative_500560.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern blue background with promotional text and a call-to-action button.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting last-minute travel savings with a clear call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue abstract background",
+      "description": "A smooth blue background with abstract shapes creating a modern and clean look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "RouteBloon logo",
+      "description": "The logo features bold, uppercase letters in a prominent position at the top, designed to be eye-catching.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A rectangular area in the center containing key promotional text, visually distinct and inviting attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top left shape",
+      "description": "An abstract shape in the top left corner, adding visual interest without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button at the bottom with clear text inviting users to take action, designed to stand out.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center shape",
+      "description": "A small circular shape in the center, serving as a decorative element without specific meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Savings headline",
+      "description": "Bold text in the center that reads 'Last-minute savings', designed to grab attention immediately.",
+      "text_content": "Last-minute savings Special fares today",
+      "bbox_xyxy": [
+        75,
+        407,
+        287,
+        500
+      ],
+      "bbox_normalized": [
+        0.208,
+        0.636,
+        0.797,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 8.56
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "Text below the headline that provides additional information about the offer, clear and easy to read.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        28,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.539,
+        0.106
+      ],
+      "area_percentage": 8.07
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent display of the price '€9.99' positioned at the bottom, designed to attract attention.",
+      "text_content": "€9.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, clean and modern, RouteBloon logo, last-minute savings.",
+    "layout_text": "The logo is at the top, the headline is centered, followed by body text, and the CTA button is at the bottom.",
+    "ocr_text": "Last-minute savings, Special fares today, RouteBloon, €9.99, Learn more",
+    "elements_text": "logo: The logo features bold, uppercase letters in a prominent position at the top, designed to be eye-catching. | main_subject: A rectangular area in the center containing key promotional text, visually distinct and inviting attention. | decorative_element: An abstract shape in the top left corner, adding visual interest without distracting from the main message. | cta: A rounded button at the bottom with clear text inviting users to take action, designed to stand out. | unknown: A small circular shape in the center, serving as a decorative element without specific meaning. | headline: Bold text in the center that reads 'Last-minute savings', designed to grab attention immediately. text='Last-minute savings Special fares today' | body_text: Text below the headline that provides additional information about the offer, clear and easy to read. text='RouteBloon' | price: A prominent display of the price '€9.99' positioned at the bottom, designed to attract attention. text='€9.99 Learn more'"
+  }
+}

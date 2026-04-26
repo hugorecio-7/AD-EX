@@ -1,0 +1,266 @@
+{
+  "creative_id": "500406",
+  "asset_file": "assets/creative_500406.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a central product display with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product with limited stock and a special offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a rectangular shape, possibly representing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.359,
+        0.399
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element, similar in shape and size to the first, likely depicting a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        181,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.283,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A third central graphic element, rectangular in shape, possibly showcasing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A fourth central graphic element, rectangular and similar to the others, likely representing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small circular graphic element located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "Another small circular graphic element, similar in size and position to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text in a bold font stating 'Limited stock Free shipping over $25', centrally positioned.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        63,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text '€19.99 Watch now', located at the bottom of the ad.",
+      "text_content": "€19.99 Watch now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'CrispBox' displayed at the top in a bold font.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        24,
+        34,
+        202,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.561,
+        0.128
+      ],
+      "center_normalized": [
+        0.314,
+        0.091
+      ],
+      "area_percentage": 3.71
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, CrispBox, limited stock, free shipping",
+    "layout_text": "The headline is at the top, the main graphic elements are centered, and the CTA is at the bottom.",
+    "ocr_text": "Limited stock, Free shipping over $25, €19.99, Watch now, CrispBox",
+    "elements_text": "unknown: A central graphic element with a rectangular shape, possibly representing a product or feature. | unknown: Another central graphic element, similar in shape and size to the first, likely depicting a product or feature. | unknown: A third central graphic element, rectangular in shape, possibly showcasing a product or feature. | unknown: A fourth central graphic element, rectangular and similar to the others, likely representing a product or feature. | unknown: A small circular graphic element located towards the bottom of the ad. | unknown: Another small circular graphic element, similar in size and position to the previous one. | body_text: Text in a bold font stating 'Limited stock Free shipping over $25', centrally positioned. text='Limited stock Free shipping over $25' | cta: A prominent button with the text '€19.99 Watch now', located at the bottom of the ad. text='€19.99 Watch now' | headline: The brand name 'CrispBox' displayed at the top in a bold font. text='CrispBox'"
+  }
+}

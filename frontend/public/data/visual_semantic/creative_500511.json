@@ -1,0 +1,410 @@
+{
+  "creative_id": "500511",
+  "asset_file": "assets/creative_500511.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and a clear call to action with a discount offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to install the app with a discount offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A bold, stylized logo with the text 'BoltCart' prominently displayed in a bright color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        210,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.658,
+        0.487
+      ],
+      "center_normalized": [
+        0.514,
+        0.399
+      ],
+      "area_percentage": 5.09
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Discount offer",
+      "description": "Text that reads 'Up to 40% off' in a clear, readable font, emphasizing the discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Shop bestsellers",
+      "description": "Smaller text below the discount offer that says 'Shop bestsellers now', inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A subtle background shape that adds depth, possibly in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        145
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.455
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.02
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button with the text 'Install now', designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        190,
+        90,
+        243,
+        144
+      ],
+      "bbox_normalized": [
+        0.594,
+        0.284,
+        0.762,
+        0.452
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 2.82
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Additional background",
+      "description": "Another background element that complements the overall design, possibly with rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        91,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.287,
+        0.322,
+        0.45
+      ],
+      "center_normalized": [
+        0.239,
+        0.369
+      ],
+      "area_percentage": 2.71
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An ambiguous shape or design element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another ambiguous shape or design element that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small decorative element that does not have a clear purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A lower section of the ad that may contain additional design features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another lower section element that contributes to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.53,
+        0.579,
+        0.628
+      ],
+      "center_normalized": [
+        0.53,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small decorative element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'BoltCart' is large and bold, capturing immediate attention.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        8,
+        24,
+        260,
+        80
+      ],
+      "bbox_normalized": [
+        0.025,
+        0.075,
+        0.812,
+        0.25
+      ],
+      "center_normalized": [
+        0.419,
+        0.163
+      ],
+      "area_percentage": 13.78
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text at the bottom that reinforces the promotional message, encouraging action.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        203,
+        269,
+        255
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.634,
+        0.841,
+        0.797
+      ],
+      "center_normalized": [
+        0.506,
+        0.716
+      ],
+      "area_percentage": 10.87
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button labeled 'Install now', designed to prompt user interaction.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BoltCart logo, discount offer, call to action.",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "BoltCart, Up to 40% off, Shop bestsellers now, Install now",
+    "elements_text": "logo: A bold, stylized logo with the text 'BoltCart' prominently displayed in a bright color. | body_text: Text that reads 'Up to 40% off' in a clear, readable font, emphasizing the discount. | body_text: Smaller text below the discount offer that says 'Shop bestsellers now', inviting action. | decorative_element: A subtle background shape that adds depth, possibly in a contrasting color. | cta: A prominent button with the text 'Install now', designed to attract clicks. | decorative_element: Another background element that complements the overall design, possibly with rounded edges. | unknown: An ambiguous shape or design element that does not convey specific information. | unknown: Another ambiguous shape or design element that adds visual interest. | unknown: A small decorative element that does not have a clear purpose. | unknown: A lower section of the ad that may contain additional design features. | unknown: Another lower section element that contributes to the overall layout. | unknown: A small decorative element that does not convey specific information. | headline: The main headline text 'BoltCart' is large and bold, capturing immediate attention. text='BoltCart' | body_text: Text at the bottom that reinforces the promotional message, encouraging action. text='Up to 40% off Shop bestsellers now' | cta: A clear and inviting button labeled 'Install now', designed to prompt user interaction. text='Install now'"
+  }
+}

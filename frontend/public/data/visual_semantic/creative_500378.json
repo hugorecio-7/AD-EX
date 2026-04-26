@@ -1,0 +1,338 @@
+{
+  "creative_id": "500378",
+  "asset_file": "assets/creative_500378.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of text and abstract shapes with a focus on savings.",
+    "visual_style": "modern and colorful",
+    "main_message": "Promoting last-minute savings and flexible booking options.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "WayPoint",
+      "description": "A bold, prominent text element at the top of the ad, featuring the word 'WayPoint' in a large, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.611,
+        0.374
+      ],
+      "area_percentage": 19.16
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Last-minute savings",
+      "description": "A medium-sized text element in the center, conveying the message 'Last-minute savings' in a readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.378
+      ],
+      "area_percentage": 14.97
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A smaller text element below the main body text, stating 'Flexible booking options' in a simple, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.252,
+        0.768,
+        0.468
+      ],
+      "center_normalized": [
+        0.468,
+        0.36
+      ],
+      "area_percentage": 12.92
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "A series of abstract shapes in the background, including circles and rectangles, creating a visually appealing backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        80,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.253,
+        0.497,
+        0.611
+      ],
+      "center_normalized": [
+        0.317,
+        0.432
+      ],
+      "area_percentage": 12.88
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward",
+      "description": "A button-like text element at the bottom, encouraging users to 'Claim reward' in a contrasting color for visibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.478,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "Various additional shapes that add depth and interest to the background, including circles and rectangles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape positioned in the background, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        157,
+        149
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.253,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Large rectangle",
+      "description": "A large rectangular shape in the background, providing a base for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.347,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small shape located towards the bottom of the ad, adding to the decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Another small shape",
+      "description": "Another small shape positioned near the bottom, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Savings message",
+      "description": "A larger text element at the bottom of the ad, emphasizing 'Last-minute savings' in a bold font.",
+      "text_content": "Last-minute savings Flexinl ons Claim reward",
+      "bbox_xyxy": [
+        66,
+        204,
+        254,
+        299
+      ],
+      "bbox_normalized": [
+        0.206,
+        0.637,
+        0.794,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.786
+      ],
+      "area_percentage": 17.44
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "WayPoint branding",
+      "description": "The word 'WayPoint' prominently displayed at the top, serving as the brand identifier.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        7,
+        17,
+        243,
+        77
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.053,
+        0.759,
+        0.241
+      ],
+      "center_normalized": [
+        0.391,
+        0.147
+      ],
+      "area_percentage": 13.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and colorful, WayPoint, last-minute savings, Claim reward",
+    "layout_text": "The headline is at the top, body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "WayPoint, Last-minute savings, Flexible booking options, Claim reward",
+    "elements_text": "headline: A bold, prominent text element at the top of the ad, featuring the word 'WayPoint' in a large, clear font. | body_text: A medium-sized text element in the center, conveying the message 'Last-minute savings' in a readable font. | body_text: A smaller text element below the main body text, stating 'Flexible booking options' in a simple, clear font. | decorative_element: A series of abstract shapes in the background, including circles and rectangles, creating a visually appealing backdrop. | cta: A button-like text element at the bottom, encouraging users to 'Claim reward' in a contrasting color for visibility. | unknown: Various additional shapes that add depth and interest to the background, including circles and rectangles. | unknown: A small circular shape positioned in the background, contributing to the overall design. | unknown: A large rectangular shape in the background, providing a base for the text elements. | unknown: A small shape located towards the bottom of the ad, adding to the decorative elements. | unknown: Another small shape positioned near the bottom, complementing the overall design. | body_text: A larger text element at the bottom of the ad, emphasizing 'Last-minute savings' in a bold font. text='Last-minute savings Flexinl ons Claim reward' | headline: The word 'WayPoint' prominently displayed at the top, serving as the brand identifier. text='WayPoint'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500697",
+  "asset_file": "assets/creative_500697.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a combination of geometric shapes and text promoting a cashback offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting cashback rewards with no hidden fees.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a clean and simple backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A combination of geometric shapes, including a rectangle and a circle, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular shape located towards the bottom center of the ad, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold, black text stating 'Earn cashback daily No hidden fees $4.99 Start now' prominently displayed at the bottom of the ad.",
+      "text_content": "Earn cashback daily No hidden fees s4.99 Start now",
+      "bbox_xyxy": [
+        23,
+        307,
+        273,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.853,
+        0.915
+      ],
+      "center_normalized": [
+        0.463,
+        0.777
+      ],
+      "area_percentage": 21.48
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo 'CoinBridge' in a bold font, positioned at the top left of the ad, conveying brand identity.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        158,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.494,
+        0.117
+      ],
+      "center_normalized": [
+        0.284,
+        0.087
+      ],
+      "area_percentage": 2.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, cashback offer, CoinBridge logo",
+    "layout_text": "The logo is at the top left, central graphic shapes are in the middle, and the body text is at the bottom.",
+    "ocr_text": "Earn cashback daily, No hidden fees, $4.99, Start now, CoinBridge",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a clean and simple backdrop. | main_subject: A combination of geometric shapes, including a rectangle and a circle, positioned in the center of the ad. | unknown: A small circular shape located towards the bottom center of the ad, adding visual interest. | body_text: Bold, black text stating 'Earn cashback daily No hidden fees $4.99 Start now' prominently displayed at the bottom of the ad. text='Earn cashback daily No hidden fees s4.99 Start now' | logo: The logo 'CoinBridge' in a bold font, positioned at the top left of the ad, conveying brand identity. text='CoinBridge'"
+  }
+}

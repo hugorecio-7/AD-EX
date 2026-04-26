@@ -1,0 +1,290 @@
+{
+  "creative_id": "500454",
+  "asset_file": "assets/creative_500454.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear focus on travel offers.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special travel fares at $4.99.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text reading 'Dream destinations await' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline stating 'Special fares today'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price display",
+      "description": "A bold, eye-catching '$4.99' in white, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Claim reward' in white, located at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        98,
+        550,
+        261,
+        628
+      ],
+      "bbox_normalized": [
+        0.274,
+        0.859,
+        0.727,
+        0.981
+      ],
+      "center_normalized": [
+        0.501,
+        0.92
+      ],
+      "area_percentage": 5.53
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' displayed at the top left in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        111,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.309,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.62,
+        0.091
+      ],
+      "area_percentage": 5.1
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge with the word 'SALE' in bold text at the top right.",
+      "text_content": "destinations await Special fares today $4.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.8
+      ],
+      "area_percentage": 15.81
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Two overlapping geometric shapes in a lighter shade of orange, adding visual interest.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white, indicating user-generated content.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element with no clear visual representation.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element with no clear visual representation.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel offers, special fares",
+    "layout_text": "Headline at the top, supporting text below, price in the center, and CTA at the bottom.",
+    "ocr_text": "destinations await, Special fares today, $4.99, Claim reward, CloudRoute, SALE, UGC",
+    "elements_text": "headline: Bold, white text reading 'Dream destinations await' prominently displayed at the top. | body_text: Smaller white text below the headline stating 'Special fares today'. | price: A bold, eye-catching '$4.99' in white, positioned centrally. | cta: A prominent button with the text 'Claim reward' in white, located at the bottom. | logo: The logo 'CloudRoute' displayed at the top left in a contrasting color. | discount_badge: A small, bright yellow badge with the word 'SALE' in bold text at the top right. text='destinations await Special fares today $4.99 Claim reward' | decorative_element: Two overlapping geometric shapes in a lighter shade of orange, adding visual interest. text='Dream' | social_proof: A small tag labeled 'UGC' in white, indicating user-generated content. text='CloudRoute' | unknown: An unspecified element with no clear visual representation. text='SALE' | unknown: Another unspecified element with no clear visual representation. text='UGC'"
+  }
+}

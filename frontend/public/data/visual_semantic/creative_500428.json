@@ -1,0 +1,290 @@
+{
+  "creative_id": "500428",
+  "asset_file": "assets/creative_500428.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern abstract design with bold text elements.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting new seasonal hits from StarVault.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A collection of abstract shapes in soft pink tones, including circles and squares, arranged in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.58
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "Additional abstract shapes in light pink, overlapping with other elements, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.671,
+        0.43
+      ],
+      "area_percentage": 9.9
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A large pink rectangle with rounded edges, positioned centrally, giving a modern feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "Another large pink rectangle, similar to ID 3, contributing to the overall abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A small pink circle located towards the bottom of the ad, adding to the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "Another small pink circle, slightly larger than ID 5, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A tiny pink circle located at the very bottom, completing the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "main message",
+      "description": "Bold white text stating 'A new season drops New hits every week', prominently displayed at the bottom.",
+      "text_content": "new season drops New hits every week",
+      "bbox_xyxy": [
+        90,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.25,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.537,
+        0.714
+      ],
+      "area_percentage": 7.73
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The word 'StarVault' in large, bold black font at the top, indicating the brand name.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        39,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.092
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A white button with the text 'Shop now' in bold, inviting users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, promoting new seasonal hits.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "StarVault, A new season drops New hits every week, Shop now",
+    "elements_text": "unknown: A collection of abstract shapes in soft pink tones, including circles and squares, arranged in the center. | unknown: Additional abstract shapes in light pink, overlapping with other elements, creating a layered effect. | unknown: A large pink rectangle with rounded edges, positioned centrally, giving a modern feel. | unknown: Another large pink rectangle, similar to ID 3, contributing to the overall abstract design. | unknown: A small pink circle located towards the bottom of the ad, adding to the abstract theme. | unknown: Another small pink circle, slightly larger than ID 5, positioned near the bottom. | unknown: A tiny pink circle located at the very bottom, completing the abstract design. | headline: Bold white text stating 'A new season drops New hits every week', prominently displayed at the bottom. text='new season drops New hits every week' | logo: The word 'StarVault' in large, bold black font at the top, indicating the brand name. text='StarVault' | cta: A white button with the text 'Shop now' in bold, inviting users to take action. text='Shop now'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500422",
+  "asset_file": "assets/creative_500422.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with food-related icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting food delivery service with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Food icons",
+      "description": "Two simple line-drawn food icons, resembling a plate and a bowl, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Food icons",
+      "description": "Another line-drawn food icon, possibly a drink, positioned next to the first two icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circle icon",
+      "description": "A small circular icon, likely representing a button or a dot, located below the food icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.19
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small, unidentifiable icon located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.221,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "Bold, large text stating 'Your cravings, delivered' in a dark color, centrally positioned.",
+      "text_content": "Your cravings, delivered €9.99red Shop now",
+      "bbox_xyxy": [
+        22,
+        203,
+        273,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.853,
+        0.934
+      ],
+      "center_normalized": [
+        0.461,
+        0.784
+      ],
+      "area_percentage": 23.53
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "The logo 'PlateSprint' displayed in a bold font at the top left of the ad.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        21,
+        113,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.353,
+        0.122
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small 'SALE' badge in a contrasting color, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, food delivery service, promotional text",
+    "layout_text": "The logo is at the top left, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "PlateSprint, SALE, Your cravings, delivered, €9.99, Shop now",
+    "elements_text": "product: Two simple line-drawn food icons, resembling a plate and a bowl, centered in the ad. | product: Another line-drawn food icon, possibly a drink, positioned next to the first two icons. | decorative_element: A small circular icon, likely representing a button or a dot, located below the food icons. | unknown: A small, unidentifiable icon located towards the bottom left of the ad. | body_text: Bold, large text stating 'Your cravings, delivered' in a dark color, centrally positioned. text='Your cravings, delivered €9.99red Shop now' | logo: The logo 'PlateSprint' displayed in a bold font at the top left of the ad. text='PlateSprint' | discount_badge: A small 'SALE' badge in a contrasting color, positioned at the top right corner. text='SALE'"
+  }
+}

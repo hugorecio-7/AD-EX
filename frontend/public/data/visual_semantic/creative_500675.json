@@ -1,0 +1,194 @@
+{
+  "creative_id": "500675",
+  "asset_file": "assets/creative_500675.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on food delivery services.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting food delivery with a special offer.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo featuring the text 'SnapMeal' in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A bright yellow badge with the word 'SALE' in bold, eye-catching text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 3,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label that reads 'UGC' in a clean font, indicating user-generated content, placed near the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cravings message",
+      "description": "A prominent text block that states 'Your cravings, delivered' in a large, bold font, centered at the bottom of the ad.",
+      "text_content": "Your cravings, delivered Fre Get offer",
+      "bbox_xyxy": [
+        50,
+        198,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.619,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.508,
+        0.777
+      ],
+      "area_percentage": 22.19
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A call-to-action button labeled 'Get offer' in a contrasting color, positioned directly below the body text.",
+      "text_content": "SnapMeal UGC",
+      "bbox_xyxy": [
+        21,
+        21,
+        122,
+        71
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.066,
+        0.381,
+        0.222
+      ],
+      "center_normalized": [
+        0.223,
+        0.144
+      ],
+      "area_percentage": 4.93
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A rectangular background shape that frames the main content, providing a subtle contrast to the text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, SnapMeal logo, SALE badge, cravings message, Get offer button",
+    "layout_text": "The logo is at the top left, the discount badge at the top right, the body text is centered at the bottom, and the CTA is directly below it.",
+    "ocr_text": "Your cravings, delivered, Free delivery over $15, SnapMeal UGC, SALE, Get offer",
+    "elements_text": "logo: A simple logo featuring the text 'SnapMeal' in a modern font, positioned at the top left corner. | discount_badge: A bright yellow badge with the word 'SALE' in bold, eye-catching text, located at the top right corner. | social_proof: A small label that reads 'UGC' in a clean font, indicating user-generated content, placed near the logo. | body_text: A prominent text block that states 'Your cravings, delivered' in a large, bold font, centered at the bottom of the ad. text='Your cravings, delivered Fre Get offer' | cta: A call-to-action button labeled 'Get offer' in a contrasting color, positioned directly below the body text. text='SnapMeal UGC' | decorative_element: A rectangular background shape that frames the main content, providing a subtle contrast to the text. text='SALE'"
+  }
+}

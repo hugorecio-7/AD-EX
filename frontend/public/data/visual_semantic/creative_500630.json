@@ -1,0 +1,242 @@
+{
+  "creative_id": "500630",
+  "asset_file": "assets/creative_500630.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of text and graphic elements promoting travel deals.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special travel fares at €9.99.",
+    "dominant_colors": [
+      "#00BFAE",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element with an abstract shape, possibly a placeholder for an image or logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.466
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.19
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element that appears to be a rounded rectangle, likely for additional content or imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element positioned centrally, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "Another small circular graphic element, similar in size and position to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A third small circular graphic element, maintaining the same style as the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold body text that reads 'destinations await Special fares today €9.99 Try for free', prominently displayed at the bottom.",
+      "text_content": "destinations await Special fares today €9.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        443,
+        289,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.803,
+        0.917
+      ],
+      "center_normalized": [
+        0.435,
+        0.805
+      ],
+      "area_percentage": 16.56
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo of 'NomadLayer' displayed at the top in a clear, bold font.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        23,
+        29,
+        274,
+        83
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.045,
+        0.761,
+        0.13
+      ],
+      "center_normalized": [
+        0.412,
+        0.087
+      ],
+      "area_percentage": 5.88
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Catchy headline",
+      "description": "A catchy headline that says 'Dream', positioned centrally and styled to attract attention.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        122,
+        410,
+        239,
+        446
+      ],
+      "bbox_normalized": [
+        0.339,
+        0.641,
+        0.664,
+        0.697
+      ],
+      "center_normalized": [
+        0.501,
+        0.669
+      ],
+      "area_percentage": 1.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting travel deals.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the main promotional text is at the bottom.",
+    "ocr_text": "destinations await Special fares today €9.99 Try for free, NomadLayer, Dream",
+    "elements_text": "unknown: A central graphic element with an abstract shape, possibly a placeholder for an image or logo. | unknown: A secondary graphic element that appears to be a rounded rectangle, likely for additional content or imagery. | unknown: A small circular graphic element positioned centrally, possibly decorative. | unknown: Another small circular graphic element, similar in size and position to the previous one. | unknown: A third small circular graphic element, maintaining the same style as the others. | body_text: Bold body text that reads 'destinations await Special fares today €9.99 Try for free', prominently displayed at the bottom. text='destinations await Special fares today €9.99 Try for free' | logo: The logo of 'NomadLayer' displayed at the top in a clear, bold font. text='NomadLayer' | headline: A catchy headline that says 'Dream', positioned centrally and styled to attract attention. text='Dream'"
+  }
+}

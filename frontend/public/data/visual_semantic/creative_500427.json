@@ -1,0 +1,314 @@
+{
+  "creative_id": "500427",
+  "asset_file": "assets/creative_500427.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various app interface elements and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting the StarVault app with new content available weekly.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire banner, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface display",
+      "description": "A rectangular area showing a simplified app interface with geometric shapes, suggesting a digital environment.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.407
+      ],
+      "area_percentage": 13.64
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Additional app interface",
+      "description": "Another rectangular area displaying more geometric shapes, indicating features of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.324,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.82
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A collection of geometric shapes, including circles and rectangles, arranged in a visually appealing manner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Highlighted app feature",
+      "description": "A prominent rectangular area showcasing a feature of the app, filled with abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.84
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon positioned within the app interface, adding detail to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Another small icon",
+      "description": "Another small circular icon, similar to the previous one, enhancing the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo of 'StarVault' displayed prominently at the top, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Binge starts now New hits every week' positioned centrally, conveying the main message.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        27,
+        304,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.633,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.497,
+        0.689
+      ],
+      "area_percentage": 9.11
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button labeled 'Get offer' at the bottom, inviting users to take action.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        22,
+        30,
+        140,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.438,
+        0.117
+      ],
+      "center_normalized": [
+        0.253,
+        0.09
+      ],
+      "area_percentage": 2.0
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "User-generated content tag",
+      "description": "A small text label 'UGC' indicating user-generated content, positioned at the top.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, StarVault logo, promotional text",
+    "layout_text": "The logo is at the top, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "StarVault, Binge starts now New hits every week, Get offer, UGC",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with geometric shapes, suggesting a digital environment. | app_screenshot: Another rectangular area displaying more geometric shapes, indicating features of the app. | decorative_element: A collection of geometric shapes, including circles and rectangles, arranged in a visually appealing manner. | app_screenshot: A prominent rectangular area showcasing a feature of the app, filled with abstract shapes. | icon: A small circular icon positioned within the app interface, adding detail to the design. | icon: Another small circular icon, similar to the previous one, enhancing the app interface. | logo: The logo of 'StarVault' displayed prominently at the top, featuring bold typography. | headline: Bold text stating 'Binge starts now New hits every week' positioned centrally, conveying the main message. text='Binge starts now New hits every week' | cta: A button labeled 'Get offer' at the bottom, inviting users to take action. text='StarVault' | body_text: A small text label 'UGC' indicating user-generated content, positioned at the top. text='Get offer' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500597",
+  "asset_file": "assets/creative_500597.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and geometric shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings on hotels and flights.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, in a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "Another abstract shape that adds visual interest, possibly a rectangle or another geometric form.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Savings message",
+      "description": "Bold white text stating 'Last-minute savings Hotels + flights in one tap' positioned centrally.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        294,
+        502
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.817,
+        0.784
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.44
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' in a prominent position at the top, likely in a bold font.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button with the text 'Get offer' in white, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, located at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, last-minute savings, WayPoint logo, Get offer button",
+    "layout_text": "The headline is centrally positioned, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Last-minute savings, Hotels + flights in one tap, WayPoint, SALE, Get offer, UGC",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one square, in a lighter shade of purple. | unknown: Another abstract shape that adds visual interest, possibly a rectangle or another geometric form. | headline: Bold white text stating 'Last-minute savings Hotels + flights in one tap' positioned centrally. text='Last-minute savings Hotels flights in one tap' | logo: The logo 'WayPoint' in a prominent position at the top, likely in a bold font. text='WayPoint' | cta: A rounded button with the text 'Get offer' in white, located at the bottom of the ad. text='Get offer' | discount_badge: A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner. text='SALE' | social_proof: A small label with the text 'UGC' in white, located at the top left corner. text='UGC'"
+  }
+}

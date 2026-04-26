@@ -1,0 +1,650 @@
+{
+  "creative_id": "500895",
+  "asset_file": "assets/creative_500895.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant layout with a clear headline and call-to-action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting new seasonal content with a strong call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "New season drops",
+      "description": "A bold, prominent text element at the top of the ad, conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.176
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.56
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "New hits every week",
+      "description": "A smaller text element positioned below the headline, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        59,
+        284,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.185,
+        0.888,
+        0.275
+      ],
+      "center_normalized": [
+        0.802,
+        0.23
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 3,
+      "role": "cta",
+      "label": "Book now",
+      "description": "A clear call-to-action button, inviting users to take immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        77,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.243,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.31
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "A logo element featuring the brand name 'MoonScreen' in a stylized font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        58,
+        241,
+        88
+      ],
+      "bbox_normalized": [
+        0.598,
+        0.184,
+        0.755,
+        0.276
+      ],
+      "center_normalized": [
+        0.676,
+        0.23
+      ],
+      "area_percentage": 1.46
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "UGC tag",
+      "description": "A small tag indicating user-generated content, adding authenticity to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        58,
+        196,
+        88
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.184,
+        0.615,
+        0.277
+      ],
+      "center_normalized": [
+        0.547,
+        0.23
+      ],
+      "area_percentage": 1.27
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "An abstract shape in the background, providing a visually appealing backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        57,
+        303,
+        74
+      ],
+      "bbox_normalized": [
+        0.717,
+        0.181,
+        0.949,
+        0.231
+      ],
+      "center_normalized": [
+        0.833,
+        0.206
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Circular shapes",
+      "description": "Several circular shapes scattered throughout the ad, adding a playful element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        90,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.283,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.33
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Rectangle shape",
+      "description": "A rectangular shape that serves as a background for the call-to-action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        58,
+        189,
+        88
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.184,
+        0.593,
+        0.276
+      ],
+      "center_normalized": [
+        0.536,
+        0.23
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        266,
+        59,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.834,
+        0.185,
+        0.948,
+        0.275
+      ],
+      "center_normalized": [
+        0.891,
+        0.23
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        59,
+        227,
+        88
+      ],
+      "bbox_normalized": [
+        0.598,
+        0.185,
+        0.711,
+        0.276
+      ],
+      "center_normalized": [
+        0.654,
+        0.23
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.651
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.529,
+        0.221,
+        0.629
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.2,
+        0.948,
+        0.276
+      ],
+      "center_normalized": [
+        0.892,
+        0.238
+      ],
+      "area_percentage": 0.86
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        265,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.201,
+        0.83,
+        0.275
+      ],
+      "center_normalized": [
+        0.773,
+        0.238
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        95,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.299,
+        0.999,
+        0.478
+      ],
+      "center_normalized": [
+        0.976,
+        0.388
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        143
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.281,
+        0.999,
+        0.448
+      ],
+      "center_normalized": [
+        0.976,
+        0.365
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        58,
+        21,
+        88
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.067,
+        0.276
+      ],
+      "center_normalized": [
+        0.035,
+        0.229
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        58,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.182,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        229
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.656,
+        0.235,
+        0.718
+      ],
+      "center_normalized": [
+        0.204,
+        0.687
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "new season drops Ne Book now",
+      "bbox_xyxy": [
+        81,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.539,
+        0.795
+      ],
+      "area_percentage": 15.91
+    },
+    {
+      "id": 24,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        25,
+        145,
+        43
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.078,
+        0.453,
+        0.134
+      ],
+      "center_normalized": [
+        0.266,
+        0.106
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 25,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        55,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.172,
+        0.222
+      ],
+      "center_normalized": [
+        0.125,
+        0.2
+      ],
+      "area_percentage": 0.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, new season drops, Book now",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "new season drops, New hits every week, Book now, MoonScreen, UGC",
+    "elements_text": "headline: A bold, prominent text element at the top of the ad, conveying the main message. | body_text: A smaller text element positioned below the headline, providing additional information. | cta: A clear call-to-action button, inviting users to take immediate action. | logo: A logo element featuring the brand name 'MoonScreen' in a stylized font. | decorative_element: A small tag indicating user-generated content, adding authenticity to the ad. | unknown: An abstract shape in the background, providing a visually appealing backdrop. | unknown: Several circular shapes scattered throughout the ad, adding a playful element. | unknown: A rectangular shape that serves as a background for the call-to-action. | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  text='new season drops Ne Book now' | unknown:  text='MoonScreen' | unknown:  text='UGC'"
+  }
+}

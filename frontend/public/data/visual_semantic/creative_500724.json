@@ -1,0 +1,434 @@
+{
+  "creative_id": "500724",
+  "asset_file": "assets/creative_500724.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent game logo and a clear call to action with engaging headlines.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to engage with the game and shop.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central element with a light background and circular shapes, possibly representing game icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.365
+      ],
+      "area_percentage": 5.56
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular element at the top with a light background, possibly containing game icons or buttons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central element with a light background and circular shapes, similar to ID 1.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central rectangular element with a light background, possibly containing game icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular element at the top with a light background, similar to ID 2.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small central element with a light background, possibly a button or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small circular element at the center, possibly representing a game icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top with a light background, possibly containing text or icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small central element with a light background, possibly a button or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small circular element at the center, similar to ID 9.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top with a light background, possibly containing text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top with a light background, similar to ID 11.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline in bold text stating 'Win epic rewards No ads in first week' with a clear and engaging font.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "Game logo",
+      "description": "The logo 'VoxelRealm' displayed prominently at the top in a bold font.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        27,
+        41,
+        255,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.708,
+        0.123
+      ],
+      "center_normalized": [
+        0.392,
+        0.094
+      ],
+      "area_percentage": 3.76
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom with the text 'Shop now' in a clear, inviting font.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "User-generated content",
+      "description": "A small text element at the top stating 'UGC' in a simple font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, VoxelRealm, Win epic rewards.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Win epic rewards No ads in first week, VoxelRealm, Shop now, UGC",
+    "elements_text": "unknown: A central element with a light background and circular shapes, possibly representing game icons. | unknown: A rectangular element at the top with a light background, possibly containing game icons or buttons. | unknown: Another central element with a light background and circular shapes, similar to ID 1. | unknown: A central rectangular element with a light background, possibly containing game icons. | unknown: A rectangular element at the top with a light background, similar to ID 2. | unknown: A small central element with a light background, possibly a button or icon. | unknown: A small circular element at the center, possibly representing a game icon. | unknown: A small rectangular element at the top with a light background, possibly containing text or icons. | unknown: A small central element with a light background, possibly a button or icon. | unknown: A small circular element at the center, similar to ID 9. | unknown: A small rectangular element at the top with a light background, possibly containing text. | unknown: A small rectangular element at the top with a light background, similar to ID 11. | headline: A prominent headline in bold text stating 'Win epic rewards No ads in first week' with a clear and engaging font. text='Win epic rewards No ads in first week' | logo: The logo 'VoxelRealm' displayed prominently at the top in a bold font. text='VoxelRealm' | cta: A button at the bottom with the text 'Shop now' in a clear, inviting font. text='Shop now' | body_text: A small text element at the top stating 'UGC' in a simple font. text='UGC'"
+  }
+}

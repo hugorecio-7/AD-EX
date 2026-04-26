@@ -1,0 +1,194 @@
+{
+  "creative_id": "500734",
+  "asset_file": "assets/creative_500734.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a blue gradient background with a prominent logo and clear call to action.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue gradient background",
+      "description": "A smooth blue gradient background that fills the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo features the word 'VaultRun' in bold, modern typography at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.339,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.43
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Secure & simple' is prominently displayed in a large, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.282,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.531,
+        0.429
+      ],
+      "area_percentage": 9.1
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "The phrase 'No hidden fees' appears below the headline in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Start now' in a bold, inviting font.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        33,
+        205,
+        289,
+        253
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.641,
+        0.903,
+        0.791
+      ],
+      "center_normalized": [
+        0.503,
+        0.716
+      ],
+      "area_percentage": 12.0
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that may represent a decorative shape or icon.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        7,
+        25,
+        227,
+        69
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.709,
+        0.216
+      ],
+      "center_normalized": [
+        0.366,
+        0.147
+      ],
+      "area_percentage": 9.45
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element that appears at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        111,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.88
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, VaultRun, secure and simple service",
+    "layout_text": "The logo is at the top, followed by the headline, supporting text, and the CTA button at the bottom.",
+    "ocr_text": "VaultRun, Secure & simple, No hidden fees, Start now",
+    "elements_text": "logo: The logo features the word 'VaultRun' in bold, modern typography at the top of the ad. | headline: The text 'Secure & simple' is prominently displayed in a large, clear font. | body_text: The phrase 'No hidden fees' appears below the headline in a smaller font. | cta: A rounded button at the bottom with the text 'Start now' in a bold, inviting font. text='Secure & simple No hidden fees' | unknown: An unspecified element that may represent a decorative shape or icon. text='VaultRun' | unknown: Another unspecified element that appears at the bottom of the ad. text='Start now'"
+  }
+}

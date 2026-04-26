@@ -1,0 +1,314 @@
+{
+  "creative_id": "500444",
+  "asset_file": "assets/creative_500444.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of text and abstract graphic elements centered around a financial tracking service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a financial tracking app with a focus on ease and peace of mind.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple, bold logo with the text 'EarnPath' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A large rectangular area in the center featuring abstract shapes, suggesting a digital interface or app layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.28
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary graphic area",
+      "description": "Another rectangular area overlapping with the main graphic, indicating additional content or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Graphic element",
+      "description": "An oval shape in the center, representing a user interface element or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional graphic area",
+      "description": "A larger rectangular shape that appears to be a content box or feature highlight.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Icon element",
+      "description": "A smaller oval shape that could represent a button or interactive element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned towards the bottom, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "Another small circle, similar to the previous one, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Text reading 'Track every euro Built for peace of mind' in a clear, bold font at the bottom of the ad.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Start now' in a contrasting color, encouraging user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        111,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.88
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The word 'EarnPath' displayed prominently at the top, indicating the brand or service.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        112,
+        42
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.35,
+        0.131
+      ],
+      "center_normalized": [
+        0.211,
+        0.102
+      ],
+      "area_percentage": 1.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, EarnPath logo, financial tracking message, call to action.",
+    "layout_text": "The logo is at the top, the main graphic areas are centered, and the main message and CTA are at the bottom.",
+    "ocr_text": "EarnPath, Track every euro Built for peace of mind, Start now",
+    "elements_text": "logo: A simple, bold logo with the text 'EarnPath' in a modern font, positioned at the top of the ad. | main_subject: A large rectangular area in the center featuring abstract shapes, suggesting a digital interface or app layout. | main_subject: Another rectangular area overlapping with the main graphic, indicating additional content or features. | main_subject: An oval shape in the center, representing a user interface element or icon. | main_subject: A larger rectangular shape that appears to be a content box or feature highlight. | main_subject: A smaller oval shape that could represent a button or interactive element. | decorative_element: A small circle positioned towards the bottom, adding visual interest. | decorative_element: Another small circle, similar to the previous one, enhancing the design. | body_text: Text reading 'Track every euro Built for peace of mind' in a clear, bold font at the bottom of the ad. text='Track every euro Built for peace of mind' | cta: A prominent button with the text 'Start now' in a contrasting color, encouraging user interaction. text='Start now' | headline: The word 'EarnPath' displayed prominently at the top, indicating the brand or service. text='EarnPath'"
+  }
+}

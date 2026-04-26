@@ -1,0 +1,242 @@
+{
+  "creative_id": "500451",
+  "asset_file": "assets/creative_500451.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on flexible booking options for weekend escapes.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting weekend escapes with flexible booking options.",
+    "dominant_colors": [
+      "#00B2A9",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element featuring abstract shapes, possibly representing a cloud or flexible booking options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline positioned at the top, likely in a modern font, conveying the main message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element that appears to be a combination of shapes, adding visual interest to the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "Another graphic element in the center, possibly a variation of the previous shapes, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text at the bottom of the ad that promotes weekend escapes with flexible booking options, presented in a clear font.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.712
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'CloudRoute' in a simple, modern style.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent 'Order now' button at the bottom, designed to attract attention with a contrasting color.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon at the top indicating user-generated content, likely in a circular shape.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, clean and modern, flexible booking options, weekend escapes",
+    "layout_text": "The headline is at the top, followed by graphic elements in the center, and the CTA is positioned at the bottom.",
+    "ocr_text": "Escape this weekend, Flexible booking options, CloudRoute, Order now, UGC",
+    "elements_text": "unknown: A central graphic element featuring abstract shapes, possibly representing a cloud or flexible booking options. | headline: A bold headline positioned at the top, likely in a modern font, conveying the main message of the ad. | unknown: A secondary graphic element that appears to be a combination of shapes, adding visual interest to the center. | unknown: Another graphic element in the center, possibly a variation of the previous shapes, enhancing the overall design. | body_text: Text at the bottom of the ad that promotes weekend escapes with flexible booking options, presented in a clear font. text='Escape this weekend Flexible booking options' | logo: A small logo at the top left corner, featuring the brand name 'CloudRoute' in a simple, modern style. text='CloudRoute' | cta: A prominent 'Order now' button at the bottom, designed to attract attention with a contrasting color. text='Order now' | icon: A small icon at the top indicating user-generated content, likely in a circular shape. text='UGC'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500682",
+  "asset_file": "assets/creative_500682.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with abstract shapes and prominent text.",
+    "visual_style": "modern and abstract",
+    "main_message": "Promoting new music hits with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes, including an oval and a square, in lighter shades of orange, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A large rectangular shape in a lighter hue, overlapping with other shapes, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A semi-transparent overlay shape that adds visual interest, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape located towards the bottom center, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Another small circle",
+      "description": "Another small circular shape, similar to the previous one, positioned nearby to create balance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Stream the hype New hits every week', prominently displayed in the center.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "The logo 'MoonScreen' appears at the top left in a bold, modern font, contrasting against the orange background.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        46,
+        164,
+        72
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.072,
+        0.456,
+        0.113
+      ],
+      "center_normalized": [
+        0.263,
+        0.092
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A white button with the text 'Order now' at the bottom center, inviting user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small 'UGC' icon located at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and abstract, promoting new music.",
+    "layout_text": "The headline is centrally positioned, with the logo at the top left and the CTA at the bottom center.",
+    "ocr_text": "Stream the hype New hits every week, MoonScreen, Order now, UGC",
+    "elements_text": "main_subject: A combination of geometric shapes, including an oval and a square, in lighter shades of orange, positioned centrally. | unknown: A large rectangular shape in a lighter hue, overlapping with other shapes, adding depth to the design. | unknown: A semi-transparent overlay shape that adds visual interest, positioned in the center of the ad. | unknown: A small circular shape located towards the bottom center, contributing to the abstract design. | unknown: Another small circular shape, similar to the previous one, positioned nearby to create balance. | headline: Bold white text stating 'Stream the hype New hits every week', prominently displayed in the center. text='Stream the hype New hits every week' | logo: The logo 'MoonScreen' appears at the top left in a bold, modern font, contrasting against the orange background. text='MoonScreen' | cta: A white button with the text 'Order now' at the bottom center, inviting user interaction. text='Order now' | icon: A small 'UGC' icon located at the top left, indicating user-generated content. text='UGC'"
+  }
+}

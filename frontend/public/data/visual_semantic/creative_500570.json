@@ -1,0 +1,362 @@
+{
+  "creative_id": "500570",
+  "asset_file": "assets/creative_500570.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various text elements and shapes promoting an exclusive offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Get an exclusive offer tonight.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        305,
+        260
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.953,
+        0.813
+      ],
+      "center_normalized": [
+        0.502,
+        0.506
+      ],
+      "area_percentage": 55.43
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area with various shapes, likely containing promotional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        62,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.196,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.458
+      ],
+      "area_percentage": 47.37
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Promotional headline",
+      "description": "A bold text area at the top displaying the headline of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text area",
+      "description": "A rectangular area in the center containing additional descriptive text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.47,
+        0.375
+      ],
+      "area_percentage": 16.53
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button in the center encouraging users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Another rectangular area in the center with more text information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        274,
+        166
+      ],
+      "bbox_normalized": [
+        0.235,
+        0.337,
+        0.856,
+        0.52
+      ],
+      "center_normalized": [
+        0.546,
+        0.429
+      ],
+      "area_percentage": 11.4
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Secondary text",
+      "description": "A similar rectangular area to the previous one, likely containing more details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.508,
+        0.429
+      ],
+      "area_percentage": 9.99
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Various circular and rectangular shapes in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Text area",
+      "description": "A rectangular area in the center with additional text content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Small decorative shape",
+      "description": "A smaller rectangular shape in the center, likely serving a decorative purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small area that is unclear in purpose, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small area that is unclear in purpose, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Main call to action",
+      "description": "A prominent text area at the bottom urging users to get the offer.",
+      "text_content": "Exclusive tonight Get offer",
+      "bbox_xyxy": [
+        88,
+        206,
+        234,
+        299
+      ],
+      "bbox_normalized": [
+        0.275,
+        0.644,
+        0.731,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.789
+      ],
+      "area_percentage": 13.26
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo area at the top left corner representing the brand.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, exclusive offer, promotional text",
+    "layout_text": "The headline is at the top, the main content is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight, Get offer, NeonCast",
+    "elements_text": "main_subject: A central rectangular area with various shapes, likely containing promotional content. | headline: A bold text area at the top displaying the headline of the ad. | body_text: A rectangular area in the center containing additional descriptive text. | cta: A prominent button in the center encouraging users to take action. | body_text: Another rectangular area in the center with more text information. | body_text: A similar rectangular area to the previous one, likely containing more details. | decorative_element: Various circular and rectangular shapes in the center, adding visual interest. | body_text: A rectangular area in the center with additional text content. | decorative_element: A smaller rectangular shape in the center, likely serving a decorative purpose. | unknown: A small area that is unclear in purpose, possibly a decorative element. | unknown: Another small area that is unclear in purpose, possibly a decorative element. | cta: A prominent text area at the bottom urging users to get the offer. text='Exclusive tonight Get offer' | logo: A small logo area at the top left corner representing the brand. text='NeonCast'"
+  }
+}

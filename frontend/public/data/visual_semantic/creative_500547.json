@@ -1,0 +1,266 @@
+{
+  "creative_id": "500547",
+  "asset_file": "assets/creative_500547.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a central product display and clear call-to-action.",
+    "visual_style": "modern minimalist with bold accents",
+    "main_message": "Promoting a new product collection at a special price for a limited time.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.955,
+        0.755
+      ],
+      "center_normalized": [
+        0.502,
+        0.478
+      ],
+      "area_percentage": 50.21
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display",
+      "description": "A minimalist illustration of two mirrors is centered, outlined in a subtle white stroke, suggesting a stylish product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        94,
+        317,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.197,
+        0.992,
+        0.72
+      ],
+      "center_normalized": [
+        0.521,
+        0.459
+      ],
+      "area_percentage": 49.21
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text reads 'New collection drop', prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline states 'Only this weekend', providing urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A bright white price tag reading '€9.99' is positioned below the subheadline, drawing attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent, rounded button with the text 'Install now' in white, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in yellow with the word 'SALE' in bold, eye-catching text at the top right corner.",
+      "text_content": "New collection drop Only this weekend €9.99 Install now",
+      "bbox_xyxy": [
+        23,
+        308,
+        274,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.642,
+        0.856,
+        0.915
+      ],
+      "center_normalized": [
+        0.464,
+        0.778
+      ],
+      "area_percentage": 21.41
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'ZenDrop' appears in a clean, modern font at the top left corner, reinforcing brand identity.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small, white label with the text 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with bold accents, new collection, sale, call to action",
+    "layout_text": "The headline is at the top, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Only this weekend, €9.99, Install now, ZenDrop, SALE, UGC",
+    "elements_text": "main_subject: A minimalist illustration of two mirrors is centered, outlined in a subtle white stroke, suggesting a stylish product. | headline: Bold, white text reads 'New collection drop', prominently displayed at the top of the ad. | body_text: Smaller white text below the headline states 'Only this weekend', providing urgency. | price: A bright white price tag reading '€9.99' is positioned below the subheadline, drawing attention. | cta: A prominent, rounded button with the text 'Install now' in white, encouraging immediate action. | discount_badge: A small, circular badge in yellow with the word 'SALE' in bold, eye-catching text at the top right corner. text='New collection drop Only this weekend €9.99 Install now' | logo: The logo 'ZenDrop' appears in a clean, modern font at the top left corner, reinforcing brand identity. text='ZenDrop' | decorative_element: A small, white label with the text 'UGC' in the top left corner, indicating user-generated content. text='SALE' | unknown:  text='UGC'"
+  }
+}

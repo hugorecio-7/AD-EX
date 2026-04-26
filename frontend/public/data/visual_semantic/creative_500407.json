@@ -1,0 +1,242 @@
+{
+  "creative_id": "500407",
+  "asset_file": "assets/creative_500407.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with prominent text and call-to-action elements.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Promoting a new product collection with a limited-time offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A vibrant red background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        88,
+        359,
+        252
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.138,
+        0.998,
+        0.395
+      ],
+      "center_normalized": [
+        0.502,
+        0.266
+      ],
+      "area_percentage": 25.51
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CrispBox",
+      "description": "Bold, large text at the top center, prominently displaying the brand name 'CrispBox' in a striking font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        86,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.135,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.246
+      ],
+      "area_percentage": 22.07
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Product placeholder",
+      "description": "A rectangular placeholder in the center, suggesting a product image or app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        138,
+        119,
+        293
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.216,
+        0.332,
+        0.459
+      ],
+      "center_normalized": [
+        0.219,
+        0.337
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Secondary placeholder",
+      "description": "Another rectangular placeholder below the main subject, possibly for additional product details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "LE logo",
+      "description": "A small logo positioned at the top right corner, featuring the letters 'LE' in a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "New collection drop",
+      "description": "Text in the center of the ad stating 'New collection drop Only this weekend' in a clear, readable font.",
+      "text_content": "New collection drop Only this weekend",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price tag at the bottom left displaying '€9.99' in a bold font, indicating the cost of the product.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        23,
+        31,
+        296,
+        104
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.048,
+        0.822,
+        0.163
+      ],
+      "center_normalized": [
+        0.443,
+        0.105
+      ],
+      "area_percentage": 8.65
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button at the bottom center with the text 'Claim reward' in a contrasting color, inviting user action.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.376,
+        0.87
+      ],
+      "area_percentage": 4.74
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "LE",
+      "bbox_xyxy": [
+        297,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.825,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.858,
+        0.089
+      ],
+      "area_percentage": 0.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and vibrant, CrispBox, new collection drop, claim reward",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Only this weekend, CrispBox, €9.99, Claim reward, LE",
+    "elements_text": "headline: Bold, large text at the top center, prominently displaying the brand name 'CrispBox' in a striking font. | main_subject: A rectangular placeholder in the center, suggesting a product image or app screenshot. | unknown: Another rectangular placeholder below the main subject, possibly for additional product details. | logo: A small logo positioned at the top right corner, featuring the letters 'LE' in a simple design. | body_text: Text in the center of the ad stating 'New collection drop Only this weekend' in a clear, readable font. text='New collection drop Only this weekend' | price: A price tag at the bottom left displaying '€9.99' in a bold font, indicating the cost of the product. text='CrispBox' | cta: A prominent button at the bottom center with the text 'Claim reward' in a contrasting color, inviting user action. text='€9.99 Claim reward' | unknown:  text='LE'"
+  }
+}

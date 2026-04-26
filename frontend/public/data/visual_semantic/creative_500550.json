@@ -1,0 +1,266 @@
+{
+  "creative_id": "500550",
+  "asset_file": "assets/creative_500550.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and clear messaging about a discount offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a discount on products with a call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "A bold, white logo with the text 'ZenDrop' prominently displayed against a contrasting background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        27,
+        90,
+        105,
+        147
+      ],
+      "bbox_normalized": [
+        0.085,
+        0.283,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.208,
+        0.372
+      ],
+      "area_percentage": 4.33
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Large, white text stating 'Your next favorite pick' positioned centrally in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Discount information",
+      "description": "Smaller text indicating a discount of '30%' in a vibrant color, placed below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        91,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.157,
+        0.287,
+        0.322,
+        0.45
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 2.69
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Shipping information",
+      "description": "Text stating 'Free shipping over $25' in a smaller font, located beneath the discount information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button with the text 'Start now' inviting users to take action, positioned at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A rounded rectangle shape in a contrasting color that serves as a background for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional graphic",
+      "description": "An abstract graphic element that adds visual interest but does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.53,
+        0.579,
+        0.628
+      ],
+      "center_normalized": [
+        0.53,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element at the top of the ad, possibly a banner or accent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        269,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.842,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.886,
+        0.09
+      ],
+      "area_percentage": 0.72
+    },
+    {
+      "id": 9,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A solid color background that provides contrast to the text and graphic elements.",
+      "text_content": "Your next favorite pick 30%8re 25 Start now",
+      "bbox_xyxy": [
+        30,
+        206,
+        261,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.644,
+        0.816,
+        0.934
+      ],
+      "center_normalized": [
+        0.455,
+        0.789
+      ],
+      "area_percentage": 20.98
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "ZenDrop headline",
+      "description": "The prominent logo text 'ZenDrop' displayed in a large, bold font at the top of the ad.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        2,
+        11,
+        271,
+        90
+      ],
+      "bbox_normalized": [
+        0.006,
+        0.034,
+        0.847,
+        0.281
+      ],
+      "center_normalized": [
+        0.427,
+        0.158
+      ],
+      "area_percentage": 20.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, ZenDrop logo, discount offer, call to action.",
+    "layout_text": "The logo is at the top, followed by the main headline, discount information, and a call to action at the bottom.",
+    "ocr_text": "ZenDrop, Your next favorite pick, -30%, Free shipping over $25, Start now",
+    "elements_text": "logo: A bold, white logo with the text 'ZenDrop' prominently displayed against a contrasting background. | headline: Large, white text stating 'Your next favorite pick' positioned centrally in the ad. | body_text: Smaller text indicating a discount of '30%' in a vibrant color, placed below the headline. | body_text: Text stating 'Free shipping over $25' in a smaller font, located beneath the discount information. | cta: A bright button with the text 'Start now' inviting users to take action, positioned at the bottom of the ad. | decorative_element: A rounded rectangle shape in a contrasting color that serves as a background for the text elements. | unknown: An abstract graphic element that adds visual interest but does not convey specific information. | unknown: A small decorative element at the top of the ad, possibly a banner or accent. | headline: The prominent logo text 'ZenDrop' displayed in a large, bold font at the top of the ad. text='ZenDrop'"
+  }
+}

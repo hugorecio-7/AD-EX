@@ -1,0 +1,266 @@
+{
+  "creative_id": "500659",
+  "asset_file": "assets/creative_500659.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with prominent text and decorative elements.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting a new collection of bestsellers.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid red background",
+      "description": "A vibrant solid red background fills the entire canvas, creating a bold visual impact.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo features the text 'VantaStyle' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A simple rectangular shape with a light color, possibly representing a product or feature, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small circular shape in a muted color, positioned in the center, possibly indicating a product option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "Another small circular shape in a muted color, similar to the previous one, located near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A third small circular shape in a muted color, positioned in the center, complementing the other circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'New collection drop' with a subtext 'Shop bestsellers now' below it, centrally aligned.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "The text 'UGC' appears in a small font at the top left corner, indicating user-generated content.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Order now' in white, located at the bottom of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small text element labeled 'UGC' positioned at the top left corner, possibly indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, promoting new collection.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Shop bestsellers now, VantaStyle, Order now, UGC",
+    "elements_text": "logo: The logo features the text 'VantaStyle' in a modern font, positioned at the top of the ad. | unknown: A simple rectangular shape with a light color, possibly representing a product or feature, located in the center. | unknown: A small circular shape in a muted color, positioned in the center, possibly indicating a product option. | unknown: Another small circular shape in a muted color, similar to the previous one, located near the center. | unknown: A third small circular shape in a muted color, positioned in the center, complementing the other circles. | headline: Bold white text stating 'New collection drop' with a subtext 'Shop bestsellers now' below it, centrally aligned. text='New collection drop Shop bestsellers now' | body_text: The text 'UGC' appears in a small font at the top left corner, indicating user-generated content. text='VantaStyle' | cta: A prominent button with the text 'Order now' in white, located at the bottom of the ad. text='Order now' | unknown: A small text element labeled 'UGC' positioned at the top left corner, possibly indicating user-generated content. text='UGC'"
+  }
+}

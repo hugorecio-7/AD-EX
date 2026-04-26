@@ -1,0 +1,266 @@
+{
+  "creative_id": "500585",
+  "asset_file": "assets/creative_500585.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on promotional text and pricing.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a new collection with a clear call to action.",
+    "dominant_colors": [
+      "#00BFAE",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top left decorative element",
+      "description": "A small decorative element positioned at the top left, possibly a geometric shape or design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top center decorative element",
+      "description": "A medium-sized decorative element in the center top area, likely featuring a geometric or abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top right decorative element",
+      "description": "A small decorative element located at the top right, resembling a geometric shape or design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top left logo",
+      "description": "A small logo or icon positioned at the top left, possibly representing a brand or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.296
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button at the center bottom with rounded edges, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A medium-sized decorative element in the center bottom area, possibly an abstract shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text at the top of the ad stating 'LuxShelf UGC', prominently displayed.",
+      "text_content": "LuxShelf UGC",
+      "bbox_xyxy": [
+        27,
+        37,
+        291,
+        127
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.808,
+        0.198
+      ],
+      "center_normalized": [
+        0.442,
+        0.128
+      ],
+      "area_percentage": 10.31
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Body text message",
+      "description": "A clear and inviting message at the bottom stating 'New collection drop Shop bestsellers now'.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent price tag at the bottom left showing '€19.99', designed to attract attention.",
+      "text_content": "€19.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, LuxShelf UGC, new collection drop.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "LuxShelf UGC, New collection drop Shop bestsellers now, €19.99 Book now",
+    "elements_text": "unknown: A small decorative element positioned at the top left, possibly a geometric shape or design. | unknown: A medium-sized decorative element in the center top area, likely featuring a geometric or abstract design. | unknown: A small decorative element located at the top right, resembling a geometric shape or design. | unknown: A small logo or icon positioned at the top left, possibly representing a brand or service. | cta: A small button at the center bottom with rounded edges, inviting users to take action. | unknown: A medium-sized decorative element in the center bottom area, possibly an abstract shape. | headline: Bold text at the top of the ad stating 'LuxShelf UGC', prominently displayed. text='LuxShelf UGC' | body_text: A clear and inviting message at the bottom stating 'New collection drop Shop bestsellers now'. text='New collection drop Shop bestsellers now' | price: A prominent price tag at the bottom left showing '€19.99', designed to attract attention. text='€19.99 Book now'"
+  }
+}

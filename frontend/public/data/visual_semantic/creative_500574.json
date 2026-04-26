@@ -1,0 +1,218 @@
+{
+  "creative_id": "500574",
+  "asset_file": "assets/creative_500574.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear call to action and engaging text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a binge-watching service with a flexible cancellation policy.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        125,
+        345,
+        461
+      ],
+      "bbox_normalized": [
+        0.045,
+        0.195,
+        0.958,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.458
+      ],
+      "area_percentage": 47.98
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo features bold, modern typography in white against the purple background, positioned prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.31
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes, including a circle and a square, rendered in a lighter shade of purple, adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, light purple circle is placed near the center, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Binge starts now Cancel anytime' is displayed in bold, white font, centrally located for emphasis.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        407,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 7.53
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "UGC label",
+      "description": "The text 'UGC' appears in a small, white font at the top left corner, indicating user-generated content.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom reads 'Get offer' in bold, white text, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "The text 'UGC' is small and positioned at the top left, possibly indicating a feature or category.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, key elements include a logo, main message, and call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, NeonCast, Get offer, UGC",
+    "elements_text": "logo: The logo features bold, modern typography in white against the purple background, positioned prominently at the top. | unknown: A combination of geometric shapes, including a circle and a square, rendered in a lighter shade of purple, adds visual interest. | decorative_element: A small, light purple circle is placed near the center, serving as a decorative element. | body_text: The text 'Binge starts now Cancel anytime' is displayed in bold, white font, centrally located for emphasis. text='Binge starts now Cancel anytime' | headline: The text 'UGC' appears in a small, white font at the top left corner, indicating user-generated content. text='NeonCast' | cta: A rounded button at the bottom reads 'Get offer' in bold, white text, inviting user interaction. text='Get offer' | unknown: The text 'UGC' is small and positioned at the top left, possibly indicating a feature or category. text='UGC'"
+  }
+}

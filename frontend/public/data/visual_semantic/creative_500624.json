@@ -1,0 +1,290 @@
+{
+  "creative_id": "500624",
+  "asset_file": "assets/creative_500624.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and clear messaging.",
+    "visual_style": "modern minimalist with abstract shapes",
+    "main_message": "Encouraging users to save confidently with no hidden fees.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "reassuring"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A smooth, solid green background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        92,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.145,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.501,
+        0.3
+      ],
+      "area_percentage": 30.89
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "Various abstract shapes in lighter shades of green are scattered across the top, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.143,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.25
+      ],
+      "area_percentage": 21.43
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "The logo features the word 'SwiftStack' in bold, modern typography, prominently displayed in white against the green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text reads 'Save with confidence' in a clean, sans-serif font, centered and in white for high visibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Additional message text",
+      "description": "The phrase 'No hidden fees' appears below the main message in a smaller font, also in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        330
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.774,
+        0.517
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, solid circle in a lighter green shade is positioned towards the top left, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button at the bottom with rounded edges, featuring the text 'Claim reward' in bold, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A rectangular shape in a lighter green shade is placed in the center, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The word 'SwiftStack' is prominently displayed at the top in a large, bold font, ensuring it captures attention.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        37,
+        351,
+        97
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.975,
+        0.152
+      ],
+      "center_normalized": [
+        0.522,
+        0.105
+      ],
+      "area_percentage": 8.49
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Secondary message text",
+      "description": "The text 'Save with confidence No hidden fees' is centered at the bottom, providing reassurance to the viewer.",
+      "text_content": "Save with confidence No hidden fees",
+      "bbox_xyxy": [
+        85,
+        409,
+        277,
+        497
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.639,
+        0.769,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Claim reward text",
+      "description": "The text 'Claim reward' is displayed in a smaller font, encouraging user action at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern minimalist with abstract shapes, SwiftStack logo, save with confidence message",
+    "layout_text": "The logo is at the top, followed by the main message and additional text in the center, with the CTA button at the bottom.",
+    "ocr_text": "SwiftStack, Save with confidence, No hidden fees, Claim reward",
+    "elements_text": "decorative_element: Various abstract shapes in lighter shades of green are scattered across the top, adding visual interest. | logo: The logo features the word 'SwiftStack' in bold, modern typography, prominently displayed in white against the green background. | body_text: The text reads 'Save with confidence' in a clean, sans-serif font, centered and in white for high visibility. | body_text: The phrase 'No hidden fees' appears below the main message in a smaller font, also in white. | decorative_element: A small, solid circle in a lighter green shade is positioned towards the top left, adding a decorative touch. | cta: A rectangular button at the bottom with rounded edges, featuring the text 'Claim reward' in bold, inviting font. | unknown: A rectangular shape in a lighter green shade is placed in the center, contributing to the abstract design. | headline: The word 'SwiftStack' is prominently displayed at the top in a large, bold font, ensuring it captures attention. text='SwiftStack' | body_text: The text 'Save with confidence No hidden fees' is centered at the bottom, providing reassurance to the viewer. text='Save with confidence No hidden fees' | cta: The text 'Claim reward' is displayed in a smaller font, encouraging user action at the bottom of the ad. text='Claim reward'"
+  }
+}

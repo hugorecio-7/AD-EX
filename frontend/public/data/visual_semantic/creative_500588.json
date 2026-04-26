@@ -1,0 +1,146 @@
+{
+  "creative_id": "500588",
+  "asset_file": "assets/creative_500588.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a warm-toned background with a clear focus on the headline and call to action.",
+    "visual_style": "warm and modern",
+    "main_message": "Promoting a simple and secure signup for a financial service.",
+    "dominant_colors": [
+      "#FFA500",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "A soft, abstract background featuring overlapping geometric shapes in warm tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'Secure & simple Fast signup instant card' prominently displayed in the center.",
+      "text_content": "Secure & simple Fast signup instant card",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 8.33
+    },
+    {
+      "id": 3,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text '€9.99 Claim reward' in a contrasting color.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        23,
+        399,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.381,
+        0.873
+      ],
+      "area_percentage": 5.16
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'ClearLedger' in a clean, modern font positioned at the top of the ad.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        23,
+        175,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.048,
+        0.547,
+        0.125
+      ],
+      "center_normalized": [
+        0.308,
+        0.086
+      ],
+      "area_percentage": 3.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, warm and modern, headline and call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "ClearLedger, Secure & simple Fast signup instant card, €9.99 Claim reward",
+    "elements_text": "decorative_element: A soft, abstract background featuring overlapping geometric shapes in warm tones. | headline: Bold, white text stating 'Secure & simple Fast signup instant card' prominently displayed in the center. text='Secure & simple Fast signup instant card' | cta: A rounded button at the bottom with the text '€9.99 Claim reward' in a contrasting color. text='€9.99 Claim reward' | logo: The brand name 'ClearLedger' in a clean, modern font positioned at the top of the ad. text='ClearLedger'"
+  }
+}

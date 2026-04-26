@@ -1,0 +1,218 @@
+{
+  "creative_id": "500677",
+  "asset_file": "assets/creative_500677.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a central focus on food delivery services.",
+    "visual_style": "bright and minimalistic",
+    "main_message": "Promoting late-night food delivery with a discount offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A bright yellow background fills the entire canvas, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Food delivery box",
+      "description": "A stylized food delivery box with two compartments, depicted in a minimalistic design with a white outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon, possibly representing a delivery or food item, placed to the left of the food delivery box.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular area that is not clearly defined, possibly a decorative element or placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Your cravings, delivered' is prominently displayed in the center of the ad.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        54,
+        403,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.63,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.705
+      ],
+      "area_percentage": 10.65
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' appears in a modern font at the top left corner, colored in black against the yellow background.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Order now' in bold, black font, located at the bottom center of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '-30%' in bold, black text, positioned at the bottom left of the ad.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        24,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.158,
+        0.85
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and minimalistic, food delivery, discount offer",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, SnapMeal, Order now, -30%",
+    "elements_text": "product: A stylized food delivery box with two compartments, depicted in a minimalistic design with a white outline. | icon: A small circular icon, possibly representing a delivery or food item, placed to the left of the food delivery box. | unknown: A small rectangular area that is not clearly defined, possibly a decorative element or placeholder. | headline: Bold, black text stating 'Your cravings, delivered' is prominently displayed in the center of the ad. text='Your cravings, delivered Late-night deals available' | logo: The logo 'SnapMeal' appears in a modern font at the top left corner, colored in black against the yellow background. text='SnapMeal' | cta: A prominent button with the text 'Order now' in bold, black font, located at the bottom center of the ad. text='Order now' | discount_badge: A small badge displaying '-30%' in bold, black text, positioned at the bottom left of the ad. text='-30%'"
+  }
+}

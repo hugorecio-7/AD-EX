@@ -1,0 +1,338 @@
+{
+  "creative_id": "500634",
+  "asset_file": "assets/creative_500634.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text elements promoting travel offers.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel destinations with special fares.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A vibrant orange background with abstract shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.308
+      ],
+      "area_percentage": 29.19
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NomadLaye logo",
+      "description": "Bold, large text displaying 'NomadLaye' in a prominent position at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dream text",
+      "description": "Stylized text reading 'Dream' in a large, eye-catching font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Destinations await",
+      "description": "Text stating 'destinations await' in a clear, readable font, positioned below the 'Dream' text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.311,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.415
+      ],
+      "area_percentage": 12.24
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Text that reads 'Special fares today' in a smaller font, placed beneath the main body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price €29.99",
+      "description": "A prominent price tag displaying '€29.99' in a bold font, located near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A clear call-to-action button labeled 'Book now' in a contrasting color, positioned at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Abstract shape",
+      "description": "A small abstract shape in the top left corner, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small, less defined shape located towards the bottom of the ad, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A rectangular shape in the center of the ad, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Text that conveys the main message of the ad, located at the bottom and emphasizing the offer.",
+      "text_content": "destinations await Special fares today €29.99 Book now",
+      "bbox_xyxy": [
+        24,
+        443,
+        289,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.803,
+        0.908
+      ],
+      "center_normalized": [
+        0.435,
+        0.8
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A decorative element at the top of the ad, enhancing the visual appeal.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        22,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.101
+      ],
+      "area_percentage": 11.59
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Dream text",
+      "description": "A smaller text element that reiterates the theme of dreaming, positioned centrally.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, key elements include bold text and a call-to-action.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "destinations await, Special fares today €29.99, Book now, NomadLaye, Dream",
+    "elements_text": "headline: Bold, large text displaying 'NomadLaye' in a prominent position at the top of the ad. | body_text: Stylized text reading 'Dream' in a large, eye-catching font, centered in the ad. | body_text: Text stating 'destinations await' in a clear, readable font, positioned below the 'Dream' text. | body_text: Text that reads 'Special fares today' in a smaller font, placed beneath the main body text. | price: A prominent price tag displaying '€29.99' in a bold font, located near the bottom of the ad. | cta: A clear call-to-action button labeled 'Book now' in a contrasting color, positioned at the bottom of the ad. | decorative_element: A small abstract shape in the top left corner, adding visual interest to the background. | unknown: A small, less defined shape located towards the bottom of the ad, contributing to the overall design. | unknown: A rectangular shape in the center of the ad, serving as a decorative element. | body_text: Text that conveys the main message of the ad, located at the bottom and emphasizing the offer. text='destinations await Special fares today €29.99 Book now' | unknown: A decorative element at the top of the ad, enhancing the visual appeal. text='NomadLaye' | unknown: A smaller text element that reiterates the theme of dreaming, positioned centrally. text='Dream'"
+  }
+}

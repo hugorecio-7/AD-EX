@@ -1,0 +1,194 @@
+{
+  "creative_id": "500413",
+  "asset_file": "assets/creative_500413.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a light gray background with geometric shapes and prominent text.",
+    "visual_style": "minimalist with geometric elements",
+    "main_message": "Promoting financial clarity and peace of mind.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A soft light gray background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.83
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a subtle outline style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        115,
+        159,
+        225
+      ],
+      "bbox_normalized": [
+        0.167,
+        0.24,
+        0.498,
+        0.471
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Large rectangle",
+      "description": "A large rectangular shape with a faint outline, positioned centrally in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.81
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle located towards the bottom center of the ad, outlined but not filled.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        261,
+        71,
+        295
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.545,
+        0.223,
+        0.615
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Your money, clearer Built for peace of mind' centered in the lower part of the ad.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        61,
+        304,
+        258,
+        387
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.633,
+        0.806,
+        0.806
+      ],
+      "center_normalized": [
+        0.498,
+        0.72
+      ],
+      "area_percentage": 10.65
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "The logo 'SwiftStack' displayed in a bold font at the top left corner of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        22,
+        30,
+        156,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.487,
+        0.117
+      ],
+      "center_normalized": [
+        0.278,
+        0.09
+      ],
+      "area_percentage": 2.27
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded black button with white text saying 'Shop now' located at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with geometric elements, SwiftStack logo, call to action.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, SwiftStack, Shop now",
+    "elements_text": "decorative_element: Two overlapping geometric shapes, one circular and one rectangular, in a subtle outline style. | decorative_element: A large rectangular shape with a faint outline, positioned centrally in the ad. | decorative_element: A small circle located towards the bottom center of the ad, outlined but not filled. | body_text: Bold, black text stating 'Your money, clearer Built for peace of mind' centered in the lower part of the ad. text='Your money, clearer Built for peace of mind' | logo: The logo 'SwiftStack' displayed in a bold font at the top left corner of the ad. text='SwiftStack' | cta: A rounded black button with white text saying 'Shop now' located at the bottom of the ad. text='Shop now'"
+  }
+}

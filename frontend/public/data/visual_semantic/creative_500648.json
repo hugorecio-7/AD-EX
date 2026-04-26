@@ -1,0 +1,386 @@
+{
+  "creative_id": "500648",
+  "asset_file": "assets/creative_500648.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with game interface elements and promotional text.",
+    "visual_style": "playful and modern",
+    "main_message": "Encouraging players to join and earn rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green abstract background",
+      "description": "A vibrant green background with abstract shapes and patterns creating a playful atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A stylized logo featuring the text 'PixelForge' in a bold, modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Game interface elements",
+      "description": "A series of four circular game interface elements arranged in a grid, with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "A single circular game interface element with a light outline, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "Another circular game interface element with a light outline, positioned next to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "A small circular game interface element with a light outline, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.295
+      ],
+      "center_normalized": [
+        0.068,
+        0.238
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Arrow icon",
+      "description": "A right-facing arrow icon, indicating navigation, positioned at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "A small circular game interface element with a light outline, positioned at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "A small circular game interface element with a light outline, positioned near the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "Another small circular game interface element with a light outline, positioned near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "A small circular game interface element with a light outline, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Game interface element",
+      "description": "Another small circular game interface element with a light outline, positioned at the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Beat your rivals Free rewards for new players' in a large, eye-catching font.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        465
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.727
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A stylized logo featuring the text 'PixelForge' in a bold, modern font, positioned at the top left.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button with the text 'Learn more' in a clear, inviting font, positioned at the bottom.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and modern, PixelForge logo, promotional text.",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Beat your rivals, Free rewards for new players, PixelForge, Learn more",
+    "elements_text": "logo: A stylized logo featuring the text 'PixelForge' in a bold, modern font, positioned at the top left. | unknown: A series of four circular game interface elements arranged in a grid, with a light outline. | unknown: A single circular game interface element with a light outline, positioned in the center. | unknown: Another circular game interface element with a light outline, positioned next to the previous one. | unknown: A small circular game interface element with a light outline, positioned at the top left. | unknown: A right-facing arrow icon, indicating navigation, positioned at the top right. | unknown: A small circular game interface element with a light outline, positioned at the bottom center. | unknown: A small circular game interface element with a light outline, positioned near the top center. | unknown: Another small circular game interface element with a light outline, positioned near the center. | unknown: A small circular game interface element with a light outline, positioned at the top left. | unknown: Another small circular game interface element with a light outline, positioned at the center. | headline: Bold text stating 'Beat your rivals Free rewards for new players' in a large, eye-catching font. text='Beat your rivals Free rewards for new players' | logo: A stylized logo featuring the text 'PixelForge' in a bold, modern font, positioned at the top left. text='PixelForge' | cta: A prominent button with the text 'Learn more' in a clear, inviting font, positioned at the bottom. text='Learn more'"
+  }
+}

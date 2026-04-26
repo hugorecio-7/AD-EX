@@ -1,0 +1,290 @@
+{
+  "creative_id": "500383",
+  "asset_file": "assets/creative_500383.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various shapes and text elements promoting a travel booking service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting flexible travel booking options at an attractive price.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, creating a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Large rectangular shape",
+      "description": "A large rectangular shape in the center, possibly representing a product or app screenshot, with rounded corners.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.398
+      ],
+      "area_percentage": 14.42
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Medium oval shape",
+      "description": "A medium-sized oval shape in the center, adding visual interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Large square shape",
+      "description": "A large square shape positioned centrally, contributing to the overall design aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small icon located at the top left, possibly representing a feature or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small shape located in the center, adding complexity to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small rectangular shape",
+      "description": "A small rectangular shape positioned centrally, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "WayPoint UGC",
+      "description": "Bold text at the top reading 'WayPoint UGC', prominently displayed against the blue background.",
+      "text_content": "WayPoint UGC",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        127
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.198
+      ],
+      "center_normalized": [
+        0.475,
+        0.127
+      ],
+      "area_percentage": 11.5
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Trip booking message",
+      "description": "Text at the bottom stating 'Book your next trip Flexible booking options', clearly conveying the ad's purpose.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        502
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 10.43
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button at the bottom labeled 'Get offer', inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        228,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.633,
+        0.909
+      ],
+      "center_normalized": [
+        0.5,
+        0.891
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying the price '€9.99' located at the bottom, indicating the cost of the offer.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, WayPoint UGC, flexible booking options, €9.99",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "WayPoint UGC, Book your next trip Flexible booking options, Get offer, €9.99",
+    "elements_text": "main_subject: A large rectangular shape in the center, possibly representing a product or app screenshot, with rounded corners. | decorative_element: A medium-sized oval shape in the center, adding visual interest to the composition. | decorative_element: A large square shape positioned centrally, contributing to the overall design aesthetic. | icon: A small icon located at the top left, possibly representing a feature or service. | unknown: A small shape located in the center, adding complexity to the design. | unknown: A small rectangular shape positioned centrally, serving as a decorative element. | headline: Bold text at the top reading 'WayPoint UGC', prominently displayed against the blue background. text='WayPoint UGC' | body_text: Text at the bottom stating 'Book your next trip Flexible booking options', clearly conveying the ad's purpose. text='Book your next trip Flexible booking options' | cta: A prominent button at the bottom labeled 'Get offer', inviting user interaction. text='Get offer' | price: Text displaying the price '€9.99' located at the bottom, indicating the cost of the offer. text='€9.99'"
+  }
+}

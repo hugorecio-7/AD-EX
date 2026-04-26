@@ -1,0 +1,290 @@
+{
+  "creative_id": "500426",
+  "asset_file": "assets/creative_500426.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design with abstract shapes and clear messaging.",
+    "visual_style": "bold and colorful",
+    "main_message": "Engage with trending content and claim rewards.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "central graphic element",
+      "description": "A large central graphic element with a soft, rounded shape in a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.186,
+        0.277,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "overlay graphic element",
+      "description": "A slightly smaller overlay graphic element with a rectangular shape, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.52
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "background shape",
+      "description": "An abstract background shape with a soft texture, providing depth to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "central graphic element",
+      "description": "Another central graphic element, larger and more prominent, with a smooth finish.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "top decorative element",
+      "description": "A small circular decorative element located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "lower graphic element",
+      "description": "A small graphic element positioned towards the bottom center, with a rounded shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "small graphic element",
+      "description": "A small rectangular graphic element located centrally, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "StarVault UGC",
+      "description": "A bold, prominent headline text in a large font, colored vibrantly against the background.",
+      "text_content": "StarVault UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        312,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.867,
+        0.198
+      ],
+      "center_normalized": [
+        0.469,
+        0.13
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "trending message",
+      "description": "A clear body text message in a medium font, conveying a trending theme.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Claim reward",
+      "description": "A call-to-action button with a bold font, inviting users to claim a reward.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and colorful, StarVault UGC, trending message, Claim reward",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "StarVault UGC, Watch what's trending, Cancel anytime, Claim reward",
+    "elements_text": "unknown: A large central graphic element with a soft, rounded shape in a muted color. | unknown: A slightly smaller overlay graphic element with a rectangular shape, positioned centrally. | unknown: An abstract background shape with a soft texture, providing depth to the ad. | unknown: Another central graphic element, larger and more prominent, with a smooth finish. | unknown: A small circular decorative element located at the top of the ad. | unknown: A small graphic element positioned towards the bottom center, with a rounded shape. | unknown: A small rectangular graphic element located centrally, adding visual interest. | headline: A bold, prominent headline text in a large font, colored vibrantly against the background. text='StarVault UGC' | body_text: A clear body text message in a medium font, conveying a trending theme. text='Watch what's trending Cancel anytime' | cta: A call-to-action button with a bold font, inviting users to claim a reward. text='Claim reward'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500606",
+  "asset_file": "assets/creative_500606.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to install the BingeLayer app for new content.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        260
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.199,
+        0.953,
+        0.813
+      ],
+      "center_normalized": [
+        0.501,
+        0.506
+      ],
+      "area_percentage": 55.49
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area with a lighter shade of purple, featuring additional elements layered on top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.459
+      ],
+      "area_percentage": 46.97
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'A new season drops' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Smaller white text below the headline reads 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.22
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Install now' in white, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A small logo in the top left corner, featuring the text 'BingeLayer' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.508,
+        0.429
+      ],
+      "area_percentage": 9.99
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Two overlapping geometric shapes in the main content area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "An unspecified element that may serve a decorative or functional purpose within the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.24,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "Another unspecified element that contributes to the overall design but lacks clear identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small, unspecified element that may enhance the visual composition of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small element",
+      "description": "A very small element located at the bottom center, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        230
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.656,
+        0.235,
+        0.719
+      ],
+      "center_normalized": [
+        0.204,
+        0.688
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "Text at the bottom of the ad reiterating the main message with a call to action.",
+      "text_content": "new season drops Ne Install now",
+      "bbox_xyxy": [
+        81,
+        208,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.65,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.539,
+        0.792
+      ],
+      "area_percentage": 16.26
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo appears at the top left, reinforcing brand identity.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BingeLayer logo, call to action.",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom center.",
+    "ocr_text": "BingeLayer, A new season drops, New hits every week, Install now",
+    "elements_text": "main_subject: A central rectangular area with a lighter shade of purple, featuring additional elements layered on top. | headline: Bold white text stating 'A new season drops' is prominently displayed at the top of the ad. | body_text: Smaller white text below the headline reads 'New hits every week', providing additional context. | cta: A rectangular button with the text 'Install now' in white, encouraging user interaction. | logo: A small logo in the top left corner, featuring the text 'BingeLayer' in a simple font. | decorative_element: Two overlapping geometric shapes in the main content area, adding visual interest. | unknown: An unspecified element that may serve a decorative or functional purpose within the layout. | unknown: Another unspecified element that contributes to the overall design but lacks clear identification. | unknown: A small, unspecified element that may enhance the visual composition of the ad. | unknown: A very small element located at the bottom center, possibly a decorative feature. | body_text: Text at the bottom of the ad reiterating the main message with a call to action. text='new season drops Ne Install now' | logo: The logo appears at the top left, reinforcing brand identity. text='BingeLayer'"
+  }
+}

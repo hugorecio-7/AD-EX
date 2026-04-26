@@ -1,0 +1,218 @@
+{
+  "creative_id": "500499",
+  "asset_file": "assets/creative_500499.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with bold text and abstract shapes.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting an exclusive offer for FluxStream with a clear call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, creating a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        576
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.901
+      ],
+      "center_normalized": [
+        0.501,
+        0.551
+      ],
+      "area_percentage": 63.09
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, are centered in a lighter shade of red.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "An abstract overlay shape in a lighter color, positioned centrally, adds depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional overlay",
+      "description": "Another abstract shape, slightly darker, positioned centrally to enhance visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Exclusive offer text",
+      "description": "Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime' is prominently displayed.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "The logo 'FluxStream' appears at the top in a bold font, contrasting against the red background.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        27,
+        41,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.386,
+        0.094
+      ],
+      "area_percentage": 3.69
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent white button at the bottom with the text 'Install now' encourages user action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small circular icon labeled 'UGC' is positioned at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, exclusive offer, FluxStream.",
+    "layout_text": "The logo is at the top, followed by the main subject in the center, with body text below and the CTA at the bottom.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, FluxStream, Install now, UGC",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one square, are centered in a lighter shade of red. | unknown: An abstract overlay shape in a lighter color, positioned centrally, adds depth to the design. | unknown: Another abstract shape, slightly darker, positioned centrally to enhance visual interest. | body_text: Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime' is prominently displayed. text='Exclusive tonight Cancel anytime' | logo: The logo 'FluxStream' appears at the top in a bold font, contrasting against the red background. text='FluxStream' | cta: A prominent white button at the bottom with the text 'Install now' encourages user action. text='Install now' | icon: A small circular icon labeled 'UGC' is positioned at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

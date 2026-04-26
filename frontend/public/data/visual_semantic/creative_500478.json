@@ -1,0 +1,242 @@
+{
+  "creative_id": "500478",
+  "asset_file": "assets/creative_500478.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a focus on a product display and promotional text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a new collection sale with a discount.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A minimalist representation of two product items with a light purple hue, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A circular icon in the bottom left corner, possibly indicating a feature or detail related to the product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular area that may serve as a visual accent, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "New collection drop",
+      "description": "Bold white text stating 'New collection drop' with a modern font, centrally positioned.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "ThreadMark SALE",
+      "description": "Large, bold text reading 'ThreadMark SALE' in white with a yellow highlight, located at the top.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        25,
+        39,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.481,
+        0.091
+      ],
+      "area_percentage": 5.01
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent white button with the text 'Order now' in bold, located at the bottom center.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small, bold text indicating '30%' in white, positioned at the bottom left.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, located at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, new collection drop, ThreadMark SALE, Order now",
+    "layout_text": "The headline is at the top, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Shop bestsellers now, ThreadMark SALE, Order now, 30%, UGC",
+    "elements_text": "product: A minimalist representation of two product items with a light purple hue, positioned centrally. | unknown: A circular icon in the bottom left corner, possibly indicating a feature or detail related to the product. | unknown: A small rectangular area that may serve as a visual accent, located towards the bottom center. | headline: Bold white text stating 'New collection drop' with a modern font, centrally positioned. text='New collection drop Shop bestsellers now' | headline: Large, bold text reading 'ThreadMark SALE' in white with a yellow highlight, located at the top. text='ThreadMark SALE' | cta: A prominent white button with the text 'Order now' in bold, located at the bottom center. text='Order now' | discount_badge: A small, bold text indicating '30%' in white, positioned at the bottom left. text='30%' | social_proof: A small label with the text 'UGC' in white, located at the top left corner. text='UGC'"
+  }
+}

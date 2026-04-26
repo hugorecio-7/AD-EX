@@ -1,0 +1,146 @@
+{
+  "creative_id": "500586",
+  "asset_file": "assets/creative_500586.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, headline, body text, and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 30% discount on products from LuxShelf.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A prominent logo featuring the word 'LuxShelf' in bold, modern typography, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.284,
+        0.329,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Discount headline",
+      "description": "A short, eye-catching headline at the top, displaying the text 'Your next favorite pick' in a large, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        272,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.851,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.891,
+        0.09
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Discount offer",
+      "description": "A larger text area at the bottom of the ad, featuring the message '-30% Order now' in a bold, attention-grabbing style.",
+      "text_content": "Your next favorite pick -30% Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call to action button labeled 'Order now' in a contrasting color, positioned prominently at the bottom of the ad.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        6,
+        20,
+        275,
+        84
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.062,
+        0.859,
+        0.263
+      ],
+      "center_normalized": [
+        0.439,
+        0.163
+      ],
+      "area_percentage": 16.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, LuxShelf logo, discount offer, call to action",
+    "layout_text": "The logo is at the top, followed by the headline, body text in the center, and the call to action at the bottom.",
+    "ocr_text": "LuxShelf, Your next favorite pick, -30%, Order now",
+    "elements_text": "logo: A prominent logo featuring the word 'LuxShelf' in bold, modern typography, positioned at the top of the ad. | headline: A short, eye-catching headline at the top, displaying the text 'Your next favorite pick' in a large, clear font. | body_text: A larger text area at the bottom of the ad, featuring the message '-30% Order now' in a bold, attention-grabbing style. text='Your next favorite pick -30% Order now' | cta: A clear call to action button labeled 'Order now' in a contrasting color, positioned prominently at the bottom of the ad. text='LuxShelf'"
+  }
+}

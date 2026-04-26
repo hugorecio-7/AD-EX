@@ -1,0 +1,242 @@
+{
+  "creative_id": "500463",
+  "asset_file": "assets/creative_500463.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and clear text elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting trending content with a call to action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and several circles in a lighter shade, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlay shapes",
+      "description": "A slightly transparent square overlaying the geometric shapes, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Small text",
+      "description": "A small text box with minimal content, positioned towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Additional small text",
+      "description": "Another small text element, positioned slightly above the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold white text stating 'Watch what's trending' prominently displayed in the center.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        64,
+        408,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.637,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "A small logo with the text 'MoonScreen' in a modern font, located at the top left.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Order now' in white, located at the bottom center.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, trending content, call to action.",
+    "layout_text": "The headline is centrally positioned, with the main subject shapes behind it, and the CTA at the bottom.",
+    "ocr_text": "Watch what's trending, New hits every week, MoonScreen, Order now, UGC",
+    "elements_text": "main_subject: A large square and several circles in a lighter shade, positioned centrally. | main_subject: A slightly transparent square overlaying the geometric shapes, adding depth. | body_text: A small text box with minimal content, positioned towards the bottom center. | body_text: Another small text element, positioned slightly above the previous one. | headline: Bold white text stating 'Watch what's trending' prominently displayed in the center. text='Watch what's trending New hits every week' | logo: A small logo with the text 'MoonScreen' in a modern font, located at the top left. text='MoonScreen' | cta: A prominent button with the text 'Order now' in white, located at the bottom center. text='Order now' | icon: A small icon labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

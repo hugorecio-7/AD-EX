@@ -1,0 +1,242 @@
+{
+  "creative_id": "500671",
+  "asset_file": "assets/creative_500671.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel destinations with flexible booking options.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.502,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text that reads 'Dream destinations await' positioned at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller white text below the headline that states 'Flexible booking options'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent €9.99 price tag displayed in white, centered below the body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright yellow button with the text 'Order now' that stands out at the bottom of the ad.",
+      "text_content": "destinations await Flexible booking options €9.99 Order now",
+      "bbox_xyxy": [
+        24,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.8
+      ],
+      "area_percentage": 15.81
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A small logo in the top left corner that reads 'CloudRoute' in a modern font.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in the top right corner with the word 'SALE' in bold text.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        26,
+        45,
+        153,
+        69
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.07,
+        0.425,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.089
+      ],
+      "area_percentage": 1.32
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag in the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel destinations, flexible booking options",
+    "layout_text": "The headline is centered, with body text below it, followed by the price tag, and the CTA button at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, €9.99, Order now, CloudRoute, SALE, UGC",
+    "elements_text": "headline: Bold, white text that reads 'Dream destinations await' positioned at the center of the ad. | body_text: Smaller white text below the headline that states 'Flexible booking options'. | price: A prominent €9.99 price tag displayed in white, centered below the body text. | cta: A bright yellow button with the text 'Order now' that stands out at the bottom of the ad. text='destinations await Flexible booking options €9.99 Order now' | logo: A small logo in the top left corner that reads 'CloudRoute' in a modern font. text='Dream' | discount_badge: A small circular badge in the top right corner with the word 'SALE' in bold text. text='CloudRoute' | social_proof: A small tag in the top left corner labeled 'UGC', indicating user-generated content. text='SALE' | unknown:  text='UGC'"
+  }
+}

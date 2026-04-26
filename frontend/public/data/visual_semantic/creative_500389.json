@@ -1,0 +1,218 @@
+{
+  "creative_id": "500389",
+  "asset_file": "assets/creative_500389.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear focus on the app interface and call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "QuickFork offers quick dinner solutions with late-night deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A simplified app interface with two rectangular windows and two circular buttons, all in a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' displayed in a bold, modern font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "The text 'Dinner in minutes' is prominently displayed in a large, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.568,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.602
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late-night deals",
+      "description": "The text 'Late-night deals available' appears in a smaller font beneath the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A call-to-action button labeled 'Start now' in a bold font, positioned at the bottom of the ad.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        61,
+        308,
+        259,
+        389
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.642,
+        0.809,
+        0.81
+      ],
+      "center_normalized": [
+        0.5,
+        0.726
+      ],
+      "area_percentage": 10.44
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "QuickFork headline",
+      "description": "The headline 'QuickFork' is displayed at the top in a prominent, eye-catching font.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button at the bottom that encourages users to take action.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, QuickFork, dinner in minutes, late-night deals",
+    "layout_text": "The headline is at the top, the app interface is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, QuickFork, Start now",
+    "elements_text": "app_screenshot: A simplified app interface with two rectangular windows and two circular buttons, all in a lighter shade of purple. | logo: The logo 'QuickFork' displayed in a bold, modern font at the top of the ad. | body_text: The text 'Dinner in minutes' is prominently displayed in a large, white font. | body_text: The text 'Late-night deals available' appears in a smaller font beneath the main message. | cta: A call-to-action button labeled 'Start now' in a bold font, positioned at the bottom of the ad. text='Dinner in minutes Late-night deals available' | headline: The headline 'QuickFork' is displayed at the top in a prominent, eye-catching font. text='QuickFork' | cta: A clear and inviting button at the bottom that encourages users to take action. text='Start now'"
+  }
+}

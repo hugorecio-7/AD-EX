@@ -1,0 +1,338 @@
+{
+  "creative_id": "500397",
+  "asset_file": "assets/creative_500397.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright blue background with engaging text and gameplay elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to engage with the game and shop for bonuses.",
+    "dominant_colors": [
+      "blue",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "IronQuest BONUS",
+      "description": "A bold, uppercase text in a bright color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 2,
+      "role": "cta",
+      "label": "Shop now",
+      "description": "A clear, inviting button with a contrasting color, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Level up today",
+      "description": "A large, friendly font that conveys excitement, positioned centrally in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Play with friends tonight",
+      "description": "A smaller, inviting text that complements the main message, located just below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Gameplay preview",
+      "description": "A grid layout showing four game icons, suggesting gameplay elements, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Icon placeholder",
+      "description": "A small circular icon placeholder, visually representing a game element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Icon placeholder",
+      "description": "Another small circular icon placeholder, visually representing a game element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Icon placeholder",
+      "description": "A small circular icon placeholder, visually representing a game element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Icon placeholder",
+      "description": "Another small circular icon placeholder, visually representing a game element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Background element",
+      "description": "A simple, solid color background that enhances the visibility of the text and icons.",
+      "text_content": "Level up today Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.681
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "IronQuest BONUS",
+      "bbox_xyxy": [
+        25,
+        39,
+        331,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.919,
+        0.123
+      ],
+      "center_normalized": [
+        0.494,
+        0.092
+      ],
+      "area_percentage": 5.31
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, IronQuest BONUS, Shop now",
+    "layout_text": "The headline is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "IronQuest BONUS, Level up today, Play with friends tonight, Shop now",
+    "elements_text": "headline: A bold, uppercase text in a bright color, prominently displayed at the top of the ad. | cta: A clear, inviting button with a contrasting color, located at the bottom of the ad. | body_text: A large, friendly font that conveys excitement, positioned centrally in the ad. | body_text: A smaller, inviting text that complements the main message, located just below the headline. | app_screenshot: A grid layout showing four game icons, suggesting gameplay elements, centered in the ad. | decorative_element: A small circular icon placeholder, visually representing a game element. | decorative_element: Another small circular icon placeholder, visually representing a game element. | decorative_element: A small circular icon placeholder, visually representing a game element. | decorative_element: Another small circular icon placeholder, visually representing a game element. | unknown: A simple, solid color background that enhances the visibility of the text and icons. text='Level up today Play with friends tonight' | unknown:  text='IronQuest BONUS' | unknown:  text='Shop now'"
+  }
+}

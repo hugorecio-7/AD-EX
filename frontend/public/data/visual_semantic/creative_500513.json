@@ -1,0 +1,242 @@
+{
+  "creative_id": "500513",
+  "asset_file": "assets/creative_500513.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with product outlines and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection with a limited-time offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, creating a fresh and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        348,
+        469
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.2,
+        0.969,
+        0.733
+      ],
+      "center_normalized": [
+        0.509,
+        0.467
+      ],
+      "area_percentage": 49.06
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three product outlines",
+      "description": "Three rectangular outlines representing products are centered in the ad, suggesting a display of items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three product outlines",
+      "description": "Another set of three rectangular outlines representing products is centered in the ad, mirroring the first set.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Three product outlines",
+      "description": "A third set of three rectangular outlines representing products is centered in the ad, completing the visual display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "New collection announcement",
+      "description": "Bold black text at the center bottom reads 'New collection drop Only this weekend', emphasizing urgency.",
+      "text_content": "New collection drop Only this weekend",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "The logo 'BoltCart' is displayed in a prominent position at the top, featuring a modern font.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        26,
+        39,
+        193,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.536,
+        0.123
+      ],
+      "center_normalized": [
+        0.304,
+        0.092
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A small button at the bottom center with the text 'Get offer', designed to attract user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        229,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.636,
+        0.908
+      ],
+      "center_normalized": [
+        0.503,
+        0.892
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '€9.99' is positioned at the bottom left, indicating the cost of the products.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        96,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.267,
+        0.869
+      ],
+      "center_normalized": [
+        0.167,
+        0.85
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right corner with the text 'SALE', highlighting a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, new collection, sale.",
+    "layout_text": "The logo is at the top, followed by product outlines in the center, with the main message at the bottom and CTA below it.",
+    "ocr_text": "New collection drop Only this weekend, BoltCart, Get offer, €9.99, SALE",
+    "elements_text": "main_subject: Three rectangular outlines representing products are centered in the ad, suggesting a display of items. | main_subject: Another set of three rectangular outlines representing products is centered in the ad, mirroring the first set. | main_subject: A third set of three rectangular outlines representing products is centered in the ad, completing the visual display. | body_text: Bold black text at the center bottom reads 'New collection drop Only this weekend', emphasizing urgency. text='New collection drop Only this weekend' | logo: The logo 'BoltCart' is displayed in a prominent position at the top, featuring a modern font. text='BoltCart' | cta: A small button at the bottom center with the text 'Get offer', designed to attract user interaction. text='Get offer' | price: A small price tag displaying '€9.99' is positioned at the bottom left, indicating the cost of the products. text='€9.99' | discount_badge: A small yellow badge at the top right corner with the text 'SALE', highlighting a promotional offer. text='SALE'"
+  }
+}

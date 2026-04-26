@@ -1,0 +1,266 @@
+{
+  "creative_id": "500549",
+  "asset_file": "assets/creative_500549.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a minimalist design showcasing a new product collection with a clear call to action.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a new product collection available for a limited time.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        110,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.172,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.585
+      ],
+      "area_percentage": 82.57
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "two product outlines",
+      "description": "Two outlined rectangles representing products are centered, with a minimalist design and no color fill.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        179,
+        118,
+        295
+      ],
+      "bbox_normalized": [
+        0.148,
+        0.28,
+        0.33,
+        0.461
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.29
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "three circular product icons",
+      "description": "Three small circular icons are centered below the product outlines, suggesting additional product options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        198,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.55,
+        0.49
+      ],
+      "center_normalized": [
+        0.46,
+        0.4
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "small sale badge",
+      "description": "A small rectangular badge with the word 'SALE' in bold text, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        353,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.552,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo 'ZenDrop' is displayed prominently at the top center in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "headline text",
+      "description": "The headline reads 'New collection drop Only this weekend' in large, bold font, centered in the lower half.",
+      "text_content": "New collection drop Only this weekend",
+      "bbox_xyxy": [
+        53,
+        407,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.709
+      ],
+      "area_percentage": 10.25
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A prominent button at the bottom center with the text 'Learn more' in bold, inviting font.",
+      "text_content": "€29.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "price text",
+      "description": "The price '€29.99' is displayed in a bold font, centered below the headline and above the CTA.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.304,
+        0.087
+      ],
+      "area_percentage": 4.12
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, promoting a new collection.",
+    "layout_text": "The logo is at the top center, the headline is in the lower half, and the CTA is at the bottom center.",
+    "ocr_text": "New collection drop Only this weekend, €29.99 Learn more, ZenDrop, SALE, UGC",
+    "elements_text": "product: Two outlined rectangles representing products are centered, with a minimalist design and no color fill. | product: Three small circular icons are centered below the product outlines, suggesting additional product options. | discount_badge: A small rectangular badge with the word 'SALE' in bold text, positioned at the top left corner. | logo: The logo 'ZenDrop' is displayed prominently at the top center in a bold, modern font. | headline: The headline reads 'New collection drop Only this weekend' in large, bold font, centered in the lower half. text='New collection drop Only this weekend' | cta: A prominent button at the bottom center with the text 'Learn more' in bold, inviting font. text='€29.99 Learn more' | body_text: The price '€29.99' is displayed in a bold font, centered below the headline and above the CTA. text='ZenDrop' | icon: A small icon labeled 'UGC' is positioned at the top left, indicating user-generated content. text='SALE' | unknown:  text='UGC'"
+  }
+}

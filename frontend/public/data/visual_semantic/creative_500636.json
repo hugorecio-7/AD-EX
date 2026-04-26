@@ -1,0 +1,434 @@
+{
+  "creative_id": "500636",
+  "asset_file": "assets/creative_500636.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold red background with promotional text and buttons.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer with free delivery.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        11,
+        61,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.036,
+        0.192,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.495,
+        0.464
+      ],
+      "area_percentage": 49.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PlateSprint logo",
+      "description": "A logo at the top left featuring the text 'PlateSprint' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text in the center that reads '2-for-1 tonight' in a large, bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.279,
+        0.766,
+        0.456
+      ],
+      "center_normalized": [
+        0.582,
+        0.368
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Delivery text",
+      "description": "Smaller text below the main offer stating 'Free delivery over $15'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        145
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.456
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative circles",
+      "description": "Three circular shapes arranged horizontally, possibly representing food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A single circular shape positioned to the left of the main offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "Another circular shape positioned to the right of the main offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        49,
+        90,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.154,
+        0.283,
+        0.322,
+        0.451
+      ],
+      "center_normalized": [
+        0.238,
+        0.367
+      ],
+      "area_percentage": 2.82
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A smaller circular shape located above the main offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "Another small circular shape positioned above the main offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small circular shape located above the main offer text, to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom center with the text 'Get offer' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE' in a bright color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape positioned near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text in the center that reads '2-for-1 tonight' in a large, bold font.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        45,
+        203,
+        277,
+        256
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.634,
+        0.866,
+        0.8
+      ],
+      "center_normalized": [
+        0.503,
+        0.717
+      ],
+      "area_percentage": 12.01
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A button at the bottom center with the text 'Get offer' in a bold font.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "A logo at the top left featuring the text 'PlateSprint' in a bold, modern font.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        21,
+        113,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.353,
+        0.122
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE' in a bright color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, 2-for-1 offer, free delivery",
+    "layout_text": "The logo is at the top left, the main offer text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "PlateSprint, SALE, 2-for-1 tonight, Free delivery over $15, Get offer",
+    "elements_text": "headline: A logo at the top left featuring the text 'PlateSprint' in a bold, modern font. | body_text: Text in the center that reads '2-for-1 tonight' in a large, bold font. | body_text: Smaller text below the main offer stating 'Free delivery over $15'. | unknown: Three circular shapes arranged horizontally, possibly representing food items. | unknown: A single circular shape positioned to the left of the main offer text. | unknown: Another circular shape positioned to the right of the main offer text. | unknown: A smaller circular shape located above the main offer text. | unknown: Another small circular shape positioned above the main offer text. | unknown: A small circular shape located above the main offer text, to the right. | cta: A button at the bottom center with the text 'Get offer' in a bold font. | discount_badge: A small badge at the top right corner with the text 'SALE' in a bright color. | unknown: A small circular shape positioned near the bottom of the ad. | body_text: Text in the center that reads '2-for-1 tonight' in a large, bold font. text='2-for-1 tonight Free delivery over $15' | cta: A button at the bottom center with the text 'Get offer' in a bold font. text='Get offer' | logo: A logo at the top left featuring the text 'PlateSprint' in a bold, modern font. text='PlateSprint' | discount_badge: A small badge at the top right corner with the text 'SALE' in a bright color. text='SALE'"
+  }
+}

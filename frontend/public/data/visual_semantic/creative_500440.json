@@ -1,0 +1,338 @@
+{
+  "creative_id": "500440",
+  "asset_file": "assets/creative_500440.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with promotional elements highlighting a discount offer.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a limited-time discount on products.",
+    "dominant_colors": [
+      "pink",
+      "light pink"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Pink gradient background",
+      "description": "A smooth pink gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        359,
+        292
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.998,
+        0.457
+      ],
+      "center_normalized": [
+        0.503,
+        0.289
+      ],
+      "area_percentage": 33.3
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three pink rectangles",
+      "description": "Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        271
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.424
+      ],
+      "center_normalized": [
+        0.502,
+        0.273
+      ],
+      "area_percentage": 29.97
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three pink rectangles",
+      "description": "Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        78,
+        359,
+        251
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.122,
+        0.998,
+        0.394
+      ],
+      "center_normalized": [
+        0.503,
+        0.258
+      ],
+      "area_percentage": 26.91
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Three pink rectangles",
+      "description": "Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        78,
+        359,
+        231
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.122,
+        0.998,
+        0.361
+      ],
+      "center_normalized": [
+        0.503,
+        0.242
+      ],
+      "area_percentage": 23.72
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Top decorative element",
+      "description": "A decorative element at the top featuring abstract shapes in a lighter pink shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon in a lighter pink color, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon in a lighter pink color, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon in a lighter pink color, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' in a bold font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Discount text",
+      "description": "Text displaying the discount information in a bold font, located at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main offer headline",
+      "description": "Bold text stating 'Up to 40% off Only this weekend' prominently displayed in the center.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.508,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button with the text '$4.99 Claim reward' in a contrasting color, located at the bottom.",
+      "text_content": "$4.99 Claim reward",
+      "bbox_xyxy": [
+        26,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.7
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' in a bold font, positioned at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, discount offer, VantaStyle.",
+    "layout_text": "The headline is centered, the main subject is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Up to 40% off Only this weekend, $4.99 Claim reward, VantaStyle",
+    "elements_text": "main_subject: Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens. | main_subject: Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens. | main_subject: Three vertically aligned pink rectangles with rounded edges, resembling mirrors or screens. | main_subject: A decorative element at the top featuring abstract shapes in a lighter pink shade. | icon: A small circular icon in a lighter pink color, positioned in the center. | icon: A small circular icon in a lighter pink color, positioned in the center. | icon: A small circular icon in a lighter pink color, positioned in the center. | logo: The logo 'VantaStyle' in a bold font, positioned at the top left corner. | body_text: Text displaying the discount information in a bold font, located at the bottom. | headline: Bold text stating 'Up to 40% off Only this weekend' prominently displayed in the center. text='Up to 40% off Only this weekend' | cta: A button with the text '$4.99 Claim reward' in a contrasting color, located at the bottom. text='$4.99 Claim reward' | logo: The logo 'VantaStyle' in a bold font, positioned at the top left corner. text='VantaStyle'"
+  }
+}

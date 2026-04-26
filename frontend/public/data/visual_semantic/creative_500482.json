@@ -1,0 +1,242 @@
+{
+  "creative_id": "500482",
+  "asset_file": "assets/creative_500482.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a cashback offer with a clear call to action.",
+    "visual_style": "clean and modern",
+    "main_message": "Earn cashback daily with no hidden fees.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'CoinBridge' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "A prominent text area in the center displaying 'Earn cashback daily' in a bold, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.371
+      ],
+      "area_percentage": 15.78
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "No hidden fees text",
+      "description": "A smaller text below the main offer stating 'No hidden fees' in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button in the center with the text 'Claim reward' in a bold font, designed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.47
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Various geometric shapes in the background, including an oval and a rectangle, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A large rectangle shape in the center, possibly serving as a background for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape positioned towards the bottom left, adding to the decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 8,
+      "role": "background",
+      "label": "Overall background",
+      "description": "A solid color background that provides a clean and modern look to the ad.",
+      "text_content": "Earn cashback daily Claim reward",
+      "bbox_xyxy": [
+        48,
+        204,
+        276,
+        299
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.863,
+        0.934
+      ],
+      "center_normalized": [
+        0.506,
+        0.786
+      ],
+      "area_percentage": 21.15
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'CoinBridge' in a simple font.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, cashback offer, call to action",
+    "layout_text": "The logo is at the top left, the main offer text is centered, followed by the CTA button below.",
+    "ocr_text": "CoinBridge, Earn cashback daily, No hidden fees, Claim reward",
+    "elements_text": "logo: A small logo positioned at the top left corner, featuring the text 'CoinBridge' in a simple font. | body_text: A prominent text area in the center displaying 'Earn cashback daily' in a bold, clear font. | body_text: A smaller text below the main offer stating 'No hidden fees' in a lighter font. | cta: A rectangular button in the center with the text 'Claim reward' in a bold font, designed to attract attention. | decorative_element: Various geometric shapes in the background, including an oval and a rectangle, adding visual interest. | unknown: A large rectangle shape in the center, possibly serving as a background for the text. | unknown: A small circular shape positioned towards the bottom left, adding to the decorative elements. | logo: A small logo positioned at the top left corner, featuring the text 'CoinBridge' in a simple font. text='CoinBridge'"
+  }
+}

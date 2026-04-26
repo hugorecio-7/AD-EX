@@ -1,0 +1,242 @@
+{
+  "creative_id": "500443",
+  "asset_file": "assets/creative_500443.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on promoting a new product collection.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection available for a limited time.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a fresh and lively backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        360
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.952,
+        0.752
+      ],
+      "center_normalized": [
+        0.501,
+        0.477
+      ],
+      "area_percentage": 49.7
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A central area featuring two stylized product images, represented as simple outlines of rectangular shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.477,
+        0.46
+      ],
+      "area_percentage": 49.54
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large text at the top reads 'VantaStyle', prominently displayed against the green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Collection drop text",
+      "description": "Text in the center that states 'New collection drop', designed in a modern font for clarity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Weekend urgency text",
+      "description": "Smaller text below the main body that reads 'Only this weekend', emphasizing urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Install now', designed to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Bottom text area",
+      "description": "Text at the bottom of the ad that reinforces the urgency of the offer, positioned centrally.",
+      "text_content": "New collection drop Only this weekend",
+      "bbox_xyxy": [
+        48,
+        308,
+        274,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.642,
+        0.856,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.726
+      ],
+      "area_percentage": 11.92
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo positioned at the top left, featuring the brand name 'VantaStyle' in a stylish font.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Install now text",
+      "description": "Text at the bottom right corner that reads 'Install now', encouraging immediate action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, VantaStyle, new collection drop",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Only this weekend, VantaStyle, Install now",
+    "elements_text": "main_subject: A central area featuring two stylized product images, represented as simple outlines of rectangular shapes. | headline: Bold, large text at the top reads 'VantaStyle', prominently displayed against the green background. | body_text: Text in the center that states 'New collection drop', designed in a modern font for clarity. | body_text: Smaller text below the main body that reads 'Only this weekend', emphasizing urgency. | cta: A rounded button at the bottom with the text 'Install now', designed to stand out against the background. | body_text: Text at the bottom of the ad that reinforces the urgency of the offer, positioned centrally. text='New collection drop Only this weekend' | logo: A small logo positioned at the top left, featuring the brand name 'VantaStyle' in a stylish font. text='VantaStyle' | cta: Text at the bottom right corner that reads 'Install now', encouraging immediate action. text='Install now'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500446",
+  "asset_file": "assets/creative_500446.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, a headline, and a call-to-action button.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to earn cashback with a simple signup process.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.242,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Cashback offer",
+      "description": "A prominent headline in bold white text stating 'Earn cashback daily' against a contrasting background.",
+      "text_content": "Earn cashback daily Fast signup instant card",
+      "bbox_xyxy": [
+        48,
+        307,
+        273,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.64,
+        0.853,
+        0.81
+      ],
+      "center_normalized": [
+        0.502,
+        0.725
+      ],
+      "area_percentage": 12.01
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A bright button with the text 'Shop now' in a clear, readable font, located at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Signup details",
+      "description": "Smaller text below the headline that reads 'Fast signup, instant card', providing additional information.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        22,
+        34,
+        114,
+        58
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.356,
+        0.121
+      ],
+      "center_normalized": [
+        0.212,
+        0.096
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, cashback offer, EarnPath logo, Shop now button",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with the body text below it, and the CTA button at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, Shop now, EarnPath",
+    "elements_text": "logo: A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top of the ad. | unknown: Two overlapping geometric shapes, one circular and one rectangular, in a muted color palette. | headline: A prominent headline in bold white text stating 'Earn cashback daily' against a contrasting background. text='Earn cashback daily Fast signup instant card' | cta: A bright button with the text 'Shop now' in a clear, readable font, located at the bottom of the ad. text='Shop now' | body_text: Smaller text below the headline that reads 'Fast signup, instant card', providing additional information. text='EarnPath'"
+  }
+}

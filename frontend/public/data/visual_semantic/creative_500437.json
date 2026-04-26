@@ -1,0 +1,434 @@
+{
+  "creative_id": "500437",
+  "asset_file": "assets/creative_500437.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a game interface and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to play a game with friends.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Game grid layout",
+      "description": "A grid layout featuring four squares with dots, representing a game interface, is centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        45,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.381,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.358,
+        0.436
+      ],
+      "area_percentage": 5.15
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'Beat your rivals' is prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline reads 'Play with friends tonight'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'PixelForge' appears at the top left in a bold, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Watch now' in white against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '$4.99' in white text at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        245,
+        359,
+        371
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.384,
+        0.998,
+        0.581
+      ],
+      "center_normalized": [
+        0.978,
+        0.482
+      ],
+      "area_percentage": 0.79
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element in the form of a dot is positioned within the game grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        179,
+        359,
+        303
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.28,
+        0.998,
+        0.475
+      ],
+      "center_normalized": [
+        0.978,
+        0.377
+      ],
+      "area_percentage": 0.78
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small decorative element in the form of a dot is positioned within the game grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        116,
+        359,
+        178
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.182,
+        0.998,
+        0.279
+      ],
+      "center_normalized": [
+        0.978,
+        0.23
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unidentifiable element located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, unidentifiable element located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unidentifiable element located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, unidentifiable element located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "The main message 'Beat your rivals Play with friends tonight' is prominently displayed in white.",
+      "text_content": "Beat your rivals Play with friends tonight",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'PixelForge' appears at the top left in a bold, white font.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Watch now' in white against a blue background.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 17,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '$4.99' in white text at the bottom left.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, game interface, promotional text",
+    "layout_text": "The headline is at the top, the game interface is centered, and the CTA is at the bottom.",
+    "ocr_text": "Beat your rivals, Play with friends tonight, PixelForge, Watch now, $4.99",
+    "elements_text": "app_screenshot: A grid layout featuring four squares with dots, representing a game interface, is centered in the ad. | headline: Bold, white text stating 'Beat your rivals' is prominently displayed at the top. | body_text: Smaller white text below the headline reads 'Play with friends tonight'. | logo: The logo 'PixelForge' appears at the top left in a bold, white font. | cta: A rounded button at the bottom with the text 'Watch now' in white against a blue background. | price: A small price tag displaying '$4.99' in white text at the bottom left. | unknown: A small decorative element in the form of a dot is positioned within the game grid. | unknown: Another small decorative element in the form of a dot is positioned within the game grid. | unknown: A small, unidentifiable element located in the center of the ad. | unknown: Another small, unidentifiable element located in the center of the ad. | unknown: A small, unidentifiable element located at the top of the ad. | unknown: Another small, unidentifiable element located at the top of the ad. | headline: The main message 'Beat your rivals Play with friends tonight' is prominently displayed in white. text='Beat your rivals Play with friends tonight' | logo: The logo 'PixelForge' appears at the top left in a bold, white font. text='PixelForge' | cta: A rounded button at the bottom with the text 'Watch now' in white against a blue background. text='Watch now' | price: A small price tag displaying '$4.99' in white text at the bottom left. text='$4.99'"
+  }
+}

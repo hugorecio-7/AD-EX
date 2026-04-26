@@ -1,0 +1,242 @@
+{
+  "creative_id": "500486",
+  "asset_file": "assets/creative_500486.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel offers.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel app with special offers.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, rounded rectangle with a light teal background, featuring a couple of circular shapes in a lighter shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.242,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Main content area",
+      "description": "A rectangular area in the center with a slightly darker teal background, containing additional shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape in the lower center, colored in a lighter teal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Another small circle",
+      "description": "Another small circular shape positioned slightly above the previous one, also in a lighter teal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Main call to action",
+      "description": "A prominent text area at the bottom with bold white text stating 'Escape this weekend Hotels flights in one tap'.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "A smaller text area below the main CTA, displaying the price '€19.99' in bold white.",
+      "text_content": "€19.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.362,
+        0.874
+      ],
+      "area_percentage": 5.08
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "A bold text at the top center reading 'DriftPass' in a large, clear font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        26,
+        38,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.324,
+        0.091
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small rectangular badge at the top right corner with the word 'SALE' in bold, contrasting color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, DriftPass, travel offers, €19.99.",
+    "layout_text": "The headline is at the top, the main content area is centered, and the CTA is at the bottom.",
+    "ocr_text": "Escape this weekend Hotels flights in one tap, €19.99, DriftPass, SALE, Try for free",
+    "elements_text": "unknown: A large, rounded rectangle with a light teal background, featuring a couple of circular shapes in a lighter shade. | unknown: A rectangular area in the center with a slightly darker teal background, containing additional shapes. | unknown: A small circular shape in the lower center, colored in a lighter teal. | unknown: Another small circular shape positioned slightly above the previous one, also in a lighter teal. | cta: A prominent text area at the bottom with bold white text stating 'Escape this weekend Hotels flights in one tap'. text='Escape this weekend Hotels flights in one tap' | price: A smaller text area below the main CTA, displaying the price '€19.99' in bold white. text='€19.99 Try for free' | headline: A bold text at the top center reading 'DriftPass' in a large, clear font. text='DriftPass' | discount_badge: A small rectangular badge at the top right corner with the word 'SALE' in bold, contrasting color. text='SALE'"
+  }
+}

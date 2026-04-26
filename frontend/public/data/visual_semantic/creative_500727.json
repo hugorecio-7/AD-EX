@@ -1,0 +1,434 @@
+{
+  "creative_id": "500727",
+  "asset_file": "assets/creative_500727.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a green background with product icons and promotional text.",
+    "visual_style": "bright and minimalistic",
+    "main_message": "Limited stock offer for a product at $4.99.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        151
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.475
+      ],
+      "center_normalized": [
+        0.5,
+        0.237
+      ],
+      "area_percentage": 47.42
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.176
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.56
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product icons",
+      "description": "Three minimalistic icons representing products, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional product icon",
+      "description": "An additional product icon, larger and positioned slightly above the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.582,
+        0.37
+      ],
+      "area_percentage": 6.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Another product icon",
+      "description": "Another product icon, similar in style to the previous ones, positioned near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small product icon",
+      "description": "A smaller product icon, positioned to the left of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Another small product icon",
+      "description": "Another small product icon, positioned to the right of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Limited stock text",
+      "description": "Text stating 'Limited stock' in a bold font, positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Weekend offer text",
+      "description": "Text stating 'Only this weekend' in a smaller font, positioned below the main offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.529,
+        0.22,
+        0.63
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price tag displaying '$4.99' in a prominent font, positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        57,
+        303,
+        73
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.181,
+        0.949,
+        0.229
+      ],
+      "center_normalized": [
+        0.892,
+        0.205
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Try for free' in a bold font, positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Additional text area",
+      "description": "An empty area at the top right, possibly for additional text or icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        58,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.182,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Additional text area",
+      "description": "Another empty area at the top right, adjacent to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.376
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Additional text area",
+      "description": "An empty area at the bottom right, possibly for additional text or icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element positioned at the left side of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.006,
+        0.282,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.027,
+        0.33
+      ],
+      "area_percentage": 0.41
+    },
+    {
+      "id": 16,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "The main offer text 'Limited stock Only this weekend' in a large, bold font.",
+      "text_content": "Limited stock Only this weekend $4.99 Try for free",
+      "bbox_xyxy": [
+        22,
+        204,
+        268,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.838,
+        0.934
+      ],
+      "center_normalized": [
+        0.453,
+        0.786
+      ],
+      "area_percentage": 22.82
+    },
+    {
+      "id": 17,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "The logo 'BoltCart' displayed prominently at the top.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and minimalistic, limited stock offer.",
+    "layout_text": "The logo is at the top, product icons are centered, and the main offer and CTA are at the bottom.",
+    "ocr_text": "BoltCart, Limited stock, Only this weekend, $4.99, Try for free",
+    "elements_text": "logo: A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top. | product: Three minimalistic icons representing products, arranged horizontally in the center. | unknown: An additional product icon, larger and positioned slightly above the center. | unknown: Another product icon, similar in style to the previous ones, positioned near the center. | unknown: A smaller product icon, positioned to the left of the center. | unknown: Another small product icon, positioned to the right of the center. | body_text: Text stating 'Limited stock' in a bold font, positioned at the bottom. | body_text: Text stating 'Only this weekend' in a smaller font, positioned below the main offer. | price: A price tag displaying '$4.99' in a prominent font, positioned at the bottom. | cta: A button with the text 'Try for free' in a bold font, positioned at the bottom. | unknown: An empty area at the top right, possibly for additional text or icons. | unknown: Another empty area at the top right, adjacent to the previous one. | unknown: An empty area at the bottom right, possibly for additional text or icons. | unknown: A small decorative element positioned at the left side of the center. | headline: The main offer text 'Limited stock Only this weekend' in a large, bold font. text='Limited stock Only this weekend $4.99 Try for free' | logo: The logo 'BoltCart' displayed prominently at the top. text='BoltCart'"
+  }
+}

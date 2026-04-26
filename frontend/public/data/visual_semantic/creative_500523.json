@@ -1,0 +1,482 @@
+{
+  "creative_id": "500523",
+  "asset_file": "assets/creative_500523.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with various graphic elements and text promoting a travel service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel service with a focus on booking hotels and flights easily.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic element",
+      "description": "A large central graphic element with rounded edges, possibly representing a hotel or flight service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.508
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.05
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary graphic element",
+      "description": "A smaller rectangular graphic element with rounded edges, positioned slightly above the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        76,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.239,
+        0.497,
+        0.611
+      ],
+      "center_normalized": [
+        0.317,
+        0.425
+      ],
+      "area_percentage": 13.37
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Additional graphic element",
+      "description": "Another rounded rectangular graphic element, larger than the previous one, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Graphic overlay",
+      "description": "A rounded rectangular graphic overlay, positioned centrally and slightly overlapping other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Central graphic",
+      "description": "A large rounded rectangular graphic element, prominently placed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        274,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.338,
+        0.856,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 9.88
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Central graphic",
+      "description": "Another rounded rectangular graphic element, centrally positioned and overlapping slightly.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Small graphic element",
+      "description": "A smaller rounded graphic element, positioned above the central graphics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.5
+    },
+    {
+      "id": 9,
+      "role": "main_subject",
+      "label": "Central graphic",
+      "description": "A large rounded rectangular graphic element, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "Bold text stating 'Fly smarter' in a large font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller text below the main text, stating 'Hotels + flights in one tap'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "Text at the top stating 'HorizonHop' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        15,
+        297,
+        42
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.623,
+        0.091
+      ],
+      "area_percentage": 5.05
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "Text button at the bottom stating 'Claim reward' in a prominent font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 14,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "Text indicating 'UGC' in a small font at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Text at the bottom stating 'Fly smarter Hotels flights in one tap' in a large font.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        59,
+        201,
+        260,
+        255
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.628,
+        0.812,
+        0.797
+      ],
+      "center_normalized": [
+        0.498,
+        0.713
+      ],
+      "area_percentage": 10.6
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "Text button at the bottom stating 'Claim reward' in a smaller font.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        279,
+        221,
+        299
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.872,
+        0.691,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.42
+    },
+    {
+      "id": 17,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "Text logo at the top left corner stating 'HorizonHop'.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 18,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "Text badge at the top right corner stating 'SALE' in a bold font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 19,
+      "role": "decorative_element",
+      "label": "User-generated content tag",
+      "description": "Small text tag at the top left corner stating 'UGC'.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting travel services.",
+    "layout_text": "The headline is at the top, main graphics are centered, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter Hotels flights in one tap, Claim reward, HorizonHop, SALE, UGC",
+    "elements_text": "main_subject: A large central graphic element with rounded edges, possibly representing a hotel or flight service. | main_subject: A smaller rectangular graphic element with rounded edges, positioned slightly above the main graphic. | main_subject: Another rounded rectangular graphic element, larger than the previous one, positioned centrally. | main_subject: A rounded rectangular graphic overlay, positioned centrally and slightly overlapping other elements. | main_subject: A large rounded rectangular graphic element, prominently placed in the center. | main_subject: Another rounded rectangular graphic element, centrally positioned and overlapping slightly. | main_subject: A smaller rounded graphic element, positioned above the central graphics. | main_subject: A large rounded rectangular graphic element, centrally positioned. | body_text: Bold text stating 'Fly smarter' in a large font, centrally positioned. | body_text: Smaller text below the main text, stating 'Hotels + flights in one tap'. | headline: Text at the top stating 'HorizonHop' in a bold font. | cta: Text button at the bottom stating 'Claim reward' in a prominent font. | social_proof: Text indicating 'UGC' in a small font at the top. | body_text: Text at the bottom stating 'Fly smarter Hotels flights in one tap' in a large font. text='Fly smarter Hotels flights in one tap' | cta: Text button at the bottom stating 'Claim reward' in a smaller font. text='Claim reward' | logo: Text logo at the top left corner stating 'HorizonHop'. text='HorizonHop' | discount_badge: Text badge at the top right corner stating 'SALE' in a bold font. text='SALE' | decorative_element: Small text tag at the top left corner stating 'UGC'. text='UGC'"
+  }
+}

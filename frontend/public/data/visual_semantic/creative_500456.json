@@ -1,0 +1,266 @@
+{
+  "creative_id": "500456",
+  "asset_file": "assets/creative_500456.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with promotional text and a call to action.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting a 2-for-1 offer on food items.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient fills the background, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        573
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.895
+      ],
+      "center_normalized": [
+        0.501,
+        0.548
+      ],
+      "area_percentage": 62.56
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Two overlapping rectangles",
+      "description": "Two transparent rectangles are centered, suggesting a visual representation of food items or drinks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.5,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Promotional headline",
+      "description": "A bold, white text headline at the top reads '2-for-1 tonight', emphasizing the promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        196
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.307
+      ],
+      "center_normalized": [
+        0.499,
+        0.153
+      ],
+      "area_percentage": 30.61
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller white text below the headline states 'Fresh favorites nearby', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A small logo in the top left corner features the text 'SnapMeal' in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom labeled 'Watch now' encourages user interaction.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon representing user-generated content, placed in the top left corner.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A clear, inviting button at the bottom of the ad that prompts users to take action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "UGC tag",
+      "description": "A small tag labeled 'UGC' indicating the content is user-generated.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, 2-for-1 offer, SnapMeal logo",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight, Fresh favorites nearby, SnapMeal, Watch now, UGC",
+    "elements_text": "main_subject: Two transparent rectangles are centered, suggesting a visual representation of food items or drinks. | headline: A bold, white text headline at the top reads '2-for-1 tonight', emphasizing the promotional offer. | body_text: A smaller white text below the headline states 'Fresh favorites nearby', providing additional context. | logo: A small logo in the top left corner features the text 'SnapMeal' in a modern font. | unknown: A small tag labeled 'UGC' in the top left corner, indicating user-generated content. | cta: A prominent button at the bottom labeled 'Watch now' encourages user interaction. text='2-for-1 tonight Fresh favorites nearby' | icon: A small icon representing user-generated content, placed in the top left corner. text='SnapMeal' | cta: A clear, inviting button at the bottom of the ad that prompts users to take action. text='Watch now' | unknown: A small tag labeled 'UGC' indicating the content is user-generated. text='UGC'"
+  }
+}

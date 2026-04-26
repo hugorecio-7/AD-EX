@@ -1,0 +1,386 @@
+{
+  "creative_id": "500722",
+  "asset_file": "assets/creative_500722.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a game title at the top, a main message in the center, and a call to action at the bottom.",
+    "visual_style": "light purple with geometric shapes",
+    "main_message": "Promoting rewards for new players in VoxelRealm.",
+    "dominant_colors": [
+      "light purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central element with a light purple background and geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "The text 'VoxelRealm' in a bold, large font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A top element featuring abstract shapes or icons in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central element with a light purple background and geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A top element similar to ID 3, possibly with different shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central element with a light purple background and geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "A small circular element in the center with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "A small circular element in the center with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "A small circular element in the center with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "The text 'VoxelRealm' in a bold, large font at the top of the ad.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main Message",
+      "description": "The text 'Unlock rare gear Free rewards for new players' in a clear, readable font.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A button with the text 'Learn more' in a prominent position at the bottom.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, light purple with geometric shapes, VoxelRealm, rewards for new players",
+    "layout_text": "Headline at the top, main message in the center, and CTA at the bottom.",
+    "ocr_text": "VoxelRealm, Unlock rare gear Free rewards for new players, Learn more",
+    "elements_text": "unknown: A central element with a light purple background and geometric shapes. | headline: The text 'VoxelRealm' in a bold, large font at the top of the ad. | unknown: A top element featuring abstract shapes or icons in a light color. | unknown: Another central element with a light purple background and geometric shapes. | unknown: A top element similar to ID 3, possibly with different shapes. | unknown: A central element with a light purple background and geometric shapes. | unknown: A small circular element in the center with a light color. | unknown: A small circular element in the center with a light color. | unknown: A small circular element in the center with a light color. | unknown: A small rectangular element at the top with a light color. | unknown: A small rectangular element at the top with a light color. | headline: The text 'VoxelRealm' in a bold, large font at the top of the ad. text='VoxelRealm' | body_text: The text 'Unlock rare gear Free rewards for new players' in a clear, readable font. text='Unlock rare gear Free rewards for new players' | cta: A button with the text 'Learn more' in a prominent position at the bottom. text='Learn more'"
+  }
+}

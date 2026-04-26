@@ -1,0 +1,242 @@
+{
+  "creative_id": "500488",
+  "asset_file": "assets/creative_500488.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on travel services.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a travel service that combines hotel and flight bookings.",
+    "dominant_colors": [
+      "purple",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A large oval and a rectangle in a muted color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A large rectangle with rounded corners, centrally placed, featuring a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A small circle located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "main headline text",
+      "description": "Bold, large text stating 'Fly smarter Hotels flights in one tap' in a clear, modern font.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        294,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.817,
+        0.728
+      ],
+      "center_normalized": [
+        0.499,
+        0.685
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The word 'DriftPass' in a prominent, stylized font at the top of the ad.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        26,
+        38,
+        207,
+        80
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.575,
+        0.125
+      ],
+      "center_normalized": [
+        0.324,
+        0.092
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A rectangular button at the bottom with the text 'Learn more' in a contrasting color.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "discount percentage",
+      "description": "A small badge displaying '30%' in a bold font, located at the bottom left.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "sale label",
+      "description": "A small, bold label saying 'SALE' in a bright color at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, DriftPass, travel services.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter Hotels flights in one tap, DriftPass, Learn more, 30%, SALE",
+    "elements_text": "unknown: A large oval and a rectangle in a muted color, positioned centrally. | unknown: A large rectangle with rounded corners, centrally placed, featuring a solid color. | unknown: A small circle located towards the bottom center of the ad. | headline: Bold, large text stating 'Fly smarter Hotels flights in one tap' in a clear, modern font. text='Fly smarter Hotels flights in one tap' | logo: The word 'DriftPass' in a prominent, stylized font at the top of the ad. text='DriftPass' | cta: A rectangular button at the bottom with the text 'Learn more' in a contrasting color. text='Learn more' | discount_badge: A small badge displaying '30%' in a bold font, located at the bottom left. text='30%' | price: A small, bold label saying 'SALE' in a bright color at the top right corner. text='SALE'"
+  }
+}

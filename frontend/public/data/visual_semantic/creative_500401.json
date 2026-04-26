@@ -1,0 +1,434 @@
+{
+  "creative_id": "500401",
+  "asset_file": "assets/creative_500401.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a gameplay screenshot with interactive elements and prominent text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encourages players to engage with the game without ads for the first week.",
+    "dominant_colors": [
+      "#A77BCA",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A grid layout showing interactive game elements with circles and squares, set against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        153,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.24,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.349,
+        0.366
+      ],
+      "area_percentage": 12.2
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon representing a game element, placed centrally within the gameplay area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small circular icon representing a game element, positioned at the top of the gameplay area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A circular game element icon located centrally within the gameplay area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.594,
+        0.491
+      ],
+      "center_normalized": [
+        0.482,
+        0.436
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon representing a game element, positioned centrally at the bottom of the gameplay area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon representing a game element, located at the top left of the gameplay area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element positioned at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element positioned at the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text element providing additional information, located centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text element providing additional information, positioned at the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text element located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text element located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline text reading 'IronQuest UGC' prominently displayed at the top of the ad.",
+      "text_content": "IronQuest UGC",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.198
+      ],
+      "center_normalized": [
+        0.486,
+        0.128
+      ],
+      "area_percentage": 11.88
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent call-to-action button with the text 'Beat your rivals No ads in first week' located at the bottom of the ad.",
+      "text_content": "Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        464
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.725
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small call-to-action button with the text 'Watch now' located at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, IronQuest UGC, Beat your rivals No ads in first week, Watch now",
+    "layout_text": "The headline is at the top, gameplay elements are centered, and the CTA is at the bottom.",
+    "ocr_text": "IronQuest UGC, Beat your rivals No ads in first week, Watch now",
+    "elements_text": "app_screenshot: A grid layout showing interactive game elements with circles and squares, set against a light background. | icon: A small circular icon representing a game element, placed centrally within the gameplay area. | icon: Another small circular icon representing a game element, positioned at the top of the gameplay area. | icon: A circular game element icon located centrally within the gameplay area. | icon: A small circular icon representing a game element, positioned centrally at the bottom of the gameplay area. | icon: A small circular icon representing a game element, located at the top left of the gameplay area. | decorative_element: A small decorative element positioned at the bottom center of the ad. | decorative_element: A small decorative element located at the top right of the ad. | decorative_element: A small decorative element positioned at the bottom right of the ad. | body_text: A small text element providing additional information, located centrally within the ad. | body_text: A small text element providing additional information, positioned at the bottom left of the ad. | body_text: A small text element located at the top left of the ad. | body_text: A small text element located at the top right of the ad. | headline: A bold headline text reading 'IronQuest UGC' prominently displayed at the top of the ad. text='IronQuest UGC' | cta: A prominent call-to-action button with the text 'Beat your rivals No ads in first week' located at the bottom of the ad. text='Beat your rivals No ads in first week' | cta: A small call-to-action button with the text 'Watch now' located at the bottom of the ad. text='Watch now'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500592",
+  "asset_file": "assets/creative_500592.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean and modern design focused on financial clarity.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting a financial service with an emphasis on clarity and ease of use.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element that appears to be an abstract shape or icon, possibly representing a financial service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        91,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.516,
+        0.43
+      ],
+      "area_percentage": 9.45
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element, similar in style to the first, likely contributing to the overall theme of clarity and finance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        112,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.312,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.546,
+        0.43
+      ],
+      "area_percentage": 8.39
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A third central graphic element, maintaining the abstract design, enhancing the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top left graphic",
+      "description": "A small decorative graphic located at the top left, possibly an icon or logo that adds to the branding.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.291
+      ],
+      "center_normalized": [
+        0.068,
+        0.236
+      ],
+      "area_percentage": 1.48
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "ClearLedge logo",
+      "description": "The logo 'ClearLedge' displayed prominently at the top, featuring bold typography that stands out against the background.",
+      "text_content": "ClearLedge",
+      "bbox_xyxy": [
+        22,
+        30,
+        360,
+        108
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.047,
+        1.0,
+        0.169
+      ],
+      "center_normalized": [
+        0.531,
+        0.108
+      ],
+      "area_percentage": 11.44
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A large, bold text at the bottom stating 'Your money, clearer' with a smaller tagline 'Fast signup, instant card' underneath.",
+      "text_content": "Your money, clearer Fast signup, instant card",
+      "bbox_xyxy": [
+        71,
+        407,
+        288,
+        502
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.636,
+        0.8,
+        0.784
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 8.95
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button at the bottom with the text 'Start now', designed to encourage user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold typography, ClearLedge logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main message text in the center, and the call to action at the bottom.",
+    "ocr_text": "ClearLedge, Your money, clearer, Fast signup, instant card, Start now",
+    "elements_text": "unknown: A central graphic element that appears to be an abstract shape or icon, possibly representing a financial service. | unknown: Another central graphic element, similar in style to the first, likely contributing to the overall theme of clarity and finance. | unknown: A third central graphic element, maintaining the abstract design, enhancing the visual appeal of the ad. | decorative_element: A small decorative graphic located at the top left, possibly an icon or logo that adds to the branding. | logo: The logo 'ClearLedge' displayed prominently at the top, featuring bold typography that stands out against the background. text='ClearLedge' | body_text: A large, bold text at the bottom stating 'Your money, clearer' with a smaller tagline 'Fast signup, instant card' underneath. text='Your money, clearer Fast signup, instant card' | cta: A small button at the bottom with the text 'Start now', designed to encourage user interaction. text='Start now'"
+  }
+}

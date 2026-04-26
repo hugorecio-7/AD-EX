@@ -1,0 +1,410 @@
+{
+  "creative_id": "500615",
+  "asset_file": "assets/creative_500615.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a game title and a call to action with gameplay elements.",
+    "visual_style": "bright and engaging",
+    "main_message": "Encouraging users to install and play the game.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A rectangular area in the center of the ad, possibly containing gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.365
+      ],
+      "area_percentage": 5.56
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another rectangular area in the center, likely showcasing additional gameplay features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        45,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.127,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.359,
+        0.436
+      ],
+      "area_percentage": 5.09
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "The title 'IronQuest' displayed prominently at the top in bold, large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area at the top, possibly containing decorative or gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A smaller rectangular area in the center, likely part of the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another rectangular area in the center, possibly showing gameplay or app features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small rectangular area in the center, likely containing a gameplay element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, possibly decorative or gameplay-related.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small rectangular area in the center, likely part of the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small rectangular area in the center, possibly showcasing gameplay features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, likely containing decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, possibly showcasing gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "The title 'IronQuest' displayed prominently at the top in bold, large font.",
+      "text_content": "IronQuest",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        99
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.155
+      ],
+      "center_normalized": [
+        0.486,
+        0.106
+      ],
+      "area_percentage": 8.18
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main Message",
+      "description": "Text stating 'Level up today Play with friends tonight' in a clear, engaging font.",
+      "text_content": "Level up today Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        405,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.633,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.68
+      ],
+      "area_percentage": 6.75
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A button at the bottom with the text 'Install now' encouraging user action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and engaging, IronQuest, Level up today, Install now",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "IronQuest, Level up today Play with friends tonight, Install now",
+    "elements_text": "unknown: A rectangular area in the center of the ad, possibly containing gameplay elements. | unknown: Another rectangular area in the center, likely showcasing additional gameplay features. | headline: The title 'IronQuest' displayed prominently at the top in bold, large font. | unknown: A rectangular area at the top, possibly containing decorative or gameplay elements. | unknown: A smaller rectangular area in the center, likely part of the gameplay interface. | unknown: Another rectangular area in the center, possibly showing gameplay or app features. | unknown: A small rectangular area in the center, likely containing a gameplay element. | unknown: A small rectangular area at the top, possibly decorative or gameplay-related. | unknown: A small rectangular area in the center, likely part of the gameplay interface. | unknown: A small rectangular area in the center, possibly showcasing gameplay features. | unknown: A small rectangular area at the top, likely containing decorative elements. | unknown: A small rectangular area at the top, possibly showcasing gameplay elements. | headline: The title 'IronQuest' displayed prominently at the top in bold, large font. text='IronQuest' | body_text: Text stating 'Level up today Play with friends tonight' in a clear, engaging font. text='Level up today Play with friends tonight' | cta: A button at the bottom with the text 'Install now' encouraging user action. text='Install now'"
+  }
+}

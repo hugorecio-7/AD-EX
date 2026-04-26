@@ -1,0 +1,290 @@
+{
+  "creative_id": "500452",
+  "asset_file": "assets/creative_500452.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm-toned abstract background with promotional text and a call-to-action button.",
+    "visual_style": "warm and modern",
+    "main_message": "Promoting last-minute savings on fares with a clear call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A soft, abstract background featuring overlapping geometric shapes in warm tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        127,
+        343,
+        468
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.199,
+        0.953,
+        0.732
+      ],
+      "center_normalized": [
+        0.501,
+        0.466
+      ],
+      "area_percentage": 48.23
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CloudRoute logo",
+      "description": "A simple, modern logo with the text 'CloudRoute' in a bold font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Savings message",
+      "description": "Text that reads 'Last-minute savings' in a large, clear font, centrally placed for emphasis.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        301
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.471
+      ],
+      "center_normalized": [
+        0.468,
+        0.355
+      ],
+      "area_percentage": 13.72
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button with the text 'Claim reward' in a contrasting color, located at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        98,
+        488,
+        261,
+        626
+      ],
+      "bbox_normalized": [
+        0.274,
+        0.763,
+        0.727,
+        0.979
+      ],
+      "center_normalized": [
+        0.501,
+        0.871
+      ],
+      "area_percentage": 9.78
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "Smaller text below the headline stating 'Special fares today', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, bright badge with the word 'SALE' in bold letters, positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        277,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.771,
+        0.518
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, light-colored circle that adds a decorative touch to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "Various geometric shapes in soft colors that create an abstract visual interest.",
+      "text_content": "Last-minute savings Special fares today",
+      "bbox_xyxy": [
+        76,
+        407,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.211,
+        0.636,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 8.48
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Bottom text",
+      "description": "Text at the bottom that is less prominent, likely providing additional context or information.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A bold logo featuring the name 'CloudRoute', prominently displayed at the top.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "SALE text",
+      "description": "A bright, eye-catching text that reads 'SALE', positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, warm and modern, CloudRoute logo, last-minute savings.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "CloudRoute, SALE, Last-minute savings, Special fares today, Claim reward",
+    "elements_text": "headline: A simple, modern logo with the text 'CloudRoute' in a bold font, positioned at the top. | body_text: Text that reads 'Last-minute savings' in a large, clear font, centrally placed for emphasis. | cta: A rectangular button with the text 'Claim reward' in a contrasting color, located at the bottom. | body_text: Smaller text below the headline stating 'Special fares today', providing additional information. | discount_badge: A small, bright badge with the word 'SALE' in bold letters, positioned at the top right corner. | decorative_element: A small, light-colored circle that adds a decorative touch to the background. | unknown: Various geometric shapes in soft colors that create an abstract visual interest. text='Last-minute savings Special fares today' | unknown: Text at the bottom that is less prominent, likely providing additional context or information. text='Claim reward' | logo: A bold logo featuring the name 'CloudRoute', prominently displayed at the top. text='CloudRoute' | headline: A bright, eye-catching text that reads 'SALE', positioned at the top right corner. text='SALE'"
+  }
+}

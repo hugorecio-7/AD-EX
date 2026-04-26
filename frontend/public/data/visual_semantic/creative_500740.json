@@ -1,0 +1,218 @@
+{
+  "creative_id": "500740",
+  "asset_file": "assets/creative_500740.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the brand and promotional message.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting special fares for HorizonHop.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "This element features a combination of circles and rectangles in a minimalistic style, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.84
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "The logo displays the name 'HorizonHop' in a bold, modern font, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        152,
+        261,
+        186,
+        295
+      ],
+      "bbox_normalized": [
+        0.478,
+        0.545,
+        0.583,
+        0.615
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A small circle element, visually simple and placed centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        261,
+        71,
+        295
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.545,
+        0.223,
+        0.615
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "medium circle",
+      "description": "A medium-sized circle element, also centrally positioned, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        271,
+        128,
+        305
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.566,
+        0.403,
+        0.636
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.72
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Fly smarter message",
+      "description": "The text 'Fly smarter Special fares today' is prominently displayed in a bold font, centered in the ad.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        69,
+        309,
+        251,
+        358
+      ],
+      "bbox_normalized": [
+        0.216,
+        0.644,
+        0.784,
+        0.746
+      ],
+      "center_normalized": [
+        0.5,
+        0.695
+      ],
+      "area_percentage": 5.81
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A rounded button with the text '€9.99 Try for free' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "€9.99 Try for free",
+      "bbox_xyxy": [
+        23,
+        399,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.37,
+        0.876
+      ],
+      "area_percentage": 5.35
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "HorizonHop title",
+      "description": "The title 'HorizonHop' is presented in a large, bold font at the top of the ad, establishing brand identity.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        23,
+        27,
+        166,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.519,
+        0.117
+      ],
+      "center_normalized": [
+        0.295,
+        0.086
+      ],
+      "area_percentage": 2.7
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalistic with bold text, HorizonHop logo, Fly smarter message, Try for free button",
+    "layout_text": "The logo is at the top, followed by the headline, abstract shapes in the center, and the CTA at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter Special fares today, €9.99 Try for free",
+    "elements_text": "decorative_element: This element features a combination of circles and rectangles in a minimalistic style, positioned centrally. | logo: The logo displays the name 'HorizonHop' in a bold, modern font, located at the top of the ad. | unknown: A small circle element, visually simple and placed centrally within the ad. | unknown: A medium-sized circle element, also centrally positioned, contributing to the abstract design. | headline: The text 'Fly smarter Special fares today' is prominently displayed in a bold font, centered in the ad. text='Fly smarter Special fares today' | cta: A rounded button with the text '€9.99 Try for free' in a contrasting color, located at the bottom of the ad. text='€9.99 Try for free' | headline: The title 'HorizonHop' is presented in a large, bold font at the top of the ad, establishing brand identity. text='HorizonHop'"
+  }
+}

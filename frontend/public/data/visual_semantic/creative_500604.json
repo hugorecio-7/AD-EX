@@ -1,0 +1,458 @@
+{
+  "creative_id": "500604",
+  "asset_file": "assets/creative_500604.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear focus on the app's functionality.",
+    "visual_style": "bright and modern",
+    "main_message": "QuickFork offers quick dinner solutions.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area showing a simplified app interface with three circular icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        89,
+        245,
+        150
+      ],
+      "bbox_normalized": [
+        0.386,
+        0.279,
+        0.767,
+        0.472
+      ],
+      "center_normalized": [
+        0.576,
+        0.376
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, prominent text area at the top with the words 'Dinner in minutes'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        15,
+        297,
+        43
+      ],
+      "bbox_normalized": [
+        0.126,
+        0.05,
+        0.931,
+        0.135
+      ],
+      "center_normalized": [
+        0.528,
+        0.092
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text area below the headline that reads 'Fresh favorites nearby'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        166,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.521,
+        0.458
+      ],
+      "center_normalized": [
+        0.336,
+        0.368
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like area with the text 'Start now' encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        130,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.407,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.587,
+        0.368
+      ],
+      "area_percentage": 6.39
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A small logo area at the top left featuring the text 'QuickFork'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        105,
+        15,
+        297,
+        43
+      ],
+      "bbox_normalized": [
+        0.329,
+        0.05,
+        0.931,
+        0.135
+      ],
+      "center_normalized": [
+        0.63,
+        0.092
+      ],
+      "area_percentage": 5.11
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small rectangular badge at the top right with the word 'SALE' in bold letters.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small area labeled 'UGC' indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.649
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element in the center that may contain additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A large text area at the bottom with the message 'Dinner in minutes Fre Start now'.",
+      "text_content": "Dinner in minutes Fre Start now",
+      "bbox_xyxy": [
+        75,
+        204,
+        232,
+        299
+      ],
+      "bbox_normalized": [
+        0.234,
+        0.637,
+        0.725,
+        0.934
+      ],
+      "center_normalized": [
+        0.48,
+        0.786
+      ],
+      "area_percentage": 14.57
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A small logo area at the top left featuring the text 'QuickFork'.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        23,
+        103,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.322,
+        0.122
+      ],
+      "center_normalized": [
+        0.2,
+        0.097
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small rectangular badge at the top right with the word 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element at the top indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, Dinner in minutes, QuickFork, SALE",
+    "layout_text": "The headline is at the top, the app screenshot is in the center, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, Start now, QuickFork, SALE, UGC",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with three circular icons. | headline: A bold, prominent text area at the top with the words 'Dinner in minutes'. | body_text: A smaller text area below the headline that reads 'Fresh favorites nearby'. | cta: A button-like area with the text 'Start now' encouraging user interaction. | logo: A small logo area at the top left featuring the text 'QuickFork'. | discount_badge: A small rectangular badge at the top right with the word 'SALE' in bold letters. | social_proof: A small area labeled 'UGC' indicating user-generated content. | unknown: An unspecified element in the center that may contain additional content. | unknown: Another unspecified element in the center that may contain additional content. | unknown: An unspecified element in the center that may contain additional content. | unknown: An unspecified element in the center that may contain additional content. | unknown: An unspecified element in the center that may contain additional content. | unknown: An unspecified element in the center that may contain additional content. | body_text: A large text area at the bottom with the message 'Dinner in minutes Fre Start now'. text='Dinner in minutes Fre Start now' | logo: A small logo area at the top left featuring the text 'QuickFork'. text='QuickFork' | discount_badge: A small rectangular badge at the top right with the word 'SALE' in bold letters. text='SALE' | unknown: An unspecified element at the top indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500605",
+  "asset_file": "assets/creative_500605.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a food delivery app interface and promotional text.",
+    "visual_style": "bold and playful",
+    "main_message": "Promoting quick dinner options at a low price.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A vibrant red background fills the entire canvas, providing a bold and eye-catching base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "A simplified representation of a food delivery app interface, featuring a rectangular screen with rounded corners and two circular buttons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        121,
+        301
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.379,
+        0.628
+      ],
+      "center_normalized": [
+        0.264,
+        0.454
+      ],
+      "area_percentage": 8.02
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "A slightly smaller rectangular screen with rounded corners, showcasing a food item or menu option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.239,
+        0.438
+      ],
+      "area_percentage": 5.68
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food delivery app interface",
+      "description": "Another rectangular screen with rounded corners, displaying additional food options or details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with rounded edges, inviting users to take action, likely colored to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional information text",
+      "description": "Smaller text positioned within the app interface, providing extra details about the food delivery service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "Bold, white text stating 'Dinner in minutes' with a playful font, prominently displayed in the center of the ad.",
+      "text_content": "Dinner in minutes Late-night deals available $4.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        308,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.642,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.439,
+        0.778
+      ],
+      "area_percentage": 20.21
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A simple logo for 'QuickFork', featuring a stylized font, positioned at the top left corner.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bold text, designed to attract attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and playful, quick dinner options, food delivery app interface",
+    "layout_text": "The headline is centrally positioned, the app interface is in the center, and the CTA is at the bottom.",
+    "ocr_text": "QuickFork, Dinner in minutes, Late-night deals available, $4.99, Learn more, SALE",
+    "elements_text": "main_subject: A simplified representation of a food delivery app interface, featuring a rectangular screen with rounded corners and two circular buttons. | main_subject: A slightly smaller rectangular screen with rounded corners, showcasing a food item or menu option. | main_subject: Another rectangular screen with rounded corners, displaying additional food options or details. | cta: A prominent button with rounded edges, inviting users to take action, likely colored to stand out against the background. | body_text: Smaller text positioned within the app interface, providing extra details about the food delivery service. | headline: Bold, white text stating 'Dinner in minutes' with a playful font, prominently displayed in the center of the ad. text='Dinner in minutes Late-night deals available $4.99 Learn more' | logo: A simple logo for 'QuickFork', featuring a stylized font, positioned at the top left corner. text='QuickFork' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bold text, designed to attract attention. text='SALE'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500455",
+  "asset_file": "assets/creative_500455.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with various shapes and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting flexible booking options for €19.99.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main promotional graphic",
+      "description": "A large rectangular shape in the center, possibly representing a product or service offering.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular graphic",
+      "description": "A medium-sized circular shape positioned centrally, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.44
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Large rectangular graphic",
+      "description": "A large rectangular shape overlapping with other elements, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circular graphic",
+      "description": "A smaller circular shape that complements the larger graphics in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Another large graphic",
+      "description": "A large rectangular shape that adds depth to the central area of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.347,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text that reads 'Fly smarter' in a bold, prominent font, conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        125,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.393,
+        0.63
+      ],
+      "center_normalized": [
+        0.256,
+        0.58
+      ],
+      "area_percentage": 2.75
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller text below the main message, providing additional details about the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying the price '€19.99' in a clear, eye-catching font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button or text that says 'Claim reward', encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Advertiser logo",
+      "description": "The logo 'CloudRoute' positioned at the top, representing the brand.",
+      "text_content": "Fly smarter Flexible booking options €19.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        205,
+        253,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.791,
+        0.934
+      ],
+      "center_normalized": [
+        0.43,
+        0.787
+      ],
+      "area_percentage": 21.21
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge that says 'SALE', indicating a promotional offer.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        23,
+        23,
+        136,
+        42
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.425,
+        0.131
+      ],
+      "center_normalized": [
+        0.248,
+        0.102
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC', suggesting user-generated content is featured.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting flexible booking options.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter, Flexible booking options, €19.99, Claim reward, CloudRoute, SALE, UGC",
+    "elements_text": "main_subject: A large rectangular shape in the center, possibly representing a product or service offering. | decorative_element: A medium-sized circular shape positioned centrally, adding visual interest. | decorative_element: A large rectangular shape overlapping with other elements, enhancing the design. | decorative_element: A smaller circular shape that complements the larger graphics in the center. | decorative_element: A large rectangular shape that adds depth to the central area of the ad. | body_text: Text that reads 'Fly smarter' in a bold, prominent font, conveying the main message. | body_text: Smaller text below the main message, providing additional details about the offer. | price: Text displaying the price '€19.99' in a clear, eye-catching font. | cta: A button or text that says 'Claim reward', encouraging user interaction. | headline: The logo 'CloudRoute' positioned at the top, representing the brand. text='Fly smarter Flexible booking options €19.99 Claim reward' | discount_badge: A small badge that says 'SALE', indicating a promotional offer. text='CloudRoute' | social_proof: A small tag labeled 'UGC', suggesting user-generated content is featured. text='SALE' | unknown:  text='UGC'"
+  }
+}

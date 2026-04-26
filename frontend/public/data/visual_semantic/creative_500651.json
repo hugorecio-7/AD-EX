@@ -1,0 +1,410 @@
+{
+  "creative_id": "500651",
+  "asset_file": "assets/creative_500651.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a prominent logo and engaging text.",
+    "visual_style": "playful and modern",
+    "main_message": "Encouraging new players to join with rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.81
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The logo features the text 'PixelForge' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative circles",
+      "description": "A cluster of four circular shapes with dark centers, arranged in a grid pattern, adding a playful element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        186,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.583,
+        0.35
+      ],
+      "center_normalized": [
+        0.341,
+        0.294
+      ],
+      "area_percentage": 5.33
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Single decorative circle",
+      "description": "A single circular shape with a dark center, positioned within the cluster of circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        103,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.322,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional decorative circles",
+      "description": "Another circular shape with a dark center, complementing the cluster of circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        182,
+        188,
+        235
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional decorative circles",
+      "description": "A circular shape with a dark center, part of the decorative cluster.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional decorative circles",
+      "description": "A circular shape with a dark center, contributing to the playful design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        102,
+        235
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small arrow icon pointing to the right, indicating a call to action or navigation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A circular shape with a dark center, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape with a dark center, located near the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        147,
+        144
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.46,
+        0.301
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape with a dark center, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape with a dark center, located near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Level up today' is prominently displayed in a bold, white font, conveying excitement.",
+      "text_content": "Level up today Free rewards for new players",
+      "bbox_xyxy": [
+        46,
+        303,
+        276,
+        358
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.631,
+        0.863,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.689
+      ],
+      "area_percentage": 8.24
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "The text 'Free rewards for new players' is displayed below the main headline in a smaller font.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        21,
+        31,
+        130,
+        61
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.065,
+        0.406,
+        0.127
+      ],
+      "center_normalized": [
+        0.236,
+        0.096
+      ],
+      "area_percentage": 2.13
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Book now' in a bold font, inviting user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        115,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.359,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.503,
+        0.894
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 16,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, playful and modern, PixelForge logo, engaging text.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Level up today, Free rewards for new players, PixelForge, Book now, UGC",
+    "elements_text": "logo: The logo features the text 'PixelForge' in a bold, modern font, positioned at the top of the ad. | unknown: A cluster of four circular shapes with dark centers, arranged in a grid pattern, adding a playful element. | unknown: A single circular shape with a dark center, positioned within the cluster of circles. | unknown: Another circular shape with a dark center, complementing the cluster of circles. | unknown: A circular shape with a dark center, part of the decorative cluster. | unknown: A circular shape with a dark center, contributing to the playful design. | icon: A small arrow icon pointing to the right, indicating a call to action or navigation. | unknown: A circular shape with a dark center, positioned centrally within the ad. | unknown: A small circular shape with a dark center, located near the top of the ad. | unknown: A small circular shape with a dark center, positioned at the top left. | unknown: A small circular shape with a dark center, located near the bottom of the ad. | headline: The text 'Level up today' is prominently displayed in a bold, white font, conveying excitement. text='Level up today Free rewards for new players' | body_text: The text 'Free rewards for new players' is displayed below the main headline in a smaller font. text='PixelForge' | cta: A rounded button with the text 'Book now' in a bold font, inviting user interaction. text='Book now' | icon: A small icon labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

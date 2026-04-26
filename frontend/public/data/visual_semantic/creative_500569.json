@@ -1,0 +1,314 @@
+{
+  "creative_id": "500569",
+  "asset_file": "assets/creative_500569.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a prominent message and app interface.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting late-night food rewards.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area showing a simplified app interface with three empty slots for images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Empty icon slot",
+      "description": "A small rectangular slot with a light outline, indicating a placeholder for an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Empty icon slot",
+      "description": "Another small rectangular slot with a light outline, indicating a placeholder for an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Empty icon slot",
+      "description": "A third small rectangular slot with a light outline, indicating a placeholder for an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon slot",
+      "description": "A small circular slot with a light outline, indicating a placeholder for an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small icon slot",
+      "description": "Another small circular slot with a light outline, indicating a placeholder for an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small circular decorative element positioned towards the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "Another small circular decorative element positioned near the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold white text that reads 'Hungry? We got you Late ble Claim reward' against the orange background.",
+      "text_content": "Hungry? We got you Late ble Claim reward",
+      "bbox_xyxy": [
+        36,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.113,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.508,
+        0.787
+      ],
+      "area_percentage": 23.22
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CraveLoop' displayed in a bold font at the top left corner.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in bold, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, CraveLoop, SALE, late-night food rewards.",
+    "layout_text": "The logo is at the top left, the sale badge at the top right, the main message is centered, and the app interface is below.",
+    "ocr_text": "Hungry? We got you Late ble Claim reward, CraveLoop, SALE",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with three empty slots for images. | icon: A small rectangular slot with a light outline, indicating a placeholder for an icon. | icon: Another small rectangular slot with a light outline, indicating a placeholder for an icon. | icon: A third small rectangular slot with a light outline, indicating a placeholder for an icon. | icon: A small circular slot with a light outline, indicating a placeholder for an icon. | icon: Another small circular slot with a light outline, indicating a placeholder for an icon. | decorative_element: A small circular decorative element positioned towards the bottom left. | decorative_element: Another small circular decorative element positioned near the bottom left. | body_text: Bold white text that reads 'Hungry? We got you Late ble Claim reward' against the orange background. text='Hungry? We got you Late ble Claim reward' | logo: The logo 'CraveLoop' displayed in a bold font at the top left corner. text='CraveLoop' | discount_badge: A small yellow badge with the text 'SALE' in bold, positioned at the top right corner. text='SALE'"
+  }
+}

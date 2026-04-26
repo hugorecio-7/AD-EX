@@ -1,0 +1,266 @@
+{
+  "creative_id": "500387",
+  "asset_file": "assets/creative_500387.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant yellow background with a clear promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 late-night deal with a discount.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "yellow background",
+      "description": "A solid yellow background that fills the entire canvas, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        8,
+        59,
+        309,
+        233
+      ],
+      "bbox_normalized": [
+        0.026,
+        0.185,
+        0.966,
+        0.729
+      ],
+      "center_normalized": [
+        0.496,
+        0.457
+      ],
+      "area_percentage": 51.1
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "QuickFork logo",
+      "description": "A stylized logo at the top, featuring the text 'QuickFork' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "2-for-1 offer",
+      "description": "Large, bold text in the center stating '2-for-1 tonight' that is easy to read and grabs attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        166,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.521,
+        0.458
+      ],
+      "center_normalized": [
+        0.336,
+        0.368
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Late-night deals",
+      "description": "Smaller text below the main offer that reads 'Late-night deals available', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "30% discount",
+      "description": "A prominent badge displaying '-30%' in a contrasting color, indicating a discount on the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A clear call-to-action button labeled 'Order now' in bold text, designed to encourage immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "two squares icon",
+      "description": "An icon depicting two overlapping squares, symbolizing the 2-for-1 offer, placed near the discount badge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "sale banner",
+      "description": "A banner at the top right corner with the word 'SALE' in bold letters, adding urgency to the ad.",
+      "text_content": "2-for-1 tonight Late-night deals available 30% Order now",
+      "bbox_xyxy": [
+        30,
+        205,
+        276,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.641,
+        0.863,
+        0.934
+      ],
+      "center_normalized": [
+        0.478,
+        0.787
+      ],
+      "area_percentage": 22.58
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles, possibly decorative.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        23,
+        103,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.322,
+        0.116
+      ],
+      "center_normalized": [
+        0.2,
+        0.094
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another unspecified element that does not clearly fit into the defined roles, possibly decorative.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, QuickFork logo, 2-for-1 offer, discount badge",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "QuickFork, SALE, 2-for-1 tonight, Late-night deals available, -30%, Order now",
+    "elements_text": "headline: A stylized logo at the top, featuring the text 'QuickFork' in a bold, modern font. | body_text: Large, bold text in the center stating '2-for-1 tonight' that is easy to read and grabs attention. | body_text: Smaller text below the main offer that reads 'Late-night deals available', providing additional context. | discount_badge: A prominent badge displaying '-30%' in a contrasting color, indicating a discount on the offer. | cta: A clear call-to-action button labeled 'Order now' in bold text, designed to encourage immediate action. | icon: An icon depicting two overlapping squares, symbolizing the 2-for-1 offer, placed near the discount badge. | decorative_element: A banner at the top right corner with the word 'SALE' in bold letters, adding urgency to the ad. text='2-for-1 tonight Late-night deals available 30% Order now' | unknown: An unspecified element that does not clearly fit into the defined roles, possibly decorative. text='QuickFork' | unknown: Another unspecified element that does not clearly fit into the defined roles, possibly decorative. text='SALE'"
+  }
+}

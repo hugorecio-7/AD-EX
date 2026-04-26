@@ -1,0 +1,170 @@
+{
+  "creative_id": "500533",
+  "asset_file": "assets/creative_500533.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on food delivery services.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with an emphasis on freshness and convenience.",
+    "dominant_colors": [
+      "light green",
+      "dark green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A simple, modern logo featuring the text 'FreshDash' in a bold font, set against a light green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative icons",
+      "description": "Two stylized icons resembling food containers, outlined in white, positioned centrally on a light green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative icons",
+      "description": "Another stylized icon resembling a food container, outlined in white, positioned slightly below the first two icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Your cravings, delivered' with a smaller subtitle 'Fresh favorites nearby' in a lighter font, set against a light green background.",
+      "text_content": "Your cravings, delivered Fresh favorites nearby €19.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        303,
+        274,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.631,
+        0.856,
+        0.915
+      ],
+      "center_normalized": [
+        0.463,
+        0.773
+      ],
+      "area_percentage": 22.31
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Watch now' in white, set against a dark green background, positioned at the bottom of the ad.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        22,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.272,
+        0.09
+      ],
+      "area_percentage": 2.2
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, FreshDash logo, food delivery message",
+    "layout_text": "The logo is at the top, decorative icons are centered, the main message text is below, and the CTA is at the bottom.",
+    "ocr_text": "FreshDash, Your cravings, delivered, Fresh favorites nearby, €19.99, Watch now",
+    "elements_text": "logo: A simple, modern logo featuring the text 'FreshDash' in a bold font, set against a light green background. | unknown: Two stylized icons resembling food containers, outlined in white, positioned centrally on a light green background. | unknown: Another stylized icon resembling a food container, outlined in white, positioned slightly below the first two icons. | body_text: Bold, black text stating 'Your cravings, delivered' with a smaller subtitle 'Fresh favorites nearby' in a lighter font, set against a light green background. text='Your cravings, delivered Fresh favorites nearby €19.99 Watch now' | cta: A prominent button with the text 'Watch now' in white, set against a dark green background, positioned at the bottom of the ad. text='FreshDash'"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "creative_id": "500374",
+  "asset_file": "assets/creative_500374.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a secure and simple financial service with no hidden fees.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in lighter shades of green, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Secure & simple No hidden fees', prominently displayed in the center of the ad.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.503,
+        0.69
+      ],
+      "area_percentage": 8.0
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The logo 'ClearLedger' in a bold font, positioned at the top of the ad, conveying brand identity.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        24,
+        28,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 2.7
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent black button with the text 'Start now', located at the bottom of the ad, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, ClearLedger logo, secure and simple message",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple No hidden fees, ClearLedger, Start now",
+    "elements_text": "decorative_element: Two overlapping geometric shapes, one circular and one rectangular, in lighter shades of green, adding visual interest. | body_text: Bold, black text stating 'Secure & simple No hidden fees', prominently displayed in the center of the ad. text='Secure & simple No hidden fees' | logo: The logo 'ClearLedger' in a bold font, positioned at the top of the ad, conveying brand identity. text='ClearLedger' | cta: A prominent black button with the text 'Start now', located at the bottom of the ad, inviting user interaction. text='Start now'"
+  }
+}

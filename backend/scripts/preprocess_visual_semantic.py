@@ -153,16 +153,27 @@ def call_llm_single(creative: dict, raw_elements: list, img_w: int, img_h: int, 
             {"role": "user", "content": user_text},
         ]
 
-    response = client.chat.completions.create(
-        model=MODEL,
-        messages=messages,
-        response_format={"type": "json_object"},
-        temperature=0.1,
-        max_tokens=1200,
-    )
+    # Retry loop for malformed JSON (e.g. unescaped quotes in OCR text)
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Increase temperature slightly on retries to avoid getting stuck producing the same bad JSON
+            temperature = 0.1 if attempt == 0 else 0.4
 
-    raw = response.choices[0].message.content.strip()
-    return json.loads(raw)
+            response = client.chat.completions.create(
+                model=MODEL,
+                messages=messages,
+                response_format={"type": "json_object"},
+                temperature=temperature,
+                max_tokens=4096,
+            )
+
+            raw = response.choices[0].message.content.strip()
+            return json.loads(raw)
+        except json.JSONDecodeError as e:
+            if attempt == max_retries - 1:
+                raise Exception(f"Failed to parse JSON after {max_retries} attempts. Last error: {e}")
+            print(f"      [Retry {attempt+1}/{max_retries}] JSON parse error: {e}. Retrying...")
 
 
 # ── Element geometry builder ───────────────────────────────────────────────────
@@ -219,6 +230,9 @@ def load_elements(cid: str) -> list:
 def process_creative(creative: dict, use_vision: bool = True) -> tuple[str, str]:
     """Returns (cid, status_message)"""
     cid = str(creative.get("id", ""))
+    if cid.endswith("_v2"):
+        return cid, "SKIP (generated image, not a source asset)"
+        
     out_path = OUTPUT_DIR / f"creative_{cid}.json"
 
     raw_elements = load_elements(cid)

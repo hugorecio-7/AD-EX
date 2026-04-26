@@ -1,0 +1,290 @@
+{
+  "creative_id": "500743",
+  "asset_file": "assets/creative_500743.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with layered shapes and text elements promoting a service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special fares with a call to action.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Large rectangle",
+      "description": "A large rectangular shape in the center, slightly transparent, with rounded corners, suggesting a content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangle overlapping the larger one, also with rounded corners, indicating another content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        208,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.325,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.422
+      ],
+      "area_percentage": 11.38
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Large oval",
+      "description": "A large oval shape positioned in the center, adding a decorative touch to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Medium oval",
+      "description": "A medium oval shape that overlaps with other elements, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circle",
+      "description": "A small circle located at the top, serving as a decorative icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Text block",
+      "description": "A text block positioned lower in the center, featuring a clear and readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Text overlay",
+      "description": "A smaller text overlay positioned within the main subject area, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline at the top, featuring bold text that captures attention.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        24,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.12
+      ],
+      "area_percentage": 14.73
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "A clear promotional message in the center, inviting users to take action.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        79,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.219,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.685
+      ],
+      "area_percentage": 4.87
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom with a clear call to action, encouraging users to engage.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, HorizonHop UGC, special fares",
+    "layout_text": "The headline is at the top, main subjects are centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop UGC, Fly smarter Special fares today, Watch now",
+    "elements_text": "main_subject: A large rectangular shape in the center, slightly transparent, with rounded corners, suggesting a content area. | main_subject: A medium-sized rectangle overlapping the larger one, also with rounded corners, indicating another content area. | decorative_element: A large oval shape positioned in the center, adding a decorative touch to the composition. | decorative_element: A medium oval shape that overlaps with other elements, enhancing the visual interest. | icon: A small circle located at the top, serving as a decorative icon. | body_text: A text block positioned lower in the center, featuring a clear and readable font. | body_text: A smaller text overlay positioned within the main subject area, providing additional information. | headline: A prominent headline at the top, featuring bold text that captures attention. text='HorizonHop UGC' | body_text: A clear promotional message in the center, inviting users to take action. text='Fly smarter Special fares today' | cta: A button at the bottom with a clear call to action, encouraging users to engage. text='Watch now'"
+  }
+}

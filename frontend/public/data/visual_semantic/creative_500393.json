@@ -1,0 +1,290 @@
+{
+  "creative_id": "500393",
+  "asset_file": "assets/creative_500393.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a central content area showcasing various shapes and text.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting a binge-watching service with new content available weekly.",
+    "dominant_colors": [
+      "red",
+      "light red"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central rectangular area with a light red hue, featuring abstract shapes that suggest media content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        205,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.321,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.42
+      ],
+      "area_percentage": 10.95
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large circular shape in the center of the content area, slightly lighter than the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A square shape positioned within the content area, contrasting with the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "A small text label in the top left corner that reads 'UGC' in a simple, bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A small button at the bottom center with rounded edges, featuring the text 'Order now' in a clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "Three dots",
+      "description": "Three small circular dots aligned horizontally, suggesting user engagement or options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline in the center of the content area that reads 'Binge starts now New hits every week' in a prominent font.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo 'BingeLayer' is displayed prominently at the top, in a bold and modern font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Order now text",
+      "description": "A small text at the bottom center that reads 'Order now' in a clear, inviting font.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "UGC tag",
+      "description": "A small tag in the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, BingeLayer logo, engaging headline.",
+    "layout_text": "The headline is centered in the content area, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "BingeLayer, UGC, Binge starts now New hits every week, Order now",
+    "elements_text": "main_subject: A central rectangular area with a light red hue, featuring abstract shapes that suggest media content. | decorative_element: A large circular shape in the center of the content area, slightly lighter than the background. | decorative_element: A square shape positioned within the content area, contrasting with the circular shape. | body_text: A small text label in the top left corner that reads 'UGC' in a simple, bold font. | cta: A small button at the bottom center with rounded edges, featuring the text 'Order now' in a clear font. | social_proof: Three small circular dots aligned horizontally, suggesting user engagement or options. | headline: A bold headline in the center of the content area that reads 'Binge starts now New hits every week' in a prominent font. text='Binge starts now New hits every week' | logo: The logo 'BingeLayer' is displayed prominently at the top, in a bold and modern font. text='BingeLayer' | cta: A small text at the bottom center that reads 'Order now' in a clear, inviting font. text='Order now' | social_proof: A small tag in the top left corner labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

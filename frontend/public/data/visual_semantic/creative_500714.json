@@ -1,0 +1,290 @@
+{
+  "creative_id": "500714",
+  "asset_file": "assets/creative_500714.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with various shapes and text elements promoting an exclusive offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a free trial for FluxStream.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic",
+      "description": "A large rectangular shape in the center, possibly representing a product or app interface, with a smooth outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.398
+      ],
+      "area_percentage": 14.42
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "oval shape",
+      "description": "An oval shape positioned centrally, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "smaller rectangle",
+      "description": "A smaller rectangular shape located in the center, complementing the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "top logo",
+      "description": "A small logo or icon positioned at the top left, possibly representing the brand.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "exclusive offer text",
+      "description": "Text that reads 'Exclusive tonight Start free today', displayed prominently in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button or text at the bottom that says 'Try for free', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "decorative circles",
+      "description": "Two small circular shapes positioned centrally, serving as decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "headline text",
+      "description": "The word 'FluxStream' displayed prominently at the top in a large, bold font.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "offer details",
+      "description": "Text that provides details about the offer, positioned centrally and designed to be eye-catching.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "bottom call to action",
+      "description": "A button or text at the bottom that encourages users to take action, designed to stand out.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, FluxStream, exclusive offer",
+    "layout_text": "The headline is at the top, the main subject is centrally located, and the CTA is at the bottom.",
+    "ocr_text": "FluxStream, Exclusive tonight Start free today, Try for free",
+    "elements_text": "main_subject: A large rectangular shape in the center, possibly representing a product or app interface, with a smooth outline. | decorative_element: An oval shape positioned centrally, adding a decorative touch to the layout. | decorative_element: A smaller rectangular shape located in the center, complementing the main subject. | logo: A small logo or icon positioned at the top left, possibly representing the brand. | body_text: Text that reads 'Exclusive tonight Start free today', displayed prominently in a bold font. | cta: A button or text at the bottom that says 'Try for free', designed to attract user interaction. | icon: Two small circular shapes positioned centrally, serving as decorative elements. | headline: The word 'FluxStream' displayed prominently at the top in a large, bold font. text='FluxStream' | body_text: Text that provides details about the offer, positioned centrally and designed to be eye-catching. text='Exclusive tonight Start free today' | cta: A button or text at the bottom that encourages users to take action, designed to stand out. text='Try for free'"
+  }
+}

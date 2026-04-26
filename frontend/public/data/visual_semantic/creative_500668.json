@@ -1,0 +1,386 @@
+{
+  "creative_id": "500668",
+  "asset_file": "assets/creative_500668.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text elements promoting a travel offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel deal for hotels and flights.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "An abstract background featuring geometric shapes in warm orange tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.268
+      ],
+      "center_normalized": [
+        0.499,
+        0.134
+      ],
+      "area_percentage": 26.71
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "A bold, white headline text that stands out prominently against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.502,
+        0.239
+      ],
+      "area_percentage": 23.47
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Hotels + flights in one tap",
+      "description": "A smaller, white text that provides additional information, positioned below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Order now",
+      "description": "A bright button with the text 'Order now' in white, designed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.14
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "€19.99",
+      "description": "A prominent price tag in white, indicating the cost of the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A small logo positioned at the top left corner, featuring the brand name 'CloudRoute' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.49
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "€19.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, Escape this weekend, Order now, €19.99",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA and price at the bottom.",
+    "ocr_text": "Escape this weekend, Hotels + flights in one tap, €19.99, Order now, CloudRoute",
+    "elements_text": "decorative_element: An abstract background featuring geometric shapes in warm orange tones. | headline: A bold, white headline text that stands out prominently against the background. | body_text: A smaller, white text that provides additional information, positioned below the headline. | cta: A bright button with the text 'Order now' in white, designed to attract attention. | price: A prominent price tag in white, indicating the cost of the offer. | logo: A small logo positioned at the top left corner, featuring the brand name 'CloudRoute' in a simple font. | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  text='Escape this weekend Hotels flights in one tap' | unknown:  text='€19.99 Order now' | unknown:  text='CloudRoute'"
+  }
+}

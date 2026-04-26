@@ -1,0 +1,338 @@
+{
+  "creative_id": "500538",
+  "asset_file": "assets/creative_500538.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with prominent text and call-to-action elements.",
+    "visual_style": "modern and vibrant",
+    "main_message": "The ad promotes a streaming service with a focus on binge-watching.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        59,
+        318,
+        235
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.186,
+        0.994,
+        0.737
+      ],
+      "center_normalized": [
+        0.499,
+        0.461
+      ],
+      "area_percentage": 54.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PulsePlay logo",
+      "description": "A small logo at the top left corner, featuring the text 'PulsePlay' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Binge starts now' is prominently displayed in a large, white font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.771,
+        0.514
+      ],
+      "center_normalized": [
+        0.47,
+        0.376
+      ],
+      "area_percentage": 16.59
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "The phrase 'Cancel anytime' appears below the main message in a smaller, white font, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Learn more' in a bold font, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape, possibly an oval, located in the center of the ad, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative rectangle",
+      "description": "A rectangular shape positioned slightly off-center, contributing to the overall design without specific meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular element located near the center, serving as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional rectangle",
+      "description": "Another rectangular shape that adds to the layered design of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.344,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.587,
+        0.428
+      ],
+      "area_percentage": 6.17
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Vertical element",
+      "description": "A tall, narrow shape positioned towards the bottom right, enhancing the visual complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Binge starts now' is prominently displayed in a large, white font, centered in the ad.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        27,
+        202,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.631,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.714
+      ],
+      "area_percentage": 13.66
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button at the bottom center with the text 'Learn more' in a bold font, inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "PulsePlay logo",
+      "description": "A small logo at the top left corner, featuring the text 'PulsePlay' in a bold, modern font.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, PulsePlay logo, binge-watching promotion",
+    "layout_text": "The headline is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, Learn more, PulsePlay",
+    "elements_text": "headline: A small logo at the top left corner, featuring the text 'PulsePlay' in a bold, modern font. | body_text: The text 'Binge starts now' is prominently displayed in a large, white font, centered in the ad. | body_text: The phrase 'Cancel anytime' appears below the main message in a smaller, white font, providing additional information. | cta: A rounded button at the bottom center with the text 'Learn more' in a bold font, inviting user interaction. | unknown: An abstract shape, possibly an oval, located in the center of the ad, adding visual interest. | unknown: A rectangular shape positioned slightly off-center, contributing to the overall design without specific meaning. | unknown: A small circular element located near the center, serving as a decorative feature. | unknown: Another rectangular shape that adds to the layered design of the ad. | unknown: A tall, narrow shape positioned towards the bottom right, enhancing the visual complexity. | body_text: The text 'Binge starts now' is prominently displayed in a large, white font, centered in the ad. text='Binge starts now Cancel anytime' | cta: A rounded button at the bottom center with the text 'Learn more' in a bold font, inviting user interaction. text='Learn more' | headline: A small logo at the top left corner, featuring the text 'PulsePlay' in a bold, modern font. text='PulsePlay'"
+  }
+}

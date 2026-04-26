@@ -1,0 +1,338 @@
+{
+  "creative_id": "500508",
+  "asset_file": "assets/creative_500508.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent call-to-action and game elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to join the game with a bonus offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "Join the arena",
+      "description": "A bold, white text that reads 'Join the arena' prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "No ads in first week",
+      "description": "A smaller, white text that states 'No ads in first week' positioned below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "VoxelRealm BONUS",
+      "description": "A bright, eye-catching logo that says 'VoxelRealm BONUS' in a playful font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Start now",
+      "description": "A prominent button with the text 'Start now' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Game grid",
+      "description": "A grid-like structure with four circles, suggesting a gameplay or app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Arrow icon",
+      "description": "A simple right-facing arrow icon indicating progression or navigation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Circle icon",
+      "description": "A small circle icon that appears to be part of the game grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Circle icon",
+      "description": "Another small circle icon, similar to the previous one, within the game grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Circle icon",
+      "description": "A small circle icon positioned at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Circle icon",
+      "description": "Another small circle icon located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background that fills the entire ad space, providing a vibrant backdrop.",
+      "text_content": "Join the arena No ads in first week",
+      "bbox_xyxy": [
+        53,
+        407,
+        303,
+        463
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.842,
+        0.723
+      ],
+      "center_normalized": [
+        0.494,
+        0.68
+      ],
+      "area_percentage": 6.08
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Bonus label",
+      "description": "A small, bright label indicating a bonus, positioned at the top right corner.",
+      "text_content": "VoxelRealm BONUS",
+      "bbox_xyxy": [
+        27,
+        40,
+        331,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.919,
+        0.122
+      ],
+      "center_normalized": [
+        0.497,
+        0.092
+      ],
+      "area_percentage": 5.01
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A clear, inviting button at the bottom of the ad with the text 'Start now' in white.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, key elements include a call-to-action and game interface.",
+    "layout_text": "The headline is centered, with the body text below it, and the CTA button at the bottom.",
+    "ocr_text": "Join the arena, No ads in first week, VoxelRealm BONUS, Start now",
+    "elements_text": "headline: A bold, white text that reads 'Join the arena' prominently displayed in the center of the ad. | body_text: A smaller, white text that states 'No ads in first week' positioned below the headline. | logo: A bright, eye-catching logo that says 'VoxelRealm BONUS' in a playful font at the top of the ad. | cta: A prominent button with the text 'Start now' in white, inviting users to take action. | unknown: A grid-like structure with four circles, suggesting a gameplay or app interface. | decorative_element: A simple right-facing arrow icon indicating progression or navigation. | unknown: A small circle icon that appears to be part of the game grid. | unknown: Another small circle icon, similar to the previous one, within the game grid. | unknown: A small circle icon positioned at the top left of the ad. | unknown: Another small circle icon located at the top right of the ad. | unknown: A small, bright label indicating a bonus, positioned at the top right corner. text='VoxelRealm BONUS' | cta: A clear, inviting button at the bottom of the ad with the text 'Start now' in white. text='Start now'"
+  }
+}

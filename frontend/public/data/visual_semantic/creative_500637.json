@@ -1,0 +1,290 @@
+{
+  "creative_id": "500637",
+  "asset_file": "assets/creative_500637.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional text and app interface elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting late-night fast food deals through an app.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Top orange background",
+      "description": "A vibrant orange background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface display",
+      "description": "A rectangular area showing a simplified app interface with three outlined boxes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Icon placeholder",
+      "description": "A small rectangular area with an outlined icon, suggesting a feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Icon placeholder",
+      "description": "Another small rectangular area with an outlined icon, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Icon placeholder",
+      "description": "A small rectangular area with an outlined icon, indicating another feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Icon placeholder",
+      "description": "A small rectangular area with an outlined icon, representing a feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Icon placeholder",
+      "description": "A small rectangular area with an outlined icon, indicating another feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Bold white text stating 'Fast food, fast Late-night deals available' on an orange background.",
+      "text_content": "Fast food, fast Late-night deals available",
+      "bbox_xyxy": [
+        48,
+        206,
+        274,
+        255
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.644,
+        0.856,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.72
+      ],
+      "area_percentage": 10.81
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Install now' in white on an orange background.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'PlateSprint' displayed in a bold font on a light background.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        21,
+        113,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.353,
+        0.122
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in bold, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, fast food deals, app interface.",
+    "layout_text": "The logo and sale badge are at the top, the app interface is centered, with promotional text above and a CTA button below.",
+    "ocr_text": "Fast food, fast Late-night deals available, Install now, PlateSprint, SALE",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with three outlined boxes. | icon: A small rectangular area with an outlined icon, suggesting a feature of the app. | icon: Another small rectangular area with an outlined icon, similar to the previous one. | icon: A small rectangular area with an outlined icon, indicating another feature of the app. | icon: A small rectangular area with an outlined icon, representing a feature of the app. | icon: A small rectangular area with an outlined icon, indicating another feature of the app. | body_text: Bold white text stating 'Fast food, fast Late-night deals available' on an orange background. text='Fast food, fast Late-night deals available' | cta: A prominent button with the text 'Install now' in white on an orange background. text='Install now' | logo: The logo 'PlateSprint' displayed in a bold font on a light background. text='PlateSprint' | discount_badge: A small yellow badge with the text 'SALE' in bold, indicating a promotional offer. text='SALE'"
+  }
+}

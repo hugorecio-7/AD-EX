@@ -1,0 +1,362 @@
+{
+  "creative_id": "500708",
+  "asset_file": "assets/creative_500708.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo, app screenshots, and a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting late-night food delivery with a focus on user-generated content.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App screenshot",
+      "description": "A rectangular area displaying three empty placeholders for images, suggesting a gallery or product showcase.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.53
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App screenshot",
+      "description": "Another rectangular area similar to the previous one, indicating more placeholders for images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        164,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.513,
+        0.279,
+        0.767,
+        0.458
+      ],
+      "center_normalized": [
+        0.64,
+        0.369
+      ],
+      "area_percentage": 4.54
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App screenshot",
+      "description": "A smaller rectangular area with a placeholder for an image, positioned to the left of the larger screenshots.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App screenshot",
+      "description": "A rectangular area with a placeholder for an image, positioned to the right of the smaller screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "App screenshot",
+      "description": "A rectangular area displaying a placeholder for an image, slightly lower than the other screenshots.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small rectangular area with a placeholder, adding visual interest to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "Another small rectangular area with a placeholder, complementing the previous decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small rectangular area with a placeholder, positioned below the main app screenshots.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.19
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold text stating 'Your cravings, delivered Late night deals available', centrally positioned at the bottom.",
+      "text_content": "Your cravings, delivered Late Hable Shop now",
+      "bbox_xyxy": [
+        50,
+        198,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.619,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.508,
+        0.777
+      ],
+      "area_percentage": 22.19
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Text reading 'BiteRush' in a prominent font, located at the top of the ad.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        25,
+        23,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.097
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the word 'SALE' in bold letters, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "Text labeled 'UGC' in a small font, located at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, BiteRush logo, app screenshots, sale badge.",
+    "layout_text": "The headline is at the top, followed by app screenshots in the center, and the main message text at the bottom.",
+    "ocr_text": "BiteRush, SALE, UGC, Your cravings, delivered, Late night deals available, Shop now",
+    "elements_text": "logo: A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left corner. | app_screenshot: A rectangular area displaying three empty placeholders for images, suggesting a gallery or product showcase. | app_screenshot: Another rectangular area similar to the previous one, indicating more placeholders for images. | app_screenshot: A smaller rectangular area with a placeholder for an image, positioned to the left of the larger screenshots. | app_screenshot: A rectangular area with a placeholder for an image, positioned to the right of the smaller screenshot. | app_screenshot: A rectangular area displaying a placeholder for an image, slightly lower than the other screenshots. | decorative_element: A small rectangular area with a placeholder, adding visual interest to the layout. | decorative_element: Another small rectangular area with a placeholder, complementing the previous decorative element. | decorative_element: A small rectangular area with a placeholder, positioned below the main app screenshots. | body_text: Bold text stating 'Your cravings, delivered Late night deals available', centrally positioned at the bottom. text='Your cravings, delivered Late Hable Shop now' | headline: Text reading 'BiteRush' in a prominent font, located at the top of the ad. text='BiteRush' | discount_badge: A small badge with the word 'SALE' in bold letters, positioned at the top right corner. text='SALE' | social_proof: Text labeled 'UGC' in a small font, located at the top left corner. text='UGC'"
+  }
+}

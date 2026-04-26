@@ -1,0 +1,194 @@
+{
+  "creative_id": "500602",
+  "asset_file": "assets/creative_500602.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with a prominent logo and call-to-action.",
+    "visual_style": "bold and minimalistic",
+    "main_message": "QuickFork offers nearby food options.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        359,
+        261
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.142,
+        0.998,
+        0.408
+      ],
+      "center_normalized": [
+        0.502,
+        0.275
+      ],
+      "area_percentage": 26.48
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' is prominently displayed in bold, black font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.141,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.25
+      ],
+      "area_percentage": 21.59
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A stylized representation of a mobile app interface, shown as a simple outline in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "A decorative zigzag shape in a lighter red color positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Hungry? We got you",
+      "description": "A bold, white headline text that reads 'Hungry? We got you' centered in the lower part of the ad.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        43,
+        411,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.642,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.74
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "A smaller white text below the headline that says 'Fresh favorites nearby'.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        35,
+        331,
+        101
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.919,
+        0.158
+      ],
+      "center_normalized": [
+        0.494,
+        0.106
+      ],
+      "area_percentage": 8.77
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent white button with the text 'Book now' at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and minimalistic, QuickFork logo, call-to-action.",
+    "layout_text": "The logo is at the top, followed by an app screenshot in the center, and the headline and CTA at the bottom.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, QuickFork, Book now",
+    "elements_text": "logo: The logo 'QuickFork' is prominently displayed in bold, black font at the top of the ad. | app_screenshot: A stylized representation of a mobile app interface, shown as a simple outline in the center. | decorative_element: A decorative zigzag shape in a lighter red color positioned at the top left. | headline: A bold, white headline text that reads 'Hungry? We got you' centered in the lower part of the ad. text='Hungry? We got you Fresh favorites nearby' | body_text: A smaller white text below the headline that says 'Fresh favorites nearby'. text='QuickFork' | cta: A prominent white button with the text 'Book now' at the bottom of the ad. text='Book now'"
+  }
+}

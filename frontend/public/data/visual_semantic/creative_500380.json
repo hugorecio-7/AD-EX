@@ -1,0 +1,266 @@
+{
+  "creative_id": "500380",
+  "asset_file": "assets/creative_500380.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on the promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend escape with flexible booking options.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green abstract background",
+      "description": "A vibrant green background with abstract shapes and a smooth gradient.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.144,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.501,
+        0.299
+      ],
+      "area_percentage": 30.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' displayed prominently in a bold, modern font at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.141,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.25
+      ],
+      "area_percentage": 21.59
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "A large, bold headline in black text that captures attention, centered in the middle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A smaller, yet clear text below the headline, providing additional information in black.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.242,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "€19.99 price tag",
+      "description": "A prominent price displayed in a bold font, located near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A clear call-to-action button in a contrasting color, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "Various abstract shapes in lighter shades of green scattered throughout the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An element at the bottom that adds visual interest but does not convey specific information.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An additional decorative element that enhances the overall design without specific context.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        101
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.158
+      ],
+      "center_normalized": [
+        0.475,
+        0.106
+      ],
+      "area_percentage": 8.25
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Order now text",
+      "description": "A clear and inviting text for the call-to-action, encouraging immediate engagement.",
+      "text_content": "€19.99 Order now",
+      "bbox_xyxy": [
+        25,
+        533,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.361,
+        0.87
+      ],
+      "area_percentage": 4.38
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, WayPoint logo, escape weekend message",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the price and CTA at the bottom.",
+    "ocr_text": "WayPoint, Escape this weekend, Flexible booking options, €19.99, Order now",
+    "elements_text": "logo: The logo 'WayPoint' displayed prominently in a bold, modern font at the top. | headline: A large, bold headline in black text that captures attention, centered in the middle. | body_text: A smaller, yet clear text below the headline, providing additional information in black. | price: A prominent price displayed in a bold font, located near the bottom of the ad. | cta: A clear call-to-action button in a contrasting color, inviting users to take action. | decorative_element: Various abstract shapes in lighter shades of green scattered throughout the background. | unknown: An element at the bottom that adds visual interest but does not convey specific information. text='Escape this weekend Flexible booking options' | unknown: An additional decorative element that enhances the overall design without specific context. text='WayPoint' | cta: A clear and inviting text for the call-to-action, encouraging immediate engagement. text='€19.99 Order now'"
+  }
+}

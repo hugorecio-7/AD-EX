@@ -1,0 +1,410 @@
+{
+  "creative_id": "500394",
+  "asset_file": "assets/creative_500394.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent call to action and multiple content areas showcasing information.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting a free trial for BingeLayer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A small logo positioned at the top, featuring the text 'BingeLayer' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center, likely displaying key visuals or information related to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.77,
+        0.513
+      ],
+      "center_normalized": [
+        0.47,
+        0.375
+      ],
+      "area_percentage": 16.51
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary content area",
+      "description": "Another large rectangular area in the center, possibly showcasing additional visuals or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.69
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Additional content area",
+      "description": "A large rectangular area in the center, likely containing more information or visuals relevant to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        274,
+        166
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.337,
+        0.856,
+        0.52
+      ],
+      "center_normalized": [
+        0.546,
+        0.429
+      ],
+      "area_percentage": 11.39
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular area in the center, possibly displaying more details or images related to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular area in the center, likely containing additional visuals or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A smaller rectangular area in the center, possibly showcasing a specific feature or detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular area in the center, likely displaying more information or visuals relevant to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 9,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A smaller rectangular area in the center, possibly showcasing a specific feature or detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 10,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A rectangular area in the center, likely containing additional visuals or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.92
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A smaller text area at the bottom, likely providing additional information or context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        125,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.393,
+        0.629
+      ],
+      "center_normalized": [
+        0.256,
+        0.58
+      ],
+      "area_percentage": 2.69
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text area at the bottom, possibly containing supplementary information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A very small text area at the bottom, likely providing minimal additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom, featuring the message 'Exclusive tonight Try for free' in a bold font.",
+      "text_content": "Exclusive tonight Try for free",
+      "bbox_xyxy": [
+        88,
+        204,
+        234,
+        299
+      ],
+      "bbox_normalized": [
+        0.275,
+        0.637,
+        0.731,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 13.54
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "A small text area at the top, displaying the logo or brand name in a bold font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, simple and modern, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top, multiple content areas are centered, and the call to action is at the bottom.",
+    "ocr_text": "BingeLayer, Exclusive tonight Try for free",
+    "elements_text": "logo: A small logo positioned at the top, featuring the text 'BingeLayer' in a bold font. | main_subject: A large rectangular area in the center, likely displaying key visuals or information related to the ad. | main_subject: Another large rectangular area in the center, possibly showcasing additional visuals or text. | main_subject: A large rectangular area in the center, likely containing more information or visuals relevant to the ad. | main_subject: A rectangular area in the center, possibly displaying more details or images related to the ad. | main_subject: A rectangular area in the center, likely containing additional visuals or text. | main_subject: A smaller rectangular area in the center, possibly showcasing a specific feature or detail. | main_subject: A rectangular area in the center, likely displaying more information or visuals relevant to the ad. | main_subject: A smaller rectangular area in the center, possibly showcasing a specific feature or detail. | main_subject: A rectangular area in the center, likely containing additional visuals or text. | body_text: A smaller text area at the bottom, likely providing additional information or context. | body_text: A small text area at the bottom, possibly containing supplementary information. | body_text: A very small text area at the bottom, likely providing minimal additional information. | cta: A prominent text area at the bottom, featuring the message 'Exclusive tonight Try for free' in a bold font. text='Exclusive tonight Try for free' | headline: A small text area at the top, displaying the logo or brand name in a bold font. text='BingeLayer'"
+  }
+}

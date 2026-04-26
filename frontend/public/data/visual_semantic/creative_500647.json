@@ -1,0 +1,602 @@
+{
+  "creative_id": "500647",
+  "asset_file": "assets/creative_500647.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a prominent logo and clear call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a streaming service with new hits every week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StarVault logo",
+      "description": "A bold, stylized text logo reading 'StarVault' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.44
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Stream the hype' in a clear, modern font, centered below the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.251,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.359
+      ],
+      "area_percentage": 7.07
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Sub-message text",
+      "description": "Text that says 'New hits every week' in a smaller font, positioned directly below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.88
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Get offer' in a contrasting color, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        76,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.24,
+        0.948,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.309
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Various circular and rectangular shapes in lighter shades of purple, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        90,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.283,
+        0.948,
+        0.376
+      ],
+      "center_normalized": [
+        0.892,
+        0.33
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An abstract shape that does not convey a clear meaning or role.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.529,
+        0.579,
+        0.629
+      ],
+      "center_normalized": [
+        0.53,
+        0.579
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape that appears to be decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.552,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small circular shape, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.219,
+        0.627
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny vertical line that does not contribute to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        123,
+        15,
+        184
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.385,
+        0.049,
+        0.577
+      ],
+      "center_normalized": [
+        0.026,
+        0.481
+      ],
+      "area_percentage": 0.86
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape at the top, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.2,
+        0.948,
+        0.275
+      ],
+      "center_normalized": [
+        0.892,
+        0.238
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape that does not convey a clear meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        178
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.382,
+        0.999,
+        0.557
+      ],
+      "center_normalized": [
+        0.976,
+        0.469
+      ],
+      "area_percentage": 0.8
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny vertical line that does not contribute to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        81,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.256,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.026,
+        0.316
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape at the top, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        57,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.181,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape that does not convey a clear meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.478
+      ],
+      "center_normalized": [
+        0.977,
+        0.43
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape that does not convey a clear meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape that does not convey a clear meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny vertical line that does not contribute to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        154,
+        15,
+        184
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.481,
+        0.049,
+        0.577
+      ],
+      "center_normalized": [
+        0.026,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny vertical line that does not contribute to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        122,
+        15,
+        152
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.382,
+        0.049,
+        0.478
+      ],
+      "center_normalized": [
+        0.027,
+        0.43
+      ],
+      "area_percentage": 0.42
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny vertical line that does not contribute to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.281,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.027,
+        0.329
+      ],
+      "area_percentage": 0.42
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A tiny rectangular shape at the top, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        80,
+        15,
+        88
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.253,
+        0.049,
+        0.276
+      ],
+      "center_normalized": [
+        0.026,
+        0.265
+      ],
+      "area_percentage": 0.11
+    },
+    {
+      "id": 22,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Stream the hype New hits every week' in a clear, modern font, centered at the bottom.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        203,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.716
+      ],
+      "area_percentage": 13.3
+    },
+    {
+      "id": 23,
+      "role": "headline",
+      "label": "StarVault logo",
+      "description": "A bold, stylized text logo reading 'StarVault' prominently displayed at the top.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        7,
+        23,
+        238,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.072,
+        0.744,
+        0.212
+      ],
+      "center_normalized": [
+        0.383,
+        0.142
+      ],
+      "area_percentage": 10.15
+    },
+    {
+      "id": 24,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Get offer' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, StarVault, Stream the hype, Get offer",
+    "layout_text": "The logo is at the top, followed by the main message and sub-message, with the CTA button at the bottom.",
+    "ocr_text": "Stream the hype, New hits every week, StarVault, Get offer",
+    "elements_text": "headline: A bold, stylized text logo reading 'StarVault' prominently displayed at the top. | body_text: Text that reads 'Stream the hype' in a clear, modern font, centered below the logo. | body_text: Text that says 'New hits every week' in a smaller font, positioned directly below the main message. | cta: A rounded button with the text 'Get offer' in a contrasting color, located at the bottom of the ad. | decorative_element: Various circular and rectangular shapes in lighter shades of purple, adding visual interest to the background. | unknown: An abstract shape that does not convey a clear meaning or role. | unknown: A small circular shape that appears to be decorative. | unknown: Another small circular shape, similar to the previous one. | unknown: A tiny vertical line that does not contribute to the overall message. | unknown: A small rectangular shape at the top, possibly decorative. | unknown: A small rectangular shape that does not convey a clear meaning. | unknown: A tiny vertical line that does not contribute to the overall message. | unknown: A small rectangular shape at the top, possibly decorative. | unknown: A small rectangular shape that does not convey a clear meaning. | unknown: A small rectangular shape that does not convey a clear meaning. | unknown: A small rectangular shape that does not convey a clear meaning. | unknown: A tiny vertical line that does not contribute to the overall message. | unknown: A tiny vertical line that does not contribute to the overall message. | unknown: A tiny vertical line that does not contribute to the overall message. | unknown: A tiny rectangular shape at the top, possibly decorative. | body_text: Text that reads 'Stream the hype New hits every week' in a clear, modern font, centered at the bottom. text='Stream the hype New hits every week' | headline: A bold, stylized text logo reading 'StarVault' prominently displayed at the top. text='StarVault' | cta: A rounded button with the text 'Get offer' in a contrasting color, located at the bottom of the ad. text='Get offer'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500691",
+  "asset_file": "assets/creative_500691.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent sale message and a call-to-action.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Promoting a flash sale with a discount offer.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that sets a dramatic tone for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        110
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.346
+      ],
+      "center_normalized": [
+        0.5,
+        0.173
+      ],
+      "area_percentage": 34.54
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Flash sale headline",
+      "description": "Bold, prominent text stating 'Flash sale live' in a large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        90
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.283
+      ],
+      "center_normalized": [
+        0.5,
+        0.142
+      ],
+      "area_percentage": 28.29
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "Smaller text below the headline that reads 'Shop bestsellers now' in a clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        80
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.252
+      ],
+      "center_normalized": [
+        0.5,
+        0.126
+      ],
+      "area_percentage": 25.17
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A noticeable badge displaying '-30%' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer' designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo design featuring the text 'ThreadMark' in a stylized font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        206
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.646
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Decorative icon",
+      "description": "A small decorative icon that complements the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.625
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Bottom area",
+      "description": "The lower section of the ad that contains various elements and text.",
+      "text_content": "Flash sale live Shop bestsellers now -30% Get offer",
+      "bbox_xyxy": [
+        22,
+        206,
+        272,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.85,
+        0.934
+      ],
+      "center_normalized": [
+        0.459,
+        0.789
+      ],
+      "area_percentage": 22.71
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top area",
+      "description": "The upper section of the ad that includes the logo and other elements.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        119,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.372,
+        0.122
+      ],
+      "center_normalized": [
+        0.225,
+        0.097
+      ],
+      "area_percentage": 1.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern minimalistic with bold text, flash sale, discount offer",
+    "layout_text": "The headline is at the top, followed by body text, a discount badge, and a CTA button at the center.",
+    "ocr_text": "ThreadMark, Flash sale live, Shop bestsellers now, -30%, Get offer",
+    "elements_text": "headline: Bold, prominent text stating 'Flash sale live' in a large font. | body_text: Smaller text below the headline that reads 'Shop bestsellers now' in a clear font. | discount_badge: A noticeable badge displaying '-30%' in a contrasting color. | cta: A prominent button with the text 'Get offer' designed to attract clicks. | logo: A simple logo design featuring the text 'ThreadMark' in a stylized font. | icon: A small decorative icon that complements the overall design. | unknown: The lower section of the ad that contains various elements and text. text='Flash sale live Shop bestsellers now -30% Get offer' | unknown: The upper section of the ad that includes the logo and other elements. text='ThreadMark'"
+  }
+}

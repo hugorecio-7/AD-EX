@@ -1,0 +1,242 @@
+{
+  "creative_id": "500710",
+  "asset_file": "assets/creative_500710.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 deal for late-night offers.",
+    "dominant_colors": [
+      "blue",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "The logo features the word 'BiteRush' in a bold, modern font, positioned prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bright yellow, drawing attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text stating '2-for-1 tonight' in a large, clear font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Details text",
+      "description": "Smaller text below the main offer that reads 'Late-night deals available', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom of the ad with the text 'Try for free' in a bold font, inviting user interaction.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        45,
+        307,
+        277,
+        358
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.64,
+        0.866,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 7.7
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "The word 'BiteRush' appears at the top in a prominent font, establishing brand identity.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        30,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.09
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "The text 'Try for free' is displayed on a button, encouraging users to engage with the offer.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, bright yellow 'SALE' text positioned at the top right, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, BiteRush logo, sale offer",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the call to action is at the bottom.",
+    "ocr_text": "2-for-1 tonight, Late-night deals available, BiteRush, Try for free, SALE",
+    "elements_text": "logo: The logo features the word 'BiteRush' in a bold, modern font, positioned prominently at the top. | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bright yellow, drawing attention. | body_text: Text stating '2-for-1 tonight' in a large, clear font, centered in the middle of the ad. | body_text: Smaller text below the main offer that reads 'Late-night deals available', providing additional information. | cta: A rounded button at the bottom of the ad with the text 'Try for free' in a bold font, inviting user interaction. text='2-for-1 tonight Late-night deals available' | headline: The word 'BiteRush' appears at the top in a prominent font, establishing brand identity. text='BiteRush' | cta: The text 'Try for free' is displayed on a button, encouraging users to engage with the offer. text='Try for free' | discount_badge: A small, bright yellow 'SALE' text positioned at the top right, indicating a promotional offer. text='SALE'"
+  }
+}

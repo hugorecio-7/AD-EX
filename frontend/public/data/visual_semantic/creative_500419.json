@@ -1,0 +1,242 @@
+{
+  "creative_id": "500419",
+  "asset_file": "assets/creative_500419.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and clear text elements.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Promoting an app for booking travel easily.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes, including a large square and a circle, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "A smaller rectangle and circle that add visual interest, placed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Another set of geometric shapes that overlap with the main subject, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Another small icon",
+      "description": "A small rectangular icon positioned near the bottom, complementing the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' prominently displayed at the bottom.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        51,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.709
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'NomadLayer' in a bold font, positioned at the top of the ad.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        25,
+        30,
+        274,
+        81
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.047,
+        0.761,
+        0.127
+      ],
+      "center_normalized": [
+        0.415,
+        0.087
+      ],
+      "area_percentage": 5.51
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price text",
+      "description": "A price tag in white text reading '€19.99' located at the bottom of the ad.",
+      "text_content": "€19.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, key elements include geometric shapes and clear text.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, and the CTA at the bottom.",
+    "ocr_text": "NomadLayer, Book your next trip, Hotels + flights in one tap, €19.99, Install now",
+    "elements_text": "main_subject: A combination of geometric shapes, including a large square and a circle, positioned centrally. | decorative_element: A smaller rectangle and circle that add visual interest, placed in the center. | decorative_element: Another set of geometric shapes that overlap with the main subject, enhancing the design. | icon: A small circular icon located towards the bottom of the ad. | icon: A small rectangular icon positioned near the bottom, complementing the other elements. | headline: Bold white text stating 'Book your next trip' prominently displayed at the bottom. text='Book your next trip Hotels flights in one tap' | logo: The logo 'NomadLayer' in a bold font, positioned at the top of the ad. text='NomadLayer' | price: A price tag in white text reading '€19.99' located at the bottom of the ad. text='€19.99 Install now'"
+  }
+}

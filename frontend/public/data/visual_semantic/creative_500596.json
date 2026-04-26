@@ -1,0 +1,266 @@
+{
+  "creative_id": "500596",
+  "asset_file": "assets/creative_500596.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with abstract shapes and clear messaging.",
+    "visual_style": "modern and playful",
+    "main_message": "Promoting weekend travel deals with a call to action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.142,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.25
+      ],
+      "area_percentage": 21.53
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic element",
+      "description": "A large, abstract shape in the center, possibly a rounded rectangle, adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.277,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.398
+      ],
+      "area_percentage": 14.38
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "oval shape",
+      "description": "An oval shape positioned centrally, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "rectangle shape",
+      "description": "A rectangular shape that complements the other graphic elements, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' is prominently displayed at the top, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "decorative icon",
+      "description": "A small decorative icon located at the top right, adding a playful touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        311,
+        31,
+        335,
+        83
+      ],
+      "bbox_normalized": [
+        0.866,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.898,
+        0.09
+      ],
+      "area_percentage": 0.52
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unclear element that does not fit into the defined categories, possibly a decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "escape this weekend",
+      "description": "The headline text 'Escape this weekend' is bold and centrally positioned, drawing attention.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        101
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.158
+      ],
+      "center_normalized": [
+        0.475,
+        0.106
+      ],
+      "area_percentage": 8.25
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "special fares today",
+      "description": "The text 'Special fares today' is displayed below the headline, providing additional information.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "watch now button",
+      "description": "A rounded button at the bottom with the text 'Watch now', inviting user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, rewarded_video format, modern and playful visual style, key elements include a logo, headline, and CTA.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, followed by body text, and the CTA button is at the bottom.",
+    "ocr_text": "WayPoint, Escape this weekend, Special fares today, Watch now",
+    "elements_text": "main_subject: A large, abstract shape in the center, possibly a rounded rectangle, adds visual interest. | decorative_element: An oval shape positioned centrally, contributing to the abstract design. | decorative_element: A rectangular shape that complements the other graphic elements, enhancing the overall design. | logo: The logo 'WayPoint' is prominently displayed at the top, featuring bold typography. | icon: A small decorative icon located at the top right, adding a playful touch. | unknown: An unclear element that does not fit into the defined categories, possibly a decorative shape. | headline: The headline text 'Escape this weekend' is bold and centrally positioned, drawing attention. text='WayPoint' | body_text: The text 'Special fares today' is displayed below the headline, providing additional information. text='Escape this weekend Special fares today' | cta: A rounded button at the bottom with the text 'Watch now', inviting user interaction. text='Watch now'"
+  }
+}

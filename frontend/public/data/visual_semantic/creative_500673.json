@@ -1,0 +1,386 @@
+{
+  "creative_id": "500673",
+  "asset_file": "assets/creative_500673.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with glass-like panels and clear text.",
+    "visual_style": "modern minimalist with vibrant colors",
+    "main_message": "Promoting quick dinner delivery with a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        358,
+        192
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.301
+      ],
+      "center_normalized": [
+        0.498,
+        0.15
+      ],
+      "area_percentage": 29.97
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertical glass-like panels with a reflective surface, arranged in a row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        254
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.397
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 27.35
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertical glass-like panels with a reflective surface, arranged in a row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.268
+      ],
+      "center_normalized": [
+        0.499,
+        0.134
+      ],
+      "area_percentage": 26.71
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertical glass-like panels with a reflective surface, arranged in a row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        78,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.122,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.24
+      ],
+      "area_percentage": 23.33
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertical glass-like panels with a reflective surface, arranged in a row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Circular icons",
+      "description": "Two small circular icons positioned below the glass panels.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        32,
+        129,
+        218
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.051,
+        0.359,
+        0.341
+      ],
+      "center_normalized": [
+        0.205,
+        0.196
+      ],
+      "area_percentage": 8.96
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "Bold white text stating 'Dinner in minutes' centered in the lower part of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Free delivery text",
+      "description": "Smaller white text below the main headline that reads 'Free delivery over $15'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "Bold white text displaying the price '€29.99' positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent white button with the text 'Shop now' at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A small logo at the top left corner featuring the text 'SnapMeal'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Dinner in minutes text",
+      "description": "Text stating 'Dinner in minutes' prominently displayed in the center.",
+      "text_content": "Dinner in minutes Free delivery over $15",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom with the text 'Shop now'.",
+      "text_content": "€29.99 Shop now",
+      "bbox_xyxy": [
+        24,
+        532,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.356,
+        0.872
+      ],
+      "area_percentage": 4.69
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A small logo at the top left corner featuring the text 'SnapMeal'.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        24,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern minimalist with vibrant colors, quick dinner delivery, special offer",
+    "layout_text": "The logo is at the top left, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Free delivery over $15, €29.99, Shop now, SnapMeal",
+    "elements_text": "main_subject: Three vertical glass-like panels with a reflective surface, arranged in a row. | main_subject: Three vertical glass-like panels with a reflective surface, arranged in a row. | main_subject: Three vertical glass-like panels with a reflective surface, arranged in a row. | main_subject: Three vertical glass-like panels with a reflective surface, arranged in a row. | icon: Two small circular icons positioned below the glass panels. | body_text: Bold white text stating 'Dinner in minutes' centered in the lower part of the ad. | body_text: Smaller white text below the main headline that reads 'Free delivery over $15'. | body_text: Bold white text displaying the price '€29.99' positioned at the bottom. | cta: A prominent white button with the text 'Shop now' at the bottom of the ad. | logo: A small logo at the top left corner featuring the text 'SnapMeal'. | unknown: An unidentified element that does not contribute to the main message. | body_text: Text stating 'Dinner in minutes' prominently displayed in the center. text='Dinner in minutes Free delivery over $15' | cta: A prominent button at the bottom with the text 'Shop now'. text='€29.99 Shop now' | logo: A small logo at the top left corner featuring the text 'SnapMeal'. text='SnapMeal'"
+  }
+}

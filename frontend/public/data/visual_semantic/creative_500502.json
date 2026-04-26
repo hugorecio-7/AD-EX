@@ -1,0 +1,362 @@
+{
+  "creative_id": "500502",
+  "asset_file": "assets/creative_500502.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and a clear call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a streaming service with a focus on flexibility.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.198,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 48.6
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top reading 'FluxStream' against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Body text message",
+      "description": "White text in the center stating 'Stream the hype' with a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.47,
+        0.375
+      ],
+      "area_percentage": 16.53
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext message",
+      "description": "Smaller white text below the main message saying 'Cancel anytime'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.66
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom with the text 'Get offer' in bold.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the center, possibly an oval or rectangle, with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.5
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A smaller circular shape positioned towards the left side of the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional decorative rectangle",
+      "description": "A rectangular shape in the center, possibly overlapping with other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 7.03
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "A smaller rectangle positioned slightly above the center of the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Another decorative rectangle",
+      "description": "A medium-sized rectangle located towards the center, possibly overlapping with other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.591,
+        0.429
+      ],
+      "area_percentage": 6.03
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small shape located towards the bottom left of the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text message",
+      "description": "White text at the bottom stating 'Stream the hype Cancel anytime'.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        29,
+        205,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.641,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.719
+      ],
+      "area_percentage": 12.79
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small white button at the bottom right with the text 'Get offer'.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo positioned at the top left corner, featuring the text 'FluxStream'.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        25,
+        23,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.216,
+        0.094
+      ],
+      "area_percentage": 1.2
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, FluxStream, Stream the hype, Get offer",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, Get offer, FluxStream",
+    "elements_text": "headline: Bold white text at the top reading 'FluxStream' against the purple background. | body_text: White text in the center stating 'Stream the hype' with a modern font. | body_text: Smaller white text below the main message saying 'Cancel anytime'. | cta: A prominent white button at the bottom with the text 'Get offer' in bold. | unknown: An abstract shape in the center, possibly an oval or rectangle, with a light outline. | unknown: A smaller circular shape positioned towards the left side of the canvas. | unknown: A rectangular shape in the center, possibly overlapping with other elements. | unknown: A smaller rectangle positioned slightly above the center of the canvas. | unknown: A medium-sized rectangle located towards the center, possibly overlapping with other elements. | unknown: A small shape located towards the bottom left of the canvas. | body_text: White text at the bottom stating 'Stream the hype Cancel anytime'. text='Stream the hype Cancel anytime' | cta: A small white button at the bottom right with the text 'Get offer'. text='Get offer' | logo: A small logo positioned at the top left corner, featuring the text 'FluxStream'. text='FluxStream'"
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "creative_id": "500713",
+  "asset_file": "assets/creative_500713.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and a clear call to action.",
+    "visual_style": "modern minimalist with bold accents",
+    "main_message": "Promoting food delivery with a special sale offer.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A stylized logo with the text 'BiteRush' prominently displayed in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        99,
+        174,
+        154
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.545,
+        0.483
+      ],
+      "center_normalized": [
+        0.459,
+        0.397
+      ],
+      "area_percentage": 2.99
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold and eye-catching headline that reads 'Hungry? We got you' in a large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        154,
+        265,
+        184
+      ],
+      "bbox_normalized": [
+        0.6,
+        0.482,
+        0.83,
+        0.576
+      ],
+      "center_normalized": [
+        0.715,
+        0.529
+      ],
+      "area_percentage": 2.16
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Smaller text that provides additional information about the offer, likely in a simple sans-serif font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        116,
+        154,
+        189,
+        184
+      ],
+      "bbox_normalized": [
+        0.364,
+        0.482,
+        0.592,
+        0.577
+      ],
+      "center_normalized": [
+        0.478,
+        0.53
+      ],
+      "area_percentage": 2.16
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge that says 'SALE' in a bright color, drawing attention to the discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        124,
+        189,
+        184
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.388,
+        0.592,
+        0.577
+      ],
+      "center_normalized": [
+        0.536,
+        0.482
+      ],
+      "area_percentage": 2.13
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button labeled 'Book now' that stands out with a contrasting color, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        234,
+        154,
+        303,
+        184
+      ],
+      "bbox_normalized": [
+        0.731,
+        0.482,
+        0.949,
+        0.576
+      ],
+      "center_normalized": [
+        0.84,
+        0.529
+      ],
+      "area_percentage": 2.04
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Decorative icons",
+      "description": "Three simple icons representing food items, arranged horizontally, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        232,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.728,
+        0.201,
+        0.948,
+        0.276
+      ],
+      "center_normalized": [
+        0.838,
+        0.239
+      ],
+      "area_percentage": 1.66
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        45,
+        64,
+        113,
+        88
+      ],
+      "bbox_normalized": [
+        0.143,
+        0.201,
+        0.354,
+        0.276
+      ],
+      "center_normalized": [
+        0.249,
+        0.239
+      ],
+      "area_percentage": 1.59
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        154,
+        239,
+        184
+      ],
+      "bbox_normalized": [
+        0.599,
+        0.482,
+        0.747,
+        0.577
+      ],
+      "center_normalized": [
+        0.673,
+        0.53
+      ],
+      "area_percentage": 1.41
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        122,
+        303,
+        152
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.383,
+        0.949,
+        0.477
+      ],
+      "center_normalized": [
+        0.892,
+        0.43
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        90,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.282,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.893,
+        0.33
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        154,
+        265,
+        184
+      ],
+      "bbox_normalized": [
+        0.717,
+        0.482,
+        0.83,
+        0.577
+      ],
+      "center_normalized": [
+        0.773,
+        0.53
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        154,
+        189,
+        184
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.482,
+        0.593,
+        0.577
+      ],
+      "center_normalized": [
+        0.536,
+        0.53
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        154,
+        303,
+        184
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.482,
+        0.949,
+        0.576
+      ],
+      "center_normalized": [
+        0.893,
+        0.529
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        115,
+        154,
+        151,
+        184
+      ],
+      "bbox_normalized": [
+        0.359,
+        0.482,
+        0.473,
+        0.576
+      ],
+      "center_normalized": [
+        0.416,
+        0.529
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        154,
+        227,
+        184
+      ],
+      "bbox_normalized": [
+        0.599,
+        0.482,
+        0.71,
+        0.577
+      ],
+      "center_normalized": [
+        0.654,
+        0.53
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        77,
+        154,
+        113,
+        184
+      ],
+      "bbox_normalized": [
+        0.242,
+        0.482,
+        0.354,
+        0.576
+      ],
+      "center_normalized": [
+        0.298,
+        0.529
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        59,
+        227,
+        88
+      ],
+      "bbox_normalized": [
+        0.598,
+        0.186,
+        0.711,
+        0.277
+      ],
+      "center_normalized": [
+        0.654,
+        0.231
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        59,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.185,
+        0.948,
+        0.276
+      ],
+      "center_normalized": [
+        0.892,
+        0.23
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        59,
+        189,
+        88
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.185,
+        0.593,
+        0.276
+      ],
+      "center_normalized": [
+        0.536,
+        0.23
+      ],
+      "area_percentage": 1.04
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        59,
+        265,
+        88
+      ],
+      "bbox_normalized": [
+        0.717,
+        0.185,
+        0.829,
+        0.276
+      ],
+      "center_normalized": [
+        0.773,
+        0.23
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        199
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.53,
+        0.22,
+        0.624
+      ],
+      "center_normalized": [
+        0.171,
+        0.577
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        64,
+        227,
+        88
+      ],
+      "bbox_normalized": [
+        0.598,
+        0.201,
+        0.711,
+        0.277
+      ],
+      "center_normalized": [
+        0.654,
+        0.239
+      ],
+      "area_percentage": 0.86
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.201,
+        0.948,
+        0.276
+      ],
+      "center_normalized": [
+        0.892,
+        0.239
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 24,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        77,
+        64,
+        113,
+        88
+      ],
+      "bbox_normalized": [
+        0.241,
+        0.201,
+        0.354,
+        0.276
+      ],
+      "center_normalized": [
+        0.298,
+        0.239
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 25,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        265,
+        88
+      ],
+      "bbox_normalized": [
+        0.717,
+        0.201,
+        0.829,
+        0.276
+      ],
+      "center_normalized": [
+        0.773,
+        0.239
+      ],
+      "area_percentage": 0.84
+    },
+    {
+      "id": 26,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        64,
+        189,
+        88
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.201,
+        0.593,
+        0.276
+      ],
+      "center_normalized": [
+        0.537,
+        0.239
+      ],
+      "area_percentage": 0.84
+    },
+    {
+      "id": 27,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        115,
+        64,
+        151,
+        88
+      ],
+      "bbox_normalized": [
+        0.36,
+        0.201,
+        0.473,
+        0.276
+      ],
+      "center_normalized": [
+        0.416,
+        0.239
+      ],
+      "area_percentage": 0.84
+    },
+    {
+      "id": 28,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        90,
+        37,
+        120
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.282,
+        0.116,
+        0.377
+      ],
+      "center_normalized": [
+        0.083,
+        0.33
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 29,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        122,
+        37,
+        152
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.383,
+        0.117,
+        0.477
+      ],
+      "center_normalized": [
+        0.084,
+        0.43
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 30,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        122,
+        21,
+        152
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.383,
+        0.068,
+        0.477
+      ],
+      "center_normalized": [
+        0.036,
+        0.43
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 31,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        154,
+        37,
+        184
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.482,
+        0.116,
+        0.576
+      ],
+      "center_normalized": [
+        0.083,
+        0.529
+      ],
+      "area_percentage": 0.61
+    },
+    {
+      "id": 32,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        58,
+        303,
+        74
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.182,
+        0.949,
+        0.232
+      ],
+      "center_normalized": [
+        0.892,
+        0.207
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 33,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        62,
+        21,
+        88
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.196,
+        0.068,
+        0.276
+      ],
+      "center_normalized": [
+        0.036,
+        0.236
+      ],
+      "area_percentage": 0.52
+    },
+    {
+      "id": 34,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.482,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.53
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 35,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 36,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        58,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.183,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 37,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        122,
+        15,
+        152
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.382,
+        0.049,
+        0.477
+      ],
+      "center_normalized": [
+        0.026,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 38,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.282,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.026,
+        0.33
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 39,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        154,
+        15,
+        184
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.482,
+        0.049,
+        0.577
+      ],
+      "center_normalized": [
+        0.026,
+        0.53
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 40,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.383,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.43
+      ],
+      "area_percentage": 0.42
+    },
+    {
+      "id": 41,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        69,
+        37,
+        88
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.218,
+        0.117,
+        0.276
+      ],
+      "center_normalized": [
+        0.084,
+        0.247
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 42,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        62,
+        64,
+        71
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.196,
+        0.202,
+        0.223
+      ],
+      "center_normalized": [
+        0.131,
+        0.209
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 43,
+      "role": "background",
+      "label": "Background area",
+      "description": "A dark background that enhances the visibility of the text and icons in the ad.",
+      "text_content": "Hungry? We got you \"3OVate ble Book now",
+      "bbox_xyxy": [
+        22,
+        203,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.784
+      ],
+      "area_percentage": 25.03
+    },
+    {
+      "id": 44,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "0",
+      "bbox_xyxy": [
+        47,
+        85,
+        113,
+        157
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.266,
+        0.353,
+        0.491
+      ],
+      "center_normalized": [
+        0.25,
+        0.378
+      ],
+      "area_percentage": 4.64
+    },
+    {
+      "id": 45,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "A",
+      "bbox_xyxy": [
+        193,
+        91,
+        255,
+        153
+      ],
+      "bbox_normalized": [
+        0.603,
+        0.284,
+        0.797,
+        0.478
+      ],
+      "center_normalized": [
+        0.7,
+        0.381
+      ],
+      "area_percentage": 3.75
+    },
+    {
+      "id": 46,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        22,
+        150,
+        50
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.069,
+        0.469,
+        0.156
+      ],
+      "center_normalized": [
+        0.272,
+        0.113
+      ],
+      "area_percentage": 3.45
+    },
+    {
+      "id": 47,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern minimalist with bold accents, BiteRush logo, sale badge, call to action.",
+    "layout_text": "The logo is at the top, followed by the headline, body text, and a call to action button at the bottom.",
+    "ocr_text": "Hungry? We got you, BiteRush, SALE, Book now",
+    "elements_text": "logo: A stylized logo with the text 'BiteRush' prominently displayed in a bold font. | headline: A bold and eye-catching headline that reads 'Hungry? We got you' in a large font. | body_text: Smaller text that provides additional information about the offer, likely in a simple sans-serif font. | discount_badge: A small badge that says 'SALE' in a bright color, drawing attention to the discount. | cta: A button labeled 'Book now' that stands out with a contrasting color, encouraging user interaction. | decorative_element: Three simple icons representing food items, arranged horizontally, adding visual interest. | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  text='0' | unknown:  text='A' | unknown:  text='BiteRush' | unknown:  text='SALE'"
+  }
+}

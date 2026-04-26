@@ -1,0 +1,218 @@
+{
+  "creative_id": "500492",
+  "asset_file": "assets/creative_500492.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a central focus on a blank screen and prominent text.",
+    "visual_style": "minimalistic dark theme",
+    "main_message": "Order dinner quickly with free delivery over $15.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing a contrasting backdrop for the text and elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        185
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.387
+      ],
+      "center_normalized": [
+        0.499,
+        0.193
+      ],
+      "area_percentage": 38.58
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Empty screen",
+      "description": "A rectangular area resembling a blank screen or device display, positioned at the center with a simple outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        156
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.325
+      ],
+      "center_normalized": [
+        0.499,
+        0.163
+      ],
+      "area_percentage": 32.44
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top area",
+      "description": "A section at the top of the ad that is visually distinct but lacks specific identifiable features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button at the bottom center with a simple design, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Dinner in minutes text",
+      "description": "Bold, prominent text in the center of the ad that communicates the main offer clearly.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Delivery offer text",
+      "description": "Smaller text below the main offer, providing additional information about free delivery conditions.",
+      "text_content": "Dinner in minutes Free delivery over $15",
+      "bbox_xyxy": [
+        74,
+        308,
+        246,
+        390
+      ],
+      "bbox_normalized": [
+        0.231,
+        0.642,
+        0.769,
+        0.812
+      ],
+      "center_normalized": [
+        0.5,
+        0.727
+      ],
+      "area_percentage": 9.18
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo positioned at the top left, featuring the brand name in a clean font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        30,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.09
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Claim reward text",
+      "description": "Text at the bottom of the ad encouraging users to claim a reward, designed to attract attention.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalistic dark theme, dinner in minutes, free delivery",
+    "layout_text": "The logo is at the top left, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Free delivery over $15, BiteRush, Claim reward",
+    "elements_text": "main_subject: A rectangular area resembling a blank screen or device display, positioned at the center with a simple outline. | unknown: A section at the top of the ad that is visually distinct but lacks specific identifiable features. | cta: A button at the bottom center with a simple design, inviting users to take action. | body_text: Bold, prominent text in the center of the ad that communicates the main offer clearly. | body_text: Smaller text below the main offer, providing additional information about free delivery conditions. text='Dinner in minutes Free delivery over $15' | logo: A simple logo positioned at the top left, featuring the brand name in a clean font. text='BiteRush' | body_text: Text at the bottom of the ad encouraging users to claim a reward, designed to attract attention. text='Claim reward'"
+  }
+}

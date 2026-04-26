@@ -1,0 +1,338 @@
+{
+  "creative_id": "500580",
+  "asset_file": "assets/creative_500580.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo and a clear call to action with a visually engaging background.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to win rewards with no ads in the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "A bold, stylized text logo that reads 'GlitchWave' in a prominent font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Geometric shapes in a light color that create a visually interesting background pattern behind the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Icon placeholders",
+      "description": "Four empty square icons arranged in a grid, suggesting potential app features or rewards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Icon placeholders",
+      "description": "Four empty square icons arranged in a grid, suggesting potential app features or rewards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small empty square icon positioned at the top left, indicating a feature or reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small empty square icon positioned in the center, indicating a feature or reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small empty square icon positioned in the center, indicating a feature or reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small empty square icon positioned at the top right, indicating a feature or reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Icon placeholder",
+      "description": "A small empty square icon positioned at the top right, indicating a feature or reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline text stating 'Win epic rewards No ads in first week' that captures attention.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        24,
+        36,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.056,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.533,
+        0.105
+      ],
+      "area_percentage": 9.19
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button with the text 'Start now' at the bottom of the ad, inviting user interaction.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "A smaller text below the main headline that provides additional information about the offer.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, GlitchWave logo, call to action.",
+    "layout_text": "The logo is at the top, followed by a grid of icons, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "GlitchWave, Win epic rewards No ads in first week, Start now",
+    "elements_text": "logo: A bold, stylized text logo that reads 'GlitchWave' in a prominent font at the top of the ad. | decorative_element: Geometric shapes in a light color that create a visually interesting background pattern behind the logo. | unknown: Four empty square icons arranged in a grid, suggesting potential app features or rewards. | unknown: Four empty square icons arranged in a grid, suggesting potential app features or rewards. | unknown: A small empty square icon positioned at the top left, indicating a feature or reward. | unknown: A small empty square icon positioned in the center, indicating a feature or reward. | unknown: A small empty square icon positioned in the center, indicating a feature or reward. | unknown: A small empty square icon positioned at the top right, indicating a feature or reward. | unknown: A small empty square icon positioned at the top right, indicating a feature or reward. | headline: A large, bold headline text stating 'Win epic rewards No ads in first week' that captures attention. text='GlitchWave' | cta: A rounded button with the text 'Start now' at the bottom of the ad, inviting user interaction. text='Win epic rewards No ads in first week' | body_text: A smaller text below the main headline that provides additional information about the offer. text='Start now'"
+  }
+}

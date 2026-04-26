@@ -1,0 +1,650 @@
+{
+  "creative_id": "500495",
+  "asset_file": "assets/creative_500495.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a central focus on food icons and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting quick dinner options with a discount.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that provides contrast for the text and elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        98
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.205
+      ],
+      "center_normalized": [
+        0.5,
+        0.103
+      ],
+      "area_percentage": 20.49
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.178
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.73
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "food icons",
+      "description": "Three stylized food icons representing meals, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        170,
+        230
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.532,
+        0.479
+      ],
+      "center_normalized": [
+        0.342,
+        0.381
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "dinner offer text",
+      "description": "Text in a large, bold font stating 'Dinner in minutes' centered below the food icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.363,
+        0.399
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "additional offer text",
+      "description": "Smaller text below the main offer that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.412,
+        0.282,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.589,
+        0.37
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "discount badge",
+      "description": "A prominent badge displaying '-30%' in a bold font, indicating a discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "learn more button",
+      "description": "A bright button with the text 'Learn more' in a contrasting color, inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        174,
+        232
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.546,
+        0.485
+      ],
+      "center_normalized": [
+        0.458,
+        0.397
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "decorative lines",
+      "description": "Thin decorative lines or borders that enhance the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        244,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.283,
+        0.765,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.371
+      ],
+      "area_percentage": 3.02
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "sale announcement",
+      "description": "Text reading 'SALE' in a bold font, positioned at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        37,
+        171
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.117,
+        0.357
+      ],
+      "center_normalized": [
+        0.06,
+        0.27
+      ],
+      "area_percentage": 2.01
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        193,
+        96,
+        265,
+        133
+      ],
+      "bbox_normalized": [
+        0.605,
+        0.201,
+        0.829,
+        0.277
+      ],
+      "center_normalized": [
+        0.717,
+        0.239
+      ],
+      "area_percentage": 1.71
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        269,
+        87,
+        319,
+        133
+      ],
+      "bbox_normalized": [
+        0.841,
+        0.182,
+        0.999,
+        0.278
+      ],
+      "center_normalized": [
+        0.92,
+        0.23
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        183,
+        304,
+        229
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.383,
+        0.951,
+        0.478
+      ],
+      "center_normalized": [
+        0.893,
+        0.43
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        37,
+        133
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.117,
+        0.278
+      ],
+      "center_normalized": [
+        0.06,
+        0.23
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        135,
+        304,
+        181
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.282,
+        0.951,
+        0.378
+      ],
+      "center_normalized": [
+        0.894,
+        0.33
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        183,
+        319,
+        276
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.575
+      ],
+      "center_normalized": [
+        0.976,
+        0.479
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        111,
+        319,
+        181
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.231,
+        0.999,
+        0.378
+      ],
+      "center_normalized": [
+        0.976,
+        0.305
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        243,
+        135,
+        265,
+        181
+      ],
+      "bbox_normalized": [
+        0.76,
+        0.282,
+        0.829,
+        0.378
+      ],
+      "center_normalized": [
+        0.795,
+        0.33
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        231,
+        319,
+        277
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.579
+      ],
+      "center_normalized": [
+        0.976,
+        0.53
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        183,
+        319,
+        229
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.479
+      ],
+      "center_normalized": [
+        0.976,
+        0.43
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        135,
+        319,
+        181
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.379
+      ],
+      "center_normalized": [
+        0.976,
+        0.33
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unidentified element that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        87,
+        319,
+        133
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.182,
+        0.999,
+        0.278
+      ],
+      "center_normalized": [
+        0.976,
+        0.23
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 24,
+      "role": "body_text",
+      "label": "main offer text",
+      "description": "The main text area at the bottom that communicates the dinner offer and discount.",
+      "text_content": "Dinner in minutes Late-night deals available -30% Learn more",
+      "bbox_xyxy": [
+        22,
+        308,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.642,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.439,
+        0.778
+      ],
+      "area_percentage": 20.21
+    },
+    {
+      "id": 25,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        30,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.09
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 26,
+      "role": "headline",
+      "label": "sale announcement",
+      "description": "Text reading 'SALE' in a bold font, positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, BiteRush logo, dinner offer, discount.",
+    "layout_text": "The logo is at the top left, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, -30%, Learn more, BiteRush, SALE",
+    "elements_text": "logo: A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left. | main_subject: Three stylized food icons representing meals, arranged horizontally in the center. | body_text: Text in a large, bold font stating 'Dinner in minutes' centered below the food icons. | body_text: Smaller text below the main offer that reads 'Late-night deals available'. | discount_badge: A prominent badge displaying '-30%' in a bold font, indicating a discount. | cta: A bright button with the text 'Learn more' in a contrasting color, inviting action. | decorative_element: Thin decorative lines or borders that enhance the visual appeal of the ad. | headline: Text reading 'SALE' in a bold font, positioned at the top right. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | unknown: An unidentified element that does not contribute to the main message. | body_text: The main text area at the bottom that communicates the dinner offer and discount. text='Dinner in minutes Late-night deals available -30% Learn more' | logo: A simple logo featuring the text 'BiteRush' in a bold font, positioned at the top left. text='BiteRush' | headline: Text reading 'SALE' in a bold font, positioned at the top right. text='SALE'"
+  }
+}

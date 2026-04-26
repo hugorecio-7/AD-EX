@@ -1,0 +1,674 @@
+{
+  "creative_id": "500188",
+  "asset_file": "assets/creative_500188.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and call to action.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Shop bestsellers now with CrispBox.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that provides contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        180
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.5,
+        0.188
+      ],
+      "area_percentage": 37.66
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A simple logo featuring the text 'CrispBox' in a modern font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.178
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.73
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "app interface",
+      "description": "A mockup of an app interface with three rectangular elements resembling product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        143,
+        241,
+        233
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.299,
+        0.756,
+        0.487
+      ],
+      "center_normalized": [
+        0.467,
+        0.393
+      ],
+      "area_percentage": 10.91
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A rectangular shape that could represent a product or feature, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        169,
+        229
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.53,
+        0.479
+      ],
+      "center_normalized": [
+        0.341,
+        0.38
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another rectangular shape, similar to the previous one, possibly indicating a product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.282,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.588,
+        0.37
+      ],
+      "area_percentage": 6.26
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A smaller rectangular shape, centrally located, possibly indicating a feature or product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A rectangular shape positioned centrally, possibly indicating a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        174,
+        232
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.546,
+        0.485
+      ],
+      "center_normalized": [
+        0.458,
+        0.398
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another rectangular shape, centrally located, possibly indicating a product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        244,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.283,
+        0.765,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.371
+      ],
+      "area_percentage": 3.02
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "main headline",
+      "description": "A bold headline text that reads 'Your next favorite pick', prominently displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        193,
+        96,
+        265,
+        133
+      ],
+      "bbox_normalized": [
+        0.605,
+        0.201,
+        0.829,
+        0.277
+      ],
+      "center_normalized": [
+        0.717,
+        0.239
+      ],
+      "area_percentage": 1.71
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "supporting text",
+      "description": "A smaller text element that supports the main headline, providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        135,
+        304,
+        181
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.282,
+        0.951,
+        0.378
+      ],
+      "center_normalized": [
+        0.894,
+        0.33
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "additional text",
+      "description": "Another small text element that adds more information, positioned below the main headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        183,
+        304,
+        229
+      ],
+      "bbox_normalized": [
+        0.836,
+        0.383,
+        0.951,
+        0.478
+      ],
+      "center_normalized": [
+        0.894,
+        0.43
+      ],
+      "area_percentage": 1.08
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape at the top, possibly decorative or informational.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        96,
+        304,
+        133
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.2,
+        0.951,
+        0.277
+      ],
+      "center_normalized": [
+        0.893,
+        0.239
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape positioned at the bottom, possibly decorative or informational.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        183,
+        319,
+        276
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.575
+      ],
+      "center_normalized": [
+        0.976,
+        0.479
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small icon or decorative element located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        88,
+        15,
+        181
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.185,
+        0.048,
+        0.379
+      ],
+      "center_normalized": [
+        0.026,
+        0.282
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small icon or decorative element located at the center left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        135,
+        15,
+        227
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.281,
+        0.048,
+        0.474
+      ],
+      "center_normalized": [
+        0.026,
+        0.377
+      ],
+      "area_percentage": 0.87
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape positioned centrally, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        243,
+        135,
+        265,
+        181
+      ],
+      "bbox_normalized": [
+        0.76,
+        0.282,
+        0.829,
+        0.378
+      ],
+      "center_normalized": [
+        0.795,
+        0.33
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the bottom, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.352,
+        0.599
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the bottom left, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the bottom right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        231,
+        319,
+        277
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.579
+      ],
+      "center_normalized": [
+        0.976,
+        0.53
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the bottom right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        135,
+        319,
+        181
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.378
+      ],
+      "center_normalized": [
+        0.976,
+        0.33
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the bottom right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        182,
+        319,
+        229
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.381,
+        0.999,
+        0.479
+      ],
+      "center_normalized": [
+        0.976,
+        0.43
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular shape located at the top right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        87,
+        319,
+        133
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.182,
+        0.999,
+        0.278
+      ],
+      "center_normalized": [
+        0.976,
+        0.23
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small icon or decorative element located at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        135,
+        15,
+        181
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.281,
+        0.048,
+        0.378
+      ],
+      "center_normalized": [
+        0.026,
+        0.33
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 24,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent button with the text 'Get offer', encouraging user interaction.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        59,
+        305,
+        263,
+        389
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.635,
+        0.822,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.723
+      ],
+      "area_percentage": 11.16
+    },
+    {
+      "id": 25,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label indicating user-generated content, positioned at the top.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        21,
+        26,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.054,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.242,
+        0.085
+      ],
+      "area_percentage": 2.21
+    },
+    {
+      "id": 26,
+      "role": "cta",
+      "label": "offer button",
+      "description": "A button at the bottom with the text 'Get offer', inviting users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 27,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label indicating user-generated content, positioned at the top.",
+      "text_content": "UUGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalistic with bold text, CrispBox logo, call to action.",
+    "layout_text": "The logo is at the top, the main headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Shop bestsellers now, CrispBox, Get offer, UUGC",
+    "elements_text": "logo: A simple logo featuring the text 'CrispBox' in a modern font, positioned at the top. | app_screenshot: A mockup of an app interface with three rectangular elements resembling product images. | unknown: A rectangular shape that could represent a product or feature, positioned centrally. | unknown: Another rectangular shape, similar to the previous one, possibly indicating a product. | unknown: A smaller rectangular shape, centrally located, possibly indicating a feature or product. | unknown: A rectangular shape positioned centrally, possibly indicating a product or feature. | unknown: Another rectangular shape, centrally located, possibly indicating a product. | headline: A bold headline text that reads 'Your next favorite pick', prominently displayed. | body_text: A smaller text element that supports the main headline, providing additional context. | body_text: Another small text element that adds more information, positioned below the main headline. | unknown: A small rectangular shape at the top, possibly decorative or informational. | unknown: A small rectangular shape positioned at the bottom, possibly decorative or informational. | unknown: A small icon or decorative element located at the top left. | unknown: A small icon or decorative element located at the center left. | unknown: A small rectangular shape positioned centrally, possibly decorative. | unknown: A small rectangular shape located at the bottom, possibly decorative. | unknown: A small rectangular shape located at the bottom left, possibly decorative. | unknown: A small rectangular shape located at the bottom right, possibly decorative. | unknown: A small rectangular shape located at the bottom right, possibly decorative. | unknown: A small rectangular shape located at the bottom right, possibly decorative. | unknown: A small rectangular shape located at the top right, possibly decorative. | unknown: A small icon or decorative element located at the bottom left. | cta: A prominent button with the text 'Get offer', encouraging user interaction. text='Your next favorite pick Shop bestsellers now' | social_proof: A small label indicating user-generated content, positioned at the top. text='CrispBox' | cta: A button at the bottom with the text 'Get offer', inviting users to take action. text='Get offer' | unknown: A small label indicating user-generated content, positioned at the top. text='UUGC'"
+  }
+}

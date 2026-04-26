@@ -1,0 +1,218 @@
+{
+  "creative_id": "500423",
+  "asset_file": "assets/creative_500423.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional text and food items.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a food delivery sale with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Three food items",
+      "description": "Three rectangular food items displayed in a row, each with a transparent appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Three food items",
+      "description": "Three rectangular food items displayed in a row, each with a transparent appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Three food items",
+      "description": "Three rectangular food items displayed in a row, each with a transparent appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular indicator",
+      "description": "A small circular indicator positioned below the food items, suggesting interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "PlateSprint SALE",
+      "description": "Bold text at the top reading 'PlateSprint SALE' in a large, eye-catching font.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        23,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.478,
+        0.088
+      ],
+      "area_percentage": 6.6
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text in the center stating '2-for-1 tonight Free delivery over $15' in a clear, readable font.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom with the text '$4.99 Try for free' inviting user interaction.",
+      "text_content": "$4.99 Try for free",
+      "bbox_xyxy": [
+        26,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.365,
+        0.874
+      ],
+      "area_percentage": 5.04
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, PlateSprint SALE, 2-for-1 tonight.",
+    "layout_text": "The headline is at the top, followed by the product images in the center, and the CTA at the bottom.",
+    "ocr_text": "PlateSprint SALE, 2-for-1 tonight Free delivery over $15, $4.99 Try for free",
+    "elements_text": "product: Three rectangular food items displayed in a row, each with a transparent appearance. | product: Three rectangular food items displayed in a row, each with a transparent appearance. | product: Three rectangular food items displayed in a row, each with a transparent appearance. | icon: A small circular indicator positioned below the food items, suggesting interaction. | headline: Bold text at the top reading 'PlateSprint SALE' in a large, eye-catching font. text='PlateSprint SALE' | body_text: Text in the center stating '2-for-1 tonight Free delivery over $15' in a clear, readable font. text='2-for-1 tonight Free delivery over $15' | cta: A prominent button at the bottom with the text '$4.99 Try for free' inviting user interaction. text='$4.99 Try for free'"
+  }
+}

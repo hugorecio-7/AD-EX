@@ -1,0 +1,218 @@
+{
+  "creative_id": "500598",
+  "asset_file": "assets/creative_500598.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel offers.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for travel bookings.",
+    "dominant_colors": [
+      "light teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Circular shape",
+      "description": "A light-colored circular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A light-colored rectangular shape positioned in the center of the ad, overlapping with the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, white text stating 'Book your next trip Special fares today' positioned at the bottom of the ad.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The word 'WayPoint' in bold black text positioned at the top of the ad.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright yellow button with the text 'Shop now' positioned at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text displaying '€9.99' in white, positioned at the bottom of the ad.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' positioned at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel offers, special fares",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip Special fares today, WayPoint, Shop now, €9.99, SALE",
+    "elements_text": "unknown: A light-colored circular shape positioned in the center of the ad. | unknown: A light-colored rectangular shape positioned in the center of the ad, overlapping with the circular shape. | body_text: Bold, white text stating 'Book your next trip Special fares today' positioned at the bottom of the ad. text='Book your next trip Special fares today' | logo: The word 'WayPoint' in bold black text positioned at the top of the ad. text='WayPoint' | cta: A bright yellow button with the text 'Shop now' positioned at the bottom of the ad. text='Shop now' | price: A small text displaying '€9.99' in white, positioned at the bottom of the ad. text='€9.99' | discount_badge: A small yellow badge with the text 'SALE' positioned at the top right corner of the ad. text='SALE'"
+  }
+}

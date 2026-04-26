@@ -1,0 +1,242 @@
+{
+  "creative_id": "500618",
+  "asset_file": "assets/creative_500618.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with promotional text and a call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time flash sale for CrispBox.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "The logo features the text 'CrispBox' in a bold, modern font, centered at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An abstract shape or design element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "The text 'Flash sale live Only this weekend' is prominently displayed in a large, eye-catching font, centered in the middle of the ad.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        57,
+        407,
+        306,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.636,
+        0.85,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.682
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A rectangular button with rounded edges that reads 'Book now' in a clear, inviting font, located at the bottom of the ad.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        24,
+        34,
+        202,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.561,
+        0.128
+      ],
+      "center_normalized": [
+        0.314,
+        0.091
+      ],
+      "area_percentage": 3.71
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€9.99' is displayed in a bold font, positioned just above the CTA button at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in the top corner that reads 'SALE' in a contrasting color, drawing attention to the promotional offer.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "The text 'UGC' is displayed in a small font at the top left corner, indicating user-generated content.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, CrispBox logo, flash sale announcement, call-to-action.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, and the CTA button at the bottom.",
+    "ocr_text": "Flash sale live Only this weekend, CrispBox, Book now, €9.99, SALE, UGC",
+    "elements_text": "logo: The logo features the text 'CrispBox' in a bold, modern font, centered at the top of the ad. | unknown: An abstract shape or design element that does not convey specific information. | headline: The text 'Flash sale live Only this weekend' is prominently displayed in a large, eye-catching font, centered in the middle of the ad. text='Flash sale live Only this weekend' | cta: A rectangular button with rounded edges that reads 'Book now' in a clear, inviting font, located at the bottom of the ad. text='CrispBox' | price: The price '€9.99' is displayed in a bold font, positioned just above the CTA button at the bottom of the ad. text='Book now' | discount_badge: A small circular badge in the top corner that reads 'SALE' in a contrasting color, drawing attention to the promotional offer. text='€9.99' | social_proof: The text 'UGC' is displayed in a small font at the top left corner, indicating user-generated content. text='SALE' | unknown:  text='UGC'"
+  }
+}

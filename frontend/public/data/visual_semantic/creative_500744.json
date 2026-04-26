@@ -1,0 +1,242 @@
+{
+  "creative_id": "500744",
+  "asset_file": "assets/creative_500744.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with promotional text and product selection boxes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer with free delivery.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three empty boxes",
+      "description": "Three rectangular boxes with rounded corners are displayed in a row, suggesting a product selection or options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Empty box",
+      "description": "A single empty rectangular box with rounded corners, positioned among other similar boxes, indicating a choice.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.398
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Empty box",
+      "description": "Another empty rectangular box with rounded corners, part of a series of boxes, hinting at product options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Circular indicator",
+      "description": "A small circular indicator positioned to the left of the boxes, suggesting selection or interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating '2-for-1 tonight Free delivery over $15' is prominently displayed in the center.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        44,
+        306,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.637,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.691
+      ],
+      "area_percentage": 7.74
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' is presented in a bold font at the top, colored in white against the blue background.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded rectangular button with the text 'Order now' in white, located at the bottom center of the banner.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge in the top right corner with the word 'SALE' in bold, contrasting yellow text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, promotional text, product selection",
+    "layout_text": "The logo is at the top, followed by promotional text in the center, with product boxes below and a CTA at the bottom.",
+    "ocr_text": "2-for-1 tonight Free delivery over $15, FreshDash, Order now, SALE",
+    "elements_text": "main_subject: Three rectangular boxes with rounded corners are displayed in a row, suggesting a product selection or options. | main_subject: A single empty rectangular box with rounded corners, positioned among other similar boxes, indicating a choice. | main_subject: Another empty rectangular box with rounded corners, part of a series of boxes, hinting at product options. | main_subject: A small circular indicator positioned to the left of the boxes, suggesting selection or interaction. | body_text: Bold white text stating '2-for-1 tonight Free delivery over $15' is prominently displayed in the center. text='2-for-1 tonight Free delivery over $15' | logo: The logo 'FreshDash' is presented in a bold font at the top, colored in white against the blue background. text='FreshDash' | cta: A rounded rectangular button with the text 'Order now' in white, located at the bottom center of the banner. text='Order now' | discount_badge: A small circular badge in the top right corner with the word 'SALE' in bold, contrasting yellow text. text='SALE'"
+  }
+}

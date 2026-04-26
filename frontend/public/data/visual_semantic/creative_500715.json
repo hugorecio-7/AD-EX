@@ -1,0 +1,242 @@
+{
+  "creative_id": "500715",
+  "asset_file": "assets/creative_500715.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a streaming service with new hits available weekly.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large green background shape with a smooth, rounded edge that occupies the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A slightly smaller white overlay shape with a rectangular form, positioned centrally within the green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape located towards the bottom of the ad, filled with a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Another small circle",
+      "description": "Another small circular shape, similar to the previous one, positioned next to it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large black text stating 'Stream the hype New hits every week' prominently displayed in the center.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "A smaller black text at the bottom reading '€9.99 Claim reward', designed to attract attention.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.79
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'FluxStream' in large, bold text at the top of the ad, colored in a contrasting shade.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.385,
+        0.092
+      ],
+      "area_percentage": 3.91
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in a simple font, positioned at the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting streaming service.",
+    "layout_text": "The headline is centrally positioned, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, €9.99 Claim reward, FluxStream, UGC",
+    "elements_text": "unknown: A large green background shape with a smooth, rounded edge that occupies the center of the ad. | unknown: A slightly smaller white overlay shape with a rectangular form, positioned centrally within the green background. | unknown: A small circular shape located towards the bottom of the ad, filled with a light color. | unknown: Another small circular shape, similar to the previous one, positioned next to it. | headline: Bold, large black text stating 'Stream the hype New hits every week' prominently displayed in the center. text='Stream the hype New hits every week' | cta: A smaller black text at the bottom reading '€9.99 Claim reward', designed to attract attention. text='€9.99 Claim reward' | logo: The brand name 'FluxStream' in large, bold text at the top of the ad, colored in a contrasting shade. text='FluxStream' | icon: A small tag labeled 'UGC' in a simple font, positioned at the top left corner of the ad. text='UGC'"
+  }
+}

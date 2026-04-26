@@ -1,0 +1,266 @@
+{
+  "creative_id": "500465",
+  "asset_file": "assets/creative_500465.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and geometric shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging viewers to start binge-watching with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant and warm base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, white text headline that reads 'Binge starts now' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "A smaller white text below the headline states 'Cancel anytime', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "An abstract arrangement of geometric shapes, including a rectangle and an oval, in a lighter orange hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "Another geometric shape, possibly a square, in a similar lighter orange tone, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape in a lighter shade of orange, positioned within the main content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom of the ad with the text 'Shop now' in white, encouraging user interaction.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        407,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 7.53
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The text 'MoonScreen' appears at the top left corner in a bold font, representing the brand.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        46,
+        164,
+        72
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.072,
+        0.456,
+        0.113
+      ],
+      "center_normalized": [
+        0.263,
+        0.092
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A clear and inviting button at the bottom of the ad with the text 'Shop now' in a contrasting color.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "The text 'UGC' appears in the top left corner, possibly indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include bold text and geometric shapes.",
+    "layout_text": "The headline is centered, with the subheadline below it, and the CTA button at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, MoonScreen, Shop now, UGC",
+    "elements_text": "headline: A bold, white text headline that reads 'Binge starts now' is prominently displayed in the center of the ad. | body_text: A smaller white text below the headline states 'Cancel anytime', providing additional context. | unknown: An abstract arrangement of geometric shapes, including a rectangle and an oval, in a lighter orange hue. | unknown: Another geometric shape, possibly a square, in a similar lighter orange tone, adding visual interest. | unknown: A small circle shape in a lighter shade of orange, positioned within the main content area. | cta: A prominent button at the bottom of the ad with the text 'Shop now' in white, encouraging user interaction. text='Binge starts now Cancel anytime' | logo: The text 'MoonScreen' appears at the top left corner in a bold font, representing the brand. text='MoonScreen' | cta: A clear and inviting button at the bottom of the ad with the text 'Shop now' in a contrasting color. text='Shop now' | unknown: The text 'UGC' appears in the top left corner, possibly indicating user-generated content. text='UGC'"
+  }
+}

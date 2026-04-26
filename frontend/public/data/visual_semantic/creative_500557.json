@@ -1,0 +1,338 @@
+{
+  "creative_id": "500557",
+  "asset_file": "assets/creative_500557.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the main message and call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a secure and simple payment solution.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A simple logo featuring the text 'NovaPay' in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text area displaying 'Secure & simple' in bold, white font against an orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        94,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.294,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.65
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting message",
+      "description": "A smaller text below the main message that reads 'Built for peace of mind', also in white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, including an oval and a rectangle, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "A smaller circular shape in the background, complementing the larger shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom center with the text 'Install now' in bold, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape that appears to be a decorative element, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A larger rectangular shape that seems to be a decorative element, positioned towards the bottom right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        210,
+        171,
+        230
+      ],
+      "bbox_normalized": [
+        0.474,
+        0.656,
+        0.536,
+        0.719
+      ],
+      "center_normalized": [
+        0.505,
+        0.688
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Secure & simple Built for peace of mind' prominently displayed in white against an orange background.",
+      "text_content": "Secure simple Built for peace of mind",
+      "bbox_xyxy": [
+        34,
+        205,
+        289,
+        253
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.641,
+        0.903,
+        0.791
+      ],
+      "center_normalized": [
+        0.505,
+        0.716
+      ],
+      "area_percentage": 11.95
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A clear call-to-action button at the bottom with the text 'Install now' in a bold, inviting style.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo 'NovaPay' displayed in a modern font at the top left corner.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        19,
+        93,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.291,
+        0.116
+      ],
+      "center_normalized": [
+        0.183,
+        0.087
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include logo, main message, and call-to-action.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure simple, Built for peace of mind, Install now, NovaPay, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'NovaPay' in a modern font, positioned at the top left corner. | body_text: A prominent text area displaying 'Secure & simple' in bold, white font against an orange background. | body_text: A smaller text below the main message that reads 'Built for peace of mind', also in white font. | decorative_element: Abstract shapes in the background, including an oval and a rectangle, adding visual interest. | decorative_element: A smaller circular shape in the background, complementing the larger shapes. | cta: A rounded button at the bottom center with the text 'Install now' in bold, inviting users to take action. | unknown: A small circular shape that appears to be a decorative element, positioned near the bottom. | unknown: A larger rectangular shape that seems to be a decorative element, positioned towards the bottom right. | body_text: The text 'Secure & simple Built for peace of mind' prominently displayed in white against an orange background. text='Secure simple Built for peace of mind' | cta: A clear call-to-action button at the bottom with the text 'Install now' in a bold, inviting style. text='Install now' | logo: The logo 'NovaPay' displayed in a modern font at the top left corner. text='NovaPay' | unknown: A small label reading 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

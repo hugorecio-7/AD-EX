@@ -1,0 +1,698 @@
+{
+  "creative_id": "500044",
+  "asset_file": "assets/creative_500044.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent sale message with app screenshots and a call-to-action button.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting a flash sale with a call to action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring the text 'ThreadMark' in a modern font, likely in a contrasting color against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.176
+      ],
+      "center_normalized": [
+        0.501,
+        0.088
+      ],
+      "area_percentage": 17.51
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot of an app interface displaying three icons in a row, set against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        59,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.185,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.195,
+        0.321
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "Another screenshot of an app interface showing three icons, similar in style to the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        90,
+        244,
+        145
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.282,
+        0.765,
+        0.456
+      ],
+      "center_normalized": [
+        0.582,
+        0.369
+      ],
+      "area_percentage": 6.37
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot of an app interface with three icons, arranged vertically, featuring a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        161,
+        145
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.506,
+        0.456
+      ],
+      "center_normalized": [
+        0.329,
+        0.369
+      ],
+      "area_percentage": 6.16
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot showing three app icons, designed with a minimalist aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        159,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.497,
+        0.281,
+        0.768,
+        0.457
+      ],
+      "center_normalized": [
+        0.632,
+        0.369
+      ],
+      "area_percentage": 4.75
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot of an app interface with three icons, presented in a grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot displaying three app icons, arranged in a neat row.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.768,
+        0.457
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 8,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A screenshot of an app interface with three icons, featuring a simple and clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.485
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Flash sale text",
+      "description": "Text that reads 'Flash sale live Shop bestsellers now' in a bold font, prominently displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        214
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.552,
+        0.399,
+        0.671
+      ],
+      "center_normalized": [
+        0.351,
+        0.611
+      ],
+      "area_percentage": 1.16
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button labeled 'Claim reward' with a rounded shape, designed to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        154,
+        303,
+        183
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.482,
+        0.949,
+        0.574
+      ],
+      "center_normalized": [
+        0.892,
+        0.528
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "UGC text",
+      "description": "Text that reads 'UGC' in a small font, likely indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.649
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "UGC text",
+      "description": "Text that reads 'UGC' in a small font, positioned near the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon, possibly representing a feature or function of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        151
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.282,
+        0.049,
+        0.474
+      ],
+      "center_normalized": [
+        0.027,
+        0.378
+      ],
+      "area_percentage": 0.84
+    },
+    {
+      "id": 14,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top right, possibly an icon or logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.201,
+        0.948,
+        0.275
+      ],
+      "center_normalized": [
+        0.892,
+        0.238
+      ],
+      "area_percentage": 0.84
+    },
+    {
+      "id": 15,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        58,
+        21,
+        88
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.068,
+        0.276
+      ],
+      "center_normalized": [
+        0.036,
+        0.229
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 16,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top right, likely an icon or logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        57,
+        303,
+        73
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.181,
+        0.949,
+        0.229
+      ],
+      "center_normalized": [
+        0.892,
+        0.205
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 17,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A small decorative element located at the far right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        304,
+        57,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.952,
+        0.181,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.45
+    },
+    {
+      "id": 18,
+      "role": "decorative_element",
+      "label": "Bottom decorative element",
+      "description": "A small decorative element positioned at the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 19,
+      "role": "decorative_element",
+      "label": "Bottom decorative element",
+      "description": "A small decorative element located at the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 20,
+      "role": "decorative_element",
+      "label": "Bottom decorative element",
+      "description": "A small decorative element positioned at the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 21,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon, possibly representing a feature or function of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.282,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.026,
+        0.33
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 22,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon located at the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        122,
+        15,
+        152
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.382,
+        0.049,
+        0.477
+      ],
+      "center_normalized": [
+        0.026,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 23,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon positioned at the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        154,
+        15,
+        184
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.481,
+        0.049,
+        0.577
+      ],
+      "center_normalized": [
+        0.026,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 24,
+      "role": "body_text",
+      "label": "Main sale message",
+      "description": "A prominent text message stating 'Flash sale live Shop bestsellers now' in a large, bold font.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        206,
+        272,
+        255
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.644,
+        0.85,
+        0.797
+      ],
+      "center_normalized": [
+        0.503,
+        0.72
+      ],
+      "area_percentage": 10.62
+    },
+    {
+      "id": 25,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button labeled 'Claim reward' with a rounded shape, designed to attract attention.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        279,
+        221,
+        299
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.872,
+        0.691,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.42
+    },
+    {
+      "id": 26,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A logo featuring the text 'ThreadMark' in a modern font, likely in a contrasting color against the background.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        119,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.372,
+        0.122
+      ],
+      "center_normalized": [
+        0.225,
+        0.097
+      ],
+      "area_percentage": 1.47
+    },
+    {
+      "id": 27,
+      "role": "body_text",
+      "label": "UGC text",
+      "description": "Text that reads 'UGC' in a small font, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        55,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.172,
+        0.222
+      ],
+      "center_normalized": [
+        0.125,
+        0.2
+      ],
+      "area_percentage": 0.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, Flash sale live Shop bestsellers now, Claim reward",
+    "layout_text": "The headline is at the top, app screenshots are centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Shop bestsellers now, Claim reward, ThreadMark, UGC",
+    "elements_text": "headline: A simple logo featuring the text 'ThreadMark' in a modern font, likely in a contrasting color against the background. | app_screenshot: A screenshot of an app interface displaying three icons in a row, set against a light background. | app_screenshot: Another screenshot of an app interface showing three icons, similar in style to the previous element. | app_screenshot: A screenshot of an app interface with three icons, arranged vertically, featuring a clean design. | app_screenshot: A screenshot showing three app icons, designed with a minimalist aesthetic. | app_screenshot: A screenshot of an app interface with three icons, presented in a grid layout. | app_screenshot: A screenshot displaying three app icons, arranged in a neat row. | app_screenshot: A screenshot of an app interface with three icons, featuring a simple and clean design. | body_text: Text that reads 'Flash sale live Shop bestsellers now' in a bold font, prominently displayed. | cta: A button labeled 'Claim reward' with a rounded shape, designed to stand out against the background. | body_text: Text that reads 'UGC' in a small font, likely indicating user-generated content. | body_text: Text that reads 'UGC' in a small font, positioned near the top of the ad. | decorative_element: A small decorative icon, possibly representing a feature or function of the app. | decorative_element: A small decorative element positioned at the top right, possibly an icon or logo. | decorative_element: A small decorative icon located at the top left of the ad. | decorative_element: A small decorative element positioned at the top right, likely an icon or logo. | decorative_element: A small decorative element located at the far right of the ad. | decorative_element: A small decorative element positioned at the bottom right of the ad. | decorative_element: A small decorative element located at the bottom right of the ad. | decorative_element: A small decorative element positioned at the bottom right of the ad. | decorative_element: A small decorative icon, possibly representing a feature or function of the app. | decorative_element: A small decorative icon located at the bottom left of the ad. | decorative_element: A small decorative icon positioned at the bottom left of the ad. | body_text: A prominent text message stating 'Flash sale live Shop bestsellers now' in a large, bold font. text='Flash sale live Shop bestsellers now' | cta: A button labeled 'Claim reward' with a rounded shape, designed to attract attention. text='Claim reward' | logo: A logo featuring the text 'ThreadMark' in a modern font, likely in a contrasting color against the background. text='ThreadMark' | body_text: Text that reads 'UGC' in a small font, indicating user-generated content. text='UGC'"
+  }
+}

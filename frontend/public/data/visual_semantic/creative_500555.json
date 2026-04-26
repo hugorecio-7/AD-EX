@@ -1,0 +1,170 @@
+{
+  "creative_id": "500555",
+  "asset_file": "assets/creative_500555.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a focus on the NovaPay brand and its messaging.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting the NovaPay app for financial clarity and peace of mind.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and calming base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        471
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.469
+      ],
+      "area_percentage": 48.4
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The NovaPay logo appears at the top center, featuring a simple and modern design with a light color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two abstract geometric shapes, one circular and one square, are centered in the ad, rendered in a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The headline text 'Your money, clearer' is prominently displayed in a bold, white font at the center of the ad.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        73,
+        408,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.637,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.709
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "The supporting text 'Built for peace of mind' is positioned below the headline in a smaller, white font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        26,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.312,
+        0.087
+      ],
+      "area_percentage": 3.98
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "The 'Install now' button is located at the bottom center, featuring a clear and inviting design in white text.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, NovaPay logo, clear messaging",
+    "layout_text": "The logo is at the top, followed by the main headline and supporting text in the center, with the CTA at the bottom.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, NovaPay, Install now",
+    "elements_text": "logo: The NovaPay logo appears at the top center, featuring a simple and modern design with a light color scheme. | unknown: Two abstract geometric shapes, one circular and one square, are centered in the ad, rendered in a lighter shade of blue. | headline: The headline text 'Your money, clearer' is prominently displayed in a bold, white font at the center of the ad. text='Your money, clearer Built for peace of mind' | body_text: The supporting text 'Built for peace of mind' is positioned below the headline in a smaller, white font. text='NovaPay' | cta: The 'Install now' button is located at the bottom center, featuring a clear and inviting design in white text. text='Install now'"
+  }
+}

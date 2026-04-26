@@ -1,0 +1,194 @@
+{
+  "creative_id": "500497",
+  "asset_file": "assets/creative_500497.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the brand and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Quick and convenient meal options available for order.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A semi-transparent overlay with a grid pattern, possibly indicating a background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.312,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another semi-transparent overlay with a grid pattern, similar to the first element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        181,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.283,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A stylized logo with bold text, likely representing the brand 'BiteRush' in a prominent position.",
+      "text_content": null,
+      "bbox_xyxy": [
+        298,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.83,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.88,
+        0.091
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "BiteRush UGC",
+      "description": "Bold text reading 'BiteRush UGC' at the top, designed to catch the viewer's attention.",
+      "text_content": "BiteRush UGC",
+      "bbox_xyxy": [
+        28,
+        40,
+        295,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.819,
+        0.198
+      ],
+      "center_normalized": [
+        0.449,
+        0.13
+      ],
+      "area_percentage": 10.08
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "Clear and inviting text stating 'Dinner in minutes Fresh favorites nearby' in a larger font at the bottom.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button with the text 'Order now' designed to encourage immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, BiteRush UGC, Dinner in minutes, Order now",
+    "layout_text": "The headline is positioned at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "BiteRush UGC, Dinner in minutes Fresh favorites nearby, Order now",
+    "elements_text": "unknown: A semi-transparent overlay with a grid pattern, possibly indicating a background feature. | unknown: Another semi-transparent overlay with a grid pattern, similar to the first element. | logo: A stylized logo with bold text, likely representing the brand 'BiteRush' in a prominent position. | headline: Bold text reading 'BiteRush UGC' at the top, designed to catch the viewer's attention. text='BiteRush UGC' | body_text: Clear and inviting text stating 'Dinner in minutes Fresh favorites nearby' in a larger font at the bottom. text='Dinner in minutes Fresh favorites nearby' | cta: A prominent button with the text 'Order now' designed to encourage immediate action. text='Order now'"
+  }
+}

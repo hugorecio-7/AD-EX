@@ -1,0 +1,218 @@
+{
+  "creative_id": "500600",
+  "asset_file": "assets/creative_500600.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear call to action, promoting a food delivery service.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting free delivery for orders over $15.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A rectangular area at the bottom of the ad, possibly featuring a background color or pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        98,
+        462,
+        261,
+        601
+      ],
+      "bbox_normalized": [
+        0.274,
+        0.723,
+        0.727,
+        0.94
+      ],
+      "center_normalized": [
+        0.501,
+        0.832
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Hungry? We got you",
+      "description": "Bold, attention-grabbing text in the center of the ad, likely in a large font size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Free delivery over $15",
+      "description": "Smaller text below the headline, providing additional information in a clear and readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "A prominent button at the bottom of the ad, inviting users to take action, likely in a contrasting color.",
+      "text_content": "Hungry? We got you Free delivery over $15",
+      "bbox_xyxy": [
+        41,
+        411,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.114,
+        0.642,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.82
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The brand logo positioned at the top of the ad, featuring a distinctive design that represents the brand.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        23,
+        35,
+        227,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.631,
+        0.123
+      ],
+      "center_normalized": [
+        0.347,
+        0.089
+      ],
+      "area_percentage": 3.9
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small badge at the bottom of the ad, indicating a discount, likely in a bright color to attract attention.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, promoting food delivery service.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, body text below it, and the CTA at the bottom.",
+    "ocr_text": "Hungry? We got you, Free delivery over $15, QuickFork, Learn more, 30%",
+    "elements_text": "unknown: A rectangular area at the bottom of the ad, possibly featuring a background color or pattern. | headline: Bold, attention-grabbing text in the center of the ad, likely in a large font size. | body_text: Smaller text below the headline, providing additional information in a clear and readable font. | cta: A prominent button at the bottom of the ad, inviting users to take action, likely in a contrasting color. text='Hungry? We got you Free delivery over $15' | logo: The brand logo positioned at the top of the ad, featuring a distinctive design that represents the brand. text='QuickFork' | discount_badge: A small badge at the bottom of the ad, indicating a discount, likely in a bright color to attract attention. text='Learn more' | unknown:  text='30%'"
+  }
+}

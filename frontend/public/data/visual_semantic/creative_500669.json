@@ -1,0 +1,338 @@
+{
+  "creative_id": "500669",
+  "asset_file": "assets/creative_500669.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of abstract shapes and text elements promoting a service.",
+    "visual_style": "soft blue with abstract shapes",
+    "main_message": "Promoting travel destinations at a low price.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, abstract shape in the center with a soft blue hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller, rounded shape overlaying the background, also in blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        76,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.239,
+        0.497,
+        0.611
+      ],
+      "center_normalized": [
+        0.317,
+        0.425
+      ],
+      "area_percentage": 13.37
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central shape",
+      "description": "A rectangular shape in the center, slightly darker than the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.311,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.416
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Secondary shape",
+      "description": "Another rectangular shape positioned centrally, with a light blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.47
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A smaller rectangular shape in the center, with a soft blue tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A larger rectangular shape with a light blue color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small rounded shape",
+      "description": "A small, rounded shape in the center, with a light blue hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.489,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Icon",
+      "description": "A small icon in the bottom center, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Secondary icon",
+      "description": "Another small icon positioned near the first, with a similar design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom with bold, clear text encouraging action.",
+      "text_content": "destinations €9.99 Order now Flexible booking options",
+      "bbox_xyxy": [
+        22,
+        233,
+        258,
+        317
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.728,
+        0.806,
+        0.991
+      ],
+      "center_normalized": [
+        0.438,
+        0.859
+      ],
+      "area_percentage": 19.36
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Brand headline",
+      "description": "A bold headline at the top featuring the brand name 'CloudRoute' in a clear font.",
+      "text_content": "CloudRoute UGC",
+      "bbox_xyxy": [
+        21,
+        20,
+        138,
+        71
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.062,
+        0.431,
+        0.222
+      ],
+      "center_normalized": [
+        0.248,
+        0.142
+      ],
+      "area_percentage": 5.83
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "A smaller text area in the center with the word 'Dream' in a stylish font.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        108,
+        206,
+        212,
+        236
+      ],
+      "bbox_normalized": [
+        0.338,
+        0.644,
+        0.662,
+        0.738
+      ],
+      "center_normalized": [
+        0.5,
+        0.691
+      ],
+      "area_percentage": 3.05
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, soft blue with abstract shapes, promoting travel destinations.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "CloudRoute UGC, Dream, destinations €9.99, Order now, Flexible booking options",
+    "elements_text": "unknown: A large, abstract shape in the center with a soft blue hue. | unknown: A smaller, rounded shape overlaying the background, also in blue. | unknown: A rectangular shape in the center, slightly darker than the background. | unknown: Another rectangular shape positioned centrally, with a light blue color. | unknown: A smaller rectangular shape in the center, with a soft blue tone. | unknown: A larger rectangular shape with a light blue color, positioned centrally. | unknown: A small, rounded shape in the center, with a light blue hue. | unknown: A small icon in the bottom center, featuring a simple design. | unknown: Another small icon positioned near the first, with a similar design. | cta: A prominent text area at the bottom with bold, clear text encouraging action. text='destinations €9.99 Order now Flexible booking options' | headline: A bold headline at the top featuring the brand name 'CloudRoute' in a clear font. text='CloudRoute UGC' | body_text: A smaller text area in the center with the word 'Dream' in a stylish font. text='Dream'"
+  }
+}

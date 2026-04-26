@@ -1,0 +1,554 @@
+{
+  "creative_id": "500622",
+  "asset_file": "assets/creative_500622.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with various icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a sale with up to 40% off on bestsellers.",
+    "dominant_colors": [
+      "pink",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A vibrant pink background fills the entire ad space.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.177
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.66
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A simple, stylized logo for CrispBox, featuring minimalistic lines and shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        59,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.185,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.195,
+        0.321
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Three icons",
+      "description": "Three outlined icons arranged in a row, representing products or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        90,
+        174,
+        149
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.282,
+        0.544,
+        0.467
+      ],
+      "center_normalized": [
+        0.347,
+        0.375
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Three icons",
+      "description": "Another set of three outlined icons, similar in style to the previous ones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.579,
+        0.37
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A small circular icon, outlined and simple in design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "Another small circular icon, outlined and simple in design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.282,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A third small circular icon, outlined and simple in design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Rectangular icon",
+      "description": "A rectangular icon, outlined and simple in design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Rectangular icon",
+      "description": "Another rectangular icon, outlined and simple in design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button with rounded edges, inviting users to 'Watch now' in bold text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A smaller text area below the button, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.529,
+        0.22,
+        0.63
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Discount headline",
+      "description": "A bold headline at the bottom of the ad, announcing 'Up to 40% off'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        149
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.281,
+        0.999,
+        0.466
+      ],
+      "center_normalized": [
+        0.976,
+        0.374
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A smaller text area below the discount headline, encouraging users to shop bestsellers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        75,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.235,
+        0.999,
+        0.378
+      ],
+      "center_normalized": [
+        0.977,
+        0.307
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Sale label",
+      "description": "A bright yellow label with the word 'SALE' in bold letters.",
+      "text_content": null,
+      "bbox_xyxy": [
+        304,
+        57,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.952,
+        0.181,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.45
+    },
+    {
+      "id": 15,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label indicating User Generated Content (UGC), enhancing credibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element at the bottom right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unclear element at the bottom right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 18,
+      "role": "main_subject",
+      "label": "Main promotional text",
+      "description": "The main promotional message displayed prominently at the bottom of the ad.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        56,
+        206,
+        268,
+        255
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.838,
+        0.797
+      ],
+      "center_normalized": [
+        0.506,
+        0.72
+      ],
+      "area_percentage": 10.14
+    },
+    {
+      "id": 19,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call-to-action button inviting users to 'Watch now'.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.99
+    },
+    {
+      "id": 20,
+      "role": "headline",
+      "label": "CrispBox label",
+      "description": "The brand name 'CrispBox' displayed prominently at the top.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        21,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 21,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A bright yellow badge indicating a sale, adding urgency.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 22,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A label indicating User Generated Content, enhancing trust.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        55,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.172,
+        0.222
+      ],
+      "center_normalized": [
+        0.125,
+        0.2
+      ],
+      "area_percentage": 0.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, promoting a sale.",
+    "layout_text": "The headline is at the top, followed by icons, with the main message and CTA at the bottom.",
+    "ocr_text": "Up to 40% off, Shop bestsellers now, Watch now, CrispBox, SALE, UGC",
+    "elements_text": "logo: A simple, stylized logo for CrispBox, featuring minimalistic lines and shapes. | decorative_element: Three outlined icons arranged in a row, representing products or features. | decorative_element: Another set of three outlined icons, similar in style to the previous ones. | decorative_element: A small circular icon, outlined and simple in design. | decorative_element: Another small circular icon, outlined and simple in design. | decorative_element: A third small circular icon, outlined and simple in design. | decorative_element: A rectangular icon, outlined and simple in design. | decorative_element: Another rectangular icon, outlined and simple in design. | cta: A prominent button with rounded edges, inviting users to 'Watch now' in bold text. | body_text: A smaller text area below the button, providing additional information. | headline: A bold headline at the bottom of the ad, announcing 'Up to 40% off'. | body_text: A smaller text area below the discount headline, encouraging users to shop bestsellers. | headline: A bright yellow label with the word 'SALE' in bold letters. | social_proof: A small label indicating User Generated Content (UGC), enhancing credibility. | unknown: An unclear element at the bottom right, possibly decorative. | unknown: Another unclear element at the bottom right, possibly decorative. | main_subject: The main promotional message displayed prominently at the bottom of the ad. text='Up to 40% off Shop bestsellers now' | cta: A clear call-to-action button inviting users to 'Watch now'. text='Watch now' | headline: The brand name 'CrispBox' displayed prominently at the top. text='CrispBox' | discount_badge: A bright yellow badge indicating a sale, adding urgency. text='SALE' | social_proof: A label indicating User Generated Content, enhancing trust. text='UGC'"
+  }
+}

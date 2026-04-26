@@ -1,0 +1,218 @@
+{
+  "creative_id": "500728",
+  "asset_file": "assets/creative_500728.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the product and call to action.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a limited-time offer for the BoltCart app.",
+    "dominant_colors": [
+      "#f5f5f5",
+      "#000000"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A simple logo featuring the text 'BoltCart' in a modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        179,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Sale badge",
+      "description": "A small, bold 'SALE' badge in a contrasting color, located at the top right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        197,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "A prominent headline reading 'Your next favorite pick' in a large, bold font, centered in the lower part of the ad.",
+      "text_content": "Your next favorite pick Only this weekend",
+      "bbox_xyxy": [
+        68,
+        407,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.636,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 9.12
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button with the text 'Install now' in a clear, readable font, located just below the headline.",
+      "text_content": "€29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "The price '€29.99' displayed in a slightly smaller font, positioned below the call to action button.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        27,
+        41,
+        193,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.536,
+        0.12
+      ],
+      "center_normalized": [
+        0.306,
+        0.092
+      ],
+      "area_percentage": 2.59
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in a simple font, located at the top left corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Background elements",
+      "description": "A light, neutral background that enhances the visibility of the text and buttons without distracting from the main message.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, BoltCart logo, sale badge, main headline, call to action.",
+    "layout_text": "The logo is at the top center, the sale badge is at the top right, the headline is centered at the bottom, and the CTA is below the headline.",
+    "ocr_text": "BoltCart, SALE, Your next favorite pick, Only this weekend, €29.99, Install now, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'BoltCart' in a modern font, positioned at the top center of the ad. | icon: A small, bold 'SALE' badge in a contrasting color, located at the top right corner of the ad. | headline: A prominent headline reading 'Your next favorite pick' in a large, bold font, centered in the lower part of the ad. text='Your next favorite pick Only this weekend' | cta: A bright button with the text 'Install now' in a clear, readable font, located just below the headline. text='€29.99 Install now' | body_text: The price '€29.99' displayed in a slightly smaller font, positioned below the call to action button. text='BoltCart' | social_proof: A small tag labeled 'UGC' in a simple font, located at the top left corner of the ad. text='SALE' | decorative_element: A light, neutral background that enhances the visibility of the text and buttons without distracting from the main message. text='UGC'"
+  }
+}

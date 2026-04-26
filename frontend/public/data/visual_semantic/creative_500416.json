@@ -1,0 +1,242 @@
+{
+  "creative_id": "500416",
+  "asset_file": "assets/creative_500416.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern blue background with promotional text and graphics.",
+    "visual_style": "modern blue abstract",
+    "main_message": "Promoting weekend travel deals at a low price.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue abstract background",
+      "description": "A smooth blue background with abstract shapes creating a modern and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central graphic elements",
+      "description": "A large circular and rectangular shape in the center, both filled with a lighter shade of blue, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.399
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "A smaller rectangular shape positioned slightly above the central graphic, maintaining the blue color theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        179,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Another graphic element",
+      "description": "A larger rectangular shape positioned below the central graphic, also in a lighter blue tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left decorative element",
+      "description": "A small blue shape located at the top left corner, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "A small graphic element positioned in the center, adding visual interest to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "NomadLaye logo",
+      "description": "The text 'NomadLaye' in bold, large font at the top of the ad, prominently displayed against the blue background.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.533,
+        0.101
+      ],
+      "area_percentage": 11.52
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "The text 'Escape this weekend Special fares today' in a clean, modern font, centered below the logo.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold '$4.99 Try for free' text in a circular button format, positioned at the bottom of the ad, inviting user interaction.",
+      "text_content": "$4.99 Try for free",
+      "bbox_xyxy": [
+        26,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.365,
+        0.874
+      ],
+      "area_percentage": 5.04
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern blue abstract, NomadLaye logo, promotional message, call to action.",
+    "layout_text": "The logo is at the top, followed by the promotional message in the center, and the call to action at the bottom.",
+    "ocr_text": "NomadLaye, Escape this weekend Special fares today, $4.99 Try for free",
+    "elements_text": "main_subject: A large circular and rectangular shape in the center, both filled with a lighter shade of blue, adding depth to the design. | unknown: A smaller rectangular shape positioned slightly above the central graphic, maintaining the blue color theme. | unknown: A larger rectangular shape positioned below the central graphic, also in a lighter blue tone. | unknown: A small blue shape located at the top left corner, contributing to the abstract design. | unknown: A small graphic element positioned in the center, adding visual interest to the layout. | logo: The text 'NomadLaye' in bold, large font at the top of the ad, prominently displayed against the blue background. text='NomadLaye' | body_text: The text 'Escape this weekend Special fares today' in a clean, modern font, centered below the logo. text='Escape this weekend Special fares today' | cta: A bold '$4.99 Try for free' text in a circular button format, positioned at the bottom of the ad, inviting user interaction. text='$4.99 Try for free'"
+  }
+}

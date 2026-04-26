@@ -1,0 +1,290 @@
+{
+  "creative_id": "500386",
+  "asset_file": "assets/creative_500386.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a promotional offer for a food delivery service with a modern design.",
+    "visual_style": "dark and modern",
+    "main_message": "Promoting a 2-for-1 food offer with a clear call to action.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A simple logo featuring the text 'QuickFork' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.241,
+        0.37
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, circular badge with the text 'SALE' in bold, eye-catching typography, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        244,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.765,
+        0.458
+      ],
+      "center_normalized": [
+        0.677,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Graphic elements",
+      "description": "Three stylized rectangles representing food items, arranged horizontally in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "2-for-1 offer text",
+      "description": "Bold text stating '2-for-1 tonight' in a large font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        332
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.22,
+        0.692
+      ],
+      "center_normalized": [
+        0.169,
+        0.619
+      ],
+      "area_percentage": 1.48
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Fresh favorites text",
+      "description": "Smaller text below the main offer, reading 'Fresh favorites nearby' in a clean, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "A prominent price tag displaying '$4.99' in a large, bold font at the bottom of the ad.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        44,
+        306,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.637,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.691
+      ],
+      "area_percentage": 7.74
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button with the text 'Claim reward' in a contrasting color, positioned below the price text.",
+      "text_content": "$4.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        396,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.38,
+        0.87
+      ],
+      "area_percentage": 5.57
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        22,
+        30,
+        150,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.469,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual representation in the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual representation in the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, dark and modern, 2-for-1 offer, QuickFork logo",
+    "layout_text": "The logo is at the top, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "QuickFork, SALE, 2-for-1 tonight, Fresh favorites nearby, $4.99, Claim reward, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'QuickFork' in a modern font, positioned at the top of the ad. | discount_badge: A small, circular badge with the text 'SALE' in bold, eye-catching typography, located at the top right corner. | decorative_element: Three stylized rectangles representing food items, arranged horizontally in the center of the ad. | body_text: Bold text stating '2-for-1 tonight' in a large font, centered in the middle of the ad. | body_text: Smaller text below the main offer, reading 'Fresh favorites nearby' in a clean, readable font. | body_text: A prominent price tag displaying '$4.99' in a large, bold font at the bottom of the ad. text='2-for-1 tonight Fresh favorites nearby' | cta: A button with the text 'Claim reward' in a contrasting color, positioned below the price text. text='$4.99 Claim reward' | icon: A small icon labeled 'UGC' in the top left corner, indicating user-generated content. text='QuickFork' | unknown: An unspecified element that does not have a clear visual representation in the ad. text='SALE' | unknown: An unspecified element that does not have a clear visual representation in the ad. text='UGC'"
+  }
+}

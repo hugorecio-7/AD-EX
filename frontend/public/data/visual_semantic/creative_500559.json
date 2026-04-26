@@ -1,0 +1,290 @@
+{
+  "creative_id": "500559",
+  "asset_file": "assets/creative_500559.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with various graphic elements and text promoting a travel sale.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for travel bookings.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears abstract, possibly a shape or icon, with a soft outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        83,
+        217,
+        281,
+        332
+      ],
+      "bbox_normalized": [
+        0.231,
+        0.34,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.506,
+        0.43
+      ],
+      "area_percentage": 9.89
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "Another central graphic element, likely a different shape or icon, with a contrasting color to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract shape",
+      "description": "An abstract shape positioned centrally, featuring a smooth, rounded design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Overlay graphic",
+      "description": "An overlay graphic that complements the central elements, possibly with a subtle texture.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element located at the bottom, possibly a dot or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small decorative element, similar in size and style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A third small decorative element, maintaining the same visual theme as the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A bold text element at the bottom, stating 'Book your next trip Special fares today' in a clear, readable font.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        51,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.12
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Promotional headline",
+      "description": "A prominent headline at the top, reading 'RouteBloom SALE' in a large, eye-catching font.",
+      "text_content": "RouteBloom SALE",
+      "bbox_xyxy": [
+        27,
+        39,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.091
+      ],
+      "area_percentage": 4.98
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price display",
+      "description": "A price display at the bottom, showing '€29.99' in a bold font, emphasizing the cost.",
+      "text_content": "€29.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting travel sale.",
+    "layout_text": "The headline is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "RouteBloom SALE, Book your next trip Special fares today, €29.99, Order now",
+    "elements_text": "unknown: A central graphic element that appears abstract, possibly a shape or icon, with a soft outline. | unknown: Another central graphic element, likely a different shape or icon, with a contrasting color to the background. | unknown: An abstract shape positioned centrally, featuring a smooth, rounded design. | unknown: An overlay graphic that complements the central elements, possibly with a subtle texture. | unknown: A small decorative element located at the bottom, possibly a dot or icon. | unknown: Another small decorative element, similar in size and style to the previous one. | unknown: A third small decorative element, maintaining the same visual theme as the others. | body_text: A bold text element at the bottom, stating 'Book your next trip Special fares today' in a clear, readable font. text='Book your next trip Special fares today' | headline: A prominent headline at the top, reading 'RouteBloom SALE' in a large, eye-catching font. text='RouteBloom SALE' | price: A price display at the bottom, showing '€29.99' in a bold font, emphasizing the cost. text='€29.99 Order now'"
+  }
+}

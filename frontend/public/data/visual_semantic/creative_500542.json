@@ -1,0 +1,362 @@
+{
+  "creative_id": "500542",
+  "asset_file": "assets/creative_500542.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a mobile game with engaging visuals and clear messaging.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to download the game with enticing rewards.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "A bold, stylized logo with the text 'StormByte' prominently displayed in a dark color against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Four circular game icons arranged in a grid, each with a light background and a darker circle in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A rectangular area showing a gameplay screenshot with colorful graphics and interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "gameplay",
+      "label": "Gameplay elements",
+      "description": "An area depicting various gameplay elements, including characters and obstacles in a vibrant setting.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "A triangular decorative shape at the top of the ad, adding visual interest with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Next arrow",
+      "description": "A right-facing arrow icon indicating progression or navigation, designed in a simple and clean style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular decorative element positioned near the top, adding subtle detail to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small gameplay element",
+      "description": "A small gameplay-related element positioned in the center, contributing to the overall interactive theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small gameplay icon",
+      "description": "A small icon related to gameplay, positioned in the center, enhancing the visual narrative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular decorative element positioned near the top, adding subtle detail to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline stating 'StormByte' that captures attention with its prominent placement.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        25,
+        35,
+        347,
+        101
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.964,
+        0.158
+      ],
+      "center_normalized": [
+        0.517,
+        0.106
+      ],
+      "area_percentage": 9.22
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "A clear and inviting body text that reads 'Win epic rewards No ads in first week', designed to attract users.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent 'Order now' button styled to stand out, encouraging immediate user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, StormByte logo, gameplay elements, promotional text.",
+    "layout_text": "The headline is at the top, followed by gameplay elements in the center, and the CTA at the bottom.",
+    "ocr_text": "StormByte, Win epic rewards No ads in first week, Order now",
+    "elements_text": "logo: A bold, stylized logo with the text 'StormByte' prominently displayed in a dark color against a light background. | icon: Four circular game icons arranged in a grid, each with a light background and a darker circle in the center. | app_screenshot: A rectangular area showing a gameplay screenshot with colorful graphics and interactive elements. | gameplay: An area depicting various gameplay elements, including characters and obstacles in a vibrant setting. | decorative_element: A triangular decorative shape at the top of the ad, adding visual interest with a contrasting color. | icon: A right-facing arrow icon indicating progression or navigation, designed in a simple and clean style. | unknown: A small circular decorative element positioned near the top, adding subtle detail to the design. | unknown: A small gameplay-related element positioned in the center, contributing to the overall interactive theme. | unknown: A small icon related to gameplay, positioned in the center, enhancing the visual narrative. | unknown: A small circular decorative element positioned near the top, adding subtle detail to the design. | headline: A large, bold headline stating 'StormByte' that captures attention with its prominent placement. text='StormByte' | body_text: A clear and inviting body text that reads 'Win epic rewards No ads in first week', designed to attract users. text='Win epic rewards No ads in first week' | cta: A prominent 'Order now' button styled to stand out, encouraging immediate user interaction. text='Order now'"
+  }
+}

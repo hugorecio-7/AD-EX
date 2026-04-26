@@ -1,0 +1,290 @@
+{
+  "creative_id": "500676",
+  "asset_file": "assets/creative_500676.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with food containers and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        348,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.969,
+        0.735
+      ],
+      "center_normalized": [
+        0.51,
+        0.468
+      ],
+      "area_percentage": 49.15
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo featuring the text 'SnapMeal' in a bold, modern font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Empty containers",
+      "description": "Two empty food containers with lids, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Empty containers",
+      "description": "A larger empty food container with a lid, placed slightly behind the smaller containers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Empty container",
+      "description": "A small empty food container with a lid, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Empty container",
+      "description": "A small circular empty food container, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text reading 'Hungry? We got you Free delivery over $15' at the bottom of the ad.",
+      "text_content": "Hungry? We got you Free delivery over $15",
+      "bbox_xyxy": [
+        43,
+        410,
+        322,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.641,
+        0.894,
+        0.781
+      ],
+      "center_normalized": [
+        0.507,
+        0.711
+      ],
+      "area_percentage": 10.9
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text '€29.99 Order now' in a contrasting color at the bottom.",
+      "text_content": "€29.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo 'SnapMeal' displayed at the top left corner in a bold font.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE' in a bright color at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "The text 'UGC' in a small font at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, food delivery offer",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you Free delivery over $15, €29.99 Order now, SnapMeal, SALE, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'SnapMeal' in a bold, modern font at the top of the ad. | unknown: Two empty food containers with lids, positioned in the center of the ad. | unknown: A larger empty food container with a lid, placed slightly behind the smaller containers. | unknown: A small empty food container with a lid, positioned in the center. | unknown: A small circular empty food container, located towards the bottom center. | headline: Bold text reading 'Hungry? We got you Free delivery over $15' at the bottom of the ad. text='Hungry? We got you Free delivery over $15' | cta: A prominent button with the text '€29.99 Order now' in a contrasting color at the bottom. text='€29.99 Order now' | logo: The logo 'SnapMeal' displayed at the top left corner in a bold font. text='SnapMeal' | discount_badge: A small badge with the text 'SALE' in a bright color at the top right corner. text='SALE' | social_proof: The text 'UGC' in a small font at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

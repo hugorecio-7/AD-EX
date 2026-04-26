@@ -1,0 +1,194 @@
+{
+  "creative_id": "500421",
+  "asset_file": "assets/creative_500421.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear focus on a sale for a food delivery service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night food delivery deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "UGC badge",
+      "description": "A small badge in the top left corner with the text 'UGC' in white on a purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Product image",
+      "description": "A pair of stylized glasses or containers with a light purple tint, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cravings message",
+      "description": "A bold, white text at the bottom stating 'Your cravings, delivered' with a smaller line below it saying 'Late-night deals available'.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        57,
+        405,
+        306,
+        500
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.633,
+        0.85,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.707
+      ],
+      "area_percentage": 10.27
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale headline",
+      "description": "A prominent, white text at the top reading 'PlateSprint SALE' with a yellow background highlight.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        23,
+        30,
+        321,
+        83
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.892,
+        0.13
+      ],
+      "center_normalized": [
+        0.478,
+        0.088
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install button",
+      "description": "A bright, white button at the bottom with the text '€9.99 Install now' inviting action.",
+      "text_content": "€9.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background color",
+      "description": "A solid purple background that fills the entire ad space.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, late-night food delivery deals",
+    "layout_text": "The headline is at the top, the product image is centered, the body text is at the bottom, and the CTA is at the very bottom.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, PlateSprint SALE, UGC, €9.99 Install now",
+    "elements_text": "unknown: A small badge in the top left corner with the text 'UGC' in white on a purple background. | unknown: A pair of stylized glasses or containers with a light purple tint, centered in the ad. | body_text: A bold, white text at the bottom stating 'Your cravings, delivered' with a smaller line below it saying 'Late-night deals available'. text='Your cravings, delivered Late-night deals available' | headline: A prominent, white text at the top reading 'PlateSprint SALE' with a yellow background highlight. text='PlateSprint SALE' | cta: A bright, white button at the bottom with the text '€9.99 Install now' inviting action. text='€9.99 Install now' | decorative_element: A solid purple background that fills the entire ad space. text='UGC'"
+  }
+}

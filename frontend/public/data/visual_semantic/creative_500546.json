@@ -1,0 +1,290 @@
+{
+  "creative_id": "500546",
+  "asset_file": "assets/creative_500546.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a product showcase and promotional text.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a limited-time discount on products.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        180,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.5,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.75,
+        0.5
+      ],
+      "area_percentage": 49.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display",
+      "description": "A rectangular area featuring three vertical panels, resembling a product showcase or app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Discount message",
+      "description": "Text displaying a promotional message, bold and centered, indicating a discount offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        136,
+        180,
+        276,
+        301
+      ],
+      "bbox_normalized": [
+        0.378,
+        0.281,
+        0.767,
+        0.471
+      ],
+      "center_normalized": [
+        0.573,
+        0.376
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge indicating a percentage discount, prominently placed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like element with text prompting users to take action, positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo of the brand 'ZenDrop', displayed at the top of the ad in a clear and recognizable format.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.488
+      ],
+      "center_normalized": [
+        0.458,
+        0.4
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small label indicating user-generated content, subtly placed in the top corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline text that communicates the main offer, designed to catch the viewer's eye.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        63,
+        409,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.639,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 5.89
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Reward message",
+      "description": "Text indicating a reward claim, positioned at the bottom of the ad for easy visibility.",
+      "text_content": "30% Claim reward",
+      "bbox_xyxy": [
+        34,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.39,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The brand logo 'ZenDrop' displayed prominently at the top of the ad.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.304,
+        0.087
+      ],
+      "area_percentage": 4.12
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label indicating user-generated content, placed in the top corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, discount offer, brand logo.",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "ZenDrop, UGC, Up to 40% off Only this weekend, 30% Claim reward",
+    "elements_text": "main_subject: A rectangular area featuring three vertical panels, resembling a product showcase or app interface. | body_text: Text displaying a promotional message, bold and centered, indicating a discount offer. | discount_badge: A small badge indicating a percentage discount, prominently placed to attract attention. | cta: A button-like element with text prompting users to take action, positioned at the bottom. | logo: The logo of the brand 'ZenDrop', displayed at the top of the ad in a clear and recognizable format. | social_proof: A small label indicating user-generated content, subtly placed in the top corner. | headline: A prominent headline text that communicates the main offer, designed to catch the viewer's eye. text='Up to 40% off Only this weekend' | body_text: Text indicating a reward claim, positioned at the bottom of the ad for easy visibility. text='30% Claim reward' | logo: The brand logo 'ZenDrop' displayed prominently at the top of the ad. text='ZenDrop' | social_proof: A small label indicating user-generated content, placed in the top corner of the ad. text='UGC'"
+  }
+}

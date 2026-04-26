@@ -1,0 +1,290 @@
+{
+  "creative_id": "500745",
+  "asset_file": "assets/creative_500745.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a food delivery app interface and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting late-night food delivery deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.178
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.76
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Food delivery app interface",
+      "description": "A mockup of a food delivery app interface showing three food items with a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Food item display",
+      "description": "A section of the app displaying a food item with a simple outline and no color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Food item display",
+      "description": "Another section of the app showcasing a different food item with a similar outline style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.283,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.371
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "A small circular icon representing a food item, outlined and minimalistic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.568,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.602
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "Another small circular icon representing a different food item, also outlined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        69,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.548,
+        0.218,
+        0.613
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Your cravings, delivered' with a subtitle in smaller font below it.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        49,
+        307,
+        273,
+        389
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.64,
+        0.853,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.725
+      ],
+      "area_percentage": 11.96
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A logo for 'FreshDash' in a modern font, displayed prominently at the top.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button with the text 'Order now' encouraging immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the corner with the word 'SALE' in bold, eye-catching font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, placed in the top corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, food delivery app interface, promotional text.",
+    "layout_text": "The logo is at the top, followed by the main promotional text in the center, and the call to action button at the bottom.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, FreshDash, Order now, SALE, UGC",
+    "elements_text": "app_screenshot: A mockup of a food delivery app interface showing three food items with a clean design. | app_screenshot: A section of the app displaying a food item with a simple outline and no color. | app_screenshot: Another section of the app showcasing a different food item with a similar outline style. | icon: A small circular icon representing a food item, outlined and minimalistic. | icon: Another small circular icon representing a different food item, also outlined. | body_text: Bold white text stating 'Your cravings, delivered' with a subtitle in smaller font below it. text='Your cravings, delivered Late-night deals available' | logo: A logo for 'FreshDash' in a modern font, displayed prominently at the top. text='FreshDash' | cta: A bright button with the text 'Order now' encouraging immediate action. text='Order now' | discount_badge: A small badge in the corner with the word 'SALE' in bold, eye-catching font. text='SALE' | social_proof: A small tag labeled 'UGC' indicating user-generated content, placed in the top corner. text='UGC'"
+  }
+}

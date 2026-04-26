@@ -1,0 +1,338 @@
+{
+  "creative_id": "500438",
+  "asset_file": "assets/creative_500438.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product displays and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product with a discount and free shipping offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A vibrant abstract orange background with geometric shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        358,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.997,
+        0.456
+      ],
+      "center_normalized": [
+        0.501,
+        0.289
+      ],
+      "area_percentage": 33.21
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Stylized product display",
+      "description": "Two stylized mirrors or glass panels positioned vertically, reflecting light and adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        193
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.302
+      ],
+      "center_normalized": [
+        0.499,
+        0.151
+      ],
+      "area_percentage": 30.12
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Stylized product display",
+      "description": "Another view of the two stylized mirrors or glass panels, enhancing the product focus.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.269
+      ],
+      "center_normalized": [
+        0.499,
+        0.134
+      ],
+      "area_percentage": 26.81
+    },
+    {
+      "id": 4,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A continuation of the vibrant abstract orange background with geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        358,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.997,
+        0.357
+      ],
+      "center_normalized": [
+        0.501,
+        0.24
+      ],
+      "area_percentage": 23.33
+    },
+    {
+      "id": 5,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A section of the abstract orange background that complements the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' displayed in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        32,
+        142,
+        215
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.051,
+        0.396,
+        0.337
+      ],
+      "center_normalized": [
+        0.223,
+        0.194
+      ],
+      "area_percentage": 9.89
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Your next favorite pick' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Shipping offer text",
+      "description": "Smaller white text below the main text stating 'Free shipping over $25'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge in the bottom left corner displaying '-30%' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Watch now' encouraging user interaction.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        502
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.784
+      ],
+      "center_normalized": [
+        0.501,
+        0.714
+      ],
+      "area_percentage": 8.79
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' displayed in a modern font, positioned at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        74
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.116
+      ],
+      "center_normalized": [
+        0.242,
+        0.095
+      ],
+      "area_percentage": 1.38
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom with the text 'Watch now' inviting users to take action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge in the bottom left corner displaying '-30%' in a bold font.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, VantaStyle logo, promotional text, discount badge.",
+    "layout_text": "The logo is at the top left, the main promotional text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "Your next favorite pick, Free shipping over $25, VantaStyle, Watch now, -30%",
+    "elements_text": "main_subject: Two stylized mirrors or glass panels positioned vertically, reflecting light and adding depth. | main_subject: Another view of the two stylized mirrors or glass panels, enhancing the product focus. | logo: The logo 'VantaStyle' displayed in a modern font, positioned at the top left corner. | body_text: Bold white text stating 'Your next favorite pick' prominently displayed in the center. | body_text: Smaller white text below the main text stating 'Free shipping over $25'. | discount_badge: A small badge in the bottom left corner displaying '-30%' in a bold font. | cta: A prominent button at the bottom with the text 'Watch now' encouraging user interaction. text='Your next favorite pick Free shipping over $25' | logo: The logo 'VantaStyle' displayed in a modern font, positioned at the top left corner. text='VantaStyle' | cta: A button at the bottom with the text 'Watch now' inviting users to take action. text='Watch now' | discount_badge: A small badge in the bottom left corner displaying '-30%' in a bold font. text='30%'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500705",
+  "asset_file": "assets/creative_500705.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting DriftPass with flexible booking options at an attractive price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange abstract background",
+      "description": "A vibrant orange background with abstract shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        88,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.138,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.296
+      ],
+      "area_percentage": 31.52
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "DriftPass",
+      "description": "Bold, large text reading 'DriftPass' prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        87,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.137,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.248
+      ],
+      "area_percentage": 22.01
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Fly smarter text",
+      "description": "A smaller, white text that reads 'Fly smarter' positioned centrally, conveying a clear message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.391
+      ],
+      "area_percentage": 15.1
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "A white text below 'Fly smarter' that states 'Flexible booking options', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.311,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.415
+      ],
+      "area_percentage": 12.21
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price €19.99",
+      "description": "A prominent price tag in white text reading '€19.99' located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rounded button with the text 'Watch now' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A small circular shape in a lighter shade of orange, adding visual interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A square shape in a lighter orange color, contributing to the abstract background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, indistinct element located at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A rectangular shape in the center of the ad, details are unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo of DriftPass displayed prominently at the top of the ad.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        25,
+        39,
+        303,
+        99
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.842,
+        0.155
+      ],
+      "center_normalized": [
+        0.456,
+        0.108
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Flexible booking options text",
+      "description": "Text that elaborates on the service, emphasizing flexibility in booking.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        411,
+        286,
+        468
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.642,
+        0.794,
+        0.731
+      ],
+      "center_normalized": [
+        0.497,
+        0.687
+      ],
+      "area_percentage": 5.29
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call to action encouraging viewers to engage with the ad.",
+      "text_content": "€19.99 Watch now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, DriftPass, flexible booking options, €19.99.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "DriftPass, Fly smarter, Flexible booking options, €19.99, Watch now",
+    "elements_text": "headline: Bold, large text reading 'DriftPass' prominently displayed at the top of the ad. | body_text: A smaller, white text that reads 'Fly smarter' positioned centrally, conveying a clear message. | body_text: A white text below 'Fly smarter' that states 'Flexible booking options', providing additional information. | price: A prominent price tag in white text reading '€19.99' located towards the bottom of the ad. | cta: A rounded button with the text 'Watch now' in white, inviting users to take action. | decorative_element: A small circular shape in a lighter shade of orange, adding visual interest to the design. | decorative_element: A square shape in a lighter orange color, contributing to the abstract background. | unknown: A small, indistinct element located at the bottom center of the ad. | unknown: A rectangular shape in the center of the ad, details are unclear. | logo: The logo of DriftPass displayed prominently at the top of the ad. text='DriftPass' | body_text: Text that elaborates on the service, emphasizing flexibility in booking. text='Fly smarter Flexible booking options' | cta: A clear call to action encouraging viewers to engage with the ad. text='€19.99 Watch now'"
+  }
+}

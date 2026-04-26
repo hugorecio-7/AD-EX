@@ -1,0 +1,218 @@
+{
+  "creative_id": "500626",
+  "asset_file": "assets/creative_500626.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo at the top, a central graphic element, and a clear cashback offer with a CTA at the bottom.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting cashback offers with a focus on peace of mind.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element with an oval and square shape, likely representing a product or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.389,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.584,
+        0.43
+      ],
+      "area_percentage": 7.02
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller graphic element positioned below the central graphic, possibly a decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        352,
+        209,
+        390
+      ],
+      "bbox_normalized": [
+        0.476,
+        0.551,
+        0.582,
+        0.609
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular graphic element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional circular element",
+      "description": "Another small circular graphic element, similar in size and position to ID 3.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold text stating 'Earn cashback daily Built for peace of mind' in a clear, readable font.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "The logo of SwiftStack displayed prominently at the top of the ad in a bold font.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        35,
+        237,
+        79
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.055,
+        0.658,
+        0.123
+      ],
+      "center_normalized": [
+        0.362,
+        0.089
+      ],
+      "area_percentage": 4.07
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A clear call-to-action button with the text 'Learn more' at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, cashback offer, SwiftStack logo, Learn more CTA",
+    "layout_text": "The logo is at the top, the central graphic is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, SwiftStack, Learn more",
+    "elements_text": "unknown: A central graphic element with an oval and square shape, likely representing a product or service. | unknown: A smaller graphic element positioned below the central graphic, possibly a decorative shape. | unknown: A small circular graphic element located towards the bottom center of the ad. | unknown: Another small circular graphic element, similar in size and position to ID 3. | body_text: Bold text stating 'Earn cashback daily Built for peace of mind' in a clear, readable font. text='Earn cashback daily Built for peace of mind' | logo: The logo of SwiftStack displayed prominently at the top of the ad in a bold font. text='SwiftStack' | cta: A clear call-to-action button with the text 'Learn more' at the bottom of the ad. text='Learn more'"
+  }
+}

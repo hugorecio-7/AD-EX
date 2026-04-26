@@ -1,0 +1,266 @@
+{
+  "creative_id": "500678",
+  "asset_file": "assets/creative_500678.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and promotional text.",
+    "visual_style": "modern minimalistic with bold colors",
+    "main_message": "Promoting the MoonScreen app with an exclusive offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'MoonScreen' is prominently displayed at the top in a bold, modern font, likely white or light-colored.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "Another rectangular shape is placed slightly lower, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon is positioned towards the bottom center, likely representing a feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "Another small circular icon is placed next to the previous one, maintaining symmetry.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A third small circular icon is aligned with the others, completing a row of three.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "The text 'Exclusive tonight Cancel anytime' is displayed in a clear, readable font, likely white, centered in the ad.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "The button 'Start now' is located at the bottom center, designed to stand out with a contrasting color.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalistic with bold colors, promoting MoonScreen app.",
+    "layout_text": "The headline is at the top, followed by geometric shapes in the center, with promotional text and a CTA at the bottom.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, MoonScreen, Start now",
+    "elements_text": "headline: The text 'MoonScreen' is prominently displayed at the top in a bold, modern font, likely white or light-colored. | unknown: Two overlapping geometric shapes, one circular and one rectangular, are centered in the middle of the ad. | unknown: Another rectangular shape is placed slightly lower, adding depth to the design. | icon: A small circular icon is positioned towards the bottom center, likely representing a feature or option. | icon: Another small circular icon is placed next to the previous one, maintaining symmetry. | icon: A third small circular icon is aligned with the others, completing a row of three. | body_text: The text 'Exclusive tonight Cancel anytime' is displayed in a clear, readable font, likely white, centered in the ad. text='Exclusive tonight Cancel anytime' | cta: The button 'Start now' is located at the bottom center, designed to stand out with a contrasting color. text='MoonScreen' | unknown:  text='Start now'"
+  }
+}

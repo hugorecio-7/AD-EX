@@ -1,0 +1,338 @@
+{
+  "creative_id": "500431",
+  "asset_file": "assets/creative_500431.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and headline with a clear call-to-action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Encouraging viewers to start binge-watching new content.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "A bold, stylized logo featuring the text 'StarVault' in a prominent position at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.468,
+        0.379
+      ],
+      "area_percentage": 15.08
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Binge starts now",
+      "description": "A large, eye-catching headline that reads 'Binge starts now' in a modern font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        96,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.303,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.412
+      ],
+      "area_percentage": 13.14
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "New hits every week",
+      "description": "A smaller text line below the headline that states 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.252,
+        0.768,
+        0.468
+      ],
+      "center_normalized": [
+        0.468,
+        0.36
+      ],
+      "area_percentage": 12.92
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A rounded button at the bottom with the text 'Start now', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, adding visual interest without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.532,
+        0.429
+      ],
+      "area_percentage": 9.08
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An indistinct shape that does not convey specific information or branding.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another abstract shape that contributes to the overall design but lacks identifiable features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.347,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.587,
+        0.429
+      ],
+      "area_percentage": 6.06
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape positioned towards the bottom, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "Another small circular shape, similar to the previous one, enhancing the design's aesthetics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The main message text that encourages users to start watching, prominently displayed.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        27,
+        201,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.628,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.713
+      ],
+      "area_percentage": 13.92
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "StarVault title",
+      "description": "The title 'StarVault' displayed at the top, indicating the brand or service being advertised.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        7,
+        25,
+        238,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.744,
+        0.212
+      ],
+      "center_normalized": [
+        0.383,
+        0.145
+      ],
+      "area_percentage": 9.7
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Start now text",
+      "description": "A call-to-action text 'Start now' located at the bottom, inviting users to engage.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, StarVault logo, binge starts now.",
+    "layout_text": "The logo is at the top, followed by the headline and body text, with the CTA button at the bottom.",
+    "ocr_text": "Binge starts now, New hits every week, StarVault, Start now",
+    "elements_text": "logo: A bold, stylized logo featuring the text 'StarVault' in a prominent position at the top. | headline: A large, eye-catching headline that reads 'Binge starts now' in a modern font, centrally positioned. | body_text: A smaller text line below the headline that states 'New hits every week', providing additional context. | cta: A rounded button at the bottom with the text 'Start now', designed to attract user interaction. | decorative_element: Abstract shapes in the background, adding visual interest without distracting from the main message. | unknown: An indistinct shape that does not convey specific information or branding. | unknown: Another abstract shape that contributes to the overall design but lacks identifiable features. | unknown: A small circular shape positioned towards the bottom, serving as a decorative element. | unknown: Another small circular shape, similar to the previous one, enhancing the design's aesthetics. | body_text: The main message text that encourages users to start watching, prominently displayed. text='Binge starts now New hits every week' | headline: The title 'StarVault' displayed at the top, indicating the brand or service being advertised. text='StarVault' | cta: A call-to-action text 'Start now' located at the bottom, inviting users to engage. text='Start now'"
+  }
+}

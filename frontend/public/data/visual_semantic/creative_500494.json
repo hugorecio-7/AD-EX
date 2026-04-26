@@ -1,0 +1,290 @@
+{
+  "creative_id": "500494",
+  "asset_file": "assets/creative_500494.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with food images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food options with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright, solid yellow background fills the entire canvas, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        26,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.056,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.527
+      ],
+      "area_percentage": 94.11
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Image of food items",
+      "description": "Three rectangular images of food items are displayed in the center, showcasing fresh and appealing fast food options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        87,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.183,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.591
+      ],
+      "area_percentage": 81.44
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "BiteRush logo",
+      "description": "The logo 'BiteRush' is prominently displayed at the top in bold, modern typography, conveying a sense of freshness.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A rounded button with the text 'Try for free' in a contrasting color, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€19.99' is displayed in a bold font, emphasizing affordability and value.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, eye-catching 'SALE' badge in the top corner, indicating a special offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "The text 'Fast food, fast Fresh favorites nearby' is written in a clear, readable font, providing context about the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Visual accents",
+      "description": "Subtle decorative elements enhance the overall design without distracting from the main message.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "€19.99 Try for free",
+      "bbox_xyxy": [
+        23,
+        399,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.37,
+        0.876
+      ],
+      "area_percentage": 5.35
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        32,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.092
+      ],
+      "area_percentage": 1.72
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, food images, promotional text",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "BiteRush, SALE, Fast food, fast Fresh favorites nearby, €19.99, Try for free",
+    "elements_text": "main_subject: Three rectangular images of food items are displayed in the center, showcasing fresh and appealing fast food options. | headline: The logo 'BiteRush' is prominently displayed at the top in bold, modern typography, conveying a sense of freshness. | cta: A rounded button with the text 'Try for free' in a contrasting color, inviting users to take action. | price: The price '€19.99' is displayed in a bold font, emphasizing affordability and value. | discount_badge: A small, eye-catching 'SALE' badge in the top corner, indicating a special offer. | body_text: The text 'Fast food, fast Fresh favorites nearby' is written in a clear, readable font, providing context about the service. | decorative_element: Subtle decorative elements enhance the overall design without distracting from the main message. text='Fast food, fast Fresh favorites nearby' | unknown:  text='€19.99 Try for free' | unknown:  text='BiteRush' | unknown:  text='SALE'"
+  }
+}

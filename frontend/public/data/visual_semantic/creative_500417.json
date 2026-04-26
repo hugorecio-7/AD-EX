@@ -1,0 +1,338 @@
+{
+  "creative_id": "500417",
+  "asset_file": "assets/creative_500417.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text elements promoting a travel offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.308
+      ],
+      "area_percentage": 29.19
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NomadLaye logo",
+      "description": "A bold, uppercase text reading 'NomadLaye' in a large font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dream text",
+      "description": "The word 'Dream' in a large, white font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.24
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Destinations await",
+      "description": "The phrase 'destinations await' in a prominent, white font, located just below the 'Dream' text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.311,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.415
+      ],
+      "area_percentage": 12.24
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Hotels + flights",
+      "description": "The text 'Hotels + flights in one tap' in a smaller white font, positioned below 'destinations await'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A bold, white '$4.99' text displayed at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer' in white, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, solid circle in a lighter shade of orange, positioned near the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A small, abstract shape located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Middle decorative element",
+      "description": "A rectangular shape in a lighter shade of orange, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Offer details",
+      "description": "Text detailing the offer, 'Hotels + flights in one tap', in a smaller font at the bottom.",
+      "text_content": "destinations await Hotels + flights in one tap $4.99 Get offer",
+      "bbox_xyxy": [
+        26,
+        443,
+        294,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.692,
+        0.817,
+        0.908
+      ],
+      "center_normalized": [
+        0.444,
+        0.8
+      ],
+      "area_percentage": 16.05
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A large, abstract shape at the top of the ad, contributing to the overall design.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        22,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.101
+      ],
+      "area_percentage": 11.59
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Dream text",
+      "description": "The word 'Dream' in a large, white font, centered in the middle of the ad.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        122,
+        410,
+        239,
+        446
+      ],
+      "bbox_normalized": [
+        0.339,
+        0.641,
+        0.664,
+        0.697
+      ],
+      "center_normalized": [
+        0.501,
+        0.669
+      ],
+      "area_percentage": 1.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, NomadLaye, travel offer, $4.99.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "destinations await, Hotels + flights in one tap, $4.99, NomadLaye, Dream",
+    "elements_text": "headline: A bold, uppercase text reading 'NomadLaye' in a large font, positioned at the top of the ad. | body_text: The word 'Dream' in a large, white font, centered in the middle of the ad. | body_text: The phrase 'destinations await' in a prominent, white font, located just below the 'Dream' text. | body_text: The text 'Hotels + flights in one tap' in a smaller white font, positioned below 'destinations await'. | price: A bold, white '$4.99' text displayed at the bottom of the ad. | cta: A prominent button with the text 'Get offer' in white, located at the bottom of the ad. | decorative_element: A small, solid circle in a lighter shade of orange, positioned near the top left. | unknown: A small, abstract shape located towards the bottom of the ad. | unknown: A rectangular shape in a lighter shade of orange, positioned in the center. | body_text: Text detailing the offer, 'Hotels + flights in one tap', in a smaller font at the bottom. text='destinations await Hotels + flights in one tap $4.99 Get offer' | unknown: A large, abstract shape at the top of the ad, contributing to the overall design. text='NomadLaye' | unknown: The word 'Dream' in a large, white font, centered in the middle of the ad. text='Dream'"
+  }
+}

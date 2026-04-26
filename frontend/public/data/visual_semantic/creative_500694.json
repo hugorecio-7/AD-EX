@@ -1,0 +1,194 @@
+{
+  "creative_id": "500694",
+  "asset_file": "assets/creative_500694.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on a flash sale announcement.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a flash sale for bestsellers.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A vibrant green background fills the entire canvas, providing a lively and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.201,
+        0.954,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.03
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring the text 'ThreadMark' in a bold, modern font, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "A prominent headline that reads 'Flash sale live' in large, eye-catching font, centered in the lower part of the ad.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        308,
+        270,
+        357
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.844,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.693
+      ],
+      "area_percentage": 7.02
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "A smaller text below the headline that says 'Shop bestsellers now', providing additional context.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        24,
+        30,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.09
+      ],
+      "area_percentage": 2.51
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A bold, rectangular button at the bottom center with the text 'Order now' in white, encouraging immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, ThreadMark logo, flash sale announcement, order now button",
+    "layout_text": "The logo is at the top center, the sale badge is at the top right, the headline is centered below the logo, followed by body text, and the CTA button is at the bottom center.",
+    "ocr_text": "ThreadMark, SALE, Flash sale live, Shop bestsellers now, Order now",
+    "elements_text": "logo: A simple logo featuring the text 'ThreadMark' in a bold, modern font, positioned at the top center. | discount_badge: A small, circular badge with the word 'SALE' in bold text, located at the top right corner. | headline: A prominent headline that reads 'Flash sale live' in large, eye-catching font, centered in the lower part of the ad. text='Flash sale live Shop bestsellers now' | body_text: A smaller text below the headline that says 'Shop bestsellers now', providing additional context. text='ThreadMark' | cta: A bold, rectangular button at the bottom center with the text 'Order now' in white, encouraging immediate action. text='Order now' | unknown:  text='SALE'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500663",
+  "asset_file": "assets/creative_500663.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a light gray background with abstract shapes and clear text elements.",
+    "visual_style": "minimalist with modern elements",
+    "main_message": "Encouraging users to track their finances with peace of mind.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray background that fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of circular and rectangular shapes in the center, suggesting a modern and abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape positioned towards the bottom center, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, black text in the center reading 'Track every euro Built for peace of mind', conveying a clear message.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        35,
+        409,
+        323,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.897,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.684
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A small logo at the top left corner, featuring the text 'EarnPath' in a simple, modern font.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        26,
+        46,
+        128,
+        70
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.356,
+        0.109
+      ],
+      "center_normalized": [
+        0.214,
+        0.091
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom center with the text 'Learn more', designed to attract user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with modern elements, EarnPath, Track every euro.",
+    "layout_text": "The logo is positioned at the top left, the headline is centered, and the CTA button is at the bottom center.",
+    "ocr_text": "Track every euro, Built for peace of mind, EarnPath, Learn more",
+    "elements_text": "main_subject: A combination of circular and rectangular shapes in the center, suggesting a modern and abstract design. | unknown: A small circular shape positioned towards the bottom center, adding a decorative touch to the layout. | headline: Bold, black text in the center reading 'Track every euro Built for peace of mind', conveying a clear message. text='Track every euro Built for peace of mind' | logo: A small logo at the top left corner, featuring the text 'EarnPath' in a simple, modern font. text='EarnPath' | cta: A prominent button at the bottom center with the text 'Learn more', designed to attract user interaction. text='Learn more'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500564",
+  "asset_file": "assets/creative_500564.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with promotional text and food illustrations.",
+    "visual_style": "bright and minimalist",
+    "main_message": "Promoting fast food options with a discount offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright yellow background that fills the entire canvas, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Two food items",
+      "description": "A simple illustration of two food items, represented as stylized outlines, placed centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional food item",
+      "description": "Another stylized outline of a food item, positioned slightly to the right of the first, maintaining a minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold, black text that reads 'Fast food, fast Fresh favorites nearby', prominently displayed in the center of the ad.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        47,
+        304,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.633,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.689
+      ],
+      "area_percentage": 7.87
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The logo 'CraveLoop' is presented in a bold font at the top left corner, colored in a contrasting shade to stand out.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        28,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.087
+      ],
+      "area_percentage": 2.39
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded black button at the bottom center of the ad with the text 'Learn more' in white, inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount offer",
+      "description": "A small, bold text displaying '-30%' in a bright color, located at the bottom left corner, indicating a promotional discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and minimalist, fast food, discount offer",
+    "layout_text": "The logo is positioned at the top left, the headline is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Fast food, fast Fresh favorites nearby, CraveLoop, Learn more, 30%",
+    "elements_text": "app_screenshot: A simple illustration of two food items, represented as stylized outlines, placed centrally within the ad. | unknown: Another stylized outline of a food item, positioned slightly to the right of the first, maintaining a minimalist design. | headline: Bold, black text that reads 'Fast food, fast Fresh favorites nearby', prominently displayed in the center of the ad. text='Fast food, fast Fresh favorites nearby' | logo: The logo 'CraveLoop' is presented in a bold font at the top left corner, colored in a contrasting shade to stand out. text='CraveLoop' | cta: A rounded black button at the bottom center of the ad with the text 'Learn more' in white, inviting user interaction. text='Learn more' | discount_badge: A small, bold text displaying '-30%' in a bright color, located at the bottom left corner, indicating a promotional discount. text='30%'"
+  }
+}
