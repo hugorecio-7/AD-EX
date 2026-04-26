@@ -69,8 +69,8 @@ async def generate_creative_with_flux(
         )
 
     if pipe is None:
-        print("[ImageGen] No diffusion pipe provided — skipping generation step.")
-        return mask_path or image_path
+        print("[ImageGen] No diffusion pipe provided — returning original image to avoid invalid output.")
+        return image_path
 
     # Prepare for inpainting
     original_pil = Image.open(image_path).convert("RGB")
