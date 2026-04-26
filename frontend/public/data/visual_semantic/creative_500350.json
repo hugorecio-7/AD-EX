@@ -1,0 +1,242 @@
+{
+  "creative_id": "500350",
+  "asset_file": "assets/creative_500350.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a logo, food illustration, and clear call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food options available nearby.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A simple logo with the text 'CraveLoop' in a bold, modern font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge with the text 'SALE' in a contrasting color, located at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        157,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.494,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.713,
+        0.091
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food item illustration",
+      "description": "An illustration of two food items, represented by two stylized mirrors, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Food description",
+      "description": "Text below the food illustration that reads 'Fast food, fast favorites nearby' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price tag displaying '€9.99' in a prominent font, located below the food description.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A button with the text 'Learn more' in a bright color, positioned at the bottom of the ad.",
+      "text_content": "€9.99 Learn more",
+      "bbox_xyxy": [
+        23,
+        399,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.369,
+        0.873
+      ],
+      "area_percentage": 4.95
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        27,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.086
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, CraveLoop logo, food illustration, sale badge",
+    "layout_text": "The logo is at the top, followed by the sale badge, food illustration in the center, body text below, and the CTA at the bottom.",
+    "ocr_text": "Fast food, fast favorites nearby, €9.99, Learn more, CraveLoop, SALE",
+    "elements_text": "logo: A simple logo with the text 'CraveLoop' in a bold, modern font, positioned at the top. | discount_badge: A small, circular badge with the text 'SALE' in a contrasting color, located at the top right. | main_subject: An illustration of two food items, represented by two stylized mirrors, centered in the ad. | body_text: Text below the food illustration that reads 'Fast food, fast favorites nearby' in a clear, readable font. | price: A price tag displaying '€9.99' in a prominent font, located below the food description. text='Fast food, fast Fresh favorites nearby' | cta: A button with the text 'Learn more' in a bright color, positioned at the bottom of the ad. text='€9.99 Learn more' | unknown:  text='CraveLoop' | unknown:  text='SALE'"
+  }
+}

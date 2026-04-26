@@ -1,0 +1,242 @@
+{
+  "creative_id": "500863",
+  "asset_file": "assets/creative_500863.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a mix of abstract shapes and text elements promoting a service.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to start binge-watching with a free trial.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A collection of abstract shapes including circles and squares in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.35
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A larger square shape with a light outline, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape, lightly colored, positioned towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circle shape, lightly colored, positioned near the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold text stating 'Binge starts now Start free today' in a prominent position.",
+      "text_content": "Binge starts now Start free today",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'StarVault' displayed prominently at the top in a bold font.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        27,
+        41,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.094
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Order now' in a clear, bold font at the bottom.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "Text labeled 'UGC' in a small font, positioned at the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, main message encouraging binge-watching.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "Binge starts now Start free today, StarVault, Order now, UGC",
+    "elements_text": "unknown: A collection of abstract shapes including circles and squares in a light color. | unknown: A larger square shape with a light outline, positioned centrally. | unknown: A small circle shape, lightly colored, positioned towards the bottom. | unknown: Another small circle shape, lightly colored, positioned near the bottom left. | body_text: Bold text stating 'Binge starts now Start free today' in a prominent position. text='Binge starts now Start free today' | logo: The logo 'StarVault' displayed prominently at the top in a bold font. text='StarVault' | cta: A button with the text 'Order now' in a clear, bold font at the bottom. text='Order now' | decorative_element: Text labeled 'UGC' in a small font, positioned at the top left. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "501027",
+  "asset_file": "assets/creative_501027.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and clear text elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings with flexible booking options.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.5,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and an oval shape in lighter shades of orange, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        301
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.471
+      ],
+      "center_normalized": [
+        0.468,
+        0.355
+      ],
+      "area_percentage": 13.72
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Savings message",
+      "description": "Text in bold white font stating 'Last-minute savings', centrally placed below the geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Booking options",
+      "description": "Smaller text in white below the savings message, reading 'Flexible booking options'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small white text displaying the price '$4.99' positioned at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Watch now' in white, located at the bottom center.",
+      "text_content": "Last-minute savings Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        407,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.636,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Advertiser logo",
+      "description": "The word 'WayPoint' in bold black font at the top center of the ad.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rectangular button with rounded edges containing the text 'Watch now' in white.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text showing the price '$4.99' in white, located at the bottom left.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, last-minute savings, flexible booking options",
+    "layout_text": "The headline is at the top, main subject in the center, and CTA at the bottom.",
+    "ocr_text": "WayPoint, Last-minute savings, Flexible booking options, $4.99, Watch now",
+    "elements_text": "main_subject: A large square and an oval shape in lighter shades of orange, positioned centrally. | body_text: Text in bold white font stating 'Last-minute savings', centrally placed below the geometric shapes. | body_text: Smaller text in white below the savings message, reading 'Flexible booking options'. | price: A small white text displaying the price '$4.99' positioned at the bottom left. | cta: A prominent button with the text 'Watch now' in white, located at the bottom center. text='Last-minute savings Flexible booking options' | headline: The word 'WayPoint' in bold black font at the top center of the ad. text='WayPoint' | cta: A rectangular button with rounded edges containing the text 'Watch now' in white. text='Watch now' | price: A small text showing the price '$4.99' in white, located at the bottom left. text='$4.99'"
+  }
+}

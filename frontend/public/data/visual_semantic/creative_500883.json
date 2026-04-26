@@ -1,0 +1,266 @@
+{
+  "creative_id": "500883",
+  "asset_file": "assets/creative_500883.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear call to action and promotional messaging.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting travel bookings with flexible options.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        471
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.502,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' is centrally positioned, capturing immediate attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline reads 'Flexible booking options', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "A large square and a smaller circle are centered in the background, adding a modern design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle is placed towards the bottom, complementing the geometric shapes in the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent yellow button with the text 'Book now' is located at the bottom, encouraging user interaction.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        51,
+        411,
+        313,
+        502
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.642,
+        0.869,
+        0.784
+      ],
+      "center_normalized": [
+        0.506,
+        0.713
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' is displayed in white text at the top left corner, establishing brand identity.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        26,
+        45,
+        153,
+        69
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.07,
+        0.425,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.089
+      ],
+      "area_percentage": 1.32
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Secondary CTA",
+      "description": "A smaller yellow button with the text 'Book now' is positioned at the bottom, reinforcing the call to action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' is located at the top right, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is placed at the top left, suggesting user-generated content is featured.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, travel booking, flexible options",
+    "layout_text": "The headline is centered, with the body text below it, and the CTA button at the bottom.",
+    "ocr_text": "Book your next trip, Flexible booking options, CloudRoute, Book now, SALE, UGC",
+    "elements_text": "headline: Bold white text stating 'Book your next trip' is centrally positioned, capturing immediate attention. | body_text: Smaller white text below the headline reads 'Flexible booking options', providing additional information. | unknown: A large square and a smaller circle are centered in the background, adding a modern design element. | unknown: A small circle is placed towards the bottom, complementing the geometric shapes in the background. | cta: A prominent yellow button with the text 'Book now' is located at the bottom, encouraging user interaction. text='Book your next trip Flexible booking options' | logo: The logo 'CloudRoute' is displayed in white text at the top left corner, establishing brand identity. text='CloudRoute' | cta: A smaller yellow button with the text 'Book now' is positioned at the bottom, reinforcing the call to action. text='Book now' | discount_badge: A small yellow badge with the text 'SALE' is located at the top right, indicating a promotional offer. text='SALE' | unknown: A small tag labeled 'UGC' is placed at the top left, suggesting user-generated content is featured. text='UGC'"
+  }
+}

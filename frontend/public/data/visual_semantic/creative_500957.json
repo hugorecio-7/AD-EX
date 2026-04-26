@@ -1,0 +1,194 @@
+{
+  "creative_id": "500957",
+  "asset_file": "assets/creative_500957.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a clear promotional message and a strong call to action.",
+    "visual_style": "minimalistic with soft colors",
+    "main_message": "Promoting special fares for smarter flying options.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central abstract shapes",
+      "description": "This element features a combination of geometric shapes, including a large rectangle and a smaller circle, rendered in a soft color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central abstract shapes",
+      "description": "This element consists of a large rectangle with rounded corners, overlaid on a background of soft colors, creating a modern and minimalistic look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small abstract shape",
+      "description": "This element is a small circle positioned towards the bottom of the larger shapes, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "HorizonHop logo",
+      "description": "The text 'HorizonHop' is displayed prominently at the top in bold, modern typography, contrasting against a vibrant background.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        23,
+        29,
+        256,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.045,
+        0.711,
+        0.127
+      ],
+      "center_normalized": [
+        0.388,
+        0.086
+      ],
+      "area_percentage": 5.26
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "The phrase 'Fly smarter Special fares today' is presented in a clear, inviting font, positioned centrally to attract attention.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        79,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.219,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.685
+      ],
+      "area_percentage": 4.87
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Order now' is displayed in a bold, eye-catching button format at the bottom, encouraging immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic with soft colors, HorizonHop logo, promotional message, call to action.",
+    "layout_text": "The headline is at the top, the main body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter Special fares today, Order now",
+    "elements_text": "unknown: This element features a combination of geometric shapes, including a large rectangle and a smaller circle, rendered in a soft color palette. | unknown: This element consists of a large rectangle with rounded corners, overlaid on a background of soft colors, creating a modern and minimalistic look. | unknown: This element is a small circle positioned towards the bottom of the larger shapes, adding a playful touch to the design. | headline: The text 'HorizonHop' is displayed prominently at the top in bold, modern typography, contrasting against a vibrant background. text='HorizonHop' | body_text: The phrase 'Fly smarter Special fares today' is presented in a clear, inviting font, positioned centrally to attract attention. text='Fly smarter Special fares today' | cta: The text 'Order now' is displayed in a bold, eye-catching button format at the bottom, encouraging immediate action. text='Order now'"
+  }
+}

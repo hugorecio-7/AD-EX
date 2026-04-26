@@ -1,0 +1,314 @@
+{
+  "creative_id": "501016",
+  "asset_file": "assets/creative_501016.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with product images and clear calls to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting limited stock items with free shipping and a clear price.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a fresh and lively backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display",
+      "description": "A rectangular area showcasing three vertical product images with a glossy finish, suggesting a display of items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.768,
+        0.478
+      ],
+      "center_normalized": [
+        0.578,
+        0.379
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon positioned to the left of the product display, likely representing a feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "Another small circular icon, similar to the previous one, located next to the product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A third small circular icon, completing the set next to the product display, maintaining a consistent design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Limited stock text",
+      "description": "Bold, large text stating 'Limited stock' in a prominent position, emphasizing urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Shipping offer text",
+      "description": "Smaller text below the 'Limited stock' message, stating 'Free shipping over $25' in a clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "A bold price tag reading '$4.99' positioned at the bottom left, drawing attention to the cost.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Start now' at the bottom center, inviting user interaction.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        56,
+        308,
+        266,
+        357
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.642,
+        0.831,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "The logo 'LuxShelf' displayed at the top left, featuring a modern font style.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A secondary button labeled 'Start now' at the bottom right, encouraging immediate action.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 12,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag showing '$4.99' at the bottom left, clearly indicating the cost of the product.",
+      "text_content": "s4.99",
+      "bbox_xyxy": [
+        23,
+        399,
+        87,
+        419
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.873
+      ],
+      "center_normalized": [
+        0.172,
+        0.852
+      ],
+      "area_percentage": 0.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, limited stock, free shipping",
+    "layout_text": "The logo is at the top left, the product display is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Limited stock, Free shipping over $25, LuxShelf, Start now, $4.99",
+    "elements_text": "main_subject: A rectangular area showcasing three vertical product images with a glossy finish, suggesting a display of items. | icon: A small circular icon positioned to the left of the product display, likely representing a feature or option. | icon: Another small circular icon, similar to the previous one, located next to the product display. | icon: A third small circular icon, completing the set next to the product display, maintaining a consistent design. | body_text: Bold, large text stating 'Limited stock' in a prominent position, emphasizing urgency. | body_text: Smaller text below the 'Limited stock' message, stating 'Free shipping over $25' in a clear font. | body_text: A bold price tag reading '$4.99' positioned at the bottom left, drawing attention to the cost. | cta: A prominent button labeled 'Start now' at the bottom center, inviting user interaction. text='Limited stock Free shipping over $25' | logo: The logo 'LuxShelf' displayed at the top left, featuring a modern font style. text='LuxShelf' | cta: A secondary button labeled 'Start now' at the bottom right, encouraging immediate action. text='Start now' | price: A small price tag showing '$4.99' at the bottom left, clearly indicating the cost of the product. text='s4.99'"
+  }
+}

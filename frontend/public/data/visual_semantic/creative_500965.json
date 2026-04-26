@@ -1,0 +1,170 @@
+{
+  "creative_id": "500965",
+  "asset_file": "assets/creative_500965.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a fresh green background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer on fresh favorites.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A vibrant green background fills the entire canvas, creating a fresh and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "empty space",
+      "description": "A blank rectangular area in the center, suggesting a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "promotional text",
+      "description": "Bold, black text stating '2-for-1 tonight Fresh favorites nearby' is prominently displayed in the center.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        45,
+        307,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.64,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A rounded button with the text 'Book now' in white on a black background, positioned at the bottom.",
+      "text_content": "€19.99 Book now",
+      "bbox_xyxy": [
+        22,
+        396,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.358,
+        0.87
+      ],
+      "area_percentage": 5.18
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' appears in bold, dark text at the top left corner, conveying brand identity.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, 2-for-1 offer, FreshDash logo, call to action.",
+    "layout_text": "The headline is centered, the logo is at the top left, the discount badge is at the top right, and the CTA is at the bottom.",
+    "ocr_text": "FreshDash, SALE, 2-for-1 tonight Fresh favorites nearby, €19.99, Book now",
+    "elements_text": "unknown: A blank rectangular area in the center, suggesting a placeholder for an image or graphic. | headline: Bold, black text stating '2-for-1 tonight Fresh favorites nearby' is prominently displayed in the center. text='2-for-1 tonight Fresh favorites nearby' | cta: A rounded button with the text 'Book now' in white on a black background, positioned at the bottom. text='€19.99 Book now' | logo: The logo 'FreshDash' appears in bold, dark text at the top left corner, conveying brand identity. text='FreshDash' | discount_badge: A small yellow badge with the word 'SALE' in bold text, located at the top right corner. text='SALE'"
+  }
+}

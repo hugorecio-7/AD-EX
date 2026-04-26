@@ -1,0 +1,290 @@
+{
+  "creative_id": "501035",
+  "asset_file": "assets/creative_501035.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with promotional elements for a food service.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a 2-for-1 late-night deal with a clear call to action.",
+    "dominant_colors": [
+      "red",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid red background fills the entire canvas, creating a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Two glasses",
+      "description": "Two stylized glasses are depicted in a minimalistic design, positioned centrally with a light pink hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three dots",
+      "description": "Three small, evenly spaced dots below the glasses, rendered in a soft pink color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow circular badge in the top right corner with the word 'SALE' in bold, contrasting text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late-night deals text",
+      "description": "Text in white font below the glasses, stating '2-for-1 tonight Late-night deals available' in a friendly, inviting style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Discount percentage",
+      "description": "A small white text displaying '30%' at the bottom left, indicating a discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Start now' in bold white font against a solid color background.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        52,
+        407,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.636,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.682
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' is displayed at the top center in a bold, modern font, colored white.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        23,
+        35,
+        225,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.625,
+        0.123
+      ],
+      "center_normalized": [
+        0.344,
+        0.089
+      ],
+      "area_percentage": 3.86
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Start now text",
+      "description": "Text in white font on the call to action button, inviting users to engage.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Discount percentage badge",
+      "description": "A small white text displaying '30%' at the bottom left, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Sale headline",
+      "description": "A bold text at the top left corner stating 'SALE' in a bright yellow color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, 2-for-1 deal, QuickFork logo",
+    "layout_text": "The logo is at the top center, the headline is in the top left, the main subject is centered, and the CTA is at the bottom center.",
+    "ocr_text": "QuickFork, 2-for-1 tonight Late-night deals available, Start now, 30%, SALE",
+    "elements_text": "main_subject: Two stylized glasses are depicted in a minimalistic design, positioned centrally with a light pink hue. | main_subject: Three small, evenly spaced dots below the glasses, rendered in a soft pink color. | discount_badge: A small yellow circular badge in the top right corner with the word 'SALE' in bold, contrasting text. | body_text: Text in white font below the glasses, stating '2-for-1 tonight Late-night deals available' in a friendly, inviting style. | price: A small white text displaying '30%' at the bottom left, indicating a discount. | cta: A rounded button at the bottom center with the text 'Start now' in bold white font against a solid color background. text='2-for-1 tonight Late-night deals available' | logo: The logo 'QuickFork' is displayed at the top center in a bold, modern font, colored white. text='QuickFork' | body_text: Text in white font on the call to action button, inviting users to engage. text='Start now' | discount_badge: A small white text displaying '30%' at the bottom left, indicating a discount. text='30%' | headline: A bold text at the top left corner stating 'SALE' in a bright yellow color. text='SALE'"
+  }
+}

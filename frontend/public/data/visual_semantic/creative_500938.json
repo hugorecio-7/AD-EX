@@ -1,0 +1,338 @@
+{
+  "creative_id": "500938",
+  "asset_file": "assets/creative_500938.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with prominent text and call-to-action elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to engage with the game and shop.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        126
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.264
+      ],
+      "center_normalized": [
+        0.5,
+        0.132
+      ],
+      "area_percentage": 26.34
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "The logo features the text 'VoxelRealm' in a bold, modern font, positioned at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        186,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.582,
+        0.35
+      ],
+      "center_normalized": [
+        0.341,
+        0.294
+      ],
+      "area_percentage": 5.32
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "The text reads 'Level up today' in a large, bold font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        103,
+        235
+      ],
+      "bbox_normalized": [
+        0.098,
+        0.381,
+        0.322,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "The text 'No ads in first week' is smaller and positioned directly below the main body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        182,
+        188,
+        235
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.381,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.479,
+        0.436
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small icon representing gameplay, located near the top of the ad, featuring simple geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        102,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another small gameplay icon, similar in style to the previous one, positioned next to it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.589,
+        0.35
+      ],
+      "center_normalized": [
+        0.479,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Shop now' at the bottom of the ad, designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small circular icon representing gameplay, located in the center area of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "Another small circular gameplay icon, positioned at the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small circular gameplay icon, located at the top right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        146,
+        143
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.459,
+        0.3
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'Level up today' is bold and centrally placed, drawing immediate attention.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        45,
+        304,
+        276,
+        355
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.633,
+        0.863,
+        0.74
+      ],
+      "center_normalized": [
+        0.502,
+        0.686
+      ],
+      "area_percentage": 7.67
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "The logo 'VoxelRealm' is displayed prominently at the top of the ad in a modern font.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        24,
+        30,
+        166,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.519,
+        0.117
+      ],
+      "center_normalized": [
+        0.297,
+        0.09
+      ],
+      "area_percentage": 2.4
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button labeled 'Shop now' at the bottom of the ad, encouraging users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, VoxelRealm logo, call to action.",
+    "layout_text": "The logo is at the top left, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "VoxelRealm, Level up today, No ads in first week, Shop now",
+    "elements_text": "logo: The logo features the text 'VoxelRealm' in a bold, modern font, positioned at the top left of the ad. | body_text: The text reads 'Level up today' in a large, bold font, centered in the middle of the ad. | body_text: The text 'No ads in first week' is smaller and positioned directly below the main body text. | icon: A small icon representing gameplay, located near the top of the ad, featuring simple geometric shapes. | icon: Another small gameplay icon, similar in style to the previous one, positioned next to it. | cta: A prominent button labeled 'Shop now' at the bottom of the ad, designed to attract user interaction. | icon: A small circular icon representing gameplay, located in the center area of the ad. | icon: Another small circular gameplay icon, positioned at the top left corner of the ad. | icon: A small circular gameplay icon, located at the top right corner of the ad. | headline: The main headline 'Level up today' is bold and centrally placed, drawing immediate attention. text='Level up today No ads in first week' | logo: The logo 'VoxelRealm' is displayed prominently at the top of the ad in a modern font. text='VoxelRealm' | cta: A button labeled 'Shop now' at the bottom of the ad, encouraging users to take action. text='Shop now'"
+  }
+}

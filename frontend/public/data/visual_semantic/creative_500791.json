@@ -1,0 +1,290 @@
+{
+  "creative_id": "500791",
+  "asset_file": "assets/creative_500791.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout with a focus on trending content and a clear call to action.",
+    "visual_style": "bright and modern with playful elements",
+    "main_message": "Encouraging viewers to watch trending content with a flexible cancellation policy.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Main content area",
+      "description": "A central rectangular area with a light background, possibly containing abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary content area",
+      "description": "A smaller central rectangle with a light background, featuring abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "An overlay shape in the center, possibly a square or rectangle, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape at the bottom left, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular shape at the bottom center, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small rectangular shape at the bottom right, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "A bold text area at the bottom, stating 'Watch what's trending Cancel anytime' in a prominent font.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        64,
+        408,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.637,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A bold, stylized logo at the top left, featuring the text 'NeonCast' in a vibrant color.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom center with the text 'Watch now' in a bold font.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon at the top left corner labeled 'UGC', possibly indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern with playful elements, trending content, call to action.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the call to action is at the bottom center.",
+    "ocr_text": "Watch what's trending, Cancel anytime, NeonCast, Watch now, UGC",
+    "elements_text": "unknown: A central rectangular area with a light background, possibly containing abstract shapes. | unknown: A smaller central rectangle with a light background, featuring abstract shapes. | unknown: An overlay shape in the center, possibly a square or rectangle, with a light background. | unknown: A small circular shape at the bottom left, with a light background. | unknown: A small rectangular shape at the bottom center, with a light background. | unknown: A small rectangular shape at the bottom right, with a light background. | body_text: A bold text area at the bottom, stating 'Watch what's trending Cancel anytime' in a prominent font. text='Watch what's trending Cancel anytime' | logo: A bold, stylized logo at the top left, featuring the text 'NeonCast' in a vibrant color. text='NeonCast' | cta: A prominent button at the bottom center with the text 'Watch now' in a bold font. text='Watch now' | icon: A small icon at the top left corner labeled 'UGC', possibly indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500999",
+  "asset_file": "assets/creative_500999.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with food icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a food delivery service with a sale announcement.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        469
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.2,
+        0.951,
+        0.733
+      ],
+      "center_normalized": [
+        0.5,
+        0.467
+      ],
+      "area_percentage": 48.14
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Two product icons",
+      "description": "Two simple, stylized icons representing food items are centered, with a minimalist design and soft edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        197,
+        313
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.311,
+        0.549,
+        0.49
+      ],
+      "center_normalized": [
+        0.359,
+        0.4
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A small circular icon is placed below the product icons, featuring a simple design that complements the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "Another small circular icon is positioned similarly to the previous one, maintaining a cohesive look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying a discount percentage, designed with a bold font and contrasting color for visibility.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag element that is simple and unobtrusive, positioned near the discount badge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "A bold, white headline text that reads 'Hungry? We got you' is prominently displayed at the bottom of the ad.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        43,
+        409,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 10.98
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A bright yellow text at the top announces 'CraveLoop SALE' in a playful font, drawing attention immediately.",
+      "text_content": "CraveLoop SALE",
+      "bbox_xyxy": [
+        24,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.479,
+        0.089
+      ],
+      "area_percentage": 5.67
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A clear and inviting 'Shop now' button in a contrasting color, designed to stand out and encourage interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        585
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.914
+      ],
+      "center_normalized": [
+        0.496,
+        0.893
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Discount percentage",
+      "description": "A small, bold text displaying '30%' that indicates a discount, designed to catch the viewer's eye.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, food icons, sale announcement",
+    "layout_text": "The headline is at the bottom, the main subject is centered, and the CTA is also at the bottom.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, CraveLoop SALE, Shop now, 30%",
+    "elements_text": "main_subject: Two simple, stylized icons representing food items are centered, with a minimalist design and soft edges. | decorative_element: A small circular icon is placed below the product icons, featuring a simple design that complements the overall aesthetic. | decorative_element: Another small circular icon is positioned similarly to the previous one, maintaining a cohesive look. | discount_badge: A small badge displaying a discount percentage, designed with a bold font and contrasting color for visibility. | price: A small price tag element that is simple and unobtrusive, positioned near the discount badge. | headline: A bold, white headline text that reads 'Hungry? We got you' is prominently displayed at the bottom of the ad. text='Hungry? We got you Fresh favorites nearby' | headline: A bright yellow text at the top announces 'CraveLoop SALE' in a playful font, drawing attention immediately. text='CraveLoop SALE' | cta: A clear and inviting 'Shop now' button in a contrasting color, designed to stand out and encourage interaction. text='Shop now' | discount_badge: A small, bold text displaying '30%' that indicates a discount, designed to catch the viewer's eye. text='30%'"
+  }
+}

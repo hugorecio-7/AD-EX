@@ -1,0 +1,218 @@
+{
+  "creative_id": "500335",
+  "asset_file": "assets/creative_500335.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and a clear discount message, set against a dark background.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting discounts and free shipping for ZenDrop products.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "A bold, modern logo with the text 'ZenDrop' prominently displayed in a large font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.766,
+        0.456
+      ],
+      "center_normalized": [
+        0.677,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Graphic elements",
+      "description": "Three rectangular shapes with rounded corners, arranged horizontally, suggesting a product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.546,
+        0.485
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Graphic elements",
+      "description": "A single rectangular shape with rounded corners, positioned to complement the other graphic elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        49,
+        91,
+        104,
+        145
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.286,
+        0.327,
+        0.455
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 2.94
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Graphic elements",
+      "description": "Another rectangular shape with rounded corners, adding to the visual interest of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Graphic elements",
+      "description": "A rectangular shape with rounded corners, contributing to the overall design aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Discount and shipping info",
+      "description": "Text displaying a promotional message about discounts and free shipping, styled in a clear, readable font.",
+      "text_content": "Up to 40% off Free shipping over $25 €29.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        203,
+        269,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.841,
+        0.934
+      ],
+      "center_normalized": [
+        0.455,
+        0.784
+      ],
+      "area_percentage": 23.16
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline that reads 'ZenDrop', designed to grab attention at the top of the ad.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        18,
+        11,
+        287,
+        87
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.034,
+        0.897,
+        0.272
+      ],
+      "center_normalized": [
+        0.477,
+        0.153
+      ],
+      "area_percentage": 19.96
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern minimalist with bold text, ZenDrop logo, discount information",
+    "layout_text": "The headline is at the top, the logo is prominently displayed, and the body text with discount information is at the bottom.",
+    "ocr_text": "ZenDrop, Up to 40% off, Free shipping over $25, €29.99, Claim reward",
+    "elements_text": "logo: A bold, modern logo with the text 'ZenDrop' prominently displayed in a large font. | decorative_element: Three rectangular shapes with rounded corners, arranged horizontally, suggesting a product display. | decorative_element: A single rectangular shape with rounded corners, positioned to complement the other graphic elements. | decorative_element: Another rectangular shape with rounded corners, adding to the visual interest of the ad. | decorative_element: A rectangular shape with rounded corners, contributing to the overall design aesthetic. | body_text: Text displaying a promotional message about discounts and free shipping, styled in a clear, readable font. text='Up to 40% off Free shipping over $25 €29.99 Claim reward' | headline: A large, bold headline that reads 'ZenDrop', designed to grab attention at the top of the ad. text='ZenDrop'"
+  }
+}

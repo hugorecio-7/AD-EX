@@ -1,0 +1,362 @@
+{
+  "creative_id": "500888",
+  "asset_file": "assets/creative_500888.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a meal selection interface and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting meal offers from SnapMeal.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid blue background occupying the top portion of the ad, providing a vibrant backdrop for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.86
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Meal selection interface",
+      "description": "A visual representation of a meal selection interface with three rectangular placeholders for food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.595,
+        0.368
+      ],
+      "area_percentage": 6.11
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Food icon",
+      "description": "A circular icon representing a food item, placed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Food icon",
+      "description": "Another circular icon representing a different food item, also centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Food icon",
+      "description": "A third circular icon representing yet another food item, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "A smaller circular icon representing a food item, located slightly above the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "Another small circular food icon, positioned slightly below the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Small food icon",
+      "description": "A third small circular food icon, located towards the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Body text area",
+      "description": "A rectangular area at the bottom center containing text that describes the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Body text area",
+      "description": "Another rectangular area for body text, positioned slightly to the left of the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline text in white, stating 'Hungry? We got you' against a blue background.",
+      "text_content": "Hungry? We got you Fre D Get offer",
+      "bbox_xyxy": [
+        36,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.113,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.508,
+        0.787
+      ],
+      "area_percentage": 23.22
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'SnapMeal' displayed in a bold font at the top left corner of the ad.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        25,
+        121,
+        45
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.078,
+        0.378,
+        0.141
+      ],
+      "center_normalized": [
+        0.225,
+        0.109
+      ],
+      "area_percentage": 1.91
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the text 'SALE' in white on a blue background.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, meal offers, SnapMeal.",
+    "layout_text": "The headline is at the bottom, the app screenshot is centered, and the CTA is below the headline.",
+    "ocr_text": "Hungry? We got you, Fre D Get offer, SnapMeal, SALE",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad, providing a vibrant backdrop for the text. | app_screenshot: A visual representation of a meal selection interface with three rectangular placeholders for food items. | icon: A circular icon representing a food item, placed in the center of the ad. | icon: Another circular icon representing a different food item, also centered in the ad. | icon: A third circular icon representing yet another food item, positioned centrally. | icon: A smaller circular icon representing a food item, located slightly above the center. | icon: Another small circular food icon, positioned slightly below the center. | icon: A third small circular food icon, located towards the right side of the ad. | body_text: A rectangular area at the bottom center containing text that describes the offer. | body_text: Another rectangular area for body text, positioned slightly to the left of the bottom center. | headline: A prominent headline text in white, stating 'Hungry? We got you' against a blue background. text='Hungry? We got you Fre D Get offer' | logo: The logo 'SnapMeal' displayed in a bold font at the top left corner of the ad. text='SnapMeal' | discount_badge: A small badge in the top right corner with the text 'SALE' in white on a blue background. text='SALE'"
+  }
+}

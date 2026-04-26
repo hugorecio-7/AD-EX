@@ -1,0 +1,218 @@
+{
+  "creative_id": "500989",
+  "asset_file": "assets/creative_500989.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with bold text and shapes, promoting a financial service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a clear financial service with no hidden fees.",
+    "dominant_colors": [
+      "#FFA500",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient fills the background, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.64
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, in a lighter orange hue, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        274,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.762,
+        0.481
+      ],
+      "center_normalized": [
+        0.466,
+        0.361
+      ],
+      "area_percentage": 14.28
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo features the word 'NovaPay' in a bold, modern font, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 4,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label marked 'UGC' in a simple font, indicating user-generated content, located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The text reads 'Your money, clearer No hidden fees' in a clear, bold font, centered in the lower part of the ad.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        73,
+        407,
+        288,
+        497
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.636,
+        0.8,
+        0.777
+      ],
+      "center_normalized": [
+        0.501,
+        0.706
+      ],
+      "area_percentage": 8.4
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€19.99' is displayed in a prominent font, located just above the call-to-action button.",
+      "text_content": "€19.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button labeled 'Book now' in a contrasting color, positioned at the bottom of the ad for easy visibility.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.31,
+        0.087
+      ],
+      "area_percentage": 4.03
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, key elements include bold text and abstract shapes.",
+    "layout_text": "The logo is at the top, followed by the UGC label, main offer text in the center, price above the CTA at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, €19.99, Book now, NovaPay, UGC",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one square, in a lighter orange hue, positioned centrally. | logo: The logo features the word 'NovaPay' in a bold, modern font, prominently displayed at the top. | social_proof: A small label marked 'UGC' in a simple font, indicating user-generated content, located at the top left. | body_text: The text reads 'Your money, clearer No hidden fees' in a clear, bold font, centered in the lower part of the ad. text='Your money, clearer No hidden fees' | price: The price '€19.99' is displayed in a prominent font, located just above the call-to-action button. text='€19.99 Book now' | cta: A button labeled 'Book now' in a contrasting color, positioned at the bottom of the ad for easy visibility. text='NovaPay' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "501053",
+  "asset_file": "assets/creative_501053.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a promotional message with a discount, highlighted by a brand logo and sale announcement.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a 30% discount on a product.",
+    "dominant_colors": [
+      "beige",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with a rectangular shape, possibly a placeholder or background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.278,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.62
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small central element, likely a decorative feature or placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small central element, possibly a decorative or background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.588,
+        0.278,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central rectangular element that may serve as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.31,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small central element, possibly a decorative or background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element located towards the bottom, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small element located near the bottom, likely a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A large, bold text element at the bottom, conveying a promotional message with a discount.",
+      "text_content": "Your next favorite pick -30% Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo element at the top left, featuring the brand name 'CrispBox' in a simple font.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        21,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A small text element at the top right, indicating a 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left, labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        27,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.131,
+        0.2
+      ],
+      "area_percentage": 0.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with soft colors, promotional message, discount.",
+    "layout_text": "The logo is positioned at the top left, the sale announcement at the top right, and the main promotional text is centered at the bottom.",
+    "ocr_text": "CrispBox, SALE, UGC, Your next favorite pick, -30%, Order now",
+    "elements_text": "unknown: A central element with a rectangular shape, possibly a placeholder or background feature. | unknown: A small central element, likely a decorative feature or placeholder. | unknown: Another small central element, possibly a decorative or background feature. | unknown: A central rectangular element that may serve as a decorative feature. | unknown: A small central element, possibly a decorative or background feature. | unknown: A small element located towards the bottom, possibly a decorative feature. | unknown: Another small element located near the bottom, likely a decorative feature. | body_text: A large, bold text element at the bottom, conveying a promotional message with a discount. text='Your next favorite pick -30% Order now' | logo: A small logo element at the top left, featuring the brand name 'CrispBox' in a simple font. text='CrispBox' | headline: A small text element at the top right, indicating a 'SALE' in bold letters. text='SALE' | social_proof: A small tag at the top left, labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

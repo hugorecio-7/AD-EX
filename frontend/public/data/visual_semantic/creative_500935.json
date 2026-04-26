@@ -1,0 +1,290 @@
+{
+  "creative_id": "500935",
+  "asset_file": "assets/creative_500935.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and interactive elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a service with a special offer.",
+    "dominant_colors": [
+      "green",
+      "light green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green abstract background",
+      "description": "A vibrant green abstract background with geometric shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.481,
+        0.391
+      ],
+      "area_percentage": 15.19
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic element",
+      "description": "A large, light green rectangular shape positioned centrally, suggesting a focal point for content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.497,
+        0.398
+      ],
+      "area_percentage": 13.43
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "circular shape",
+      "description": "A soft, circular shape in a lighter shade of green, adding visual interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        156,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.244,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "secondary rectangular shape",
+      "description": "A smaller rectangular shape in a light green hue, positioned centrally to complement the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "top left logo",
+      "description": "A small logo or icon located at the top left corner, visually distinct against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "top right icon",
+      "description": "A small icon positioned at the top right corner, adding to the overall design without overwhelming it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, undefined element located centrally, possibly serving a decorative or functional purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        240,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.668,
+        0.338
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.36
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "main headline text",
+      "description": "Bold, large text reading 'FluxStream' at the top, prominently displayed to capture attention.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        24,
+        38,
+        360,
+        100
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.059,
+        1.0,
+        0.156
+      ],
+      "center_normalized": [
+        0.533,
+        0.108
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "promotional text",
+      "description": "Text stating 'Exclusive tonight Start free today' in a clear, readable font, positioned centrally below the headline.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A prominent button at the bottom reading 'Get offer', designed to encourage user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "price display",
+      "description": "Text displaying the price '€19.99' in a clear, bold font, located at the bottom left to attract attention.",
+      "text_content": "€19.99",
+      "bbox_xyxy": [
+        25,
+        533,
+        109,
+        553
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.303,
+        0.864
+      ],
+      "center_normalized": [
+        0.186,
+        0.848
+      ],
+      "area_percentage": 0.73
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, rewarded_video format, bright and modern visual style, key elements include bold text and a call to action.",
+    "layout_text": "The headline is at the top, followed by promotional text in the center, with a call to action button at the bottom.",
+    "ocr_text": "FluxStream, Exclusive tonight Start free today, Get offer, €19.99",
+    "elements_text": "main_subject: A large, light green rectangular shape positioned centrally, suggesting a focal point for content. | decorative_element: A soft, circular shape in a lighter shade of green, adding visual interest to the composition. | decorative_element: A smaller rectangular shape in a light green hue, positioned centrally to complement the main subject. | logo: A small logo or icon located at the top left corner, visually distinct against the background. | icon: A small icon positioned at the top right corner, adding to the overall design without overwhelming it. | unknown: A small, undefined element located centrally, possibly serving a decorative or functional purpose. | headline: Bold, large text reading 'FluxStream' at the top, prominently displayed to capture attention. text='FluxStream' | body_text: Text stating 'Exclusive tonight Start free today' in a clear, readable font, positioned centrally below the headline. text='Exclusive tonight Start free today' | cta: A prominent button at the bottom reading 'Get offer', designed to encourage user interaction. text='Get offer' | price: Text displaying the price '€19.99' in a clear, bold font, located at the bottom left to attract attention. text='€19.99'"
+  }
+}

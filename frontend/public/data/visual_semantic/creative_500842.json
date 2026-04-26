@@ -1,0 +1,170 @@
+{
+  "creative_id": "500842",
+  "asset_file": "assets/creative_500842.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a central graphic area and prominent text elements.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting cashback offers with a clear call to action.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing a contrasting backdrop for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        158,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.439,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.72,
+        0.5
+      ],
+      "area_percentage": 56.02
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A central area featuring abstract shapes, including a large circle and square, rendered in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        274,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.762,
+        0.482
+      ],
+      "center_normalized": [
+        0.466,
+        0.361
+      ],
+      "area_percentage": 14.34
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary graphic area",
+      "description": "A smaller graphic area overlapping with the main subject, containing additional abstract shapes in a similar muted color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Cashback offer",
+      "description": "Bold, white text stating 'Earn cashback daily' prominently displayed in the center, with a smaller tagline below it in a lighter font.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        55,
+        409,
+        306,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.85,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 9.91
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "The logo 'SwiftStack' appears at the top of the ad in a bold, modern font, contrasting against the dark background.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        40,
+        238,
+        78
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.661,
+        0.122
+      ],
+      "center_normalized": [
+        0.365,
+        0.092
+      ],
+      "area_percentage": 3.51
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Shop now' in white, positioned at the bottom of the ad, inviting user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        585
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.914
+      ],
+      "center_normalized": [
+        0.496,
+        0.893
+      ],
+      "area_percentage": 1.25
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, cashback offer, call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, SwiftStack, Shop now",
+    "elements_text": "main_subject: A central area featuring abstract shapes, including a large circle and square, rendered in a muted color palette. | unknown: A smaller graphic area overlapping with the main subject, containing additional abstract shapes in a similar muted color scheme. | headline: Bold, white text stating 'Earn cashback daily' prominently displayed in the center, with a smaller tagline below it in a lighter font. text='Earn cashback daily Built for peace of mind' | logo: The logo 'SwiftStack' appears at the top of the ad in a bold, modern font, contrasting against the dark background. text='SwiftStack' | cta: A button with the text 'Shop now' in white, positioned at the bottom of the ad, inviting user interaction. text='Shop now'"
+  }
+}

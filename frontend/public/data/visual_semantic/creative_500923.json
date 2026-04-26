@@ -1,0 +1,242 @@
+{
+  "creative_id": "500923",
+  "asset_file": "assets/creative_500923.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on a call to action and branding.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting hotel and flight bookings through the DriftPass app.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A collection of abstract shapes in the center, featuring a large oval and a square with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "Another set of abstract shapes in the center, including smaller circles and a rectangle, all in a light blue color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A small circle located towards the bottom center, appearing as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "Another small circle positioned slightly above the previous one, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent call to action at the bottom, featuring bold text that reads 'destinations await Hotels + flights in one tap $4.99 Shop now' in white against a blue background.",
+      "text_content": "destinations await Hotels + flights in one tap $4.99 Shop now",
+      "bbox_xyxy": [
+        26,
+        443,
+        295,
+        585
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.692,
+        0.819,
+        0.914
+      ],
+      "center_normalized": [
+        0.446,
+        0.803
+      ],
+      "area_percentage": 16.58
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo 'DriftPass' displayed at the top in large, bold text, colored in white against a blue background.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "dream text",
+      "description": "The word 'Dream' in a medium-sized font, centered above the call to action, colored in white.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' located at the top left corner, serving as a decorative element.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold colors, DriftPass logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the body text, and the call to action is at the bottom.",
+    "ocr_text": "DriftPass, Dream, destinations await, Hotels + flights in one tap, $4.99, Shop now, UGC",
+    "elements_text": "unknown: A collection of abstract shapes in the center, featuring a large oval and a square with a light blue background. | unknown: Another set of abstract shapes in the center, including smaller circles and a rectangle, all in a light blue color scheme. | unknown: A small circle located towards the bottom center, appearing as a decorative element. | unknown: Another small circle positioned slightly above the previous one, serving as a decorative element. | cta: A prominent call to action at the bottom, featuring bold text that reads 'destinations await Hotels + flights in one tap $4.99 Shop now' in white against a blue background. text='destinations await Hotels + flights in one tap $4.99 Shop now' | logo: The logo 'DriftPass' displayed at the top in large, bold text, colored in white against a blue background. text='DriftPass' | body_text: The word 'Dream' in a medium-sized font, centered above the call to action, colored in white. text='Dream' | icon: A small icon labeled 'UGC' located at the top left corner, serving as a decorative element. text='UGC'"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "creative_id": "500216",
+  "asset_file": "assets/creative_500216.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and unified look. In the top left corner, the 'PixelForge' logo is prominently displayed inside a light green rounded rectangle, set against a green background with jagged shapes, creating a dynamic and modern feel. The upper part of the ad is decorated with a grid of light green rounded squares, each with a thin white border and a small dark green circle in the top left corner. These squares are arranged in a pattern that adds a sense of order and structure. A green diagonal shape, consisting of two intersecting triangles, is located in the top left area, adding a layered effect to the visual composition. A white play triangle is positioned in the upper right area, suggesting interactivity or a call to action. Near the center of the ad, a small light green circle and several green and dark green circles are scattered, providing a playful and engaging element to the design. The headline 'Unlock rare gear' in bold black text is centered on a light green background, with the smaller text 'Play with friends tonight' below it, conveying the main message of the ad. At the bottom, a black rectangular CTA button with rounded corners and the white text 'Watch now' invites the viewer to take action. The overall layout is balanced and visually appealing, with a clear hierarchy of information.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Unlock rare gear and play with friends tonight",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "Exciting and engaging"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A black text 'PixelForge' inside a light green rounded rectangle, positioned in the top left corner of the ad against a green background with jagged shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Light Green Rounded Square",
+      "description": "A light green rounded square with a thin white border. Inside the square, in the top left corner, is a small dark green circle. Positioned in the upper part of the ad, it is part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Light Green Rounded Square",
+      "description": "A light green rounded square with a thin white outline, featuring a smaller dark green circle in the top left corner. Positioned in the upper central area of the ad, part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Green Rounded Square with Dot",
+      "description": "A light green rounded square with a darker green dot in the top left corner. Positioned towards the top center of the ad, part of a group of similar elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Light Green Rounded Square",
+      "description": "A light green rounded square with a thin white border. Inside the square, there is a small dark green circle located in the top left corner. This element is positioned in the upper middle section of the ad, forming part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Green Diagonal Shape",
+      "description": "A green diagonal shape located in the top left area of the ad. It consists of two intersecting triangles, creating a sharp edge that points towards the center of the ad. The shape is part of the background design, adding a layered effect to the overall visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.295
+      ],
+      "center_normalized": [
+        0.068,
+        0.238
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "White Play Triangle",
+      "description": "A white triangle pointing to the right, positioned in the upper right area of the ad. It is set against a green background, suggesting a play button or directional indicator.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Light Green Circle",
+      "description": "A small light green circle located near the center of the ad, slightly to the left. It is positioned below a set of four outlined squares and above the headline text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, solid green circle located near the center of the ad, slightly to the left. It is a simple decorative element without any additional features or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, solid green circle located near the center of the ad, slightly to the left. It appears as a decorative element against the lighter green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Dark Green Circle",
+      "description": "A small dark green circle located near the center of the ad, slightly to the left. It appears as a simple decorative element against the lighter green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, solid green circle located towards the middle left of the ad. It is positioned near the four outlined squares and above the text 'Unlock rare gear'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Unlock Rare Gear Text",
+      "description": "Black bold text 'Unlock rare gear' with smaller black text 'Play with friends tonight' below it, centered on a light green background.",
+      "text_content": "Unlock rare gear Play with friends tonight",
+      "bbox_xyxy": [
+        37,
+        408,
+        328,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.637,
+        0.911,
+        0.728
+      ],
+      "center_normalized": [
+        0.507,
+        0.683
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "The text 'PixelForge' in bold black font on a light green rectangular background, located in the top left corner of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Black CTA Button",
+      "description": "A black rectangular button with rounded corners containing the white text 'Watch now'. It is located near the bottom center of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.503,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An ad for the brand featuring a solid background, PixelForge logo, decorative elements, headline, and CTA button. The design is flat with high contrast, conveying excitement and engagement.",
+    "elements_text": "background: Solid background; main_subject: PixelForge Logo, Light Green Rounded Squares, Green Diagonal Shape, White Play Triangle, Light Green Circle, Green Circles, Headline Text, Black CTA Button",
+    "ocr_text": "PixelForge Unlock rare gear Play with friends tonight Watch now",
+    "layout_text": "Literal structure: Solid background at full canvas, PixelForge Logo at top left, Light Green Rounded Squares at upper part, Green Diagonal Shape at top left, White Play Triangle at upper right, Light Green Circle near center, Green Circles near center, Headline Text at center, Black CTA Button at bottom center"
+  }
+}

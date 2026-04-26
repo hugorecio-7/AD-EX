@@ -1,0 +1,434 @@
+{
+  "creative_id": "500941",
+  "asset_file": "assets/creative_500941.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with prominent text and interactive elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to unlock rewards in VoxelRealm.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "body_text",
+      "label": "Unlock rare gear",
+      "description": "This element features bold, white text on an orange background, conveying a promotional message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        98,
+        550,
+        261,
+        628
+      ],
+      "bbox_normalized": [
+        0.274,
+        0.859,
+        0.727,
+        0.981
+      ],
+      "center_normalized": [
+        0.501,
+        0.92
+      ],
+      "area_percentage": 5.53
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VoxelRealm",
+      "description": "This element displays large, bold text in black, prominently positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element appears as a small circular icon or button, possibly indicating an interactive feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is another small circular icon or button, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, consistent with the overall design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, likely part of the interactive features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer",
+      "description": "This element features a small button with white text on an orange background, encouraging user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, possibly indicating another interactive feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, consistent with the design of other interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, likely part of the interactive features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, consistent with the overall design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, likely part of the interactive features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Icon or button",
+      "description": "This element is a small circular icon or button, consistent with the design of other interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "This element features large, bold text at the top of the ad, prominently displaying the game title 'VoxelRealm'.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        95
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.148
+      ],
+      "center_normalized": [
+        0.536,
+        0.105
+      ],
+      "area_percentage": 7.97
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "This element contains a white text message on an orange background, detailing rewards for new players.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "This element is a small button with white text on an orange background, prompting users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, VoxelRealm, unlock rare gear, free rewards.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and CTAs at the bottom.",
+    "ocr_text": "VoxelRealm, Unlock rare gear, Free rewards for new players, Get offer",
+    "elements_text": "body_text: This element features bold, white text on an orange background, conveying a promotional message. | headline: This element displays large, bold text in black, prominently positioned at the top of the ad. | unknown: This element appears as a small circular icon or button, possibly indicating an interactive feature. | unknown: This element is another small circular icon or button, similar in style to the previous one. | unknown: This element is a small circular icon or button, consistent with the overall design theme. | unknown: This element is a small circular icon or button, likely part of the interactive features. | cta: This element features a small button with white text on an orange background, encouraging user action. | unknown: This element is a small circular icon or button, possibly indicating another interactive feature. | unknown: This element is a small circular icon or button, consistent with the design of other interactive elements. | unknown: This element is a small circular icon or button, likely part of the interactive features. | unknown: This element is a small circular icon or button, consistent with the overall design theme. | unknown: This element is a small circular icon or button, likely part of the interactive features. | unknown: This element is a small circular icon or button, consistent with the design of other interactive elements. | headline: This element features large, bold text at the top of the ad, prominently displaying the game title 'VoxelRealm'. text='VoxelRealm' | body_text: This element contains a white text message on an orange background, detailing rewards for new players. text='Unlock rare gear Free rewards for new players' | cta: This element is a small button with white text on an orange background, prompting users to take action. text='Get offer'"
+  }
+}

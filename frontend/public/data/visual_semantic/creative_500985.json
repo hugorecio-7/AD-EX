@@ -1,0 +1,218 @@
+{
+  "creative_id": "500985",
+  "asset_file": "assets/creative_500985.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a minimalist design with a focus on the NovaPay brand and a clear call to action.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to save with confidence using NovaPay.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A combination of a large square and a smaller circle in a soft purple background, creating an abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified visual element that appears to be centered but lacks clear identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another unspecified visual element, similar to the previous one, also centered with no clear identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, unclear visual element located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Bold, white text stating 'Save with confidence' with a smaller line below it that reads 'Built for peace of mind'.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        407,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.636,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 7.99
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo of NovaPay, displayed prominently at the top of the ad in a contrasting color.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        26,
+        30,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.047,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.312,
+        0.087
+      ],
+      "area_percentage": 3.9
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A small, white text button at the bottom of the ad that says 'Learn more'.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, interstitial format, minimalist with soft colors, key elements include NovaPay logo and call to action.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Save with confidence, Built for peace of mind, NovaPay, Learn more",
+    "elements_text": "decorative_element: A combination of a large square and a smaller circle in a soft purple background, creating an abstract design. | unknown: An unspecified visual element that appears to be centered but lacks clear identification. | unknown: Another unspecified visual element, similar to the previous one, also centered with no clear identification. | unknown: A small, unclear visual element located towards the bottom of the ad. | body_text: Bold, white text stating 'Save with confidence' with a smaller line below it that reads 'Built for peace of mind'. text='Save with confidence Built for peace of mind' | logo: The logo of NovaPay, displayed prominently at the top of the ad in a contrasting color. text='NovaPay' | cta: A small, white text button at the bottom of the ad that says 'Learn more'. text='Learn more'"
+  }
+}

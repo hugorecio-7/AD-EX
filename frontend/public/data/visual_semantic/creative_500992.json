@@ -1,0 +1,194 @@
+{
+  "creative_id": "500992",
+  "asset_file": "assets/creative_500992.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a weekend getaway with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Book hotels and flights easily for a weekend escape.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, abstract shape in the center, possibly a blend of rounded and angular forms in a soft color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller, contrasting shape overlaying the background, adding depth and interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, white text stating 'Escape this weekend' with a modern font, centrally positioned.",
+      "text_content": "Escape this weekend Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        409,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.639,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.499,
+        0.711
+      ],
+      "area_percentage": 9.22
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Prominent text at the top reading 'RouteBloom SALE' in a striking font, possibly with a bright accent color.",
+      "text_content": "RouteBloom SALE",
+      "bbox_xyxy": [
+        27,
+        39,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.091
+      ],
+      "area_percentage": 4.98
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom with the text 'Watch now' in a clear, inviting font, designed to attract clicks.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small, bold text displaying '$4.99' at the bottom, indicating the cost of the offer.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, main offer text, sale announcement, call to action",
+    "layout_text": "The headline is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Escape this weekend, Hotels + flights in one tap, RouteBloom SALE, Watch now, $4.99",
+    "elements_text": "unknown: A large, abstract shape in the center, possibly a blend of rounded and angular forms in a soft color. | unknown: A smaller, contrasting shape overlaying the background, adding depth and interest. | body_text: Bold, white text stating 'Escape this weekend' with a modern font, centrally positioned. text='Escape this weekend Hotels + flights in one tap' | headline: Prominent text at the top reading 'RouteBloom SALE' in a striking font, possibly with a bright accent color. text='RouteBloom SALE' | cta: A button at the bottom with the text 'Watch now' in a clear, inviting font, designed to attract clicks. text='Watch now' | price: A small, bold text displaying '$4.99' at the bottom, indicating the cost of the offer. text='$4.99'"
+  }
+}

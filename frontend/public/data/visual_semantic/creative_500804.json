@@ -1,0 +1,410 @@
+{
+  "creative_id": "500804",
+  "asset_file": "assets/creative_500804.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on the messaging and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Track every euro with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        60,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.188,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.502,
+        0.462
+      ],
+      "area_percentage": 49.52
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "ClearLedger logo",
+      "description": "The logo 'ClearLedger' is displayed prominently at the top, featuring a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Track every euro' is bold and centered, conveying the primary message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.502
+      ],
+      "center_normalized": [
+        0.469,
+        0.371
+      ],
+      "area_percentage": 15.7
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "The phrase 'No hidden fees' is smaller and positioned below the main message, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button 'Start now' is centered and visually distinct, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.49
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "An abstract shape in the background adds visual interest without specific meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another abstract shape is present, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A smaller circular shape adds variety to the background elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.249,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A rectangular shape is included, enhancing the visual composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.591,
+        0.429
+      ],
+      "area_percentage": 6.03
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular element is positioned towards the bottom, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small circular element is placed near the previous one, creating symmetry.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Track every euro No hidden fees' is prominently displayed at the bottom.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        30,
+        205,
+        288,
+        253
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.641,
+        0.9,
+        0.791
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 12.09
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Start now' is a clear call to action, encouraging immediate engagement.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The logo 'ClearLedger' is positioned at the top left, representing the brand.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small 'SALE' badge is located at the top right, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "The 'UGC' label is positioned at the top, suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, ClearLedger, Track every euro, Start now",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, No hidden fees, Start now, ClearLedger, SALE, UGC",
+    "elements_text": "headline: The logo 'ClearLedger' is displayed prominently at the top, featuring a clean and modern font. | body_text: The text 'Track every euro' is bold and centered, conveying the primary message of the ad. | body_text: The phrase 'No hidden fees' is smaller and positioned below the main message, providing additional information. | cta: The button 'Start now' is centered and visually distinct, encouraging user interaction. | unknown: An abstract shape in the background adds visual interest without specific meaning. | unknown: Another abstract shape is present, complementing the overall design. | unknown: A smaller circular shape adds variety to the background elements. | unknown: A rectangular shape is included, enhancing the visual composition. | unknown: A small circular element is positioned towards the bottom, adding depth. | unknown: Another small circular element is placed near the previous one, creating symmetry. | body_text: The text 'Track every euro No hidden fees' is prominently displayed at the bottom. text='Track every euro No hidden fees' | cta: The text 'Start now' is a clear call to action, encouraging immediate engagement. text='Start now' | logo: The logo 'ClearLedger' is positioned at the top left, representing the brand. text='ClearLedger' | discount_badge: A small 'SALE' badge is located at the top right, indicating a promotional offer. text='SALE' | unknown: The 'UGC' label is positioned at the top, suggesting user-generated content. text='UGC'"
+  }
+}

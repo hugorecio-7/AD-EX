@@ -1,0 +1,314 @@
+{
+  "creative_id": "500955",
+  "asset_file": "assets/creative_500955.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear focus on savings for travel.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute travel savings with a clear call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.308
+      ],
+      "area_percentage": 29.19
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "A bold, stylized logo reading 'HorizonHop' prominently displayed at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Last-minute savings headline",
+      "description": "A large, eye-catching headline that reads 'Last-minute savings' in a clear, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.48,
+        0.398
+      ],
+      "area_percentage": 14.31
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text description",
+      "description": "Text below the headline that states 'Hotels + flights in one tap' in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        538,
+        261,
+        626
+      ],
+      "bbox_normalized": [
+        0.148,
+        0.842,
+        0.727,
+        0.979
+      ],
+      "center_normalized": [
+        0.438,
+        0.91
+      ],
+      "area_percentage": 7.93
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '€9.99' in a bold font, located at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom that says 'Book now' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular decorative shape",
+      "description": "A large circular shape in a lighter orange shade, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Square decorative shape",
+      "description": "A square shape in a lighter orange shade, complementing the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "HorizonHop text",
+      "description": "The text 'HorizonHop' in a bold font, prominently displayed at the top.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        22,
+        26,
+        360,
+        102
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.041,
+        1.0,
+        0.159
+      ],
+      "center_normalized": [
+        0.531,
+        0.1
+      ],
+      "area_percentage": 11.15
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Savings description",
+      "description": "Text that reads 'Last-minute savings Hotels flights in one tap' in a clear, modern font.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        294,
+        502
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.817,
+        0.784
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.44
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A button at the bottom that reads 'Book now' in a bold, inviting font.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 12,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text displaying '€9.99' in a bold font, indicating the cost.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, HorizonHop logo, last-minute savings.",
+    "layout_text": "The logo is at the top, followed by the headline, body text, and CTA at the bottom.",
+    "ocr_text": "HorizonHop, Last-minute savings, Hotels + flights in one tap, Book now, €9.99",
+    "elements_text": "logo: A bold, stylized logo reading 'HorizonHop' prominently displayed at the top center. | headline: A large, eye-catching headline that reads 'Last-minute savings' in a clear, modern font. | body_text: Text below the headline that states 'Hotels + flights in one tap' in a smaller font. | price: A small price tag displaying '€9.99' in a bold font, located at the bottom. | cta: A prominent button at the bottom that says 'Book now' in a contrasting color. | decorative_element: A large circular shape in a lighter orange shade, adding visual interest to the background. | decorative_element: A square shape in a lighter orange shade, complementing the circular shape. | headline: The text 'HorizonHop' in a bold font, prominently displayed at the top. text='HorizonHop' | body_text: Text that reads 'Last-minute savings Hotels flights in one tap' in a clear, modern font. text='Last-minute savings Hotels flights in one tap' | cta: A button at the bottom that reads 'Book now' in a bold, inviting font. text='Book now' | price: A small text displaying '€9.99' in a bold font, indicating the cost. text='€9.99'"
+  }
+}

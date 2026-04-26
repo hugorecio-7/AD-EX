@@ -1,0 +1,242 @@
+{
+  "creative_id": "500852",
+  "asset_file": "assets/creative_500852.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on food delivery services.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with late-night deals.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three food containers",
+      "description": "Three stylized food containers are depicted in a minimalist design, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.766,
+        0.479
+      ],
+      "center_normalized": [
+        0.577,
+        0.379
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "The logo 'PlateSprint' is displayed in bold, modern typography at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Food offer text",
+      "description": "The text 'Fast food, fast' is presented in a clear, bold font, emphasizing the quick service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Additional offer details",
+      "description": "The phrase 'Late-night deals available' is shown in a smaller font beneath the main offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded button with the text 'Order now' is prominently displayed at the bottom, inviting action.",
+      "text_content": "Fast food, fast Late-night deals available",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€9.99' is shown in a bold font, positioned just above the call-to-action button.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        163,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.509,
+        0.117
+      ],
+      "center_normalized": [
+        0.292,
+        0.087
+      ],
+      "area_percentage": 2.53
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        23,
+        399,
+        87,
+        419
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.873
+      ],
+      "center_normalized": [
+        0.172,
+        0.852
+      ],
+      "area_percentage": 0.83
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, fast food delivery, late-night deals",
+    "layout_text": "The logo is at the top, followed by the main offer text, additional details, and the CTA button at the bottom.",
+    "ocr_text": "Fast food, fast, Late-night deals available, PlateSprint, Order now, €9.99",
+    "elements_text": "main_subject: Three stylized food containers are depicted in a minimalist design, arranged horizontally in the center. | logo: The logo 'PlateSprint' is displayed in bold, modern typography at the top of the ad. | body_text: The text 'Fast food, fast' is presented in a clear, bold font, emphasizing the quick service. | body_text: The phrase 'Late-night deals available' is shown in a smaller font beneath the main offer text. | cta: A rounded button with the text 'Order now' is prominently displayed at the bottom, inviting action. text='Fast food, fast Late-night deals available' | price: The price '€9.99' is shown in a bold font, positioned just above the call-to-action button. text='PlateSprint' | unknown:  text='Order now' | unknown:  text='€9.99'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500867",
+  "asset_file": "assets/creative_500867.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a logo, game icons, and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to join a gaming arena with friends.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a lively backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A stylized logo for 'PixelForge' appears at the top left, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Four circular game icons are arranged in a grid pattern, each with a subtle outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A rectangular decorative element sits at the top center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top left decorative element",
+      "description": "A smaller rectangular decorative element is positioned at the top left, complementing the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Top right decorative element",
+      "description": "A narrow rectangular decorative element is located at the top right, balancing the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular decorative element is positioned near the top center, adding detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small circular decorative element is located near the top left, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "The text 'Join the arena Play with friends tonight' is prominently displayed in bold, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button labeled 'Get offer' is positioned at the bottom, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "The text 'Join the arena Play with friends tonight' is prominently displayed in bold, inviting font.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        52,
+        404,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.631,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.49,
+        0.68
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "The text 'Get offer' is displayed in a clear, bold font at the bottom of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, PixelForge logo, game icons, call to action.",
+    "layout_text": "The logo is at the top left, game icons are centered, and the call to action is at the bottom.",
+    "ocr_text": "Join the arena Play with friends tonight, PixelForge, Get offer",
+    "elements_text": "logo: A stylized logo for 'PixelForge' appears at the top left, featuring bold typography. | icon: Four circular game icons are arranged in a grid pattern, each with a subtle outline. | decorative_element: A rectangular decorative element sits at the top center, adding visual interest. | decorative_element: A smaller rectangular decorative element is positioned at the top left, complementing the logo. | decorative_element: A narrow rectangular decorative element is located at the top right, balancing the layout. | unknown: A small circular decorative element is positioned near the top center, adding detail. | unknown: Another small circular decorative element is located near the top left, enhancing the design. | body_text: The text 'Join the arena Play with friends tonight' is prominently displayed in bold, inviting font. | cta: A rectangular button labeled 'Get offer' is positioned at the bottom, encouraging user interaction. | body_text: The text 'Join the arena Play with friends tonight' is prominently displayed in bold, inviting font. text='Join the arena Play with friends tonight' | body_text: The text 'Get offer' is displayed in a clear, bold font at the bottom of the ad. text='PixelForge' | unknown:  text='Get offer'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500847",
+  "asset_file": "assets/creative_500847.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel booking options.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting flexible travel booking options.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "adventurous"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element features abstract geometric shapes, including a circle and a square, rendered in a soft blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "This element consists of overlapping geometric shapes, primarily in blue tones, creating a layered visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "This text element displays a bold, modern font in white, conveying the message about travel destinations and booking options.",
+      "text_content": "destinations await Flexible booking options",
+      "bbox_xyxy": [
+        70,
+        443,
+        288,
+        536
+      ],
+      "bbox_normalized": [
+        0.194,
+        0.692,
+        0.8,
+        0.838
+      ],
+      "center_normalized": [
+        0.497,
+        0.765
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "This element features the brand name 'NomadLayer' in a large, bold font, prominently displayed at the top of the ad.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        23,
+        30,
+        274,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.761,
+        0.127
+      ],
+      "center_normalized": [
+        0.412,
+        0.087
+      ],
+      "area_percentage": 5.56
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Dream headline",
+      "description": "This text element reads 'Dream' in a stylish font, positioned centrally and designed to catch the viewer's attention.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "This element features the phrase 'Order now' in a clear, inviting font, encouraging immediate action from the viewer.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel booking options, brand logo, and call to action.",
+    "layout_text": "The logo is at the top, followed by the headline, main message in the center, and the CTA at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, NomadLayer, Dream, Order now",
+    "elements_text": "unknown: This element features abstract geometric shapes, including a circle and a square, rendered in a soft blue color. | unknown: This element consists of overlapping geometric shapes, primarily in blue tones, creating a layered visual effect. | body_text: This text element displays a bold, modern font in white, conveying the message about travel destinations and booking options. text='destinations await Flexible booking options' | logo: This element features the brand name 'NomadLayer' in a large, bold font, prominently displayed at the top of the ad. text='NomadLayer' | headline: This text element reads 'Dream' in a stylish font, positioned centrally and designed to catch the viewer's attention. text='Dream' | cta: This element features the phrase 'Order now' in a clear, inviting font, encouraging immediate action from the viewer. text='Order now'"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "creative_id": "500960",
+  "asset_file": "assets/creative_500960.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with an app interface showcasing food delivery options.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery with a focus on user cravings and a special offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        62,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.196,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.458
+      ],
+      "area_percentage": 47.18
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' appears at the top, featuring a modern font in white against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A mockup of an app interface is displayed in the center, showing three empty slots for food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        234,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.731,
+        0.488
+      ],
+      "center_normalized": [
+        0.551,
+        0.399
+      ],
+      "area_percentage": 6.46
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "Another view of the app interface, showcasing additional food item slots.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.595,
+        0.368
+      ],
+      "area_percentage": 6.11
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Food item slot",
+      "description": "A circular slot for a food item is visible, indicating a selection option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Food item slot",
+      "description": "Another circular slot for a food item, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "Food item slot",
+      "description": "A third circular slot for a food item, completing the interface design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative circle",
+      "description": "A decorative circle element is placed in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative circle",
+      "description": "Another decorative circle element, enhancing the app interface design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Decorative circle",
+      "description": "A third decorative circle element, contributing to the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Cravings message",
+      "description": "The text 'Your cravings, delivered' is prominently displayed in white at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Delivery offer",
+      "description": "The text 'Free delivery over $15' is shown below the main message, emphasizing the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Cravings message",
+      "description": "A repeated text element reinforcing the message about cravings.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent 'Order now' button is located at the bottom, inviting user action.",
+      "text_content": "Your cravings, delivered Fre ~ Wf Order now",
+      "bbox_xyxy": [
+        49,
+        205,
+        273,
+        299
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.641,
+        0.853,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.787
+      ],
+      "area_percentage": 20.56
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small 'SALE' badge is positioned at the top right, indicating a promotional offer.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 16,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A 'UGC' label is displayed at the top left, suggesting user-generated content.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, FreshDash logo, food delivery options, promotional sale.",
+    "layout_text": "The headline is at the top, the app interface is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your cravings, delivered, Free delivery over $15, FreshDash, SALE, UGC, Order now",
+    "elements_text": "headline: The logo 'FreshDash' appears at the top, featuring a modern font in white against the purple background. | app_screenshot: A mockup of an app interface is displayed in the center, showing three empty slots for food items. | app_screenshot: Another view of the app interface, showcasing additional food item slots. | app_screenshot: A circular slot for a food item is visible, indicating a selection option. | app_screenshot: Another circular slot for a food item, similar to the previous one. | app_screenshot: A third circular slot for a food item, completing the interface design. | decorative_element: A decorative circle element is placed in the center, adding visual interest. | decorative_element: Another decorative circle element, enhancing the app interface design. | decorative_element: A third decorative circle element, contributing to the overall aesthetic. | body_text: The text 'Your cravings, delivered' is prominently displayed in white at the bottom. | body_text: The text 'Free delivery over $15' is shown below the main message, emphasizing the offer. | body_text: A repeated text element reinforcing the message about cravings. | cta: A prominent 'Order now' button is located at the bottom, inviting user action. text='Your cravings, delivered Fre ~ Wf Order now' | discount_badge: A small 'SALE' badge is positioned at the top right, indicating a promotional offer. text='FreshDash' | social_proof: A 'UGC' label is displayed at the top left, suggesting user-generated content. text='SALE' | unknown:  text='UGC'"
+  }
+}

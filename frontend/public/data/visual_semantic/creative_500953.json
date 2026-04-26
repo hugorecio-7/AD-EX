@@ -1,0 +1,194 @@
+{
+  "creative_id": "500953",
+  "asset_file": "assets/creative_500953.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a minimalist design with abstract shapes and clear text elements promoting a cashback offer.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting cashback offers with a call to action.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray background that fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.83
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping abstract shapes, one circular and one rectangular, in a minimalist style, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        115,
+        159,
+        225
+      ],
+      "bbox_normalized": [
+        0.167,
+        0.24,
+        0.498,
+        0.471
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional abstract shape",
+      "description": "A larger rectangular shape with a blank interior, positioned slightly off-center, adding to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.84
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle located towards the bottom center, serving as a decorative element in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        261,
+        71,
+        295
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.545,
+        0.223,
+        0.615
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold, black text stating 'Earn cashback daily' with a smaller line below it that reads 'Fast signup, instant card', positioned at the bottom.",
+      "text_content": "Earn cashback daily Fast signup, instant card",
+      "bbox_xyxy": [
+        50,
+        308,
+        276,
+        389
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.863,
+        0.81
+      ],
+      "center_normalized": [
+        0.509,
+        0.726
+      ],
+      "area_percentage": 11.92
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo 'VaultRun' displayed in a bold font at the top left corner, contrasting against the gray background.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        24,
+        32,
+        136,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.425,
+        0.117
+      ],
+      "center_normalized": [
+        0.25,
+        0.092
+      ],
+      "area_percentage": 1.75
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Watch now' in bold, located at the bottom center of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, cashback offer, call to action",
+    "layout_text": "The logo is at the top left, the main subject is centered, and the body text and CTA are at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, VaultRun, Watch now",
+    "elements_text": "main_subject: Two overlapping abstract shapes, one circular and one rectangular, in a minimalist style, positioned in the center. | unknown: A larger rectangular shape with a blank interior, positioned slightly off-center, adding to the abstract design. | decorative_element: A small circle located towards the bottom center, serving as a decorative element in the design. | body_text: Bold, black text stating 'Earn cashback daily' with a smaller line below it that reads 'Fast signup, instant card', positioned at the bottom. text='Earn cashback daily Fast signup, instant card' | logo: The logo 'VaultRun' displayed in a bold font at the top left corner, contrasting against the gray background. text='VaultRun' | cta: A prominent button with the text 'Watch now' in bold, located at the bottom center of the ad. text='Watch now'"
+  }
+}

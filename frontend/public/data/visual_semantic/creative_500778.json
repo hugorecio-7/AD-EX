@@ -1,0 +1,242 @@
+{
+  "creative_id": "500778",
+  "asset_file": "assets/creative_500778.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with abstract shapes and clear messaging.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting last-minute savings on hotels and flights.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.5
+      ],
+      "area_percentage": 99.73
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A combination of abstract shapes, including a large rectangle and a circle, positioned centrally on the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlay shapes",
+      "description": "A smaller rectangle overlaying the abstract shapes, adding depth and interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned towards the bottom center, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small dot",
+      "description": "A small dot located near the bottom, complementing the other shapes in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Savings message",
+      "description": "Bold white text stating 'Last-minute savings Hotels flights in one tap' prominently displayed in the center.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        294,
+        502
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.817,
+        0.784
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.44
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'RouteBloom' is displayed in a large, bold font at the top of the ad.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        37,
+        263,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.731,
+        0.123
+      ],
+      "center_normalized": [
+        0.4,
+        0.091
+      ],
+      "area_percentage": 4.34
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Learn more' in white, positioned at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in white text, located at the bottom left corner of the ad.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, promoting last-minute savings.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Last-minute savings Hotels flights in one tap, RouteBloom, Learn more, 30%",
+    "elements_text": "main_subject: A combination of abstract shapes, including a large rectangle and a circle, positioned centrally on the ad. | main_subject: A smaller rectangle overlaying the abstract shapes, adding depth and interest to the design. | decorative_element: A small circle positioned towards the bottom center, serving as a decorative element. | decorative_element: A small dot located near the bottom, complementing the other shapes in the design. | body_text: Bold white text stating 'Last-minute savings Hotels flights in one tap' prominently displayed in the center. text='Last-minute savings Hotels flights in one tap' | headline: The brand name 'RouteBloom' is displayed in a large, bold font at the top of the ad. text='RouteBloom' | cta: A button with the text 'Learn more' in white, positioned at the bottom of the ad. text='Learn more' | discount_badge: A small badge displaying '30%' in white text, located at the bottom left corner of the ad. text='30%'"
+  }
+}

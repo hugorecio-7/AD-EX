@@ -1,0 +1,386 @@
+{
+  "creative_id": "500971",
+  "asset_file": "assets/creative_500971.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and shapes.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Encouraging users to explore trending content and take action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        59,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.186,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.453
+      ],
+      "area_percentage": 48.29
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Watch what's trending' is prominently displayed at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text saying 'Start free today' appears just below the main headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button with the text 'Book now' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.308,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.414
+      ],
+      "area_percentage": 12.83
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The 'PulsePlay' logo is positioned at the top left, featuring a simple and modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.94
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is located near the top, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two overlapping circular shapes in lighter shades of purple are placed in the center for visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "An additional oval shape in a lighter hue is positioned centrally, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Smaller circular element",
+      "description": "A small circle in a lighter shade is placed within the main content area, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "Another oval shape in a lighter color is included, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element positioned towards the bottom left, adding detail to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Another small element",
+      "description": "A similar small decorative element located near the previous one, maintaining consistency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Main content area",
+      "description": "The main content area is defined by the arrangement of text and shapes, creating a cohesive look.",
+      "text_content": "Watch what's trending Book now",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Top left logo",
+      "description": "The 'PulsePlay' logo is clearly visible at the top left corner, establishing brand identity.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "UGC tag",
+      "description": "The 'UGC' tag is small and positioned near the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, trending content, call to action.",
+    "layout_text": "The headline is at the bottom, the logo is at the top left, and the CTA is centrally located.",
+    "ocr_text": "Watch what's trending, Start free today, Book now, PulsePlay, UGC",
+    "elements_text": "headline: Bold white text stating 'Watch what's trending' is prominently displayed at the bottom of the ad. | body_text: Smaller white text saying 'Start free today' appears just below the main headline. | cta: A bright button with the text 'Book now' in white, inviting users to take action. | logo: The 'PulsePlay' logo is positioned at the top left, featuring a simple and modern design. | social_proof: A small tag labeled 'UGC' is located near the top, indicating user-generated content. | decorative_element: Two overlapping circular shapes in lighter shades of purple are placed in the center for visual interest. | unknown: An additional oval shape in a lighter hue is positioned centrally, adding depth to the design. | unknown: A small circle in a lighter shade is placed within the main content area, enhancing the visual appeal. | unknown: Another oval shape in a lighter color is included, contributing to the overall design. | unknown: A small decorative element positioned towards the bottom left, adding detail to the layout. | unknown: A similar small decorative element located near the previous one, maintaining consistency. | unknown: The main content area is defined by the arrangement of text and shapes, creating a cohesive look. text='Watch what's trending Book now' | unknown: The 'PulsePlay' logo is clearly visible at the top left corner, establishing brand identity. text='PulsePlay' | unknown: The 'UGC' tag is small and positioned near the top, indicating user-generated content. text='UGC'"
+  }
+}

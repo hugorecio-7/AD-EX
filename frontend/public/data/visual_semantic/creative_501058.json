@@ -1,0 +1,386 @@
+{
+  "creative_id": "501058",
+  "asset_file": "assets/creative_501058.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent card design with a clear call to action and pricing information.",
+    "visual_style": "modern flat design",
+    "main_message": "Encouraging users to save with confidence on a service.",
+    "dominant_colors": [
+      "purple",
+      "light purple"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Card design",
+      "description": "A rectangular card design with rounded edges, featuring various shapes inside.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Oval shape",
+      "description": "An oval shape in the center of the card, colored in a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.64
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Rectangle shape",
+      "description": "A rectangular shape positioned within the card, also in a lighter purple tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circles",
+      "description": "Three small circles aligned horizontally at the bottom of the card.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.49
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Card design variant",
+      "description": "A variant of the card design, featuring a different arrangement of shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Vertical rectangle",
+      "description": "A vertical rectangle shape positioned within the card, contrasting with the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small oval shape",
+      "description": "A smaller oval shape located near the top of the card.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Vertical rectangle variant",
+      "description": "Another vertical rectangle shape, slightly different in size and position.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.345,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 6.02
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom of the ad with a clear call to action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.579,
+        0.629
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A bold price tag displayed prominently in the ad, indicating the cost.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text providing additional information about the offer, positioned near the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "Another line of text that complements the main message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.482,
+        0.532,
+        0.576,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text that captures the viewer's attention, prominently displayed.",
+      "text_content": "Save with confidence $4.99st ard Watch now",
+      "bbox_xyxy": [
+        22,
+        206,
+        253,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.791,
+        0.934
+      ],
+      "center_normalized": [
+        0.43,
+        0.789
+      ],
+      "area_percentage": 20.98
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo of the advertiser, positioned at the top of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern flat design, card design, call to action",
+    "layout_text": "The logo is at the top, followed by the main headline, body text, and the call to action at the bottom.",
+    "ocr_text": "Save with confidence, $4.99, Watch now, SwiftStack",
+    "elements_text": "main_subject: A rectangular card design with rounded edges, featuring various shapes inside. | decorative_element: An oval shape in the center of the card, colored in a lighter shade of purple. | decorative_element: A rectangular shape positioned within the card, also in a lighter purple tone. | decorative_element: Three small circles aligned horizontally at the bottom of the card. | main_subject: A variant of the card design, featuring a different arrangement of shapes. | decorative_element: A vertical rectangle shape positioned within the card, contrasting with the other elements. | decorative_element: A smaller oval shape located near the top of the card. | decorative_element: Another vertical rectangle shape, slightly different in size and position. | cta: A prominent button at the bottom of the ad with a clear call to action. | price: A bold price tag displayed prominently in the ad, indicating the cost. | body_text: Text providing additional information about the offer, positioned near the price. | body_text: Another line of text that complements the main message of the ad. | headline: The main headline text that captures the viewer's attention, prominently displayed. text='Save with confidence $4.99st ard Watch now' | logo: The logo of the advertiser, positioned at the top of the ad. text='SwiftStack'"
+  }
+}

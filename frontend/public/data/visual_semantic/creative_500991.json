@@ -1,0 +1,386 @@
+{
+  "creative_id": "500991",
+  "asset_file": "assets/creative_500991.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with an app interface mockup and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend escape with an app installation call-to-action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface mockup",
+      "description": "A rectangular mockup of an app interface with rounded corners, displaying various UI elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface detail",
+      "description": "A detailed section of the app interface mockup, showcasing buttons and text fields.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular decorative shapes",
+      "description": "Several small circular shapes arranged in a visually appealing manner within the app mockup.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App interface feature",
+      "description": "Another rectangular section of the app interface mockup, highlighting a specific feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.339,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Rounded rectangle shape",
+      "description": "A rounded rectangle shape that adds depth to the app interface mockup.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "App interface feature",
+      "description": "A rectangular section of the app interface mockup, emphasizing another feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.95
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "A small circular shape positioned within the app interface mockup.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.528,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "Another small circular shape, complementing the design of the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Small rectangular shape",
+      "description": "A small rectangular shape that adds visual interest to the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "A small circular shape that enhances the overall design of the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        169,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.53,
+        0.577,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "Another small circular shape, contributing to the decorative elements of the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "A bold, white headline text that reads 'Escape this weekend' prominently displayed at the bottom.",
+      "text_content": "Escape this weekend Install now",
+      "bbox_xyxy": [
+        70,
+        204,
+        251,
+        299
+      ],
+      "bbox_normalized": [
+        0.219,
+        0.637,
+        0.784,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.786
+      ],
+      "area_percentage": 16.79
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left corner, featuring the text 'RouteBloom' in a simple font.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.26
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "Sale notification",
+      "description": "A small yellow badge at the top right corner with the text 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, app interface, promotional text",
+    "layout_text": "The headline is at the bottom, the app mockup is centered, and the logo and sale badge are at the top.",
+    "ocr_text": "Escape this weekend, RouteBloom, SALE, Install now",
+    "elements_text": "app_screenshot: A rectangular mockup of an app interface with rounded corners, displaying various UI elements. | app_screenshot: A detailed section of the app interface mockup, showcasing buttons and text fields. | decorative_element: Several small circular shapes arranged in a visually appealing manner within the app mockup. | app_screenshot: Another rectangular section of the app interface mockup, highlighting a specific feature. | decorative_element: A rounded rectangle shape that adds depth to the app interface mockup. | app_screenshot: A rectangular section of the app interface mockup, emphasizing another feature. | decorative_element: A small circular shape positioned within the app interface mockup. | decorative_element: Another small circular shape, complementing the design of the app interface. | decorative_element: A small rectangular shape that adds visual interest to the app interface. | decorative_element: A small circular shape that enhances the overall design of the app interface. | decorative_element: Another small circular shape, contributing to the decorative elements of the app interface. | headline: A bold, white headline text that reads 'Escape this weekend' prominently displayed at the bottom. text='Escape this weekend Install now' | logo: A small logo at the top left corner, featuring the text 'RouteBloom' in a simple font. text='RouteBloom' | discount_badge: A small yellow badge at the top right corner with the text 'SALE' in bold letters. text='SALE'"
+  }
+}

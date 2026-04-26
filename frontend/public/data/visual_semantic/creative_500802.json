@@ -1,0 +1,170 @@
+{
+  "creative_id": "500802",
+  "asset_file": "assets/creative_500802.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with promotional text and a call-to-action button.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time flash sale for LuxShelf products.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A prominent logo featuring the text 'LuxShelf' in bold, modern typography, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 2,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in a clear, inviting font, located at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Sale announcement",
+      "description": "Text stating 'Flash sale live' in a large, eye-catching font, conveying urgency and excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Weekend sale header",
+      "description": "A short header text that reads 'Only this weekend', designed to grab attention with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        272,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.851,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.891,
+        0.09
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A bold price tag displaying '$4.99' prominently, emphasizing the affordability of the offer.",
+      "text_content": "Flash sale live Only this weekend $4.99 Shop now",
+      "bbox_xyxy": [
+        22,
+        206,
+        272,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.85,
+        0.934
+      ],
+      "center_normalized": [
+        0.459,
+        0.789
+      ],
+      "area_percentage": 22.71
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A solid blue background that provides a vibrant and engaging backdrop for the text and elements.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        6,
+        20,
+        275,
+        85
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.062,
+        0.859,
+        0.266
+      ],
+      "center_normalized": [
+        0.439,
+        0.164
+      ],
+      "area_percentage": 17.08
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, LuxShelf, flash sale, $4.99",
+    "layout_text": "The logo is at the top, followed by the sale announcement and weekend header, with the price at the bottom and the CTA centered.",
+    "ocr_text": "LuxShelf, Flash sale live, Only this weekend, $4.99, Shop now",
+    "elements_text": "logo: A prominent logo featuring the text 'LuxShelf' in bold, modern typography, positioned at the top of the ad. | cta: A rounded button with the text 'Shop now' in a clear, inviting font, located at the bottom center of the ad. | body_text: Text stating 'Flash sale live' in a large, eye-catching font, conveying urgency and excitement. | headline: A short header text that reads 'Only this weekend', designed to grab attention with a contrasting color. | price: A bold price tag displaying '$4.99' prominently, emphasizing the affordability of the offer. text='Flash sale live Only this weekend $4.99 Shop now'"
+  }
+}

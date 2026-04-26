@@ -1,0 +1,386 @@
+{
+  "creative_id": "500362",
+  "asset_file": "assets/creative_500362.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a game with a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to compete and play with friends.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a grid layout featuring circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Game title",
+      "description": "The title 'GlitchWave' displayed prominently at the top in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular element at the top with a grid layout, possibly a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "Another rectangular element at the top, similar to ID 3, with a grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a grid layout featuring circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element with a grid layout featuring circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button-like element in the center with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small circular element in the center, possibly a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular element at the top, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "Another small rectangular element at the top, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text element in the center stating 'Beat your rivals Play with friends tonight' in a bold font.",
+      "text_content": "Beat your rivals Play with friends tonight",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Game logo",
+      "description": "The logo 'GlitchWave' displayed at the top in a bold, modern font.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        26,
+        39,
+        249,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.692,
+        0.123
+      ],
+      "center_normalized": [
+        0.382,
+        0.092
+      ],
+      "area_percentage": 3.87
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A button at the bottom with the text 'Get offer', designed to attract user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, GlitchWave, Beat your rivals.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Beat your rivals, Play with friends tonight, GlitchWave, Get offer",
+    "elements_text": "unknown: A central graphic element with a grid layout featuring circles. | headline: The title 'GlitchWave' displayed prominently at the top in bold, modern typography. | unknown: A rectangular element at the top with a grid layout, possibly a game interface. | unknown: Another rectangular element at the top, similar to ID 3, with a grid layout. | unknown: A central graphic element with a grid layout featuring circles. | unknown: Another central graphic element with a grid layout featuring circles. | unknown: A small rectangular element at the top, possibly a decorative feature. | cta: A small button-like element in the center with a simple design. | unknown: A small circular element in the center, possibly a game feature. | unknown: A small rectangular element at the top, possibly a decorative feature. | unknown: Another small rectangular element at the top, possibly a decorative feature. | body_text: A prominent text element in the center stating 'Beat your rivals Play with friends tonight' in a bold font. text='Beat your rivals Play with friends tonight' | logo: The logo 'GlitchWave' displayed at the top in a bold, modern font. text='GlitchWave' | cta: A button at the bottom with the text 'Get offer', designed to attract user interaction. text='Get offer'"
+  }
+}

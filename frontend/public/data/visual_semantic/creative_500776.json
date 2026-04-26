@@ -1,0 +1,242 @@
+{
+  "creative_id": "500776",
+  "asset_file": "assets/creative_500776.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with abstract shapes and clear call-to-action elements.",
+    "visual_style": "modern abstract with bold text",
+    "main_message": "Promoting a travel app for booking hotels and flights easily.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.26
+      ],
+      "area_percentage": 19.56
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central abstract shapes",
+      "description": "A large, light purple rectangle and an oval shape are positioned in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlaying abstract shape",
+      "description": "A slightly darker purple rectangle overlays the central shapes, enhancing depth and complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top left decorative shape",
+      "description": "A small, light purple circle is placed in the top left corner, contributing to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom center with a white background and bold text inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional abstract shape",
+      "description": "A small, light purple rectangle positioned slightly above the center, adding to the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large black text at the top reads 'RouteBloon', making it the focal point of the ad.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        28,
+        40,
+        360,
+        95
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        1.0,
+        0.148
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.93
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline states 'Fly smarter Hotels flights in one tap', providing context.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        295,
+        467
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.819,
+        0.73
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.59
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Offer text",
+      "description": "A small white text at the bottom center reads 'Get offer', encouraging user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern abstract with bold text, RouteBloon, Fly smarter Hotels flights in one tap, Get offer",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "RouteBloon, Fly smarter Hotels flights in one tap, Get offer",
+    "elements_text": "main_subject: A large, light purple rectangle and an oval shape are positioned in the center, adding visual interest. | main_subject: A slightly darker purple rectangle overlays the central shapes, enhancing depth and complexity. | decorative_element: A small, light purple circle is placed in the top left corner, contributing to the abstract design. | cta: A rounded rectangular button at the bottom center with a white background and bold text inviting action. | unknown: A small, light purple rectangle positioned slightly above the center, adding to the abstract theme. | headline: Bold, large black text at the top reads 'RouteBloon', making it the focal point of the ad. text='RouteBloon' | body_text: Smaller white text below the headline states 'Fly smarter Hotels flights in one tap', providing context. text='Fly smarter Hotels flights in one tap' | cta: A small white text at the bottom center reads 'Get offer', encouraging user interaction. text='Get offer'"
+  }
+}

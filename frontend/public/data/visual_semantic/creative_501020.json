@@ -1,0 +1,242 @@
+{
+  "creative_id": "501020",
+  "asset_file": "assets/creative_501020.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and clear messaging.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a financial service with a focus on clarity and ease of use.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.756
+      ],
+      "center_normalized": [
+        0.501,
+        0.478
+      ],
+      "area_percentage": 50.14
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are centered, with a subtle outline, adding a modern design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.407
+      ],
+      "area_percentage": 13.64
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text stating 'Your money, clearer' is prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main message reads 'Fast signup, instant card', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small circular icon in the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom with the text 'Watch now', encouraging user interaction.",
+      "text_content": "Your money, clearer Fast signup  instant card",
+      "bbox_xyxy": [
+        61,
+        305,
+        258,
+        389
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.635,
+        0.806,
+        0.81
+      ],
+      "center_normalized": [
+        0.498,
+        0.723
+      ],
+      "area_percentage": 10.77
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'ClearLedger' is displayed in bold at the top, establishing brand identity.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        22,
+        175,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.046,
+        0.547,
+        0.125
+      ],
+      "center_normalized": [
+        0.308,
+        0.085
+      ],
+      "area_percentage": 3.79
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A clear and inviting button at the bottom with the text 'Watch now', designed to attract clicks.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and vibrant, ClearLedger, user-generated content.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Fast signup, instant card, ClearLedger, Watch now, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are centered, with a subtle outline, adding a modern design element. | body_text: Bold white text stating 'Your money, clearer' is prominently displayed in the center. | body_text: Smaller white text below the main message reads 'Fast signup, instant card', providing additional information. | icon: A small circular icon in the top left corner labeled 'UGC', indicating user-generated content. | cta: A prominent white button at the bottom with the text 'Watch now', encouraging user interaction. text='Your money, clearer Fast signup  instant card' | logo: The brand name 'ClearLedger' is displayed in bold at the top, establishing brand identity. text='ClearLedger' | cta: A clear and inviting button at the bottom with the text 'Watch now', designed to attract clicks. text='Watch now' | icon: A small icon labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

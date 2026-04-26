@@ -1,0 +1,266 @@
+{
+  "creative_id": "501071",
+  "asset_file": "assets/creative_501071.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean and modern design promoting a food delivery service.",
+    "visual_style": "bright and minimalistic",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears abstract or decorative, possibly representing food or delivery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PlateSprint logo",
+      "description": "A bold, modern logo text that reads 'PlateSprint', positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        24,
+        297,
+        63
+      ],
+      "bbox_normalized": [
+        0.517,
+        0.051,
+        0.93,
+        0.132
+      ],
+      "center_normalized": [
+        0.724,
+        0.091
+      ],
+      "area_percentage": 3.35
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "Another central graphic element that is abstract, possibly related to food or delivery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.19
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "A central graphic element that is abstract, complementing the overall theme of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small graphic element located at the bottom center, possibly representing a button or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text that reads 'Fast food, fast Free delivery over $15', prominently displayed in a bold font.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "The logo of PlateSprint, displayed prominently at the top with a clear and modern design.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        164,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.512,
+        0.117
+      ],
+      "center_normalized": [
+        0.294,
+        0.087
+      ],
+      "area_percentage": 2.55
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text that says 'Get offer', positioned at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small text badge that reads 'SALE', positioned at the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and minimalistic, fast food delivery, special offer",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Fast food, fast Free delivery over $15, PlateSprint, Get offer, SALE",
+    "elements_text": "unknown: A central graphic element that appears abstract or decorative, possibly representing food or delivery. | headline: A bold, modern logo text that reads 'PlateSprint', positioned at the top of the ad. | unknown: Another central graphic element that is abstract, possibly related to food or delivery. | unknown: A central graphic element that is abstract, complementing the overall theme of the ad. | unknown: A small graphic element located at the bottom center, possibly representing a button or icon. | body_text: Text that reads 'Fast food, fast Free delivery over $15', prominently displayed in a bold font. text='Fast food, fast Free delivery over $15' | logo: The logo of PlateSprint, displayed prominently at the top with a clear and modern design. text='PlateSprint' | cta: A button-like text that says 'Get offer', positioned at the bottom of the ad. text='Get offer' | discount_badge: A small text badge that reads 'SALE', positioned at the top right corner of the ad. text='SALE'"
+  }
+}

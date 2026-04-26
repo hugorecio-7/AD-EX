@@ -1,0 +1,218 @@
+{
+  "creative_id": "501004",
+  "asset_file": "assets/creative_501004.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear call to action and engaging text.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Encouraging users to stream content with a flexible cancellation policy.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo features the text 'NeonCast' in a bold, modern font, prominently displayed at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "An abstract arrangement of geometric shapes in light blue tones is placed in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Stream the hype Cancel anytime' is displayed in a large, clear font at the center, conveying the main offer.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        35,
+        409,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.684
+      ],
+      "area_percentage": 7.2
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button with the text 'Order now' is located at the bottom center, designed to attract immediate action.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small text",
+      "description": "A small text element at the bottom with minimal visual impact, likely serving as a secondary call to action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, Stream the hype Cancel anytime, Order now",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA button at the bottom.",
+    "ocr_text": "Stream the hype Cancel anytime, NeonCast, Order now, UGC",
+    "elements_text": "logo: The logo features the text 'NeonCast' in a bold, modern font, prominently displayed at the top center. | icon: A small circular icon labeled 'UGC' is positioned at the top left, indicating user-generated content. | decorative_element: An abstract arrangement of geometric shapes in light blue tones is placed in the center, adding visual interest. | body_text: The text 'Stream the hype Cancel anytime' is displayed in a large, clear font at the center, conveying the main offer. text='Stream the hype Cancel anytime' | cta: A prominent button with the text 'Order now' is located at the bottom center, designed to attract immediate action. text='NeonCast' | unknown: A small text element at the bottom with minimal visual impact, likely serving as a secondary call to action. text='Order now' | unknown:  text='UGC'"
+  }
+}

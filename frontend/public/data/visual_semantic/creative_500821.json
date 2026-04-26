@@ -1,0 +1,290 @@
+{
+  "creative_id": "500821",
+  "asset_file": "assets/creative_500821.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a late-night 2-for-1 deal at a price of €9.99.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "2-for-1 tonight",
+      "description": "Bold white text stating '2-for-1 tonight' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        15,
+        297,
+        42
+      ],
+      "bbox_normalized": [
+        0.127,
+        0.05,
+        0.931,
+        0.134
+      ],
+      "center_normalized": [
+        0.529,
+        0.092
+      ],
+      "area_percentage": 6.75
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Late-night deals available",
+      "description": "Smaller white text below the headline that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price €9.99",
+      "description": "A clear white text showing the price '€9.99' positioned below the body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer' in white, inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A small logo at the top left corner displaying the name 'QuickFork' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the bottom left corner that reads 'UGC' in a simple font.",
+      "text_content": "2-for-1 tonight Late-night deals available €9.99 Get offer",
+      "bbox_xyxy": [
+        22,
+        203,
+        277,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.866,
+        0.934
+      ],
+      "center_normalized": [
+        0.467,
+        0.784
+      ],
+      "area_percentage": 23.91
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Two icons",
+      "description": "Two simple icons representing food items, placed above the headline.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        23,
+        103,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.322,
+        0.122
+      ],
+      "center_normalized": [
+        0.2,
+        0.097
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, 2-for-1 deal, QuickFork logo, SALE badge",
+    "layout_text": "The headline is centered, with the body text and price below it, and the CTA button at the bottom.",
+    "ocr_text": "2-for-1 tonight, Late-night deals available, €9.99, Get offer, QuickFork, SALE, UGC",
+    "elements_text": "headline: Bold white text stating '2-for-1 tonight' prominently displayed in the center. | body_text: Smaller white text below the headline that reads 'Late-night deals available'. | price: A clear white text showing the price '€9.99' positioned below the body text. | cta: A prominent button with the text 'Get offer' in white, inviting action. | logo: A small logo at the top left corner displaying the name 'QuickFork' in a simple font. | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold. | social_proof: A small label at the bottom left corner that reads 'UGC' in a simple font. text='2-for-1 tonight Late-night deals available €9.99 Get offer' | decorative_element: Two simple icons representing food items, placed above the headline. text='QuickFork' | unknown:  text='SALE' | unknown:  text='UGC'"
+  }
+}

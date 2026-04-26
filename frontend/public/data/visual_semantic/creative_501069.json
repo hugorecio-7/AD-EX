@@ -1,0 +1,146 @@
+{
+  "creative_id": "501069",
+  "asset_file": "assets/creative_501069.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with a central plate icon and clear messaging.",
+    "visual_style": "bold and minimalistic",
+    "main_message": "Promoting food delivery options nearby at an attractive price.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A vibrant red background that fills the entire canvas, creating a bold visual impact.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        469
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.733
+      ],
+      "center_normalized": [
+        0.502,
+        0.467
+      ],
+      "area_percentage": 48.05
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty plate icon",
+      "description": "A simple outline of a plate, centered in the ad, suggesting food without specific details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text that reads 'Hungry? We got you Fresh favorites nearby', positioned towards the bottom of the ad.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        43,
+        411,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.642,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.74
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The word 'PlateSprint' in large, bold font at the top of the ad, likely representing the brand name.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        21,
+        31,
+        252,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.7,
+        0.128
+      ],
+      "center_normalized": [
+        0.379,
+        0.088
+      ],
+      "area_percentage": 5.11
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text '€9.99 Learn more', located at the bottom of the ad.",
+      "text_content": "€9.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and minimalistic, food delivery, PlateSprint, €9.99.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you Fresh favorites nearby, PlateSprint, €9.99 Learn more",
+    "elements_text": "unknown: A simple outline of a plate, centered in the ad, suggesting food without specific details. | body_text: Bold white text that reads 'Hungry? We got you Fresh favorites nearby', positioned towards the bottom of the ad. text='Hungry? We got you Fresh favorites nearby' | logo: The word 'PlateSprint' in large, bold font at the top of the ad, likely representing the brand name. text='PlateSprint' | cta: A prominent white button with the text '€9.99 Learn more', located at the bottom of the ad. text='€9.99 Learn more'"
+  }
+}

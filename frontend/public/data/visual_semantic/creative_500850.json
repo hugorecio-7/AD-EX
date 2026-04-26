@@ -1,0 +1,266 @@
+{
+  "creative_id": "500850",
+  "asset_file": "assets/creative_500850.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel app with special fares and a discount.",
+    "dominant_colors": [
+      "purple",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "The background features abstract shapes in a soft purple hue, creating a visually appealing backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.162,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.49
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NomadLaye logo",
+      "description": "A bold, stylized logo reading 'NomadLaye' in large, prominent letters at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.399
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dream text",
+      "description": "The word 'Dream' is displayed in a clean, modern font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Destinations text",
+      "description": "The phrase 'destinations await' is presented in a friendly, inviting font, positioned below the 'Dream' text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge showing '-30%' in a bright yellow color, indicating a discount, located at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button labeled 'Install now' in white text on a purple background, encouraging action at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Special fares text",
+      "description": "The text 'Special fares today' is displayed in a friendly font, positioned above the call-to-action button.",
+      "text_content": "destinations await Special fares today 30% Install now",
+      "bbox_xyxy": [
+        34,
+        443,
+        289,
+        581
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.692,
+        0.803,
+        0.908
+      ],
+      "center_normalized": [
+        0.449,
+        0.8
+      ],
+      "area_percentage": 15.27
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "An abstract decorative element that adds visual interest, positioned at the top of the ad.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        105
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.164
+      ],
+      "center_normalized": [
+        0.533,
+        0.102
+      ],
+      "area_percentage": 11.67
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "A small piece of text reading 'Dream' that adds to the overall theme of the ad.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, NomadLaye logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main text in the center, and the call to action at the bottom.",
+    "ocr_text": "NomadLaye, Dream, destinations await, Special fares today, -30%, Install now",
+    "elements_text": "decorative_element: The background features abstract shapes in a soft purple hue, creating a visually appealing backdrop. | logo: A bold, stylized logo reading 'NomadLaye' in large, prominent letters at the top of the ad. | body_text: The word 'Dream' is displayed in a clean, modern font, centered in the middle of the ad. | body_text: The phrase 'destinations await' is presented in a friendly, inviting font, positioned below the 'Dream' text. | discount_badge: A small badge showing '-30%' in a bright yellow color, indicating a discount, located at the bottom left. | cta: A prominent button labeled 'Install now' in white text on a purple background, encouraging action at the bottom of the ad. | headline: The text 'Special fares today' is displayed in a friendly font, positioned above the call-to-action button. text='destinations await Special fares today 30% Install now' | unknown: An abstract decorative element that adds visual interest, positioned at the top of the ad. text='NomadLaye' | unknown: A small piece of text reading 'Dream' that adds to the overall theme of the ad. text='Dream'"
+  }
+}

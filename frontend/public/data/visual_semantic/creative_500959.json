@@ -1,0 +1,314 @@
+{
+  "creative_id": "500959",
+  "asset_file": "assets/creative_500959.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with abstract shapes and clear calls to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting travel bookings with special fares and a reward offer.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic",
+      "description": "A large, abstract shape in the center, possibly representing a travel theme, with a light blue hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.399
+      ],
+      "area_percentage": 14.36
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "overlay shape",
+      "description": "A smaller, semi-transparent shape overlaying the central graphic, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        205,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.321,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.42
+      ],
+      "area_percentage": 11.81
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "left graphic",
+      "description": "An abstract shape on the left side, contributing to the overall travel theme with a light blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "right graphic",
+      "description": "Another abstract shape on the right side, complementing the left graphic and enhancing the travel theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small circular icon located at the top left, possibly representing a feature or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "trip text",
+      "description": "Text in the center bottom area that reads 'Book your next trip', presented in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "claim button",
+      "description": "A rounded button at the bottom center with the text 'Claim reward', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "small graphic",
+      "description": "A small graphic element that appears to be a decorative feature, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "main headline",
+      "description": "A prominent headline at the top that reads 'HorizonHop UGC', styled in a bold font.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        24,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.12
+      ],
+      "area_percentage": 14.73
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "special fares text",
+      "description": "Text below the main headline that states 'Special fares today', designed to inform users about offers.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        51,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.12
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "reward claim text",
+      "description": "Text at the bottom that reads 'Claim reward', encouraging users to take action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, travel booking, special fares, reward offer",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop UGC, Book your next trip, Special fares today, Claim reward",
+    "elements_text": "main_subject: A large, abstract shape in the center, possibly representing a travel theme, with a light blue hue. | main_subject: A smaller, semi-transparent shape overlaying the central graphic, adding depth to the design. | decorative_element: An abstract shape on the left side, contributing to the overall travel theme with a light blue color. | main_subject: Another abstract shape on the right side, complementing the left graphic and enhancing the travel theme. | icon: A small circular icon located at the top left, possibly representing a feature or service. | body_text: Text in the center bottom area that reads 'Book your next trip', presented in a bold, modern font. | cta: A rounded button at the bottom center with the text 'Claim reward', designed to attract user interaction. | unknown: A small graphic element that appears to be a decorative feature, positioned in the center. | headline: A prominent headline at the top that reads 'HorizonHop UGC', styled in a bold font. text='HorizonHop UGC' | body_text: Text below the main headline that states 'Special fares today', designed to inform users about offers. text='Book your next trip Special fares today' | cta: Text at the bottom that reads 'Claim reward', encouraging users to take action. text='Claim reward'"
+  }
+}

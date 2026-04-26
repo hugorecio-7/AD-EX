@@ -1,0 +1,266 @@
+{
+  "creative_id": "500371",
+  "asset_file": "assets/creative_500371.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent offer and clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with significant discounts on bestsellers.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A simple, bold logo featuring the text 'LuxShelf' in a modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, rectangular badge with the text 'SALE' in a bright color, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small, circular decorative element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small, circular decorative element positioned slightly above the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "A prominent text area displaying 'Up to 40% off Shop bestsellers now' in a large, eye-catching font.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        463
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.723
+      ],
+      "center_normalized": [
+        0.508,
+        0.681
+      ],
+      "area_percentage": 5.53
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call-to-action button with the text 'Start now' in a bold font, located at the bottom of the ad.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in a simple font, positioned at the top left corner.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        26,
+        38,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.315,
+        0.091
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "SALE indicator",
+      "description": "A small, bright indicator with the text 'SALE' in a bold font, located at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, circular decorative element located towards the top left of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, LuxShelf logo, discount badge, call to action.",
+    "layout_text": "The logo is at the top center, the discount badge is at the top right, the main offer text is centrally positioned, and the call to action is at the bottom.",
+    "ocr_text": "LuxShelf, SALE, UGC, Up to 40% off Shop bestsellers now, €19.99, Start now",
+    "elements_text": "logo: A simple, bold logo featuring the text 'LuxShelf' in a modern font, positioned at the top center of the ad. | discount_badge: A small, rectangular badge with the text 'SALE' in a bright color, located at the top right corner. | unknown: A small, circular decorative element located towards the bottom center of the ad. | unknown: Another small, circular decorative element positioned slightly above the previous one. | headline: A prominent text area displaying 'Up to 40% off Shop bestsellers now' in a large, eye-catching font. text='Up to 40% off Shop bestsellers now' | cta: A clear call-to-action button with the text 'Start now' in a bold font, located at the bottom of the ad. text='€19.99 Start now' | social_proof: A small label with the text 'UGC' in a simple font, positioned at the top left corner. text='LuxShelf' | decorative_element: A small, bright indicator with the text 'SALE' in a bold font, located at the top right corner. text='SALE' | unknown: A small, circular decorative element located towards the top left of the ad. text='UGC'"
+  }
+}

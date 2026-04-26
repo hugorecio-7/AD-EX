@@ -1,0 +1,242 @@
+{
+  "creative_id": "500942",
+  "asset_file": "assets/creative_500942.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a light beige background with product images and promotional text.",
+    "visual_style": "minimalist and modern",
+    "main_message": "Promoting limited stock with free shipping offer.",
+    "dominant_colors": [
+      "light beige",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light beige background",
+      "description": "A soft light beige background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "three product images",
+      "description": "Three rectangular product images with a glass-like reflection effect, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "three product images",
+      "description": "Three rectangular product images with a glass-like reflection effect, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        134,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.28,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.677,
+        0.37
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "three product images",
+      "description": "Three rectangular product images with a glass-like reflection effect, arranged horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "circular icon",
+      "description": "A small circular icon that appears to be a placeholder or selection indicator.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        71,
+        330
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.224,
+        0.689
+      ],
+      "center_normalized": [
+        0.171,
+        0.618
+      ],
+      "area_percentage": 1.51
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "circular icon",
+      "description": "A small circular icon that appears to be a placeholder or selection indicator.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "promotional text",
+      "description": "Bold black text stating 'Limited stock Free shipping over $25' positioned centrally.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        56,
+        308,
+        266,
+        357
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.642,
+        0.831,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A simple logo with the text 'BoltCart' in a modern font, positioned at the top left.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        24,
+        30,
+        127,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.397,
+        0.117
+      ],
+      "center_normalized": [
+        0.236,
+        0.09
+      ],
+      "area_percentage": 1.74
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A bold black button with the text 'Book now' at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist and modern, promotional text and call to action.",
+    "layout_text": "The logo is at the top left, the promotional text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Limited stock, Free shipping over $25, BoltCart, Book now",
+    "elements_text": "product: Three rectangular product images with a glass-like reflection effect, arranged horizontally. | product: Three rectangular product images with a glass-like reflection effect, arranged horizontally. | product: Three rectangular product images with a glass-like reflection effect, arranged horizontally. | icon: A small circular icon that appears to be a placeholder or selection indicator. | icon: A small circular icon that appears to be a placeholder or selection indicator. | body_text: Bold black text stating 'Limited stock Free shipping over $25' positioned centrally. text='Limited stock Free shipping over $25' | logo: A simple logo with the text 'BoltCart' in a modern font, positioned at the top left. text='BoltCart' | cta: A bold black button with the text 'Book now' at the bottom of the ad. text='Book now'"
+  }
+}

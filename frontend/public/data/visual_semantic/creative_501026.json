@@ -1,0 +1,218 @@
+{
+  "creative_id": "501026",
+  "asset_file": "assets/creative_501026.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with various shapes and text elements promoting a travel booking service.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to book their next trip with flexible options.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.502,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large, light green circular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A medium-sized rectangular shape in light green, also centered within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "A small circular shape in light green, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Booking call to action",
+      "description": "A prominent text area at the bottom center with bold black text stating 'Book your next trip' and a smaller line below it.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        51,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.709
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Reward price",
+      "description": "A bold text area at the bottom left displaying the price '$4.99' in black.",
+      "text_content": "$4.99 Claim reward",
+      "bbox_xyxy": [
+        26,
+        532,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.382,
+        0.87
+      ],
+      "area_percentage": 4.74
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' in bold black text, positioned at the top center of the ad.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right corner with the text 'SALE' in bold black.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, key elements include a call to action and pricing.",
+    "layout_text": "The logo is at the top center, followed by a sale badge in the top right, with the main call to action and price at the bottom.",
+    "ocr_text": "WayPoint, SALE, Book your next trip, Flexible booking options, $4.99, Claim reward",
+    "elements_text": "decorative_element: A large, light green circular shape positioned in the center of the ad. | decorative_element: A medium-sized rectangular shape in light green, also centered within the ad. | decorative_element: A small circular shape in light green, located towards the bottom center. | cta: A prominent text area at the bottom center with bold black text stating 'Book your next trip' and a smaller line below it. text='Book your next trip Flexible booking options' | price: A bold text area at the bottom left displaying the price '$4.99' in black. text='$4.99 Claim reward' | logo: The logo 'WayPoint' in bold black text, positioned at the top center of the ad. text='WayPoint' | discount_badge: A small yellow badge at the top right corner with the text 'SALE' in bold black. text='SALE'"
+  }
+}

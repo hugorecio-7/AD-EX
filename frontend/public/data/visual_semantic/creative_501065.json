@@ -1,0 +1,170 @@
+{
+  "creative_id": "501065",
+  "asset_file": "assets/creative_501065.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a focus on travel booking services.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book travel services easily.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NomadLayer logo",
+      "description": "A simple, circular logo in the top section, featuring a minimalist design that represents the brand.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface mockup",
+      "description": "A rectangular mockup of an app interface, showcasing a clean layout with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Travel booking headline",
+      "description": "Bold, white text at the center bottom reads 'Book your next trip Hotels + flights in one tap', emphasizing the service offered.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom with the text 'Shop now' in white, designed to attract immediate action.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        23,
+        30,
+        274,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.761,
+        0.127
+      ],
+      "center_normalized": [
+        0.412,
+        0.087
+      ],
+      "area_percentage": 5.56
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A clear price tag in white text displaying '€29.99', positioned just above the CTA button.",
+      "text_content": "€29.99 Shop now",
+      "bbox_xyxy": [
+        24,
+        532,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.356,
+        0.872
+      ],
+      "area_percentage": 4.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel booking services",
+    "layout_text": "The logo is at the top, the app screenshot is centered, the headline is at the bottom center, and the CTA is at the very bottom.",
+    "ocr_text": "NomadLayer, Book your next trip Hotels + flights in one tap, €29.99, Shop now",
+    "elements_text": "logo: A simple, circular logo in the top section, featuring a minimalist design that represents the brand. | app_screenshot: A rectangular mockup of an app interface, showcasing a clean layout with rounded corners, positioned centrally. | headline: Bold, white text at the center bottom reads 'Book your next trip Hotels + flights in one tap', emphasizing the service offered. text='Book your next trip Hotels flights in one tap' | cta: A prominent button at the bottom with the text 'Shop now' in white, designed to attract immediate action. text='NomadLayer' | price: A clear price tag in white text displaying '€29.99', positioned just above the CTA button. text='€29.99 Shop now'"
+  }
+}

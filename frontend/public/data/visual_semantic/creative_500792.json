@@ -1,0 +1,386 @@
+{
+  "creative_id": "500792",
+  "asset_file": "assets/creative_500792.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a game interface and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to engage with the game and claim rewards.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.5
+      ],
+      "area_percentage": 99.73
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A game interface featuring four circular icons arranged in a grid, with a highlighted circular icon indicating selection.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.346,
+        0.436
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "The logo 'GlitchWave' is displayed prominently at the top, featuring bold, stylized typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "Another view of the game interface with circular icons, emphasizing the interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A section of the game interface showing additional circular icons, enhancing the gameplay experience.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A continuation of the game interface, showcasing more interactive elements for user engagement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small arrow icon pointing to the right, indicating navigation or progression.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Reward text",
+      "description": "Text stating 'Free rewards for new players' in a clear, legible font, encouraging user participation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "A small piece of text positioned centrally, likely providing further context or information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "A small piece of text at the top, possibly offering more details about the game or rewards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Another small text element centrally located, contributing to the overall message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "A small text element at the top, likely providing supplementary information about the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'Level up today' is bold and eye-catching, designed to attract attention.",
+      "text_content": "Level up today Free rewards for new players",
+      "bbox_xyxy": [
+        52,
+        406,
+        308,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.634,
+        0.856,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "The logo 'GlitchWave' is displayed at the top, featuring bold, stylized typography.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        26,
+        39,
+        249,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.692,
+        0.123
+      ],
+      "center_normalized": [
+        0.382,
+        0.092
+      ],
+      "area_percentage": 3.87
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent 'Get offer' button at the bottom, encouraging users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, GlitchWave logo, game interface, rewards",
+    "layout_text": "The logo is at the top, the main headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Level up today, Free rewards for new players, GlitchWave, Get offer",
+    "elements_text": "app_screenshot: A game interface featuring four circular icons arranged in a grid, with a highlighted circular icon indicating selection. | logo: The logo 'GlitchWave' is displayed prominently at the top, featuring bold, stylized typography. | app_screenshot: Another view of the game interface with circular icons, emphasizing the interactive elements. | app_screenshot: A section of the game interface showing additional circular icons, enhancing the gameplay experience. | app_screenshot: A continuation of the game interface, showcasing more interactive elements for user engagement. | icon: A small arrow icon pointing to the right, indicating navigation or progression. | body_text: Text stating 'Free rewards for new players' in a clear, legible font, encouraging user participation. | body_text: A small piece of text positioned centrally, likely providing further context or information. | body_text: A small piece of text at the top, possibly offering more details about the game or rewards. | body_text: Another small text element centrally located, contributing to the overall message of the ad. | body_text: A small text element at the top, likely providing supplementary information about the game. | headline: The main headline 'Level up today' is bold and eye-catching, designed to attract attention. text='Level up today Free rewards for new players' | logo: The logo 'GlitchWave' is displayed at the top, featuring bold, stylized typography. text='GlitchWave' | cta: A prominent 'Get offer' button at the bottom, encouraging users to take action. text='Get offer'"
+  }
+}

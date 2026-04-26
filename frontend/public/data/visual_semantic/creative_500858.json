@@ -1,0 +1,242 @@
+{
+  "creative_id": "500858",
+  "asset_file": "assets/creative_500858.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with an app interface preview and clear call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Discover trending content with new hits every week.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire banner, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface preview",
+      "description": "A rectangular area displaying a simplified app interface with circular and rectangular shapes, suggesting user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.356
+      ],
+      "area_percentage": 7.34
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A small circular icon positioned within the app interface, representing a feature or content type.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Rectangular icon",
+      "description": "A rectangular icon located within the app interface, indicating another feature or content type.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Additional circular icon",
+      "description": "Another small circular icon within the app interface, complementing the other icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Bold white text stating 'Watch what's trending' with a smaller line below it that reads 'New hits every week', prominently displayed at the bottom.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        56,
+        307,
+        265,
+        389
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.64,
+        0.828,
+        0.81
+      ],
+      "center_normalized": [
+        0.502,
+        0.725
+      ],
+      "area_percentage": 11.16
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo 'StarVault' appears in a bold font at the top left, conveying brand identity.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        24,
+        32,
+        142,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.444,
+        0.117
+      ],
+      "center_normalized": [
+        0.259,
+        0.092
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Watch now' in white, inviting user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small label marked 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, trending content, call to action",
+    "layout_text": "The logo is at the top left, the app interface is centered, the body text is at the bottom, and the CTA is at the bottom center.",
+    "ocr_text": "Watch what's trending, New hits every week, StarVault, Watch now, UGC",
+    "elements_text": "app_screenshot: A rectangular area displaying a simplified app interface with circular and rectangular shapes, suggesting user-generated content. | icon: A small circular icon positioned within the app interface, representing a feature or content type. | icon: A rectangular icon located within the app interface, indicating another feature or content type. | icon: Another small circular icon within the app interface, complementing the other icons. | body_text: Bold white text stating 'Watch what's trending' with a smaller line below it that reads 'New hits every week', prominently displayed at the bottom. text='Watch what's trending New hits every week' | logo: The logo 'StarVault' appears in a bold font at the top left, conveying brand identity. text='StarVault' | cta: A rounded button at the bottom center with the text 'Watch now' in white, inviting user interaction. text='Watch now' | icon: A small label marked 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

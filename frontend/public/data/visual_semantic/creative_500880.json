@@ -1,0 +1,290 @@
+{
+  "creative_id": "500880",
+  "asset_file": "assets/creative_500880.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on the brand and call to action.",
+    "visual_style": "modern and clean",
+    "main_message": "The ad promotes a financial tracking service with an emphasis on quick signup.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.198,
+        0.953,
+        0.737
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.69
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "EarnPath logo",
+      "description": "A simple logo positioned at the top, featuring the text 'EarnPath' in a clean, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "The main text reads 'Track every euro' in bold, clear typography, centrally placed for emphasis.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.16
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text below the main message that states 'Fast signup, instant card', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Book now', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.79
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape that appears in the center, possibly representing a card or interface element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "Another abstract shape positioned centrally, complementing the overall design without specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Secondary decorative element",
+      "description": "A smaller abstract shape that adds visual interest, located near the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Bottom text message",
+      "description": "Text at the bottom of the ad reiterating the main message, enhancing the call to action.",
+      "text_content": "Track every euro Fast signup  instant card",
+      "bbox_xyxy": [
+        30,
+        206,
+        288,
+        255
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.644,
+        0.9,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.72
+      ],
+      "area_percentage": 12.35
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Secondary CTA",
+      "description": "A smaller call to action button with the text 'Book now', positioned at the bottom right.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Top headline",
+      "description": "A brief headline at the top left corner, reinforcing the brand identity.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, EarnPath, financial tracking service, quick signup.",
+    "layout_text": "The headline is at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup, instant card, Book now, EarnPath",
+    "elements_text": "headline: A simple logo positioned at the top, featuring the text 'EarnPath' in a clean, modern font. | body_text: The main text reads 'Track every euro' in bold, clear typography, centrally placed for emphasis. | body_text: A smaller text below the main message that states 'Fast signup, instant card', providing additional information. | cta: A prominent button at the bottom with the text 'Book now', designed to attract user interaction. | unknown: An abstract shape that appears in the center, possibly representing a card or interface element. | unknown: Another abstract shape positioned centrally, complementing the overall design without specific identification. | unknown: A smaller abstract shape that adds visual interest, located near the main text. | body_text: Text at the bottom of the ad reiterating the main message, enhancing the call to action. text='Track every euro Fast signup  instant card' | cta: A smaller call to action button with the text 'Book now', positioned at the bottom right. text='Book now' | headline: A brief headline at the top left corner, reinforcing the brand identity. text='EarnPath'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500353",
+  "asset_file": "assets/creative_500353.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a warm orange background with a clear focus on the service offered by CraveLoop.",
+    "visual_style": "bright and modern",
+    "main_message": "CraveLoop offers food delivery with a promotional sale.",
+    "dominant_colors": [
+      "orange",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background fills the canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        10,
+        60,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.032,
+        0.189,
+        0.952,
+        0.719
+      ],
+      "center_normalized": [
+        0.492,
+        0.454
+      ],
+      "area_percentage": 48.69
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CraveLoop logo",
+      "description": "The logo features the text 'CraveLoop' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Circular icon",
+      "description": "A simple circular icon is centered, likely representing a product or service, with a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.21
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle is placed slightly off-center, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Another small circle",
+      "description": "Another small circle, similar to the previous one, is positioned nearby, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text reads 'Your cravings, delivered' in a large, bold font, conveying the main message of the ad.",
+      "text_content": "Yourcravings, delivered €2990 ble Claim reward",
+      "bbox_xyxy": [
+        22,
+        203,
+        273,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.853,
+        0.934
+      ],
+      "center_normalized": [
+        0.461,
+        0.784
+      ],
+      "area_percentage": 23.53
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow 'SALE' badge is positioned at the top right corner, drawing attention to a special offer.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price is displayed as '€29.99' in a prominent font, indicating the cost of the service.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, CraveLoop, food delivery, SALE",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Yourcravings, delivered, €29.99, Claim reward, CraveLoop, SALE",
+    "elements_text": "headline: The logo features the text 'CraveLoop' in a bold, modern font, positioned at the top of the ad. | main_subject: A simple circular icon is centered, likely representing a product or service, with a clean design. | decorative_element: A small circle is placed slightly off-center, adding a decorative touch to the design. | decorative_element: Another small circle, similar to the previous one, is positioned nearby, enhancing the visual interest. | body_text: The text reads 'Your cravings, delivered' in a large, bold font, conveying the main message of the ad. text='Yourcravings, delivered €2990 ble Claim reward' | discount_badge: A bright yellow 'SALE' badge is positioned at the top right corner, drawing attention to a special offer. text='CraveLoop' | price: The price is displayed as '€29.99' in a prominent font, indicating the cost of the service. text='SALE'"
+  }
+}

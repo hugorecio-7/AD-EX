@@ -1,0 +1,386 @@
+{
+  "creative_id": "500981",
+  "asset_file": "assets/creative_500981.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and product icons with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new product collection with a special price.",
+    "dominant_colors": [
+      "#FFA500",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "A simple logo featuring the text 'ZenDrop' in a clean, modern font against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "An illustration of two product icons, outlined and minimalistic, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product icon",
+      "description": "A single product icon, outlined and minimalistic, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display",
+      "description": "Another product icon, outlined and minimalistic, positioned centrally next to other product elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text that reads 'shipping over $25', displayed in a smaller font beneath the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Additional body text that complements the main message, displayed in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Decorative element",
+      "description": "A small circular icon, possibly representing a feature or detail, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button with the text 'Install now', designed to stand out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        24,
+        268,
+        36,
+        283
+      ],
+      "bbox_normalized": [
+        0.077,
+        0.84,
+        0.115,
+        0.885
+      ],
+      "center_normalized": [
+        0.096,
+        0.862
+      ],
+      "area_percentage": 0.17
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "Another small button with a similar design to the first, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.264,
+        0.884
+      ],
+      "center_normalized": [
+        0.246,
+        0.862
+      ],
+      "area_percentage": 0.16
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button with text, designed to encourage user interaction, located at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        269,
+        63,
+        283
+      ],
+      "bbox_normalized": [
+        0.162,
+        0.841,
+        0.197,
+        0.885
+      ],
+      "center_normalized": [
+        0.18,
+        0.863
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button with text, positioned at the bottom of the ad to prompt action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        268,
+        49,
+        283
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.84,
+        0.154,
+        0.885
+      ],
+      "center_normalized": [
+        0.138,
+        0.862
+      ],
+      "area_percentage": 0.14
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button with text, located at the bottom, encouraging user engagement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        85,
+        269,
+        96,
+        280
+      ],
+      "bbox_normalized": [
+        0.268,
+        0.841,
+        0.303,
+        0.875
+      ],
+      "center_normalized": [
+        0.285,
+        0.858
+      ],
+      "area_percentage": 0.12
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text stating 'New collection drop' prominently displayed at the bottom of the ad.",
+      "text_content": "New collection drop €29.906 25 Install now",
+      "bbox_xyxy": [
+        22,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.786
+      ],
+      "area_percentage": 23.38
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "A simple logo featuring the text 'ZenDrop' in a clean, modern font against a light background.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        24,
+        19,
+        91,
+        39
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.284,
+        0.122
+      ],
+      "center_normalized": [
+        0.18,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, ZenDrop logo, new collection drop.",
+    "layout_text": "The logo is at the top, the main headline is at the bottom, and the call to action buttons are positioned at the bottom.",
+    "ocr_text": "New collection drop €29.906 25 Install now, ZenDrop",
+    "elements_text": "logo: A simple logo featuring the text 'ZenDrop' in a clean, modern font against a light background. | product: An illustration of two product icons, outlined and minimalistic, positioned centrally. | product: A single product icon, outlined and minimalistic, located in the center of the ad. | product: Another product icon, outlined and minimalistic, positioned centrally next to other product elements. | body_text: Text that reads 'shipping over $25', displayed in a smaller font beneath the main message. | body_text: Additional body text that complements the main message, displayed in a smaller font. | icon: A small circular icon, possibly representing a feature or detail, located towards the bottom center. | cta: A small button with the text 'Install now', designed to stand out against the background. | cta: Another small button with a similar design to the first, positioned near the bottom. | cta: A small button with text, designed to encourage user interaction, located at the bottom. | cta: A small button with text, positioned at the bottom of the ad to prompt action. | cta: A small button with text, located at the bottom, encouraging user engagement. | headline: Bold text stating 'New collection drop' prominently displayed at the bottom of the ad. text='New collection drop €29.906 25 Install now' | logo: A simple logo featuring the text 'ZenDrop' in a clean, modern font against a light background. text='ZenDrop'"
+  }
+}

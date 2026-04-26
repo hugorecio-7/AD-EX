@@ -1,0 +1,266 @@
+{
+  "creative_id": "501056",
+  "asset_file": "assets/creative_501056.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a blue background with various shapes and text promoting a cashback offer.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting cashback offers with a call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background that fills the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Circular and rectangular shapes",
+      "description": "A large circular shape and a rectangular shape in the center, both in a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional circular shape",
+      "description": "Another circular shape overlapping with the main subject, also in a lighter blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.324,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.82
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Rectangular shape",
+      "description": "A medium-sized rectangular shape positioned slightly above the center, in a lighter blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Large circular shape",
+      "description": "A large circular shape positioned in the center, filled with a lighter blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small circular shape",
+      "description": "A small circular shape located towards the bottom left, in a lighter blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Medium circular shape",
+      "description": "A medium-sized circular shape located towards the bottom center, in a lighter blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Large circular shape",
+      "description": "A large circular shape located towards the bottom right, in a lighter blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.613
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold white text at the bottom of the ad stating 'Earn cashback daily No hidden fees €9.99 Install now'.",
+      "text_content": "Earn cashback daily No hidden fees €9.99 Install now",
+      "bbox_xyxy": [
+        23,
+        307,
+        273,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.853,
+        0.915
+      ],
+      "center_normalized": [
+        0.463,
+        0.777
+      ],
+      "area_percentage": 21.48
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A white logo text 'SwiftStack' positioned at the top left of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        30,
+        155,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.484,
+        0.117
+      ],
+      "center_normalized": [
+        0.28,
+        0.09
+      ],
+      "area_percentage": 2.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, simple and modern, cashback offer, call to action",
+    "layout_text": "The logo is at the top left, main subjects are centered, and the body text is at the bottom.",
+    "ocr_text": "SwiftStack, Earn cashback daily, No hidden fees, €9.99, Install now",
+    "elements_text": "main_subject: A large circular shape and a rectangular shape in the center, both in a lighter shade of blue. | main_subject: Another circular shape overlapping with the main subject, also in a lighter blue. | main_subject: A medium-sized rectangular shape positioned slightly above the center, in a lighter blue. | main_subject: A large circular shape positioned in the center, filled with a lighter blue color. | decorative_element: A small circular shape located towards the bottom left, in a lighter blue. | decorative_element: A medium-sized circular shape located towards the bottom center, in a lighter blue. | decorative_element: A large circular shape located towards the bottom right, in a lighter blue. | body_text: Bold white text at the bottom of the ad stating 'Earn cashback daily No hidden fees €9.99 Install now'. text='Earn cashback daily No hidden fees €9.99 Install now' | logo: A white logo text 'SwiftStack' positioned at the top left of the ad. text='SwiftStack'"
+  }
+}

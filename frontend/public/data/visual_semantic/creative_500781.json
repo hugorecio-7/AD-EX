@@ -1,0 +1,218 @@
+{
+  "creative_id": "500781",
+  "asset_file": "assets/creative_500781.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer with free delivery.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid yellow background",
+      "description": "A bright yellow background fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.2,
+        0.954,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 47.12
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The logo features the word 'CraveLoop' in a bold, modern font, positioned at the top of the banner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The text reads '2-for-1 tonight' in a large, bold font, centrally placed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Delivery information",
+      "description": "The text 'Free delivery over $15' is smaller and placed below the main offer, providing additional details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Shop now' in a clear, inviting font, encouraging user interaction.",
+      "text_content": "2-for-l tonight Free delivery over $15",
+      "bbox_xyxy": [
+        44,
+        305,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.635,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.69
+      ],
+      "area_percentage": 7.89
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in a bold font, positioned at the bottom left, indicating a discount.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        28,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.087
+      ],
+      "area_percentage": 2.39
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "This element is a small text area at the bottom of the banner, likely for additional information.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Extra information",
+      "description": "Another small text area that may provide further details or context, positioned near the bottom.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, 2-for-1 offer, free delivery",
+    "layout_text": "The logo is at the top, the main offer is centered, and the call to action is at the bottom.",
+    "ocr_text": "CraveLoop, 2-for-l tonight Free delivery over $15, Shop now, 30%",
+    "elements_text": "logo: The logo features the word 'CraveLoop' in a bold, modern font, positioned at the top of the banner. | body_text: The text reads '2-for-1 tonight' in a large, bold font, centrally placed to attract attention. | body_text: The text 'Free delivery over $15' is smaller and placed below the main offer, providing additional details. | cta: A prominent button with the text 'Shop now' in a clear, inviting font, encouraging user interaction. text='2-for-l tonight Free delivery over $15' | discount_badge: A small badge displaying '30%' in a bold font, positioned at the bottom left, indicating a discount. text='CraveLoop' | unknown: This element is a small text area at the bottom of the banner, likely for additional information. text='Shop now' | unknown: Another small text area that may provide further details or context, positioned near the bottom. text='30%'"
+  }
+}

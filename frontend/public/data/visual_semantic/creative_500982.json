@@ -1,0 +1,242 @@
+{
+  "creative_id": "500982",
+  "asset_file": "assets/creative_500982.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with prominent text and a product placeholder.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product with free shipping and an attractive price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A vibrant orange gradient fills the background, creating a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        85,
+        359,
+        271
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.134,
+        0.998,
+        0.425
+      ],
+      "center_normalized": [
+        0.499,
+        0.279
+      ],
+      "area_percentage": 29.05
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product placeholder",
+      "description": "A simple, light-colored rectangular shape representing a product, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "A small, abstract decorative shape in the top left corner, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An undefined element located in the center bottom, possibly a placeholder or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another undefined element positioned slightly above the bottom center, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "ZenDrop ALE UGC",
+      "description": "Bold, large text reading 'ZenDrop ALE UGC' at the top, prominently displayed.",
+      "text_content": "ZenDrop ALE UGC",
+      "bbox_xyxy": [
+        21,
+        25,
+        321,
+        127
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.039,
+        0.892,
+        0.198
+      ],
+      "center_normalized": [
+        0.475,
+        0.119
+      ],
+      "area_percentage": 13.28
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "Clear, inviting text stating 'Your next favorite pick Free shipping over $25' in the center.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        502
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.714
+      ],
+      "area_percentage": 8.75
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Shop now' at the bottom, encouraging user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        585
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.914
+      ],
+      "center_normalized": [
+        0.496,
+        0.893
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text displaying the price '€9.99' located near the bottom, indicating affordability.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, ZenDrop ALE UGC, free shipping, €9.99",
+    "layout_text": "The headline is at the top, the product placeholder is centered, and the CTA is at the bottom.",
+    "ocr_text": "ZenDrop ALE UGC, Your next favorite pick Free shipping over $25, Shop now, €9.99",
+    "elements_text": "product: A simple, light-colored rectangular shape representing a product, positioned centrally. | decorative_element: A small, abstract decorative shape in the top left corner, adding visual interest. | unknown: An undefined element located in the center bottom, possibly a placeholder or decorative feature. | unknown: Another undefined element positioned slightly above the bottom center, likely decorative. | headline: Bold, large text reading 'ZenDrop ALE UGC' at the top, prominently displayed. text='ZenDrop ALE UGC' | body_text: Clear, inviting text stating 'Your next favorite pick Free shipping over $25' in the center. text='Your next favorite pick Free shipping over $25' | cta: A rounded button with the text 'Shop now' at the bottom, encouraging user interaction. text='Shop now' | price: A small text displaying the price '€9.99' located near the bottom, indicating affordability. text='€9.99'"
+  }
+}

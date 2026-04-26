@@ -1,0 +1,434 @@
+{
+  "creative_id": "500760",
+  "asset_file": "assets/creative_500760.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a grid layout showcasing game pieces and a prominent call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to join a gaming arena and play with friends.",
+    "dominant_colors": [
+      "orange",
+      "brown"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.83
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Game grid layout",
+      "description": "A grid layout with circular elements representing game pieces, arranged in a 2x2 formation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        116,
+        188,
+        235
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.243,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.479,
+        0.367
+      ],
+      "area_percentage": 5.5
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game piece",
+      "description": "A circular game piece with a brown color, positioned in the top center of the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game piece",
+      "description": "Another circular game piece with a brown color, positioned in the top left of the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        102,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game piece",
+      "description": "A circular game piece with a brown color, positioned in the center of the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        182,
+        188,
+        234
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.381,
+        0.59,
+        0.489
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.4
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game piece",
+      "description": "A circular game piece with a brown color, positioned in the bottom left of the grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        102,
+        234
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.381,
+        0.321,
+        0.489
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.4
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded rectangular button with the text 'Claim reward' in white, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.403,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative icon",
+      "description": "A small circular icon with a brown color, positioned near the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "The logo text 'StormByte' in bold, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        303,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.949,
+        0.319
+      ],
+      "center_normalized": [
+        0.913,
+        0.28
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "Text that reads 'Play with friends tonight' in a smaller font, positioned below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "Text labeled 'UGC' in a small font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Join the arena headline",
+      "description": "Bold headline text that reads 'Join the arena' positioned prominently in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Additional headline text",
+      "description": "Smaller text positioned above the main headline, possibly a subtitle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        146,
+        143
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.459,
+        0.3
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The main message text 'Join the arena Play with friends tonight' in a large font, centered in the ad.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        45,
+        305,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.635,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.491,
+        0.691
+      ],
+      "area_percentage": 7.73
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Claim reward text",
+      "description": "Text that reads 'Claim reward' in a smaller font, positioned at the bottom of the ad.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        23,
+        27,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.086
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "Text labeled 'UGC' in a small font, positioned at the top left.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Additional text",
+      "description": "Text labeled 'UGC' in a small font, positioned at the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        53,
+        97
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.166,
+        0.202
+      ],
+      "center_normalized": [
+        0.122,
+        0.19
+      ],
+      "area_percentage": 0.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, Join the arena, Claim reward",
+    "layout_text": "The headline is centered, the main subject is a grid layout in the center, and the CTA is at the bottom.",
+    "ocr_text": "Join the arena, Play with friends tonight, StormByte, Claim reward, UGC",
+    "elements_text": "main_subject: A grid layout with circular elements representing game pieces, arranged in a 2x2 formation. | icon: A circular game piece with a brown color, positioned in the top center of the grid. | icon: Another circular game piece with a brown color, positioned in the top left of the grid. | icon: A circular game piece with a brown color, positioned in the center of the grid. | icon: A circular game piece with a brown color, positioned in the bottom left of the grid. | cta: A rounded rectangular button with the text 'Claim reward' in white, located at the bottom center. | decorative_element: A small circular icon with a brown color, positioned near the bottom left. | logo: The logo text 'StormByte' in bold, positioned at the top left. | body_text: Text that reads 'Play with friends tonight' in a smaller font, positioned below the main message. | unknown: Text labeled 'UGC' in a small font, positioned at the top left. | headline: Bold headline text that reads 'Join the arena' positioned prominently in the center. | unknown: Smaller text positioned above the main headline, possibly a subtitle. | body_text: The main message text 'Join the arena Play with friends tonight' in a large font, centered in the ad. text='Join the arena Play with friends tonight' | cta: Text that reads 'Claim reward' in a smaller font, positioned at the bottom of the ad. text='StormByte' | unknown: Text labeled 'UGC' in a small font, positioned at the top left. text='Claim reward' | unknown: Text labeled 'UGC' in a small font, positioned at the top left. text='UGC'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "501040",
+  "asset_file": "assets/creative_501040.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with bold text and abstract shapes.",
+    "visual_style": "minimalistic with bold colors",
+    "main_message": "Promoting a streaming service with new content.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes in a soft red hue, creating a modern and minimalistic background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A bold, stylized text logo in black, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, filled circle in a lighter shade of red, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Large, white text that reads 'Stream the hype' with a secondary line in smaller font stating 'New hits every week'.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button in white with bold text saying 'Start now', positioned at the bottom of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small black text label that reads 'UGC', positioned at the top left corner of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic with bold colors, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, New hits every week, BingeLayer, Start now, UGC",
+    "elements_text": "unknown: A combination of geometric shapes in a soft red hue, creating a modern and minimalistic background. | logo: A bold, stylized text logo in black, prominently displayed at the top of the ad. | decorative_element: A small, filled circle in a lighter shade of red, adding a decorative touch to the design. | headline: Large, white text that reads 'Stream the hype' with a secondary line in smaller font stating 'New hits every week'. text='Stream the hype New hits every week' | cta: A rounded rectangular button in white with bold text saying 'Start now', positioned at the bottom of the ad. text='BingeLayer' | social_proof: A small black text label that reads 'UGC', positioned at the top left corner of the ad. text='Start now' | unknown:  text='UGC'"
+  }
+}

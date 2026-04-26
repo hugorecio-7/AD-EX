@@ -1,0 +1,242 @@
+{
+  "creative_id": "500860",
+  "asset_file": "assets/creative_500860.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text elements promoting an exclusive offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting an exclusive offer from StarVault.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background fills the canvas, providing a lively and energetic base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.278,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.479,
+        0.4
+      ],
+      "area_percentage": 14.68
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StarVault title",
+      "description": "The text 'StarVault' is prominently displayed in bold, large font at the top of the ad, conveying the brand name.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Exclusive offer text",
+      "description": "The phrase 'Exclusive tonight' is presented in a medium-sized font, emphasizing urgency and exclusivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.48,
+        0.43
+      ],
+      "area_percentage": 11.01
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cancel anytime note",
+      "description": "A smaller text stating 'Cancel anytime' appears below the main offer, providing additional information in a subtle manner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A bold, rounded button with the text 'Get offer' is located at the bottom, designed to attract clicks.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A small circular shape is placed in the background, adding visual interest without distracting from the main content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape is positioned in the background, complementing the overall design and layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Exclusive offer text",
+      "description": "The text 'Exclusive tonight Get offer' is prominently displayed at the bottom, encouraging immediate action.",
+      "text_content": "Exclusive tonight Get offer",
+      "bbox_xyxy": [
+        88,
+        204,
+        234,
+        299
+      ],
+      "bbox_normalized": [
+        0.275,
+        0.637,
+        0.731,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 13.54
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "StarVault branding",
+      "description": "The brand name 'StarVault' is featured at the top in a bold, eye-catching font, establishing brand identity.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        6,
+        24,
+        240,
+        72
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.075,
+        0.75,
+        0.225
+      ],
+      "center_normalized": [
+        0.384,
+        0.15
+      ],
+      "area_percentage": 10.97
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, StarVault, exclusive offer",
+    "layout_text": "The headline is at the top, followed by body text, and the CTA is at the bottom.",
+    "ocr_text": "StarVault, Exclusive tonight, Get offer, Cancel anytime",
+    "elements_text": "headline: The text 'StarVault' is prominently displayed in bold, large font at the top of the ad, conveying the brand name. | body_text: The phrase 'Exclusive tonight' is presented in a medium-sized font, emphasizing urgency and exclusivity. | body_text: A smaller text stating 'Cancel anytime' appears below the main offer, providing additional information in a subtle manner. | cta: A bold, rounded button with the text 'Get offer' is located at the bottom, designed to attract clicks. | decorative_element: A small circular shape is placed in the background, adding visual interest without distracting from the main content. | decorative_element: A rectangular shape is positioned in the background, complementing the overall design and layout. | cta: The text 'Exclusive tonight Get offer' is prominently displayed at the bottom, encouraging immediate action. text='Exclusive tonight Get offer' | headline: The brand name 'StarVault' is featured at the top in a bold, eye-catching font, establishing brand identity. text='StarVault'"
+  }
+}

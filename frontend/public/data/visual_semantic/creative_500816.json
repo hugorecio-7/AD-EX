@@ -1,0 +1,266 @@
+{
+  "creative_id": "500816",
+  "asset_file": "assets/creative_500816.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a promotional offer for a food delivery service with a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a 2-for-1 food delivery deal with a discount.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with a rectangular shape, possibly a placeholder or background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central rectangular element, likely a placeholder or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central rectangular element, possibly a placeholder or background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A bold text element in the center, stating '2-for-1 tonight Free delivery over $15' in a large, readable font.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        52,
+        407,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.636,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.682
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A top-positioned logo element featuring the name 'QuickFork' in a prominent font.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        35,
+        225,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.625,
+        0.123
+      ],
+      "center_normalized": [
+        0.347,
+        0.089
+      ],
+      "area_percentage": 3.82
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A bottom-positioned call-to-action button with the text 'Install now' in a clear, inviting font.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge at the bottom displaying '-30%' in a bold font, indicating a discount.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        25,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.158,
+        0.848
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A top-positioned headline element with the word 'SALE' in a bold, eye-catching font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small top-positioned element labeled 'UGC', likely indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, promotional offer, call to action",
+    "layout_text": "The logo is at the top, followed by the headline, body text in the center, and the CTA at the bottom.",
+    "ocr_text": "2-for-1 tonight Free delivery over $15, QuickFork, Install now, -30%, SALE, UGC",
+    "elements_text": "unknown: A central element with a rectangular shape, possibly a placeholder or background. | unknown: A central rectangular element, likely a placeholder or decorative feature. | unknown: A central rectangular element, possibly a placeholder or background. | body_text: A bold text element in the center, stating '2-for-1 tonight Free delivery over $15' in a large, readable font. text='2-for-1 tonight Free delivery over $15' | logo: A top-positioned logo element featuring the name 'QuickFork' in a prominent font. text='QuickFork' | cta: A bottom-positioned call-to-action button with the text 'Install now' in a clear, inviting font. text='Install now' | discount_badge: A small badge at the bottom displaying '-30%' in a bold font, indicating a discount. text='-30%' | headline: A top-positioned headline element with the word 'SALE' in a bold, eye-catching font. text='SALE' | social_proof: A small top-positioned element labeled 'UGC', likely indicating user-generated content. text='UGC'"
+  }
+}

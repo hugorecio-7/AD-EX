@@ -1,0 +1,290 @@
+{
+  "creative_id": "501018",
+  "asset_file": "assets/creative_501018.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a light beige background with product images and promotional text.",
+    "visual_style": "minimalist with modern typography",
+    "main_message": "Promoting a sale with significant discounts on products.",
+    "dominant_colors": [
+      "beige",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light beige background",
+      "description": "A light beige background fills the entire canvas, providing a neutral base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        41,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.087,
+        0.999,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.543
+      ],
+      "area_percentage": 91.12
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "three product images",
+      "description": "Three rectangular product images are displayed in a row, each with a subtle reflection effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        86,
+        319,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.18,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.589
+      ],
+      "area_percentage": 81.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that occupies a small central area, details are unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.282,
+        0.768,
+        0.46
+      ],
+      "center_normalized": [
+        0.584,
+        0.371
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "LuxShelf logo",
+      "description": "The logo 'LuxShelf' is prominently displayed at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        23,
+        298,
+        62
+      ],
+      "bbox_normalized": [
+        0.425,
+        0.05,
+        0.932,
+        0.131
+      ],
+      "center_normalized": [
+        0.678,
+        0.09
+      ],
+      "area_percentage": 4.11
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that occupies a small central area, details are unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that occupies a small central area, details are unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.282,
+        0.768,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that occupies a small central area, details are unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "discount offer",
+      "description": "Text stating 'Up to 40% off Only this weekend' is displayed in a bold, eye-catching font.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "call to action",
+      "description": "The phrase '$4.99 Watch now' is presented in a prominent, contrasting color to encourage action.",
+      "text_content": "$4.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        398,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.829,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.364,
+        0.872
+      ],
+      "area_percentage": 5.04
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "The 'LuxShelf' logo appears at the top, designed in a sleek and modern style.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small 'SALE' badge is positioned at the top right, designed to attract attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with modern typography, LuxShelf logo, discount offer",
+    "layout_text": "The logo is at the top, followed by the discount offer in the center, and the call to action at the bottom.",
+    "ocr_text": "Up to 40% off Only this weekend, $4.99 Watch now, LuxShelf, SALE",
+    "elements_text": "main_subject: Three rectangular product images are displayed in a row, each with a subtle reflection effect. | unknown: An unspecified element that occupies a small central area, details are unclear. | headline: The logo 'LuxShelf' is prominently displayed at the top in a bold, modern font. | unknown: An unspecified element that occupies a small central area, details are unclear. | unknown: An unspecified element that occupies a small central area, details are unclear. | unknown: An unspecified element that occupies a small central area, details are unclear. | body_text: Text stating 'Up to 40% off Only this weekend' is displayed in a bold, eye-catching font. text='Up to 40% off Only this weekend' | cta: The phrase '$4.99 Watch now' is presented in a prominent, contrasting color to encourage action. text='$4.99 Watch now' | logo: The 'LuxShelf' logo appears at the top, designed in a sleek and modern style. text='LuxShelf' | discount_badge: A small 'SALE' badge is positioned at the top right, designed to attract attention. text='SALE'"
+  }
+}

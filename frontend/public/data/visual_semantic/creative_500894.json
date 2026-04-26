@@ -1,0 +1,242 @@
+{
+  "creative_id": "500894",
+  "asset_file": "assets/creative_500894.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and prominent text.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Encouraging users to take advantage of an exclusive offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and two circles arranged in a visually appealing layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.35
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and two circles arranged in a visually appealing layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Small text",
+      "description": "A small text element positioned centrally, likely conveying additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Small text",
+      "description": "A small text element positioned centrally, likely conveying additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, prominent text stating 'Exclusive tonight Start free today' in a large font.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'MoonScreen' displayed at the top of the ad in a clear font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button labeled 'Order now' at the bottom of the ad, inviting user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small text element labeled 'UGC' indicating user-generated content, positioned at the top.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, exclusive offer, geometric shapes",
+    "layout_text": "The headline is centrally positioned, with the logo at the top and the CTA at the bottom.",
+    "ocr_text": "Exclusive tonight Start free today, MoonScreen, Order now, UGC",
+    "elements_text": "main_subject: A large square and two circles arranged in a visually appealing layout. | main_subject: A large square and two circles arranged in a visually appealing layout. | body_text: A small text element positioned centrally, likely conveying additional information. | body_text: A small text element positioned centrally, likely conveying additional information. | headline: A bold, prominent text stating 'Exclusive tonight Start free today' in a large font. text='Exclusive tonight Start free today' | logo: The logo 'MoonScreen' displayed at the top of the ad in a clear font. text='MoonScreen' | cta: A button labeled 'Order now' at the bottom of the ad, inviting user interaction. text='Order now' | social_proof: A small text element labeled 'UGC' indicating user-generated content, positioned at the top. text='UGC'"
+  }
+}

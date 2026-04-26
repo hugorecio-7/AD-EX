@@ -1,0 +1,146 @@
+{
+  "creative_id": "500865",
+  "asset_file": "assets/creative_500865.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and circular icons.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to install PixelForge with a promotional offer.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant green background fills the entire canvas, providing a fresh and energetic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Circular icons",
+      "description": "Three circular icons arranged horizontally in the center, each with a simple outline and a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A single circular icon below the previous three, featuring a similar outline style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large text stating 'PixelForge 38 Beat your rivals' in a contrasting color, prominently displayed in the center.",
+      "text_content": "PixelForge 38 Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        20,
+        19,
+        285,
+        253
+      ],
+      "bbox_normalized": [
+        0.062,
+        0.059,
+        0.891,
+        0.791
+      ],
+      "center_normalized": [
+        0.477,
+        0.425
+      ],
+      "area_percentage": 60.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button at the bottom with the text 'Install now', designed to stand out against the background.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, PixelForge, install now",
+    "layout_text": "The headline is centered at the top, icons are in the center, and the CTA is at the bottom.",
+    "ocr_text": "PixelForge 38, Beat your rivals, No ads in first week, Install now",
+    "elements_text": "icon: Three circular icons arranged horizontally in the center, each with a simple outline and a light color. | icon: A single circular icon below the previous three, featuring a similar outline style. | headline: Bold, large text stating 'PixelForge 38 Beat your rivals' in a contrasting color, prominently displayed in the center. text='PixelForge 38 Beat your rivals No ads in first week' | cta: A bright button at the bottom with the text 'Install now', designed to stand out against the background. text='Install now'"
+  }
+}

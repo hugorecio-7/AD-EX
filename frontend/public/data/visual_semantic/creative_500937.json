@@ -1,0 +1,386 @@
+{
+  "creative_id": "500937",
+  "asset_file": "assets/creative_500937.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a central graphic with bold text and a call-to-action button.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to claim rewards with no ads in the first week.",
+    "dominant_colors": [
+      "light purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a light purple background and four circular shapes arranged in a grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VoxelRealm BONUS",
+      "description": "Bold text in a bright color, positioned at the top, indicating a bonus related to the game VoxelRealm.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top graphic element",
+      "description": "A secondary graphic element at the top, featuring a similar light purple background with a right arrow.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top graphic element",
+      "description": "Another graphic element at the top, matching the style of the previous elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a light purple background, similar to ID 1, but larger.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A smaller central graphic element with a light purple background, positioned below ID 1.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top graphic element",
+      "description": "A small graphic element at the top right, featuring a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A small circular graphic element in the center, with a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another small circular graphic element in the center, similar to ID 8.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top graphic element",
+      "description": "A small graphic element at the top left, featuring a light purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top graphic element",
+      "description": "A small graphic element at the top right, matching the style of ID 10.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Large, bold text in white stating 'Win epic rewards No ads in first week' centered in the ad.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        34,
+        405,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.633,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.507,
+        0.678
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game title",
+      "description": "Bold text in a bright color at the top, indicating the game title 'VoxelRealm BONUS'.",
+      "text_content": "VoxelRealm BONUS",
+      "bbox_xyxy": [
+        27,
+        40,
+        331,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.919,
+        0.122
+      ],
+      "center_normalized": [
+        0.497,
+        0.092
+      ],
+      "area_percentage": 5.01
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button at the bottom with rounded edges, featuring the text 'Claim reward' in a contrasting color.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, VoxelRealm BONUS, claim reward",
+    "layout_text": "The headline is at the top, the main graphic is centered, and the CTA is at the bottom.",
+    "ocr_text": "Win epic rewards No ads in first week, VoxelRealm BONUS, Claim reward",
+    "elements_text": "unknown: A central graphic element with a light purple background and four circular shapes arranged in a grid. | headline: Bold text in a bright color, positioned at the top, indicating a bonus related to the game VoxelRealm. | unknown: A secondary graphic element at the top, featuring a similar light purple background with a right arrow. | unknown: Another graphic element at the top, matching the style of the previous elements. | unknown: A central graphic element with a light purple background, similar to ID 1, but larger. | unknown: A smaller central graphic element with a light purple background, positioned below ID 1. | unknown: A small graphic element at the top right, featuring a light purple background. | unknown: A small circular graphic element in the center, with a light purple background. | unknown: Another small circular graphic element in the center, similar to ID 8. | unknown: A small graphic element at the top left, featuring a light purple background. | unknown: A small graphic element at the top right, matching the style of ID 10. | body_text: Large, bold text in white stating 'Win epic rewards No ads in first week' centered in the ad. text='Win epic rewards No ads in first week' | headline: Bold text in a bright color at the top, indicating the game title 'VoxelRealm BONUS'. text='VoxelRealm BONUS' | cta: A rectangular button at the bottom with rounded edges, featuring the text 'Claim reward' in a contrasting color. text='Claim reward'"
+  }
+}

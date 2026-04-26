@@ -1,0 +1,434 @@
+{
+  "creative_id": "500359",
+  "asset_file": "assets/creative_500359.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant design with a prominent logo and engaging content areas.",
+    "visual_style": "bright and colorful with modern design",
+    "main_message": "Promoting the app with a focus on new music releases.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A stylized logo featuring the text 'NeonCast' in a vibrant color, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area that likely contains visual content or imagery related to the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary content area",
+      "description": "Another central rectangular area, possibly showcasing additional features or highlights of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Feature highlight area",
+      "description": "A central rectangular area that may display specific features or benefits of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional content area",
+      "description": "A central rectangular area that could contain more information or visuals about the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.47
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central rectangular area that likely features engaging content or visuals related to the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Feature area",
+      "description": "A central rectangular area that may highlight specific features or offerings of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central rectangular area that likely contains engaging visuals or information about the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 9,
+      "role": "main_subject",
+      "label": "Feature highlight area",
+      "description": "A central rectangular area that may showcase additional features or benefits of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.591,
+        0.43
+      ],
+      "area_percentage": 5.9
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Stream the hype New hits every week', prominently displayed at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.579,
+        0.629
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button or text that reads 'Try for free', encouraging user engagement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Additional message text",
+      "description": "Text that may provide further context or information, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Additional message text",
+      "description": "Text that may provide further context or information, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.482,
+        0.532,
+        0.576,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline that captures the main message of the ad, located at the bottom.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        203,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.716
+      ],
+      "area_percentage": 13.3
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button or text that reads 'Try for free', positioned at the bottom of the ad.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        107,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 2.07
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A stylized logo featuring the text 'NeonCast' in a vibrant color, positioned at the top of the ad.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and colorful with modern design, key elements include logo, main message, and call to action.",
+    "layout_text": "The logo is at the top, main content areas are centered, and the headline and CTA are at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, Try for free, NeonCast",
+    "elements_text": "logo: A stylized logo featuring the text 'NeonCast' in a vibrant color, positioned at the top of the ad. | main_subject: A central rectangular area that likely contains visual content or imagery related to the app. | main_subject: Another central rectangular area, possibly showcasing additional features or highlights of the app. | main_subject: A central rectangular area that may display specific features or benefits of the app. | main_subject: A central rectangular area that could contain more information or visuals about the app. | main_subject: A central rectangular area that likely features engaging content or visuals related to the app. | main_subject: A central rectangular area that may highlight specific features or offerings of the app. | main_subject: A central rectangular area that likely contains engaging visuals or information about the app. | main_subject: A central rectangular area that may showcase additional features or benefits of the app. | body_text: Text that reads 'Stream the hype New hits every week', prominently displayed at the bottom. | cta: A button or text that reads 'Try for free', encouraging user engagement. | body_text: Text that may provide further context or information, positioned near the bottom. | body_text: Text that may provide further context or information, positioned near the bottom. | headline: A bold headline that captures the main message of the ad, located at the bottom. text='Stream the hype New hits every week' | cta: A button or text that reads 'Try for free', positioned at the bottom of the ad. text='Try for free' | logo: A stylized logo featuring the text 'NeonCast' in a vibrant color, positioned at the top of the ad. text='NeonCast'"
+  }
+}

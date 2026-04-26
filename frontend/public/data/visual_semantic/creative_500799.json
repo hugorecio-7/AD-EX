@@ -1,0 +1,314 @@
+{
+  "creative_id": "500799",
+  "asset_file": "assets/creative_500799.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with a clear focus on a discount offer and product images.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a sale with significant discounts and free shipping.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Pink background",
+      "description": "A solid pink background fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "LuxShelf logo",
+      "description": "The logo 'LuxShelf' is displayed prominently at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Three product images",
+      "description": "Three rectangular product images with a slight reflection effect, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.768,
+        0.479
+      ],
+      "center_normalized": [
+        0.578,
+        0.379
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        158,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.495,
+        0.459
+      ],
+      "center_normalized": [
+        0.323,
+        0.37
+      ],
+      "area_percentage": 6.12
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Discount offer text",
+      "description": "Text stating 'Up to 40% off Free shipping over $25' in a clear, readable font, centered below the product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.677,
+        0.091
+      ],
+      "area_percentage": 4.17
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button with the text 'Learn more' in a contrasting color, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A price tag displaying '$4.99' in a bold font, positioned below the discount offer text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Visual accents",
+      "description": "Subtle decorative elements around the product images, enhancing the overall aesthetic without distracting from the main content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "$4.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        398,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.829,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.367,
+        0.872
+      ],
+      "area_percentage": 5.1
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "LuxShelf, unknown, banner, bright and playful, featuring a sale and product images.",
+    "layout_text": "The logo is at the top, followed by product images in the center, with the discount offer text below and the CTA at the bottom.",
+    "ocr_text": "LuxShelf, SALE, Up to 40% off Free shipping over $25, $4.99, Learn more",
+    "elements_text": "headline: The logo 'LuxShelf' is displayed prominently at the top in a bold, modern font. | product: Three rectangular product images with a slight reflection effect, arranged horizontally in the center. | discount_badge: A small circular badge with the word 'SALE' in bold text, positioned at the top right corner. | body_text: Text stating 'Up to 40% off Free shipping over $25' in a clear, readable font, centered below the product images. | cta: A rectangular button with the text 'Learn more' in a contrasting color, located at the bottom center. | price: A price tag displaying '$4.99' in a bold font, positioned below the discount offer text. | decorative_element: Subtle decorative elements around the product images, enhancing the overall aesthetic without distracting from the main content. | unknown:  text='Up to 40% off Free shipping over $25' | unknown:  text='$4.99 Learn more' | unknown:  text='LuxShelf' | unknown:  text='SALE'"
+  }
+}

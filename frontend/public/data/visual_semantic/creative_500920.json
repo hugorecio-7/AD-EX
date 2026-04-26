@@ -1,0 +1,170 @@
+{
+  "creative_id": "500920",
+  "asset_file": "assets/creative_500920.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear promotional message and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for the DriftPass service.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A smooth, solid blue background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo features the word 'DriftPass' in bold, modern typography, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are lightly outlined in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Promotional headline",
+      "description": "The text 'Fly smarter Special fares today' is presented in a clear, bold font, centered in the middle of the ad.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        81,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.685
+      ],
+      "area_percentage": 4.82
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€29.99' is displayed in a large, eye-catching font at the bottom, emphasizing the offer.",
+      "text_content": "€29.99 Get offer",
+      "bbox_xyxy": [
+        24,
+        532,
+        228,
+        582
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.633,
+        0.909
+      ],
+      "center_normalized": [
+        0.35,
+        0.87
+      ],
+      "area_percentage": 4.43
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Get offer' in a bold font, inviting users to take action, located below the price.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        26,
+        38,
+        207,
+        80
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.575,
+        0.125
+      ],
+      "center_normalized": [
+        0.324,
+        0.092
+      ],
+      "area_percentage": 3.3
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, DriftPass, special fares, €29.99, Get offer",
+    "layout_text": "The logo is at the top, followed by geometric shapes, the headline in the center, the price at the bottom, and the CTA button below the price.",
+    "ocr_text": "Fly smarter Special fares today, €29.99 Get offer, DriftPass",
+    "elements_text": "logo: The logo features the word 'DriftPass' in bold, modern typography, prominently displayed at the top. | decorative_element: Two overlapping geometric shapes, one circular and one rectangular, are lightly outlined in the center. | headline: The text 'Fly smarter Special fares today' is presented in a clear, bold font, centered in the middle of the ad. text='Fly smarter Special fares today' | price: The price '€29.99' is displayed in a large, eye-catching font at the bottom, emphasizing the offer. text='€29.99 Get offer' | cta: A rounded button with the text 'Get offer' in a bold font, inviting users to take action, located below the price. text='DriftPass'"
+  }
+}

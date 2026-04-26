@@ -1,0 +1,170 @@
+{
+  "creative_id": "500345",
+  "asset_file": "assets/creative_500345.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with bold promotional text and a clear call to action.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting travel destinations with a special sale offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        126,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.197,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.5,
+        0.466
+      ],
+      "area_percentage": 48.58
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, are subtly integrated into the background, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "Another geometric shape, possibly a rectangle, is present, complementing the overall design without distracting from the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.773,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.431
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold white text stating 'Dream destinations await' is centrally positioned, conveying the main message of the ad.",
+      "text_content": "destinations await Flexible booking options $4.99 Start now",
+      "bbox_xyxy": [
+        26,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.436,
+        0.8
+      ],
+      "area_percentage": 15.69
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "The text 'RouteBloom SALE' is prominently displayed at the top in a contrasting color, drawing immediate attention to the promotion.",
+      "text_content": "RouteBloom SALE",
+      "bbox_xyxy": [
+        26,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.482,
+        0.092
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright button with the text 'Start now' is located at the bottom, inviting users to take action.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, Dream destinations await, RouteBloom SALE",
+    "layout_text": "The headline is at the center, the sale announcement is at the top, and the CTA is at the bottom.",
+    "ocr_text": "destinations await, Flexible booking options, $4.99, Start now, RouteBloom SALE",
+    "elements_text": "decorative_element: Two overlapping geometric shapes, one circular and one square, are subtly integrated into the background, adding visual interest. | decorative_element: Another geometric shape, possibly a rectangle, is present, complementing the overall design without distracting from the text. | headline: Bold white text stating 'Dream destinations await' is centrally positioned, conveying the main message of the ad. text='destinations await Flexible booking options $4.99 Start now' | headline: The text 'RouteBloom SALE' is prominently displayed at the top in a contrasting color, drawing immediate attention to the promotion. text='RouteBloom SALE' | cta: A bright button with the text 'Start now' is located at the bottom, inviting users to take action. text='Dream'"
+  }
+}

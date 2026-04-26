@@ -1,0 +1,410 @@
+{
+  "creative_id": "500827",
+  "asset_file": "assets/creative_500827.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and shapes.",
+    "visual_style": "playful and modern",
+    "main_message": "Promoting a streaming service with new hits every week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        59,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.186,
+        0.953,
+        0.737
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 49.79
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top reads 'Stream the hype', standing out against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline states 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the center, possibly an oval or rectangle, adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.69
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional decorative shape",
+      "description": "Another abstract shape, similar to the previous one, enhances the design's complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        106,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.333,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.427
+      ],
+      "area_percentage": 11.17
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "A prominent rectangular shape in the center, contributing to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circular shapes",
+      "description": "Two small circular shapes positioned centrally, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Another central shape",
+      "description": "A large rectangular shape that is slightly off-center, providing balance to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular element that complements the other shapes in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.248,
+        0.487,
+        0.461
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.57
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape positioned centrally, contributing to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button at the bottom reads 'Install now', encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Additional text element",
+      "description": "A small text element at the bottom, possibly indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'BingeLayer' is displayed at the top left, establishing brand identity.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        205,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.641,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.719
+      ],
+      "area_percentage": 12.79
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label at the top right indicating 'UGC', suggesting user-generated content.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, playful and modern, streaming service promotion",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "Stream the hype, New hits every week, Install now, BingeLayer, UGC",
+    "elements_text": "headline: Bold white text at the top reads 'Stream the hype', standing out against the purple background. | body_text: Smaller white text below the headline states 'New hits every week', providing additional context. | unknown: An abstract shape in the center, possibly an oval or rectangle, adds visual interest. | unknown: Another abstract shape, similar to the previous one, enhances the design's complexity. | unknown: A prominent rectangular shape in the center, contributing to the overall layout. | unknown: Two small circular shapes positioned centrally, adding a playful touch to the design. | unknown: A large rectangular shape that is slightly off-center, providing balance to the composition. | unknown: A small circular element that complements the other shapes in the design. | unknown: A rectangular shape positioned centrally, contributing to the overall layout. | cta: A prominent white button at the bottom reads 'Install now', encouraging user interaction. | unknown: A small text element at the bottom, possibly indicating user-generated content. | logo: The logo 'BingeLayer' is displayed at the top left, establishing brand identity. text='Stream the hype New hits every week' | unknown: A small label at the top right indicating 'UGC', suggesting user-generated content. text='Install now' | unknown:  text='BingeLayer' | unknown:  text='UGC'"
+  }
+}

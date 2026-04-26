@@ -1,0 +1,314 @@
+{
+  "creative_id": "500750",
+  "asset_file": "assets/creative_500750.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a blue background with various graphic elements and text promoting a streaming service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting binge-watching with a free trial offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "top background area",
+      "description": "A solid blue background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic area",
+      "description": "A large central area featuring abstract shapes, possibly representing content or media.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.511
+      ],
+      "center_normalized": [
+        0.469,
+        0.375
+      ],
+      "area_percentage": 16.25
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "secondary graphic area",
+      "description": "Another central area with a different abstract shape, complementing the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "additional graphic area",
+      "description": "A smaller central area with a rectangular shape, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.84
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "small graphic area",
+      "description": "A smaller graphic area that is rectangular and positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "graphic overlay area",
+      "description": "An overlay graphic area that is larger and positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "small central graphic",
+      "description": "A small rectangular graphic area located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold white text stating 'Binge starts now Cancel anytime' at the bottom of the ad.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        27,
+        203,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.634,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 13.41
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent button with the text 'Try for free' in white, located at the bottom.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        107,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 2.07
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "brand logo",
+      "description": "A small logo labeled 'PulsePlay' in white, positioned at the top left.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "user-generated content tag",
+      "description": "A small tag labeled 'UGC' in white, located near the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting binge-watching and free trial.",
+    "layout_text": "The logo and UGC tag are at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, Try for free, PulsePlay, UGC",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad. | main_subject: A large central area featuring abstract shapes, possibly representing content or media. | main_subject: Another central area with a different abstract shape, complementing the main subject. | main_subject: A smaller central area with a rectangular shape, adding visual interest. | main_subject: A smaller graphic area that is rectangular and positioned centrally. | main_subject: An overlay graphic area that is larger and positioned centrally. | main_subject: A small rectangular graphic area located in the center of the ad. | body_text: Bold white text stating 'Binge starts now Cancel anytime' at the bottom of the ad. text='Binge starts now Cancel anytime' | cta: A prominent button with the text 'Try for free' in white, located at the bottom. text='Try for free' | logo: A small logo labeled 'PulsePlay' in white, positioned at the top left. text='PulsePlay' | social_proof: A small tag labeled 'UGC' in white, located near the top left. text='UGC'"
+  }
+}

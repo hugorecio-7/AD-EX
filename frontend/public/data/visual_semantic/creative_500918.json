@@ -1,0 +1,266 @@
+{
+  "creative_id": "500918",
+  "asset_file": "assets/creative_500918.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of graphic elements and text promoting travel services.",
+    "visual_style": "bright and inviting",
+    "main_message": "Encouraging users to book their next trip.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top banner area",
+      "description": "A rectangular area at the top of the ad, possibly containing a logo or title.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic area",
+      "description": "A large rectangular area in the center, likely showcasing a visual element or image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A smaller rectangular graphic element in the center, possibly an image or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center graphic area",
+      "description": "Another large rectangular area in the center, likely featuring additional visual content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A smaller rectangular graphic element in the center, possibly an image or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Lower center area",
+      "description": "A small area in the lower center, possibly containing additional graphics or text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Lower center area",
+      "description": "A small circular area in the lower center, possibly containing an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom with a call to action, encouraging users to book a trip.",
+      "text_content": "Book your next trip Watch now",
+      "bbox_xyxy": [
+        43,
+        205,
+        281,
+        299
+      ],
+      "bbox_normalized": [
+        0.134,
+        0.641,
+        0.878,
+        0.934
+      ],
+      "center_normalized": [
+        0.506,
+        0.787
+      ],
+      "area_percentage": 21.85
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo area at the top left, likely representing the brand 'DriftPass'.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and inviting, call to action for booking trips",
+    "layout_text": "The logo is positioned at the top left, the main graphic elements are centered, and the call to action is at the bottom.",
+    "ocr_text": "Book your next trip, Watch now, DriftPass",
+    "elements_text": "unknown: A rectangular area at the top of the ad, possibly containing a logo or title. | unknown: A large rectangular area in the center, likely showcasing a visual element or image. | unknown: A smaller rectangular graphic element in the center, possibly an image or icon. | unknown: Another large rectangular area in the center, likely featuring additional visual content. | unknown: A smaller rectangular graphic element in the center, possibly an image or icon. | unknown: A small area in the lower center, possibly containing additional graphics or text. | unknown: A small circular area in the lower center, possibly containing an icon or graphic. | cta: A prominent text area at the bottom with a call to action, encouraging users to book a trip. text='Book your next trip Watch now' | logo: A small logo area at the top left, likely representing the brand 'DriftPass'. text='DriftPass'"
+  }
+}

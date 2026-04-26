@@ -1,0 +1,314 @@
+{
+  "creative_id": "501042",
+  "asset_file": "assets/creative_501042.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and clear call-to-action.",
+    "visual_style": "dark cinematic with modern elements",
+    "main_message": "Promoting new content availability on BingeLayer.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A dark, solid background that fills the entire canvas, providing contrast for other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        206,
+        5,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.573,
+        0.009,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.786,
+        0.504
+      ],
+      "area_percentage": 42.29
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A prominent logo at the top center, featuring the text 'BingeLayer' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        278,
+        10,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.773,
+        0.016,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.886,
+        0.507
+      ],
+      "area_percentage": 22.37
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "Various abstract shapes in the top area, adding visual interest without specific identifiable features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        358,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.997,
+        0.356
+      ],
+      "center_normalized": [
+        0.501,
+        0.259
+      ],
+      "area_percentage": 19.36
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "new season announcement",
+      "description": "Text in the center that reads 'A new season drops', styled in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        156,
+        175,
+        296
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.245,
+        0.488,
+        0.464
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "weekly hits message",
+      "description": "Text below the main announcement stating 'New hits every week', designed to attract viewer attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        145,
+        220,
+        276,
+        329
+      ],
+      "bbox_normalized": [
+        0.405,
+        0.345,
+        0.769,
+        0.515
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.2
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "small decorative icon",
+      "description": "A small circular icon positioned at the top left, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.18,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.238
+      ],
+      "area_percentage": 1.59
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent button at the bottom center with the text 'Book now', designed to encourage user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "small circular icon",
+      "description": "Another small circular icon located near the bottom, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.607
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small rectangular element in the center, unclear in purpose or content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "BingeLayer headline",
+      "description": "The main headline at the top, prominently displaying the brand name 'BingeLayer' in a bold font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        21,
+        29,
+        360,
+        107
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        1.0,
+        0.167
+      ],
+      "center_normalized": [
+        0.529,
+        0.106
+      ],
+      "area_percentage": 11.48
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "season drops message",
+      "description": "Text at the bottom stating 'A new season drops New hits every week', designed to inform viewers.",
+      "text_content": "A new season drops New hits every week",
+      "bbox_xyxy": [
+        65,
+        413,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Book now call to action",
+      "description": "A clear call-to-action button at the bottom with the text 'Book now', inviting user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, dark cinematic with modern elements, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top center, followed by body text in the middle, and the CTA button at the bottom.",
+    "ocr_text": "BingeLayer, A new season drops, New hits every week, Book now",
+    "elements_text": "logo: A prominent logo at the top center, featuring the text 'BingeLayer' in a bold, modern font. | decorative_element: Various abstract shapes in the top area, adding visual interest without specific identifiable features. | body_text: Text in the center that reads 'A new season drops', styled in a clear, readable font. | body_text: Text below the main announcement stating 'New hits every week', designed to attract viewer attention. | icon: A small circular icon positioned at the top left, serving as a decorative element. | cta: A prominent button at the bottom center with the text 'Book now', designed to encourage user action. | decorative_element: Another small circular icon located near the bottom, complementing the overall design. | unknown: A small rectangular element in the center, unclear in purpose or content. | headline: The main headline at the top, prominently displaying the brand name 'BingeLayer' in a bold font. text='BingeLayer' | body_text: Text at the bottom stating 'A new season drops New hits every week', designed to inform viewers. text='A new season drops New hits every week' | cta: A clear call-to-action button at the bottom with the text 'Book now', inviting user interaction. text='Book now'"
+  }
+}

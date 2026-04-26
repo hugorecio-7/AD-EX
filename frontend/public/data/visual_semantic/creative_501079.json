@@ -1,0 +1,290 @@
+{
+  "creative_id": "501079",
+  "asset_file": "assets/creative_501079.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of text and graphic elements with a light blue background.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to install the app with a promotional offer.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large rectangular shape in the center with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        198,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.31,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.5
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller rectangular shape overlapping the central graphic, also in light blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "An elongated oval shape positioned centrally, blending with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small rectangular shape at the bottom, slightly darker than the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom left graphic",
+      "description": "A small circular shape located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top right icon",
+      "description": "A small arrow icon located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Central small shape",
+      "description": "A small circular shape positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.338
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text at the top reading 'StarVault UGC' in a large font.",
+      "text_content": "StarVault UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        311,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.864,
+        0.198
+      ],
+      "center_normalized": [
+        0.468,
+        0.13
+      ],
+      "area_percentage": 10.76
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text in the center stating 'Exclusive tonight Start free today' in a medium font.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom with the text 'Install now' in a bold font.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold text, StarVault UGC, Exclusive tonight Start free today, Install now",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA is at the bottom.",
+    "ocr_text": "StarVault UGC, Exclusive tonight Start free today, Install now",
+    "elements_text": "unknown: A large rectangular shape in the center with a light blue background. | unknown: A smaller rectangular shape overlapping the central graphic, also in light blue. | unknown: An elongated oval shape positioned centrally, blending with the background. | unknown: A small rectangular shape at the bottom, slightly darker than the background. | unknown: A small circular shape located towards the bottom left of the ad. | unknown: A small arrow icon located at the top right corner. | unknown: A small circular shape positioned centrally within the ad. | headline: Bold text at the top reading 'StarVault UGC' in a large font. text='StarVault UGC' | body_text: Text in the center stating 'Exclusive tonight Start free today' in a medium font. text='Exclusive tonight Start free today' | cta: A prominent button at the bottom with the text 'Install now' in a bold font. text='Install now'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500660",
+  "asset_file": "assets/creative_500660.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold blue background with prominent text and interactive elements.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "The ad promotes a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, white headline text that reads 'Secure & simple' is prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "A smaller white text below the headline states 'No hidden fees', adding clarity to the message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, are rendered in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom with the text 'Start now' in white, inviting user interaction.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo labeled 'EarnPath' is positioned at the top left corner, featuring a simple design.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is placed at the top left, indicating user-generated content.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, secure service, call to action",
+    "layout_text": "The headline is centered, the body text is below it, the call to action is at the bottom, and the logo is at the top left.",
+    "ocr_text": "Secure & simple, No hidden fees, Start now, EarnPath, UGC",
+    "elements_text": "headline: A bold, white headline text that reads 'Secure & simple' is prominently displayed in the center. | body_text: A smaller white text below the headline states 'No hidden fees', adding clarity to the message. | unknown: Two overlapping geometric shapes, one circular and one square, are rendered in a lighter blue shade. | cta: A rounded button at the bottom with the text 'Start now' in white, inviting user interaction. text='Secure & simple No hidden fees' | logo: A small logo labeled 'EarnPath' is positioned at the top left corner, featuring a simple design. text='Start now' | icon: A small tag labeled 'UGC' is placed at the top left, indicating user-generated content. text='EarnPath' | unknown:  text='UGC'"
+  }
+}

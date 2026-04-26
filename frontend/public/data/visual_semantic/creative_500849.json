@@ -1,0 +1,266 @@
+{
+  "creative_id": "500849",
+  "asset_file": "assets/creative_500849.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of abstract shapes and text elements, creating a visually engaging layout.",
+    "visual_style": "playful and modern",
+    "main_message": "Promoting flexible booking options for travel destinations.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central abstract shape",
+      "description": "A large, abstract shape in the center, possibly a rounded rectangle with a soft gradient.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        306
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.767,
+        0.479
+      ],
+      "center_normalized": [
+        0.469,
+        0.359
+      ],
+      "area_percentage": 14.23
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central abstract shape",
+      "description": "Another large, abstract shape overlapping the first, featuring a different gradient or color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central abstract shape",
+      "description": "A smaller, rounded shape positioned centrally, likely with a soft color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Central abstract shape",
+      "description": "A rectangular shape in the center, possibly with a contrasting color to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small abstract shape",
+      "description": "A small circular shape located towards the bottom, likely with a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small abstract shape",
+      "description": "A small rectangular shape positioned centrally, possibly with a subtle texture.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom with a bold font, conveying a message about booking options.",
+      "text_content": "destinations await Flexible booking options €29.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        443,
+        289,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.803,
+        0.908
+      ],
+      "center_normalized": [
+        0.435,
+        0.8
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold text at the top stating 'NomadLaye UGC', likely in a striking font.",
+      "text_content": "NomadLaye UGC",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.119
+      ],
+      "area_percentage": 14.88
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "A smaller text element in the center that reads 'Dream', likely in a clean, modern font.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and modern, key elements include abstract shapes and engaging text.",
+    "layout_text": "The headline is positioned at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NomadLaye UGC, Dream, destinations await, Flexible booking options, €29.99, Learn more",
+    "elements_text": "unknown: A large, abstract shape in the center, possibly a rounded rectangle with a soft gradient. | unknown: Another large, abstract shape overlapping the first, featuring a different gradient or color. | unknown: A smaller, rounded shape positioned centrally, likely with a soft color. | unknown: A rectangular shape in the center, possibly with a contrasting color to the background. | unknown: A small circular shape located towards the bottom, likely with a muted color. | unknown: A small rectangular shape positioned centrally, possibly with a subtle texture. | cta: A prominent text area at the bottom with a bold font, conveying a message about booking options. text='destinations await Flexible booking options €29.99 Learn more' | headline: A large, bold text at the top stating 'NomadLaye UGC', likely in a striking font. text='NomadLaye UGC' | body_text: A smaller text element in the center that reads 'Dream', likely in a clean, modern font. text='Dream'"
+  }
+}

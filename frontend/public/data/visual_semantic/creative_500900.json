@@ -1,0 +1,410 @@
+{
+  "creative_id": "500900",
+  "asset_file": "assets/creative_500900.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting a game with a clear call-to-action.",
+    "visual_style": "bright and playful with geometric shapes",
+    "main_message": "Join NeonArena for free rewards and discounts.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A stylized logo featuring the text 'NeonArena' in bold, vibrant colors, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Top decorative shapes",
+      "description": "Geometric shapes in the background that add a dynamic feel, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Join the arena text",
+      "description": "A prominent text line stating 'Join the arena' in a clear, engaging font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Free rewards text",
+      "description": "A supportive text line that reads 'Free rewards for new players', positioned below the main body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Small circular icons representing game elements, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A bold call-to-action button labeled 'Install now', positioned at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge indicating a '-30%' discount, located near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Center decorative shapes",
+      "description": "Additional geometric shapes that enhance the visual appeal, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Center circles",
+      "description": "Small circular shapes that add to the design, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Additional game icons",
+      "description": "More small circular icons representing game elements, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Additional game icons",
+      "description": "Another set of small circular icons representing game elements, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'NeonArena' in large, bold text, prominently displayed at the top.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        40,
+        356,
+        92
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.989,
+        0.144
+      ],
+      "center_normalized": [
+        0.533,
+        0.103
+      ],
+      "area_percentage": 7.4
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A descriptive text that communicates the offer, centered and clear, below the headline.",
+      "text_content": "Join the arena Free rewards for new players",
+      "bbox_xyxy": [
+        53,
+        407,
+        304,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.844,
+        0.728
+      ],
+      "center_normalized": [
+        0.496,
+        0.682
+      ],
+      "area_percentage": 6.43
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A clear call-to-action button that encourages users to install the app, located at the bottom.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 15,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge indicating a discount of '-30%', positioned at the bottom of the ad.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        25,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.158,
+        0.848
+      ],
+      "area_percentage": 0.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful with geometric shapes, NeonArena, free rewards, install now.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "NeonArena, Join the arena, Free rewards for new players, Install now, -30%",
+    "elements_text": "logo: A stylized logo featuring the text 'NeonArena' in bold, vibrant colors, positioned at the top of the ad. | decorative_element: Geometric shapes in the background that add a dynamic feel, located at the top of the ad. | body_text: A prominent text line stating 'Join the arena' in a clear, engaging font, centered in the ad. | body_text: A supportive text line that reads 'Free rewards for new players', positioned below the main body text. | icon: Small circular icons representing game elements, located at the top of the ad. | cta: A bold call-to-action button labeled 'Install now', positioned at the bottom of the ad. | discount_badge: A small badge indicating a '-30%' discount, located near the bottom of the ad. | decorative_element: Additional geometric shapes that enhance the visual appeal, centered in the ad. | decorative_element: Small circular shapes that add to the design, positioned in the center of the ad. | icon: More small circular icons representing game elements, located at the top of the ad. | icon: Another set of small circular icons representing game elements, positioned in the center of the ad. | headline: The main headline 'NeonArena' in large, bold text, prominently displayed at the top. text='NeonArena' | body_text: A descriptive text that communicates the offer, centered and clear, below the headline. text='Join the arena Free rewards for new players' | cta: A clear call-to-action button that encourages users to install the app, located at the bottom. text='Install now' | discount_badge: A small badge indicating a discount of '-30%', positioned at the bottom of the ad. text='-30%'"
+  }
+}

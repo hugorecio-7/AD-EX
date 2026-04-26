@@ -1,0 +1,218 @@
+{
+  "creative_id": "500873",
+  "asset_file": "assets/creative_500873.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with promotional text and app mockups.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting the VantaStyle app with a discount offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red gradient background",
+      "description": "A vibrant red gradient background that fills the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.87
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Three phone mockups",
+      "description": "Three stylized phone mockups displayed in a row, showcasing a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Three phone mockups",
+      "description": "Another view of three stylized phone mockups, similar to the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A bold, white text message stating 'Your next favorite pick' with a subtext 'Free shipping over $25'.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        502
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.714
+      ],
+      "area_percentage": 8.75
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small, prominent badge displaying '-30%' in a contrasting color.",
+      "text_content": "/H",
+      "bbox_xyxy": [
+        60,
+        192,
+        136,
+        294
+      ],
+      "bbox_normalized": [
+        0.167,
+        0.3,
+        0.378,
+        0.459
+      ],
+      "center_normalized": [
+        0.272,
+        0.38
+      ],
+      "area_percentage": 3.36
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'VantaStyle' in a stylish font, positioned at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        74
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.116
+      ],
+      "center_normalized": [
+        0.242,
+        0.095
+      ],
+      "area_percentage": 1.38
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A clear button with the text 'Install now' in bold, inviting users to take action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge showing '30%' in a noticeable font, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, VantaStyle, discount offer",
+    "layout_text": "The headline is at the bottom center, app screenshots are centered, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Free shipping over $25, /H, VantaStyle, Install now, -30%",
+    "elements_text": "app_screenshot: Three stylized phone mockups displayed in a row, showcasing a minimalistic design. | app_screenshot: Another view of three stylized phone mockups, similar to the previous element. | body_text: A bold, white text message stating 'Your next favorite pick' with a subtext 'Free shipping over $25'. text='Your next favorite pick Free shipping over $25' | discount_badge: A small, prominent badge displaying '-30%' in a contrasting color. text='/H' | logo: The logo 'VantaStyle' in a stylish font, positioned at the top left corner. text='VantaStyle' | cta: A clear button with the text 'Install now' in bold, inviting users to take action. text='Install now' | discount_badge: A small badge showing '30%' in a noticeable font, indicating a discount. text='30%'"
+  }
+}

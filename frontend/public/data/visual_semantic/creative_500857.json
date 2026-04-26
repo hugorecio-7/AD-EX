@@ -1,0 +1,242 @@
+{
+  "creative_id": "500857",
+  "asset_file": "assets/creative_500857.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a food delivery service with a clear call to action and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a food delivery app with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "PlateSprint Logo",
+      "description": "A simple logo featuring the name 'PlateSprint' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        23,
+        297,
+        63
+      ],
+      "bbox_normalized": [
+        0.519,
+        0.05,
+        0.93,
+        0.132
+      ],
+      "center_normalized": [
+        0.724,
+        0.091
+      ],
+      "area_percentage": 3.38
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App Interface",
+      "description": "A mockup of an app interface showing three empty plates, indicating a food delivery service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App Interface",
+      "description": "Another view of the app interface with three empty plates, emphasizing the food delivery theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App Interface",
+      "description": "A third view of the app interface displaying three empty plates, reinforcing the service offered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install Now Button",
+      "description": "A prominent button labeled 'Install now' in a contrasting color, encouraging user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Dinner Offer Text",
+      "description": "Text that reads 'Dinner in minutes Late-night deals available €29.99' in a large, easy-to-read font at the bottom of the ad.",
+      "text_content": "Dinner in minutes Late-night deals available €29.99 Install now",
+      "bbox_xyxy": [
+        23,
+        305,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.635,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.441,
+        0.775
+      ],
+      "area_percentage": 20.59
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "PlateSprint Logo",
+      "description": "The 'PlateSprint' logo displayed at the top, featuring a clean and modern design.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        164,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.512,
+        0.117
+      ],
+      "center_normalized": [
+        0.294,
+        0.087
+      ],
+      "area_percentage": 2.55
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale Badge",
+      "description": "A small badge in the top corner that says 'SALE' in bold letters, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, PlateSprint logo, dinner offer",
+    "layout_text": "The logo is at the top, followed by app interface images in the center, with body text and CTA at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, €29.99, Install now, PlateSprint, SALE",
+    "elements_text": "headline: A simple logo featuring the name 'PlateSprint' in a bold, modern font, positioned at the top of the ad. | app_screenshot: A mockup of an app interface showing three empty plates, indicating a food delivery service. | app_screenshot: Another view of the app interface with three empty plates, emphasizing the food delivery theme. | app_screenshot: A third view of the app interface displaying three empty plates, reinforcing the service offered. | cta: A prominent button labeled 'Install now' in a contrasting color, encouraging user action. | body_text: Text that reads 'Dinner in minutes Late-night deals available €29.99' in a large, easy-to-read font at the bottom of the ad. text='Dinner in minutes Late-night deals available €29.99 Install now' | logo: The 'PlateSprint' logo displayed at the top, featuring a clean and modern design. text='PlateSprint' | discount_badge: A small badge in the top corner that says 'SALE' in bold letters, indicating a promotional offer. text='SALE'"
+  }
+}

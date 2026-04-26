@@ -1,0 +1,194 @@
+{
+  "creative_id": "500770",
+  "asset_file": "assets/creative_500770.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a minimalist design with abstract shapes and clear messaging.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to save money with no hidden fees.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.83
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "A combination of overlapping circles and a rectangle in the center, rendered in a minimalist style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        115,
+        159,
+        225
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.24,
+        0.499,
+        0.471
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "additional shapes",
+      "description": "More abstract shapes, including a larger rectangle and circles, positioned centrally but slightly off to the side.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.84
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circle located towards the bottom center, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        261,
+        71,
+        295
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.545,
+        0.223,
+        0.615
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold, black text stating 'Save with confidence No hidden fees' prominently displayed at the bottom.",
+      "text_content": "Save with confidence No hidden fees",
+      "bbox_xyxy": [
+        76,
+        308,
+        246,
+        387
+      ],
+      "bbox_normalized": [
+        0.237,
+        0.642,
+        0.769,
+        0.806
+      ],
+      "center_normalized": [
+        0.503,
+        0.724
+      ],
+      "area_percentage": 8.74
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The 'NovaPay' logo appears at the top left, featuring a modern font in black against the light gray background.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A black button with white text saying 'Book now' located at the bottom right, inviting user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, key elements include abstract shapes and clear messaging.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom right.",
+    "ocr_text": "Save with confidence, No hidden fees, NovaPay, Book now",
+    "elements_text": "main_subject: A combination of overlapping circles and a rectangle in the center, rendered in a minimalist style. | unknown: More abstract shapes, including a larger rectangle and circles, positioned centrally but slightly off to the side. | decorative_element: A small circle located towards the bottom center, adding a decorative touch to the layout. | body_text: Bold, black text stating 'Save with confidence No hidden fees' prominently displayed at the bottom. text='Save with confidence No hidden fees' | logo: The 'NovaPay' logo appears at the top left, featuring a modern font in black against the light gray background. text='NovaPay' | cta: A black button with white text saying 'Book now' located at the bottom right, inviting user interaction. text='Book now'"
+  }
+}

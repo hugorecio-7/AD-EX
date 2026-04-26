@@ -1,0 +1,290 @@
+{
+  "creative_id": "500990",
+  "asset_file": "assets/creative_500990.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent headline and a call-to-action button, with a clean layout.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting hotel and flight bookings for the weekend.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, rounded rectangle shape in the center of the ad, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller rounded rectangle shape overlaying the background, also filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        82,
+        218,
+        281,
+        332
+      ],
+      "bbox_normalized": [
+        0.229,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.505,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative circles",
+      "description": "Three circular shapes arranged horizontally, each filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "Another rounded rectangle shape in the center, similar to ID 2 but slightly different in size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A small rectangular button at the bottom with a solid color background and text indicating a reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape at the bottom, filled with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small circular shape, similar to ID 6, positioned slightly to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold text headline at the bottom, prominently displaying the message about weekend escapes.",
+      "text_content": "Escape this weekend Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        409,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.639,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.499,
+        0.711
+      ],
+      "area_percentage": 9.22
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text element displaying a price, positioned below the headline.",
+      "text_content": "$4.99 Claim reward",
+      "bbox_xyxy": [
+        26,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.7
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A text logo at the top of the ad, displaying the name 'RouteBloom' in a bold font.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        37,
+        263,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.731,
+        0.123
+      ],
+      "center_normalized": [
+        0.4,
+        0.091
+      ],
+      "area_percentage": 4.34
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, simple and modern, promoting weekend travel.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "RouteBloom, Escape this weekend, Hotels + flights in one tap, $4.99, Claim reward",
+    "elements_text": "unknown: A large, rounded rectangle shape in the center of the ad, filled with a solid color. | unknown: A smaller rounded rectangle shape overlaying the background, also filled with a solid color. | unknown: Three circular shapes arranged horizontally, each filled with a solid color. | unknown: Another rounded rectangle shape in the center, similar to ID 2 but slightly different in size. | cta: A small rectangular button at the bottom with a solid color background and text indicating a reward. | unknown: A small circular shape at the bottom, filled with a solid color. | unknown: Another small circular shape, similar to ID 6, positioned slightly to the right. | headline: A bold text headline at the bottom, prominently displaying the message about weekend escapes. text='Escape this weekend Hotels + flights in one tap' | price: A small text element displaying a price, positioned below the headline. text='$4.99 Claim reward' | logo: A text logo at the top of the ad, displaying the name 'RouteBloom' in a bold font. text='RouteBloom'"
+  }
+}

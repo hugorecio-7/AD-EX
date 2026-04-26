@@ -1,0 +1,362 @@
+{
+  "creative_id": "500751",
+  "asset_file": "assets/creative_500751.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a colorful app interface with a clear call to action.",
+    "visual_style": "vibrant and modern",
+    "main_message": "Encouraging users to explore trending content on the app.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top banner",
+      "description": "A rectangular banner at the top with a solid color background, possibly featuring a logo or title.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area displaying an abstract app interface with various shapes and colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.28
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "Another section of the app interface showing more shapes and a different layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.66
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A continuation of the app interface with additional shapes and colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A section of the app interface featuring a prominent rectangular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A smaller section of the app interface with circular and rectangular shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A part of the app interface with a mix of shapes and colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 7.03
+    },
+    {
+      "id": 8,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A section of the app interface with circular elements and a solid background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 9,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area of the app interface with various shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.591,
+        0.429
+      ],
+      "area_percentage": 6.03
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A small text area at the bottom of the ad, likely containing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Another small text area providing supplementary information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom encouraging users to engage with the app.",
+      "text_content": "Watch what's trending Nor Start now",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Logo",
+      "description": "A small logo or brand name located at the top left corner of the ad.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, vibrant and modern, app interface, call to action",
+    "layout_text": "The logo is positioned at the top left, the app interface is centered, and the call to action is at the bottom.",
+    "ocr_text": "Watch what's trending, Start now, PulsePlay",
+    "elements_text": "decorative_element: A rectangular banner at the top with a solid color background, possibly featuring a logo or title. | app_screenshot: A rectangular area displaying an abstract app interface with various shapes and colors. | app_screenshot: Another section of the app interface showing more shapes and a different layout. | app_screenshot: A continuation of the app interface with additional shapes and colors. | app_screenshot: A section of the app interface featuring a prominent rectangular shape. | app_screenshot: A smaller section of the app interface with circular and rectangular shapes. | app_screenshot: A part of the app interface with a mix of shapes and colors. | app_screenshot: A section of the app interface with circular elements and a solid background. | app_screenshot: A rectangular area of the app interface with various shapes. | body_text: A small text area at the bottom of the ad, likely containing additional information. | body_text: Another small text area providing supplementary information. | cta: A prominent text area at the bottom encouraging users to engage with the app. text='Watch what's trending Nor Start now' | logo: A small logo or brand name located at the top left corner of the ad. text='PulsePlay'"
+  }
+}

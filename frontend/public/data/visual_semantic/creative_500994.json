@@ -1,0 +1,362 @@
+{
+  "creative_id": "500994",
+  "asset_file": "assets/creative_500994.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of decorative shapes and text elements promoting a booking service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings and flexible booking options.",
+    "dominant_colors": [
+      "light green",
+      "dark"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two circular shapes in varying sizes, positioned in the center of the ad, with a light green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        401
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.495,
+        0.627
+      ],
+      "center_normalized": [
+        0.333,
+        0.434
+      ],
+      "area_percentage": 12.49
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A square shape located in the center, overlapping with the circular shapes, also in a light green color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.4
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A smaller circular shape in the center, slightly above the larger circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Large square shape",
+      "description": "A large square shape in the center, with a light green background, providing a base for text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.34,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.429
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element positioned towards the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        180,
+        359,
+        303
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.281,
+        0.998,
+        0.474
+      ],
+      "center_normalized": [
+        0.979,
+        0.377
+      ],
+      "area_percentage": 0.74
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A small decorative element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Left decorative element",
+      "description": "A small decorative element positioned towards the left side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Right decorative element",
+      "description": "A small decorative element located towards the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        243,
+        359,
+        306
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.381,
+        0.998,
+        0.479
+      ],
+      "center_normalized": [
+        0.978,
+        0.43
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Upper right decorative element",
+      "description": "A small decorative element positioned in the upper right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        179,
+        359,
+        243
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.28,
+        0.998,
+        0.38
+      ],
+      "center_normalized": [
+        0.979,
+        0.33
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Lower right decorative element",
+      "description": "A small decorative element located in the lower right corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        308,
+        359,
+        371
+      ],
+      "bbox_normalized": [
+        0.96,
+        0.481,
+        0.998,
+        0.58
+      ],
+      "center_normalized": [
+        0.979,
+        0.531
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Savings message",
+      "description": "Bold text at the bottom of the ad stating 'Last-minute savings Flexible booking options' in a dark font.",
+      "text_content": "Last-minute savings Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'RouteBloom' displayed prominently at the top of the ad in a bold font.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        27,
+        39,
+        262,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.728,
+        0.122
+      ],
+      "center_normalized": [
+        0.401,
+        0.091
+      ],
+      "area_percentage": 3.98
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad with the text 'Book now' in a dark font, inviting user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, last-minute savings, flexible booking options",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Last-minute savings, Flexible booking options, RouteBloom, Book now",
+    "elements_text": "decorative_element: Two circular shapes in varying sizes, positioned in the center of the ad, with a light green background. | decorative_element: A square shape located in the center, overlapping with the circular shapes, also in a light green color. | decorative_element: A smaller circular shape in the center, slightly above the larger circular shape. | decorative_element: A large square shape in the center, with a light green background, providing a base for text. | unknown: A small decorative element positioned towards the right side of the ad. | unknown: A small decorative element located towards the bottom center of the ad. | unknown: A small decorative element positioned towards the left side of the ad. | unknown: A small decorative element located towards the right side of the ad. | unknown: A small decorative element positioned in the upper right corner of the ad. | unknown: A small decorative element located in the lower right corner of the ad. | body_text: Bold text at the bottom of the ad stating 'Last-minute savings Flexible booking options' in a dark font. text='Last-minute savings Flexible booking options' | logo: The logo 'RouteBloom' displayed prominently at the top of the ad in a bold font. text='RouteBloom' | cta: A button at the bottom of the ad with the text 'Book now' in a dark font, inviting user interaction. text='Book now'"
+  }
+}

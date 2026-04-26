@@ -1,0 +1,338 @@
+{
+  "creative_id": "500958",
+  "asset_file": "assets/creative_500958.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with abstract shapes and clear text elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to book a trip with special fares.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative shapes",
+      "description": "A collection of abstract shapes in the center, including an oval and a square, with a soft orange hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.186,
+        0.277,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center decorative shapes",
+      "description": "Another abstract shape in the center, slightly overlapping with others, maintaining a warm color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center decorative shapes",
+      "description": "A smaller abstract shape in the center, contributing to the overall decorative theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.49
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center decorative shapes",
+      "description": "An elongated oval shape positioned centrally, adding to the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center decorative shapes",
+      "description": "A larger abstract shape in the center, enhancing the composition with its size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element at the top, possibly a logo or icon, in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A small circular shape at the bottom, adding to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "Another small circular shape at the bottom, complementing the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A small rectangular shape in the center, contributing to the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the top reading 'HorizonHop UGC' in a large, eye-catching font.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        22,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.531,
+        0.12
+      ],
+      "area_percentage": 14.82
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text at the bottom stating 'Book your next trip Special fares today' in a clear, readable font.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        409,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.639,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 10.43
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom with the text 'Try for free' encouraging user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, HorizonHop UGC, Book your next trip Special fares today, Try for free",
+    "layout_text": "The headline is positioned at the top, followed by decorative elements in the center, and the body text and CTA at the bottom.",
+    "ocr_text": "HorizonHop UGC, Book your next trip Special fares today, Try for free",
+    "elements_text": "unknown: A collection of abstract shapes in the center, including an oval and a square, with a soft orange hue. | unknown: Another abstract shape in the center, slightly overlapping with others, maintaining a warm color palette. | unknown: A smaller abstract shape in the center, contributing to the overall decorative theme. | unknown: An elongated oval shape positioned centrally, adding to the visual interest. | unknown: A larger abstract shape in the center, enhancing the composition with its size. | unknown: A small decorative element at the top, possibly a logo or icon, in a light color. | unknown: A small circular shape at the bottom, adding to the overall design. | unknown: Another small circular shape at the bottom, complementing the previous element. | unknown: A small rectangular shape in the center, contributing to the abstract theme. | headline: Bold text at the top reading 'HorizonHop UGC' in a large, eye-catching font. text='HorizonHop UGC' | body_text: Text at the bottom stating 'Book your next trip Special fares today' in a clear, readable font. text='Book your next trip Special fares today' | cta: A prominent button at the bottom with the text 'Try for free' encouraging user interaction. text='Try for free'"
+  }
+}

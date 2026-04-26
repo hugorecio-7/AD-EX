@@ -1,0 +1,362 @@
+{
+  "creative_id": "500998",
+  "asset_file": "assets/creative_500998.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with food item images and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting food delivery with a special offer.",
+    "dominant_colors": [
+      "yellow",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "yellow background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "food item images",
+      "description": "Three rectangular images of food items arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.368
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "food item image",
+      "description": "A rectangular image of a food item, positioned to the left of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "food item image",
+      "description": "A rectangular image of a food item, positioned to the right of the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "food item image",
+      "description": "A rectangular image of a food item, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circular decorative element located towards the left side.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circular decorative element located towards the right side.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.404
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "small rectangle",
+      "description": "A small rectangular decorative element positioned below the food item images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.436
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.19
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "cravings text",
+      "description": "Bold text stating 'Your cravings, delivered' in a large font at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "price text",
+      "description": "Text displaying the price '€19.90' in a prominent position below the cravings text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.221,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "order button",
+      "description": "A bold button with the text 'Order now' prominently displayed at the bottom.",
+      "text_content": "Your cravings, delivered €19.90 Order now",
+      "bbox_xyxy": [
+        22,
+        198,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.619,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.464,
+        0.777
+      ],
+      "area_percentage": 24.95
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A small logo with the text 'CraveLoop' positioned at the top left.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge with the text 'SALE' positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 14,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' positioned at the top left, near the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, food item images, promotional text",
+    "layout_text": "The logo and SALE badge are at the top, food item images are centered, and the main text and CTA are at the bottom.",
+    "ocr_text": "Your cravings, delivered, €19.90, Order now, CraveLoop, SALE, UGC",
+    "elements_text": "app_screenshot: Three rectangular images of food items arranged horizontally in the center. | app_screenshot: A rectangular image of a food item, positioned to the left of the center. | app_screenshot: A rectangular image of a food item, positioned to the right of the center. | app_screenshot: A rectangular image of a food item, positioned in the center. | decorative_element: A small circular decorative element located towards the left side. | decorative_element: A small circular decorative element located towards the right side. | decorative_element: A small rectangular decorative element positioned below the food item images. | body_text: Bold text stating 'Your cravings, delivered' in a large font at the bottom. | price: Text displaying the price '€19.90' in a prominent position below the cravings text. | cta: A bold button with the text 'Order now' prominently displayed at the bottom. text='Your cravings, delivered €19.90 Order now' | logo: A small logo with the text 'CraveLoop' positioned at the top left. text='CraveLoop' | discount_badge: A small badge with the text 'SALE' positioned at the top right. text='SALE' | social_proof: A small label with the text 'UGC' positioned at the top left, near the logo. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500370",
+  "asset_file": "assets/creative_500370.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with a clear focus on a product and a promotional message.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting a limited-time flash sale for LuxShelf products.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a clean and modern look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A stylized representation of a product with two glass doors and circular knobs, set against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An abstract shape or design element that adds visual interest but is not clearly defined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another abstract shape or design element that complements the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small decorative element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small abstract shape that adds to the design without a clear purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold white text stating 'Flash sale live Only this weekend' prominently displayed in the center.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        48,
+        306,
+        273,
+        357
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.853,
+        0.744
+      ],
+      "center_normalized": [
+        0.502,
+        0.691
+      ],
+      "area_percentage": 7.47
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The 'LuxShelf' logo appears in the top left corner, featuring a modern font.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text 'Shop now' located at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        110,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.494,
+        0.894
+      ],
+      "area_percentage": 1.62
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, clean and modern, LuxShelf, flash sale",
+    "layout_text": "The logo is positioned at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Only this weekend, LuxShelf, Shop now",
+    "elements_text": "product: A stylized representation of a product with two glass doors and circular knobs, set against the background. | unknown: An abstract shape or design element that adds visual interest but is not clearly defined. | unknown: Another abstract shape or design element that complements the overall aesthetic. | unknown: A small decorative element that does not convey specific information. | unknown: A small abstract shape that adds to the design without a clear purpose. | headline: Bold white text stating 'Flash sale live Only this weekend' prominently displayed in the center. text='Flash sale live Only this weekend' | logo: The 'LuxShelf' logo appears in the top left corner, featuring a modern font. text='LuxShelf' | cta: A prominent white button with the text 'Shop now' located at the bottom of the ad. text='Shop now'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "501043",
+  "asset_file": "assets/creative_501043.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a mix of visual elements and text, promoting trending content with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Discover trending content and engage with it.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a base for other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main visual element",
+      "description": "A large, rectangular shape in the center, possibly representing a video or image placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary visual element",
+      "description": "Another rectangular shape overlapping the main visual element, suggesting additional content or imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Overlay shape",
+      "description": "A smaller rectangular shape positioned over the main visual element, indicating a focus on specific content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.79
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A smaller rectangular area that may contain text or images, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Additional visual element",
+      "description": "A large rectangular shape that adds depth to the central area, possibly indicating more content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Content placeholder",
+      "description": "A smaller circular shape that may represent a profile picture or icon, located centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Additional overlay",
+      "description": "A rectangular shape that overlaps with other elements, suggesting more information or interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.347,
+        0.771,
+        0.512
+      ],
+      "center_normalized": [
+        0.591,
+        0.429
+      ],
+      "area_percentage": 5.96
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "A small text area indicating trending content, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "A small text area below the trending text, providing further context or information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom of the ad with the text 'Watch what's trending Learn more', encouraging user interaction.",
+      "text_content": "Watch what's trending Learn more",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left corner, labeled 'BingeLayer', representing the brand.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "User-generated content label",
+      "description": "A small text area labeled 'UGC' positioned near the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, trending content, call to action",
+    "layout_text": "The logo is at the top left, the main visual elements are centered, and the call to action is at the bottom.",
+    "ocr_text": "Watch what's trending, Learn more, BingeLayer, UGC",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a base for other elements. | main_subject: A large, rectangular shape in the center, possibly representing a video or image placeholder. | main_subject: Another rectangular shape overlapping the main visual element, suggesting additional content or imagery. | main_subject: A smaller rectangular shape positioned over the main visual element, indicating a focus on specific content. | main_subject: A smaller rectangular area that may contain text or images, positioned centrally. | main_subject: A large rectangular shape that adds depth to the central area, possibly indicating more content. | main_subject: A smaller circular shape that may represent a profile picture or icon, located centrally. | main_subject: A rectangular shape that overlaps with other elements, suggesting more information or interaction. | body_text: A small text area indicating trending content, positioned towards the bottom of the ad. | body_text: A small text area below the trending text, providing further context or information. | cta: A prominent button at the bottom of the ad with the text 'Watch what's trending Learn more', encouraging user interaction. text='Watch what's trending Learn more' | logo: A small logo at the top left corner, labeled 'BingeLayer', representing the brand. text='BingeLayer' | body_text: A small text area labeled 'UGC' positioned near the top, indicating user-generated content. text='UGC'"
+  }
+}

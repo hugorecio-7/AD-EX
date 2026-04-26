@@ -1,0 +1,434 @@
+{
+  "creative_id": "501010",
+  "asset_file": "assets/creative_501010.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold title, several game icons, and a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Join the game with no ads for the first week.",
+    "dominant_colors": [
+      "orange",
+      "brown"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "GlitchWave title",
+      "description": "A bold, stylized text reading 'GlitchWave' at the top of the ad, set against an orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small, circular icon representing a game, featuring a simple design with brown tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        75,
+        102,
+        111
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.237,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.293
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small, circular game icon with a similar brown color scheme, placed centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        120,
+        188,
+        156
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.378,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.479,
+        0.434
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A third small, circular game icon, matching the others in design and color, located centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        120,
+        102,
+        156
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.378,
+        0.32,
+        0.489
+      ],
+      "center_normalized": [
+        0.21,
+        0.434
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A fourth small, circular game icon, consistent in style and color, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        75,
+        188,
+        111
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.237,
+        0.59,
+        0.349
+      ],
+      "center_normalized": [
+        0.479,
+        0.293
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element with a light color, located centrally, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.551,
+        0.402,
+        0.651
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, rectangular element with a light color, positioned centrally, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element with a light color, located centrally, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.553,
+        0.399,
+        0.648
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element with a light color, positioned centrally, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.216,
+        0.626
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.87
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element at the top, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        83,
+        60,
+        104
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.262,
+        0.19,
+        0.327
+      ],
+      "center_normalized": [
+        0.158,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, rectangular element at the top, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        83,
+        146,
+        104
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.262,
+        0.459,
+        0.327
+      ],
+      "center_normalized": [
+        0.426,
+        0.294
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, rectangular element located centrally, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        128,
+        60,
+        149
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.402,
+        0.19,
+        0.468
+      ],
+      "center_normalized": [
+        0.158,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, rectangular element centrally positioned, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        128,
+        146,
+        149
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.402,
+        0.459,
+        0.468
+      ],
+      "center_normalized": [
+        0.426,
+        0.435
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "A prominent text block stating 'Join the arena No ads in first week' in a large, clear font at the bottom.",
+      "text_content": "Join the arena No ads in first week",
+      "bbox_xyxy": [
+        47,
+        203,
+        269,
+        253
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.841,
+        0.791
+      ],
+      "center_normalized": [
+        0.494,
+        0.713
+      ],
+      "area_percentage": 10.84
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like element with the text 'Get offer', inviting user interaction, located at the bottom.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        279,
+        203,
+        299
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.872,
+        0.634,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo or brand identifier at the top left corner, featuring a simple design.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        25,
+        22,
+        110,
+        36
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.069,
+        0.344,
+        0.113
+      ],
+      "center_normalized": [
+        0.211,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, GlitchWave title, main offer text, call to action.",
+    "layout_text": "The headline is at the top, icons are centrally arranged, and the main offer text is at the bottom with a CTA.",
+    "ocr_text": "Join the arena No ads in first week, Get offer, GlitchWave",
+    "elements_text": "headline: A bold, stylized text reading 'GlitchWave' at the top of the ad, set against an orange background. | icon: A small, circular icon representing a game, featuring a simple design with brown tones. | icon: Another small, circular game icon with a similar brown color scheme, placed centrally. | icon: A third small, circular game icon, matching the others in design and color, located centrally. | icon: A fourth small, circular game icon, consistent in style and color, positioned at the top. | unknown: A small, rectangular element with a light color, located centrally, details unclear. | unknown: Another small, rectangular element with a light color, positioned centrally, details unclear. | unknown: A small, rectangular element with a light color, located centrally, details unclear. | unknown: A small, rectangular element with a light color, positioned centrally, details unclear. | unknown: A small, rectangular element at the top, details unclear. | unknown: Another small, rectangular element at the top, details unclear. | unknown: A small, rectangular element located centrally, details unclear. | unknown: Another small, rectangular element centrally positioned, details unclear. | body_text: A prominent text block stating 'Join the arena No ads in first week' in a large, clear font at the bottom. text='Join the arena No ads in first week' | cta: A button-like element with the text 'Get offer', inviting user interaction, located at the bottom. text='Get offer' | logo: A small logo or brand identifier at the top left corner, featuring a simple design. text='GlitchWave'"
+  }
+}

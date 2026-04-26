@@ -1,0 +1,194 @@
+{
+  "creative_id": "500964",
+  "asset_file": "assets/creative_500964.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold promotional message with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale on fresh food options.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with a rectangular shape, possibly a placeholder or background graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.358,
+        0.4
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with a rectangular shape, likely serving as a decorative or background feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with a rectangular shape, possibly a placeholder or background graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text in a bold font stating 'Fast food, fast Fresh favorites nearby', positioned centrally.",
+      "text_content": "Fast food, fast Fresh favorites nearby",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Bold text at the top reading 'FreshDash SALE', prominently displayed.",
+      "text_content": "FreshDash SALE",
+      "bbox_xyxy": [
+        27,
+        41,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.483,
+        0.094
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "Text at the bottom stating '€19.99 Order now', encouraging immediate action.",
+      "text_content": "€19.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promotional message, call to action",
+    "layout_text": "The headline is at the top, the body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fast food, fast Fresh favorites nearby, FreshDash SALE, €19.99 Order now",
+    "elements_text": "unknown: A central element with a rectangular shape, possibly a placeholder or background graphic. | unknown: A central element with a rectangular shape, likely serving as a decorative or background feature. | unknown: A central element with a rectangular shape, possibly a placeholder or background graphic. | body_text: Text in a bold font stating 'Fast food, fast Fresh favorites nearby', positioned centrally. text='Fast food, fast Fresh favorites nearby' | headline: Bold text at the top reading 'FreshDash SALE', prominently displayed. text='FreshDash SALE' | cta: Text at the bottom stating '€19.99 Order now', encouraging immediate action. text='€19.99 Order now'"
+  }
+}

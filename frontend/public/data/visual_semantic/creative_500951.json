@@ -1,0 +1,194 @@
+{
+  "creative_id": "500951",
+  "asset_file": "assets/creative_500951.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with abstract shapes and bold text.",
+    "visual_style": "minimalistic with bright colors",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "light green",
+      "black"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A large rectangular shape with a smaller circular shape overlapping it, both in a light green color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A larger rectangular shape in the center, filled with a light green color, creating a modern and minimalistic look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circular shape in light green, positioned towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "main message",
+      "description": "Bold, black text stating 'Secure & simple No hidden fees' prominently displayed in the center.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The word 'VaultRun' in bold, white text with a green background, positioned at the top of the ad.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        26,
+        39,
+        205,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.569,
+        0.123
+      ],
+      "center_normalized": [
+        0.321,
+        0.092
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent black button with white text saying 'Order now' located at the bottom of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalistic with bright colors, secure service, VaultRun.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, No hidden fees, VaultRun, Order now",
+    "elements_text": "decorative_element: A large rectangular shape with a smaller circular shape overlapping it, both in a light green color. | decorative_element: A larger rectangular shape in the center, filled with a light green color, creating a modern and minimalistic look. | decorative_element: A small circular shape in light green, positioned towards the bottom left of the ad. | headline: Bold, black text stating 'Secure & simple No hidden fees' prominently displayed in the center. text='Secure & simple No hidden fees' | logo: The word 'VaultRun' in bold, white text with a green background, positioned at the top of the ad. text='VaultRun' | cta: A prominent black button with white text saying 'Order now' located at the bottom of the ad. text='Order now'"
+  }
+}

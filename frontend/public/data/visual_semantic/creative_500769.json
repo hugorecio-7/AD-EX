@@ -1,0 +1,266 @@
+{
+  "creative_id": "500769",
+  "asset_file": "assets/creative_500769.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and brand messaging.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to save with confidence through a promotional offer.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray rectangular background that fills the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area with a placeholder for images or graphics, featuring rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        76,
+        243,
+        161
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.238,
+        0.761,
+        0.505
+      ],
+      "center_normalized": [
+        0.464,
+        0.372
+      ],
+      "area_percentage": 15.8
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text area",
+      "description": "A large, bold text area in black, conveying the main message of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller text area below the main text, providing additional information in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        80,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.251,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.516,
+        0.43
+      ],
+      "area_percentage": 9.72
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button in black with white text, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Secondary content area",
+      "description": "A smaller central rectangular area with a placeholder for additional images or graphics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.59
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Additional text area",
+      "description": "Another text area in black, providing further details or context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Promotional message",
+      "description": "A bold text area at the bottom of the ad, emphasizing a promotional message in black.",
+      "text_content": "Save with confidence Fast Watch now",
+      "bbox_xyxy": [
+        69,
+        206,
+        246,
+        299
+      ],
+      "bbox_normalized": [
+        0.216,
+        0.644,
+        0.769,
+        0.934
+      ],
+      "center_normalized": [
+        0.492,
+        0.789
+      ],
+      "area_percentage": 16.08
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo area at the top left, featuring the brand name 'NovaPay' in a simple font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        19,
+        93,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.291,
+        0.116
+      ],
+      "center_normalized": [
+        0.183,
+        0.087
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small rectangular badge at the top right, highlighting the word 'SALE' in bold.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, Save with confidence, NovaPay, SALE",
+    "layout_text": "The logo is positioned at the top left, the main text is centered, and the call to action is at the bottom.",
+    "ocr_text": "NovaPay, SALE, Save with confidence, Fast signup, instant card, Watch now",
+    "elements_text": "main_subject: A central rectangular area with a placeholder for images or graphics, featuring rounded edges. | body_text: A large, bold text area in black, conveying the main message of the ad. | body_text: A smaller text area below the main text, providing additional information in a lighter font. | cta: A rectangular button in black with white text, inviting users to take action. | main_subject: A smaller central rectangular area with a placeholder for additional images or graphics. | body_text: Another text area in black, providing further details or context. | cta: A bold text area at the bottom of the ad, emphasizing a promotional message in black. text='Save with confidence Fast Watch now' | logo: A small logo area at the top left, featuring the brand name 'NovaPay' in a simple font. text='NovaPay' | discount_badge: A small rectangular badge at the top right, highlighting the word 'SALE' in bold. text='SALE'"
+  }
+}

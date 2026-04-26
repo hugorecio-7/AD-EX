@@ -1,0 +1,290 @@
+{
+  "creative_id": "500834",
+  "asset_file": "assets/creative_500834.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a playful layout with a focus on product promotion.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a new collection with free shipping.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element 1",
+      "description": "A rectangular shape located in the center of the ad, possibly representing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center element 2",
+      "description": "Another rectangular shape in the center, similar in size and position to the first element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element 3",
+      "description": "A third rectangular shape in the center, slightly taller than the previous two elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top left element",
+      "description": "A small rectangular shape positioned at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small rectangular shape located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Bottom center element 1",
+      "description": "A small circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Bottom center element 2",
+      "description": "Another small circular shape positioned near the first circular element at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "CrispBox UGC",
+      "description": "A bold, prominent text element at the top of the ad, likely indicating the brand or campaign.",
+      "text_content": "CrispBox UGC",
+      "bbox_xyxy": [
+        23,
+        31,
+        296,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.048,
+        0.822,
+        0.198
+      ],
+      "center_normalized": [
+        0.443,
+        0.123
+      ],
+      "area_percentage": 11.38
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "New collection drop",
+      "description": "A descriptive text element at the bottom of the ad, conveying a promotional message.",
+      "text_content": "New collection drop Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        407,
+        306,
+        502
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.636,
+        0.85,
+        0.784
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 10.35
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A price display in a bold font, indicating the cost of a product at the bottom of the ad.",
+      "text_content": "€29.99 Watch now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, CrispBox UGC, new collection drop, free shipping over $25, €29.99.",
+    "layout_text": "The headline is at the top, followed by body text at the bottom, with circular elements centered.",
+    "ocr_text": "CrispBox UGC, New collection drop, Free shipping over $25, €29.99, Watch now",
+    "elements_text": "unknown: A rectangular shape located in the center of the ad, possibly representing a product or feature. | unknown: Another rectangular shape in the center, similar in size and position to the first element. | unknown: A third rectangular shape in the center, slightly taller than the previous two elements. | unknown: A small rectangular shape positioned at the top left of the ad. | unknown: A small rectangular shape located at the top right of the ad. | unknown: A small circular shape located towards the bottom center of the ad. | unknown: Another small circular shape positioned near the first circular element at the bottom. | headline: A bold, prominent text element at the top of the ad, likely indicating the brand or campaign. text='CrispBox UGC' | body_text: A descriptive text element at the bottom of the ad, conveying a promotional message. text='New collection drop Free shipping over $25' | price: A price display in a bold font, indicating the cost of a product at the bottom of the ad. text='€29.99 Watch now'"
+  }
+}

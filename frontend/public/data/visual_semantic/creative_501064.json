@@ -1,0 +1,242 @@
+{
+  "creative_id": "501064",
+  "asset_file": "assets/creative_501064.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on travel offers.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special travel fares with a call to action.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        471
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.502,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NomadLayer logo",
+      "description": "A stylized logo for 'NomadLayer' is prominently displayed at the top center, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow badge with the word 'SALE' is positioned next to the logo, drawing attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two overlapping circular shapes are placed in the center, adding a decorative touch to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A simple square shape is positioned near the circular shapes, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Book your next trip' is displayed in a bold, large font at the center, emphasizing the main offer.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        51,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.709
+      ],
+      "area_percentage": 10.46
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "The phrase 'Special fares today' is shown below the main headline in a smaller, yet clear font.",
+      "text_content": "NomadLayer SALE",
+      "bbox_xyxy": [
+        23,
+        30,
+        321,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.892,
+        0.127
+      ],
+      "center_normalized": [
+        0.478,
+        0.087
+      ],
+      "area_percentage": 6.6
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button labeled 'Learn more' is located at the bottom center, inviting user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' is placed at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel offers, special fares",
+    "layout_text": "The logo and SALE badge are at the top, the headline and body text are centered, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Special fares today, NomadLayer SALE, Learn more, UGC",
+    "elements_text": "logo: A stylized logo for 'NomadLayer' is prominently displayed at the top center, featuring bold typography. | discount_badge: A bright yellow badge with the word 'SALE' is positioned next to the logo, drawing attention. | decorative_element: Two overlapping circular shapes are placed in the center, adding a decorative touch to the ad. | decorative_element: A simple square shape is positioned near the circular shapes, complementing the overall design. | headline: The text 'Book your next trip' is displayed in a bold, large font at the center, emphasizing the main offer. text='Book your next trip Special fares today' | body_text: The phrase 'Special fares today' is shown below the main headline in a smaller, yet clear font. text='NomadLayer SALE' | cta: A prominent button labeled 'Learn more' is located at the bottom center, inviting user interaction. text='Learn more' | social_proof: A small label reading 'UGC' is placed at the top left, indicating user-generated content. text='UGC'"
+  }
+}

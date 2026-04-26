@@ -1,0 +1,170 @@
+{
+  "creative_id": "500882",
+  "asset_file": "assets/creative_500882.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and bold text promoting a weekend escape.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for a weekend getaway.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the top section of the ad, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, rendered in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional shapes",
+      "description": "A rectangular shape is positioned slightly above the center, featuring a subtle outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "Bold white text stating 'Escape this weekend' is prominently displayed at the bottom, conveying the main message.",
+      "text_content": "Escape this weekend Special fares today €29.99 Start now",
+      "bbox_xyxy": [
+        23,
+        307,
+        251,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.784,
+        0.915
+      ],
+      "center_normalized": [
+        0.428,
+        0.777
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "The 'CloudRoute' logo appears in a smaller font at the top left, colored white against the blue background.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        21,
+        33,
+        138,
+        58
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.069,
+        0.431,
+        0.121
+      ],
+      "center_normalized": [
+        0.248,
+        0.095
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow circular badge in the top right corner reads 'SALE', adding urgency to the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, special fares, weekend escape",
+    "layout_text": "The headline is at the bottom, the main subject is centered, and the logo is at the top left with the CTA at the bottom.",
+    "ocr_text": "Escape this weekend, Special fares today, €29.99, Start now, CloudRoute, SALE",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, rendered in a lighter blue shade. | main_subject: A rectangular shape is positioned slightly above the center, featuring a subtle outline. | headline: Bold white text stating 'Escape this weekend' is prominently displayed at the bottom, conveying the main message. text='Escape this weekend Special fares today €29.99 Start now' | logo: The 'CloudRoute' logo appears in a smaller font at the top left, colored white against the blue background. text='CloudRoute' | discount_badge: A small yellow circular badge in the top right corner reads 'SALE', adding urgency to the ad. text='SALE'"
+  }
+}

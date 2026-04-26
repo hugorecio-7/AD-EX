@@ -1,0 +1,146 @@
+{
+  "creative_id": "501023",
+  "asset_file": "assets/creative_501023.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bright green background with a prominent cashback offer and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting cashback offers with a clear call to action.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A circular shape with a transparent fill, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold, black text stating 'Earn cashback daily' with a smaller line below it saying 'No hidden fees', set against a bright background.",
+      "text_content": "Earn cashback daily No hidden fees",
+      "bbox_xyxy": [
+        50,
+        307,
+        273,
+        387
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.64,
+        0.853,
+        0.806
+      ],
+      "center_normalized": [
+        0.505,
+        0.723
+      ],
+      "area_percentage": 11.61
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The word 'ClearLedger' displayed in a prominent, bold font at the top of the ad.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        24,
+        28,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 2.7
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Book now' in white, set against a contrasting background.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, cashback offer, call to action",
+    "layout_text": "The logo is at the top, followed by the body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "Earn cashback daily, No hidden fees, ClearLedger, Book now",
+    "elements_text": "unknown: A circular shape with a transparent fill, positioned in the center of the ad. | body_text: Bold, black text stating 'Earn cashback daily' with a smaller line below it saying 'No hidden fees', set against a bright background. text='Earn cashback daily No hidden fees' | logo: The word 'ClearLedger' displayed in a prominent, bold font at the top of the ad. text='ClearLedger' | cta: A rectangular button with the text 'Book now' in white, set against a contrasting background. text='Book now'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "501013",
+  "asset_file": "assets/creative_501013.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and icons promoting a game.",
+    "visual_style": "playful and colorful",
+    "main_message": "Unlock rare gear with free rewards for new players.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.346,
+        0.436
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "GlitchWave BONUS",
+      "description": "Bold, yellow text with a slight shadow effect, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Game gear icons",
+      "description": "Four circular icons arranged in a grid, each with a dark circle in the center, representing game gear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Unlock rare gear",
+      "description": "Large, white text that reads 'Unlock rare gear', prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Free rewards for new players",
+      "description": "Smaller white text below the headline, providing additional information about the rewards.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A simple white arrow icon pointing to the right, indicating action or progression.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A rectangular button at the bottom with rounded corners, featuring the text 'Book now' in bold white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Top decorative line",
+      "description": "A thin decorative line above the headline, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Left decorative line",
+      "description": "A small vertical line on the left side of the ad, enhancing the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Bottom decorative line",
+      "description": "A small vertical line on the right side of the ad, balancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Main call to action",
+      "description": "The prominent 'Unlock rare gear Free rewards for new players' text, encouraging user engagement.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Secondary headline",
+      "description": "A smaller text that reinforces the main message, positioned at the top.",
+      "text_content": "GlitchWave BONUS",
+      "bbox_xyxy": [
+        26,
+        39,
+        331,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.919,
+        0.123
+      ],
+      "center_normalized": [
+        0.496,
+        0.092
+      ],
+      "area_percentage": 5.3
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Final call to action",
+      "description": "A small button at the bottom with the text 'Book now', inviting immediate action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, playful and colorful, engaging text and icons.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Unlock rare gear, Free rewards for new players, GlitchWave BONUS, Book now",
+    "elements_text": "headline: Bold, yellow text with a slight shadow effect, positioned at the top of the ad. | main_subject: Four circular icons arranged in a grid, each with a dark circle in the center, representing game gear. | headline: Large, white text that reads 'Unlock rare gear', prominently displayed in the center. | body_text: Smaller white text below the headline, providing additional information about the rewards. | icon: A simple white arrow icon pointing to the right, indicating action or progression. | cta: A rectangular button at the bottom with rounded corners, featuring the text 'Book now' in bold white. | decorative_element: A thin decorative line above the headline, adding visual interest. | decorative_element: A small vertical line on the left side of the ad, enhancing the layout. | decorative_element: A small vertical line on the right side of the ad, balancing the design. | cta: The prominent 'Unlock rare gear Free rewards for new players' text, encouraging user engagement. text='Unlock rare gear Free rewards for new players' | body_text: A smaller text that reinforces the main message, positioned at the top. text='GlitchWave BONUS' | cta: A small button at the bottom with the text 'Book now', inviting immediate action. text='Book now'"
+  }
+}

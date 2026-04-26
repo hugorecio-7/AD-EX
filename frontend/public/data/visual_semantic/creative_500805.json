@@ -1,0 +1,338 @@
+{
+  "creative_id": "500805",
+  "asset_file": "assets/creative_500805.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a cashback offer with a clean layout and prominent text elements.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Earn cashback daily with ClearLedger.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background that fills the entire canvas, providing a neutral base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.501,
+        0.089
+      ],
+      "area_percentage": 17.8
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "cashback offer graphic",
+      "description": "A large rectangular graphic in the center, possibly representing a cashback offer, with an empty space for text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "additional cashback graphic",
+      "description": "A smaller oval graphic overlapping the cashback offer graphic, suggesting additional information or a visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.313,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.547,
+        0.43
+      ],
+      "area_percentage": 8.57
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "A small circular graphic positioned slightly above the center, adding visual interest to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "secondary cashback graphic",
+      "description": "Another rectangular graphic that overlaps with the cashback offer graphic, indicating more details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.779,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.431
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small icon located towards the bottom center, possibly representing a feature or benefit.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.221,
+        0.631
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "small call to action",
+      "description": "A tiny call-to-action button at the bottom left, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        269,
+        36,
+        285
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.841,
+        0.115,
+        0.893
+      ],
+      "center_normalized": [
+        0.098,
+        0.867
+      ],
+      "area_percentage": 0.18
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "small call to action",
+      "description": "Another small call-to-action button located towards the bottom center, inviting users to engage.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        83,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.262,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "small call to action",
+      "description": "A small call-to-action button at the bottom right, designed to prompt user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        269,
+        50,
+        282
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.841,
+        0.156,
+        0.884
+      ],
+      "center_normalized": [
+        0.139,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "small call to action",
+      "description": "A tiny call-to-action button positioned towards the bottom center, aimed at user engagement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        269,
+        70,
+        282
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.841,
+        0.221,
+        0.884
+      ],
+      "center_normalized": [
+        0.204,
+        0.862
+      ],
+      "area_percentage": 0.14
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "cashback offer text",
+      "description": "Bold text at the bottom of the ad stating 'Earn cashback daily', emphasizing the offer.",
+      "text_content": "Earn cashback daily $4.99uitt nd Shop now",
+      "bbox_xyxy": [
+        22,
+        204,
+        276,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.863,
+        0.934
+      ],
+      "center_normalized": [
+        0.466,
+        0.786
+      ],
+      "area_percentage": 23.56
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "The logo of ClearLedger positioned at the top left, featuring a simple and recognizable design.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small 'SALE' badge located at the top right, designed to attract attention to the discount.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "ClearLedger, cashback offer, native format, minimalistic with bold text, cashback daily.",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA buttons are at the bottom.",
+    "ocr_text": "Earn cashback daily, $4.99, ClearLedger, SALE, Shop now",
+    "elements_text": "main_subject: A large rectangular graphic in the center, possibly representing a cashback offer, with an empty space for text. | main_subject: A smaller oval graphic overlapping the cashback offer graphic, suggesting additional information or a visual element. | main_subject: A small circular graphic positioned slightly above the center, adding visual interest to the layout. | main_subject: Another rectangular graphic that overlaps with the cashback offer graphic, indicating more details. | icon: A small icon located towards the bottom center, possibly representing a feature or benefit. | cta: A tiny call-to-action button at the bottom left, encouraging user interaction. | cta: Another small call-to-action button located towards the bottom center, inviting users to engage. | cta: A small call-to-action button at the bottom right, designed to prompt user action. | cta: A tiny call-to-action button positioned towards the bottom center, aimed at user engagement. | body_text: Bold text at the bottom of the ad stating 'Earn cashback daily', emphasizing the offer. text='Earn cashback daily $4.99uitt nd Shop now' | logo: The logo of ClearLedger positioned at the top left, featuring a simple and recognizable design. text='ClearLedger' | discount_badge: A small 'SALE' badge located at the top right, designed to attract attention to the discount. text='SALE'"
+  }
+}

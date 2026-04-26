@@ -1,0 +1,266 @@
+{
+  "creative_id": "500872",
+  "asset_file": "assets/creative_500872.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with a central product display and clear promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a new collection with a limited-time offer.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Pink background",
+      "description": "A vibrant pink background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        317,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.992,
+        0.755
+      ],
+      "center_normalized": [
+        0.521,
+        0.478
+      ],
+      "area_percentage": 52.24
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display",
+      "description": "A stylized representation of two mirrors or reflective surfaces, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.952,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.89
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, white text stating 'New collection drop' positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Weekend offer",
+      "description": "Smaller white text below the headline that reads 'Only this weekend'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent white text displaying the price '€29.99' located below the body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright yellow button with the text 'Book now' that stands out against the pink background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "A small circular badge labeled 'UGC' positioned at the top left corner.",
+      "text_content": "New collection drop Only this weekend €29.99 Book now",
+      "bbox_xyxy": [
+        23,
+        307,
+        273,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.64,
+        0.853,
+        0.915
+      ],
+      "center_normalized": [
+        0.463,
+        0.777
+      ],
+      "area_percentage": 21.48
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'VantaStyle' displayed in a bold font at the top of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, circular badge with the word 'SALE' in bold text at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A simple circular icon that adds a decorative touch, located near the product display.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, new collection, sale, call to action",
+    "layout_text": "The headline is at the top, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "VantaStyle, SALE, UGC, New collection drop, Only this weekend, €29.99, Book now",
+    "elements_text": "main_subject: A stylized representation of two mirrors or reflective surfaces, centered in the ad. | headline: A bold, white text stating 'New collection drop' positioned at the top of the ad. | body_text: Smaller white text below the headline that reads 'Only this weekend'. | price: A prominent white text displaying the price '€29.99' located below the body text. | cta: A bright yellow button with the text 'Book now' that stands out against the pink background. | social_proof: A small circular badge labeled 'UGC' positioned at the top left corner. text='New collection drop Only this weekend €29.99 Book now' | logo: The brand name 'VantaStyle' displayed in a bold font at the top of the ad. text='VantaStyle' | discount_badge: A small, circular badge with the word 'SALE' in bold text at the top right corner. text='SALE' | decorative_element: A simple circular icon that adds a decorative touch, located near the product display. text='UGC'"
+  }
+}

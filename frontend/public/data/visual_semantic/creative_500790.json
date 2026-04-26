@@ -1,0 +1,914 @@
+{
+  "creative_id": "500790",
+  "asset_file": "assets/creative_500790.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to engage with trending content and claim rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "NeonCast logo",
+      "description": "A stylized logo featuring the text 'NeonCast' in a modern font, set against a purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.176
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.53
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "Text that reads 'Watch what's trending' in a bold, eye-catching font, centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.238,
+        0.769,
+        0.504
+      ],
+      "center_normalized": [
+        0.469,
+        0.371
+      ],
+      "area_percentage": 15.9
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Start free today",
+      "description": "A smaller text below the main headline that says 'Start free today', designed to encourage action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button labeled 'Claim reward' with a contrasting color to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.337,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.429
+      ],
+      "area_percentage": 10.94
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Various geometric shapes in the background, adding depth and interest to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        77,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.242,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.511,
+        0.429
+      ],
+      "area_percentage": 9.81
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "Additional abstract shapes that complement the main elements, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.238,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.353
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.88
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        58,
+        71,
+        88
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.225,
+        0.277
+      ],
+      "center_normalized": [
+        0.114,
+        0.229
+      ],
+      "area_percentage": 2.12
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        302,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.201,
+        0.946,
+        0.275
+      ],
+      "center_normalized": [
+        0.831,
+        0.238
+      ],
+      "area_percentage": 1.71
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        77,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.243,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.31
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        58,
+        49,
+        88
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.182,
+        0.153,
+        0.276
+      ],
+      "center_normalized": [
+        0.079,
+        0.229
+      ],
+      "area_percentage": 1.42
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        58,
+        37,
+        88
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.182,
+        0.116,
+        0.276
+      ],
+      "center_normalized": [
+        0.06,
+        0.229
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        90,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.283,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.33
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        122,
+        303,
+        152
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.383,
+        0.948,
+        0.477
+      ],
+      "center_normalized": [
+        0.892,
+        0.43
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.529,
+        0.579,
+        0.629
+      ],
+      "center_normalized": [
+        0.53,
+        0.579
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.482,
+        0.532,
+        0.576,
+        0.626
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.2,
+        0.949,
+        0.275
+      ],
+      "center_normalized": [
+        0.892,
+        0.238
+      ],
+      "area_percentage": 0.86
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        265,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.201,
+        0.83,
+        0.275
+      ],
+      "center_normalized": [
+        0.773,
+        0.238
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        151
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.282,
+        0.049,
+        0.475
+      ],
+      "center_normalized": [
+        0.027,
+        0.378
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        64,
+        227,
+        88
+      ],
+      "bbox_normalized": [
+        0.599,
+        0.201,
+        0.711,
+        0.275
+      ],
+      "center_normalized": [
+        0.655,
+        0.238
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 24,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        64,
+        189,
+        88
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.201,
+        0.593,
+        0.275
+      ],
+      "center_normalized": [
+        0.537,
+        0.238
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 25,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        168
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.382,
+        0.999,
+        0.525
+      ],
+      "center_normalized": [
+        0.976,
+        0.454
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 26,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        90,
+        227,
+        107
+      ],
+      "bbox_normalized": [
+        0.599,
+        0.281,
+        0.71,
+        0.335
+      ],
+      "center_normalized": [
+        0.654,
+        0.308
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 27,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        155,
+        90,
+        189,
+        107
+      ],
+      "bbox_normalized": [
+        0.484,
+        0.281,
+        0.593,
+        0.335
+      ],
+      "center_normalized": [
+        0.539,
+        0.308
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 28,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        57,
+        303,
+        73
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.181,
+        0.949,
+        0.229
+      ],
+      "center_normalized": [
+        0.892,
+        0.205
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 29,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        57,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.181,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 30,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 31,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 32,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 33,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        15,
+        120
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.282,
+        0.049,
+        0.377
+      ],
+      "center_normalized": [
+        0.026,
+        0.33
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 34,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        122,
+        15,
+        152
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.382,
+        0.049,
+        0.477
+      ],
+      "center_normalized": [
+        0.026,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 35,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        154,
+        15,
+        184
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.481,
+        0.049,
+        0.577
+      ],
+      "center_normalized": [
+        0.026,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 36,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that serves as the canvas for all other elements.",
+      "text_content": "Watch what's trending Claim reward",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 37,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A logo featuring the text 'NeonCast' in a vibrant style, positioned at the top of the ad.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include a logo, call to action, and engaging text.",
+    "layout_text": "The logo is at the top, followed by the main headline, supporting text, and a prominent call to action at the bottom.",
+    "ocr_text": "NeonCast, Watch what's trending, Start free today, Claim reward",
+    "elements_text": "headline: A stylized logo featuring the text 'NeonCast' in a modern font, set against a purple background. | body_text: Text that reads 'Watch what's trending' in a bold, eye-catching font, centrally positioned. | body_text: A smaller text below the main headline that says 'Start free today', designed to encourage action. | cta: A prominent button labeled 'Claim reward' with a contrasting color to attract attention. | decorative_element: Various geometric shapes in the background, adding depth and interest to the overall design. | unknown: Additional abstract shapes that complement the main elements, enhancing the visual appeal. | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | logo: A logo featuring the text 'NeonCast' in a vibrant style, positioned at the top of the ad. text='NeonCast'"
+  }
+}

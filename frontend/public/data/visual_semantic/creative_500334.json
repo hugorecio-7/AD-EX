@@ -1,0 +1,266 @@
+{
+  "creative_id": "500334",
+  "asset_file": "assets/creative_500334.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold blue background with a central product placeholder and clear calls to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Limited stock on bestsellers at a discounted price.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A vibrant solid blue background fills the entire canvas, creating a bold visual impact.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product placeholder",
+      "description": "A simple rectangular placeholder with a light outline, suggesting a product image in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        134,
+        105,
+        292
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.28,
+        0.33,
+        0.61
+      ],
+      "center_normalized": [
+        0.233,
+        0.445
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Bold, white text stating 'Limited stock' is prominently displayed in the center, conveying urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.24,
+        0.438
+      ],
+      "area_percentage": 5.64
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Shop bestsellers now",
+      "description": "Smaller white text below the main message reads 'Shop bestsellers now', encouraging action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small circular element positioned near the product placeholder, possibly indicating a feature or detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "ZenDrop branding",
+      "description": "The word 'ZenDrop' appears in bold, white text at the top left, establishing brand identity.",
+      "text_content": "Limited stock Shop bestsellers now",
+      "bbox_xyxy": [
+        54,
+        308,
+        266,
+        358
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.642,
+        0.831,
+        0.746
+      ],
+      "center_normalized": [
+        0.5,
+        0.694
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom center with the text 'Get offer' in white, inviting user interaction.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "A small, bold price tag reading '$4.99' is positioned just above the CTA button, highlighting the offer.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting color.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        22,
+        398,
+        88,
+        422
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.829,
+        0.275,
+        0.879
+      ],
+      "center_normalized": [
+        0.172,
+        0.854
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, key elements include product placeholder, limited stock message, and call to action.",
+    "layout_text": "The headline is positioned at the top left, the main subject is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Limited stock, Shop bestsellers now, ZenDrop, Get offer, $4.99, SALE",
+    "elements_text": "main_subject: A simple rectangular placeholder with a light outline, suggesting a product image in the center of the ad. | body_text: Bold, white text stating 'Limited stock' is prominently displayed in the center, conveying urgency. | body_text: Smaller white text below the main message reads 'Shop bestsellers now', encouraging action. | unknown: A small circular element positioned near the product placeholder, possibly indicating a feature or detail. | headline: The word 'ZenDrop' appears in bold, white text at the top left, establishing brand identity. text='Limited stock Shop bestsellers now' | cta: A rounded button at the bottom center with the text 'Get offer' in white, inviting user interaction. text='ZenDrop' | price: A small, bold price tag reading '$4.99' is positioned just above the CTA button, highlighting the offer. text='Get offer' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting color. text='$4.99' | unknown:  text='SALE'"
+  }
+}

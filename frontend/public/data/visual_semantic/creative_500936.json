@@ -1,0 +1,434 @@
+{
+  "creative_id": "500936",
+  "asset_file": "assets/creative_500936.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting the game VoxelRealm with engaging gameplay elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Join VoxelRealm for free rewards and exciting gameplay.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo featuring the text 'VoxelRealm' in bold, vibrant colors at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.349,
+        0.295
+      ],
+      "area_percentage": 5.41
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Join the arena text",
+      "description": "A clear, inviting text that reads 'Join the arena' in a prominent font, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Free rewards text",
+      "description": "A smaller text below the main body text that states 'Free rewards for new players', conveying an enticing offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A bold button at the bottom of the ad with the text 'Watch now', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Gameplay preview",
+      "description": "A visual representation of gameplay elements, showcasing interactive features of the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Geometric shapes in the background that add depth and interest to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "An unspecified element that appears in the top right corner, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small circular element positioned towards the bottom center, likely part of the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "Another small circular element located near the bottom left, contributing to the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small element at the top center, possibly a decorative feature or part of the interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small element positioned centrally, likely part of the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small element at the top left, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Additional element",
+      "description": "A small element positioned centrally, likely part of the gameplay interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'VoxelRealm' prominently displayed at the top, capturing attention.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A clear and inviting message that encourages players to join the game, located centrally.",
+      "text_content": "Join the arena Free rewards for new players",
+      "bbox_xyxy": [
+        54,
+        409,
+        304,
+        466
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.639,
+        0.844,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.684
+      ],
+      "area_percentage": 6.18
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Watch now text",
+      "description": "A call-to-action text 'Watch now' at the bottom, designed to prompt user engagement.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.503,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, VoxelRealm logo, gameplay preview, call-to-action.",
+    "layout_text": "The logo is at the top, followed by the main message and call-to-action at the bottom.",
+    "ocr_text": "VoxelRealm, Join the arena, Free rewards for new players, Watch now",
+    "elements_text": "logo: A stylized logo featuring the text 'VoxelRealm' in bold, vibrant colors at the top of the ad. | body_text: A clear, inviting text that reads 'Join the arena' in a prominent font, positioned centrally. | body_text: A smaller text below the main body text that states 'Free rewards for new players', conveying an enticing offer. | cta: A bold button at the bottom of the ad with the text 'Watch now', designed to attract user interaction. | app_screenshot: A visual representation of gameplay elements, showcasing interactive features of the game. | decorative_element: Geometric shapes in the background that add depth and interest to the overall design. | unknown: An unspecified element that appears in the top right corner, possibly decorative or functional. | unknown: A small circular element positioned towards the bottom center, likely part of the gameplay interface. | unknown: Another small circular element located near the bottom left, contributing to the gameplay interface. | unknown: A small element at the top center, possibly a decorative feature or part of the interface. | unknown: A small element positioned centrally, likely part of the gameplay interface. | unknown: A small element at the top left, possibly decorative or functional. | unknown: A small element positioned centrally, likely part of the gameplay interface. | headline: The main headline text 'VoxelRealm' prominently displayed at the top, capturing attention. text='VoxelRealm' | body_text: A clear and inviting message that encourages players to join the game, located centrally. text='Join the arena Free rewards for new players' | cta: A call-to-action text 'Watch now' at the bottom, designed to prompt user engagement. text='Watch now'"
+  }
+}

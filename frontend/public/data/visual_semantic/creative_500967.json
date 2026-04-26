@@ -1,0 +1,218 @@
+{
+  "creative_id": "500967",
+  "asset_file": "assets/creative_500967.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with bold text and trendy shapes.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting trending content and a sale.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple abstract background",
+      "description": "A smooth purple background with abstract shapes creating a modern and vibrant feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.502,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Trendy shapes",
+      "description": "A large, light-colored rectangle and a circle overlapping, suggesting a dynamic and trendy design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller, light-colored square positioned within the main subject area, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small decorative shape",
+      "description": "A tiny, light-colored oval shape positioned towards the bottom, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Bold white text stating 'Watch what's trending' with a smaller line below it, conveying a sense of urgency.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Large, bold text at the top reading 'PulsePlay SALE' in a contrasting color to grab attention.",
+      "text_content": "PulsePlay SALE",
+      "bbox_xyxy": [
+        22,
+        28,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.044,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.476,
+        0.086
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button with the text 'Learn more' in white, designed to encourage user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small circular badge in the top corner with the text 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, promoting trending content and a sale.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "PulsePlay SALE, UGC, Watch what's trending, New hits every week, Learn more",
+    "elements_text": "main_subject: A large, light-colored rectangle and a circle overlapping, suggesting a dynamic and trendy design. | unknown: A smaller, light-colored square positioned within the main subject area, adding depth to the design. | decorative_element: A tiny, light-colored oval shape positioned towards the bottom, enhancing the visual interest. | body_text: Bold white text stating 'Watch what's trending' with a smaller line below it, conveying a sense of urgency. text='Watch what's trending New hits every week' | headline: Large, bold text at the top reading 'PulsePlay SALE' in a contrasting color to grab attention. text='PulsePlay SALE' | cta: A rounded button with the text 'Learn more' in white, designed to encourage user interaction. text='Learn more' | icon: A small circular badge in the top corner with the text 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

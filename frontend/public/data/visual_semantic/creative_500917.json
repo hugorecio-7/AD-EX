@@ -1,0 +1,290 @@
+{
+  "creative_id": "500917",
+  "asset_file": "assets/creative_500917.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a focus on the brand and its message.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting financial clarity and peace of mind.",
+    "dominant_colors": [
+      "green",
+      "light green"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green abstract background",
+      "description": "A smooth green background with abstract shapes and gradients.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        230
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.359
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.69
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "large square shape",
+      "description": "A prominent square shape in the center, filled with a lighter shade of green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.497,
+        0.398
+      ],
+      "area_percentage": 13.47
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "oval shape",
+      "description": "An oval shape overlapping the square, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "rectangle shape",
+      "description": "A rectangle shape positioned near the center, contrasting with the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "small circle",
+      "description": "A small circle located at the top, serving as a decorative icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.134,
+        0.296
+      ],
+      "center_normalized": [
+        0.067,
+        0.239
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "arrow icon",
+      "description": "A small arrow icon positioned at the top right, indicating direction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A rectangular button at the bottom with rounded edges, inviting interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "text block",
+      "description": "A small text block positioned near the center, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "main headline",
+      "description": "A bold headline at the top, prominently displaying the brand name 'CoinBridge'.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        22,
+        32,
+        358,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.05,
+        0.994,
+        0.163
+      ],
+      "center_normalized": [
+        0.528,
+        0.106
+      ],
+      "area_percentage": 10.5
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "supporting text",
+      "description": "A larger text block at the bottom, conveying the message 'Your money, clearer Built for peace of mind'.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        73,
+        407,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.636,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.709
+      ],
+      "area_percentage": 8.68
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "book now button",
+      "description": "A smaller call to action button at the bottom, encouraging users to 'Book now'.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, minimalist with bold typography, CoinBridge, financial clarity.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge, Your money, clearer, Built for peace of mind, Book now",
+    "elements_text": "main_subject: A prominent square shape in the center, filled with a lighter shade of green. | decorative_element: An oval shape overlapping the square, adding visual interest. | decorative_element: A rectangle shape positioned near the center, contrasting with the other elements. | icon: A small circle located at the top, serving as a decorative icon. | icon: A small arrow icon positioned at the top right, indicating direction. | cta: A rectangular button at the bottom with rounded edges, inviting interaction. | body_text: A small text block positioned near the center, providing additional information. | headline: A bold headline at the top, prominently displaying the brand name 'CoinBridge'. text='CoinBridge' | body_text: A larger text block at the bottom, conveying the message 'Your money, clearer Built for peace of mind'. text='Your money, clearer Built for peace of mind' | cta: A smaller call to action button at the bottom, encouraging users to 'Book now'. text='Book now'"
+  }
+}

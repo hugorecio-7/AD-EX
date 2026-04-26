@@ -1,0 +1,386 @@
+{
+  "creative_id": "500901",
+  "asset_file": "assets/creative_500901.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with game-related icons and text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to win rewards and play with friends.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth gradient background transitioning from light to dark purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon with a simple design, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small circular icon with a simple design, positioned next to the first icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon with a simple design, positioned below the first icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "Another small circular icon with a simple design, positioned next to the fourth icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small circular icon with a simple design, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small right-facing arrow icon, positioned at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Reward text",
+      "description": "A bold text element stating 'Win epic rewards' in a large font, centered in the lower half.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "A smaller text element stating 'Play with friends tonight' positioned below the reward text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "A small text element stating 'Play with friends tonight' positioned below the reward text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Game title",
+      "description": "A large, bold text element displaying 'NeonArena' at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Game title",
+      "description": "A large, bold text element displaying 'NeonArena' at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Game title",
+      "description": "A large, bold text element displaying 'NeonArena' at the top of the ad.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        37,
+        359,
+        97
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.058,
+        0.997,
+        0.152
+      ],
+      "center_normalized": [
+        0.537,
+        0.105
+      ],
+      "area_percentage": 8.62
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Order button",
+      "description": "A rectangular button with the text 'Order now' in a bold font, positioned at the bottom center.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        31,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.086,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.682
+      ],
+      "area_percentage": 7.68
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, NeonArena, win epic rewards.",
+    "layout_text": "The headline is at the top, icons are arranged in a grid, the body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Win epic rewards, Play with friends tonight, Order now",
+    "elements_text": "icon: A small circular icon with a simple design, positioned at the top left. | icon: Another small circular icon with a simple design, positioned next to the first icon. | icon: A small circular icon with a simple design, positioned below the first icon. | icon: Another small circular icon with a simple design, positioned next to the fourth icon. | icon: A small circular icon with a simple design, positioned at the top left corner. | icon: A small right-facing arrow icon, positioned at the top right. | body_text: A bold text element stating 'Win epic rewards' in a large font, centered in the lower half. | body_text: A smaller text element stating 'Play with friends tonight' positioned below the reward text. | body_text: A small text element stating 'Play with friends tonight' positioned below the reward text. | headline: A large, bold text element displaying 'NeonArena' at the top of the ad. | headline: A large, bold text element displaying 'NeonArena' at the top of the ad. | headline: A large, bold text element displaying 'NeonArena' at the top of the ad. text='NeonArena' | cta: A rectangular button with the text 'Order now' in a bold font, positioned at the bottom center. text='Win epic rewards Play with friends tonight' | unknown:  text='Order now'"
+  }
+}

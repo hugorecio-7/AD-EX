@@ -1,0 +1,266 @@
+{
+  "creative_id": "501014",
+  "asset_file": "assets/creative_501014.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on a product and promotional text.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a discount on a product with a call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid blue background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A rectangular area in the center showcasing a product with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        134,
+        105,
+        292
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.28,
+        0.33,
+        0.61
+      ],
+      "center_normalized": [
+        0.233,
+        0.445
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display area",
+      "description": "Another rectangular area in the center, slightly overlapping with the previous one, also featuring a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.24,
+        0.438
+      ],
+      "area_percentage": 5.64
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display area",
+      "description": "A smaller rectangular area in the center, positioned below the previous elements, with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional area",
+      "description": "A narrow rectangular area in the center, possibly for additional content, with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Discount offer text",
+      "description": "Bold white text in the center stating 'Up to 40% off Free shipping over $25' against a light blue background.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        357
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.744
+      ],
+      "center_normalized": [
+        0.506,
+        0.692
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with white text 'Order now' on a light blue background.",
+      "text_content": "€19.99 Order now",
+      "bbox_xyxy": [
+        23,
+        399,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.362,
+        0.873
+      ],
+      "area_percentage": 4.84
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo in the top left corner, featuring the text 'LuxShelf' in white.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag in the top left corner with the text 'UGC' in white.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, discount offer, call to action",
+    "layout_text": "The headline is centered, the product display areas are in the center, and the CTA is at the bottom.",
+    "ocr_text": "Up to 40% off Free shipping over $25, €19.99, Order now, LuxShelf, UGC",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad. | product: A rectangular area in the center showcasing a product with a light blue background. | product: Another rectangular area in the center, slightly overlapping with the previous one, also featuring a light blue background. | product: A smaller rectangular area in the center, positioned below the previous elements, with a light blue background. | unknown: A narrow rectangular area in the center, possibly for additional content, with a light blue background. | headline: Bold white text in the center stating 'Up to 40% off Free shipping over $25' against a light blue background. text='Up to 40% off Free shipping over $25' | cta: A rounded button at the bottom with white text 'Order now' on a light blue background. text='€19.99 Order now' | logo: A small logo in the top left corner, featuring the text 'LuxShelf' in white. text='LuxShelf' | social_proof: A small tag in the top left corner with the text 'UGC' in white. text='UGC'"
+  }
+}

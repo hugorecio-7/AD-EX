@@ -1,0 +1,362 @@
+{
+  "creative_id": "501074",
+  "asset_file": "assets/creative_501074.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with bold text elements promoting a new season.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Encouraging users to install the app for new seasonal content.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "red abstract background",
+      "description": "A vibrant red background with abstract shapes and gradients creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        90,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.142,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.298
+      ],
+      "area_percentage": 31.13
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo features bold, stylized text reading 'StarVault' in a prominent position at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.142,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.25
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "New season drops",
+      "description": "A bold, white headline stating 'A new season drops' positioned centrally, conveying excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.263,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.391
+      ],
+      "area_percentage": 15.1
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Start free today",
+      "description": "A smaller white text below the headline that reads 'Start free today', inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.52
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom with the text 'Install now' in white, encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "Various abstract shapes in lighter shades of red and pink scattered throughout the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.62
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "top left element",
+      "description": "A small circular shape positioned at the top left, adding to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "bottom left element",
+      "description": "A small oval shape located towards the bottom left, contributing to the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "bottom right element",
+      "description": "A small circular shape positioned at the bottom right, enhancing the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "center element",
+      "description": "A square shape in the center, adding visual interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "bottom decorative element",
+      "description": "A small decorative element at the bottom, providing balance to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "promotional text",
+      "description": "Text at the bottom stating 'A new season drops Start free today', emphasizing the promotional offer.",
+      "text_content": "new season drops Start free today",
+      "bbox_xyxy": [
+        98,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.549,
+        0.714
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "StarVault headline",
+      "description": "The prominent 'StarVault' text at the top, designed to catch the viewer's attention.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        26,
+        40,
+        312,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.867,
+        0.15
+      ],
+      "center_normalized": [
+        0.469,
+        0.106
+      ],
+      "area_percentage": 6.95
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Install now text",
+      "description": "A call-to-action text 'Install now' at the bottom, encouraging immediate action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and vibrant, StarVault logo, promotional text.",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "StarVault, A new season drops, Start free today, Install now",
+    "elements_text": "logo: The logo features bold, stylized text reading 'StarVault' in a prominent position at the top. | headline: A bold, white headline stating 'A new season drops' positioned centrally, conveying excitement. | body_text: A smaller white text below the headline that reads 'Start free today', inviting action. | cta: A rounded button at the bottom with the text 'Install now' in white, encouraging user interaction. | decorative_element: Various abstract shapes in lighter shades of red and pink scattered throughout the background. | unknown: A small circular shape positioned at the top left, adding to the abstract design. | unknown: A small oval shape located towards the bottom left, contributing to the overall aesthetic. | unknown: A small circular shape positioned at the bottom right, enhancing the abstract theme. | unknown: A square shape in the center, adding visual interest to the composition. | unknown: A small decorative element at the bottom, providing balance to the layout. | body_text: Text at the bottom stating 'A new season drops Start free today', emphasizing the promotional offer. text='new season drops Start free today' | headline: The prominent 'StarVault' text at the top, designed to catch the viewer's attention. text='StarVault' | cta: A call-to-action text 'Install now' at the bottom, encouraging immediate action. text='Install now'"
+  }
+}

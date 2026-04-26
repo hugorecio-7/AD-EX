@@ -1,0 +1,458 @@
+{
+  "creative_id": "500963",
+  "asset_file": "assets/creative_500963.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with food icons and promotional text.",
+    "visual_style": "bold and colorful",
+    "main_message": "Promoting a 2-for-1 food offer with a sense of urgency.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "red background",
+      "description": "A vibrant red background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.997,
+        0.177
+      ],
+      "center_normalized": [
+        0.499,
+        0.088
+      ],
+      "area_percentage": 17.62
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "three icons",
+      "description": "Three outlined icons representing food items, arranged in a horizontal line.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        90,
+        244,
+        145
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.282,
+        0.765,
+        0.456
+      ],
+      "center_normalized": [
+        0.582,
+        0.369
+      ],
+      "area_percentage": 6.37
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "three icons",
+      "description": "Another set of three outlined icons representing food items, similar to the previous set.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        90,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.679,
+        0.369
+      ],
+      "area_percentage": 3.04
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "three icons",
+      "description": "A third set of three outlined icons representing food items, arranged similarly.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        99,
+        174,
+        154
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.544,
+        0.483
+      ],
+      "center_normalized": [
+        0.458,
+        0.397
+      ],
+      "area_percentage": 2.95
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "single icon",
+      "description": "A single outlined icon representing a food item, positioned slightly lower than the previous sets.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small outlined icon representing a food item, located towards the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small outlined icon representing a food item, positioned towards the bottom right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        179
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.382,
+        0.999,
+        0.56
+      ],
+      "center_normalized": [
+        0.976,
+        0.471
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "small icon",
+      "description": "Another small outlined icon representing a food item, located above the previous icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        145
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.281,
+        0.999,
+        0.454
+      ],
+      "center_normalized": [
+        0.976,
+        0.368
+      ],
+      "area_percentage": 0.79
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "small decorative element",
+      "description": "A small decorative element in the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        58,
+        21,
+        88
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.182,
+        0.067,
+        0.276
+      ],
+      "center_normalized": [
+        0.036,
+        0.229
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "small decorative element",
+      "description": "A small decorative element in the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        304,
+        58,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.952,
+        0.182,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small outlined icon representing a food item, located towards the bottom right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "icon",
+      "label": "small icon",
+      "description": "Another small outlined icon representing a food item, positioned above the previous icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "icon",
+      "label": "small icon",
+      "description": "A small outlined icon representing a food item, located further down on the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "main offer text",
+      "description": "Bold white text stating '2-for-1 tonight Fresh favorites nearby 30% Watch now' centered at the bottom.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby 30% Watch now",
+      "bbox_xyxy": [
+        30,
+        203,
+        277,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.634,
+        0.866,
+        0.934
+      ],
+      "center_normalized": [
+        0.48,
+        0.784
+      ],
+      "area_percentage": 23.16
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "number '2'",
+      "description": "A prominent '2' in bold text, indicating the offer, located in the center.",
+      "text_content": "2",
+      "bbox_xyxy": [
+        52,
+        90,
+        106,
+        154
+      ],
+      "bbox_normalized": [
+        0.163,
+        0.281,
+        0.331,
+        0.481
+      ],
+      "center_normalized": [
+        0.247,
+        0.381
+      ],
+      "area_percentage": 3.38
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' in bold text, positioned at the top left.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A yellow badge with the word 'SALE' in bold text, located at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 18,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        55,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.172,
+        0.222
+      ],
+      "center_normalized": [
+        0.125,
+        0.2
+      ],
+      "area_percentage": 0.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bold and colorful, 2-for-1 offer, food icons",
+    "layout_text": "The logo is at the top left, the main offer text is centered at the bottom, and icons are scattered throughout.",
+    "ocr_text": "2-for-1 tonight Fresh favorites nearby 30% Watch now, FreshDash, SALE, UGC, 2",
+    "elements_text": "main_subject: Three outlined icons representing food items, arranged in a horizontal line. | main_subject: Another set of three outlined icons representing food items, similar to the previous set. | main_subject: A third set of three outlined icons representing food items, arranged similarly. | main_subject: A single outlined icon representing a food item, positioned slightly lower than the previous sets. | icon: A small outlined icon representing a food item, located towards the bottom left. | icon: A small outlined icon representing a food item, positioned towards the bottom right. | icon: Another small outlined icon representing a food item, located above the previous icon. | decorative_element: A small decorative element in the top left corner. | decorative_element: A small decorative element in the top right corner. | icon: A small outlined icon representing a food item, located towards the bottom right. | icon: Another small outlined icon representing a food item, positioned above the previous icon. | icon: A small outlined icon representing a food item, located further down on the right. | body_text: Bold white text stating '2-for-1 tonight Fresh favorites nearby 30% Watch now' centered at the bottom. text='2-for-1 tonight Fresh favorites nearby 30% Watch now' | body_text: A prominent '2' in bold text, indicating the offer, located in the center. text='2' | logo: The logo 'FreshDash' in bold text, positioned at the top left. text='FreshDash' | discount_badge: A yellow badge with the word 'SALE' in bold text, located at the top right. text='SALE' | social_proof: A small label reading 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

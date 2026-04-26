@@ -1,0 +1,290 @@
+{
+  "creative_id": "500367",
+  "asset_file": "assets/creative_500367.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent brand name at the top and a call to action at the bottom, with decorative shapes in the center.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product with a special offer.",
+    "dominant_colors": [
+      "#FF6F61",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "Three overlapping rectangular shapes with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "Another set of three overlapping rectangular shapes with rounded corners, slightly larger than the previous ones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "A smaller set of three overlapping rectangular shapes with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A single rectangular shape with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "Another rectangular shape with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A smaller rectangular shape with rounded corners, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small, rounded rectangular button at the bottom with the text 'Get offer' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.263,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small, rounded rectangular shape at the bottom, positioned next to the CTA.",
+      "text_content": null,
+      "bbox_xyxy": [
+        85,
+        269,
+        97,
+        281
+      ],
+      "bbox_normalized": [
+        0.268,
+        0.841,
+        0.305,
+        0.879
+      ],
+      "center_normalized": [
+        0.286,
+        0.86
+      ],
+      "area_percentage": 0.14
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "A large, bold text at the bottom stating 'Your next favorite pick €19, 9 Get offer' in a clear font.",
+      "text_content": "Your next favorite pick €19, 9 Get offer",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "A prominent, bold headline at the top stating 'LuxShelf' in a large font.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        7,
+        21,
+        275,
+        81
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.066,
+        0.859,
+        0.253
+      ],
+      "center_normalized": [
+        0.441,
+        0.159
+      ],
+      "area_percentage": 15.7
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, LuxShelf, promotional text, call to action.",
+    "layout_text": "The headline 'LuxShelf' is positioned at the top, the main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "LuxShelf, Your next favorite pick, €19, 9 Get offer, Get offer",
+    "elements_text": "unknown: Three overlapping rectangular shapes with rounded corners, positioned centrally. | unknown: Another set of three overlapping rectangular shapes with rounded corners, slightly larger than the previous ones. | unknown: A smaller set of three overlapping rectangular shapes with rounded corners, positioned centrally. | unknown: A single rectangular shape with rounded corners, positioned centrally. | unknown: Another rectangular shape with rounded corners, positioned centrally. | unknown: A smaller rectangular shape with rounded corners, positioned centrally. | cta: A small, rounded rectangular button at the bottom with the text 'Get offer' in a bold font. | unknown: Another small, rounded rectangular shape at the bottom, positioned next to the CTA. | body_text: A large, bold text at the bottom stating 'Your next favorite pick €19, 9 Get offer' in a clear font. text='Your next favorite pick €19, 9 Get offer' | headline: A prominent, bold headline at the top stating 'LuxShelf' in a large font. text='LuxShelf'"
+  }
+}

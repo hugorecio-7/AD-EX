@@ -1,0 +1,170 @@
+{
+  "creative_id": "501070",
+  "asset_file": "assets/creative_501070.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold orange background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty plate outline",
+      "description": "A simple outline of a plate, centered in the ad, with no fill color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating 'Fast food, fast' with a smaller line below it saying 'Free delivery over $15'.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "The word 'PlateSprint' in large, bold black font at the top of the ad.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        23,
+        31,
+        252,
+        82
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.048,
+        0.7,
+        0.128
+      ],
+      "center_normalized": [
+        0.382,
+        0.088
+      ],
+      "area_percentage": 5.07
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded white button at the bottom with the text 'Watch now' in bold black font.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text at the bottom left displaying '$4.99' in bold black font.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promotional text and call to action",
+    "layout_text": "The logo is at the top, followed by the body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, PlateSprint, Watch now, $4.99",
+    "elements_text": "unknown: A simple outline of a plate, centered in the ad, with no fill color. | body_text: Bold white text stating 'Fast food, fast' with a smaller line below it saying 'Free delivery over $15'. text='Fast food, fast Free delivery over $15' | logo: The word 'PlateSprint' in large, bold black font at the top of the ad. text='PlateSprint' | cta: A rounded white button at the bottom with the text 'Watch now' in bold black font. text='Watch now' | price: A small text at the bottom left displaying '$4.99' in bold black font. text='$4.99'"
+  }
+}

@@ -59,7 +59,8 @@ export default function CreativeChatModal({ creative, isOpen, onClose }) {
 
   const greeting = useMemo(() => {
     if (!creative) return '';
-    return ui.greeting(creative.subject);
+    const brand = creative.advertiser || creative.advertiser_name || creative.subject || 'Smadex';
+    return ui.greeting(brand);
   }, [creative, ui]);
 
   useEffect(() => {
@@ -126,7 +127,9 @@ export default function CreativeChatModal({ creative, isOpen, onClose }) {
           <div className="flex items-start justify-between mb-6">
             <div>
               <p className="text-[10px] uppercase tracking-[0.25em] text-indigo-300 font-black">Creative Coach</p>
-              <h3 className="text-2xl font-black tracking-tighter italic uppercase mt-2">{creative.subject}</h3>
+              <h3 className="text-2xl font-black tracking-tighter italic uppercase mt-2">
+                {creative.advertiser || creative.advertiser_name || creative.subject || 'Smadex'}
+              </h3>
             </div>
             <button
               onClick={onClose}
@@ -157,11 +160,10 @@ export default function CreativeChatModal({ creative, isOpen, onClose }) {
                   <button
                     key={opt.value}
                     onClick={() => setLanguage(opt.value)}
-                    className={`px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors ${
-                      language === opt.value
+                    className={`px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wide transition-colors ${language === opt.value
                         ? 'bg-indigo-600 text-white shadow'
                         : 'text-slate-500 hover:bg-white'
-                    }`}
+                      }`}
                     disabled={isSending}
                     type="button"
                   >
@@ -188,11 +190,10 @@ export default function CreativeChatModal({ creative, isOpen, onClose }) {
             {messages.map((m) => (
               <div key={m.id} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 <div
-                  className={`max-w-[90%] md:max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${
-                    m.role === 'user'
+                  className={`max-w-[90%] md:max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-sm ${m.role === 'user'
                       ? 'bg-indigo-600 text-white rounded-br-md'
                       : 'bg-white border border-slate-200 text-slate-700 rounded-bl-md'
-                  }`}
+                    }`}
                 >
                   {m.content}
                 </div>

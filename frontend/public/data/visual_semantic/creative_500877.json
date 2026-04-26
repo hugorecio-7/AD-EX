@@ -1,0 +1,194 @@
+{
+  "creative_id": "500877",
+  "asset_file": "assets/creative_500877.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with abstract shapes and clear messaging.",
+    "visual_style": "minimalist with geometric shapes",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, are centered in the ad, rendered in a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Secure & simple' is prominently displayed in bold, white font, conveying a clear and inviting message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional message text",
+      "description": "The phrase 'No hidden fees' appears below the main message in a smaller, white font, adding clarity to the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom of the ad reads 'Learn more' in bold, white text against a blue background.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'EarnPath' is displayed in a small, white font at the top left corner of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular icon",
+      "description": "A small circular icon is positioned near the abstract shapes, adding a decorative touch to the overall design.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with geometric shapes, secure & simple messaging",
+    "layout_text": "The headline is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, No hidden fees, Learn more, EarnPath",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one square, are centered in the ad, rendered in a lighter shade of blue. | body_text: The text 'Secure & simple' is prominently displayed in bold, white font, conveying a clear and inviting message. | body_text: The phrase 'No hidden fees' appears below the main message in a smaller, white font, adding clarity to the offer. | cta: A rounded rectangular button at the bottom of the ad reads 'Learn more' in bold, white text against a blue background. text='Secure & simple No hidden fees' | headline: The brand name 'EarnPath' is displayed in a small, white font at the top left corner of the ad. text='Learn more' | decorative_element: A small circular icon is positioned near the abstract shapes, adding a decorative touch to the overall design. text='EarnPath'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500879",
+  "asset_file": "assets/creative_500879.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with clear messaging and a call to action.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting financial clarity and inviting users to book a service.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.198,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 48.6
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "EarnPath logo",
+      "description": "A simple, modern logo featuring the text 'EarnPath' in a clean font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Your money, clearer' is displayed prominently in a bold font, conveying clarity and trust.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional information",
+      "description": "A smaller text below the main message reads 'No hidden fees', emphasizing transparency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Book now' in a contrasting color, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular graphic",
+      "description": "A simple circular graphic element that adds visual interest without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Rectangular graphic",
+      "description": "A rectangular shape that complements the overall design, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        126,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 7.05
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small circular graphic",
+      "description": "A smaller circular graphic that adds a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small, abstract shape that does not convey specific information but adds to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Another small graphic",
+      "description": "Another small abstract shape, similar to the previous one, enhancing the visual complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Your money, clearer Book now' is displayed prominently, encouraging immediate action.",
+      "text_content": "Your money, clearer Book now",
+      "bbox_xyxy": [
+        63,
+        205,
+        257,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.641,
+        0.803,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.787
+      ],
+      "area_percentage": 17.81
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "EarnPath logo",
+      "description": "A simple, modern logo featuring the text 'EarnPath' in a clean font, positioned at the top of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        23,
+        113,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.353,
+        0.134
+      ],
+      "center_normalized": [
+        0.212,
+        0.103
+      ],
+      "area_percentage": 1.76
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, EarnPath logo, call to action.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Book now, EarnPath",
+    "elements_text": "headline: A simple, modern logo featuring the text 'EarnPath' in a clean font, positioned at the top of the ad. | body_text: The text 'Your money, clearer' is displayed prominently in a bold font, conveying clarity and trust. | body_text: A smaller text below the main message reads 'No hidden fees', emphasizing transparency. | cta: A rectangular button with the text 'Book now' in a contrasting color, inviting user interaction. | decorative_element: A simple circular graphic element that adds visual interest without distracting from the main message. | decorative_element: A rectangular shape that complements the overall design, positioned centrally within the ad. | decorative_element: A smaller circular graphic that adds a playful touch to the design. | unknown: A small, abstract shape that does not convey specific information but adds to the overall design. | unknown: Another small abstract shape, similar to the previous one, enhancing the visual complexity. | body_text: The text 'Your money, clearer Book now' is displayed prominently, encouraging immediate action. text='Your money, clearer Book now' | headline: A simple, modern logo featuring the text 'EarnPath' in a clean font, positioned at the top of the ad. text='EarnPath'"
+  }
+}

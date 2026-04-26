@@ -1,0 +1,218 @@
+{
+  "creative_id": "500970",
+  "asset_file": "assets/creative_500970.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear call to action and engaging content.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to explore trending content on the PulsePlay app.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        471
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.737
+      ],
+      "center_normalized": [
+        0.501,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A simplified app interface featuring a circular and square shape in muted tones, suggesting a user-friendly design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "A combination of geometric shapes, including a circle and a square, adds visual interest to the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "UGC label",
+      "description": "A small icon labeled 'UGC' in white, positioned at the top left corner, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Trending message",
+      "description": "A bold, white headline stating 'Watch what's trending' with a smaller subtext 'New hits every week' below it.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The logo 'PulsePlay' appears at the top of the ad in a prominent font, colored white against the purple background.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        27,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.042,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.085
+      ],
+      "area_percentage": 4.7
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install button",
+      "description": "A rounded button at the bottom with the text 'Install now' in white, inviting users to take action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small icon labeled 'UGC' in white, positioned at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, PulsePlay logo, trending message, install button",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with the CTA button at the bottom.",
+    "ocr_text": "PulsePlay, Watch what's trending, New hits every week, Install now, UGC",
+    "elements_text": "app_screenshot: A simplified app interface featuring a circular and square shape in muted tones, suggesting a user-friendly design. | decorative_element: A combination of geometric shapes, including a circle and a square, adds visual interest to the app interface. | icon: A small icon labeled 'UGC' in white, positioned at the top left corner, indicating user-generated content. | headline: A bold, white headline stating 'Watch what's trending' with a smaller subtext 'New hits every week' below it. text='Watch what's trending New hits every week' | logo: The logo 'PulsePlay' appears at the top of the ad in a prominent font, colored white against the purple background. text='PulsePlay' | cta: A rounded button at the bottom with the text 'Install now' in white, inviting users to take action. text='Install now' | icon: A small icon labeled 'UGC' in white, positioned at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

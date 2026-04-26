@@ -1,0 +1,266 @@
+{
+  "creative_id": "500331",
+  "asset_file": "assets/creative_500331.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a light gray background with a central product outline and promotional text.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting a discount on a product with a call to action.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "light gray background",
+      "description": "A light gray background fills the entire canvas, providing a neutral base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        55,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.087,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.543
+      ],
+      "area_percentage": 91.21
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "product outline",
+      "description": "An outline of a product, possibly a phone or device, is centered in the ad, suggesting a focus on the item.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.181,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.59
+      ],
+      "area_percentage": 81.84
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "circular shapes",
+      "description": "Two circular shapes are positioned below the product outline, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        295
+      ],
+      "bbox_normalized": [
+        0.148,
+        0.281,
+        0.33,
+        0.461
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "The logo 'ZenDrop' is displayed at the top, featuring a modern font that conveys a contemporary brand image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small 'SALE' badge is positioned at the top right, using bold typography to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "discount offer",
+      "description": "The text 'Up to 40% off Free shipping over $25' is prominently displayed in a large, bold font, emphasizing the promotional offer.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.508,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' is located at the bottom, designed to encourage immediate action.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.304,
+        0.087
+      ],
+      "area_percentage": 4.12
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "price tag",
+      "description": "The price '€9.99' is displayed in a clear, bold font at the bottom, indicating the cost of the product.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, discount offer, call to action.",
+    "layout_text": "The logo is at the top, the product outline is centered, the headline is below the product, and the CTA is at the bottom.",
+    "ocr_text": "Up to 40% off Free shipping over $25, ZenDrop, Shop now, €9.99, SALE",
+    "elements_text": "main_subject: An outline of a product, possibly a phone or device, is centered in the ad, suggesting a focus on the item. | decorative_element: Two circular shapes are positioned below the product outline, adding a decorative touch to the design. | logo: The logo 'ZenDrop' is displayed at the top, featuring a modern font that conveys a contemporary brand image. | discount_badge: A small 'SALE' badge is positioned at the top right, using bold typography to attract attention. | headline: The text 'Up to 40% off Free shipping over $25' is prominently displayed in a large, bold font, emphasizing the promotional offer. text='Up to 40% off Free shipping over $25' | cta: A rounded button with the text 'Shop now' is located at the bottom, designed to encourage immediate action. text='ZenDrop' | price: The price '€9.99' is displayed in a clear, bold font at the bottom, indicating the cost of the product. text='Shop now' | unknown:  text='€9.99' | unknown:  text='SALE'"
+  }
+}
