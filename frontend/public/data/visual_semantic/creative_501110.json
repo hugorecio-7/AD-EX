@@ -1,0 +1,218 @@
+{
+  "creative_id": "501110",
+  "asset_file": "assets/creative_501110.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a combination of logos, a headline, and a call-to-action button against a textured background.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting hotel and flight bookings with a focus on convenience.",
+    "dominant_colors": [
+      "turquoise",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "Fly smarter Hotels",
+      "description": "A bold, modern font displaying the text 'Fly smarter Hotels flights in one tap' in a vibrant turquoise color.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        59,
+        309,
+        259,
+        357
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.644,
+        0.809,
+        0.744
+      ],
+      "center_normalized": [
+        0.497,
+        0.694
+      ],
+      "area_percentage": 6.25
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "MWOX logo",
+      "description": "A stylized logo with the text '[CUcll] MWOX' in a bright yellow color, positioned at the top of the ad.",
+      "text_content": "[CUcll] MWOX",
+      "bbox_xyxy": [
+        236,
+        111,
+        320,
+        156
+      ],
+      "bbox_normalized": [
+        0.738,
+        0.231,
+        1.0,
+        0.325
+      ],
+      "center_normalized": [
+        0.869,
+        0.278
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "A simple logo featuring the text 'WayPoint' in a clean, bold font at the top left corner.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        23,
+        27,
+        142,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.444,
+        0.119
+      ],
+      "center_normalized": [
+        0.258,
+        0.087
+      ],
+      "area_percentage": 2.32
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button with the text 'Get offer' in white on a turquoise background, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        119,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.503,
+        0.894
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Qaaoa8 text",
+      "description": "A small, unclear text element labeled 'Qaaoa8:' in a muted color, positioned in the center of the ad.",
+      "text_content": "Qaaoa8:",
+      "bbox_xyxy": [
+        119,
+        217,
+        197,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.452,
+        0.616,
+        0.485
+      ],
+      "center_normalized": [
+        0.494,
+        0.469
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Icrioo text",
+      "description": "A small text element labeled 'Icrioo' in a light color, located at the top left corner.",
+      "text_content": "Icrioo",
+      "bbox_xyxy": [
+        0,
+        109,
+        55,
+        125
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.227,
+        0.172,
+        0.26
+      ],
+      "center_normalized": [
+        0.086,
+        0.244
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow badge with the text 'SALE' in bold, contrasting color, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, Fly smarter Hotels flights in one tap, Get offer button",
+    "layout_text": "The headline is centered, logos are at the top, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter Hotels flights in one tap, [CUcll] MWOX, WayPoint, Get offer, Qaaoa8:, Icrioo, SALE",
+    "elements_text": "headline: A bold, modern font displaying the text 'Fly smarter Hotels flights in one tap' in a vibrant turquoise color. text='Fly smarter Hotels flights in one tap' | logo: A stylized logo with the text '[CUcll] MWOX' in a bright yellow color, positioned at the top of the ad. text='[CUcll] MWOX' | logo: A simple logo featuring the text 'WayPoint' in a clean, bold font at the top left corner. text='WayPoint' | cta: A rounded button with the text 'Get offer' in white on a turquoise background, located at the bottom of the ad. text='Get offer' | unknown: A small, unclear text element labeled 'Qaaoa8:' in a muted color, positioned in the center of the ad. text='Qaaoa8:' | unknown: A small text element labeled 'Icrioo' in a light color, located at the top left corner. text='Icrioo' | discount_badge: A bright yellow badge with the text 'SALE' in bold, contrasting color, positioned at the top right corner. text='SALE'"
+  }
+}

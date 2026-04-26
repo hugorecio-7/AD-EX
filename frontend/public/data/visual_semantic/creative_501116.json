@@ -1,0 +1,242 @@
+{
+  "creative_id": "501116",
+  "asset_file": "assets/creative_501116.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on travel services.",
+    "visual_style": "minimalist with vibrant colors",
+    "main_message": "Promoting a travel app for booking hotels and flights easily.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple abstract background",
+      "description": "A smooth purple gradient background with abstract shapes subtly integrated.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "RouteBloon",
+      "description": "Bold, large text at the top of the ad, prominently displaying the brand name 'RouteBloon' in a striking font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        104,
+        359,
+        230
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.163,
+        0.998,
+        0.359
+      ],
+      "center_normalized": [
+        0.499,
+        0.261
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Fly smarter message",
+      "description": "Medium-sized text in white, conveying the message 'Fly smarter Hotels flights in one tap' with a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, light-colored circle positioned near the center, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Medium square",
+      "description": "A medium-sized square shape in a lighter shade, positioned centrally to enhance the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand logo 'RouteBloon' displayed prominently at the top, designed to capture attention.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        28,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.539,
+        0.106
+      ],
+      "area_percentage": 8.07
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Service description",
+      "description": "Text describing the service offered, 'Fly smarter Hotels flights in one tap', presented in a clear and engaging manner.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        295,
+        467
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.819,
+        0.73
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.59
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button labeled 'Get offer' at the bottom, encouraging users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with vibrant colors, RouteBloon, travel services.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "RouteBloon, Fly smarter Hotels flights in one tap, Get offer",
+    "elements_text": "headline: Bold, large text at the top of the ad, prominently displaying the brand name 'RouteBloon' in a striking font. | body_text: Medium-sized text in white, conveying the message 'Fly smarter Hotels flights in one tap' with a clean and modern font. | cta: A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color, inviting user interaction. | decorative_element: A small, light-colored circle positioned near the center, adding a decorative touch to the layout. | decorative_element: A medium-sized square shape in a lighter shade, positioned centrally to enhance the visual interest. | logo: The brand logo 'RouteBloon' displayed prominently at the top, designed to capture attention. text='RouteBloon' | body_text: Text describing the service offered, 'Fly smarter Hotels flights in one tap', presented in a clear and engaging manner. text='Fly smarter Hotels flights in one tap' | cta: A clear and inviting button labeled 'Get offer' at the bottom, encouraging users to take action. text='Get offer'"
+  }
+}

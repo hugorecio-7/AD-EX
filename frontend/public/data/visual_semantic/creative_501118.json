@@ -1,0 +1,194 @@
+{
+  "creative_id": "501118",
+  "asset_file": "assets/creative_501118.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of promotional text and branding elements centered around travel.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting travel destinations with flexible booking options.",
+    "dominant_colors": [
+      "white",
+      "blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A visually ambiguous element located at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        115,
+        193,
+        239,
+        333
+      ],
+      "bbox_normalized": [
+        0.321,
+        0.302,
+        0.665,
+        0.521
+      ],
+      "center_normalized": [
+        0.493,
+        0.412
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another visually ambiguous element positioned at the center, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        116,
+        222,
+        239,
+        333
+      ],
+      "bbox_normalized": [
+        0.323,
+        0.348,
+        0.665,
+        0.521
+      ],
+      "center_normalized": [
+        0.494,
+        0.435
+      ],
+      "area_percentage": 5.95
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Top headline text",
+      "description": "A thin strip of text at the top of the ad, likely serving as a headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        204,
+        0,
+        351,
+        11
+      ],
+      "bbox_normalized": [
+        0.568,
+        0.0,
+        0.976,
+        0.018
+      ],
+      "center_normalized": [
+        0.772,
+        0.009
+      ],
+      "area_percentage": 0.72
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A large block of text at the bottom, featuring promotional content about travel destinations and pricing.",
+      "text_content": "Acaritious Dream destinations await Flexible booking options €29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        376,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.588,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.748
+      ],
+      "area_percentage": 23.49
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A logo at the top, featuring the brand name 'DriftPass' in a bold font.",
+      "text_content": "DriftPass UGC",
+      "bbox_xyxy": [
+        26,
+        37,
+        303,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.842,
+        0.198
+      ],
+      "center_normalized": [
+        0.457,
+        0.128
+      ],
+      "area_percentage": 10.82
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "A small text element at the center, possibly a brand or product name.",
+      "text_content": "Hamm",
+      "bbox_xyxy": [
+        142,
+        348,
+        216,
+        374
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.544,
+        0.6,
+        0.584
+      ],
+      "center_normalized": [
+        0.497,
+        0.564
+      ],
+      "area_percentage": 0.84
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and clean, travel destinations, flexible booking options",
+    "layout_text": "The headline is at the top, the logo is also at the top, the main promotional text is at the bottom, and additional text is centered.",
+    "ocr_text": "Acaritious Dream destinations await, Flexible booking options, €29.99, Install now, DriftPass UGC, Hamm",
+    "elements_text": "unknown: A visually ambiguous element located at the center of the ad. | unknown: Another visually ambiguous element positioned at the center, possibly decorative. | headline: A thin strip of text at the top of the ad, likely serving as a headline. | body_text: A large block of text at the bottom, featuring promotional content about travel destinations and pricing. text='Acaritious Dream destinations await Flexible booking options €29.99 Install now' | logo: A logo at the top, featuring the brand name 'DriftPass' in a bold font. text='DriftPass UGC' | body_text: A small text element at the center, possibly a brand or product name. text='Hamm'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "501096",
+  "asset_file": "assets/creative_501096.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and geometric elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to join and compete for rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A stylized logo with the text 'NeonArena' in bold, bright colors, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        116,
+        224
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.239,
+        0.323,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.51
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Beat your rivals Free rewards for new players' in a clear, bold font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.38,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.48,
+        0.436
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A geometric shape or design element positioned at the top, possibly in a bright color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.594,
+        0.351
+      ],
+      "center_normalized": [
+        0.482,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "Another geometric shape or design element located in the center, complementing the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        116,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.323,
+        0.49
+      ],
+      "center_normalized": [
+        0.211,
+        0.435
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left element",
+      "description": "A small, possibly interactive element located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.295
+      ],
+      "center_normalized": [
+        0.069,
+        0.238
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small element positioned at the top right, likely decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        204
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.913,
+        0.28
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center small element",
+      "description": "A small element located in the center, possibly an icon or button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.389,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.419,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top center small element",
+      "description": "A small decorative element at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top left small element",
+      "description": "A small element located at the top left, possibly an icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center bottom small element",
+      "description": "A small element located at the center bottom, possibly an interactive feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The prominent headline 'NeonArena' displayed in a large, eye-catching font.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        40,
+        354,
+        92
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.983,
+        0.144
+      ],
+      "center_normalized": [
+        0.531,
+        0.103
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Secondary message text",
+      "description": "A secondary message in bold text, emphasizing rewards for new players.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.683
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call to action button labeled 'Start now' at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, NeonArena logo, main message text, call to action.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Beat your rivals Free rewards for new players, Start now",
+    "elements_text": "logo: A stylized logo with the text 'NeonArena' in bold, bright colors, prominently displayed at the top. | body_text: Text that reads 'Beat your rivals Free rewards for new players' in a clear, bold font, centered in the ad. | unknown: A geometric shape or design element positioned at the top, possibly in a bright color. | unknown: Another geometric shape or design element located in the center, complementing the main message. | unknown: A small, possibly interactive element located at the top left of the ad. | unknown: A small element positioned at the top right, likely decorative or functional. | unknown: A small element located in the center, possibly an icon or button. | unknown: A small decorative element at the top center of the ad. | unknown: A small element located at the top left, possibly an icon. | unknown: A small element located at the center bottom, possibly an interactive feature. | headline: The prominent headline 'NeonArena' displayed in a large, eye-catching font. text='NeonArena' | body_text: A secondary message in bold text, emphasizing rewards for new players. text='Beat your rivals Free rewards for new players' | cta: A clear call to action button labeled 'Start now' at the bottom of the ad. text='Start now'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "501103",
+  "asset_file": "assets/creative_501103.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant logo and promotional text against a textured background.",
+    "visual_style": "bright and playful",
+    "main_message": "Compete in NeonArena and earn rewards.",
+    "dominant_colors": [
+      "neon green",
+      "dark gray"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Textured abstract background",
+      "description": "A textured abstract background with muted colors, providing a subtle backdrop for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        205,
+        359,
+        503
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.32,
+        0.998,
+        0.787
+      ],
+      "center_normalized": [
+        0.499,
+        0.554
+      ],
+      "area_percentage": 46.6
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Call to action area",
+      "description": "A dark rectangular area at the bottom of the ad, likely containing a button or text for user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        468,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.731,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.865
+      ],
+      "area_percentage": 26.76
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small, unclear element that does not have a distinct visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        295,
+        274,
+        397
+      ],
+      "bbox_normalized": [
+        0.458,
+        0.461,
+        0.762,
+        0.621
+      ],
+      "center_normalized": [
+        0.61,
+        0.541
+      ],
+      "area_percentage": 4.87
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small, unclear element that does not have a distinct visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        343,
+        78,
+        409
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.537,
+        0.217,
+        0.64
+      ],
+      "center_normalized": [
+        0.109,
+        0.588
+      ],
+      "area_percentage": 2.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A small button at the bottom of the ad with a clear call to action, likely inviting users to engage.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        503,
+        359,
+        511
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.786,
+        0.998,
+        0.8
+      ],
+      "center_normalized": [
+        0.499,
+        0.793
+      ],
+      "area_percentage": 1.37
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small, unclear element that does not have a distinct visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        273,
+        386,
+        313,
+        398
+      ],
+      "bbox_normalized": [
+        0.76,
+        0.605,
+        0.872,
+        0.622
+      ],
+      "center_normalized": [
+        0.816,
+        0.613
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A prominent logo at the top of the ad, featuring bold, bright text that stands out against the background.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        37,
+        359,
+        97
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.058,
+        0.997,
+        0.152
+      ],
+      "center_normalized": [
+        0.537,
+        0.105
+      ],
+      "area_percentage": 8.62
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "A large, eye-catching text in the center of the ad, promoting the game and offering rewards for new players.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.683
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Start now text",
+      "description": "A small text at the bottom of the ad, encouraging immediate action from the viewer.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, NeonArena logo, promotional text.",
+    "layout_text": "The logo is positioned at the top, the main promotional text is centered, and the call to action is at the bottom.",
+    "ocr_text": "NeonArena, Beat your rivals, Free rewards for new players, Start now",
+    "elements_text": "body_text: A dark rectangular area at the bottom of the ad, likely containing a button or text for user interaction. | unknown: A small, unclear element that does not have a distinct visual identity. | unknown: A small, unclear element that does not have a distinct visual identity. | cta: A small button at the bottom of the ad with a clear call to action, likely inviting users to engage. | unknown: A small, unclear element that does not have a distinct visual identity. | logo: A prominent logo at the top of the ad, featuring bold, bright text that stands out against the background. text='NeonArena' | headline: A large, eye-catching text in the center of the ad, promoting the game and offering rewards for new players. text='Beat your rivals Free rewards for new players' | cta: A small text at the bottom of the ad, encouraging immediate action from the viewer. text='Start now'"
+  }
+}

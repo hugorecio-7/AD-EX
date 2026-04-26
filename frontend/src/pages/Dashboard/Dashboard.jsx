@@ -208,7 +208,6 @@ function Dashboard() {
         <header className="mb-12 flex justify-between items-end">
           <div>
             <h2 className="text-4xl font-black mb-3 tracking-tighter text-slate-900 italic uppercase underline decoration-indigo-500 decoration-8 underline-offset-4">Asset Performance</h2>
-            <p className="text-slate-500 font-medium">Monitoring Smadex Creative Dataset: <code>creatives_v1.csv</code></p>
           </div>
           <div className="flex gap-4">
             <button 
@@ -227,6 +226,14 @@ function Dashboard() {
               <div className="px-6 py-3 bg-red-50 border border-red-100 rounded-3xl shadow-xl shadow-red-200/50 flex items-center gap-3 animate-bounce">
                 <span className="w-3 h-3 bg-red-500 rounded-full"></span>
                 <span className="font-black text-xs uppercase tracking-widest text-red-600">{fatiguedCount} Assets Fatigued</span>
+              </div>
+            )}
+            {creatives.length > 0 && (
+              <div className="px-6 py-3 bg-indigo-50 border border-indigo-100 rounded-3xl shadow-xl shadow-indigo-200/50 flex items-center gap-3">
+                <span className="w-3 h-3 bg-indigo-500 rounded-full"></span>
+                <span className="font-black text-xs uppercase tracking-widest text-indigo-600">
+                  Avg Score: {(creatives.reduce((a, c) => a + (c.performance_score || 0), 0) / creatives.length).toFixed(2)}
+                </span>
               </div>
             )}
             <div className="px-6 py-3 bg-white rounded-3xl border border-slate-100 shadow-xl shadow-slate-200/50 flex items-center gap-3">

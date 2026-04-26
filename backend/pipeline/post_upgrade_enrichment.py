@@ -25,17 +25,24 @@ FEATURES_DIR    = _PROJECT / "output" / "features"
 
 def _run(original_id: str, new_id: str, new_image_path: str | Path) -> None:
     """Called in a background thread — does NOT raise to the caller."""
+    import time as _time
+    # ── PRIORITY: Wait for the RNN forecast to finish first ──
+    # The UI is actively waiting for the /predict endpoint (RNN on GPU).
+    # If we load SAM immediately, it steals CUDA memory and the forecast hangs.
+    print(f"[PostUpgrade] ── Enrichment for {new_id} queued (15s delay for RNN priority) ──")
+    _time.sleep(15)
+    
     new_image_path = Path(new_image_path)
-    print(f"[PostUpgrade] Starting enrichment for {new_id} ...")
+    print(f"[PostUpgrade] ── Starting enrichment for {new_id} ──")
 
     # ── 0. Ensure the image exists in the public assets directory ─────────────
     dst_asset = ASSETS_DIR / f"creative_{new_id}.png"
     if not dst_asset.exists() and new_image_path.exists():
         try:
             shutil.copy2(new_image_path, dst_asset)
-            print(f"[PostUpgrade] Copied image → {dst_asset}")
+            print(f"[PostUpgrade] Step 0 ✓ Copied image → {dst_asset}")
         except Exception as e:
-            print(f"[PostUpgrade] Warning: could not copy image: {e}")
+            print(f"[PostUpgrade] Step 0 Warning: could not copy image: {e}")
 
     # Use whichever exists
     image_to_use = dst_asset if dst_asset.exists() else new_image_path
@@ -54,26 +61,40 @@ def _run(original_id: str, new_id: str, new_image_path: str | Path) -> None:
             project_root=str(_PROJECT),
             output_dir=str(output_dir),
         )
-        print(f"[PostUpgrade] ✓ Mask + elements_data.json → {output_dir}")
+        print(f"[PostUpgrade] Step 1 ✓ Mask + elements_data.json → {output_dir}")
     except Exception as e:
-        print(f"[PostUpgrade] Mask generation failed (non-fatal): {e}")
+        print(f"[PostUpgrade] Step 1 Mask generation failed (non-fatal): {e}")
         # Create a minimal elements_data.json so the semantic step can still run
         _write_fallback_elements(output_dir, original_id)
 
     # ── 2. Generate visual_semantic.json ──────────────────────────────────────
+    sem_generated = False
     try:
         from scripts.preprocess_visual_semantic import process_creative as _process
         # Build a minimal creative dict (same fields as data.json entries)
         original_meta = _load_original_meta(original_id)
         creative_dict = {**original_meta, "id": new_id, "is_upgraded": True}
         cid, msg = _process(creative_dict, use_vision=True)
-        print(f"[PostUpgrade] ✓ visual_semantic.json: {msg}")
+        print(f"[PostUpgrade] Step 2 ✓ visual_semantic.json: {msg}")
+        sem_generated = True
     except Exception as e:
-        print(f"[PostUpgrade] Semantic enrichment failed: {e}")
+        print(f"[PostUpgrade] Step 2 Semantic enrichment failed: {e}")
         # Last-resort: copy the original's semantic JSON and patch the ID
         _copy_and_patch_semantic(original_id, new_id, image_to_use)
+        # Check if fallback copy succeeded
+        sem_generated = (VISUAL_SEM_DIR / f"creative_{new_id}.json").exists()
 
-    print(f"[PostUpgrade] Done enriching {new_id}.")
+    # ── 3. Append embedding to the precomputed pickle ─────────────────────────
+    if sem_generated:
+        try:
+            _append_embedding_to_pickle(new_id)
+            print(f"[PostUpgrade] Step 3 ✓ Embedding appended to pickle for {new_id}")
+        except Exception as e:
+            print(f"[PostUpgrade] Step 3 Embedding update failed (non-fatal): {e}")
+    else:
+        print(f"[PostUpgrade] Step 3 Skipped (no semantic JSON for {new_id})")
+
+    print(f"[PostUpgrade] ── Done enriching {new_id} ──")
 
 
 def _load_original_meta(original_id: str) -> dict:
@@ -118,6 +139,66 @@ def _copy_and_patch_semantic(original_id: str, new_id: str, image_path: Path) ->
         print(f"[PostUpgrade] Could not copy semantic JSON: {e}")
 
 
+def _append_embedding_to_pickle(creative_id: str) -> None:
+    """
+    Encodes the new creative's text and appends it to the precomputed pickle.
+    This makes the new ID visible to the Similarity engine (Fast Path).
+    """
+    import pickle
+    import numpy as np
+    from sentence_transformers import SentenceTransformer
+    from .step1_retrieval.created.paths import SEMANTIC_EMBEDDINGS_PATH
+    from .step1_retrieval.created.config import SENTENCE_EMBEDDING_MODEL, SEMANTIC_TEXT_FIELDS
+    
+    json_path = VISUAL_SEM_DIR / f"creative_{creative_id}.json"
+    if not json_path.exists():
+        return
+        
+    with json_path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    emb_texts = data.get("embedding_texts", {})
+    if not emb_texts:
+        # Fallback to building them from global/elements if the JSON is old/minimal
+        from .step1_retrieval.created.semantic_json_loader import semantic_json_to_record
+        rec = semantic_json_to_record(data, json_path)
+        emb_texts = {
+            "global_text": rec.get("global_text", ""),
+            "elements_text": rec.get("elements_text", ""),
+            "ocr_text": rec.get("ocr_text", ""),
+            "layout_text": rec.get("layout_text", ""),
+        }
+
+    if not SEMANTIC_EMBEDDINGS_PATH.exists():
+        return
+
+    with SEMANTIC_EMBEDDINGS_PATH.open("rb") as f:
+        embeddings = pickle.load(f)
+
+    # Avoid duplicates
+    c_ids = [str(x) for x in embeddings["creative_ids"]]
+    if str(creative_id) in c_ids:
+        print(f"[PostUpgrade] {creative_id} already in pickle. Skipping append.")
+        return
+
+    print(f"[PostUpgrade] Encoding new embeddings for {creative_id}...")
+    model = SentenceTransformer(SENTENCE_EMBEDDING_MODEL)
+    
+    embeddings["creative_ids"].append(str(creative_id))
+    embeddings["asset_files"].append(data.get("asset_file", f"assets/creative_{creative_id}.png"))
+    
+    for field in SEMANTIC_TEXT_FIELDS:
+        text = emb_texts.get(field, "")
+        vec = model.encode([text], normalize_embeddings=True)[0]
+        # Append to the (N, D) matrix
+        old_matrix = embeddings[f"{field}_embeddings"]
+        embeddings[f"{field}_embeddings"] = np.vstack([old_matrix, vec])
+
+    with SEMANTIC_EMBEDDINGS_PATH.open("wb") as f:
+        pickle.dump(embeddings, f)
+    print(f"[PostUpgrade] ✓ Pickle updated with {creative_id}.")
+
+
 def enrich_upgraded_creative(original_id: str, new_id: str, new_image_path: str | Path) -> None:
     """
     Kick off enrichment in a background daemon thread.
@@ -125,7 +206,7 @@ def enrich_upgraded_creative(original_id: str, new_id: str, new_image_path: str 
     """
     t = threading.Thread(
         target=_run,
-        args=(original_id, new_id, new_image_path),
+        args=(str(original_id), str(new_id), new_image_path),
         daemon=True,
         name=f"enrich-{new_id}",
     )

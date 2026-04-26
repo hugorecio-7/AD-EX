@@ -18,14 +18,14 @@ export const updateCreativeImage = (id, newImageUrl) => {
   return true;
 };
 
-export const upgradeImage = async (creativeId, { numSteps = 3 } = {}) => {
-  console.log('[API] Triggering full AI upgrade pipeline for:', creativeId, '| steps:', numSteps);
+export const upgradeImage = async (creativeId, { numSteps = 3, strength = 0.35 } = {}) => {
+  console.log('[API] Triggering full AI upgrade pipeline for:', creativeId, '| steps:', numSteps, '| strength:', strength);
 
   try {
     const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/upgrade`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ num_steps: numSteps }),
+      body: JSON.stringify({ num_steps: numSteps, strength }),
     });
 
     if (!response.ok) {

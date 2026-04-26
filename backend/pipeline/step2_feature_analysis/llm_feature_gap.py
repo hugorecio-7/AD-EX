@@ -251,13 +251,18 @@ Based on what you see, produce {max_features} background enhancement suggestions
 Each suggestion must be:
 - A 5-12 word visual description usable directly as a Stable Diffusion prompt fragment
 - Describing ONLY the background/atmosphere (never text or UI)
-- Specific: mention color, texture, lighting direction, or effect type
+- EXACTLY matching the visual style of the original. If the original is flat and simple, suggest flat and simple changes. Do NOT add cinematic effects to simple flat designs.
+- Very subtle and graceful. Focus on minor color tweaks, clean layout, and minimal texture.
 
-GOOD examples:
-  "deep cobalt blue radial gradient with soft inner glow"
-  "scattered translucent hexagon shapes floating in background"
-  "warm amber light rays streaming from upper-left corner"
-  "subtle dark vignette with bokeh particle effects"
+GOOD examples for simple/flat images:
+  "clean minimal background with soft pastel gradient"
+  "subtle geometric background pattern with low opacity"
+  "flat solid color background with clean edges"
+  "minimalist clean layout with subtle drop shadow"
+
+GOOD examples for realistic images:
+  "subtle warm lighting adjustments"
+  "soft depth of field blur in background"
 
 BAD examples (never output these):
   "Bonus badge" — contains text

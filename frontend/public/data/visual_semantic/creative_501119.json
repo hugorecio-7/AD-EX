@@ -1,0 +1,266 @@
+{
+  "creative_id": "501119",
+  "asset_file": "assets/creative_501119.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple gradient background with 3D shapes and clear call-to-action elements.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a travel app for booking hotels and flights.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Gradient purple background",
+      "description": "A smooth gradient background transitioning from dark to light purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "3D geometric shapes",
+      "description": "Stylized 3D geometric shapes resembling buildings or hotels, colored in light shades of purple and white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        145,
+        193,
+        298
+      ],
+      "bbox_normalized": [
+        0.148,
+        0.227,
+        0.538,
+        0.467
+      ],
+      "center_normalized": [
+        0.343,
+        0.347
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface preview",
+      "description": "A simplified app interface displayed in a rectangular shape, showcasing a flight and hotel booking feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        199,
+        203,
+        310,
+        335
+      ],
+      "bbox_normalized": [
+        0.554,
+        0.317,
+        0.861,
+        0.524
+      ],
+      "center_normalized": [
+        0.707,
+        0.421
+      ],
+      "area_percentage": 6.36
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with rounded corners, featuring the text 'Get offer' in a bold, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        493,
+        273,
+        555
+      ],
+      "bbox_normalized": [
+        0.422,
+        0.77,
+        0.759,
+        0.867
+      ],
+      "center_normalized": [
+        0.59,
+        0.819
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Large, bold text reading 'RouteBloon' positioned prominently at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        278,
+        110,
+        311,
+        145
+      ],
+      "bbox_normalized": [
+        0.773,
+        0.172,
+        0.866,
+        0.228
+      ],
+      "center_normalized": [
+        0.819,
+        0.2
+      ],
+      "area_percentage": 0.52
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon, possibly a shield or badge, located at the bottom left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        505,
+        114,
+        525
+      ],
+      "bbox_normalized": [
+        0.269,
+        0.79,
+        0.318,
+        0.82
+      ],
+      "center_normalized": [
+        0.293,
+        0.805
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "Another small decorative icon, similar to the previous one, located near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        136,
+        507,
+        151,
+        526
+      ],
+      "bbox_normalized": [
+        0.38,
+        0.793,
+        0.42,
+        0.822
+      ],
+      "center_normalized": [
+        0.4,
+        0.808
+      ],
+      "area_percentage": 0.12
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Secondary headline text",
+      "description": "Text stating 'Fly smarter Hotels flights in one tap' in a smaller font, positioned centrally below the main headline.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        27,
+        37,
+        360,
+        97
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        1.0,
+        0.152
+      ],
+      "center_normalized": [
+        0.537,
+        0.105
+      ],
+      "area_percentage": 8.67
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Descriptive text",
+      "description": "Text providing additional information about the service, placed below the main headline.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        294,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.817,
+        0.728
+      ],
+      "center_normalized": [
+        0.499,
+        0.685
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Get offer', designed to attract user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, RouteBloon, Fly smarter Hotels flights in one tap, Get offer",
+    "layout_text": "The main headline is at the top, followed by a secondary headline and descriptive text in the center, with call-to-action buttons at the bottom.",
+    "ocr_text": "RouteBloon, Fly smarter Hotels flights in one tap, Get offer",
+    "elements_text": "main_subject: Stylized 3D geometric shapes resembling buildings or hotels, colored in light shades of purple and white. | app_screenshot: A simplified app interface displayed in a rectangular shape, showcasing a flight and hotel booking feature. | cta: A rectangular button with rounded corners, featuring the text 'Get offer' in a bold, readable font. | headline: Large, bold text reading 'RouteBloon' positioned prominently at the top of the ad. | decorative_element: A small decorative icon, possibly a shield or badge, located at the bottom left corner. | decorative_element: Another small decorative icon, similar to the previous one, located near the bottom of the ad. | headline: Text stating 'Fly smarter Hotels flights in one tap' in a smaller font, positioned centrally below the main headline. text='RouteBloon' | body_text: Text providing additional information about the service, placed below the main headline. text='Fly smarter Hotels flights in one tap' | cta: A button with the text 'Get offer', designed to attract user interaction. text='Get offer'"
+  }
+}

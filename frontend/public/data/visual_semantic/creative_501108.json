@@ -1,0 +1,194 @@
+{
+  "creative_id": "501108",
+  "asset_file": "assets/creative_501108.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a textured blue background and bold text elements.",
+    "visual_style": "modern and dynamic",
+    "main_message": "Promoting flexible booking options with a discount.",
+    "dominant_colors": [
+      "blue",
+      "orange"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Textured blue background",
+      "description": "A textured blue background with a honeycomb pattern, creating a modern and dynamic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small orange badge at the bottom left corner displaying a discount percentage in bold white text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        582,
+        43,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.91,
+        0.12,
+        0.999
+      ],
+      "center_normalized": [
+        0.06,
+        0.955
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned in the center, possibly decorative or abstract.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        342,
+        36,
+        393
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.535,
+        0.102,
+        0.615
+      ],
+      "center_normalized": [
+        0.051,
+        0.575
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent orange headline at the top with the text 'HorizonHop' in bold, modern typography.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        22,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.101
+      ],
+      "area_percentage": 11.59
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A central text block in white, conveying the message 'Fly smarter Flexible booking options' in a clear, readable font.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        411,
+        286,
+        468
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.642,
+        0.794,
+        0.731
+      ],
+      "center_normalized": [
+        0.497,
+        0.687
+      ],
+      "area_percentage": 5.29
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A call-to-action text at the bottom in white, encouraging users to 'Try for free' with additional unclear text.",
+      "text_content": "RdolMeilad Pijiac Try for free FitlAQI",
+      "bbox_xyxy": [
+        116,
+        528,
+        300,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.825,
+        0.833,
+        0.917
+      ],
+      "center_normalized": [
+        0.578,
+        0.871
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price indicator",
+      "description": "A small orange price indicator at the bottom displaying '30%' in bold white text.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        36,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.175,
+        0.85
+      ],
+      "area_percentage": 0.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and dynamic, HorizonHop, flexible booking options, discount.",
+    "layout_text": "The headline is at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter, Flexible booking options, RdolMeilad Pijiac, Try for free, FitlAQI, 30%",
+    "elements_text": "discount_badge: A small orange badge at the bottom left corner displaying a discount percentage in bold white text. | unknown: A small, unclear element positioned in the center, possibly decorative or abstract. | headline: A prominent orange headline at the top with the text 'HorizonHop' in bold, modern typography. text='HorizonHop' | body_text: A central text block in white, conveying the message 'Fly smarter Flexible booking options' in a clear, readable font. text='Fly smarter Flexible booking options' | cta: A call-to-action text at the bottom in white, encouraging users to 'Try for free' with additional unclear text. text='RdolMeilad Pijiac Try for free FitlAQI' | price: A small orange price indicator at the bottom displaying '30%' in bold white text. text='30%'"
+  }
+}

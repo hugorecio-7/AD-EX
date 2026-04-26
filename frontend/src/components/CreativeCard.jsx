@@ -51,12 +51,27 @@ const CreativeCard = ({ creative, onUpgrade, onChat }) => {
               <h3 className="text-white font-bold text-lg leading-tight">{creative.subject}</h3>
             </div>
             <div className="text-right">
-              <span className="block text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-1">Score: {creative.performance_score}</span>
-              <span className="block text-xl font-black text-green-400">{creative.ctr}% <span className="text-[10px] uppercase text-white/50 block">CTR</span></span>
+              {creative.fatigued ? (
+                <div className="bg-red-500/20 border border-red-500/50 rounded-lg px-2 py-1 backdrop-blur-md inline-block">
+                  <span className="block text-[10px] font-black text-red-400 uppercase tracking-widest text-right">Fatigued</span>
+                  <span className="block text-sm font-black text-red-500 text-right">NEEDS MODIFY</span>
+                </div>
+              ) : creative.performance_score < 0.4 ? (
+                <div className="bg-amber-500/20 border border-amber-500/50 rounded-lg px-2 py-1 backdrop-blur-md inline-block">
+                  <span className="block text-[10px] font-black text-amber-400 uppercase tracking-widest text-right">Low Score</span>
+                  <span className="block text-sm font-black text-amber-500 text-right">NEEDS MODIFY</span>
+                </div>
+              ) : (
+                <div className="bg-emerald-500/20 border border-emerald-500/50 rounded-lg px-2 py-1 backdrop-blur-md inline-block">
+                  <span className="block text-[10px] font-black text-emerald-400 uppercase tracking-widest text-right">Healthy</span>
+                  <span className="block text-sm font-black text-emerald-500 text-right">{(creative.ctr).toFixed(2)}% CTR</span>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </div>
+
       
       <div className="p-5">
         <div className="flex flex-wrap gap-2 mb-4">

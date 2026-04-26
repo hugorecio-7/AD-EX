@@ -1,0 +1,554 @@
+{
+  "creative_id": "501094",
+  "asset_file": "assets/creative_501094.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant background with a focus on promoting a new collection.",
+    "visual_style": "bright and colorful",
+    "main_message": "Shop the new collection and bestsellers now.",
+    "dominant_colors": [
+      "pink",
+      "blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Colorful abstract background",
+      "description": "A vibrant and colorful abstract background that sets a lively tone for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        120,
+        0,
+        277,
+        389
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.0,
+        0.771,
+        0.608
+      ],
+      "center_normalized": [
+        0.552,
+        0.304
+      ],
+      "area_percentage": 26.62
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product showcase area",
+      "description": "A central area displaying various product images in a visually appealing layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        8,
+        124,
+        388
+      ],
+      "bbox_normalized": [
+        0.042,
+        0.013,
+        0.345,
+        0.607
+      ],
+      "center_normalized": [
+        0.194,
+        0.31
+      ],
+      "area_percentage": 18.07
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Product showcase area",
+      "description": "Another section featuring product images, arranged to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        95,
+        124,
+        388
+      ],
+      "bbox_normalized": [
+        0.042,
+        0.149,
+        0.345,
+        0.607
+      ],
+      "center_normalized": [
+        0.194,
+        0.378
+      ],
+      "area_percentage": 13.92
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "A decorative shape that adds visual interest to the ad's layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        278,
+        343,
+        359,
+        391
+      ],
+      "bbox_normalized": [
+        0.774,
+        0.537,
+        0.998,
+        0.612
+      ],
+      "center_normalized": [
+        0.886,
+        0.575
+      ],
+      "area_percentage": 1.68
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom encouraging users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        261,
+        527,
+        342,
+        555
+      ],
+      "bbox_normalized": [
+        0.727,
+        0.824,
+        0.951,
+        0.868
+      ],
+      "center_normalized": [
+        0.839,
+        0.846
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "Bold text at the top that captures the viewer's attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        111,
+        198,
+        148
+      ],
+      "bbox_normalized": [
+        0.46,
+        0.174,
+        0.55,
+        0.232
+      ],
+      "center_normalized": [
+        0.505,
+        0.203
+      ],
+      "area_percentage": 0.53
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "A large, eye-catching text promoting the new collection drop.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        306,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.85,
+        0.777
+      ],
+      "center_normalized": [
+        0.501,
+        0.708
+      ],
+      "area_percentage": 9.59
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "Stylized text displaying the brand name prominently at the top.",
+      "text_content": "9R VantaStyle",
+      "bbox_xyxy": [
+        23,
+        9,
+        209,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.014,
+        0.581,
+        0.117
+      ],
+      "center_normalized": [
+        0.322,
+        0.066
+      ],
+      "area_percentage": 5.33
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "oguntiini ellemalde",
+      "bbox_xyxy": [
+        143,
+        307,
+        225,
+        341
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.48,
+        0.625,
+        0.533
+      ],
+      "center_normalized": [
+        0.511,
+        0.506
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A button inviting users to watch more content, positioned at the bottom.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text indicating the price of the product, placed at the bottom.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "ctcioMoC Tioldo]",
+      "bbox_xyxy": [
+        269,
+        127,
+        331,
+        155
+      ],
+      "bbox_normalized": [
+        0.747,
+        0.198,
+        0.919,
+        0.242
+      ],
+      "center_normalized": [
+        0.833,
+        0.22
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "Sconoi10gn",
+      "bbox_xyxy": [
+        137,
+        219,
+        235,
+        233
+      ],
+      "bbox_normalized": [
+        0.381,
+        0.342,
+        0.653,
+        0.364
+      ],
+      "center_normalized": [
+        0.517,
+        0.353
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "JPC",
+      "bbox_xyxy": [
+        54,
+        334,
+        106,
+        360
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.522,
+        0.294,
+        0.562
+      ],
+      "center_normalized": [
+        0.222,
+        0.542
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "DniGEE 0o0g",
+      "bbox_xyxy": [
+        249,
+        305,
+        339,
+        319
+      ],
+      "bbox_normalized": [
+        0.692,
+        0.477,
+        0.942,
+        0.498
+      ],
+      "center_normalized": [
+        0.817,
+        0.487
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "Sd",
+      "bbox_xyxy": [
+        276,
+        228,
+        318,
+        252
+      ],
+      "bbox_normalized": [
+        0.767,
+        0.356,
+        0.883,
+        0.394
+      ],
+      "center_normalized": [
+        0.825,
+        0.375
+      ],
+      "area_percentage": 0.44
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge indicating a sale, prominently displayed at the top.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "Metate  fluneahaneeeha",
+      "bbox_xyxy": [
+        38,
+        244,
+        96,
+        250
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.381,
+        0.267,
+        0.391
+      ],
+      "center_normalized": [
+        0.186,
+        0.386
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "Mctnn Va",
+      "bbox_xyxy": [
+        278,
+        540,
+        328,
+        546
+      ],
+      "bbox_normalized": [
+        0.772,
+        0.844,
+        0.911,
+        0.853
+      ],
+      "center_normalized": [
+        0.842,
+        0.848
+      ],
+      "area_percentage": 0.13
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "c50 <",
+      "bbox_xyxy": [
+        32,
+        302,
+        66,
+        310
+      ],
+      "bbox_normalized": [
+        0.089,
+        0.472,
+        0.183,
+        0.484
+      ],
+      "center_normalized": [
+        0.136,
+        0.478
+      ],
+      "area_percentage": 0.12
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears unclear and does not convey a specific message.",
+      "text_content": "Knelluculr",
+      "bbox_xyxy": [
+        184,
+        242,
+        216,
+        248
+      ],
+      "bbox_normalized": [
+        0.511,
+        0.378,
+        0.6,
+        0.388
+      ],
+      "center_normalized": [
+        0.556,
+        0.383
+      ],
+      "area_percentage": 0.08
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and colorful, new collection drop, bestsellers.",
+    "layout_text": "The headline is at the top, the main promotional message is centered, and the CTA buttons are at the bottom.",
+    "ocr_text": "New collection drop, Shop bestsellers now, 9R VantaStyle, SALE, UGC, €9.99, Watch now, ctcioMoC Tioldo], Sconoi10gn, JPC, DNIgEE 0o0g, Sd, Metate fluneahaneeeha, Mctnn Va, c50 <, Knelluculr",
+    "elements_text": "main_subject: A central area displaying various product images in a visually appealing layout. | main_subject: Another section featuring product images, arranged to attract attention. | decorative_element: A decorative shape that adds visual interest to the ad's layout. | cta: A prominent button at the bottom encouraging users to take action. | headline: Bold text at the top that captures the viewer's attention. | headline: A large, eye-catching text promoting the new collection drop. text='New collection drop Shop bestsellers now' | headline: Stylized text displaying the brand name prominently at the top. text='9R VantaStyle' | unknown: Text that appears unclear and does not convey a specific message. text='oguntiini ellemalde' | cta: A button inviting users to watch more content, positioned at the bottom. text='Watch now' | price: A small text indicating the price of the product, placed at the bottom. text='€9.99' | unknown: Text that appears unclear and does not convey a specific message. text='ctcioMoC Tioldo]' | unknown: Text that appears unclear and does not convey a specific message. text='Sconoi10gn' | unknown: Text that appears unclear and does not convey a specific message. text='JPC' | unknown: Text that appears unclear and does not convey a specific message. text='DniGEE 0o0g' | unknown: Text that appears unclear and does not convey a specific message. text='Sd' | discount_badge: A small badge indicating a sale, prominently displayed at the top. text='SALE' | unknown: Text that appears unclear and does not convey a specific message. text='UGC' | unknown: Text that appears unclear and does not convey a specific message. text='Metate  fluneahaneeeha' | unknown: Text that appears unclear and does not convey a specific message. text='Mctnn Va' | unknown: Text that appears unclear and does not convey a specific message. text='c50 <' | unknown: Text that appears unclear and does not convey a specific message. text='Knelluculr'"
+  }
+}
