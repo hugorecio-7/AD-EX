@@ -285,7 +285,7 @@ async def upgrade_creative(creative_id: str, request: Request):
         body = await request.json()
     except Exception:
         pass
-    num_steps = max(1, min(int(body.get("num_steps", 5)), 30))
+    num_steps = max(10, min(int(body.get("num_steps", 25)), 50))
 
     # Fetch metadata from the database so the pipeline has context
     metadata = get_creative_by_id(creative_id)
@@ -441,12 +441,18 @@ async def implement_chat_suggestion(creative_id: str, payload: ImplementRequest,
         # Allocate a clean numeric ID so preprocess_masks.py can handle it
         new_id = str(next_available_id())
 
-        # Run inpainting — inject description as the missing feature to guide the prompt
+        # Use the LLM-crafted diffusion_prompt directly — it already encodes the specific
+        # visual change the user asked for. Passing it as `override_prompt` bypasses the
+        # generic build_prompt() reconstruction so the change actually takes effect.
+        # Steps must be high enough (>=20) for SD to meaningfully follow the prompt.
         new_creative_file = await generate_creative_with_flux(
             creative_id=creative_id,
             metadata=metadata,
             missing_features=[payload.description],
             pipe=pipe,
+            num_steps=25,
+            strength=0.75,
+            override_prompt=payload.diffusion_prompt if payload.diffusion_prompt else None,
         )
 
         base = compute_static_performance_score(creative_id)

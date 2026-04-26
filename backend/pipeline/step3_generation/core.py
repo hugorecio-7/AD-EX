@@ -36,9 +36,10 @@ async def generate_creative_with_flux(
     metadata: dict,
     missing_features: list[str],
     pipe=None,
-    num_steps: int = 3,
-    guidance_scale: float = 5.0,
-    strength: float = 0.35,   # low = preserve original, high = more creative freedom
+    num_steps: int = 25,      # ≥20 required: effective_steps = strength × num_steps, < 7 → ≤2 actual steps → original returned
+    guidance_scale: float = 7.5,
+    strength: float = 0.60,   # 0.60 = good balance: preserves layout, allows real color/style changes
+    override_prompt: str | None = None,  # If set, skip build_prompt() and use this directly
 ) -> str:
     """Full inpainting pipeline.
 
@@ -87,12 +88,12 @@ async def generate_creative_with_flux(
     from PIL import ImageFilter
     mask_pil = mask_pil.filter(ImageFilter.GaussianBlur(radius=5))
 
-    prompt = build_prompt(metadata, missing_features)
+    prompt = override_prompt if override_prompt else build_prompt(metadata, missing_features)
+    if override_prompt:
+        print(f"[ImageGen] Using override_prompt (LLM-crafted): {prompt[:100]}...")
     negative_prompt = (
         "text, watermark, typography, words, letters, blurry, ugly, distorted, low quality, "
-        "dramatic changes, different layout, changed composition, moved elements, "
-        "different colors on existing elements, different style, "
-        "new objects, removed elements, changed proportions, altered perspective"
+        "chaotic layout, completely different style, altered perspective"
     )
 
     print(f"[ImageGen] Running inpainting: steps={num_steps}, prompt={prompt[:80]}...")

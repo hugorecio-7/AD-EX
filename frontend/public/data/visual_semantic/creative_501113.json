@@ -1,0 +1,218 @@
+{
+  "creative_id": "501113",
+  "asset_file": "assets/creative_501113.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bright yellow background with a clear offer for fast food delivery.",
+    "visual_style": "bright and cheerful",
+    "main_message": "Order fast food with free delivery over $15.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Yellow background",
+      "description": "A solid yellow background that fills the entire canvas, providing a bright and cheerful base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        62,
+        305,
+        229
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.194,
+        0.954,
+        0.718
+      ],
+      "center_normalized": [
+        0.502,
+        0.456
+      ],
+      "area_percentage": 47.28
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        163,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.512,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.755,
+        0.09
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold black text stating 'Fast food, fast' that is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        79,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.249,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.243,
+        0.354
+      ],
+      "area_percentage": 3.55
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE' in white on a contrasting background, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        91,
+        85
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.286,
+        0.268
+      ],
+      "center_normalized": [
+        0.232,
+        0.258
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text area displaying the price '€9.99' in a clear, readable font, positioned near the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        160,
+        40,
+        171,
+        57
+      ],
+      "bbox_normalized": [
+        0.502,
+        0.128,
+        0.537,
+        0.18
+      ],
+      "center_normalized": [
+        0.52,
+        0.154
+      ],
+      "area_percentage": 0.18
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Order now' in bold, inviting font, located at the bottom of the ad.",
+      "text_content": "Fast food, fast Free delivery over $15 €9.99 Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.789
+      ],
+      "area_percentage": 22.89
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A small logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top left of the ad.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE' in white on a contrasting background, located at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and cheerful, FreshDash, fast food, free delivery",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, €9.99, Order now, FreshDash, SALE",
+    "elements_text": "headline: A simple logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top center of the ad. | body_text: Bold black text stating 'Fast food, fast' that is prominently displayed in the center of the ad. | discount_badge: A small badge with the text 'SALE' in white on a contrasting background, located at the top right corner. | price: A small text area displaying the price '€9.99' in a clear, readable font, positioned near the top of the ad. | cta: A prominent button with the text 'Order now' in bold, inviting font, located at the bottom of the ad. text='Fast food, fast Free delivery over $15 €9.99 Order now' | logo: A small logo featuring the text 'FreshDash' in a bold, modern font, positioned at the top left of the ad. text='FreshDash' | discount_badge: A small badge with the text 'SALE' in white on a contrasting background, located at the top right corner. text='SALE'"
+  }
+}

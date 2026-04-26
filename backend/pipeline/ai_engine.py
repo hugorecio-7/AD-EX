@@ -30,7 +30,7 @@ async def generate_ai_variant_real(
     format_type: str,
     metadata: dict,
     pipe=None,
-    num_steps: int = 5,
+    num_steps: int = 25,
 ) -> dict:
     time_s = time.time()
 

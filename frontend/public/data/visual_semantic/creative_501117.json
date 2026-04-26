@@ -1,0 +1,266 @@
+{
+  "creative_id": "501117",
+  "asset_file": "assets/creative_501117.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with prominent text and call-to-action elements.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a travel service for hotels and flights.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "RouteBloon logo",
+      "description": "The logo features bold, modern typography in a large size, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.162,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.501,
+        0.26
+      ],
+      "area_percentage": 19.53
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text description",
+      "description": "A clear, concise text in a friendly font that communicates the service offered, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.483,
+        0.399
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Service details",
+      "description": "Additional text that elaborates on the main service, presented in a slightly smaller font below the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        179,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.498,
+        0.468
+      ],
+      "center_normalized": [
+        0.336,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with a contrasting color that invites users to take action, located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A simple circular shape in a lighter shade of purple, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape in the background, providing a subtle contrast to the circular element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The headline is bold and large, capturing attention with its strong typography at the top of the ad.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        28,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.539,
+        0.106
+      ],
+      "area_percentage": 8.07
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Service tagline",
+      "description": "A tagline that succinctly describes the service, placed prominently in the center of the ad.",
+      "text_content": "Fly smarter Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        411,
+        295,
+        467
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.642,
+        0.819,
+        0.73
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.59
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Offer button",
+      "description": "A smaller call-to-action button that encourages users to engage with the offer, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, RouteBloon logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main headline, body text in the center, and CTA buttons at the bottom.",
+    "ocr_text": "RouteBloon, Fly smarter, Hotels + flights in one tap, Get offer",
+    "elements_text": "logo: The logo features bold, modern typography in a large size, prominently displayed at the top of the ad. | body_text: A clear, concise text in a friendly font that communicates the service offered, centered in the middle of the ad. | body_text: Additional text that elaborates on the main service, presented in a slightly smaller font below the main text. | cta: A rounded button with a contrasting color that invites users to take action, located towards the bottom of the ad. | decorative_element: A simple circular shape in a lighter shade of purple, adding visual interest to the background. | decorative_element: A rectangular shape in the background, providing a subtle contrast to the circular element. | headline: The headline is bold and large, capturing attention with its strong typography at the top of the ad. text='RouteBloon' | body_text: A tagline that succinctly describes the service, placed prominently in the center of the ad. text='Fly smarter Hotels flights in one tap' | cta: A smaller call-to-action button that encourages users to engage with the offer, located at the bottom of the ad. text='Get offer'"
+  }
+}
