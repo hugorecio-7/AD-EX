@@ -92,7 +92,7 @@ async def generate_creative_with_flux(
     if override_prompt:
         print(f"[ImageGen] Using override_prompt (LLM-crafted): {prompt[:100]}...")
     negative_prompt = (
-        "text, watermark, typography, words, letters, blurry, ugly, distorted, low quality, "
+        "text, symbols, watermark, typography, words, letters, blurry, ugly, distorted, low quality, "
         "chaotic layout, completely different style, altered perspective"
     )
 
