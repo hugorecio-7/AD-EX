@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { fetchCreatives, updateCreativeImage } from '../../services/api';
 import CreativeCard from '../../components/CreativeCard';
 import UpgradeModal from '../../components/UpgradeModal';
+import CreativeChatModal from '../../components/CreativeChatModal';
 import './Dashboard.css';
 
 function Dashboard() {
@@ -17,6 +18,8 @@ function Dashboard() {
   const [sortOrder, setSortOrder] = useState('score'); // 'default', 'fatigue', 'score', 'ctr'
   const [selectedCreative, setSelectedCreative] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedChatCreative, setSelectedChatCreative] = useState(null);
+  const [isChatOpen, setIsChatOpen] = useState(false);
 
   const handleApplyUpgrade = (id, newUrl) => {
     // 1. Update backend (mock data store)
@@ -90,6 +93,11 @@ function Dashboard() {
   const handleUpgrade = (creative) => {
     setSelectedCreative(creative);
     setIsModalOpen(true);
+  };
+
+  const handleOpenChat = (creative) => {
+    setSelectedChatCreative(creative);
+    setIsChatOpen(true);
   };
 
   const advertiserOptions = [
@@ -227,6 +235,7 @@ function Dashboard() {
                 key={item.id} 
                 creative={item} 
                 onUpgrade={handleUpgrade}
+                onChat={handleOpenChat}
               />
             ))}
           </div>
@@ -252,6 +261,12 @@ function Dashboard() {
         onClose={() => setIsModalOpen(false)}
         creative={selectedCreative}
         onApply={handleApplyUpgrade}
+      />
+
+      <CreativeChatModal
+        isOpen={isChatOpen}
+        onClose={() => setIsChatOpen(false)}
+        creative={selectedChatCreative}
       />
     </div>
   );
