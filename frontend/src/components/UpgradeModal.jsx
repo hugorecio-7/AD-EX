@@ -131,17 +131,31 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   if (!isOpen || !creative) return null;
 
   const handleUpgrade = async () => {
-    const QUALITY_STEPS    = { low: 2, medium: 5, high: 15 };
-    const QUALITY_STRENGTH = { low: 0.25, medium: 0.35, high: 0.50 };
-    const numSteps = QUALITY_STEPS[quality] || 5;
-    const strength = QUALITY_STRENGTH[quality] || 0.35;
+    // Steps must be ≥15 for SD to produce visible changes (effective_steps = strength × steps)
+    const QUALITY_STEPS    = { low: 15, medium: 25, high: 40 };
+    const QUALITY_STRENGTH = { low: 0.55, medium: 0.65, high: 0.80 };
+    const numSteps = QUALITY_STEPS[quality] || 25;
+    const strength = QUALITY_STRENGTH[quality] || 0.65;
     setIsUpgrading(true);
     setCurrentStep(0);
+    // Pace the animation to the expected generation time (~2s per step at medium quality)
+    const msPerStep = Math.round((numSteps * 1800) / UPGRADE_STEPS.length);
     const stepInterval = setInterval(() => {
       setCurrentStep(prev => prev < UPGRADE_STEPS.length - 1 ? prev + 1 : prev);
-    }, 2800);
+    }, msPerStep);
     const result = await upgradeImage(creative.id, { numSteps, strength });
     clearInterval(stepInterval);
+    setCurrentStep(UPGRADE_STEPS.length - 1);
+    // Preload image into browser cache while spinner is still visible —
+    // so when we flip state the image appears instantly (no blank-then-load flash)
+    if (result?.newImageUrl) {
+      await new Promise((resolve) => {
+        const preloader = new window.Image();
+        preloader.onload = resolve;
+        preloader.onerror = resolve; // resolve anyway so UI never gets stuck
+        preloader.src = result.newImageUrl + '?t=' + Date.now(); // cache-bust to force fresh fetch
+      });
+    }
     setUpgradedData(result);
     setIsUpgrading(false);
   };
@@ -321,9 +335,9 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                       {/* Quality selector */}
                       <div className="flex justify-center gap-1.5 mb-5">
                         {[
-                          { key: 'low',    label: 'Fast',   sub: '2 steps'  },
-                          { key: 'medium', label: 'Balanced', sub: '5 steps' },
-                          { key: 'high',   label: 'Detail', sub: '15 steps' },
+                          { key: 'low',    label: 'Fast',     sub: '15 steps' },
+                          { key: 'medium', label: 'Balanced', sub: '25 steps' },
+                          { key: 'high',   label: 'Detail',   sub: '40 steps' },
                         ].map(({ key, label, sub }) => (
                           <button key={key} onClick={() => setQuality(key)}
                             className={`px-3 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all flex flex-col items-center ${
