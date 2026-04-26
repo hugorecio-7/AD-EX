@@ -73,3 +73,33 @@ export const evaluateCreative = async (creativeId) => {
   }
   return null;
 };
+
+export const askCreativeChat = async (creativeId, message, history = [], language = 'catalan') => {
+  try {
+    const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/chat`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message, history, language }),
+    });
+
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({ detail: response.statusText }));
+      throw new Error(err.detail || `Chat failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+    return {
+      success: true,
+      answer: data.answer || 'No response',
+      model: data.model,
+      language: data.language || language,
+    };
+  } catch (error) {
+    console.error('[API] Creative chat failed:', error.message);
+    return {
+      success: false,
+      error: error.message,
+      answer: `No he pogut consultar el bot ara mateix: ${error.message}`,
+    };
+  }
+};

@@ -22,14 +22,26 @@ THIS_DIR = Path(__file__).resolve().parent
 BACKEND_DIR = THIS_DIR.parent
 PROJECT_ROOT = BACKEND_DIR.parent
 
+LANGUAGE_MAP = {
+    "catalan": "Catalan",
+    "castilian": "Castilian Spanish",
+    "english": "English",
+}
+
+
+def normalize_language(language: str | None) -> str:
+    value = (language or "catalan").strip().lower()
+    return value if value in LANGUAGE_MAP else "catalan"
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Interactive chatbot for ad creative diagnosis.")
-    parser.add_argument("--creative-id", default="500593", help="Creative ID (example: 500593)")
+    parser.add_argument("--creative-id", default="500000", help="Creative ID (example: 500000)")
     parser.add_argument("--image", default=None, help="Optional custom image path (.png/.jpg)")
     parser.add_argument("--structured", default=None, help="Optional custom structured JSON path")
     parser.add_argument("--feature-gap", default=None, help="Optional custom feature gap JSON path")
     parser.add_argument("--model", default=None, help="Override model (defaults to OPENAI_MODEL or gpt-4o)")
+    parser.add_argument("--language", default="catalan", choices=["catalan", "castilian", "english"], help="Response language")
     return parser.parse_args()
 
 
@@ -66,8 +78,17 @@ def resolve_structured_path(creative_id: str, override: str | None) -> Path:
     for path in candidates:
         if path.exists():
             return path
+
+    available = sorted((PROJECT_ROOT / "output" / "features").glob("creative_*/creative_*_structured.json"))
+    available_hint = ", ".join(p.parent.name.replace("creative_", "") for p in available[:8])
+    if len(available) > 8:
+        available_hint += ", ..."
+
     raise FileNotFoundError(
-        "No structured JSON found. Tried: " + ", ".join(str(p) for p in candidates)
+        "No structured JSON found for creative "
+        f"{creative_id}. Tried: "
+        + ", ".join(str(p) for p in candidates)
+        + (f". Available structured creative IDs: {available_hint}" if available_hint else "")
     )
 
 
@@ -79,6 +100,7 @@ def resolve_feature_gap_path(creative_id: str, override: str | None) -> Path | N
         raise FileNotFoundError(f"Feature gap override not found: {path}")
 
     candidates = [
+        PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / f"creative_{creative_id}_feature_gap.json",
         PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / "feature_gap.json",
         PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / "llm_feature_gap.json",
         PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / "feature_gap_output.json",
@@ -141,17 +163,21 @@ def load_feature_gap(path: Path | None) -> dict[str, Any]:
     return data
 
 
-def build_system_prompt(structured_json: dict[str, Any], feature_gap_json: dict[str, Any]) -> str:
+def build_system_prompt(structured_json: dict[str, Any], feature_gap_json: dict[str, Any], language: str) -> str:
+    language_name = LANGUAGE_MAP[normalize_language(language)]
     return (
         "You are an Ad Creative Consultant for performance marketing. "
-        "Your job is to explain weaknesses of the current ad, suggest concrete improvements, "
-        "and answer questions about layout, text, CTA, and likely conversion impact.\n\n"
-        "Rules:\n"
-        "1) Ground every answer in the provided structured JSON, feature gap JSON, and the image.\n"
-        "2) If data is missing, say so clearly instead of inventing facts.\n"
-        "3) Keep recommendations actionable, specific, and concise.\n"
-        "4) When asked about location, reference approximate position (top-left, center, bottom-right) and bounding boxes when available.\n"
-        "5) Do not output raw chain-of-thought.\n\n"
+        "Talk like a helpful teammate in a chat: informal, natural, and direct.\n\n"
+        "Response style rules:\n"
+        "1) Keep answers very short (normally 2-4 lines total).\n"
+        "2) Output plain text only, no markdown, no bullet points, no numbering.\n"
+        "3) Write as one short paragraph, or two very short paragraphs when needed.\n"
+        "4) Be clear and concrete: no fluff, no long intros, no going off-topic.\n"
+        "5) If user asks for improvements, mention up to 3 actions max, inline in the paragraph.\n"
+        "6) If user asks location, include approximate position (top-left, center, bottom-right) and bbox if available.\n"
+        "7) If data is missing, say it clearly instead of inventing.\n"
+        "8) Do not output chain-of-thought.\n\n"
+        f"Language rule: Always reply in {language_name}.\n\n"
         "STRUCTURED_JSON:\n"
         f"{json.dumps(structured_json, indent=2, ensure_ascii=False)}\n\n"
         "FEATURE_GAP_JSON:\n"
@@ -229,6 +255,7 @@ def main() -> None:
         raise EnvironmentError("OPENAI_API_KEY not found. Add it to .env at project root.")
 
     model = (args.model or os.environ.get("OPENAI_MODEL") or "gpt-4o").strip()
+    language = normalize_language(args.language)
 
     image_path = resolve_image_path(args.creative_id, args.image)
     structured_path = resolve_structured_path(args.creative_id, args.structured)
@@ -243,8 +270,9 @@ def main() -> None:
     print("[Loaded] Structured JSON:", structured_path)
     print("[Loaded] Feature Gap JSON:", feature_gap_path if feature_gap_path else "<mock fallback>")
     print("[Model]", model)
+    print("[Language]", language)
 
-    system_prompt = build_system_prompt(structured_json, feature_gap_json)
+    system_prompt = build_system_prompt(structured_json, feature_gap_json, language)
     client = OpenAI(api_key=api_key)
 
     chat_loop(

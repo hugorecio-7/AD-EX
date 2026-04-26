@@ -1,6 +1,7 @@
 import uvicorn
 import torch
 import os
+import threading
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -21,19 +22,30 @@ app.add_middleware(
 os.makedirs("assets", exist_ok=True)
 app.mount("/assets", StaticFiles(directory="assets"), name="assets")
 
-print("Loading Diffusion Model... (This takes a minute on first run)")
-device = "cuda" if torch.cuda.is_available() else "cpu"
-pipe = StableDiffusionInpaintPipeline.from_pretrained(
-    "runwayml/stable-diffusion-inpainting",
-    torch_dtype=torch.float16 if device == "cuda" else torch.float32,
-).to(device)
+# Keep API responsive while model loads in background.
+app.state.pipe = None
 
-# Optional: Disable safety checker to speed up hackathon dev (use responsibly)
-pipe.safety_checker = None
 
-# Store the pipe in app state so it can be accessed by routers
-app.state.pipe = pipe
-print("Model loaded successfully!")
+def _load_diffusion_pipe_in_background() -> None:
+    try:
+        print("Loading Diffusion Model... (This may take time on first run)")
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        pipe = StableDiffusionInpaintPipeline.from_pretrained(
+            "runwayml/stable-diffusion-inpainting",
+            torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+        ).to(device)
+
+        # Optional: Disable safety checker to speed up hackathon dev (use responsibly)
+        pipe.safety_checker = None
+
+        app.state.pipe = pipe
+        print("Model loaded successfully!")
+    except Exception as exc:
+        print(f"[SYSTEM] Warning: Could not load diffusion model yet: {exc}")
+        app.state.pipe = None
+
+
+threading.Thread(target=_load_diffusion_pipe_in_background, daemon=True).start()
 
 # Include our organized routers
 app.include_router(creatives_router, prefix="/api/creatives", tags=["creatives"])

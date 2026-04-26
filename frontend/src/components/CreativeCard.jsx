@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CreativeCard = ({ creative, onUpgrade }) => {
+const CreativeCard = ({ creative, onUpgrade, onChat }) => {
   return (
     <div className={`creative-card group transition-all duration-500 ${creative.fatigued ? 'ring-2 ring-red-500/20' : ''}`}>
       <div className="relative overflow-hidden aspect-[9/16] bg-slate-900 flex items-center justify-center">
@@ -51,12 +51,20 @@ const CreativeCard = ({ creative, onUpgrade }) => {
            "{creative.insights}"
         </div>
 
-        <button 
-          onClick={() => onUpgrade(creative)}
-          className="w-full py-3 bg-slate-900 hover:bg-indigo-600 text-white rounded-2xl font-black text-xs uppercase tracking-widest transition-all shadow-xl shadow-slate-200 hover:shadow-indigo-200 hover:-translate-y-1 flex items-center justify-center gap-2 group"
-        >
-          <span className="text-lg group-hover:rotate-12 transition-transform">🪄</span> Upgrade with PixelForge AI
-        </button>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <button
+            onClick={() => onChat(creative)}
+            className="w-full py-3 bg-white hover:bg-indigo-50 text-indigo-600 border border-indigo-100 rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all shadow-lg shadow-indigo-100/50 hover:-translate-y-0.5"
+          >
+            Talk with Creative
+          </button>
+          <button 
+            onClick={() => onUpgrade(creative)}
+            className="w-full py-3 bg-slate-900 hover:bg-indigo-600 text-white rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all shadow-xl shadow-slate-200 hover:shadow-indigo-200 hover:-translate-y-1 flex items-center justify-center gap-2 group"
+          >
+            <span className="text-lg group-hover:rotate-12 transition-transform">🪄</span> Upgrade AI
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,136 +1,223 @@
+"""
+PixelForge Diffusion Playground
+================================
+Tests the full pipeline: Retrieval → LLM Feature Gap → SD Inpainting
+
+Usage:
+  # Single creative, auto LLM gap analysis:
+  python backend/scripts/playground_diffusion.py --id 500000 --auto
+
+  # Single creative, manual features:
+  python backend/scripts/playground_diffusion.py --id 500000 --features "deep cobalt gradient, golden bokeh particles"
+
+  # Batch test on first N creatives that have masks + semantic JSON:
+  python backend/scripts/playground_diffusion.py --batch 5 --auto
+
+  # Tune inference:
+  python backend/scripts/playground_diffusion.py --id 500003 --auto --steps 40 --scale 9.0
+"""
 import os
 import sys
 import torch
 import json
 import argparse
+from pathlib import Path
 from PIL import Image
 import numpy as np
+from dotenv import load_dotenv
 
-# Setup pathing
-script_dir = os.path.dirname(os.path.abspath(__file__))
-backend_dir = os.path.dirname(script_dir)
-sys.path.append(backend_dir)
+# ── Path setup ─────────────────────────────────────────────────────────────────
+script_dir  = Path(__file__).resolve().parent
+backend_dir = script_dir.parent
+project_root = backend_dir.parent
 
-from diffusers import StableDiffusionInpaintPipeline
-from pipeline.step3_generation.helpers import resolve_image_path, build_prompt
-from generate.mask_generator import generate_diffusion_mask
-from pipeline.step1_retrieval.core import get_best_creatives
-from pipeline.step2_feature_analysis.core import find_missing_features
+sys.path.insert(0, str(backend_dir))
 
-def load_semantic_data(creative_id, project_root):
-    """Try to find the visual_semantic.json in possible locations."""
-    paths = [
-        os.path.join(project_root, "output", "features", f"creative_{creative_id}", "visual_semantic.json"),
-        os.path.join(project_root, "frontend", "public", "data", "visual_semantic", f"creative_{creative_id}.json"),
-    ]
-    for p in paths:
-        if os.path.exists(p):
-            with open(p, "r", encoding="utf-8") as f:
-                return json.load(f)
+load_dotenv(project_root / ".env")
+load_dotenv(backend_dir / ".env", override=True)
+
+# ── Lazy SD pipe (load once, reuse across batch) ───────────────────────────────
+_pipe = None
+
+def get_pipe(device: str):
+    global _pipe
+    if _pipe is None:
+        from diffusers import StableDiffusionInpaintPipeline
+        model_id = "runwayml/stable-diffusion-inpainting"
+        print(f"[Playground] Loading SD Inpainting model on {device}...")
+        _pipe = StableDiffusionInpaintPipeline.from_pretrained(
+            model_id,
+            torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+        ).to(device)
+        if device == "cuda":
+            _pipe.enable_attention_slicing()
+        print("[Playground] Model loaded.")
+    return _pipe
+
+
+# ── Helpers ────────────────────────────────────────────────────────────────────
+
+ASSETS_DIR     = project_root / "frontend" / "public" / "data" / "assets"
+SEMANTIC_DIR   = project_root / "frontend" / "public" / "data" / "visual_semantic"
+FEATURES_DIR   = project_root / "output" / "features"
+PLAYGROUND_DIR = project_root / "output" / "playground"
+PLAYGROUND_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def resolve_image(cid: str) -> Path | None:
+    for candidate in [ASSETS_DIR / f"creative_{cid}.png", ASSETS_DIR / f"{cid}.png"]:
+        if candidate.exists():
+            return candidate
     return None
 
-def main():
-    parser = argparse.ArgumentParser(description="PixelForge Diffusion Playground - Pipeline Simulator")
-    parser.add_argument("--id", type=str, default="500000", help="Creative ID to process")
-    parser.add_argument("--features", type=str, help="Manually override missing features")
-    parser.add_argument("--steps", type=int, default=30, help="Inference steps")
-    parser.add_argument("--scale", type=float, default=7.5, help="Guidance scale")
-    parser.add_argument("--auto", action="store_true", help="Automatically run retrieval + feature analysis")
-    args = parser.parse_args()
 
-    project_root = os.path.dirname(backend_dir)
-    output_dir = os.path.join(project_root, "output", "playground")
-    os.makedirs(output_dir, exist_ok=True)
+def load_semantic(cid: str) -> dict | None:
+    for p in [
+        FEATURES_DIR / f"creative_{cid}" / "visual_semantic.json",
+        SEMANTIC_DIR / f"creative_{cid}.json",
+    ]:
+        if p.exists():
+            with p.open("r", encoding="utf-8") as f:
+                d = json.load(f)
+            return None if d.get("mock") else d
+    return None
 
-    print(f"\n[Playground] 🧪 Simulating Pipeline for Creative ID: {args.id}")
-    
-    # 1. Resolve Image & Semantic Data
-    try:
-        image_path = resolve_image_path(args.id)
-    except FileNotFoundError as e:
-        print(f"Error: {e}")
-        return
 
-    semantic_data = load_semantic_data(args.id, project_root)
-    if semantic_data and not semantic_data.get("mock"):
-        global_block = semantic_data.get("global", {})
-        print(f"[Playground] Semantic data loaded. Style: {global_block.get('visual_style', '?')} | Tone: {global_block.get('emotional_tone', '?')}")
-        metadata = {
-            "visual_style": global_block.get("visual_style", ""),
-            "emotional_tone": global_block.get("emotional_tone", ""),
-            "dominant_colors": global_block.get("dominant_colors", []),
-            "main_message": global_block.get("main_message", ""),
-            "format": semantic_data.get("format", "mobile_ad"),
-            "cluster_id": semantic_data.get("cluster_id"),
+def get_mask(cid: str, image_path: Path) -> np.ndarray:
+    mask_path = FEATURES_DIR / f"creative_{cid}" / f"creative_{cid}_diffusion_mask.png"
+    if mask_path.exists():
+        print(f"[Playground] Using pre-generated mask.")
+        return np.array(Image.open(mask_path).convert("L"))
+    else:
+        print(f"[Playground] No mask found — generating on-the-fly (slow)...")
+        from generate.mask_generator import generate_diffusion_mask
+        mask_np, _, _ = generate_diffusion_mask(
+            str(image_path), str(project_root),
+            str(FEATURES_DIR / f"creative_{cid}")
+        )
+        return mask_np
+
+
+def build_sd_prompt(semantic: dict | None, sd_fragments: list[str]) -> str:
+    """
+    Build a clean SD inpainting prompt from:
+    - semantic global block (visual_style, emotional_tone, colors)
+    - sd_fragments: SD-ready background descriptions from LLM gap analysis
+    """
+    parts = ["high quality professional mobile advertising creative"]
+
+    if semantic:
+        g = semantic.get("global", {})
+        tone_map = {
+            "exciting": "dynamic energetic lighting",
+            "calm": "soft ambient lighting",
+            "luxurious": "cinematic golden lighting",
+            "playful": "bright cheerful colors",
+            "serious": "clean professional lighting",
+            "adventurous": "dramatic landscape lighting",
+            "urgent": "intense dramatic lighting",
         }
-    else:
-        if semantic_data and semantic_data.get("mock"):
-            print("[Playground] ⚠️  Found mock semantic data — no real visual descriptions available. Using generic metadata.")
-        else:
-            print("[Playground] No semantic data found. Using generic metadata.")
-        metadata = {"emotional_tone": "exciting", "dominant_colors": ["blue", "white"]}
+        style = (g.get("visual_style") or "").strip()
+        tone  = (g.get("emotional_tone") or "").lower().strip()
+        colors = g.get("dominant_colors") or []
 
-    # 2. Simulate Step 1 → 2 (Retrieval → LLM Feature Gap)
-    if args.auto:
-        from pipeline.step2_feature_analysis.llm_feature_gap import analyze_feature_gap_with_llm
+        if style and "mock" not in style.lower() and "synthetic" not in style.lower():
+            parts.append(style)
+        if tone in tone_map:
+            parts.append(tone_map[tone])
+        if colors:
+            parts.append(f"{' and '.join(colors[:2])} color palette")
 
-        print("[Playground] Step 1: Running Retrieval...")
-        top_cases = get_best_creatives(args.id, metadata.get("format", "banner"), metadata)
-        top_ids = [str(c.get("creative_id", c.get("id", ""))) for c in top_cases]
+    # Inject SD background fragments (the core upgrade)
+    SKIP = ("badge", "button", "text", "cta", "headline", "logo",
+            "message", "label", "format", "hook", "themed", "placement")
+    for frag in sd_fragments[:5]:
+        if frag and not any(k in frag.lower() for k in SKIP):
+            parts.append(frag)
 
-        print(f"[Playground] Step 2: Calling GPT-4o to analyze visual gap vs {top_ids}...")
-        result = analyze_feature_gap_with_llm(args.id, top_ids)
-        missing_features = result["missing_visual_features"]
-        print(f"[Playground] Reasoning: {result['reasoning']}")
-    else:
-        missing_features = [f.strip() for f in args.features.split(",")] if args.features else [
-            "dynamic gradient background",
-            "high quality product photography",
-            "cinematic lighting",
+    parts.append("no text, no typography, no watermarks, vibrant, sharp focus, 8k")
+    return ", ".join(parts)
+
+
+def get_sd_fragments(cid: str, semantic: dict | None, args) -> list[str]:
+    """Return SD prompt fragments from LLM gap analysis or manual --features."""
+    if args.features:
+        return [f.strip() for f in args.features.split(",")]
+
+    if not args.auto:
+        return [
+            "deep vibrant gradient background with soft glow",
+            "warm bokeh light particles",
+            "cinematic depth of field",
         ]
 
-    print(f"[Playground] TARGET FEATURES: {missing_features}")
+    # Auto: Retrieval → LLM gap analysis
+    from pipeline.step1_retrieval.core import get_best_creatives
+    from pipeline.step2_feature_analysis.llm_feature_gap import analyze_feature_gap_with_llm
 
-    # 3. Load/Generate Mask
-    mask_features_dir = os.path.join(project_root, "output", "features", f"creative_{args.id}")
-    mask_path = os.path.join(mask_features_dir, f"creative_{args.id}_diffusion_mask.png")
-    if not os.path.exists(mask_path):
-        print("[Playground] Generating mask...")
-        mask_np, _, _ = generate_diffusion_mask(image_path, project_root, mask_features_dir)
+    fmt = (semantic or {}).get("format", "banner") if semantic else "banner"
+    top_cases = get_best_creatives(cid, fmt, semantic or {})
+    top_ids = [str(c.get("creative_id", c.get("id", ""))) for c in top_cases]
+
+    print(f"[Playground] Step 1 Retrieval: top candidates = {top_ids}")
+    print(f"[Playground] Step 2 LLM Gap: asking GPT-4o for SD background fragments...")
+
+    result = analyze_feature_gap_with_llm(cid, top_ids, max_features=5)
+    fragments = result.get("missing_visual_features", [])
+
+    print(f"[Playground] ✓ LLM returned {len(fragments)} SD fragments:")
+    for f in fragments:
+        print(f"   · {f}")
+    return fragments
+
+
+# ── Core processing function ───────────────────────────────────────────────────
+
+def process_one(cid: str, args, pipe) -> str | None:
+    """Run the full pipeline for one creative. Returns output path or None."""
+    print(f"\n{'='*60}")
+    print(f"[Playground] Creative: {cid}")
+
+    img_path = resolve_image(cid)
+    if not img_path:
+        print(f"[Playground] ✗ Image not found for {cid}")
+        return None
+
+    semantic = load_semantic(cid)
+    if semantic:
+        g = semantic.get("global", {})
+        print(f"[Playground] Semantic: style='{g.get('visual_style','?')}' tone='{g.get('emotional_tone','?')}' colors={g.get('dominant_colors',[])}")
     else:
-        mask_np = np.array(Image.open(mask_path).convert("L"))
+        print(f"[Playground] ⚠ No real semantic data — using generic metadata")
 
-    # 4. Load Diffusion Model
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"[Playground] Loading SDXL Inpainting on {device}...")
-    model_id = "runwayml/stable-diffusion-inpainting"
-    pipe = StableDiffusionInpaintPipeline.from_pretrained(
-        model_id,
-        torch_dtype=torch.float16 if device == "cuda" else torch.float32,
-    ).to(device)
+    # Get SD fragments (LLM gap or manual)
+    sd_fragments = get_sd_fragments(cid, semantic, args)
 
-    # 5. Build Final Prompt
-    prompt = build_prompt(metadata, missing_features)
-    # STRONGER NEGATIVE PROMPT to avoid text/watermarks
+    # Build final prompt
+    prompt = build_sd_prompt(semantic, sd_fragments)
     negative_prompt = (
-        "text, words, letters, typography, alphabet, characters, "
-        "watermark, signature, logo, brand name, "
-        "blurry, distorted, low quality, grainy, "
-        "extra limbs, deformed, messy, out of focus"
+        "text, words, letters, numbers, typography, alphabet, watermark, "
+        "signature, logo, brand name, UI elements, buttons, "
+        "blurry, distorted, low quality, grainy, noisy, pixelated, "
+        "deformed, ugly, extra limbs, out of focus, oversaturated"
     )
 
-    print(f"[Playground] 📝 FINAL PROMPT: {prompt}")
-    print(f"[Playground] 🚫 NEGATIVE PROMPT: {negative_prompt}")
+    print(f"[Playground] 📝 PROMPT: {prompt}")
+    print(f"[Playground] 🚫 NEGATIVE: {negative_prompt}")
 
-    # 6. Run Inference
-    init_image = Image.open(image_path).convert("RGB")
+    # Load mask
+    mask_np = get_mask(cid, img_path)
+
+    # Run inference
+    init_image = Image.open(img_path).convert("RGB")
     orig_w, orig_h = init_image.size
-    target_w, target_h = (orig_w // 8) * 8, (orig_h // 8) * 8
-    
-    sd_image = init_image.resize((target_w, target_h), Image.LANCZOS)
-    mask_pil = Image.fromarray(mask_np).resize((target_w, target_h), Image.NEAREST)
+    target_w = (orig_w // 8) * 8
+    target_h = (orig_h // 8) * 8
 
-    print(f"[Playground] Running SD Inpainting...")
+    sd_image  = init_image.resize((target_w, target_h), Image.LANCZOS)
+    mask_pil  = Image.fromarray(mask_np).resize((target_w, target_h), Image.NEAREST)
+
+    print(f"[Playground] Running SD Inpainting ({args.steps} steps, scale={args.scale})...")
     output = pipe(
         prompt=prompt,
         negative_prompt=negative_prompt,
@@ -142,17 +229,82 @@ def main():
         width=target_w,
     ).images[0]
 
-    # 7. Composite & Save
-    result_native = output.resize((orig_w, orig_h), Image.LANCZOS)
-    mask_native = Image.fromarray(mask_np).convert("L")
-    inverted_mask = mask_native.point(lambda px: 255 - px)
+    # Composite: paste original back over non-masked regions
+    result_full  = output.resize((orig_w, orig_h), Image.LANCZOS)
+    mask_native  = Image.fromarray(mask_np).convert("L")
+    inverted     = mask_native.point(lambda px: 255 - px)
+    final        = result_full.copy()
+    final.paste(init_image, (0, 0), inverted)
 
-    final_image = result_native.copy()
-    final_image.paste(init_image, (0, 0), inverted_mask)
+    # Save
+    out_path = PLAYGROUND_DIR / f"{cid}_result.png"
+    final.save(out_path)
 
-    out_file = os.path.join(output_dir, f"{args.id}_simulated_pipeline.png")
-    final_image.save(out_file)
-    print(f"[Playground] Result saved to: {out_file}")
+    # Also save a side-by-side comparison
+    comparison = Image.new("RGB", (orig_w * 3, orig_h))
+    comparison.paste(init_image, (0, 0))
+    comparison.paste(Image.fromarray(mask_np).convert("RGB"), (orig_w, 0))
+    comparison.paste(final, (orig_w * 2, 0))
+    comparison.save(PLAYGROUND_DIR / f"{cid}_comparison.png")
+
+    print(f"[Playground] ✓ Saved: {out_path}")
+    print(f"[Playground] ✓ Comparison: {PLAYGROUND_DIR / f'{cid}_comparison.png'}")
+    return str(out_path)
+
+
+# ── Batch helper ───────────────────────────────────────────────────────────────
+
+def find_ready_creatives(n: int) -> list[str]:
+    """Find first N creatives that have BOTH a mask AND a visual_semantic.json."""
+    ready = []
+    mask_dirs = sorted(FEATURES_DIR.iterdir())
+    for d in mask_dirs:
+        cid = d.name.replace("creative_", "")
+        mask_exists = (d / f"creative_{cid}_diffusion_mask.png").exists()
+        sem_exists  = (SEMANTIC_DIR / f"creative_{cid}.json").exists() or \
+                      (FEATURES_DIR / f"creative_{cid}" / "visual_semantic.json").exists()
+        # Skip mocks
+        sem_path = SEMANTIC_DIR / f"creative_{cid}.json"
+        if sem_path.exists():
+            with sem_path.open() as f:
+                data = json.load(f)
+            if data.get("mock"):
+                sem_exists = False
+        if mask_exists and sem_exists:
+            ready.append(cid)
+        if len(ready) >= n:
+            break
+    return ready
+
+
+# ── Main ───────────────────────────────────────────────────────────────────────
+
+def main():
+    parser = argparse.ArgumentParser(description="PixelForge Diffusion Playground")
+    parser.add_argument("--id",      type=str, help="Single creative ID to process")
+    parser.add_argument("--batch",   type=int, help="Process N ready creatives in batch")
+    parser.add_argument("--auto",    action="store_true", help="Use LLM gap analysis for features")
+    parser.add_argument("--features",type=str, help="Manual comma-separated SD fragments")
+    parser.add_argument("--steps",   type=int, default=35, help="Inference steps (default 35)")
+    parser.add_argument("--scale",   type=float, default=8.0, help="Guidance scale (default 8.0)")
+    args = parser.parse_args()
+
+    if not args.id and not args.batch:
+        parser.error("Specify --id <creative_id> or --batch <N>")
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    pipe   = get_pipe(device)
+
+    if args.id:
+        process_one(args.id, args, pipe)
+    else:
+        creatives = find_ready_creatives(args.batch)
+        print(f"[Playground] Batch mode: {len(creatives)} creatives ready")
+        for cid in creatives:
+            process_one(cid, args, pipe)
+
+    print(f"\n[Playground] All done. Results in: {PLAYGROUND_DIR}")
+
 
 if __name__ == "__main__":
     main()
