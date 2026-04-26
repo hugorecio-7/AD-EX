@@ -1,0 +1,386 @@
+{
+  "creative_id": "501062",
+  "asset_file": "assets/creative_501062.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service with a focus on convenience.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.308
+      ],
+      "area_percentage": 29.19
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NomadLaye logo",
+      "description": "Bold, large text displaying 'NomadLaye' in a prominent position at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "Text that reads 'Escape this weekend' in a clear, readable font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.24
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Hotels + flights in one tap",
+      "description": "Smaller text below the main message, stating 'Hotels + flights in one tap' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.311,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.415
+      ],
+      "area_percentage": 12.24
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A prominent button at the bottom with the text 'Try for free' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular decorative shapes",
+      "description": "Several circular shapes in various sizes, adding a decorative touch to the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.343,
+        0.773,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Top left element",
+      "description": "A small rectangular element located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Middle circular element",
+      "description": "A medium-sized circular element positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        108,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.441,
+        0.58
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Bottom left circular element",
+      "description": "A small circular element located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Bottom right circular element",
+      "description": "A small circular element located towards the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Left side circular element",
+      "description": "A small circular element positioned on the left side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Middle rectangular element",
+      "description": "A rectangular element located in the center of the ad, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "NomadLaye text",
+      "description": "The same bold text 'NomadLaye' displayed prominently at the top.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        22,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.101
+      ],
+      "area_percentage": 11.59
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Text at the bottom of the ad that communicates the offer: 'Escape this weekend Hotels flights in one tap'.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "Text at the very bottom that reads 'Try for free', encouraging user action.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, NomadLaye, travel booking.",
+    "layout_text": "The headline is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "NomadLaye, Escape this weekend, Hotels flights in one tap, Try for free",
+    "elements_text": "headline: Bold, large text displaying 'NomadLaye' in a prominent position at the top. | body_text: Text that reads 'Escape this weekend' in a clear, readable font, centered in the middle of the ad. | body_text: Smaller text below the main message, stating 'Hotels + flights in one tap' in a simple font. | cta: A prominent button at the bottom with the text 'Try for free' in a contrasting color. | decorative_element: Several circular shapes in various sizes, adding a decorative touch to the center of the ad. | unknown: A small rectangular element located at the top left of the ad. | unknown: A medium-sized circular element positioned in the center of the ad. | unknown: A small circular element located towards the bottom left of the ad. | unknown: A small circular element located towards the bottom right of the ad. | unknown: A small circular element positioned on the left side of the ad. | unknown: A rectangular element located in the center of the ad, possibly decorative. | headline: The same bold text 'NomadLaye' displayed prominently at the top. text='NomadLaye' | body_text: Text at the bottom of the ad that communicates the offer: 'Escape this weekend Hotels flights in one tap'. text='Escape this weekend Hotels flights in one tap' | cta: Text at the very bottom that reads 'Try for free', encouraging user action. text='Try for free'"
+  }
+}

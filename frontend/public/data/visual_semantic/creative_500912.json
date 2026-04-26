@@ -1,0 +1,146 @@
+{
+  "creative_id": "500912",
+  "asset_file": "assets/creative_500912.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a prominent logo and promotional text on a vibrant background.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a financial service with a clear offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a clean and simple backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic area",
+      "description": "An abstract graphic area in the center, featuring geometric shapes that suggest a modern and digital theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold, black text in the bottom section that communicates the main offer, with a clear and readable font style.",
+      "text_content": "Your money, clearer Fast signup, instant card -30% Learn more",
+      "bbox_xyxy": [
+        23,
+        304,
+        258,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.633,
+        0.806,
+        0.915
+      ],
+      "center_normalized": [
+        0.439,
+        0.774
+      ],
+      "area_percentage": 20.65
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A simple logo at the top left, featuring the name 'CoinBridge' in a stylized font against a contrasting background.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        158,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.494,
+        0.117
+      ],
+      "center_normalized": [
+        0.284,
+        0.087
+      ],
+      "area_percentage": 2.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, CoinBridge logo, promotional text",
+    "layout_text": "The logo is positioned at the top left, the main text is centered at the bottom, and the graphic area is in the center.",
+    "ocr_text": "Your money, clearer, Fast signup, instant card, -30%, Learn more, CoinBridge",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a clean and simple backdrop. | unknown: An abstract graphic area in the center, featuring geometric shapes that suggest a modern and digital theme. | body_text: Bold, black text in the bottom section that communicates the main offer, with a clear and readable font style. text='Your money, clearer Fast signup, instant card -30% Learn more' | logo: A simple logo at the top left, featuring the name 'CoinBridge' in a stylized font against a contrasting background. text='CoinBridge'"
+  }
+}

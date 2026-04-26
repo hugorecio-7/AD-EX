@@ -6,7 +6,7 @@ const CreativeCard = ({ creative, onUpgrade, onChat }) => {
       <div className="relative overflow-hidden aspect-[9/16] bg-slate-900 flex items-center justify-center">
         <img 
           src={creative.image_url} 
-          alt={creative.subject} 
+          alt={creative.advertiser} 
           className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
         />
         {creative.is_upgraded && (

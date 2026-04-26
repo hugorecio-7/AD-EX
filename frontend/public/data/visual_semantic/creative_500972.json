@@ -1,0 +1,362 @@
+{
+  "creative_id": "500972",
+  "asset_file": "assets/creative_500972.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a game interface with a prominent headline and call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to engage with the game and claim rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a grid-like pattern, possibly representing a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area at the top featuring a light background with a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element similar to ID 1, possibly part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area at the top with a light background, similar to ID 2.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element that complements ID 3, likely part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, possibly containing an icon or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small graphic element in the center, possibly an icon or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small graphic element in the center, similar to ID 7.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, possibly containing an icon or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small rectangular area at the top, similar to ID 9.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold text at the top stating 'StormByte UGC' against a contrasting background.",
+      "text_content": "StormByte UGC",
+      "bbox_xyxy": [
+        24,
+        32,
+        347,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.05,
+        0.964,
+        0.198
+      ],
+      "center_normalized": [
+        0.515,
+        0.124
+      ],
+      "area_percentage": 13.32
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text in the center that reads 'Beat your rivals No ads in first week' in a clear, readable font.",
+      "text_content": "Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        464
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.725
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom with the text 'Claim reward' in a contrasting color, inviting user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, StormByte UGC, Beat your rivals No ads in first week, Claim reward",
+    "layout_text": "The headline is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "StormByte UGC, Beat your rivals No ads in first week, Claim reward",
+    "elements_text": "unknown: A central graphic element with a grid-like pattern, possibly representing a game interface. | unknown: A rectangular area at the top featuring a light background with a grid pattern. | unknown: Another central graphic element similar to ID 1, possibly part of the game interface. | unknown: A rectangular area at the top with a light background, similar to ID 2. | unknown: A central graphic element that complements ID 3, likely part of the game interface. | unknown: A small rectangular area at the top, possibly containing an icon or decorative element. | unknown: A small graphic element in the center, possibly an icon or decorative feature. | unknown: A small graphic element in the center, similar to ID 7. | unknown: A small rectangular area at the top, possibly containing an icon or decorative element. | unknown: A small rectangular area at the top, similar to ID 9. | headline: A large, bold text at the top stating 'StormByte UGC' against a contrasting background. text='StormByte UGC' | body_text: A prominent text in the center that reads 'Beat your rivals No ads in first week' in a clear, readable font. text='Beat your rivals No ads in first week' | cta: A button at the bottom with the text 'Claim reward' in a contrasting color, inviting user interaction. text='Claim reward'"
+  }
+}

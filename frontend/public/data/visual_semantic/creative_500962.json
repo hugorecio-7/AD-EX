@@ -1,0 +1,218 @@
+{
+  "creative_id": "500962",
+  "asset_file": "assets/creative_500962.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear focus on food delivery services.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting quick dinner options with a special sale.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.178
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.76
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A simple logo featuring a stylized food delivery icon in a light color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        135,
+        105,
+        292
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.281,
+        0.331,
+        0.61
+      ],
+      "center_normalized": [
+        0.234,
+        0.446
+      ],
+      "area_percentage": 6.41
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dinner in minutes text",
+      "description": "Bold, white text stating 'Dinner in minutes' that is centrally aligned and prominent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        135,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.282,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.239,
+        0.439
+      ],
+      "area_percentage": 5.65
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Late-night deals text",
+      "description": "Smaller white text below the main headline that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small, circular element with a price of '€9.99' displayed in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button with the text 'Watch now' in bold, inviting font, designed to attract clicks.",
+      "text_content": "Dinner in minutes Late-night deals available €9.99 Watch now",
+      "bbox_xyxy": [
+        23,
+        305,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.635,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.441,
+        0.775
+      ],
+      "area_percentage": 20.59
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "FreshDash headline",
+      "description": "The brand name 'FreshDash' displayed in a bold font at the top of the ad.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        24,
+        30,
+        152,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.475,
+        0.117
+      ],
+      "center_normalized": [
+        0.275,
+        0.09
+      ],
+      "area_percentage": 2.17
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright badge in the corner with the text 'SALE' in a bold font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, FreshDash logo, Dinner in minutes text, Watch now button",
+    "layout_text": "The headline is at the top, the logo is centered, the main message is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, €9.99, Watch now, FreshDash, SALE",
+    "elements_text": "logo: A simple logo featuring a stylized food delivery icon in a light color, positioned centrally. | body_text: Bold, white text stating 'Dinner in minutes' that is centrally aligned and prominent. | body_text: Smaller white text below the main headline that reads 'Late-night deals available'. | price: A small, circular element with a price of '€9.99' displayed in a contrasting color. | cta: A prominent button with the text 'Watch now' in bold, inviting font, designed to attract clicks. text='Dinner in minutes Late-night deals available €9.99 Watch now' | headline: The brand name 'FreshDash' displayed in a bold font at the top of the ad. text='FreshDash' | discount_badge: A small, bright badge in the corner with the text 'SALE' in a bold font. text='SALE'"
+  }
+}

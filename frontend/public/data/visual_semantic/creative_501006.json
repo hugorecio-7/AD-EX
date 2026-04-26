@@ -1,0 +1,218 @@
+{
+  "creative_id": "501006",
+  "asset_file": "assets/creative_501006.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a central content area highlighting an exclusive offer.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting an exclusive offer with a call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background that fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central content area featuring a light blue shape with rounded edges, suggesting a modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlay shape",
+      "description": "An overlay shape that is rectangular with rounded corners, positioned slightly off-center within the content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Exclusive offer text",
+      "description": "Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime', conveying urgency.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo 'NeonCast' displayed in a prominent, bold font at the top of the ad, suggesting a tech-savvy brand.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded button with the text 'Order now' in white, designed to stand out against the blue background.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in white text, indicating a discount, positioned at the bottom left.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, positioned at the top left, suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, exclusive offer, call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, NeonCast, Order now, 30%, UGC",
+    "elements_text": "main_subject: A central content area featuring a light blue shape with rounded edges, suggesting a modern design. | main_subject: An overlay shape that is rectangular with rounded corners, positioned slightly off-center within the content area. | headline: Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime', conveying urgency. text='Exclusive tonight Cancel anytime' | logo: The logo 'NeonCast' displayed in a prominent, bold font at the top of the ad, suggesting a tech-savvy brand. text='NeonCast' | cta: A rounded button with the text 'Order now' in white, designed to stand out against the blue background. text='Order now' | discount_badge: A small badge displaying '30%' in white text, indicating a discount, positioned at the bottom left. text='30%' | social_proof: A small label with the text 'UGC' in white, positioned at the top left, suggesting user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "501067",
+  "asset_file": "assets/creative_501067.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with bold text elements promoting a travel service.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting last-minute travel savings with a clear call to action.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NomadLaye UGC",
+      "description": "Large, bold text at the top center, featuring the brand name 'NomadLaye' in a prominent font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.399
+      ],
+      "area_percentage": 14.36
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Last-minute savings",
+      "description": "Medium-sized text below the headline, stating 'Last-minute savings' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Hotels + flights in one tap",
+      "description": "Smaller text beneath the main body text, providing additional information about the service offered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "$4.99",
+      "description": "A small price tag in the bottom left corner, displaying '$4.99' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now",
+      "description": "A prominent call-to-action button at the bottom center, urging users to 'Install now' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Two small circular icons positioned near the bottom, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "A mix of geometric shapes in the background, contributing to the overall design without specific meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top banner",
+      "description": "A banner at the top of the ad, containing the brand name and additional text, creating a focal point.",
+      "text_content": "NomadLaye UGC",
+      "bbox_xyxy": [
+        22,
+        25,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.531,
+        0.119
+      ],
+      "area_percentage": 14.96
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Service description",
+      "description": "Text at the bottom of the ad that describes the service, emphasizing convenience and savings.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.709
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A clear and inviting button at the bottom, encouraging immediate action with the text 'Install now'.",
+      "text_content": "$4.99 Install now",
+      "bbox_xyxy": [
+        26,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.365,
+        0.87
+      ],
+      "area_percentage": 4.49
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, NomadLaye, last-minute savings, Install now",
+    "layout_text": "The headline is at the top center, followed by body text, with the CTA button at the bottom center.",
+    "ocr_text": "NomadLaye UGC, Last-minute savings, Hotels + flights in one tap, $4.99, Install now",
+    "elements_text": "headline: Large, bold text at the top center, featuring the brand name 'NomadLaye' in a prominent font. | body_text: Medium-sized text below the headline, stating 'Last-minute savings' in a clear, readable font. | body_text: Smaller text beneath the main body text, providing additional information about the service offered. | price: A small price tag in the bottom left corner, displaying '$4.99' in a bold font. | cta: A prominent call-to-action button at the bottom center, urging users to 'Install now' in a contrasting color. | decorative_element: Two small circular icons positioned near the bottom, adding a decorative touch to the layout. | unknown: A mix of geometric shapes in the background, contributing to the overall design without specific meaning. | unknown: A banner at the top of the ad, containing the brand name and additional text, creating a focal point. text='NomadLaye UGC' | body_text: Text at the bottom of the ad that describes the service, emphasizing convenience and savings. text='Last-minute savings Hotels flights in one tap' | cta: A clear and inviting button at the bottom, encouraging immediate action with the text 'Install now'. text='$4.99 Install now'"
+  }
+}

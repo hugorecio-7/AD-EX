@@ -1,0 +1,194 @@
+{
+  "creative_id": "500950",
+  "asset_file": "assets/creative_500950.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo at the top, a central message, and a call to action at the bottom.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a secure and simple signup process for a card service.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A simple logo featuring the text 'VaultRun' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.43
+      ],
+      "area_percentage": 7.86
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Graphic element",
+      "description": "An abstract graphic element that appears to be a circular shape overlapping a rectangular shape, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, black text stating 'Secure & simple' followed by smaller text 'Fast signup, instant card', centrally positioned.",
+      "text_content": "Secure & simple Fast signup, instant card",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        466
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom of the ad with the text 'Start now' in white on a dark background.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        27,
+        40,
+        204,
+        76
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.567,
+        0.119
+      ],
+      "center_normalized": [
+        0.321,
+        0.091
+      ],
+      "area_percentage": 2.77
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge at the bottom left corner displaying '-30%' in a contrasting color to attract attention.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        24,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.158,
+        0.85
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, VaultRun logo, call to action.",
+    "layout_text": "Logo at the top, main message in the center, and call to action at the bottom.",
+    "ocr_text": "VaultRun, Secure & simple, Fast signup, instant card, Start now, -30%",
+    "elements_text": "logo: A simple logo featuring the text 'VaultRun' in a bold, modern font, positioned at the top of the ad. | unknown: An abstract graphic element that appears to be a circular shape overlapping a rectangular shape, centered in the ad. | body_text: Bold, black text stating 'Secure & simple' followed by smaller text 'Fast signup, instant card', centrally positioned. text='Secure & simple Fast signup, instant card' | cta: A prominent button at the bottom of the ad with the text 'Start now' in white on a dark background. text='VaultRun' | discount_badge: A small badge at the bottom left corner displaying '-30%' in a contrasting color to attract attention. text='Start now' | unknown:  text='-30%'"
+  }
+}

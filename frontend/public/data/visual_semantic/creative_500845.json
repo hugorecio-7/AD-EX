@@ -1,0 +1,194 @@
+{
+  "creative_id": "500845",
+  "asset_file": "assets/creative_500845.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on a promotional message and call to action.",
+    "visual_style": "warm and inviting",
+    "main_message": "Promoting a simple and secure signup for a card service.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "SwiftStack logo",
+      "description": "A simple logo featuring the text 'SwiftStack' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Secure & simple message",
+      "description": "A prominent text block stating 'Secure & simple' in a large, clear font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        94,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.294,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.65
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Fast signup details",
+      "description": "Smaller text below the main message that reads 'Fast signup, instant card', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price display",
+      "description": "A bold text displaying the price '€9.99', centered and visually distinct to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text saying 'Try for free', designed to encourage user interaction, positioned below the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A solid color background that is warm and inviting, providing a cohesive backdrop for the text elements.",
+      "text_content": "Secure & simple Fast signup instant card €9.99 Try for free",
+      "bbox_xyxy": [
+        22,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.787
+      ],
+      "area_percentage": 24.51
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'SwiftStack' in a simple, modern font.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        23,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.094
+      ],
+      "area_percentage": 1.15
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, warm and inviting, SwiftStack logo, secure signup message, call to action.",
+    "layout_text": "The logo is at the top, followed by the main message, additional details, price, and call to action at the bottom.",
+    "ocr_text": "SwiftStack, Secure & simple, Fast signup, instant card, €9.99, Try for free",
+    "elements_text": "headline: A simple logo featuring the text 'SwiftStack' in a bold font, positioned at the top of the ad. | body_text: A prominent text block stating 'Secure & simple' in a large, clear font, centered in the ad. | body_text: Smaller text below the main message that reads 'Fast signup, instant card', providing additional information. | price: A bold text displaying the price '€9.99', centered and visually distinct to attract attention. | cta: A button-like text saying 'Try for free', designed to encourage user interaction, positioned below the price. | logo: A small logo at the top left corner, featuring the brand name 'SwiftStack' in a simple, modern font. text='SwiftStack'"
+  }
+}

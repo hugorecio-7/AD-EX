@@ -1,0 +1,194 @@
+{
+  "creative_id": "501034",
+  "asset_file": "assets/creative_501034.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A vibrant solid blue background fills the entire canvas, providing a bright and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Placeholder for app screenshot",
+      "description": "A rectangular placeholder in the center, designed to represent an app screenshot, with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.331,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text in the center reads 'Fast food, fast Free delivery over $15', conveying a clear promotional message.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        358
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' appears at the top left in a bold font, colored white against the blue background.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Get offer' in white, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text at the bottom left shows the price '€9.99' in white, indicating the cost of the offer.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        23,
+        399,
+        87,
+        419
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.873
+      ],
+      "center_normalized": [
+        0.172,
+        0.852
+      ],
+      "area_percentage": 0.83
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A circular badge at the top right with the word 'SALE' in bold yellow text, highlighting a special offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, QuickFork, fast food, delivery offer",
+    "layout_text": "The logo is positioned at the top left, the promotional text is centered, and the call to action is at the bottom center.",
+    "ocr_text": "Fast food, fast, Free delivery over $15, QuickFork, Get offer, €9.99, SALE",
+    "elements_text": "app_screenshot: A rectangular placeholder in the center, designed to represent an app screenshot, with a light outline. | body_text: Bold white text in the center reads 'Fast food, fast Free delivery over $15', conveying a clear promotional message. text='Fast food, fast Free delivery over $15' | logo: The logo 'QuickFork' appears at the top left in a bold font, colored white against the blue background. text='QuickFork' | cta: A rounded button at the bottom center with the text 'Get offer' in white, inviting user interaction. text='Get offer' | price: A small text at the bottom left shows the price '€9.99' in white, indicating the cost of the offer. text='€9.99' | discount_badge: A circular badge at the top right with the word 'SALE' in bold yellow text, highlighting a special offer. text='SALE'"
+  }
+}

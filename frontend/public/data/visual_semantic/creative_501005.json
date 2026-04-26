@@ -1,0 +1,242 @@
+{
+  "creative_id": "501005",
+  "asset_file": "assets/creative_501005.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant, abstract design with a clear call to action.",
+    "visual_style": "bright and modern with geometric shapes",
+    "main_message": "Encouraging viewers to stream new hits weekly.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large abstract shape in the center, possibly a combination of circles and squares with a solid color background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A smaller abstract shape positioned centrally, likely a geometric figure with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "Another central abstract shape, possibly a rectangle or square, layered over the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small circular shape located towards the bottom of the ad, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "Another small circular shape positioned near the bottom, complementing the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Stream the hype New hits every week' prominently displayed in the center.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        35,
+        409,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'NeonCast' appears at the top in a bold, modern font against a contrasting background.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Watch now' in a clear, inviting font.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern with geometric shapes, Stream the hype New hits every week, Watch now",
+    "layout_text": "The logo is positioned at the top, the main message is centrally located, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, NeonCast, Watch now",
+    "elements_text": "unknown: A large abstract shape in the center, possibly a combination of circles and squares with a solid color background. | unknown: A smaller abstract shape positioned centrally, likely a geometric figure with a solid color. | unknown: Another central abstract shape, possibly a rectangle or square, layered over the background. | unknown: A small circular shape located towards the bottom of the ad, likely decorative. | unknown: Another small circular shape positioned near the bottom, complementing the previous element. | body_text: Bold, white text stating 'Stream the hype New hits every week' prominently displayed in the center. text='Stream the hype New hits every week' | logo: The logo 'NeonCast' appears at the top in a bold, modern font against a contrasting background. text='NeonCast' | cta: A prominent button at the bottom with the text 'Watch now' in a clear, inviting font. text='Watch now'"
+  }
+}

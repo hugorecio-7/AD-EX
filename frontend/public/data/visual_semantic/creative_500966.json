@@ -1,0 +1,218 @@
+{
+  "creative_id": "500966",
+  "asset_file": "assets/creative_500966.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of bold text and abstract shapes against a vibrant background.",
+    "visual_style": "playful and colorful",
+    "main_message": "Promoting new content and encouraging bookings.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A large, abstract shape in the center, possibly a circle or oval, with a soft gradient.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A medium-sized square shape in the center, featuring a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        330
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.517
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.62
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle located at the bottom center, with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circle positioned near the bottom, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "PulsePlay UGC",
+      "description": "A bold, large text at the top, prominently displaying the words 'PulsePlay UGC' in a striking font.",
+      "text_content": "PulsePlay UGC",
+      "bbox_xyxy": [
+        24,
+        24,
+        319,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.037,
+        0.886,
+        0.198
+      ],
+      "center_normalized": [
+        0.476,
+        0.118
+      ],
+      "area_percentage": 13.19
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "New season announcement",
+      "description": "A medium-sized text at the bottom, stating 'A new season drops New hits every week' in a clear, readable font.",
+      "text_content": "A new season drops New hits every week",
+      "bbox_xyxy": [
+        67,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.186,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.714
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A small, rectangular button at the bottom center with the text 'Book now' in a contrasting color.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and colorful, PulsePlay UGC, new season announcement, Book now button",
+    "layout_text": "The headline is at the top, followed by decorative shapes in the center, with body text and CTA at the bottom.",
+    "ocr_text": "PulsePlay UGC, A new season drops New hits every week, Book now",
+    "elements_text": "unknown: A large, abstract shape in the center, possibly a circle or oval, with a soft gradient. | unknown: A medium-sized square shape in the center, featuring a solid color. | unknown: A small circle located at the bottom center, with a simple design. | unknown: Another small circle positioned near the bottom, similar in style to the previous one. | headline: A bold, large text at the top, prominently displaying the words 'PulsePlay UGC' in a striking font. text='PulsePlay UGC' | body_text: A medium-sized text at the bottom, stating 'A new season drops New hits every week' in a clear, readable font. text='A new season drops New hits every week' | cta: A small, rectangular button at the bottom center with the text 'Book now' in a contrasting color. text='Book now'"
+  }
+}

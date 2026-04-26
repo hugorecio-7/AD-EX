@@ -1,0 +1,266 @@
+{
+  "creative_id": "500818",
+  "asset_file": "assets/creative_500818.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent sale announcement for a food delivery service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting quick dinner delivery with a discount.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A rectangular shape located in the center of the ad, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another rectangular shape in the center, likely serving as a background or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A third rectangular shape in the center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape at the bottom center, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small rectangular shape at the bottom center, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Dinner offer text",
+      "description": "Text in a bold font stating 'Dinner in minutes Free delivery over $15', prominently displayed at the bottom.",
+      "text_content": "Dinner in minutes Free delivery over $15",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold text at the top saying 'QuickFork SALE', designed to grab attention.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        25,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.089
+      ],
+      "area_percentage": 5.65
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Get offer', positioned at the bottom center, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        228,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.633,
+        0.909
+      ],
+      "center_normalized": [
+        0.5,
+        0.891
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small text element displaying '-30%', indicating a discount, located at the bottom left.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        26,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.161,
+        0.85
+      ],
+      "area_percentage": 0.67
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, QuickFork SALE, Dinner in minutes Free delivery over $15",
+    "layout_text": "The headline is at the top, the main body text is in the center, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes Free delivery over $15, QuickFork SALE, Get offer, -30%",
+    "elements_text": "unknown: A rectangular shape located in the center of the ad, possibly a decorative element. | unknown: Another rectangular shape in the center, likely serving as a background or decorative feature. | unknown: A third rectangular shape in the center, contributing to the overall design. | unknown: A small rectangular shape at the bottom center, possibly a decorative element. | unknown: Another small rectangular shape at the bottom center, likely decorative. | body_text: Text in a bold font stating 'Dinner in minutes Free delivery over $15', prominently displayed at the bottom. text='Dinner in minutes Free delivery over $15' | headline: A large, bold text at the top saying 'QuickFork SALE', designed to grab attention. text='QuickFork SALE' | cta: A button with the text 'Get offer', positioned at the bottom center, inviting user interaction. text='Get offer' | discount_badge: A small text element displaying '-30%', indicating a discount, located at the bottom left. text='-30%'"
+  }
+}

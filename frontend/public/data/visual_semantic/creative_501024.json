@@ -1,0 +1,170 @@
+{
+  "creative_id": "501024",
+  "asset_file": "assets/creative_501024.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm-toned background with a clear focus on the logo and call to action.",
+    "visual_style": "warm and modern",
+    "main_message": "Encouraging users to install the ClearLedger app with confidence.",
+    "dominant_colors": [
+      "#FFA500",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A soft, abstract background featuring overlapping geometric shapes in warm tones.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A bold, modern logo with the text 'ClearLedger' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'Save with confidence' positioned centrally on the ad.",
+      "text_content": "Save with confidence Fast signup; instant card",
+      "bbox_xyxy": [
+        72,
+        409,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.71
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline that reads 'Fast signup, instant card'.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        34,
+        268,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.744,
+        0.128
+      ],
+      "center_normalized": [
+        0.403,
+        0.091
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Install now' in white, set against a contrasting background.",
+      "text_content": "€29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "ClearLedger, unknown, interstitial, warm and modern, key elements include logo, headline, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main headline in the center, subheadline below, and the CTA at the bottom.",
+    "ocr_text": "ClearLedger, Save with confidence, Fast signup, instant card, €29.99, Install now",
+    "elements_text": "logo: A bold, modern logo with the text 'ClearLedger' prominently displayed at the top. | decorative_element: Two overlapping geometric shapes, one circular and one square, in a muted color palette. | headline: Bold, white text stating 'Save with confidence' positioned centrally on the ad. text='Save with confidence Fast signup; instant card' | body_text: Smaller white text below the headline that reads 'Fast signup, instant card'. text='ClearLedger' | cta: A prominent button with the text 'Install now' in white, set against a contrasting background. text='€29.99 Install now'"
+  }
+}

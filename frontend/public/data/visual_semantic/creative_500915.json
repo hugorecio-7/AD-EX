@@ -1,0 +1,170 @@
+{
+  "creative_id": "500915",
+  "asset_file": "assets/creative_500915.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a simple and clean design with a focus on security and ease of use.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting a secure and simple service called CoinBridge.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "reassuring"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element that may not be visually distinct.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        313,
+        171,
+        332
+      ],
+      "bbox_normalized": [
+        0.475,
+        0.652,
+        0.536,
+        0.693
+      ],
+      "center_normalized": [
+        0.505,
+        0.673
+      ],
+      "area_percentage": 0.25
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold black text stating 'Secure & simple' with a smaller tagline 'Built for peace of mind' underneath.",
+      "text_content": "Secure simple Built for peace of mind",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 8.33
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo 'CoinBridge' displayed in a prominent position at the top, in a bold font.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        158,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.494,
+        0.117
+      ],
+      "center_normalized": [
+        0.284,
+        0.087
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded black button with white text saying 'Order now' at the bottom of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, CoinBridge, secure and simple service.",
+    "layout_text": "The logo is positioned at the top, the main headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge, Secure & simple, Built for peace of mind, Order now",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of green. | unknown: A small, unclear element that may not be visually distinct. | headline: Bold black text stating 'Secure & simple' with a smaller tagline 'Built for peace of mind' underneath. text='Secure simple Built for peace of mind' | logo: The logo 'CoinBridge' displayed in a prominent position at the top, in a bold font. text='CoinBridge' | cta: A rounded black button with white text saying 'Order now' at the bottom of the ad. text='Order now'"
+  }
+}

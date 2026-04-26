@@ -1,0 +1,218 @@
+{
+  "creative_id": "500337",
+  "asset_file": "assets/creative_500337.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on financial tracking.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Encouraging users to track their finances with NovaPay.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element that appears abstract and blends into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        112,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.312,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.546,
+        0.43
+      ],
+      "area_percentage": 8.39
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element that is slightly transparent and adds depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.431
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small circular graphic located at the top of the ad, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        20,
+        106,
+        124,
+        141
+      ],
+      "bbox_normalized": [
+        0.057,
+        0.167,
+        0.345,
+        0.221
+      ],
+      "center_normalized": [
+        0.201,
+        0.194
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A rectangular graphic element positioned at the center bottom, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "NovaPay ALE UGC",
+      "description": "A bold, prominent text element at the top, featuring the brand name 'NovaPay' in large font.",
+      "text_content": "NovaPay ALE UGC",
+      "bbox_xyxy": [
+        22,
+        21,
+        321,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.033,
+        0.892,
+        0.198
+      ],
+      "center_normalized": [
+        0.476,
+        0.116
+      ],
+      "area_percentage": 13.76
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Track every euro",
+      "description": "A clear, informative text element in the center, conveying a message about tracking finances.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        35,
+        409,
+        323,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.897,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.684
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Watch now",
+      "description": "A bold button at the bottom with the text 'Watch now', designed to attract user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalistic with bold text, NovaPay, financial tracking",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "NovaPay ALE UGC, Track every euro, Built for peace of mind, Watch now",
+    "elements_text": "unknown: A central graphic element that appears abstract and blends into the background. | unknown: Another central graphic element that is slightly transparent and adds depth. | unknown: A small circular graphic located at the top of the ad, possibly decorative. | unknown: A rectangular graphic element positioned at the center bottom, likely decorative. | headline: A bold, prominent text element at the top, featuring the brand name 'NovaPay' in large font. text='NovaPay ALE UGC' | body_text: A clear, informative text element in the center, conveying a message about tracking finances. text='Track every euro Built for peace of mind' | cta: A bold button at the bottom with the text 'Watch now', designed to attract user interaction. text='Watch now'"
+  }
+}

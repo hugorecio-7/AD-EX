@@ -1,0 +1,386 @@
+{
+  "creative_id": "500832",
+  "asset_file": "assets/creative_500832.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo and clear call-to-action with engaging text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to join and earn rewards.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "IronQuest logo",
+      "description": "A stylized logo featuring the text 'IronQuest' in bold, prominent font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, eye-catching headline that reads 'Win epic rewards' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text below the headline that states 'Free rewards for new players' in a smaller, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A geometric shape or design element positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Gameplay icon",
+      "description": "A small icon representing gameplay, possibly a game controller or similar.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Right decorative element",
+      "description": "A small decorative element or icon located on the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button labeled 'Shop now' in a bold, contrasting color to encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small, possibly circular decorative element located near the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small text element",
+      "description": "A small text element positioned centrally, possibly decorative or supplementary.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small decorative element located at the top, possibly circular.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small text element",
+      "description": "A small text element positioned centrally, possibly decorative or supplementary.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline that reads 'IronQuest' in a bold, eye-catching font.",
+      "text_content": "IronQuest",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        99
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.155
+      ],
+      "center_normalized": [
+        0.486,
+        0.106
+      ],
+      "area_percentage": 8.18
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text that communicates the main offer, stating 'Win epic rewards Free rewards for new players' in a clear font.",
+      "text_content": "Win epic rewards Free rewards for new players",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad labeled 'Shop now' in a bold, contrasting color.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, IronQuest logo, call to action.",
+    "layout_text": "The headline is at the top, followed by body text, with the call to action at the bottom.",
+    "ocr_text": "IronQuest, Win epic rewards, Free rewards for new players, Shop now",
+    "elements_text": "logo: A stylized logo featuring the text 'IronQuest' in bold, prominent font. | headline: A large, eye-catching headline that reads 'Win epic rewards' in a bold font. | body_text: Text below the headline that states 'Free rewards for new players' in a smaller, clear font. | decorative_element: A geometric shape or design element positioned at the top of the ad. | icon: A small icon representing gameplay, possibly a game controller or similar. | decorative_element: A small decorative element or icon located on the right side of the ad. | cta: A button labeled 'Shop now' in a bold, contrasting color to encourage user interaction. | unknown: A small, possibly circular decorative element located near the top. | unknown: A small text element positioned centrally, possibly decorative or supplementary. | unknown: Another small decorative element located at the top, possibly circular. | unknown: A small text element positioned centrally, possibly decorative or supplementary. | headline: A prominent headline that reads 'IronQuest' in a bold, eye-catching font. text='IronQuest' | body_text: Text that communicates the main offer, stating 'Win epic rewards Free rewards for new players' in a clear font. text='Win epic rewards Free rewards for new players' | cta: A button at the bottom of the ad labeled 'Shop now' in a bold, contrasting color. text='Shop now'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500848",
+  "asset_file": "assets/creative_500848.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend escape deal at a low price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic shapes",
+      "description": "A combination of geometric shapes, including an oval and a rectangle, are centered in the ad, rendered in a lighter shade of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.62
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlay shapes",
+      "description": "Additional overlapping shapes in varying sizes and shades of orange create depth and interest in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle shape is positioned towards the center, adding a decorative touch to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Large rectangle",
+      "description": "A prominent rectangle shape is placed centrally, serving as a focal point for text placement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.339,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Medium circle",
+      "description": "A medium-sized circle is located near the center, complementing the other shapes in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Another rectangle",
+      "description": "Another rectangle shape is positioned centrally, contributing to the layered visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Text block",
+      "description": "A text block with the message 'Escape this weekend' is prominently displayed in white, contrasting against the orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "The price '$4.99' is displayed in bold white text, drawing attention as a key selling point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Start now' is presented in a clear, bold font, encouraging immediate action from viewers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Advertiser name",
+      "description": "The name 'NomadLayer' is displayed in a smaller font at the top, serving as the brand identifier.",
+      "text_content": "Escape this weekend $4.99 Gat= Start now",
+      "bbox_xyxy": [
+        22,
+        204,
+        251,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.784,
+        0.934
+      ],
+      "center_normalized": [
+        0.427,
+        0.786
+      ],
+      "area_percentage": 21.25
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small 'SALE' badge is positioned at the top right corner, indicating a promotional offer.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        24,
+        19,
+        119,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.372,
+        0.116
+      ],
+      "center_normalized": [
+        0.223,
+        0.087
+      ],
+      "area_percentage": 1.67
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include promotional text and geometric shapes.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Escape this weekend, $4.99, Start now, NomadLayer, SALE",
+    "elements_text": "main_subject: A combination of geometric shapes, including an oval and a rectangle, are centered in the ad, rendered in a lighter shade of orange. | main_subject: Additional overlapping shapes in varying sizes and shades of orange create depth and interest in the center of the ad. | decorative_element: A small circle shape is positioned towards the center, adding a decorative touch to the overall design. | main_subject: A prominent rectangle shape is placed centrally, serving as a focal point for text placement. | decorative_element: A medium-sized circle is located near the center, complementing the other shapes in the design. | main_subject: Another rectangle shape is positioned centrally, contributing to the layered visual effect. | body_text: A text block with the message 'Escape this weekend' is prominently displayed in white, contrasting against the orange background. | price: The price '$4.99' is displayed in bold white text, drawing attention as a key selling point. | cta: The phrase 'Start now' is presented in a clear, bold font, encouraging immediate action from viewers. | headline: The name 'NomadLayer' is displayed in a smaller font at the top, serving as the brand identifier. text='Escape this weekend $4.99 Gat= Start now' | discount_badge: A small 'SALE' badge is positioned at the top right corner, indicating a promotional offer. text='NomadLayer' | unknown:  text='SALE'"
+  }
+}

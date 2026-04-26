@@ -1,0 +1,218 @@
+{
+  "creative_id": "500752",
+  "asset_file": "assets/creative_500752.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and bold text.",
+    "visual_style": "modern abstract with bold text",
+    "main_message": "Encouraging users to start binge-watching with a flexible cancellation policy.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are centered in the ad, both in a lighter shade of purple, creating a modern and abstract look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.407
+      ],
+      "area_percentage": 13.57
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Rectangle shape",
+      "description": "A prominent rectangular shape in the center, slightly tilted, with a soft edge, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned near the bottom left of the main subject, enhancing the geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text stating 'Binge starts now' with a smaller line below it saying 'Cancel anytime', positioned centrally for emphasis.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        25,
+        301,
+        292,
+        358
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.627,
+        0.912,
+        0.746
+      ],
+      "center_normalized": [
+        0.495,
+        0.686
+      ],
+      "area_percentage": 9.91
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "A simple logo at the top left corner, featuring the text 'PulsePlay' in a clean, modern font.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        23,
+        26,
+        142,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.054,
+        0.444,
+        0.117
+      ],
+      "center_normalized": [
+        0.258,
+        0.085
+      ],
+      "area_percentage": 2.32
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Book now' in bold, inviting users to take action.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small badge labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern abstract with bold text, Binge starts now, PulsePlay logo, Book now button",
+    "layout_text": "The headline is centrally positioned with the main subject, the logo is at the top left, and the CTA is at the bottom center.",
+    "ocr_text": "Binge starts now, Cancel anytime, PulsePlay, Book now, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are centered in the ad, both in a lighter shade of purple, creating a modern and abstract look. | main_subject: A prominent rectangular shape in the center, slightly tilted, with a soft edge, adding depth to the design. | decorative_element: A small circle positioned near the bottom left of the main subject, enhancing the geometric theme. | body_text: Bold white text stating 'Binge starts now' with a smaller line below it saying 'Cancel anytime', positioned centrally for emphasis. text='Binge starts now Cancel anytime' | logo: A simple logo at the top left corner, featuring the text 'PulsePlay' in a clean, modern font. text='PulsePlay' | cta: A rounded button at the bottom center with the text 'Book now' in bold, inviting users to take action. text='Book now' | icon: A small badge labeled 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

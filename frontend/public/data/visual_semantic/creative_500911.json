@@ -1,0 +1,218 @@
+{
+  "creative_id": "500911",
+  "asset_file": "assets/creative_500911.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a teal background with bold text and glass panel visuals.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a flash sale with free shipping.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        103,
+        358,
+        229
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.161,
+        0.997,
+        0.358
+      ],
+      "center_normalized": [
+        0.498,
+        0.26
+      ],
+      "area_percentage": 19.66
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three rectangular glass panels with a reflective surface, arranged vertically.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three rectangular glass panels with a reflective surface, arranged vertically.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Left decorative shape",
+      "description": "A small triangular decorative shape in the top left corner, colored teal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.296
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Offer text",
+      "description": "A simple circular icon positioned below the main text, colored teal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "ThreadMarl UGC",
+      "description": "Bold, large text reading 'ThreadMarl UGC' in a prominent position at the top.",
+      "text_content": "ThreadMarl UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.536,
+        0.13
+      ],
+      "area_percentage": 12.61
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Sale announcement",
+      "description": "Text stating 'Flash sale live Free shipping over $25' in a clear, readable font.",
+      "text_content": "Flash sale live Free shipping over $25",
+      "bbox_xyxy": [
+        57,
+        409,
+        305,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.639,
+        0.847,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.14
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded rectangular button at the bottom with the text 'Get offer' in a contrasting color.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern minimalist with bold text, ThreadMarl UGC, flash sale, free shipping",
+    "layout_text": "The headline is at the top, main subjects are centered, and the CTA is at the bottom.",
+    "ocr_text": "ThreadMarl UGC, Flash sale live Free shipping over $25, Get offer",
+    "elements_text": "main_subject: Three rectangular glass panels with a reflective surface, arranged vertically. | main_subject: Three rectangular glass panels with a reflective surface, arranged vertically. | decorative_element: A small triangular decorative shape in the top left corner, colored teal. | body_text: A simple circular icon positioned below the main text, colored teal. | headline: Bold, large text reading 'ThreadMarl UGC' in a prominent position at the top. text='ThreadMarl UGC' | body_text: Text stating 'Flash sale live Free shipping over $25' in a clear, readable font. text='Flash sale live Free shipping over $25' | cta: A rounded rectangular button at the bottom with the text 'Get offer' in a contrasting color. text='Get offer'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500809",
+  "asset_file": "assets/creative_500809.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with abstract shapes and clear messaging.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting financial clarity and peace of mind.",
+    "dominant_colors": [
+      "light green",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "A combination of circular and square shapes in soft green tones, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        401
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.627
+      ],
+      "center_normalized": [
+        0.333,
+        0.434
+      ],
+      "area_percentage": 12.62
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "A smaller circular shape in a lighter green, located centrally above the main shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Main square shape",
+      "description": "A prominent square shape in a muted green color, centered within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape in a light green color, positioned towards the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Another small shape",
+      "description": "A slightly larger circular shape in a light green color, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text stating 'Your money, clearer' with a smaller tagline below it in a lighter font.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        71,
+        407,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.636,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.709
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The word 'ClearLedger' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        34,
+        268,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.744,
+        0.128
+      ],
+      "center_normalized": [
+        0.403,
+        0.091
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text 'Watch now' in bold white, located at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, ClearLedger, financial clarity.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, ClearLedger, Watch now",
+    "elements_text": "decorative_element: A combination of circular and square shapes in soft green tones, positioned centrally. | decorative_element: A smaller circular shape in a lighter green, located centrally above the main shapes. | decorative_element: A prominent square shape in a muted green color, centered within the ad. | unknown: A small circular shape in a light green color, positioned towards the bottom left. | unknown: A slightly larger circular shape in a light green color, located towards the bottom center. | body_text: Bold white text stating 'Your money, clearer' with a smaller tagline below it in a lighter font. text='Your money, clearer Built for peace of mind' | logo: The word 'ClearLedger' in a bold, modern font, positioned at the top of the ad. text='ClearLedger' | cta: A button-like text 'Watch now' in bold white, located at the bottom of the ad. text='Watch now'"
+  }
+}

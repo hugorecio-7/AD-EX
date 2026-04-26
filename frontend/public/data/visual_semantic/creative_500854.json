@@ -1,0 +1,314 @@
+{
+  "creative_id": "500854",
+  "asset_file": "assets/creative_500854.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a food delivery service with a prominent sale and call to action.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting late-night food delivery deals with a discount.",
+    "dominant_colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Main graphic element",
+      "description": "A rectangular shape with three vertical sections, resembling a food delivery interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        193,
+        306
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.536,
+        0.479
+      ],
+      "center_normalized": [
+        0.344,
+        0.38
+      ],
+      "area_percentage": 7.6
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Graphic detail",
+      "description": "A smaller rectangular shape with two circular buttons, suggesting interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Graphic detail",
+      "description": "Another small rectangular shape with a similar design to ID 2, indicating a cohesive interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        275,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Graphic detail",
+      "description": "A larger rectangular shape that serves as a background for the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small rectangular button with the text 'Watch now' prominently displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        401
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.627
+      ],
+      "center_normalized": [
+        0.348,
+        0.6
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small circular badge with the text '-30%' indicating a discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text that reads 'Dinner in minutes Late-night deals available' in a bold, clear font.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        66,
+        409,
+        292,
+        500
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.639,
+        0.811,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.93
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the top that says 'PlateSprint SALE' with a prominent sale tag.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        21,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.475,
+        0.088
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button at the bottom with the text 'Watch now' encouraging user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' to highlight a promotional offer.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "Text labeled 'UGC' indicating user-generated content, positioned at the top.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, late-night food delivery, discount offers.",
+    "layout_text": "The headline is at the top, the main graphic is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, PlateSprint SALE, Watch now, -30%, UGC",
+    "elements_text": "unknown: A rectangular shape with three vertical sections, resembling a food delivery interface. | unknown: A smaller rectangular shape with two circular buttons, suggesting interaction. | unknown: Another small rectangular shape with a similar design to ID 2, indicating a cohesive interface. | unknown: A larger rectangular shape that serves as a background for the main text. | cta: A small rectangular button with the text 'Watch now' prominently displayed. | discount_badge: A small circular badge with the text '-30%' indicating a discount. | body_text: Text that reads 'Dinner in minutes Late-night deals available' in a bold, clear font. text='Dinner in minutes Late-night deals available' | headline: Bold text at the top that says 'PlateSprint SALE' with a prominent sale tag. text='PlateSprint SALE' | cta: A small button at the bottom with the text 'Watch now' encouraging user interaction. text='Watch now' | discount_badge: A small badge displaying '30%' to highlight a promotional offer. text='30%' | social_proof: Text labeled 'UGC' indicating user-generated content, positioned at the top. text='UGC'"
+  }
+}

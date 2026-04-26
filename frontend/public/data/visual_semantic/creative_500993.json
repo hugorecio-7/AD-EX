@@ -1,0 +1,314 @@
+{
+  "creative_id": "500993",
+  "asset_file": "assets/creative_500993.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and informative text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting last-minute hotel and flight savings.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "RouteBloom logo",
+      "description": "A small logo featuring the text 'RouteBloom' in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A large, bold text stating 'Last-minute savings' in a prominent position, likely centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.19
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A smaller text below the main body text that reads 'Hotels + flights in one tap', providing more context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Install now', designed to stand out and encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.82
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Decorative shape",
+      "description": "An abstract shape that adds visual interest, likely in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A shape or graphic element that is not clearly defined, possibly serving a decorative purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another abstract shape that contributes to the overall design but lacks specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.249,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape that adds detail to the design, positioned towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small circular shape, similar to the previous one, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "background",
+      "label": "Background color",
+      "description": "A solid color background that sets the tone for the ad, likely in a calming blue hue.",
+      "text_content": "Last-minute savings Hotele ARaS tap Install now",
+      "bbox_xyxy": [
+        59,
+        204,
+        259,
+        299
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.637,
+        0.809,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.786
+      ],
+      "area_percentage": 18.55
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "A small text label reading 'UGC', indicating user-generated content, positioned near the logo.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.26
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "UGC indicator",
+      "description": "A small graphic element that signifies user-generated content, located above the main text.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "RouteBloom, unknown vertical, native format, modern and minimalistic style, key elements include a logo, body text, and a call to action.",
+    "layout_text": "The logo is at the top left, the main body text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Last-minute savings, Hotels + flights in one tap, Install now, RouteBloom, UGC",
+    "elements_text": "logo: A small logo featuring the text 'RouteBloom' in a modern font, positioned at the top left corner. | body_text: A large, bold text stating 'Last-minute savings' in a prominent position, likely centered in the ad. | body_text: A smaller text below the main body text that reads 'Hotels + flights in one tap', providing more context. | cta: A rectangular button with the text 'Install now', designed to stand out and encourage user interaction. | decorative_element: An abstract shape that adds visual interest, likely in the center of the ad. | unknown: A shape or graphic element that is not clearly defined, possibly serving a decorative purpose. | unknown: Another abstract shape that contributes to the overall design but lacks specific identification. | unknown: A small circular shape that adds detail to the design, positioned towards the bottom. | unknown: Another small circular shape, similar to the previous one, enhancing the visual appeal. | body_text: A small text label reading 'UGC', indicating user-generated content, positioned near the logo. text='RouteBloom' | decorative_element: A small graphic element that signifies user-generated content, located above the main text. text='UGC'"
+  }
+}

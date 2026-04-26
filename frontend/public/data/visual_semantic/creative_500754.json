@@ -1,0 +1,242 @@
+{
+  "creative_id": "500754",
+  "asset_file": "assets/creative_500754.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a prominent app interface and clear call to action.",
+    "visual_style": "vibrant and modern",
+    "main_message": "Encouraging users to start binge-watching with the app.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.08
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Content display area",
+      "description": "A rectangular area with rounded corners, featuring a light purple color, resembling a mobile app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large, light purple circle positioned within the app screenshot area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A smaller, light purple square located within the app screenshot area, complementing the circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small circle",
+      "description": "A tiny light purple circle positioned towards the bottom of the app screenshot area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Another small circle",
+      "description": "Another tiny light purple circle, similar to the previous one, located next to it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Binge starts now Cancel anytime' prominently displayed in the center of the ad.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "The 'PulsePlay' logo appears at the top in white text against the purple background.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        24,
+        34,
+        218,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.606,
+        0.128
+      ],
+      "center_normalized": [
+        0.336,
+        0.091
+      ],
+      "area_percentage": 4.04
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A white button with the text 'Start now' at the bottom of the ad, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, vibrant and modern, PulsePlay logo, main headline text, call to action.",
+    "layout_text": "The logo is positioned at the top, the main headline is centered, and the call to action is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, PulsePlay, Start now",
+    "elements_text": "app_screenshot: A rectangular area with rounded corners, featuring a light purple color, resembling a mobile app interface. | decorative_element: A large, light purple circle positioned within the app screenshot area, adding visual interest. | decorative_element: A smaller, light purple square located within the app screenshot area, complementing the circular shape. | icon: A tiny light purple circle positioned towards the bottom of the app screenshot area. | icon: Another tiny light purple circle, similar to the previous one, located next to it. | headline: Bold white text stating 'Binge starts now Cancel anytime' prominently displayed in the center of the ad. text='Binge starts now Cancel anytime' | logo: The 'PulsePlay' logo appears at the top in white text against the purple background. text='PulsePlay' | cta: A white button with the text 'Start now' at the bottom of the ad, inviting user interaction. text='Start now'"
+  }
+}

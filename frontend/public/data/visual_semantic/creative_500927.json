@@ -1,0 +1,242 @@
+{
+  "creative_id": "500927",
+  "asset_file": "assets/creative_500927.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear call to action with a discount offer.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a food delivery service with a discount offer.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that appears to be a decorative or background shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, centered element that may serve as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        104,
+        145
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.286,
+        0.326,
+        0.455
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 2.94
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A medium-sized, centered element that looks like a decorative or background shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        99,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.31,
+        0.529,
+        0.58,
+        0.625
+      ],
+      "center_normalized": [
+        0.445,
+        0.577
+      ],
+      "area_percentage": 2.59
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that appears to be a decorative or background shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        206
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.646
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that may serve as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.625
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that appears to be a decorative or background shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.53,
+        0.579,
+        0.625
+      ],
+      "center_normalized": [
+        0.53,
+        0.578
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A prominent text element at the bottom, featuring a bold message about a discount and a call to action.",
+      "text_content": "Hungry? We got you -3o%Fre Try for free",
+      "bbox_xyxy": [
+        22,
+        202,
+        289,
+        302
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.631,
+        0.903,
+        0.944
+      ],
+      "center_normalized": [
+        0.486,
+        0.787
+      ],
+      "area_percentage": 26.07
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main Headline",
+      "description": "A large, bold text element at the top that reads 'BiteRush' in a modern font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        24,
+        293,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.075,
+        0.916,
+        0.247
+      ],
+      "center_normalized": [
+        0.495,
+        0.161
+      ],
+      "area_percentage": 14.45
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, BiteRush, discount offer",
+    "layout_text": "The headline is positioned at the top, the call to action is at the bottom, with decorative elements centered.",
+    "ocr_text": "Hungry? We got you, -30%Fresh favorites nearby, Try for free, BiteRush",
+    "elements_text": "unknown: A small, centered element that appears to be a decorative or background shape. | unknown: Another small, centered element that may serve as a decorative feature. | unknown: A medium-sized, centered element that looks like a decorative or background shape. | unknown: A small, centered element that appears to be a decorative or background shape. | unknown: A small, centered element that may serve as a decorative feature. | unknown: A small, centered element that appears to be a decorative or background shape. | cta: A prominent text element at the bottom, featuring a bold message about a discount and a call to action. text='Hungry? We got you -3o%Fre Try for free' | headline: A large, bold text element at the top that reads 'BiteRush' in a modern font. text='BiteRush'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500896",
+  "asset_file": "assets/creative_500896.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the app's interface and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting the MoonScreen app with trending content and a call to action.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid blue background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Main app interface",
+      "description": "A rectangular area showcasing the app interface with rounded shapes and a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.506
+      ],
+      "center_normalized": [
+        0.469,
+        0.373
+      ],
+      "area_percentage": 15.93
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Secondary app interface",
+      "description": "Another rectangular area displaying additional app features with rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Feature highlight",
+      "description": "A smaller rectangular area emphasizing a specific feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Feature overview",
+      "description": "A rectangular area showing an overview of the app's features with rounded shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Additional feature",
+      "description": "A rectangular area displaying another feature of the app with a light blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.99
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "Feature detail",
+      "description": "A smaller rectangular area providing details about a specific feature of the app.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 8,
+      "role": "app_screenshot",
+      "label": "Feature showcase",
+      "description": "A rectangular area showcasing another feature of the app with rounded edges.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.591,
+        0.43
+      ],
+      "area_percentage": 5.9
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Trending text",
+      "description": "A small text area indicating trending content, displayed in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "CTA button",
+      "description": "A prominent button with the text 'Get offer' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "A small text area with the phrase 'Start free today' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline stating 'Watch what's trending' in a clear, readable font.",
+      "text_content": "Watch what's trending Get offer",
+      "bbox_xyxy": [
+        56,
+        206,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.644,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 18.89
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A small logo at the top left corner, featuring the text 'MoonScreen' in a stylized font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        25,
+        25,
+        145,
+        43
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.078,
+        0.453,
+        0.134
+      ],
+      "center_normalized": [
+        0.266,
+        0.106
+      ],
+      "area_percentage": 2.11
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, trending content, call to action",
+    "layout_text": "The headline is at the bottom, the app interface is centered, and the CTA is prominently displayed.",
+    "ocr_text": "MoonScreen, Watch what's trending, Start free today, Get offer",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad. | app_screenshot: A rectangular area showcasing the app interface with rounded shapes and a light blue background. | app_screenshot: Another rectangular area displaying additional app features with rounded edges. | app_screenshot: A smaller rectangular area emphasizing a specific feature of the app. | app_screenshot: A rectangular area showing an overview of the app's features with rounded shapes. | app_screenshot: A rectangular area displaying another feature of the app with a light blue background. | app_screenshot: A smaller rectangular area providing details about a specific feature of the app. | app_screenshot: A rectangular area showcasing another feature of the app with rounded edges. | body_text: A small text area indicating trending content, displayed in a simple font. | cta: A prominent button with the text 'Get offer' in a bold font. | body_text: A small text area with the phrase 'Start free today' in a simple font. | headline: A bold headline stating 'Watch what's trending' in a clear, readable font. text='Watch what's trending Get offer' | logo: A small logo at the top left corner, featuring the text 'MoonScreen' in a stylized font. text='MoonScreen'"
+  }
+}

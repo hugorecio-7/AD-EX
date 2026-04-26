@@ -1,0 +1,218 @@
+{
+  "creative_id": "500909",
+  "asset_file": "assets/creative_500909.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a warm orange background with a clear focus on discounts and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a discount on products with a clear call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring the word 'ThreadMark' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.331,
+        0.595
+      ],
+      "center_normalized": [
+        0.24,
+        0.437
+      ],
+      "area_percentage": 5.73
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Discount headline",
+      "description": "A prominent text element stating 'Up to 40% off' in a large, eye-catching font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Shipping information",
+      "description": "Smaller text below the headline that reads 'Free shipping over $25', providing additional promotional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        72,
+        332
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.227,
+        0.692
+      ],
+      "center_normalized": [
+        0.173,
+        0.62
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A subtle decorative element that adds visual interest but does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom of the ad with the text 'Start now' in a clear, inviting font.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        357
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.744
+      ],
+      "center_normalized": [
+        0.506,
+        0.692
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Product price",
+      "description": "The price '€19.99' displayed prominently in a bold font, indicating the cost of the product.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        22,
+        396,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.358,
+        0.87
+      ],
+      "area_percentage": 5.18
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Background color",
+      "description": "A warm, solid orange background that creates a vibrant and inviting atmosphere for the ad.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        24,
+        32,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.092
+      ],
+      "area_percentage": 2.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, ThreadMark logo, discount headline, call to action",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the price and CTA button at the bottom.",
+    "ocr_text": "ThreadMark, Up to 40% off, Free shipping over $25, €19.99, Start now",
+    "elements_text": "logo: A simple logo featuring the word 'ThreadMark' in a bold, modern font, positioned at the top of the ad. | headline: A prominent text element stating 'Up to 40% off' in a large, eye-catching font, centered in the ad. | body_text: Smaller text below the headline that reads 'Free shipping over $25', providing additional promotional information. | unknown: A subtle decorative element that adds visual interest but does not convey specific information. | cta: A rounded button at the bottom of the ad with the text 'Start now' in a clear, inviting font. text='Up to 40% off Free shipping over $25' | price: The price '€19.99' displayed prominently in a bold font, indicating the cost of the product. text='€19.99 Start now' | decorative_element: A warm, solid orange background that creates a vibrant and inviting atmosphere for the ad. text='ThreadMark'"
+  }
+}

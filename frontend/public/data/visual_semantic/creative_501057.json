@@ -1,0 +1,218 @@
+{
+  "creative_id": "501057",
+  "asset_file": "assets/creative_501057.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on the SwiftStack brand and a clear call to action.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Encouraging users to save confidently with a quick signup process.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "confident"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A stylized logo featuring the word 'SwiftStack' in bold, modern typography, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        274,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.762,
+        0.482
+      ],
+      "center_normalized": [
+        0.466,
+        0.361
+      ],
+      "area_percentage": 14.34
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A combination of geometric shapes, including a circle and a square, rendered in a muted color palette, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "Additional abstract shapes that complement the central design, adding depth and interest to the visual composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.585,
+        0.429
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "background element",
+      "description": "A subtle decorative element that enhances the background, providing texture without distracting from the main content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Bold, white text stating 'Save with confidence' with a smaller tagline 'Fast signup, instant card' below it, centrally positioned.",
+      "text_content": "Save with confidence Fast signup; instant card",
+      "bbox_xyxy": [
+        72,
+        409,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.71
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button with the text 'Learn more' in white, set against a dark background, located at the bottom of the ad.",
+      "text_content": "€9.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "SwiftStack headline",
+      "description": "The word 'SwiftStack' displayed in a large, bold font at the top of the ad, conveying the brand identity.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        40,
+        238,
+        78
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.661,
+        0.122
+      ],
+      "center_normalized": [
+        0.365,
+        0.092
+      ],
+      "area_percentage": 3.51
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, SwiftStack logo, main message, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the call to action at the bottom.",
+    "ocr_text": "SwiftStack, Save with confidence, Fast signup, instant card, €9.99, Learn more",
+    "elements_text": "logo: A stylized logo featuring the word 'SwiftStack' in bold, modern typography, positioned at the top center of the ad. | unknown: A combination of geometric shapes, including a circle and a square, rendered in a muted color palette, centered in the ad. | unknown: Additional abstract shapes that complement the central design, adding depth and interest to the visual composition. | decorative_element: A subtle decorative element that enhances the background, providing texture without distracting from the main content. | body_text: Bold, white text stating 'Save with confidence' with a smaller tagline 'Fast signup, instant card' below it, centrally positioned. text='Save with confidence Fast signup; instant card' | cta: A prominent button with the text 'Learn more' in white, set against a dark background, located at the bottom of the ad. text='€9.99 Learn more' | headline: The word 'SwiftStack' displayed in a large, bold font at the top of the ad, conveying the brand identity. text='SwiftStack'"
+  }
+}

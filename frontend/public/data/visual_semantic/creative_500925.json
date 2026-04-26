@@ -1,0 +1,314 @@
+{
+  "creative_id": "500925",
+  "asset_file": "assets/creative_500925.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on food delivery services.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting fast food delivery with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.5,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A stylized logo for 'BiteRush' positioned at the top center, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label that reads 'UGC' in a simple font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Three product icons",
+      "description": "Three rectangular icons representing food items, arranged horizontally in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small rectangular icon below the main product icons, representing additional food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "Another small rectangular icon below the main product icons, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text in a bold font stating 'Fast food, fast Free delivery over $15' centered below the icons.",
+      "text_content": "Fast food, fast Free delivery over $15",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        466
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.23
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'BiteRush' in large, bold letters at the top of the ad.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        27,
+        41,
+        203,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.564,
+        0.123
+      ],
+      "center_normalized": [
+        0.319,
+        0.094
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom center with the text 'Shop now' in a clear, inviting font.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Small decorative element",
+      "description": "A small decorative element that adds visual interest, located at the top of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label indicating user-generated content, positioned at the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, BiteRush logo, promotional text, call to action.",
+    "layout_text": "The headline is at the top, followed by the logo and discount badge, with product icons and promotional text centered, and the CTA button at the bottom.",
+    "ocr_text": "Fast food, fast Free delivery over $15, BiteRush, Shop now, SALE, UGC",
+    "elements_text": "logo: A stylized logo for 'BiteRush' positioned at the top center, featuring bold typography. | discount_badge: A small yellow badge with the word 'SALE' in bold text, located at the top right corner. | social_proof: A small label that reads 'UGC' in a simple font, positioned at the top left corner. | icon: Three rectangular icons representing food items, arranged horizontally in the center. | icon: A small rectangular icon below the main product icons, representing additional food items. | icon: Another small rectangular icon below the main product icons, similar to the previous one. | body_text: Text in a bold font stating 'Fast food, fast Free delivery over $15' centered below the icons. text='Fast food, fast Free delivery over $15' | headline: The main headline 'BiteRush' in large, bold letters at the top of the ad. text='BiteRush' | cta: A prominent button at the bottom center with the text 'Shop now' in a clear, inviting font. text='Shop now' | decorative_element: A small decorative element that adds visual interest, located at the top of the ad. text='SALE' | unknown: A small label indicating user-generated content, positioned at the top left. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500755",
+  "asset_file": "assets/creative_500755.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a central content area and clear call-to-action buttons.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to start binge-watching with a promotional offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        479
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PulsePlay logo",
+      "description": "The 'PulsePlay' logo appears at the top, featuring bold, modern typography in white against the blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area with rounded corners, featuring a light blue outline and empty space for visual content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        157,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.21
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button at the bottom with rounded edges, displaying the text 'Claim reward' in white on a darker blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 5,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small circular element with the text 'UGC' in white, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Binge starts now text",
+      "description": "The text 'Binge starts now Cancel anytime' is displayed prominently in white, centered within the main content area.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        27,
+        304,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.084,
+        0.633,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.497,
+        0.689
+      ],
+      "area_percentage": 9.11
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Two small circular icons are positioned within the main content area, adding a decorative touch.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        23,
+        26,
+        142,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.054,
+        0.444,
+        0.117
+      ],
+      "center_normalized": [
+        0.258,
+        0.085
+      ],
+      "area_percentage": 2.32
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A button at the bottom with rounded edges, featuring the text 'Claim reward' in white on a blue background.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that may serve a decorative or functional purpose, positioned at the top.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, PulsePlay logo, claim reward button",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, PulsePlay, Claim reward, UGC",
+    "elements_text": "headline: The 'PulsePlay' logo appears at the top, featuring bold, modern typography in white against the blue background. | main_subject: A central rectangular area with rounded corners, featuring a light blue outline and empty space for visual content. | cta: A prominent button at the bottom with rounded edges, displaying the text 'Claim reward' in white on a darker blue background. | social_proof: A small circular element with the text 'UGC' in white, positioned at the top left corner. | body_text: The text 'Binge starts now Cancel anytime' is displayed prominently in white, centered within the main content area. text='Binge starts now Cancel anytime' | decorative_element: Two small circular icons are positioned within the main content area, adding a decorative touch. text='PulsePlay' | cta: A button at the bottom with rounded edges, featuring the text 'Claim reward' in white on a blue background. text='Claim reward' | unknown: An unspecified element that may serve a decorative or functional purpose, positioned at the top. text='UGC'"
+  }
+}

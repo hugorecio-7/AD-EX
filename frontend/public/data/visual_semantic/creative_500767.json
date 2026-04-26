@@ -1,0 +1,290 @@
+{
+  "creative_id": "500767",
+  "asset_file": "assets/creative_500767.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with product displays, a prominent logo, and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting products with free shipping and a sale.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "product",
+      "label": "Product display",
+      "description": "A rectangular product display with two vertical sections, resembling a product selection interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.359,
+        0.4
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product display",
+      "description": "A smaller rectangular product display, similar to the main product display, positioned slightly above it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Another rectangular product display, mirroring the design of the first, located next to it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background element",
+      "description": "A subtle background element that adds depth, positioned at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background element",
+      "description": "A small decorative element at the bottom, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold text stating 'Your next favorite pick Free shipping over $25', centrally positioned for emphasis.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        502
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.714
+      ],
+      "area_percentage": 8.75
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'ZenDrop' displayed prominently at the top, featuring a modern font.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        21,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 4.09
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright button labeled 'Shop now', inviting users to take action, located at the bottom.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Product price",
+      "description": "A small text displaying the price '€9.99', positioned near the call to action.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A circular badge at the top right corner with the word 'SALE' in bold, eye-catching text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include product displays and a call to action.",
+    "layout_text": "The logo is at the top, followed by product displays, the main message in the center, and the call to action at the bottom.",
+    "ocr_text": "Your next favorite pick, Free shipping over $25, ZenDrop, Shop now, €9.99, SALE",
+    "elements_text": "product: A rectangular product display with two vertical sections, resembling a product selection interface. | product: A smaller rectangular product display, similar to the main product display, positioned slightly above it. | product: Another rectangular product display, mirroring the design of the first, located next to it. | decorative_element: A subtle background element that adds depth, positioned at the bottom of the ad. | decorative_element: A small decorative element at the bottom, enhancing the overall design. | body_text: Bold text stating 'Your next favorite pick Free shipping over $25', centrally positioned for emphasis. text='Your next favorite pick Free shipping over $25' | logo: The logo 'ZenDrop' displayed prominently at the top, featuring a modern font. text='ZenDrop' | cta: A bright button labeled 'Shop now', inviting users to take action, located at the bottom. text='Shop now' | price: A small text displaying the price '€9.99', positioned near the call to action. text='€9.99' | discount_badge: A circular badge at the top right corner with the word 'SALE' in bold, eye-catching text. text='SALE'"
+  }
+}

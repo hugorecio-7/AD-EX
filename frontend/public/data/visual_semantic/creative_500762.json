@@ -1,0 +1,218 @@
+{
+  "creative_id": "500762",
+  "asset_file": "assets/creative_500762.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a prominent logo and a clear call to action.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a flash sale on bestsellers.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "ZenDrop logo",
+      "description": "The logo features the word 'ZenDrop' in a modern, sans-serif font, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Two mirrors icon",
+      "description": "A simple line drawing of two mirrors facing each other, centered in the ad, symbolizing reflection or choice.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A minimalist design element that complements the mirrors, adding visual interest without being distracting.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Flash sale message",
+      "description": "Bold, white text stating 'Flash sale live Shop bestsellers now' is centered, conveying urgency and excitement.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        50,
+        308,
+        272,
+        358
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.85,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.694
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small, circular badge in yellow with the word 'SALE' in bold, eye-catching text, positioned at the top right.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button at the bottom of the ad with the text 'Watch now' in bold, inviting users to take action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A subtle design element that enhances the overall aesthetic without drawing attention away from the main message.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, flash sale, ZenDrop logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA button at the bottom.",
+    "ocr_text": "Flash sale live Shop bestsellers now, ZenDrop, Watch now, SALE",
+    "elements_text": "headline: The logo features the word 'ZenDrop' in a modern, sans-serif font, prominently displayed at the top of the ad. | unknown: A simple line drawing of two mirrors facing each other, centered in the ad, symbolizing reflection or choice. | unknown: A minimalist design element that complements the mirrors, adding visual interest without being distracting. | body_text: Bold, white text stating 'Flash sale live Shop bestsellers now' is centered, conveying urgency and excitement. text='Flash sale live Shop bestsellers now' | discount_badge: A small, circular badge in yellow with the word 'SALE' in bold, eye-catching text, positioned at the top right. text='ZenDrop' | cta: A prominent button at the bottom of the ad with the text 'Watch now' in bold, inviting users to take action. text='Watch now' | unknown: A subtle design element that enhances the overall aesthetic without drawing attention away from the main message. text='SALE'"
+  }
+}

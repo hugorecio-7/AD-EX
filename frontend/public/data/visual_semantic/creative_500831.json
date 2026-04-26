@@ -1,0 +1,338 @@
+{
+  "creative_id": "500831",
+  "asset_file": "assets/creative_500831.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with game icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to join the game and watch a promotional video.",
+    "dominant_colors": [
+      "blue",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.5
+      ],
+      "area_percentage": 99.73
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Game icons grid",
+      "description": "A grid of four game icons, each with a circular dot, centered in the ad, representing gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.346,
+        0.436
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Single game icon",
+      "description": "A single game icon with a circular dot, positioned within the grid, visually indicating a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Single game icon",
+      "description": "Another single game icon with a circular dot, positioned in the grid, representing gameplay.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Single game icon",
+      "description": "A third single game icon with a circular dot, part of the grid layout, suggesting game interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Single game icon",
+      "description": "The fourth single game icon with a circular dot, completing the grid and emphasizing game features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small decorative circle",
+      "description": "A small decorative circle positioned in the center, adding visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Bonus label",
+      "description": "A bold yellow 'BONUS' label at the top, drawing attention to a special offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "IronQuest title",
+      "description": "The title 'IronQuest' in a prominent font at the top, indicating the name of the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A clear 'Watch now' button at the bottom, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The main message 'Join the arena Play with friends tonight' in a large, readable font, encouraging engagement.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        407,
+        303,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.842,
+        0.728
+      ],
+      "center_normalized": [
+        0.494,
+        0.682
+      ],
+      "area_percentage": 6.4
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Bonus title",
+      "description": "A secondary headline stating 'IronQuest BONUS', emphasizing a promotional aspect.",
+      "text_content": "IronQuest BONUS",
+      "bbox_xyxy": [
+        23,
+        37,
+        331,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.919,
+        0.123
+      ],
+      "center_normalized": [
+        0.492,
+        0.091
+      ],
+      "area_percentage": 5.61
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Watch now text",
+      "description": "Text saying 'Watch now' in a smaller font, reinforcing the call to action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, game icons, promotional text",
+    "layout_text": "The headline is at the top, main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Join the arena Play with friends tonight, IronQuest BONUS, Watch now",
+    "elements_text": "main_subject: A grid of four game icons, each with a circular dot, centered in the ad, representing gameplay elements. | icon: A single game icon with a circular dot, positioned within the grid, visually indicating a game feature. | icon: Another single game icon with a circular dot, positioned in the grid, representing gameplay. | icon: A third single game icon with a circular dot, part of the grid layout, suggesting game interaction. | icon: The fourth single game icon with a circular dot, completing the grid and emphasizing game features. | decorative_element: A small decorative circle positioned in the center, adding visual interest to the ad. | headline: A bold yellow 'BONUS' label at the top, drawing attention to a special offer. | headline: The title 'IronQuest' in a prominent font at the top, indicating the name of the game. | cta: A clear 'Watch now' button at the bottom, inviting users to take action. | body_text: The main message 'Join the arena Play with friends tonight' in a large, readable font, encouraging engagement. text='Join the arena Play with friends tonight' | headline: A secondary headline stating 'IronQuest BONUS', emphasizing a promotional aspect. text='IronQuest BONUS' | cta: Text saying 'Watch now' in a smaller font, reinforcing the call to action. text='Watch now'"
+  }
+}

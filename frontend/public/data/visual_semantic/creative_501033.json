@@ -1,0 +1,242 @@
+{
+  "creative_id": "501033",
+  "asset_file": "assets/creative_501033.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a food delivery app interface and clear call-to-action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a food delivery service with late-night deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a vibrant and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Food delivery interface",
+      "description": "A simplified representation of a food delivery app interface with three empty slots for food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Food delivery interface",
+      "description": "Another view of the food delivery app interface, showcasing three empty slots for food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Food delivery interface",
+      "description": "A third view of the food delivery app interface, featuring three empty slots for food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular button",
+      "description": "A small circular button located at the bottom left of the app interface, indicating interactivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold white text stating 'Your cravings, delivered' with a smaller line below it that reads 'Late-night deals available'.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        49,
+        307,
+        273,
+        389
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.64,
+        0.853,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.725
+      ],
+      "area_percentage": 11.96
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' displayed in a bold, modern font at the top of the ad, colored white against the purple background.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom of the ad with the text 'Try for free' in white, inviting user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white, positioned at the top left corner of the ad, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and vibrant, QuickFork logo, food delivery interface, call to action.",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the call to action is at the bottom.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, QuickFork, Try for free, UGC",
+    "elements_text": "app_screenshot: A simplified representation of a food delivery app interface with three empty slots for food items. | app_screenshot: Another view of the food delivery app interface, showcasing three empty slots for food items. | app_screenshot: A third view of the food delivery app interface, featuring three empty slots for food items. | icon: A small circular button located at the bottom left of the app interface, indicating interactivity. | body_text: Bold white text stating 'Your cravings, delivered' with a smaller line below it that reads 'Late-night deals available'. text='Your cravings, delivered Late-night deals available' | logo: The logo 'QuickFork' displayed in a bold, modern font at the top of the ad, colored white against the purple background. text='QuickFork' | cta: A prominent button at the bottom of the ad with the text 'Try for free' in white, inviting user interaction. text='Try for free' | social_proof: A small tag labeled 'UGC' in white, positioned at the top left corner of the ad, indicating user-generated content. text='UGC'"
+  }
+}

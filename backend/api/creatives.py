@@ -78,8 +78,12 @@ def _resolve_image_path(creative_id: str) -> Path:
 
 def _resolve_structured_path(creative_id: str) -> Path:
     candidates = [
+        # Original postllm.py output
         _PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / f"creative_{creative_id}_structured.json",
         _PROJECT_ROOT / "frontend" / "public" / "data" / "structured" / f"creative_{creative_id}_structured.json",
+        # New batch-generated visual_semantic.json (preprocess_visual_semantic.py)
+        _PROJECT_ROOT / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{creative_id}.json",
+        _PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / "visual_semantic.json",
     ]
     for path in candidates:
         if path.exists():
@@ -153,6 +157,64 @@ def _build_chat_system_prompt(structured_json: dict[str, Any], feature_gap_json:
         "FEATURE_GAP_JSON:\n"
         f"{json.dumps(feature_gap_json, indent=2, ensure_ascii=False)}"
     )
+
+@router.get("/predict/{creative_id}")
+@router.get("/{creative_id}/predict")
+async def predict_creative_ctr(
+    creative_id: str,
+    countries: str = "US,ES",
+    os: str = "iOS,Android",
+    compare_image_url: str | None = None,
+    seq_len: int = 30,
+):
+    """
+    Run the ImageAutoregressiveRNN to predict 30-day CTR timeseries.
+
+    Query params:
+      countries   — comma-separated, e.g. "US,ES,UK"  (default: US,ES)
+      os          — comma-separated, e.g. "iOS,Android" (default: both)
+      compare_image_url — optional path/URL of an upgraded image to compare
+      seq_len     — number of days to predict (default: 30)
+    """
+    from pipeline.step4_persistence.new.predictor import predict_ctr
+
+    country_list = [c.strip() for c in countries.split(",") if c.strip()]
+    os_list      = [o.strip() for o in os.split(",")        if o.strip()]
+
+    # Resolve original image
+    try:
+        image_path = _resolve_image_path(creative_id)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+    try:
+        original = predict_ctr(str(image_path), country_list, os_list, seq_len)
+        original["label"] = "Original"
+        original["creative_id"] = creative_id
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"RNN inference failed: {e}")
+
+    result = {"original": original, "generated": None}
+
+    # Compare vs upgraded image if provided
+    if compare_image_url:
+        # Strip leading slash and resolve against project root
+        rel = compare_image_url.lstrip("/")
+        compare_path = _PROJECT_ROOT / "frontend" / "public" / rel
+        if not compare_path.exists():
+            # Try as absolute
+            compare_path = Path(compare_image_url)
+
+        if compare_path.exists():
+            try:
+                generated = predict_ctr(str(compare_path), country_list, os_list, seq_len)
+                generated["label"] = "AI Generated"
+                generated["creative_id"] = creative_id
+                result["generated"] = generated
+            except Exception as e:
+                print(f"[Predict] Compare image inference failed: {e}")
+
+    return result
 
 
 @router.get("/evaluate/{creative_id}")
@@ -233,6 +295,17 @@ async def chat_with_creative(creative_id: str, payload: CreativeChatRequest):
         feature_gap_path = _resolve_feature_gap_path(creative_id)
 
         structured_json = _read_json(structured_path)
+        
+        # DYNAMIC INJECTION: Ensure advertiser is present for the LLM
+        if not structured_json.get("advertiser"):
+            from pipeline.step4_persistence.core import get_creative_by_id
+            c_db = get_creative_by_id(creative_id)
+            if c_db:
+                brand = c_db.get("advertiser_name")
+                structured_json["advertiser"] = brand
+                if "global" in structured_json:
+                    structured_json["global"]["advertiser"] = brand
+
         feature_gap_json = _load_feature_gap_or_fallback(feature_gap_path)
         selected_language = _normalize_language(payload.language)
         system_prompt = _build_chat_system_prompt(structured_json, feature_gap_json, selected_language)

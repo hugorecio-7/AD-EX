@@ -1,0 +1,290 @@
+{
+  "creative_id": "500948",
+  "asset_file": "assets/creative_500948.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent logo and clear call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting cashback offers with a clear subscription price.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        471
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.736
+      ],
+      "center_normalized": [
+        0.5,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A stylized logo for 'VaultRun' appears prominently at the top center, featuring a modern design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Abstract geometric shapes in light blue tones are arranged in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "A small decorative shape located in the center, possibly a circle or square, with a light blue hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "Another small decorative shape, similar to the previous one, positioned in the center area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small decorative shape",
+      "description": "A third small decorative shape, maintaining the light blue color scheme, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Cashback offer",
+      "description": "A bold headline at the bottom center reads 'Earn cashback daily No hidden fees' in white text.",
+      "text_content": "Earn cashback daily No hidden fees",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "VaultRun title",
+      "description": "The title 'VaultRun' is displayed in a prominent font at the top, capturing attention immediately.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A call-to-action button labeled 'Start now' is positioned at the bottom center, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Subscription price",
+      "description": "The price '€9.99' is displayed at the bottom left in a clear, readable font, indicating the cost.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' is positioned at the top left, suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, cashback offer, subscription price",
+    "layout_text": "The logo is at the top, followed by decorative elements in the center, with the headline and CTA at the bottom.",
+    "ocr_text": "VaultRun, Earn cashback daily No hidden fees, Start now, €9.99, UGC",
+    "elements_text": "logo: A stylized logo for 'VaultRun' appears prominently at the top center, featuring a modern design. | decorative_element: Abstract geometric shapes in light blue tones are arranged in the center, adding visual interest. | unknown: A small decorative shape located in the center, possibly a circle or square, with a light blue hue. | unknown: Another small decorative shape, similar to the previous one, positioned in the center area. | unknown: A third small decorative shape, maintaining the light blue color scheme, located in the center. | headline: A bold headline at the bottom center reads 'Earn cashback daily No hidden fees' in white text. text='Earn cashback daily No hidden fees' | headline: The title 'VaultRun' is displayed in a prominent font at the top, capturing attention immediately. text='VaultRun' | cta: A call-to-action button labeled 'Start now' is positioned at the bottom center, inviting user interaction. text='Start now' | price: The price '€9.99' is displayed at the bottom left in a clear, readable font, indicating the cost. text='€9.99' | social_proof: A small label reading 'UGC' is positioned at the top left, suggesting user-generated content. text='UGC'"
+  }
+}

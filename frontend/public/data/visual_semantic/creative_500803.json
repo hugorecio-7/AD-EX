@@ -1,0 +1,218 @@
+{
+  "creative_id": "500803",
+  "asset_file": "assets/creative_500803.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a warm orange background with product icons and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting affordable products with a strong call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        12,
+        62,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.04,
+        0.196,
+        0.952,
+        0.719
+      ],
+      "center_normalized": [
+        0.496,
+        0.458
+      ],
+      "area_percentage": 47.66
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "LuxShelf logo",
+      "description": "A simple and modern logo text 'LuxShelf' displayed prominently at the top in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product icons",
+      "description": "Two minimalistic icons representing products, displayed in the center with a clean and simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product icons",
+      "description": "Another set of two minimalistic icons representing products, positioned slightly below the first set, maintaining a cohesive look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Favorite pick text",
+      "description": "Bold text stating 'Your next favorite pick' in a large, eye-catching font, centered below the product icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Order now' in a white font against a rounded background, located at the bottom of the ad.",
+      "text_content": "Your next favorite pick $4.99e 25 Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge with the text 'SALE' in bold letters, positioned at the top right corner.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        25,
+        23,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.097
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price text",
+      "description": "Text displaying the price '$4.99' in a large, bold font, located just below the body text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "LuxShelf, unknown, native, bright and modern, featuring a logo, product icons, and a call to action.",
+    "layout_text": "The logo is at the top, followed by product icons in the center, with the headline and price text below, and the CTA at the bottom.",
+    "ocr_text": "Your next favorite pick, $4.99, free shipping over $25, Order now, LuxShelf, SALE",
+    "elements_text": "headline: A simple and modern logo text 'LuxShelf' displayed prominently at the top in a bold font. | product: Two minimalistic icons representing products, displayed in the center with a clean and simple design. | product: Another set of two minimalistic icons representing products, positioned slightly below the first set, maintaining a cohesive look. | body_text: Bold text stating 'Your next favorite pick' in a large, eye-catching font, centered below the product icons. | cta: A prominent button with the text 'Order now' in a white font against a rounded background, located at the bottom of the ad. text='Your next favorite pick $4.99e 25 Order now' | discount_badge: A small, bright yellow badge with the text 'SALE' in bold letters, positioned at the top right corner. text='LuxShelf' | price: Text displaying the price '$4.99' in a large, bold font, located just below the body text. text='SALE'"
+  }
+}

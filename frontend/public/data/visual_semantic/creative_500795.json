@@ -1,0 +1,338 @@
+{
+  "creative_id": "500795",
+  "asset_file": "assets/creative_500795.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and graphic elements.",
+    "visual_style": "playful and colorful",
+    "main_message": "Encouraging users to win rewards by playing with friends.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a transparent background, possibly a game interface or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area at the top featuring a graphic or text, likely with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element, similar in style to ID 1, possibly part of a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.594,
+        0.491
+      ],
+      "center_normalized": [
+        0.482,
+        0.436
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a transparent background, similar to ID 1 and ID 3.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A rectangular area at the top featuring a graphic or text, likely with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small graphic element in the center, possibly an icon or button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small graphic element in the center, possibly an icon or button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small graphic element at the top, possibly an icon or button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small graphic element at the top, possibly an icon or button.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold text element at the top stating 'GlitchWave UGC' in a large, eye-catching font.",
+      "text_content": "GlitchWave UGC",
+      "bbox_xyxy": [
+        24,
+        36,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.056,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.127
+      ],
+      "area_percentage": 13.27
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A prominent text area in the center conveying 'Win epic rewards Play with friends tonight' in a clear, engaging font.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom with the text 'Get offer', designed to attract user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, playful and colorful, GlitchWave UGC, win epic rewards.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "GlitchWave UGC, Win epic rewards Play with friends tonight, Get offer",
+    "elements_text": "unknown: A central graphic element with a transparent background, possibly a game interface or icon. | unknown: A rectangular area at the top featuring a graphic or text, likely with a light background. | unknown: Another central graphic element, similar in style to ID 1, possibly part of a game interface. | unknown: A central graphic element with a transparent background, similar to ID 1 and ID 3. | unknown: A rectangular area at the top featuring a graphic or text, likely with a light background. | unknown: A small graphic element in the center, possibly an icon or button. | unknown: A small graphic element in the center, possibly an icon or button. | unknown: A small graphic element at the top, possibly an icon or button. | unknown: A small graphic element at the top, possibly an icon or button. | headline: A bold text element at the top stating 'GlitchWave UGC' in a large, eye-catching font. text='GlitchWave UGC' | body_text: A prominent text area in the center conveying 'Win epic rewards Play with friends tonight' in a clear, engaging font. text='Win epic rewards Play with friends tonight' | cta: A button at the bottom with the text 'Get offer', designed to attract user interaction. text='Get offer'"
+  }
+}

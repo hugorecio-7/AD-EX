@@ -1,0 +1,242 @@
+{
+  "creative_id": "500893",
+  "asset_file": "assets/creative_500893.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with promotional elements for SnapMeal.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night meal deals from SnapMeal.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        348,
+        468
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.969,
+        0.731
+      ],
+      "center_normalized": [
+        0.51,
+        0.466
+      ],
+      "area_percentage": 48.79
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "SnapMeal logo",
+      "description": "A stylized logo for SnapMeal positioned at the top, featuring a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food containers",
+      "description": "Two abstract food containers represented by simple shapes in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food container detail",
+      "description": "A detailed view of one food container, slightly larger and centered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circle element",
+      "description": "A small circular element located below the food containers, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating 'Hungry? We got you Late-night deals available' positioned in the center.",
+      "text_content": "Hungry? We got you Late-night deals available",
+      "bbox_xyxy": [
+        43,
+        409,
+        321,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.892,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 10.98
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent white button with the text 'Book now' at the bottom of the ad.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        26,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.225,
+        0.094
+      ],
+      "area_percentage": 1.15
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge with the word 'SALE' at the top right corner.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, SnapMeal logo, promotional text, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main subject in the center, and the CTA button at the bottom.",
+    "ocr_text": "Hungry? We got you Late-night deals available, SnapMeal, Book now, SALE",
+    "elements_text": "headline: A stylized logo for SnapMeal positioned at the top, featuring a modern font. | main_subject: Two abstract food containers represented by simple shapes in the center. | main_subject: A detailed view of one food container, slightly larger and centered. | decorative_element: A small circular element located below the food containers, adding visual interest. | body_text: Bold white text stating 'Hungry? We got you Late-night deals available' positioned in the center. text='Hungry? We got you Late-night deals available' | cta: A prominent white button with the text 'Book now' at the bottom of the ad. text='SnapMeal' | discount_badge: A small yellow badge with the word 'SALE' at the top right corner. text='Book now' | unknown:  text='SALE'"
+  }
+}

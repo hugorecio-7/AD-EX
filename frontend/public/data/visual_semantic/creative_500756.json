@@ -1,0 +1,362 @@
+{
+  "creative_id": "500756",
+  "asset_file": "assets/creative_500756.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a game promotion with a bold logo and inviting text.",
+    "visual_style": "bright and playful",
+    "main_message": "Join the arena and play with friends tonight.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StormByte logo",
+      "description": "A bold, stylized text logo that reads 'StormByte' in a prominent position at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A visual representation of a game interface featuring four circular icons arranged in a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top decorative shapes",
+      "description": "Geometric shapes in the background that add visual interest, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "Another view of the game interface with additional circular icons, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Left decorative shape",
+      "description": "A vertical decorative element on the left side of the ad, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Right decorative shape",
+      "description": "A small decorative element on the right side of the ad, complementing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Join the arena",
+      "description": "A clear and inviting text phrase that encourages users to join the game, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Play with friends",
+      "description": "A supportive text line that emphasizes social play, located below the main call to action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "A small decorative shape at the top, adding to the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "Another small decorative shape at the top, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'StormByte' is prominently displayed at the top in a large, bold font.",
+      "text_content": "StormByte",
+      "bbox_xyxy": [
+        24,
+        34,
+        347,
+        101
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.964,
+        0.158
+      ],
+      "center_normalized": [
+        0.515,
+        0.105
+      ],
+      "area_percentage": 9.39
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "A descriptive text that invites players to join the game with friends, centrally positioned.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        407,
+        303,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.842,
+        0.728
+      ],
+      "center_normalized": [
+        0.494,
+        0.682
+      ],
+      "area_percentage": 6.4
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button that says 'Watch now', located at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, StormByte logo, game interface.",
+    "layout_text": "The headline is at the top, the app screenshots are centered, and the CTA is at the bottom.",
+    "ocr_text": "StormByte, Join the arena, Play with friends tonight, Watch now",
+    "elements_text": "logo: A bold, stylized text logo that reads 'StormByte' in a prominent position at the top of the ad. | app_screenshot: A visual representation of a game interface featuring four circular icons arranged in a grid pattern. | decorative_element: Geometric shapes in the background that add visual interest, positioned at the top of the ad. | app_screenshot: Another view of the game interface with additional circular icons, positioned centrally. | decorative_element: A vertical decorative element on the left side of the ad, enhancing the overall design. | decorative_element: A small decorative element on the right side of the ad, complementing the design. | body_text: A clear and inviting text phrase that encourages users to join the game, positioned centrally. | body_text: A supportive text line that emphasizes social play, located below the main call to action. | decorative_element: A small decorative shape at the top, adding to the visual appeal of the ad. | decorative_element: Another small decorative shape at the top, enhancing the overall design. | headline: The main headline 'StormByte' is prominently displayed at the top in a large, bold font. text='StormByte' | body_text: A descriptive text that invites players to join the game with friends, centrally positioned. text='Join the arena Play with friends tonight' | cta: A clear and inviting button that says 'Watch now', located at the bottom of the ad. text='Watch now'"
+  }
+}

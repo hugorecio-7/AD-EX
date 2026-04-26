@@ -1,0 +1,170 @@
+{
+  "creative_id": "500889",
+  "asset_file": "assets/creative_500889.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a prominent message and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night food delivery with a free trial offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Placeholder for app content",
+      "description": "A blank rectangular area with a thin outline, representing a mobile app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold white text that reads 'Your cravings, delivered' centered prominently in the lower section.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        49,
+        302,
+        274,
+        389
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.629,
+        0.856,
+        0.81
+      ],
+      "center_normalized": [
+        0.505,
+        0.72
+      ],
+      "area_percentage": 12.74
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button with the text 'Try for free' in white, set against the orange background.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo text 'SnapMeal' in a bold font, displayed in white at the top left corner.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        22,
+        36,
+        122,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.075,
+        0.381,
+        0.125
+      ],
+      "center_normalized": [
+        0.225,
+        0.1
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale notification",
+      "description": "A small yellow badge with the text 'SALE' in bold, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, late-night food delivery, free trial offer",
+    "layout_text": "The logo is at the top left, the main message is centered at the bottom, and the CTA is below the main message.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, Try for free, SnapMeal, SALE",
+    "elements_text": "app_screenshot: A blank rectangular area with a thin outline, representing a mobile app screenshot. | headline: Bold white text that reads 'Your cravings, delivered' centered prominently in the lower section. text='Your cravings, delivered Late-night deals available' | cta: A small button with the text 'Try for free' in white, set against the orange background. text='Try for free' | logo: The logo text 'SnapMeal' in a bold font, displayed in white at the top left corner. text='SnapMeal' | discount_badge: A small yellow badge with the text 'SALE' in bold, positioned at the top right corner. text='SALE'"
+  }
+}

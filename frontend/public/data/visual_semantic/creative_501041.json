@@ -1,0 +1,290 @@
+{
+  "creative_id": "501041",
+  "asset_file": "assets/creative_501041.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a combination of abstract shapes and text elements promoting a new season.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a new season with a call to action to start for free.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A combination of circular and square shapes in a muted color palette, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.58
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A larger square shape with a soft outline, overlapping with other shapes, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A vertical rectangle shape with a soft outline, positioned centrally, featuring a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A medium-sized square shape with a soft outline, overlapping with other elements, centered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A small circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A tiny circular shape positioned slightly above the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "tiny shape",
+      "description": "An even smaller circular shape located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "promotional message",
+      "description": "Bold, white text stating 'A new season drops Start free today' positioned at the bottom of the ad.",
+      "text_content": "new season drops Start free today",
+      "bbox_xyxy": [
+        98,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.549,
+        0.714
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "brand logo",
+      "description": "The brand name 'BingeLayer' displayed in a prominent, bold font at the top of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button with the text 'Learn more' in a clear, inviting font located at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, brand logo, promotional message, call to action",
+    "layout_text": "The brand logo is at the top, followed by a promotional message in the center, and a call to action at the bottom.",
+    "ocr_text": "BingeLayer, A new season drops Start free today, Learn more",
+    "elements_text": "unknown: A combination of circular and square shapes in a muted color palette, positioned centrally. | unknown: A larger square shape with a soft outline, overlapping with other shapes, centered in the ad. | unknown: A vertical rectangle shape with a soft outline, positioned centrally, featuring a light color. | unknown: A medium-sized square shape with a soft outline, overlapping with other elements, centered. | unknown: A small circular shape located towards the bottom center of the ad. | unknown: A tiny circular shape positioned slightly above the previous element. | unknown: An even smaller circular shape located towards the bottom of the ad. | body_text: Bold, white text stating 'A new season drops Start free today' positioned at the bottom of the ad. text='new season drops Start free today' | logo: The brand name 'BingeLayer' displayed in a prominent, bold font at the top of the ad. text='BingeLayer' | cta: A button with the text 'Learn more' in a clear, inviting font located at the bottom of the ad. text='Learn more'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500887",
+  "asset_file": "assets/creative_500887.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with geometric shapes and clear messaging.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting flexible booking options for travel destinations.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid teal background fills the entire canvas, providing a calming base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one square, are outlined in a lighter shade, creating a modern and abstract focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.242,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Text area",
+      "description": "A prominent text area featuring bold, white typography that stands out against the teal background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Booking options text",
+      "description": "The text reads 'destinations await Flexible booking options' in a clean, modern font, centered and easy to read.",
+      "text_content": "destinations await Flexible booking options",
+      "bbox_xyxy": [
+        70,
+        443,
+        288,
+        536
+      ],
+      "bbox_normalized": [
+        0.194,
+        0.692,
+        0.8,
+        0.838
+      ],
+      "center_normalized": [
+        0.497,
+        0.765
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Dream headline",
+      "description": "The word 'Dream' is displayed in a large, bold font, capturing attention with its prominent placement.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        122,
+        410,
+        239,
+        446
+      ],
+      "bbox_normalized": [
+        0.339,
+        0.641,
+        0.664,
+        0.697
+      ],
+      "center_normalized": [
+        0.501,
+        0.669
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "The logo 'CloudRoute' appears in a simple, modern font at the top left, subtly integrated into the design.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A small, rounded button with the text 'Order now' in a contrasting color, inviting immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bold, eye-catching text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, flexible booking options, travel destinations",
+    "layout_text": "The headline is at the center, the main subject shapes are in the middle, and the CTA is at the bottom.",
+    "ocr_text": "destinations await Flexible booking options, Dream, CloudRoute, Order now, SALE",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one square, are outlined in a lighter shade, creating a modern and abstract focal point. | main_subject: A prominent text area featuring bold, white typography that stands out against the teal background. | body_text: The text reads 'destinations await Flexible booking options' in a clean, modern font, centered and easy to read. text='destinations await Flexible booking options' | headline: The word 'Dream' is displayed in a large, bold font, capturing attention with its prominent placement. text='Dream' | logo: The logo 'CloudRoute' appears in a simple, modern font at the top left, subtly integrated into the design. text='CloudRoute' | cta: A small, rounded button with the text 'Order now' in a contrasting color, inviting immediate action. text='Order now' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bold, eye-catching text. text='SALE'"
+  }
+}

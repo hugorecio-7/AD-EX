@@ -1,0 +1,266 @@
+{
+  "creative_id": "500859",
+  "asset_file": "assets/creative_500859.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and bold text elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to engage with the StarVault platform.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and an oval shape are centered on the background, outlined in a lighter shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circles",
+      "description": "Two small circles are placed near the bottom of the main subject, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "The text 'Stream the hype' is prominently displayed in a bold, white font across the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Start now' is located at the bottom center, designed to stand out with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "UGC label",
+      "description": "The acronym 'UGC' is displayed in a bold font at the top left corner, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Promotional message",
+      "description": "The phrase 'Cancel anytime' is positioned below the main text, providing additional context in a smaller font.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The word 'StarVault' is prominently displayed at the top of the ad in a bold, eye-catching font.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        41,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.064,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.094
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Secondary CTA",
+      "description": "A smaller button with the text 'Start now' is located at the bottom center, inviting immediate action.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "The 'UGC' label is styled as an icon, indicating a focus on user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, StarVault, Stream the hype, Start now",
+    "layout_text": "The headline 'StarVault' is at the top, followed by the main text 'Stream the hype' in the center, with the CTA 'Start now' at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, StarVault, Start now, UGC",
+    "elements_text": "main_subject: A large square and an oval shape are centered on the background, outlined in a lighter shade. | decorative_element: Two small circles are placed near the bottom of the main subject, adding visual interest. | body_text: The text 'Stream the hype' is prominently displayed in a bold, white font across the center of the ad. | cta: A button with the text 'Start now' is located at the bottom center, designed to stand out with a contrasting color. | logo: The acronym 'UGC' is displayed in a bold font at the top left corner, indicating user-generated content. | headline: The phrase 'Cancel anytime' is positioned below the main text, providing additional context in a smaller font. text='Stream the hype Cancel anytime' | logo: The word 'StarVault' is prominently displayed at the top of the ad in a bold, eye-catching font. text='StarVault' | cta: A smaller button with the text 'Start now' is located at the bottom center, inviting immediate action. text='Start now' | icon: The 'UGC' label is styled as an icon, indicating a focus on user-generated content. text='UGC'"
+  }
+}

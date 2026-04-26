@@ -1,0 +1,290 @@
+{
+  "creative_id": "500874",
+  "asset_file": "assets/creative_500874.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and sale information.",
+    "visual_style": "bright and minimalist",
+    "main_message": "Promoting a product at a discounted price.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo features a stylized text 'VantaStyle' in a bold font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small rectangular badge with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "A simple graphic element resembling two overlapping rectangles, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "A circular graphic element, enhancing the design with a minimalist touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "Another circular graphic element, similar to the previous one, positioned lower on the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "A third circular graphic element, maintaining the minimalist aesthetic of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "A circular graphic element, contributing to the overall design without specific detail.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "main offer text",
+      "description": "Bold text stating 'Your next favorite pick $4.99' in a large font, centrally positioned at the bottom.",
+      "text_content": "Your next favorite pick $4.99 Watch now",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "headline text",
+      "description": "The headline 'VantaStyle' is prominently displayed at the top, drawing attention to the brand.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        23,
+        23,
+        130,
+        44
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.406,
+        0.138
+      ],
+      "center_normalized": [
+        0.239,
+        0.105
+      ],
+      "area_percentage": 2.19
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "SALE text",
+      "description": "The word 'SALE' is highlighted in a small badge, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and minimalist, VantaStyle logo, SALE badge, promotional text.",
+    "layout_text": "The headline is at the top, the logo is in the top left, the discount badge is in the top right, and the main offer text is centered at the bottom.",
+    "ocr_text": "VantaStyle, SALE, Your next favorite pick, $4.99, Watch now",
+    "elements_text": "logo: The logo features a stylized text 'VantaStyle' in a bold font, positioned at the top left. | discount_badge: A small rectangular badge with the word 'SALE' in bold text, located at the top right corner. | unknown: A simple graphic element resembling two overlapping rectangles, adding visual interest. | unknown: A circular graphic element, enhancing the design with a minimalist touch. | unknown: Another circular graphic element, similar to the previous one, positioned lower on the canvas. | unknown: A third circular graphic element, maintaining the minimalist aesthetic of the ad. | unknown: A circular graphic element, contributing to the overall design without specific detail. | body_text: Bold text stating 'Your next favorite pick $4.99' in a large font, centrally positioned at the bottom. text='Your next favorite pick $4.99 Watch now' | headline: The headline 'VantaStyle' is prominently displayed at the top, drawing attention to the brand. text='VantaStyle' | discount_badge: The word 'SALE' is highlighted in a small badge, indicating a promotional offer. text='SALE'"
+  }
+}

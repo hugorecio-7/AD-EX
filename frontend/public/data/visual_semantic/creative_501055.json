@@ -1,0 +1,242 @@
+{
+  "creative_id": "501055",
+  "asset_file": "assets/creative_501055.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with product boxes and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale on bestsellers with a significant discount.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, creating a fresh and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Three product boxes",
+      "description": "Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Three product boxes",
+      "description": "Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Three product boxes",
+      "description": "Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Discount offer text",
+      "description": "Bold, white text stating 'Up to 40% off Shop bestsellers now' prominently displayed in the center of the ad.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        56,
+        308,
+        268,
+        357
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.642,
+        0.838,
+        0.744
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A simple, modern logo reading 'CrispBox' in a clean font, positioned at the top left corner.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        21,
+        26,
+        134,
+        58
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.054,
+        0.419,
+        0.121
+      ],
+      "center_normalized": [
+        0.242,
+        0.087
+      ],
+      "area_percentage": 2.35
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A bright button with the text 'Order now' in bold, inviting font, located at the bottom center of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in yellow with the word 'SALE' in bold black text, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small, white label with the text 'UGC' in a bold font, located at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, discount offer, product showcase",
+    "layout_text": "The logo is at the top left, the product boxes are centered, the discount text is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox, Up to 40% off Shop bestsellers now, Order now, SALE, UGC",
+    "elements_text": "product: Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth. | product: Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth. | product: Three rectangular product boxes with a glossy finish, each featuring a reflective surface and slightly tilted to show depth. | body_text: Bold, white text stating 'Up to 40% off Shop bestsellers now' prominently displayed in the center of the ad. text='Up to 40% off Shop bestsellers now' | logo: A simple, modern logo reading 'CrispBox' in a clean font, positioned at the top left corner. text='CrispBox' | cta: A bright button with the text 'Order now' in bold, inviting font, located at the bottom center of the ad. text='Order now' | discount_badge: A small, circular badge in yellow with the word 'SALE' in bold black text, positioned at the top right corner. text='SALE' | social_proof: A small, white label with the text 'UGC' in a bold font, located at the top left corner. text='UGC'"
+  }
+}

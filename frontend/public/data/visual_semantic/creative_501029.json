@@ -1,0 +1,218 @@
+{
+  "creative_id": "501029",
+  "asset_file": "assets/creative_501029.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on travel booking.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book travel easily.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        468
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.732
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 47.87
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Two overlapping shapes",
+      "description": "Two geometric shapes, one oval and one rectangle, overlapping in a lighter shade of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Abstract design element",
+      "description": "An abstract design element that adds visual interest, possibly a decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' positioned centrally.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "The logo 'WayPoint' in a prominent font, displayed at the top of the ad.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright yellow button with the text 'Shop now' at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content label",
+      "description": "A small label reading 'UGC' in white text on a circular background at the top left.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel booking, call to action.",
+    "layout_text": "The headline is centrally positioned, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Hotels + flights in one tap, WayPoint, Shop now, SALE, UGC",
+    "elements_text": "main_subject: Two geometric shapes, one oval and one rectangle, overlapping in a lighter shade of orange. | unknown: An abstract design element that adds visual interest, possibly a decorative shape. | headline: Bold white text stating 'Book your next trip' positioned centrally. text='Book your next trip Hotels flights in one tap' | logo: The logo 'WayPoint' in a prominent font, displayed at the top of the ad. text='WayPoint' | cta: A bright yellow button with the text 'Shop now' at the bottom of the ad. text='Shop now' | discount_badge: A small yellow badge with the word 'SALE' in bold text at the top right corner. text='SALE' | social_proof: A small label reading 'UGC' in white text on a circular background at the top left. text='UGC'"
+  }
+}

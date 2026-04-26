@@ -1,0 +1,194 @@
+{
+  "creative_id": "500861",
+  "asset_file": "assets/creative_500861.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a blue background and bold text elements.",
+    "visual_style": "playful and modern",
+    "main_message": "Encouraging users to try the StarVault service for free.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "A blue background featuring abstract shapes, including an oval and a square, creating a modern and playful aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The text 'StarVault' in bold, prominent font, positioned at the top of the ad, conveying brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape in the background, adding visual interest without specific branding.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'A new season drops' in large, bold font, centrally positioned to attract attention.",
+      "text_content": "A new season drops Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        413,
+        298,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.828,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.713
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "The text 'Cancel anytime' in smaller font, positioned below the main headline, providing additional information.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        39,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.092
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Try for free' in a clear, inviting font, located at the bottom of the ad.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, playful and modern, StarVault logo, call to action.",
+    "layout_text": "The logo is at the top, the main headline is centered, followed by subheadline text, and the CTA button is at the bottom.",
+    "ocr_text": "StarVault, A new season drops, Cancel anytime, Try for free",
+    "elements_text": "decorative_element: A blue background featuring abstract shapes, including an oval and a square, creating a modern and playful aesthetic. | logo: The text 'StarVault' in bold, prominent font, positioned at the top of the ad, conveying brand identity. | unknown: A small circular shape in the background, adding visual interest without specific branding. | headline: The text 'A new season drops' in large, bold font, centrally positioned to attract attention. text='A new season drops Cancel anytime' | body_text: The text 'Cancel anytime' in smaller font, positioned below the main headline, providing additional information. text='StarVault' | cta: A prominent button with the text 'Try for free' in a clear, inviting font, located at the bottom of the ad. text='Try for free'"
+  }
+}

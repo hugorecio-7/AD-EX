@@ -1,0 +1,218 @@
+{
+  "creative_id": "500913",
+  "asset_file": "assets/creative_500913.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and clear messaging.",
+    "visual_style": "minimalist with geometric shapes",
+    "main_message": "Promoting a financial service with no hidden fees.",
+    "dominant_colors": [
+      "dark",
+      "light"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        185
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.387
+      ],
+      "center_normalized": [
+        0.499,
+        0.193
+      ],
+      "area_percentage": 38.58
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A stylized logo featuring geometric shapes, including a circle and a rectangle, in a light color against the dark background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "An arrangement of abstract shapes, including circles and rectangles, in a light color that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        118,
+        155,
+        222
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.247,
+        0.486,
+        0.464
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small light-colored circle positioned towards the center of the ad, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "small rectangle",
+      "description": "A small light-colored rectangle positioned near the bottom center, complementing the other shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "main message text",
+      "description": "Bold, white text stating 'Your money, clearer No hidden fees' positioned centrally for emphasis.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        63,
+        305,
+        260,
+        387
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.635,
+        0.812,
+        0.806
+      ],
+      "center_normalized": [
+        0.505,
+        0.721
+      ],
+      "area_percentage": 10.52
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "CoinBridge headline",
+      "description": "A prominent headline in white text that reads 'CoinBridge', located at the top of the ad.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A call-to-action button with the text 'Claim reward' in white, positioned at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with geometric shapes, CoinBridge logo, clear messaging.",
+    "layout_text": "The headline is at the top, the logo is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, CoinBridge, Claim reward",
+    "elements_text": "logo: A stylized logo featuring geometric shapes, including a circle and a rectangle, in a light color against the dark background. | unknown: An arrangement of abstract shapes, including circles and rectangles, in a light color that adds visual interest. | decorative_element: A small light-colored circle positioned towards the center of the ad, adding a decorative touch. | decorative_element: A small light-colored rectangle positioned near the bottom center, complementing the other shapes. | body_text: Bold, white text stating 'Your money, clearer No hidden fees' positioned centrally for emphasis. text='Your money, clearer No hidden fees' | headline: A prominent headline in white text that reads 'CoinBridge', located at the top of the ad. text='CoinBridge' | cta: A call-to-action button with the text 'Claim reward' in white, positioned at the bottom of the ad. text='Claim reward'"
+  }
+}

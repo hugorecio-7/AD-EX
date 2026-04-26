@@ -1,0 +1,170 @@
+{
+  "creative_id": "500347",
+  "asset_file": "assets/creative_500347.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent headline and call-to-action.",
+    "visual_style": "minimalist with bold accents",
+    "main_message": "Promoting a travel booking service with a sale.",
+    "dominant_colors": [
+      "light gray",
+      "bold color for text"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray background fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.183,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.591
+      ],
+      "area_percentage": 81.5
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "RouteBloom SALE",
+      "description": "Bold, uppercase text in a prominent position at the top, likely in a contrasting color to grab attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "Two abstract shapes, one circular and one rectangular, are lightly outlined and positioned in the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Book your next trip",
+      "description": "Clear, inviting text in a larger font size, centrally placed, conveying the main message of the ad.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        502
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.711
+      ],
+      "area_percentage": 10.77
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer",
+      "description": "A bold button at the bottom with a contrasting color, inviting users to take action.",
+      "text_content": "RouteBloom SALE",
+      "bbox_xyxy": [
+        27,
+        39,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.091
+      ],
+      "area_percentage": 4.98
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold accents, RouteBloom SALE, Book your next trip",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "RouteBloom SALE, Book your next trip, Flexible booking options, Get offer",
+    "elements_text": "headline: Bold, uppercase text in a prominent position at the top, likely in a contrasting color to grab attention. | decorative_element: Two abstract shapes, one circular and one rectangular, are lightly outlined and positioned in the center, adding visual interest. | body_text: Clear, inviting text in a larger font size, centrally placed, conveying the main message of the ad. text='Book your next trip Flexible booking options' | cta: A bold button at the bottom with a contrasting color, inviting users to take action. text='RouteBloom SALE' | unknown:  text='Get offer'"
+  }
+}

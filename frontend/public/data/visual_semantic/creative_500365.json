@@ -1,0 +1,362 @@
+{
+  "creative_id": "500365",
+  "asset_file": "assets/creative_500365.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with game icons and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to play the game and win rewards.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A grid layout showing four game icons with circular highlights, set against an orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.346,
+        0.435
+      ],
+      "area_percentage": 5.42
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Game icon",
+      "description": "A single game icon displayed in a rectangular box with a circular highlight, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        158,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.248,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.369
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Game icon",
+      "description": "Another game icon in a rectangular box with a circular highlight, similar in style to the previous icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Game icon",
+      "description": "A third game icon in a rectangular box with a circular highlight, maintaining the same design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold white text stating 'Win epic rewards' prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Subheadline",
+      "description": "Smaller white text saying 'Play with friends tonight' positioned just below the main headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Icon",
+      "description": "A small circular icon located at the top right corner, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Icon",
+      "description": "Another small circular icon located at the top left corner, similar in style to the previous icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Icon",
+      "description": "A small circular icon centered below the main content area, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Icon",
+      "description": "Another small circular icon centered below the previous icon, maintaining the same design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Call to action",
+      "description": "Bold white text stating 'Try for free' positioned at the bottom of the ad.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Game logo",
+      "description": "The logo 'GlitchWave' displayed prominently at the top of the ad in bold text.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        26,
+        39,
+        249,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.692,
+        0.123
+      ],
+      "center_normalized": [
+        0.382,
+        0.092
+      ],
+      "area_percentage": 3.87
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold white text button at the bottom of the ad inviting users to 'Try for free'.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, game icons, promotional text",
+    "layout_text": "The headline is at the top, followed by game icons in the center, and the CTA at the bottom.",
+    "ocr_text": "Win epic rewards, Play with friends tonight, GlitchWave, Try for free",
+    "elements_text": "app_screenshot: A grid layout showing four game icons with circular highlights, set against an orange background. | app_screenshot: A single game icon displayed in a rectangular box with a circular highlight, featuring a simple design. | app_screenshot: Another game icon in a rectangular box with a circular highlight, similar in style to the previous icon. | app_screenshot: A third game icon in a rectangular box with a circular highlight, maintaining the same design theme. | headline: Bold white text stating 'Win epic rewards' prominently displayed at the top of the ad. | headline: Smaller white text saying 'Play with friends tonight' positioned just below the main headline. | icon: A small circular icon located at the top right corner, featuring a simple design. | icon: Another small circular icon located at the top left corner, similar in style to the previous icon. | icon: A small circular icon centered below the main content area, featuring a simple design. | icon: Another small circular icon centered below the previous icon, maintaining the same design theme. | body_text: Bold white text stating 'Try for free' positioned at the bottom of the ad. text='Win epic rewards Play with friends tonight' | logo: The logo 'GlitchWave' displayed prominently at the top of the ad in bold text. text='GlitchWave' | cta: A bold white text button at the bottom of the ad inviting users to 'Try for free'. text='Try for free'"
+  }
+}

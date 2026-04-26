@@ -1,0 +1,218 @@
+{
+  "creative_id": "500772",
+  "asset_file": "assets/creative_500772.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with geometric shapes and clear text elements promoting a cashback offer.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Earn cashback daily with NovaPay.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are centered, both in a lighter shade of orange, creating a modern and abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle in a lighter shade of orange, positioned towards the center, adds a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangle in a lighter shade of orange, placed slightly below the center, enhances the geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small rectangle",
+      "description": "A small rectangle in a lighter shade of orange, positioned below the medium rectangle, complements the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold white text stating 'Earn cashback daily' is prominently displayed, conveying the main offer clearly.",
+      "text_content": "Earn cashback daily Fast signup instant card",
+      "bbox_xyxy": [
+        50,
+        308,
+        274,
+        389
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.642,
+        0.856,
+        0.81
+      ],
+      "center_normalized": [
+        0.506,
+        0.726
+      ],
+      "area_percentage": 11.81
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The 'NovaPay' logo appears in white text at the top, featuring a modern font that stands out against the orange background.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A white button with the text 'Learn more' at the bottom, inviting users to take action.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        419,
+        213,
+        439
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.873,
+        0.666,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.41
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and vibrant, cashback offer, NovaPay logo, Learn more button",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, NovaPay, Learn more",
+    "elements_text": "main_subject: A large rectangle and a circle are centered, both in a lighter shade of orange, creating a modern and abstract visual. | decorative_element: A small circle in a lighter shade of orange, positioned towards the center, adds a decorative touch. | decorative_element: A medium-sized rectangle in a lighter shade of orange, placed slightly below the center, enhances the geometric theme. | decorative_element: A small rectangle in a lighter shade of orange, positioned below the medium rectangle, complements the overall design. | body_text: Bold white text stating 'Earn cashback daily' is prominently displayed, conveying the main offer clearly. text='Earn cashback daily Fast signup instant card' | logo: The 'NovaPay' logo appears in white text at the top, featuring a modern font that stands out against the orange background. text='NovaPay' | cta: A white button with the text 'Learn more' at the bottom, inviting users to take action. text='Learn more'"
+  }
+}

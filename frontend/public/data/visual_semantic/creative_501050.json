@@ -1,0 +1,266 @@
+{
+  "creative_id": "501050",
+  "asset_file": "assets/creative_501050.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a promotional message for a product with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting bestsellers from CrispBox with a strong call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A large, bold text that reads 'Your next favorite pick Shop bestsellers now' in a clear, inviting font.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.713
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CrispBox' displayed prominently at the top in a modern font.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        24,
+        34,
+        202,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.561,
+        0.128
+      ],
+      "center_normalized": [
+        0.314,
+        0.091
+      ],
+      "area_percentage": 3.71
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom that says 'Start now' in a contrasting color, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright badge at the top right corner that says 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, CrispBox, bestsellers, sale",
+    "layout_text": "The logo is at the top, followed by a sale badge, the main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox, SALE, UGC, Your next favorite pick Shop bestsellers now, Start now",
+    "elements_text": "unknown: A central element with an undefined visual representation. | unknown: A central element with an undefined visual representation. | unknown: A central element with an undefined visual representation. | unknown: A central element with an undefined visual representation. | body_text: A large, bold text that reads 'Your next favorite pick Shop bestsellers now' in a clear, inviting font. text='Your next favorite pick Shop bestsellers now' | logo: The logo 'CrispBox' displayed prominently at the top in a modern font. text='CrispBox' | cta: A button at the bottom that says 'Start now' in a contrasting color, inviting user interaction. text='Start now' | discount_badge: A small, bright badge at the top right corner that says 'SALE' in bold letters. text='SALE' | social_proof: A small tag at the top left corner labeled 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

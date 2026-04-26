@@ -1,0 +1,194 @@
+{
+  "creative_id": "500899",
+  "asset_file": "assets/creative_500899.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear text elements promoting an exclusive offer.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Promoting an exclusive viewing opportunity for the MoonScreen app.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A smooth, solid blue background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "MoonScreen logo",
+      "description": "A simple logo featuring the text 'MoonScreen' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, rendered in a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shape",
+      "description": "A larger rectangular shape with rounded corners, slightly darker than the background, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Exclusive offer text",
+      "description": "Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime', centered in the ad.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "App name text",
+      "description": "Small white text displaying the app name 'MoonScreen', located at the top left corner.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text 'Watch now' at the bottom center of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, MoonScreen logo, exclusive offer text",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, MoonScreen, Watch now",
+    "elements_text": "logo: A simple logo featuring the text 'MoonScreen' in a bold, modern font, positioned at the top of the ad. | main_subject: Two overlapping geometric shapes, one circular and one rectangular, rendered in a lighter shade of blue. | decorative_element: A larger rectangular shape with rounded corners, slightly darker than the background, positioned centrally. | headline: Bold white text stating 'Exclusive tonight' with a smaller line below it saying 'Cancel anytime', centered in the ad. text='Exclusive tonight Cancel anytime' | body_text: Small white text displaying the app name 'MoonScreen', located at the top left corner. text='MoonScreen' | cta: A prominent white button with the text 'Watch now' at the bottom center of the ad. text='Watch now'"
+  }
+}

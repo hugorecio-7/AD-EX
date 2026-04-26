@@ -1,0 +1,194 @@
+{
+  "creative_id": "500906",
+  "asset_file": "assets/creative_500906.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on promotional text and a call-to-action.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting a new collection with a clear call to action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A central element with a light background and a circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.24,
+        0.439
+      ],
+      "area_percentage": 5.6
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A central element with a rectangular shape and a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A central element with a small circular shape, possibly a button or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        69,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.548,
+        0.218,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "New collection drop",
+      "description": "A bold, prominent text element at the bottom, conveying a promotional message.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        48,
+        307,
+        273,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.64,
+        0.853,
+        0.81
+      ],
+      "center_normalized": [
+        0.502,
+        0.725
+      ],
+      "area_percentage": 12.01
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A small logo element at the top, featuring the brand name 'ThreadMark' in a stylized font.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        24,
+        30,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.09
+      ],
+      "area_percentage": 2.51
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom with the text 'Install now', designed to attract user interaction.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, promoting a new collection.",
+    "layout_text": "The logo is positioned at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Shop bestsellers now, ThreadMark, Install now",
+    "elements_text": "unknown: A central element with a light background and a circular shape. | unknown: A central element with a rectangular shape and a light background. | unknown: A central element with a small circular shape, possibly a button or icon. | headline: A bold, prominent text element at the bottom, conveying a promotional message. text='New collection drop Shop bestsellers now' | logo: A small logo element at the top, featuring the brand name 'ThreadMark' in a stylized font. text='ThreadMark' | cta: A rounded button at the bottom with the text 'Install now', designed to attract user interaction. text='Install now'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500875",
+  "asset_file": "assets/creative_500875.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with product illustrations and promotional text.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a product with a limited stock offer and free shipping.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant and warm base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' is displayed prominently at the top in a bold, modern font, likely in white or contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product illustration",
+      "description": "A simple illustration of two rectangular shapes resembling a product, centered in the ad with a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product illustration",
+      "description": "Another product illustration, slightly overlapping with the first, maintaining a clean and modern aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape positioned near the product illustrations, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text stating 'Limited stock Free shipping over $25' is displayed in a clear, readable font, likely in white for contrast.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        61,
+        407,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.636,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button at the bottom with the text '€29.99 Install now', designed to stand out with a contrasting color.",
+      "text_content": "€29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the word 'SALE' in bold, likely in a bright color to attract attention.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        74
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.116
+      ],
+      "center_normalized": [
+        0.242,
+        0.095
+      ],
+      "area_percentage": 1.38
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top left corner with the text 'UGC', indicating user-generated content, in a simple font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, VantaStyle logo, promotional text, and call to action.",
+    "layout_text": "The logo is at the top, product illustrations are centered, and the call to action is at the bottom.",
+    "ocr_text": "Limited stock, Free shipping over $25, €29.99, Install now, VantaStyle, SALE, UGC",
+    "elements_text": "headline: The logo 'VantaStyle' is displayed prominently at the top in a bold, modern font, likely in white or contrasting color. | product: A simple illustration of two rectangular shapes resembling a product, centered in the ad with a minimalistic design. | product: Another product illustration, slightly overlapping with the first, maintaining a clean and modern aesthetic. | unknown: A small circular shape positioned near the product illustrations, adding a decorative touch. | body_text: Text stating 'Limited stock Free shipping over $25' is displayed in a clear, readable font, likely in white for contrast. text='Limited stock Free shipping over $25' | cta: A prominent button at the bottom with the text '€29.99 Install now', designed to stand out with a contrasting color. text='€29.99 Install now' | discount_badge: A small badge at the top right corner with the word 'SALE' in bold, likely in a bright color to attract attention. text='VantaStyle' | social_proof: A small label at the top left corner with the text 'UGC', indicating user-generated content, in a simple font. text='SALE' | unknown:  text='UGC'"
+  }
+}

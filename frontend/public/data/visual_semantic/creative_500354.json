@@ -1,0 +1,266 @@
+{
+  "creative_id": "500354",
+  "asset_file": "assets/creative_500354.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with bold text and decorative elements.",
+    "visual_style": "bold and playful",
+    "main_message": "Promoting the NeonCast service with a call to action.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        91,
+        359,
+        230
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.143,
+        0.998,
+        0.359
+      ],
+      "center_normalized": [
+        0.503,
+        0.251
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NeonCast logo",
+      "description": "The text 'NeonCast' is prominently displayed in bold, black font at the top, conveying a strong brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        176,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.243,
+        0.491,
+        0.466
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.07
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Binge starts now",
+      "description": "The phrase 'Binge starts now' is written in white, bold font, positioned centrally to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        330
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.517
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small, light-colored circle is placed in the center, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangle is positioned below the small circle, providing a visual balance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Large oval",
+      "description": "A large oval shape is located below the medium rectangle, enhancing the visual interest of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small dots",
+      "description": "Three small dots are arranged in a line, adding a playful element to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Cancel anytime",
+      "description": "The text 'Cancel anytime' is displayed in smaller font beneath the main message, providing additional information.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent 'Book now' button is located at the bottom, encouraging immediate action from viewers.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        28,
+        42,
+        317,
+        95
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.881,
+        0.148
+      ],
+      "center_normalized": [
+        0.479,
+        0.107
+      ],
+      "area_percentage": 6.65
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bold and playful, NeonCast, Binge starts now, Book now",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, NeonCast, Book now",
+    "elements_text": "headline: The text 'NeonCast' is prominently displayed in bold, black font at the top, conveying a strong brand identity. | body_text: The phrase 'Binge starts now' is written in white, bold font, positioned centrally to attract attention. | decorative_element: A small, light-colored circle is placed in the center, adding a decorative touch to the layout. | decorative_element: A medium-sized rectangle is positioned below the small circle, providing a visual balance. | decorative_element: A large oval shape is located below the medium rectangle, enhancing the visual interest of the ad. | decorative_element: Three small dots are arranged in a line, adding a playful element to the design. | body_text: The text 'Cancel anytime' is displayed in smaller font beneath the main message, providing additional information. text='Binge starts now Cancel anytime' | cta: A prominent 'Book now' button is located at the bottom, encouraging immediate action from viewers. text='NeonCast' | unknown:  text='Book now'"
+  }
+}

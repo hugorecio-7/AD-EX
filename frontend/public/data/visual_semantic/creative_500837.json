@@ -1,0 +1,266 @@
+{
+  "creative_id": "500837",
+  "asset_file": "assets/creative_500837.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a prominent product display and clear call-to-action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a limited-time flash sale on the CrispBox.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire banner, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "CrispBox product",
+      "description": "A stylized representation of a box with three compartments, featuring a smooth surface and a light pink hue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Box design element",
+      "description": "Two small circular shapes in a light pink color, positioned below the main product box, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional box design",
+      "description": "A rectangular shape in a light pink color, slightly larger than the circular shapes, enhancing the product's visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded rectangular button in white with bold text, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small design element",
+      "description": "A small circular shape in a light pink color, positioned near the bottom of the banner, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.613
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold, white text stating 'Flash sale live Only this weekend' prominently displayed in the center of the banner.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        48,
+        306,
+        273,
+        358
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.853,
+        0.746
+      ],
+      "center_normalized": [
+        0.502,
+        0.692
+      ],
+      "area_percentage": 7.62
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price display",
+      "description": "Large, bold text in white showing the price '€19.99' at the bottom of the banner, drawing attention.",
+      "text_content": "€19.99 Get offer",
+      "bbox_xyxy": [
+        22,
+        396,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.352,
+        0.87
+      ],
+      "area_percentage": 5.07
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A simple logo text 'CrispBox' in white, positioned at the top left corner of the banner.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        24,
+        28,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.087
+      ],
+      "area_percentage": 2.01
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in yellow with the word 'SALE' in bold text, located at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, CrispBox, flash sale, €19.99",
+    "layout_text": "The headline is centered, the product is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox, SALE, Flash sale live Only this weekend, €19.99, Get offer",
+    "elements_text": "product: A stylized representation of a box with three compartments, featuring a smooth surface and a light pink hue. | decorative_element: Two small circular shapes in a light pink color, positioned below the main product box, adding visual interest. | decorative_element: A rectangular shape in a light pink color, slightly larger than the circular shapes, enhancing the product's visual appeal. | cta: A rounded rectangular button in white with bold text, inviting users to take action. | decorative_element: A small circular shape in a light pink color, positioned near the bottom of the banner, complementing the overall design. | headline: Bold, white text stating 'Flash sale live Only this weekend' prominently displayed in the center of the banner. text='Flash sale live Only this weekend' | price: Large, bold text in white showing the price '€19.99' at the bottom of the banner, drawing attention. text='€19.99 Get offer' | logo: A simple logo text 'CrispBox' in white, positioned at the top left corner of the banner. text='CrispBox' | discount_badge: A small, circular badge in yellow with the word 'SALE' in bold text, located at the top right corner. text='SALE'"
+  }
+}

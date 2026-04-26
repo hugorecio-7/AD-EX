@@ -1,0 +1,194 @@
+{
+  "creative_id": "500949",
+  "asset_file": "assets/creative_500949.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear call to action on an orange background.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to manage their money with clarity and peace of mind.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract orange background",
+      "description": "A smooth, gradient orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        362
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.952,
+        0.755
+      ],
+      "center_normalized": [
+        0.501,
+        0.478
+      ],
+      "area_percentage": 49.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text that reads 'Your money, clearer' prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, outlined in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline that says 'Built for peace of mind'.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        63,
+        307,
+        257,
+        387
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.64,
+        0.803,
+        0.806
+      ],
+      "center_normalized": [
+        0.5,
+        0.723
+      ],
+      "area_percentage": 10.1
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "A small logo in the top left corner that reads 'VaultRun' in a bold font.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        23,
+        29,
+        136,
+        58
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.06,
+        0.425,
+        0.121
+      ],
+      "center_normalized": [
+        0.248,
+        0.091
+      ],
+      "area_percentage": 2.13
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center that says 'Start now' in bold white text.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small circular icon in the top left corner with the text 'UGC' inside.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, key elements include a headline, logo, and call to action.",
+    "layout_text": "The headline is at the top, followed by supporting text, with the logo in the top left and the CTA at the bottom center.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, VaultRun, Start now, UGC",
+    "elements_text": "headline: Bold, white text that reads 'Your money, clearer' prominently displayed at the top. | unknown: Two overlapping geometric shapes, one circular and one rectangular, outlined in a light color. | body_text: Smaller white text below the headline that says 'Built for peace of mind'. text='Your money, clearer Built for peace of mind' | logo: A small logo in the top left corner that reads 'VaultRun' in a bold font. text='VaultRun' | cta: A rounded button at the bottom center that says 'Start now' in bold white text. text='Start now' | icon: A small circular icon in the top left corner with the text 'UGC' inside. text='UGC'"
+  }
+}

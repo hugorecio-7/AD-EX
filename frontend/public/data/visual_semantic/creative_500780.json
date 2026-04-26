@@ -1,0 +1,218 @@
+{
+  "creative_id": "500780",
+  "asset_file": "assets/creative_500780.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a logo at the top, a body text message in the center, and a CTA button at the bottom.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting quick dinner options with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "Bold text at the bottom of the ad, conveying a message about quick meal options.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        66,
+        409,
+        292,
+        500
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.639,
+        0.811,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.93
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A prominent logo at the top of the ad, featuring the name 'CraveLoop' in a clear font.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        32,
+        236,
+        80
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.05,
+        0.656,
+        0.125
+      ],
+      "center_normalized": [
+        0.36,
+        0.087
+      ],
+      "area_percentage": 4.44
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A call-to-action button at the bottom of the ad, inviting users to install the app.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, quick dinner options, call to action",
+    "layout_text": "The logo is positioned at the top, the body text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "CraveLoop, Dinner in minutes, Late-night deals available, Install now",
+    "elements_text": "unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | unknown: A small central element with an undefined visual appearance. | body_text: Bold text at the bottom of the ad, conveying a message about quick meal options. text='Dinner in minutes Late-night deals available' | logo: A prominent logo at the top of the ad, featuring the name 'CraveLoop' in a clear font. text='CraveLoop' | cta: A call-to-action button at the bottom of the ad, inviting users to install the app. text='Install now'"
+  }
+}

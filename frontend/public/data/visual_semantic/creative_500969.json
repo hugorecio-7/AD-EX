@@ -1,0 +1,242 @@
+{
+  "creative_id": "500969",
+  "asset_file": "assets/creative_500969.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and call to action with abstract graphic elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to engage with PulsePlay and start for free.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A large, abstract shape in the center of the ad, possibly a stylized graphic or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        198,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.31,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.5
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A medium-sized, abstract shape that complements the central graphic, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "A large, rectangular shape that overlays other elements, providing a backdrop for text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small, circular shape located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom left graphic element",
+      "description": "A small, circular shape positioned in the lower left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large text at the top of the ad that reads 'PulsePlay UGC' against a blue background.",
+      "text_content": "PulsePlay UGC",
+      "bbox_xyxy": [
+        24,
+        26,
+        319,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.041,
+        0.886,
+        0.198
+      ],
+      "center_normalized": [
+        0.476,
+        0.12
+      ],
+      "area_percentage": 12.93
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Call to action text",
+      "description": "Prominent text in the center of the ad that says 'Stream the hype Start free today' in a clear, readable font.",
+      "text_content": "Stream the hype Start free today",
+      "bbox_xyxy": [
+        35,
+        409,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.684
+      ],
+      "area_percentage": 7.2
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom of the ad with the text 'Get offer' in a contrasting color.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, PulsePlay UGC, Stream the hype, Get offer",
+    "layout_text": "The headline is at the top, the main body text is centered, and the CTA button is at the bottom.",
+    "ocr_text": "PulsePlay UGC, Stream the hype Start free today, Get offer",
+    "elements_text": "unknown: A large, abstract shape in the center of the ad, possibly a stylized graphic or icon. | unknown: A medium-sized, abstract shape that complements the central graphic, positioned centrally. | unknown: A large, rectangular shape that overlays other elements, providing a backdrop for text. | unknown: A small, circular shape located towards the bottom of the ad. | unknown: A small, circular shape positioned in the lower left corner of the ad. | headline: Bold, large text at the top of the ad that reads 'PulsePlay UGC' against a blue background. text='PulsePlay UGC' | body_text: Prominent text in the center of the ad that says 'Stream the hype Start free today' in a clear, readable font. text='Stream the hype Start free today' | cta: A rounded rectangular button at the bottom of the ad with the text 'Get offer' in a contrasting color. text='Get offer'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500988",
+  "asset_file": "assets/creative_500988.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent message about financial clarity.",
+    "visual_style": "minimalist with modern elements",
+    "main_message": "Promoting a financial app that simplifies money management.",
+    "dominant_colors": [
+      "light gray",
+      "dark gray"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top banner area",
+      "description": "A light gray rectangular area at the top of the ad, possibly containing a logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Main app interface",
+      "description": "A central rectangular area displaying a simplified app interface with rounded shapes and a card-like design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Secondary visual element",
+      "description": "A central rectangular area featuring abstract shapes, possibly representing financial transactions.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.498,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.59
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, dark text at the bottom stating 'Your money, clearer' with a smaller tagline below it.",
+      "text_content": "Your money, clearer Built Claim reward",
+      "bbox_xyxy": [
+        63,
+        201,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.628,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.781
+      ],
+      "area_percentage": 18.66
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo in the top left corner, featuring the text 'NovaPay' in a modern font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        19,
+        93,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.291,
+        0.116
+      ],
+      "center_normalized": [
+        0.183,
+        0.087
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with modern elements, financial clarity, app interface",
+    "layout_text": "The logo is positioned at the top left, the main message is centered at the bottom, and the app interface is in the center.",
+    "ocr_text": "NovaPay, Your money, clearer, Built for peace of mind, Claim reward",
+    "elements_text": "unknown: A light gray rectangular area at the top of the ad, possibly containing a logo. | app_screenshot: A central rectangular area displaying a simplified app interface with rounded shapes and a card-like design. | unknown: A central rectangular area featuring abstract shapes, possibly representing financial transactions. | headline: Bold, dark text at the bottom stating 'Your money, clearer' with a smaller tagline below it. text='Your money, clearer Built Claim reward' | logo: A small logo in the top left corner, featuring the text 'NovaPay' in a modern font. text='NovaPay'"
+  }
+}

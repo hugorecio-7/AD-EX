@@ -1,0 +1,386 @@
+{
+  "creative_id": "500903",
+  "asset_file": "assets/creative_500903.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant game interface with engaging text elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to unlock rewards in the game.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element with a grid-like pattern, possibly representing a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold text at the top reading 'NeonArena UGC' in a vibrant color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central graphic element similar to ID 1, contributing to the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central graphic element that complements the other game interface elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A smaller graphic element at the top, possibly part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small graphic element at the top right, likely part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Bottom center element",
+      "description": "A small circular graphic element located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small graphic element in the center, possibly a game icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small circular graphic element located in the center, likely part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small graphic element at the top left, possibly part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small graphic element at the top right, likely part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline at the top with bold text stating 'NeonArena UGC'.",
+      "text_content": "NeonArena UGC",
+      "bbox_xyxy": [
+        28,
+        37,
+        359,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.058,
+        0.997,
+        0.198
+      ],
+      "center_normalized": [
+        0.537,
+        0.128
+      ],
+      "area_percentage": 12.93
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "A descriptive text in the center stating 'Unlock rare gear Free rewards for new players'.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom with the text 'Start now', inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, NeonArena UGC, Unlock rare gear Free rewards for new players, Start now",
+    "layout_text": "The headline is positioned at the top, the body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena UGC, Unlock rare gear Free rewards for new players, Start now",
+    "elements_text": "unknown: A central graphic element with a grid-like pattern, possibly representing a game interface. | headline: A large, bold text at the top reading 'NeonArena UGC' in a vibrant color. | unknown: Another central graphic element similar to ID 1, contributing to the game interface. | unknown: A central graphic element that complements the other game interface elements. | unknown: A smaller graphic element at the top, possibly part of the game interface. | unknown: A small graphic element at the top right, likely part of the game interface. | unknown: A small circular graphic element located towards the bottom center. | unknown: A small graphic element in the center, possibly a game icon. | unknown: A small circular graphic element located in the center, likely part of the game interface. | unknown: A small graphic element at the top left, possibly part of the game interface. | unknown: A small graphic element at the top right, likely part of the game interface. | headline: A prominent headline at the top with bold text stating 'NeonArena UGC'. text='NeonArena UGC' | body_text: A descriptive text in the center stating 'Unlock rare gear Free rewards for new players'. text='Unlock rare gear Free rewards for new players' | cta: A button at the bottom with the text 'Start now', inviting user interaction. text='Start now'"
+  }
+}

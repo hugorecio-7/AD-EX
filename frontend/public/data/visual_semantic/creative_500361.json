@@ -1,0 +1,338 @@
+{
+  "creative_id": "500361",
+  "asset_file": "assets/creative_500361.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant promotional layout with engaging text and decorative elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encourages players to win rewards and shop.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "central decorative element",
+      "description": "A central area with a light background and four outlined circles, suggesting a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.346,
+        0.435
+      ],
+      "area_percentage": 5.42
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "central decorative element",
+      "description": "A central area with a light background and a smaller outlined circle, indicating a game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "central decorative element",
+      "description": "A central area with a light background and a larger outlined circle, representing another game feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "GlitchWave BONUS",
+      "description": "Bold text at the top in a vibrant color, indicating a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Text at the top center, conveying the bonus offer in a clear, engaging font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "top decorative element",
+      "description": "A small decorative element at the top, possibly an icon or logo, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "central decorative element",
+      "description": "A small decorative element in the center, likely another icon or feature related to the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "top decorative element",
+      "description": "A small decorative icon at the top left, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "central decorative element",
+      "description": "A small decorative icon in the center left, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "call to action",
+      "description": "Bold text at the bottom center, encouraging users to engage with the game.",
+      "text_content": "Win epic rewards Play with friends tonight",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "promotional headline",
+      "description": "Bold, eye-catching text at the top, announcing the bonus offer.",
+      "text_content": "GlitchWave BONUS",
+      "bbox_xyxy": [
+        26,
+        39,
+        331,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.919,
+        0.123
+      ],
+      "center_normalized": [
+        0.496,
+        0.092
+      ],
+      "area_percentage": 5.3
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "shop now button",
+      "description": "A clear call to action at the bottom, inviting users to shop with a simple, direct message.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, GlitchWave BONUS, win epic rewards.",
+    "layout_text": "Headline at the top, central decorative elements, and CTA at the bottom.",
+    "ocr_text": "Win epic rewards, Play with friends tonight, GlitchWave BONUS, Shop now",
+    "elements_text": "unknown: A central area with a light background and four outlined circles, suggesting a game interface. | unknown: A central area with a light background and a smaller outlined circle, indicating a game feature. | unknown: A central area with a light background and a larger outlined circle, representing another game feature. | headline: Bold text at the top in a vibrant color, indicating a promotional offer. | body_text: Text at the top center, conveying the bonus offer in a clear, engaging font. | unknown: A small decorative element at the top, possibly an icon or logo, with a light background. | unknown: A small decorative element in the center, likely another icon or feature related to the game. | unknown: A small decorative icon at the top left, contributing to the overall design. | unknown: A small decorative icon in the center left, enhancing the visual appeal. | cta: Bold text at the bottom center, encouraging users to engage with the game. text='Win epic rewards Play with friends tonight' | headline: Bold, eye-catching text at the top, announcing the bonus offer. text='GlitchWave BONUS' | cta: A clear call to action at the bottom, inviting users to shop with a simple, direct message. text='Shop now'"
+  }
+}

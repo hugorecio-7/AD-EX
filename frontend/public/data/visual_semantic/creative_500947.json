@@ -1,0 +1,242 @@
+{
+  "creative_id": "500947",
+  "asset_file": "assets/creative_500947.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on a flash sale announcement and product images.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time flash sale with a clear call to action.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.178
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.76
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "Three rectangular outlines representing product images are centered in the ad, with a simple line drawing style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "Another set of three rectangular outlines representing product images, similar in style to the previous element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.768,
+        0.458
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "three product images",
+      "description": "A third set of three rectangular outlines for product images, maintaining the same minimalist design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "flash sale announcement",
+      "description": "Bold, large text stating 'Flash sale live Only this weekend' is prominently displayed in the center.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        49,
+        306,
+        273,
+        357
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.637,
+        0.853,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.691
+      ],
+      "area_percentage": 7.44
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "shop now button",
+      "description": "A clear call-to-action button with the text '€19.99 Shop now' is positioned at the bottom, inviting immediate action.",
+      "text_content": "€19.99 Shop now",
+      "bbox_xyxy": [
+        22,
+        396,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.356,
+        0.873
+      ],
+      "area_percentage": 5.51
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "The logo 'BoltCart' is displayed at the top left in a simple, modern font.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        24,
+        30,
+        127,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.397,
+        0.117
+      ],
+      "center_normalized": [
+        0.236,
+        0.09
+      ],
+      "area_percentage": 1.74
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small badge labeled 'SALE' is positioned at the top right, drawing attention to the promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' is located at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, flash sale, product images, call to action",
+    "layout_text": "The headline is centered, product images are in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Only this weekend, €19.99 Shop now, BoltCart, SALE, UGC",
+    "elements_text": "app_screenshot: Three rectangular outlines representing product images are centered in the ad, with a simple line drawing style. | app_screenshot: Another set of three rectangular outlines representing product images, similar in style to the previous element. | app_screenshot: A third set of three rectangular outlines for product images, maintaining the same minimalist design. | headline: Bold, large text stating 'Flash sale live Only this weekend' is prominently displayed in the center. text='Flash sale live Only this weekend' | cta: A clear call-to-action button with the text '€19.99 Shop now' is positioned at the bottom, inviting immediate action. text='€19.99 Shop now' | logo: The logo 'BoltCart' is displayed at the top left in a simple, modern font. text='BoltCart' | discount_badge: A small badge labeled 'SALE' is positioned at the top right, drawing attention to the promotional offer. text='SALE' | social_proof: A small label reading 'UGC' is located at the top left, indicating user-generated content. text='UGC'"
+  }
+}

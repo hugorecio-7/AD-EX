@@ -1,0 +1,218 @@
+{
+  "creative_id": "500851",
+  "asset_file": "assets/creative_500851.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with geometric shapes and clear text elements.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting flexible booking options for a weekend escape.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "adventurous"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of overlapping geometric shapes in a soft purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        341,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.948,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.43
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Geometric design",
+      "description": "A large square shape with rounded edges, filled with a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "A smaller circular shape positioned within the larger square, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular element located towards the bottom of the ad, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold white text stating 'Escape this weekend' with a smaller line below it in a lighter font.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.712
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'NomadLayer' displayed prominently at the top in a bold font.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        25,
+        30,
+        274,
+        81
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.047,
+        0.761,
+        0.127
+      ],
+      "center_normalized": [
+        0.415,
+        0.087
+      ],
+      "area_percentage": 5.51
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button with the text 'Order now' in white, positioned at the bottom.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold colors, flexible booking options",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NomadLayer, Escape this weekend, Flexible booking options, Order now",
+    "elements_text": "unknown: A combination of overlapping geometric shapes in a soft purple background. | unknown: A large square shape with rounded edges, filled with a lighter shade of purple. | unknown: A smaller circular shape positioned within the larger square, creating a layered effect. | unknown: A small circular element located towards the bottom of the ad, adding visual interest. | body_text: Bold white text stating 'Escape this weekend' with a smaller line below it in a lighter font. text='Escape this weekend Flexible booking options' | logo: The brand name 'NomadLayer' displayed prominently at the top in a bold font. text='NomadLayer' | cta: A clear and inviting button with the text 'Order now' in white, positioned at the bottom. text='Order now'"
+  }
+}

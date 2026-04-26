@@ -1,0 +1,218 @@
+{
+  "creative_id": "500956",
+  "asset_file": "assets/creative_500956.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the brand and call-to-action messages.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting weekend travel options through HorizonHop.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of circular and rectangular shapes in a soft blue color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "Additional abstract shapes layered over the background, creating a visually interesting composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangular shape positioned slightly above the small circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Main call to action",
+      "description": "A prominent text element stating 'Escape this weekend Hotels + flights in one tap' in a bold, easy-to-read font.",
+      "text_content": "Escape this weekend Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 9.08
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'HorizonHop' displayed at the top of the ad in a large, bold font.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        23,
+        30,
+        256,
+        80
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.711,
+        0.125
+      ],
+      "center_normalized": [
+        0.388,
+        0.086
+      ],
+      "area_percentage": 5.06
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller text element saying 'Watch now' located at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, key elements include brand logo and call-to-action.",
+    "layout_text": "The brand logo is at the top, the main call to action is centered, and the secondary call to action is at the bottom.",
+    "ocr_text": "HorizonHop, Escape this weekend, Hotels + flights in one tap, Watch now",
+    "elements_text": "unknown: A combination of circular and rectangular shapes in a soft blue color, positioned centrally. | unknown: Additional abstract shapes layered over the background, creating a visually interesting composition. | unknown: A small circular shape located towards the bottom center of the ad. | unknown: A small rectangular shape positioned slightly above the small circle. | cta: A prominent text element stating 'Escape this weekend Hotels + flights in one tap' in a bold, easy-to-read font. text='Escape this weekend Hotels + flights in one tap' | logo: The logo 'HorizonHop' displayed at the top of the ad in a large, bold font. text='HorizonHop' | cta: A smaller text element saying 'Watch now' located at the bottom of the ad. text='Watch now'"
+  }
+}

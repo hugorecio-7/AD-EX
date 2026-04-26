@@ -1,0 +1,290 @@
+{
+  "creative_id": "500980",
+  "asset_file": "assets/creative_500980.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent discount offer and brand logo.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting a limited-time discount on products.",
+    "dominant_colors": [
+      "#FFFFFF",
+      "#F0F0F0"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a placeholder for images, featuring three outlined rectangles resembling product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        75,
+        101,
+        214
+      ],
+      "bbox_normalized": [
+        0.059,
+        0.158,
+        0.318,
+        0.446
+      ],
+      "center_normalized": [
+        0.188,
+        0.302
+      ],
+      "area_percentage": 7.47
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element with a placeholder for images, similar to the first, with three outlined rectangles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.331,
+        0.46
+      ],
+      "center_normalized": [
+        0.241,
+        0.37
+      ],
+      "area_percentage": 3.26
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A third central graphic element with a placeholder for images, featuring three outlined rectangles like the previous elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        187,
+        134,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.587,
+        0.279,
+        0.768,
+        0.46
+      ],
+      "center_normalized": [
+        0.677,
+        0.37
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a placeholder for images, featuring three outlined rectangles resembling product images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Discount offer",
+      "description": "A bold, large text element stating 'Up to 40% off Only this weekend' in a prominent font.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A simple logo element displaying the text 'ZenDrop' in a clean, modern font.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button-like text element saying 'Watch now' in a clear, inviting font.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small text element displaying '30%' in a bold font, indicating a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        31,
+        399,
+        81,
+        419
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.831,
+        0.253,
+        0.873
+      ],
+      "center_normalized": [
+        0.175,
+        0.852
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A small, bold text element at the top stating 'SALE' in an eye-catching font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "User-generated content tag",
+      "description": "A small text element labeled 'UGC' in a simple font, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalistic with bold text, discount offer, brand logo",
+    "layout_text": "The headline is centrally positioned, with graphic elements below, and the CTA at the bottom.",
+    "ocr_text": "ZenDrop, Up to 40% off Only this weekend, Watch now, 30%, SALE, UGC",
+    "elements_text": "unknown: A central graphic element with a placeholder for images, featuring three outlined rectangles resembling product images. | unknown: Another central graphic element with a placeholder for images, similar to the first, with three outlined rectangles. | unknown: A third central graphic element with a placeholder for images, featuring three outlined rectangles like the previous elements. | unknown: A central graphic element with a placeholder for images, featuring three outlined rectangles resembling product images. | headline: A bold, large text element stating 'Up to 40% off Only this weekend' in a prominent font. text='Up to 40% off Only this weekend' | logo: A simple logo element displaying the text 'ZenDrop' in a clean, modern font. text='ZenDrop' | cta: A button-like text element saying 'Watch now' in a clear, inviting font. text='Watch now' | discount_badge: A small text element displaying '30%' in a bold font, indicating a discount. text='30%' | headline: A small, bold text element at the top stating 'SALE' in an eye-catching font. text='SALE' | body_text: A small text element labeled 'UGC' in a simple font, indicating user-generated content. text='UGC'"
+  }
+}

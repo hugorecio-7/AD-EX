@@ -1,0 +1,386 @@
+{
+  "creative_id": "500833",
+  "asset_file": "assets/creative_500833.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with engaging text and a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to unlock rare gear with no ads in the first week.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "IronQuest UGC",
+      "description": "Bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Unlock rare gear",
+      "description": "Medium-sized text in the center of the ad, conveying the message 'Unlock rare gear' in a clear and engaging font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "No ads in first week",
+      "description": "Smaller text below the main body text, stating 'No ads in first week' in a simple, readable style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "A button at the bottom of the ad with the text 'Learn more', designed to stand out and encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top right, possibly an icon or graphic that adds visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small element in the center that is unclear in purpose, possibly a decorative or gameplay-related graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Bottom center element",
+      "description": "Another small element at the bottom center, its purpose is not defined, likely a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Top left decorative element",
+      "description": "A small decorative element in the top left corner, adding to the overall design without specific function.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Center left decorative element",
+      "description": "A small decorative element in the center left area, contributing to the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Bottom left decorative element",
+      "description": "A small decorative element in the bottom left corner, enhancing the overall design of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Bottom right decorative element",
+      "description": "A small decorative element in the bottom right corner, adding visual interest to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Background",
+      "description": "A vibrant green background that fills the entire canvas, providing a lively and engaging backdrop.",
+      "text_content": "IronQuest UGC",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.198
+      ],
+      "center_normalized": [
+        0.486,
+        0.128
+      ],
+      "area_percentage": 11.88
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Gameplay area",
+      "description": "A section at the bottom of the ad that may represent gameplay or app features, visually distinct from the text.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button at the bottom with the text 'Learn more', designed to attract user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, IronQuest UGC, Unlock rare gear, Learn more",
+    "layout_text": "The headline is at the top, body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "IronQuest UGC, Unlock rare gear, No ads in first week, Learn more",
+    "elements_text": "headline: Bold, large text at the top of the ad, prominently displaying the title 'IronQuest UGC' in a striking font. | body_text: Medium-sized text in the center of the ad, conveying the message 'Unlock rare gear' in a clear and engaging font. | body_text: Smaller text below the main body text, stating 'No ads in first week' in a simple, readable style. | cta: A button at the bottom of the ad with the text 'Learn more', designed to stand out and encourage user interaction. | decorative_element: A small decorative element positioned at the top right, possibly an icon or graphic that adds visual interest. | unknown: A small element in the center that is unclear in purpose, possibly a decorative or gameplay-related graphic. | unknown: Another small element at the bottom center, its purpose is not defined, likely a decorative feature. | decorative_element: A small decorative element in the top left corner, adding to the overall design without specific function. | decorative_element: A small decorative element in the center left area, contributing to the visual appeal of the ad. | decorative_element: A small decorative element in the bottom left corner, enhancing the overall design of the ad. | decorative_element: A small decorative element in the bottom right corner, adding visual interest to the layout. | unknown: A vibrant green background that fills the entire canvas, providing a lively and engaging backdrop. text='IronQuest UGC' | unknown: A section at the bottom of the ad that may represent gameplay or app features, visually distinct from the text. text='Unlock rare gear No ads in first week' | cta: A prominent button at the bottom with the text 'Learn more', designed to attract user interaction. text='Learn more'"
+  }
+}

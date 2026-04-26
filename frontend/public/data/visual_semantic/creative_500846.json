@@ -1,0 +1,266 @@
+{
+  "creative_id": "500846",
+  "asset_file": "assets/creative_500846.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel-related messaging.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting special fares for smarter travel options.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top background area",
+      "description": "A light gray rectangular area at the top of the ad, possibly serving as a background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central graphic shapes",
+      "description": "A collection of overlapping geometric shapes in the center, including circles and rectangles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "Bold, black text stating 'Fly smarter' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        80,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.251,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.516,
+        0.43
+      ],
+      "area_percentage": 9.72
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller black text below the main message that reads 'Special fares today'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.306,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.543,
+        0.43
+      ],
+      "area_percentage": 8.72
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional graphic element",
+      "description": "A smaller rectangular shape positioned slightly above the main text, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Lower graphic element",
+      "description": "A small circular shape located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom with the text 'Shop now' in bold, inviting users to take action.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        65,
+        201,
+        252,
+        255
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.628,
+        0.787,
+        0.797
+      ],
+      "center_normalized": [
+        0.495,
+        0.713
+      ],
+      "area_percentage": 9.86
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left corner, featuring the text 'NomadLayer' in a simple font.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        24,
+        19,
+        121,
+        38
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.227,
+        0.089
+      ],
+      "area_percentage": 1.8
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Bottom call to action",
+      "description": "A secondary call to action text 'Shop now' located at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        113,
+        279,
+        205,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.641,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.8
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, Fly smarter, Special fares today, Shop now",
+    "layout_text": "The headline is centered with the main subject graphic, and the CTA is positioned at the bottom.",
+    "ocr_text": "Fly smarter, Special fares today, NomadLayer, Shop now",
+    "elements_text": "unknown: A light gray rectangular area at the top of the ad, possibly serving as a background. | main_subject: A collection of overlapping geometric shapes in the center, including circles and rectangles. | body_text: Bold, black text stating 'Fly smarter' prominently displayed in the center. | body_text: Smaller black text below the main message that reads 'Special fares today'. | unknown: A smaller rectangular shape positioned slightly above the main text, possibly decorative. | unknown: A small circular shape located towards the bottom center of the ad. | cta: A rounded button at the bottom with the text 'Shop now' in bold, inviting users to take action. text='Fly smarter Special fares today' | logo: A small logo at the top left corner, featuring the text 'NomadLayer' in a simple font. text='NomadLayer' | cta: A secondary call to action text 'Shop now' located at the bottom of the ad. text='Shop now'"
+  }
+}

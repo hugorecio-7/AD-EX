@@ -1,0 +1,170 @@
+{
+  "creative_id": "500336",
+  "asset_file": "assets/creative_500336.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with abstract shapes and clear promotional messaging.",
+    "visual_style": "modern and abstract",
+    "main_message": "Promoting fast signup for a financial service.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire ad space, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, creating a modern and abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional abstract shape",
+      "description": "A large rectangular shape is positioned slightly above the center, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold white text reads 'Track every euro' with a smaller tagline below it, emphasizing the service's benefits.",
+      "text_content": "Track every euro Fast signup, instant card",
+      "bbox_xyxy": [
+        29,
+        306,
+        288,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.637,
+        0.9,
+        0.744
+      ],
+      "center_normalized": [
+        0.495,
+        0.691
+      ],
+      "area_percentage": 8.6
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The 'NovaPay' logo appears in a prominent position at the top left, featuring a clean and modern font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom of the ad displays 'Watch now' in bold text, inviting user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and abstract, NovaPay, Track every euro, Watch now",
+    "layout_text": "The logo is positioned at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup, instant card, NovaPay, Watch now",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are centered in the ad, creating a modern and abstract visual. | unknown: A large rectangular shape is positioned slightly above the center, adding depth to the design. | headline: Bold white text reads 'Track every euro' with a smaller tagline below it, emphasizing the service's benefits. text='Track every euro Fast signup, instant card' | logo: The 'NovaPay' logo appears in a prominent position at the top left, featuring a clean and modern font. text='NovaPay' | cta: A rounded button at the bottom of the ad displays 'Watch now' in bold text, inviting user interaction. text='Watch now'"
+  }
+}

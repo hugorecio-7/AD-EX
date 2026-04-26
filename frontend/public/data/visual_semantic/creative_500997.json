@@ -1,0 +1,194 @@
+{
+  "creative_id": "500997",
+  "asset_file": "assets/creative_500997.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a mobile app interface and clear calls to action.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a food delivery app with late-night deals.",
+    "dominant_colors": [
+      "#000000",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that provides contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        63,
+        342,
+        469
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.099,
+        0.951,
+        0.733
+      ],
+      "center_normalized": [
+        0.5,
+        0.416
+      ],
+      "area_percentage": 57.31
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "App interface mockup",
+      "description": "A simplified representation of a mobile app interface with two rectangular shapes resembling food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.2,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.5,
+        0.459
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A stylized text logo reading 'CraveLoop' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "A prominent text element stating 'Dinner in minutes' in a large, clear font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Late-night deals",
+      "description": "A smaller text element below the main headline that reads 'Late-night deals available' in a lighter font.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        66,
+        409,
+        292,
+        500
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.639,
+        0.811,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.93
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A text element displaying the price '€9.99' in a bold font, indicating the cost of the service.",
+      "text_content": "€9.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button with the text 'Install now' in a contrasting color, encouraging user action.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        32,
+        236,
+        80
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.05,
+        0.656,
+        0.125
+      ],
+      "center_normalized": [
+        0.36,
+        0.087
+      ],
+      "area_percentage": 4.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, food delivery app, late-night deals",
+    "layout_text": "The logo is at the top, followed by the main subject in the center, with body text and CTA at the bottom.",
+    "ocr_text": "CraveLoop, Dinner in minutes, Late-night deals available, €9.99, Install now",
+    "elements_text": "main_subject: A simplified representation of a mobile app interface with two rectangular shapes resembling food items. | logo: A stylized text logo reading 'CraveLoop' in a bold font, positioned at the top of the ad. | body_text: A prominent text element stating 'Dinner in minutes' in a large, clear font. | body_text: A smaller text element below the main headline that reads 'Late-night deals available' in a lighter font. text='Dinner in minutes Late-night deals available' | price: A text element displaying the price '€9.99' in a bold font, indicating the cost of the service. text='€9.99 Install now' | cta: A rounded button with the text 'Install now' in a contrasting color, encouraging user action. text='CraveLoop'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500783",
+  "asset_file": "assets/creative_500783.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold red background with prominent text and a call to action.",
+    "visual_style": "bold and vibrant",
+    "main_message": "Encouraging viewers to book a deal for food.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the canvas, providing a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        4,
+        59,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.014,
+        0.185,
+        0.952,
+        0.719
+      ],
+      "center_normalized": [
+        0.483,
+        0.452
+      ],
+      "area_percentage": 50.13
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top reads 'Hungry? We got you', set against the red background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A simple logo featuring a stylized icon, placed centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Smaller white text below the headline states '€29.99 night deals available', complementing the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Book now', designed to stand out against the red background.",
+      "text_content": "Hungry? We got you €2990 able Book now",
+      "bbox_xyxy": [
+        22,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.486,
+        0.787
+      ],
+      "area_percentage": 24.51
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "An abstract shape or icon that adds visual interest but does not convey specific information.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bold and vibrant, key elements include a headline, logo, and CTA.",
+    "layout_text": "The headline is at the top, the logo is centered, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you, €29.99 night deals available, Book now, CraveLoop",
+    "elements_text": "headline: Bold white text at the top reads 'Hungry? We got you', set against the red background. | logo: A simple logo featuring a stylized icon, placed centrally within the ad. | body_text: Smaller white text below the headline states '€29.99 night deals available', complementing the main message. | cta: A prominent button at the bottom with the text 'Book now', designed to stand out against the red background. text='Hungry? We got you €2990 able Book now' | unknown: An abstract shape or icon that adds visual interest but does not convey specific information. text='CraveLoop'"
+  }
+}

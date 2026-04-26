@@ -1,0 +1,194 @@
+{
+  "creative_id": "500773",
+  "asset_file": "assets/creative_500773.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and a clear call to action against a visually appealing background.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Encouraging users to try NovaPay with confidence.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A bold, uppercase text logo that reads 'NovaPay' in a prominent position at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.468,
+        0.379
+      ],
+      "area_percentage": 15.08
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A large, soft-edged oval shape in a lighter shade, providing a subtle backdrop for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Background rectangle",
+      "description": "A rectangular shape with rounded corners, positioned behind the text, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional background shape",
+      "description": "A smaller, soft-edged shape that complements the main background elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        157,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.91
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom of the ad that reads 'Save with confidence Try for free' in a clear, inviting font.",
+      "text_content": "Save with confidence Try for free",
+      "bbox_xyxy": [
+        74,
+        206,
+        246,
+        299
+      ],
+      "bbox_normalized": [
+        0.231,
+        0.644,
+        0.769,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.789
+      ],
+      "area_percentage": 15.62
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The word 'NovaPay' displayed in a large, bold font at the top, capturing immediate attention.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        7,
+        8,
+        220,
+        76
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.025,
+        0.688,
+        0.237
+      ],
+      "center_normalized": [
+        0.355,
+        0.131
+      ],
+      "area_percentage": 14.14
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, NovaPay logo, call to action",
+    "layout_text": "The headline is at the top, followed by decorative elements, with the CTA positioned at the bottom.",
+    "ocr_text": "NovaPay, Save with confidence, Try for free",
+    "elements_text": "logo: A bold, uppercase text logo that reads 'NovaPay' in a prominent position at the top of the ad. | decorative_element: A large, soft-edged oval shape in a lighter shade, providing a subtle backdrop for the text elements. | decorative_element: A rectangular shape with rounded corners, positioned behind the text, adding depth to the design. | unknown: A smaller, soft-edged shape that complements the main background elements. | cta: A prominent text area at the bottom of the ad that reads 'Save with confidence Try for free' in a clear, inviting font. text='Save with confidence Try for free' | headline: The word 'NovaPay' displayed in a large, bold font at the top, capturing immediate attention. text='NovaPay'"
+  }
+}

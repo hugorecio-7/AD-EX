@@ -1,0 +1,410 @@
+{
+  "creative_id": "500968",
+  "asset_file": "assets/creative_500968.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with various graphical elements and text promoting a service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting new content and inviting users to try the service for free.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "orange gradient background",
+      "description": "A vibrant orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.144,
+        0.998,
+        0.456
+      ],
+      "center_normalized": [
+        0.502,
+        0.3
+      ],
+      "area_percentage": 31.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "circular graphic",
+      "description": "A large circular graphic in the center, featuring a smooth, rounded shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        168,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.263,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.391
+      ],
+      "area_percentage": 15.1
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "oval graphic",
+      "description": "An oval graphic positioned slightly below the circular graphic, with a soft outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.497,
+        0.398
+      ],
+      "area_percentage": 13.47
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "three small circles",
+      "description": "Three small circles arranged horizontally, each with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        208,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.325,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.422
+      ],
+      "area_percentage": 11.38
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "vertical rectangle",
+      "description": "A vertical rectangle graphic on the left side, featuring a smooth edge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "large rectangle",
+      "description": "A large rectangle graphic on the right side, extending vertically.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "small rectangle",
+      "description": "A small rectangle graphic at the bottom center, with a subtle outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        108,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.441,
+        0.58
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "PulsePlay UGC",
+      "description": "Bold, uppercase text reading 'PulsePlay UGC' at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "new season drops",
+      "description": "Text stating 'A new season drops' in a prominent, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "new hits every week",
+      "description": "Text stating 'New hits every week' in a smaller font below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Try for free",
+      "description": "A bold call-to-action button at the bottom center, inviting users to 'Try for free'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "decorative shape",
+      "description": "A decorative shape in the center, adding visual interest to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "small decorative element",
+      "description": "A small decorative element at the bottom, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "main headline",
+      "description": "The main headline text prominently displayed at the top of the ad.",
+      "text_content": "PulsePlay UGC",
+      "bbox_xyxy": [
+        22,
+        25,
+        319,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.039,
+        0.886,
+        0.198
+      ],
+      "center_normalized": [
+        0.474,
+        0.119
+      ],
+      "area_percentage": 13.15
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "secondary message",
+      "description": "A secondary message text at the bottom, providing additional context.",
+      "text_content": "new season drops New hits every week",
+      "bbox_xyxy": [
+        90,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.25,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.537,
+        0.714
+      ],
+      "area_percentage": 7.73
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A clear call-to-action text at the bottom, encouraging user engagement.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, PulsePlay UGC, new season drops.",
+    "layout_text": "The headline is at the top, main subjects are centered, and the CTA is at the bottom.",
+    "ocr_text": "PulsePlay UGC, new season drops, New hits every week, Try for free",
+    "elements_text": "main_subject: A large circular graphic in the center, featuring a smooth, rounded shape. | main_subject: An oval graphic positioned slightly below the circular graphic, with a soft outline. | main_subject: Three small circles arranged horizontally, each with a light outline. | main_subject: A vertical rectangle graphic on the left side, featuring a smooth edge. | main_subject: A large rectangle graphic on the right side, extending vertically. | main_subject: A small rectangle graphic at the bottom center, with a subtle outline. | headline: Bold, uppercase text reading 'PulsePlay UGC' at the top of the ad. | body_text: Text stating 'A new season drops' in a prominent, readable font. | body_text: Text stating 'New hits every week' in a smaller font below the main message. | cta: A bold call-to-action button at the bottom center, inviting users to 'Try for free'. | decorative_element: A decorative shape in the center, adding visual interest to the layout. | decorative_element: A small decorative element at the bottom, enhancing the overall design. | headline: The main headline text prominently displayed at the top of the ad. text='PulsePlay UGC' | body_text: A secondary message text at the bottom, providing additional context. text='new season drops New hits every week' | cta: A clear call-to-action text at the bottom, encouraging user engagement. text='Try for free'"
+  }
+}

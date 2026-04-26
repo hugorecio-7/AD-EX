@@ -1,0 +1,314 @@
+{
+  "creative_id": "500996",
+  "asset_file": "assets/creative_500996.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a warm orange background with bold text and a clear call to action.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting food delivery with a focus on nearby favorites.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "orange background",
+      "description": "A vibrant orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Hungry? We got you",
+      "description": "Bold white text that stands out prominently in the center, conveying a sense of urgency and appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "three food items",
+      "description": "An outline of three rectangular shapes representing food items, placed centrally with a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        124,
+        134,
+        245,
+        229
+      ],
+      "bbox_normalized": [
+        0.388,
+        0.28,
+        0.766,
+        0.479
+      ],
+      "center_normalized": [
+        0.577,
+        0.379
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "Smaller white text below the headline, providing additional context about the offerings.",
+      "text_content": null,
+      "bbox_xyxy": [
+        158,
+        23,
+        297,
+        62
+      ],
+      "bbox_normalized": [
+        0.495,
+        0.05,
+        0.93,
+        0.131
+      ],
+      "center_normalized": [
+        0.713,
+        0.09
+      ],
+      "area_percentage": 3.53
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A simple logo design featuring the text 'CraveLoop' in a modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "UGC badge",
+      "description": "A small circular badge labeled 'UGC' in white, indicating user-generated content, located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button at the bottom with rounded edges, featuring the text 'Claim reward' in bold white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge with the word 'SALE' in bold black text, positioned at the top right.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        34,
+        305,
+        290,
+        389
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.635,
+        0.906,
+        0.81
+      ],
+      "center_normalized": [
+        0.506,
+        0.723
+      ],
+      "area_percentage": 14.0
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "three lines",
+      "description": "Three thin lines arranged vertically, adding a decorative touch to the overall design.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        23,
+        28,
+        154,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.481,
+        0.117
+      ],
+      "center_normalized": [
+        0.277,
+        0.087
+      ],
+      "area_percentage": 2.39
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and inviting, headline and CTA prominently displayed",
+    "layout_text": "The headline is centered, the app screenshot is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, CraveLoop, Claim reward, SALE, UGC",
+    "elements_text": "headline: Bold white text that stands out prominently in the center, conveying a sense of urgency and appeal. | app_screenshot: An outline of three rectangular shapes representing food items, placed centrally with a minimalistic design. | body_text: Smaller white text below the headline, providing additional context about the offerings. | logo: A simple logo design featuring the text 'CraveLoop' in a modern font, positioned at the top left. | social_proof: A small circular badge labeled 'UGC' in white, indicating user-generated content, located at the top left. | cta: A prominent button at the bottom with rounded edges, featuring the text 'Claim reward' in bold white. | discount_badge: A small yellow badge with the word 'SALE' in bold black text, positioned at the top right. text='Hungry? We got you Fresh favorites nearby' | decorative_element: Three thin lines arranged vertically, adding a decorative touch to the overall design. text='CraveLoop' | unknown:  text='Claim reward' | unknown:  text='SALE' | unknown:  text='UGC'"
+  }
+}

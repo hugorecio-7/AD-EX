@@ -1,0 +1,290 @@
+{
+  "creative_id": "500844",
+  "asset_file": "assets/creative_500844.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent headline and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "The ad promotes earning cashback with a simple signup process.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.459
+      ],
+      "area_percentage": 46.97
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, white text headline that reads 'Earn cashback daily' is prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A smaller white text below the headline that states 'Fast signup, instant card' adds context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.16
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright button with the text 'Get offer' encourages user interaction, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Shape element",
+      "description": "An abstract shape, possibly a rectangle or oval, is displayed in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        75,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.508,
+        0.429
+      ],
+      "area_percentage": 9.99
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "Another abstract shape, similar to the previous one, is layered over the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.5
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller abstract shape that complements the other elements, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A decorative shape that enhances the overall design, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small abstract shape that adds to the visual complexity of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'SwiftStack' is displayed at the top left, featuring a simple and modern design.",
+      "text_content": "Earn cashback daily Fasteic ard Get offer",
+      "bbox_xyxy": [
+        48,
+        206,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.644,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.789
+      ],
+      "area_percentage": 20.53
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Additional logo element",
+      "description": "A small logo or icon that may represent the brand, positioned at the top.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, cashback offer, call to action",
+    "layout_text": "The headline is at the top, followed by supporting text, with the CTA button centrally positioned.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, Get offer, SwiftStack",
+    "elements_text": "headline: A bold, white text headline that reads 'Earn cashback daily' is prominently displayed at the top. | body_text: A smaller white text below the headline that states 'Fast signup, instant card' adds context. | cta: A bright button with the text 'Get offer' encourages user interaction, positioned centrally. | unknown: An abstract shape, possibly a rectangle or oval, is displayed in a lighter blue shade. | unknown: Another abstract shape, similar to the previous one, is layered over the background. | unknown: A smaller abstract shape that complements the other elements, adding visual interest. | unknown: A decorative shape that enhances the overall design, positioned centrally. | unknown: A small abstract shape that adds to the visual complexity of the ad. | logo: The logo 'SwiftStack' is displayed at the top left, featuring a simple and modern design. text='Earn cashback daily Fasteic ard Get offer' | unknown: A small logo or icon that may represent the brand, positioned at the top. text='SwiftStack'"
+  }
+}

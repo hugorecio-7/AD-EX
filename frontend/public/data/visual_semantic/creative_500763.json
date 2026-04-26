@@ -1,0 +1,242 @@
+{
+  "creative_id": "500763",
+  "asset_file": "assets/creative_500763.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout with a clear focus on a flash sale and brand promotion.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a flash sale with free shipping.",
+    "dominant_colors": [
+      "pink",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Flash sale announcement",
+      "description": "A prominent text element in the center, announcing a flash sale with a bold font.",
+      "text_content": "Flash sale live Free shipping over $25",
+      "bbox_xyxy": [
+        57,
+        407,
+        305,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.636,
+        0.847,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.682
+      ],
+      "area_percentage": 6.35
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "ZenDrop logo",
+      "description": "A logo positioned at the top, featuring the brand name 'ZenDrop' in a clear, recognizable font.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        20,
+        29,
+        198,
+        82
+      ],
+      "bbox_normalized": [
+        0.056,
+        0.045,
+        0.55,
+        0.128
+      ],
+      "center_normalized": [
+        0.303,
+        0.087
+      ],
+      "area_percentage": 4.09
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A call-to-action button at the bottom, inviting users to claim a reward with a bold and inviting design.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A small text element at the top right, simply stating 'SALE' in a bright, eye-catching font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, flash sale, ZenDrop logo, claim reward button",
+    "layout_text": "The logo is at the top, the main body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live, Free shipping over $25, ZenDrop, Claim reward, SALE",
+    "elements_text": "unknown: A small, centered element with an undefined visual appearance. | unknown: Another small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | unknown: A small, centered element with an undefined visual appearance. | body_text: A prominent text element in the center, announcing a flash sale with a bold font. text='Flash sale live Free shipping over $25' | logo: A logo positioned at the top, featuring the brand name 'ZenDrop' in a clear, recognizable font. text='ZenDrop' | cta: A call-to-action button at the bottom, inviting users to claim a reward with a bold and inviting design. text='Claim reward' | headline: A small text element at the top right, simply stating 'SALE' in a bright, eye-catching font. text='SALE'"
+  }
+}

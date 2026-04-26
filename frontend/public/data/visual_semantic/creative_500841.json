@@ -1,0 +1,170 @@
+{
+  "creative_id": "500841",
+  "asset_file": "assets/creative_500841.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold blue background with prominent text and a call to action.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting financial clarity with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A smooth, solid blue background fills the entire canvas, providing a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        471
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.736
+      ],
+      "center_normalized": [
+        0.5,
+        0.469
+      ],
+      "area_percentage": 48.31
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "An abstract arrangement of a circle and a square, lightly outlined, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "An unspecified visual element that occupies a central position, details not discernible.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Your money, clearer No hidden fees' is prominently displayed in the center.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        69,
+        407,
+        288,
+        497
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.636,
+        0.8,
+        0.777
+      ],
+      "center_normalized": [
+        0.496,
+        0.706
+      ],
+      "area_percentage": 8.55
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'SwiftStack' appears at the top of the ad in a clear, bold font.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        35,
+        239,
+        79
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.055,
+        0.664,
+        0.123
+      ],
+      "center_normalized": [
+        0.365,
+        0.089
+      ],
+      "area_percentage": 4.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Start now' in a contrasting color, inviting interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, financial clarity, call to action",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, SwiftStack, Start now",
+    "elements_text": "decorative_element: An abstract arrangement of a circle and a square, lightly outlined, positioned in the center of the ad. | unknown: An unspecified visual element that occupies a central position, details not discernible. | headline: Bold, white text stating 'Your money, clearer No hidden fees' is prominently displayed in the center. text='Your money, clearer No hidden fees' | logo: The logo 'SwiftStack' appears at the top of the ad in a clear, bold font. text='SwiftStack' | cta: A rounded button at the bottom with the text 'Start now' in a contrasting color, inviting interaction. text='Start now'"
+  }
+}

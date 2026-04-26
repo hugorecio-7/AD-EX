@@ -1,0 +1,242 @@
+{
+  "creative_id": "500824",
+  "asset_file": "assets/creative_500824.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with key text and elements centrally positioned.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a streaming service with a free trial and a reward offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the entire canvas, providing a vibrant and warm base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two overlapping circular shapes in a lighter shade of orange, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A large square shape in the center, slightly darker than the background, creating a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Stream the hype",
+      "description": "Bold, white text that reads 'Stream the hype' positioned centrally within the square shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Start free today",
+      "description": "Smaller white text below 'Stream the hype' that says 'Start free today', providing a call to action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward",
+      "description": "A prominent white button with the text 'Claim reward' at the bottom of the ad, inviting user interaction.",
+      "text_content": "Stream the hype Start free today",
+      "bbox_xyxy": [
+        35,
+        407,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.636,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.682
+      ],
+      "area_percentage": 7.45
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A bold, white price tag reading '€9.99' positioned just above the CTA button, indicating the cost.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.376,
+        0.87
+      ],
+      "area_percentage": 4.74
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo 'BingeLayer' in large, bold text at the top of the ad, establishing brand identity.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        24,
+        34,
+        250,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.694,
+        0.128
+      ],
+      "center_normalized": [
+        0.381,
+        0.091
+      ],
+      "area_percentage": 4.71
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' in the top left corner, suggesting user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include a logo, price, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "Stream the hype, Start free today, €9.99, Claim reward, BingeLayer, UGC",
+    "elements_text": "decorative_element: Two overlapping circular shapes in a lighter shade of orange, adding visual interest to the background. | decorative_element: A large square shape in the center, slightly darker than the background, creating a focal point. | body_text: Bold, white text that reads 'Stream the hype' positioned centrally within the square shape. | body_text: Smaller white text below 'Stream the hype' that says 'Start free today', providing a call to action. | cta: A prominent white button with the text 'Claim reward' at the bottom of the ad, inviting user interaction. text='Stream the hype Start free today' | price: A bold, white price tag reading '€9.99' positioned just above the CTA button, indicating the cost. text='€9.99 Claim reward' | logo: The logo 'BingeLayer' in large, bold text at the top of the ad, establishing brand identity. text='BingeLayer' | social_proof: A small label reading 'UGC' in the top left corner, suggesting user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "501030",
+  "asset_file": "assets/creative_501030.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with bold text promoting a sale.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend escape deal at a special price.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background that fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.502
+      ],
+      "center_normalized": [
+        0.468,
+        0.377
+      ],
+      "area_percentage": 14.91
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "WayPoint SALE",
+      "description": "Bold, large text at the top of the ad, prominently displaying the words 'WayPoint SALE' in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "Medium-sized text in the center of the ad that reads 'Escape this weekend', conveying a sense of urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.282,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.531,
+        0.429
+      ],
+      "area_percentage": 9.1
+    },
+    {
+      "id": 4,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying the price '€29.99' in a larger font, emphasizing the cost of the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.339,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.94
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A button-like text at the bottom that says 'Watch now', encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon located at the bottom left, adding visual interest without being a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        24,
+        268,
+        47,
+        283
+      ],
+      "bbox_normalized": [
+        0.077,
+        0.84,
+        0.149,
+        0.885
+      ],
+      "center_normalized": [
+        0.113,
+        0.862
+      ],
+      "area_percentage": 0.32
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "Another small decorative icon at the bottom center, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.263,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon at the bottom right, enhancing the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        269,
+        62,
+        283
+      ],
+      "bbox_normalized": [
+        0.162,
+        0.841,
+        0.196,
+        0.885
+      ],
+      "center_normalized": [
+        0.179,
+        0.863
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A tiny decorative icon positioned near the bottom left, contributing to the ad's design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        268,
+        49,
+        283
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.84,
+        0.154,
+        0.885
+      ],
+      "center_normalized": [
+        0.138,
+        0.862
+      ],
+      "area_percentage": 0.14
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Small icon",
+      "description": "A small decorative icon at the bottom center, adding to the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        85,
+        269,
+        96,
+        278
+      ],
+      "bbox_normalized": [
+        0.269,
+        0.841,
+        0.303,
+        0.871
+      ],
+      "center_normalized": [
+        0.286,
+        0.856
+      ],
+      "area_percentage": 0.1
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Text below the main offer that reads 'special fares today', providing additional context.",
+      "text_content": "Escape this_ weekend €29.9966 Watch now",
+      "bbox_xyxy": [
+        22,
+        204,
+        251,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.784,
+        0.934
+      ],
+      "center_normalized": [
+        0.427,
+        0.786
+      ],
+      "area_percentage": 21.25
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "WayPoint SALE",
+      "description": "Bold, large text at the top of the ad, prominently displaying the words 'WayPoint SALE' in a contrasting color.",
+      "text_content": "WayPoint SALE",
+      "bbox_xyxy": [
+        8,
+        18,
+        287,
+        74
+      ],
+      "bbox_normalized": [
+        0.025,
+        0.056,
+        0.897,
+        0.231
+      ],
+      "center_normalized": [
+        0.461,
+        0.144
+      ],
+      "area_percentage": 15.26
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, WayPoint SALE, Escape this weekend, €29.99, Watch now",
+    "layout_text": "The headline is at the top, the body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "WayPoint SALE, Escape this weekend, €29.99, Watch now",
+    "elements_text": "headline: Bold, large text at the top of the ad, prominently displaying the words 'WayPoint SALE' in a contrasting color. | body_text: Medium-sized text in the center of the ad that reads 'Escape this weekend', conveying a sense of urgency. | price: Text displaying the price '€29.99' in a larger font, emphasizing the cost of the offer. | cta: A button-like text at the bottom that says 'Watch now', encouraging immediate action. | decorative_element: A small decorative icon located at the bottom left, adding visual interest without being a focal point. | decorative_element: Another small decorative icon at the bottom center, complementing the overall design. | decorative_element: A small decorative icon at the bottom right, enhancing the visual appeal of the ad. | decorative_element: A tiny decorative icon positioned near the bottom left, contributing to the ad's design. | decorative_element: A small decorative icon at the bottom center, adding to the overall aesthetic. | body_text: Text below the main offer that reads 'special fares today', providing additional context. text='Escape this_ weekend €29.9966 Watch now' | headline: Bold, large text at the top of the ad, prominently displaying the words 'WayPoint SALE' in a contrasting color. text='WayPoint SALE'"
+  }
+}

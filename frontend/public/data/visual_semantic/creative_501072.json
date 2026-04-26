@@ -1,0 +1,218 @@
+{
+  "creative_id": "501072",
+  "asset_file": "assets/creative_501072.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a central focus on a dinner offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Quick and affordable dinner options available.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A vibrant green background fills the canvas, providing a lively and fresh atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        64,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "PlateSprint logo",
+      "description": "The logo features the text 'PlateSprint' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Dinner offer",
+      "description": "A visually appealing representation of a dinner plate with a fork and knife, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        195
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.611
+      ],
+      "center_normalized": [
+        0.24,
+        0.445
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "The phrase 'Dinner in minutes' is displayed prominently in a large, clear font, conveying the main offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€9.99' is highlighted in a bold font, emphasizing the affordability of the meal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.221,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A bright button with the text 'Shop now' invites users to take action, located at the bottom of the ad.",
+      "text_content": "Dinner in minutes €9.99re Shop now",
+      "bbox_xyxy": [
+        22,
+        206,
+        232,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.725,
+        0.934
+      ],
+      "center_normalized": [
+        0.397,
+        0.789
+      ],
+      "area_percentage": 19.07
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "The logo 'PlateSprint' appears at the top, designed in a modern style to attract attention.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        20,
+        112,
+        38
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.35,
+        0.119
+      ],
+      "center_normalized": [
+        0.214,
+        0.091
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the word 'SALE' in bold letters, positioned at the top right corner to indicate a promotion.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, dinner offer, PlateSprint, SALE",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, €9.99, Shop now, PlateSprint, SALE",
+    "elements_text": "headline: The logo features the text 'PlateSprint' in a bold, modern font, positioned at the top of the ad. | main_subject: A visually appealing representation of a dinner plate with a fork and knife, centered in the ad. | body_text: The phrase 'Dinner in minutes' is displayed prominently in a large, clear font, conveying the main offer. | price: The price '€9.99' is highlighted in a bold font, emphasizing the affordability of the meal. | cta: A bright button with the text 'Shop now' invites users to take action, located at the bottom of the ad. text='Dinner in minutes €9.99re Shop now' | logo: The logo 'PlateSprint' appears at the top, designed in a modern style to attract attention. text='PlateSprint' | discount_badge: A small badge with the word 'SALE' in bold letters, positioned at the top right corner to indicate a promotion. text='SALE'"
+  }
+}

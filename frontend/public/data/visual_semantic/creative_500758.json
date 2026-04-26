@@ -1,0 +1,338 @@
+{
+  "creative_id": "500758",
+  "asset_file": "assets/creative_500758.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright green background with bold text and decorative elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to win rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "StormByte BONUS",
+      "description": "A bold, uppercase text in a bright color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A simple graphic element with circular shapes, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another graphic element with circular shapes, similar to the previous one, also centered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A graphic element with circular shapes, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now",
+      "description": "A clear, bold button at the bottom of the ad, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic element at the top, featuring a circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic element at the top, featuring a circular shape, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic element in the center, featuring a circular shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic element in the center, featuring a circular shape, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Win epic rewards",
+      "description": "A large, bold text in the center of the ad, conveying the main offer.",
+      "text_content": "Win epic rewards Free rewards for new players",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "StormByte BONUS",
+      "description": "A bold, uppercase text in a bright color, prominently displayed at the top of the ad.",
+      "text_content": "StormByte BONUS",
+      "bbox_xyxy": [
+        23,
+        35,
+        331,
+        80
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.919,
+        0.125
+      ],
+      "center_normalized": [
+        0.492,
+        0.09
+      ],
+      "area_percentage": 6.02
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Shop now",
+      "description": "A clear, bold button at the bottom of the ad, inviting users to take action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, StormByte BONUS, Win epic rewards.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Win epic rewards, Free rewards for new players, StormByte BONUS, Shop now",
+    "elements_text": "headline: A bold, uppercase text in a bright color, prominently displayed at the top of the ad. | unknown: A simple graphic element with circular shapes, positioned in the center of the ad. | unknown: Another graphic element with circular shapes, similar to the previous one, also centered. | unknown: A graphic element with circular shapes, located at the top of the ad. | cta: A clear, bold button at the bottom of the ad, inviting users to take action. | unknown: A small graphic element at the top, featuring a circular shape. | unknown: A small graphic element at the top, featuring a circular shape, similar to the previous one. | unknown: A small graphic element in the center, featuring a circular shape. | unknown: A small graphic element in the center, featuring a circular shape, similar to the previous one. | body_text: A large, bold text in the center of the ad, conveying the main offer. text='Win epic rewards Free rewards for new players' | headline: A bold, uppercase text in a bright color, prominently displayed at the top of the ad. text='StormByte BONUS' | cta: A clear, bold button at the bottom of the ad, inviting users to take action. text='Shop now'"
+  }
+}

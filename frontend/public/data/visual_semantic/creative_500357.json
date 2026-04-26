@@ -1,0 +1,266 @@
+{
+  "creative_id": "500357",
+  "asset_file": "assets/creative_500357.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design with abstract shapes and prominent text elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting trending content with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A collection of abstract shapes including an oval and a square, rendered in a soft orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        273,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.76,
+        0.481
+      ],
+      "center_normalized": [
+        0.465,
+        0.361
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Circular elements",
+      "description": "Two small circles positioned within the abstract shapes, blending into the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.243,
+        0.495,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.15
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Main content area",
+      "description": "A central area featuring a large square shape, surrounded by abstract elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom decorative element",
+      "description": "A small rectangular shape at the bottom, subtly integrated into the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A tiny circle located towards the bottom left, adding to the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "Bold white text stating 'Watch what's trending Cancel anytime' prominently displayed in the center.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo 'NeonCast' in a bold font, positioned at the top of the ad against a contrasting background.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        29,
+        39,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.061,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.342,
+        0.091
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A small button with the text 'Learn more' in white, located at the bottom of the ad.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label marked 'UGC' in a circular format, positioned at the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, trending content, call to action",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Watch what's trending, Cancel anytime, NeonCast, Learn more, UGC",
+    "elements_text": "unknown: A collection of abstract shapes including an oval and a square, rendered in a soft orange background. | unknown: Two small circles positioned within the abstract shapes, blending into the overall design. | unknown: A central area featuring a large square shape, surrounded by abstract elements. | unknown: A small rectangular shape at the bottom, subtly integrated into the design. | unknown: A tiny circle located towards the bottom left, adding to the abstract theme. | body_text: Bold white text stating 'Watch what's trending Cancel anytime' prominently displayed in the center. text='Watch what's trending Cancel anytime' | logo: The logo 'NeonCast' in a bold font, positioned at the top of the ad against a contrasting background. text='NeonCast' | cta: A small button with the text 'Learn more' in white, located at the bottom of the ad. text='Learn more' | unknown: A small label marked 'UGC' in a circular format, positioned at the top left corner. text='UGC'"
+  }
+}

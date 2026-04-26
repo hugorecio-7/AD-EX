@@ -1,0 +1,195 @@
+{
+  "creative_id": "500855",
+  "asset_file": "assets/creative_500855.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with food imagery and promotional text.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Promoting a food delivery service with a sale.",
+    "dominant_colors": [
+      "dark gray",
+      "white",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        163,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.455,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.727,
+        0.5
+      ],
+      "area_percentage": 54.46
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "food images",
+      "description": "Two stylized food images represented as gray rectangles with a slight shadow, suggesting a selection of dishes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        459
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.718
+      ],
+      "center_normalized": [
+        0.501,
+        0.459
+      ],
+      "area_percentage": 46.55
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "PlateSprint SALE",
+      "description": "Bold, large white text at the top, indicating a sale, with a yellow badge highlighting the word 'SALE'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.458
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Hungry? We got you",
+      "description": "Prominent white text in a friendly font, positioned centrally, inviting viewers to explore food options.",
+      "text_content": null,
+      "bbox_xyxy": [
+        134,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.373,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.02
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "Smaller white text below the main body text, providing additional context about the food offerings.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        42,
+        408,
+        323,
+        500
+      ],
+      "bbox_normalized": [
+        0.117,
+        0.637,
+        0.897,
+        0.781
+      ],
+      "center_normalized": [
+        0.507,
+        0.709
+      ],
+      "area_percentage": 11.22
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now",
+      "description": "A bright yellow button with bold white text, positioned at the bottom, encouraging immediate action.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        21,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.475,
+        0.088
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalistic with bold text, food images, promotional text",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, PlateSprint SALE, Watch now",
+    "elements_text": "main_subject: Two stylized food images represented as gray rectangles with a slight shadow, suggesting a selection of dishes. | headline: Bold, large white text at the top, indicating a sale, with a yellow badge highlighting the word 'SALE'. | body_text: Prominent white text in a friendly font, positioned centrally, inviting viewers to explore food options. | body_text: Smaller white text below the main body text, providing additional context about the food offerings. text='Hungry? We got you Fresh favorites nearby' | cta: A bright yellow button with bold white text, positioned at the bottom, encouraging immediate action. text='PlateSprint SALE' | unknown:  text='Watch now'"
+  }
+}

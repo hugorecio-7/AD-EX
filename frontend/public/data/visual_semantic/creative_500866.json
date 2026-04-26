@@ -1,0 +1,410 @@
+{
+  "creative_id": "500866",
+  "asset_file": "assets/creative_500866.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent logo and call-to-action with a focus on unlocking game features.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear with no ads for the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A stylized logo featuring the text 'PixelForge' in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Unlock rare gear text",
+      "description": "Text that reads 'Unlock rare gear' in a bold, eye-catching font, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "No ads in first week",
+      "description": "Smaller text below the main message that states 'No ads in first week', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in a simple font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button at the bottom center of the ad with the text 'Get offer' in a bold font, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A rectangular area in the center of the ad, possibly containing gameplay or product visuals.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "A small circular element in the center, possibly representing a game feature or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "Another small circular element in the center, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small center element",
+      "description": "A larger circular element in the center, possibly representing a game feature or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small circular element at the top, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A larger circular element at the top, possibly decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center of the ad, likely showcasing the main features or gameplay.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'PixelForge' prominently displayed at the top of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A button at the bottom of the ad with the text 'Get offer', designed to attract user clicks.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 15,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC', possibly indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        115,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.18,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.189
+      ],
+      "area_percentage": 0.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, PixelForge logo, unlock rare gear message, call-to-action.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA button is at the bottom center.",
+    "ocr_text": "Unlock rare gear, No ads in first week, PixelForge, Get offer, UGC",
+    "elements_text": "logo: A stylized logo featuring the text 'PixelForge' in a modern font, positioned at the top left corner. | body_text: Text that reads 'Unlock rare gear' in a bold, eye-catching font, located in the center of the ad. | body_text: Smaller text below the main message that states 'No ads in first week', providing additional information. | decorative_element: A small label with the text 'UGC' in a simple font, positioned at the top left corner. | cta: A prominent button at the bottom center of the ad with the text 'Get offer' in a bold font, inviting user interaction. | unknown: A rectangular area in the center of the ad, possibly containing gameplay or product visuals. | unknown: A small circular element in the center, possibly representing a game feature or icon. | unknown: Another small circular element in the center, similar to the previous one. | unknown: A larger circular element in the center, possibly representing a game feature or icon. | unknown: A small circular element at the top, possibly decorative or functional. | unknown: A larger circular element at the top, possibly decorative or functional. | main_subject: A large rectangular area in the center of the ad, likely showcasing the main features or gameplay. text='Unlock rare gear No ads in first week' | headline: The main headline text 'PixelForge' prominently displayed at the top of the ad. text='PixelForge' | cta: A button at the bottom of the ad with the text 'Get offer', designed to attract user clicks. text='Get offer' | decorative_element: A small label with the text 'UGC', possibly indicating user-generated content. text='UGC'"
+  }
+}

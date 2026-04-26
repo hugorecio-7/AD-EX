@@ -1,0 +1,314 @@
+{
+  "creative_id": "500355",
+  "asset_file": "assets/creative_500355.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with abstract shapes and prominent text.",
+    "visual_style": "modern and playful",
+    "main_message": "Promoting a new season of products with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "peach"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "orange abstract background",
+      "description": "A vibrant orange background with abstract shapes and a smooth gradient.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.143,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.502,
+        0.299
+      ],
+      "area_percentage": 31.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "large circular shape",
+      "description": "A large, soft-edged circular shape in a lighter shade of orange, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "medium oval shape",
+      "description": "A medium-sized oval shape in a peach tone, overlapping with other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        208,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.325,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.422
+      ],
+      "area_percentage": 11.38
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "rectangular shape",
+      "description": "A tall rectangular shape in a muted peach color, positioned slightly off-center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "smaller oval shape",
+      "description": "A smaller oval shape in a light peach color, located towards the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circle in a light peach color, positioned near the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "tiny circle",
+      "description": "A tiny circle in a light peach color, located towards the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "small rectangle",
+      "description": "A small rectangle in a light peach color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "tiny circle",
+      "description": "A tiny circle in a light peach color, located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "NeonCast UGC",
+      "description": "Bold, dark text reading 'NeonCast UGC' at the top of the ad, with a modern font.",
+      "text_content": "NeonCast UGC",
+      "bbox_xyxy": [
+        28,
+        42,
+        317,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.881,
+        0.198
+      ],
+      "center_normalized": [
+        0.479,
+        0.132
+      ],
+      "area_percentage": 10.66
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "new season drops",
+      "description": "Prominent white text stating 'A new season drops Start free today' in a clean font.",
+      "text_content": "new season drops Start free today",
+      "bbox_xyxy": [
+        98,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.549,
+        0.714
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in white, set against a darker background.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and playful, NeonCast UGC, new season drops, Shop now",
+    "layout_text": "The headline is at the top, the main subject shapes are centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonCast UGC, A new season drops Start free today, Shop now",
+    "elements_text": "main_subject: A large, soft-edged circular shape in a lighter shade of orange, positioned centrally. | main_subject: A medium-sized oval shape in a peach tone, overlapping with other elements. | main_subject: A tall rectangular shape in a muted peach color, positioned slightly off-center. | main_subject: A smaller oval shape in a light peach color, located towards the center. | decorative_element: A small circle in a light peach color, positioned near the top of the ad. | decorative_element: A tiny circle in a light peach color, located towards the bottom center. | decorative_element: A small rectangle in a light peach color, positioned centrally. | decorative_element: A tiny circle in a light peach color, located towards the bottom of the ad. | headline: Bold, dark text reading 'NeonCast UGC' at the top of the ad, with a modern font. text='NeonCast UGC' | body_text: Prominent white text stating 'A new season drops Start free today' in a clean font. text='new season drops Start free today' | cta: A rounded button with the text 'Shop now' in white, set against a darker background. text='Shop now'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500944",
+  "asset_file": "assets/creative_500944.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold announcement of a flash sale with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a flash sale with free shipping.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.581
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "A bold text element in the center stating 'Flash sale live Free shipping over $25' with a vibrant background.",
+      "text_content": "Flash sale live Free shipping over $25",
+      "bbox_xyxy": [
+        57,
+        409,
+        305,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.639,
+        0.847,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 6.14
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button at the bottom with the text '€9.99 Install now' in a contrasting color.",
+      "text_content": "€9.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A logo positioned at the top left with the text 'BoltCart' in a clear, readable font.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        26,
+        39,
+        193,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.536,
+        0.123
+      ],
+      "center_normalized": [
+        0.304,
+        0.092
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE' in a bold font.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left with the text 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, Flash sale live, Install now",
+    "layout_text": "The headline is centrally positioned, the logo is at the top left, the discount badge is at the top right, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Free shipping over $25, €9.99 Install now, BoltCart, SALE, UGC",
+    "elements_text": "unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | unknown: A small central element with an undefined visual appearance. | unknown: A small central element with an undefined visual appearance. | unknown: A small central element with an undefined visual appearance. | headline: A bold text element in the center stating 'Flash sale live Free shipping over $25' with a vibrant background. text='Flash sale live Free shipping over $25' | cta: A prominent button at the bottom with the text '€9.99 Install now' in a contrasting color. text='€9.99 Install now' | logo: A logo positioned at the top left with the text 'BoltCart' in a clear, readable font. text='BoltCart' | discount_badge: A small badge at the top right corner with the text 'SALE' in a bold font. text='SALE' | social_proof: A small tag at the top left with the text 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

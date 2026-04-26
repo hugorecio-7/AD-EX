@@ -1,0 +1,410 @@
+{
+  "creative_id": "501054",
+  "asset_file": "assets/creative_501054.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a promotional offer for CrispBox with a clear discount message and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time discount on CrispBox products.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A prominent logo featuring the word 'CrispBox' in bold, modern typography against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.589,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Discount headline",
+      "description": "A large, eye-catching text that reads 'Up to 40% off' in a bold font, designed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.546,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Weekend offer text",
+      "description": "A smaller text below the headline stating 'Only this weekend' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.284,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A visually distinct badge indicating a discount, featuring a percentage symbol and vibrant colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        190,
+        90,
+        243,
+        144
+      ],
+      "bbox_normalized": [
+        0.594,
+        0.283,
+        0.761,
+        0.452
+      ],
+      "center_normalized": [
+        0.677,
+        0.368
+      ],
+      "area_percentage": 2.82
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A clear price tag displaying '$4.99' in a bold font, emphasizing the affordability of the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        91,
+        103,
+        144
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.287,
+        0.323,
+        0.452
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 2.76
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button with the text 'Claim reward' designed to encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Subtle geometric shapes in the background that add depth without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        98,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.307,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        214
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.67
+      ],
+      "center_normalized": [
+        0.351,
+        0.611
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.649
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.482,
+        0.532,
+        0.577,
+        0.627
+      ],
+      "center_normalized": [
+        0.53,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        276,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.863,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.897,
+        0.09
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 15,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A solid color background that provides a clean and modern look to the advertisement.",
+      "text_content": "Up to 40% off Only this weekend $4.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        203,
+        269,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.841,
+        0.934
+      ],
+      "center_normalized": [
+        0.455,
+        0.784
+      ],
+      "area_percentage": 23.16
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not clearly fit into the defined roles.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        5,
+        19,
+        277,
+        83
+      ],
+      "bbox_normalized": [
+        0.016,
+        0.059,
+        0.866,
+        0.259
+      ],
+      "center_normalized": [
+        0.441,
+        0.159
+      ],
+      "area_percentage": 17.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, CrispBox, discount offer, call to action",
+    "layout_text": "The logo is at the top, followed by the headline, body text, price, and CTA at the bottom.",
+    "ocr_text": "CrispBox, Up to 40% off, Only this weekend, $4.99, Claim reward",
+    "elements_text": "logo: A prominent logo featuring the word 'CrispBox' in bold, modern typography against a light background. | headline: A large, eye-catching text that reads 'Up to 40% off' in a bold font, designed to attract attention. | body_text: A smaller text below the headline stating 'Only this weekend' in a clear, readable font. | discount_badge: A visually distinct badge indicating a discount, featuring a percentage symbol and vibrant colors. | price: A clear price tag displaying '$4.99' in a bold font, emphasizing the affordability of the offer. | cta: A prominent button with the text 'Claim reward' designed to encourage user interaction. | decorative_element: Subtle geometric shapes in the background that add depth without distracting from the main message. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. | unknown: An unspecified element that does not clearly fit into the defined roles. text='CrispBox'"
+  }
+}

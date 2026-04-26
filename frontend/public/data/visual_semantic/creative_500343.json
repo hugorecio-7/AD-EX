@@ -1,0 +1,194 @@
+{
+  "creative_id": "500343",
+  "asset_file": "assets/creative_500343.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel booking.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to book their next trip with flexible options.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears abstract and may represent a travel-related theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        111,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.311,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.545,
+        0.43
+      ],
+      "area_percentage": 8.42
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element positioned centrally, possibly complementing the main theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.431
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element located at the top, likely enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.291
+      ],
+      "center_normalized": [
+        0.068,
+        0.236
+      ],
+      "area_percentage": 1.48
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold, prominent text at the bottom stating 'Book your next trip' with a subtitle for flexible booking options.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        502
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.711
+      ],
+      "area_percentage": 10.77
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "RouteBloon logo",
+      "description": "The logo of RouteBloon displayed at the top, featuring a modern font style.",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        26,
+        37,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.99
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Get offer', designed to attract user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold text, travel booking offer",
+    "layout_text": "The logo is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Flexible booking options, RouteBloon, Get offer",
+    "elements_text": "unknown: A central graphic element that appears abstract and may represent a travel-related theme. | unknown: A secondary graphic element positioned centrally, possibly complementing the main theme. | unknown: A small decorative element located at the top, likely enhancing the visual appeal. | body_text: Bold, prominent text at the bottom stating 'Book your next trip' with a subtitle for flexible booking options. text='Book your next trip Flexible booking options' | logo: The logo of RouteBloon displayed at the top, featuring a modern font style. text='RouteBloon' | cta: A rounded button at the bottom with the text 'Get offer', designed to attract user interaction. text='Get offer'"
+  }
+}

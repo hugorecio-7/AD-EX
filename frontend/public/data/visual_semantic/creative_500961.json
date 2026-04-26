@@ -1,0 +1,314 @@
+{
+  "creative_id": "500961",
+  "asset_file": "assets/creative_500961.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a warm orange background with a clear focus on food delivery offers.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting quick meal delivery with a discount.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background fills the canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        64,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.83
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, white text stating 'Dinner in minutes' is prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "30% off text",
+      "description": "Smaller white text indicating '30% off' is positioned above the headline, emphasizing the discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        40,
+        15,
+        297,
+        43
+      ],
+      "bbox_normalized": [
+        0.126,
+        0.05,
+        0.931,
+        0.135
+      ],
+      "center_normalized": [
+        0.528,
+        0.092
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Free delivery text",
+      "description": "A line of white text stating 'Free delivery over $15' is placed above the headline, adding value to the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        110,
+        15,
+        297,
+        42
+      ],
+      "bbox_normalized": [
+        0.346,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.638,
+        0.091
+      ],
+      "area_percentage": 4.8
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Food icons",
+      "description": "Two simple line-drawn food icons are centered below the headline, representing the meal options available.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent white button with black text saying 'Claim reward' is located at the bottom of the ad, inviting action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' appears in a bold font at the top left corner, establishing brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label marked 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow badge with the word 'SALE' is placed at the top right corner, drawing attention to the promotion.",
+      "text_content": "Dinner in minutes 30%Fre Claim reward",
+      "bbox_xyxy": [
+        30,
+        204,
+        232,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.637,
+        0.725,
+        0.934
+      ],
+      "center_normalized": [
+        0.409,
+        0.786
+      ],
+      "area_percentage": 18.74
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element with minimal visual detail, possibly decorative or functional.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unidentified element that does not contribute significantly to the overall message.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element that may serve a decorative purpose.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and inviting, key elements include food icons and discount offers.",
+    "layout_text": "The headline is centered, with the logo at the top left, and the CTA at the bottom.",
+    "ocr_text": "Dinner in minutes, 30% off, Free delivery over $15, Claim reward, FreshDash, SALE, UGC",
+    "elements_text": "headline: Bold, white text stating 'Dinner in minutes' is prominently displayed in the center of the ad. | body_text: Smaller white text indicating '30% off' is positioned above the headline, emphasizing the discount. | body_text: A line of white text stating 'Free delivery over $15' is placed above the headline, adding value to the offer. | product: Two simple line-drawn food icons are centered below the headline, representing the meal options available. | cta: A prominent white button with black text saying 'Claim reward' is located at the bottom of the ad, inviting action. | logo: The logo 'FreshDash' appears in a bold font at the top left corner, establishing brand identity. | social_proof: A small label marked 'UGC' is positioned at the top left, indicating user-generated content. | discount_badge: A bright yellow badge with the word 'SALE' is placed at the top right corner, drawing attention to the promotion. text='Dinner in minutes 30%Fre Claim reward' | unknown: An unidentified element with minimal visual detail, possibly decorative or functional. text='FreshDash' | unknown: Another unidentified element that does not contribute significantly to the overall message. text='SALE' | unknown: A small, unclear element that may serve a decorative purpose. text='UGC'"
+  }
+}

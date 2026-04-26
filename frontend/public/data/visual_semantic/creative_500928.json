@@ -1,0 +1,266 @@
+{
+  "creative_id": "500928",
+  "asset_file": "assets/creative_500928.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent headline and a call-to-action at the bottom, with additional text elements.",
+    "visual_style": "bright and playful",
+    "main_message": "The ad promotes late-night food deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "playful"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with a light background and possibly abstract shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.361,
+        0.399
+      ],
+      "area_percentage": 6.65
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, centered element that appears to be a graphic or icon with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that may feature a graphic or icon, set against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.284,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.07
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that looks like a graphic or icon with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that appears to be a graphic or icon, set against a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element that may feature a graphic or icon, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "BiteRush",
+      "description": "A bold, prominent text element at the top of the ad, likely in a large font size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.903,
+        0.09
+      ],
+      "area_percentage": 0.45
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Hungry? We got you",
+      "description": "A larger text element at the bottom of the ad, conveying a message in a friendly font.",
+      "text_content": "Hungry? We got you Late JE Hable Learn more",
+      "bbox_xyxy": [
+        37,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.116,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.509,
+        0.787
+      ],
+      "area_percentage": 23.13
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "A call-to-action button at the bottom of the ad, designed to stand out with a clear, inviting font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        8,
+        24,
+        277,
+        79
+      ],
+      "bbox_normalized": [
+        0.025,
+        0.075,
+        0.866,
+        0.247
+      ],
+      "center_normalized": [
+        0.445,
+        0.161
+      ],
+      "area_percentage": 14.45
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, BiteRush, Hungry? We got you, Learn more",
+    "layout_text": "The headline is positioned at the top, with body text and CTA at the bottom.",
+    "ocr_text": "BiteRush, Hungry? We got you, Learn more",
+    "elements_text": "unknown: A small, centered element with a light background and possibly abstract shapes. | unknown: Another small, centered element that appears to be a graphic or icon with a light background. | unknown: A small, centered element that may feature a graphic or icon, set against a light background. | unknown: A small, centered element that looks like a graphic or icon with a light background. | unknown: A small, centered element that appears to be a graphic or icon, set against a light background. | unknown: A small, centered element that may feature a graphic or icon, with a light background. | headline: A bold, prominent text element at the top of the ad, likely in a large font size. | body_text: A larger text element at the bottom of the ad, conveying a message in a friendly font. text='Hungry? We got you Late JE Hable Learn more' | cta: A call-to-action button at the bottom of the ad, designed to stand out with a clear, inviting font. text='BiteRush'"
+  }
+}

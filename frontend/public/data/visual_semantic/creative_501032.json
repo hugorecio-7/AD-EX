@@ -1,0 +1,194 @@
+{
+  "creative_id": "501032",
+  "asset_file": "assets/creative_501032.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a promotional offer for a food delivery service with a clear call to action.",
+    "visual_style": "bright and bold",
+    "main_message": "Get a 2-for-1 deal with free delivery.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an area of 3.1%, visually indistinct.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an area of 3.1%, visually indistinct.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A central element with an area of 3.1%, visually indistinct.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Promotional Offer",
+      "description": "A prominent text element in the center, displaying a promotional message in a bold font.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "QuickFork Logo",
+      "description": "A top-positioned logo with the text 'QuickFork' in a clear, modern font.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        23,
+        35,
+        227,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.631,
+        0.123
+      ],
+      "center_normalized": [
+        0.347,
+        0.089
+      ],
+      "area_percentage": 3.9
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A button at the bottom with the text 'Try for free', designed to attract user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and bold, promotional offer, call to action",
+    "layout_text": "The logo is positioned at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight, Free delivery over $15, QuickFork, Try for free",
+    "elements_text": "unknown: A central element with an area of 3.1%, visually indistinct. | unknown: A central element with an area of 3.1%, visually indistinct. | unknown: A central element with an area of 3.1%, visually indistinct. | headline: A prominent text element in the center, displaying a promotional message in a bold font. text='2-for-1 tonight Free delivery over $15' | logo: A top-positioned logo with the text 'QuickFork' in a clear, modern font. text='QuickFork' | cta: A button at the bottom with the text 'Try for free', designed to attract user interaction. text='Try for free'"
+  }
+}

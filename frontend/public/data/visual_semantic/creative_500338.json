@@ -1,0 +1,458 @@
+{
+  "creative_id": "500338",
+  "asset_file": "assets/creative_500338.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on the NovaPay brand and its benefits.",
+    "visual_style": "modern and clean",
+    "main_message": "Promoting NovaPay's secure and simple payment service with no hidden fees.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A prominent logo featuring the text 'NovaPay' in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.562,
+        0.374
+      ],
+      "area_percentage": 22.07
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Secure & simple",
+      "description": "A large, clear headline that reads 'Secure & simple' in a friendly font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        72,
+        301,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.228,
+        0.941,
+        0.52
+      ],
+      "center_normalized": [
+        0.629,
+        0.374
+      ],
+      "area_percentage": 18.28
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "No hidden fees",
+      "description": "A smaller text line stating 'No hidden fees' beneath the headline, emphasizing transparency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.669,
+        0.374
+      ],
+      "area_percentage": 15.8
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, providing a modern and dynamic feel to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.71
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Additional abstract shapes that complement the overall design, enhancing visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        264,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.326,
+        0.825,
+        0.52
+      ],
+      "center_normalized": [
+        0.504,
+        0.423
+      ],
+      "area_percentage": 12.47
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "More abstract shapes in the background, contributing to a cohesive design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Further abstract shapes that add depth and texture to the ad's background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.314,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.547,
+        0.429
+      ],
+      "area_percentage": 8.51
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Additional abstract shapes that enhance the modern aesthetic of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that may represent a placeholder or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        157,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.493,
+        0.466
+      ],
+      "center_normalized": [
+        0.332,
+        0.359
+      ],
+      "area_percentage": 6.88
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button labeled 'Claim reward' designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.345,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that may represent a placeholder or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that may represent a placeholder or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        169,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.53,
+        0.578,
+        0.628
+      ],
+      "center_normalized": [
+        0.53,
+        0.579
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that may represent a placeholder or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unclear element that may represent a placeholder or design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        210,
+        171,
+        230
+      ],
+      "bbox_normalized": [
+        0.474,
+        0.656,
+        0.536,
+        0.719
+      ],
+      "center_normalized": [
+        0.505,
+        0.688
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "NovaPay",
+      "description": "The main headline featuring the brand name 'NovaPay' prominently displayed.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        5,
+        8,
+        220,
+        76
+      ],
+      "bbox_normalized": [
+        0.016,
+        0.025,
+        0.688,
+        0.237
+      ],
+      "center_normalized": [
+        0.352,
+        0.131
+      ],
+      "area_percentage": 14.28
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Secure simple No hidden fees",
+      "description": "A descriptive text line that communicates the service's benefits in a straightforward manner.",
+      "text_content": "Secure simple No hidden fees",
+      "bbox_xyxy": [
+        34,
+        200,
+        289,
+        253
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.625,
+        0.903,
+        0.791
+      ],
+      "center_normalized": [
+        0.505,
+        0.708
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 17,
+      "role": "cta",
+      "label": "Claim reward",
+      "description": "A call-to-action text encouraging users to 'Claim reward' prominently displayed at the bottom.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        279,
+        221,
+        299
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.872,
+        0.691,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.42
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and clean, NovaPay logo, secure payment message",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "NovaPay, Secure simple, No hidden fees, Claim reward",
+    "elements_text": "logo: A prominent logo featuring the text 'NovaPay' in bold, modern typography. | headline: A large, clear headline that reads 'Secure & simple' in a friendly font. | body_text: A smaller text line stating 'No hidden fees' beneath the headline, emphasizing transparency. | decorative_element: Abstract shapes in the background, providing a modern and dynamic feel to the ad. | decorative_element: Additional abstract shapes that complement the overall design, enhancing visual interest. | decorative_element: More abstract shapes in the background, contributing to a cohesive design. | decorative_element: Further abstract shapes that add depth and texture to the ad's background. | decorative_element: Additional abstract shapes that enhance the modern aesthetic of the ad. | unknown: An unclear element that may represent a placeholder or design feature. | cta: A prominent button labeled 'Claim reward' designed to attract user interaction. | unknown: An unclear element that may represent a placeholder or design feature. | unknown: An unclear element that may represent a placeholder or design feature. | unknown: An unclear element that may represent a placeholder or design feature. | unknown: An unclear element that may represent a placeholder or design feature. | headline: The main headline featuring the brand name 'NovaPay' prominently displayed. text='NovaPay' | body_text: A descriptive text line that communicates the service's benefits in a straightforward manner. text='Secure simple No hidden fees' | cta: A call-to-action text encouraging users to 'Claim reward' prominently displayed at the bottom. text='Claim reward'"
+  }
+}

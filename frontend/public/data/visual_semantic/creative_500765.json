@@ -1,0 +1,266 @@
+{
+  "creative_id": "500765",
+  "asset_file": "assets/creative_500765.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with a clear focus on a new product collection.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new product collection with a special offer.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A smooth, solid teal background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        95,
+        305,
+        362
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.199,
+        0.954,
+        0.755
+      ],
+      "center_normalized": [
+        0.501,
+        0.477
+      ],
+      "area_percentage": 50.3
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, white text stating 'New collection drop' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product representation",
+      "description": "A stylized graphic of two product containers with rounded edges, depicted in a minimalistic design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.54
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Smaller white text below the product graphic reads 'Free shipping over $25'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent '$4.99' in bold white text is displayed, indicating the price of the product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Get offer' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Sale icon",
+      "description": "A small yellow circular badge with the word 'SALE' in bold black text, indicating a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Main subject area",
+      "description": "The central area of the ad features the product graphic and key text elements, drawing attention.",
+      "text_content": "New collection drop Free shipping over $25 $4.99 Get offer",
+      "bbox_xyxy": [
+        22,
+        308,
+        274,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.642,
+        0.856,
+        0.915
+      ],
+      "center_normalized": [
+        0.463,
+        0.778
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'ZenDrop' appears in bold, dark text at the top left corner of the ad.",
+      "text_content": "ZenDrop",
+      "bbox_xyxy": [
+        23,
+        27,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.086
+      ],
+      "area_percentage": 2.02
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' prominently displayed at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, new collection drop, free shipping offer",
+    "layout_text": "The headline is at the top, the product graphic is centered, and the CTA is at the bottom.",
+    "ocr_text": "New collection drop, Free shipping over $25, $4.99, Get offer, ZenDrop, SALE",
+    "elements_text": "headline: Bold, white text stating 'New collection drop' is prominently displayed at the top of the ad. | product: A stylized graphic of two product containers with rounded edges, depicted in a minimalistic design. | body_text: Smaller white text below the product graphic reads 'Free shipping over $25'. | price: A prominent '$4.99' in bold white text is displayed, indicating the price of the product. | cta: A rounded button with the text 'Get offer' in white, inviting users to take action. | icon: A small yellow circular badge with the word 'SALE' in bold black text, indicating a promotional offer. | main_subject: The central area of the ad features the product graphic and key text elements, drawing attention. text='New collection drop Free shipping over $25 $4.99 Get offer' | logo: The logo 'ZenDrop' appears in bold, dark text at the top left corner of the ad. text='ZenDrop' | discount_badge: A small yellow badge with the word 'SALE' prominently displayed at the top right corner. text='SALE'"
+  }
+}

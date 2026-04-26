@@ -1,0 +1,194 @@
+{
+  "creative_id": "500908",
+  "asset_file": "assets/creative_500908.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear promotional message and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend offer for ThreadMark.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, centered element with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A large, bold text element at the bottom, stating 'Your next favorite pick Only this weekend' in a clear, readable font.",
+      "text_content": "Your next favorite pick Only this weekend",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.56
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A prominent logo at the top, featuring the word 'ThreadMark' in a stylized font.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        39,
+        264,
+        78
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.733,
+        0.122
+      ],
+      "center_normalized": [
+        0.401,
+        0.091
+      ],
+      "area_percentage": 4.05
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small button at the bottom with the text 'Learn more', designed to attract user interaction.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon at the top left corner labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, promoting a weekend offer.",
+    "layout_text": "The logo is positioned at the top, the main text is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Only this weekend, ThreadMark, Learn more, UGC",
+    "elements_text": "unknown: A small, centered element with an unclear visual representation. | unknown: A small, centered element with an unclear visual representation. | body_text: A large, bold text element at the bottom, stating 'Your next favorite pick Only this weekend' in a clear, readable font. text='Your next favorite pick Only this weekend' | logo: A prominent logo at the top, featuring the word 'ThreadMark' in a stylized font. text='ThreadMark' | cta: A small button at the bottom with the text 'Learn more', designed to attract user interaction. text='Learn more' | icon: A small icon at the top left corner labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

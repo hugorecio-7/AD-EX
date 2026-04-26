@@ -1,0 +1,362 @@
+{
+  "creative_id": "501007",
+  "asset_file": "assets/creative_501007.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with text and shapes that promote a streaming service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting new music hits available for streaming.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.199,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.52
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NeonCast logo",
+      "description": "A small logo positioned at the top left, featuring the text 'NeonCast' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A prominent text area in the center displaying 'Stream the hype' in a large, eye-catching font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.238,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.28
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Sub-message text",
+      "description": "A smaller text below the main message that reads 'New hits every week', complementing the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.423
+      ],
+      "area_percentage": 11.62
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Learn more', inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.54,
+        0.429
+      ],
+      "area_percentage": 8.82
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A circular shape in the background, adding visual interest without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape in the center, providing a backdrop for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.392,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 7.1
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle positioned near the bottom, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Additional rectangle",
+      "description": "Another rectangular shape that adds depth to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.347,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.591,
+        0.43
+      ],
+      "area_percentage": 6.0
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small element",
+      "description": "A small element positioned towards the bottom, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Another small element",
+      "description": "Another small element near the bottom, details unclear.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The main message text area at the bottom, clearly stating 'Stream the hype New hits every week'.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        205,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.641,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.719
+      ],
+      "area_percentage": 12.79
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A small button at the bottom with the text 'Learn more', encouraging user engagement.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 14,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "A small logo at the top left corner, featuring the brand name 'NeonCast'.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting new music hits.",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, Learn more, NeonCast",
+    "elements_text": "headline: A small logo positioned at the top left, featuring the text 'NeonCast' in a bold, modern font. | body_text: A prominent text area in the center displaying 'Stream the hype' in a large, eye-catching font. | body_text: A smaller text below the main message that reads 'New hits every week', complementing the headline. | cta: A rounded button at the bottom center with the text 'Learn more', inviting user interaction. | decorative_element: A circular shape in the background, adding visual interest without distracting from the main message. | decorative_element: A rectangular shape in the center, providing a backdrop for the text elements. | decorative_element: A small circle positioned near the bottom, enhancing the overall design. | decorative_element: Another rectangular shape that adds depth to the composition. | unknown: A small element positioned towards the bottom, details unclear. | unknown: Another small element near the bottom, details unclear. | body_text: The main message text area at the bottom, clearly stating 'Stream the hype New hits every week'. text='Stream the hype New hits every week' | cta: A small button at the bottom with the text 'Learn more', encouraging user engagement. text='Learn more' | logo: A small logo at the top left corner, featuring the brand name 'NeonCast'. text='NeonCast'"
+  }
+}

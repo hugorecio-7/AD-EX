@@ -1,0 +1,194 @@
+{
+  "creative_id": "500952",
+  "asset_file": "assets/creative_500952.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on cashback offers and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Sign up for cashback rewards with VaultRun.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo features the text 'VaultRun' in a bold, modern font, prominently displayed at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' is positioned at the top left, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Cashback offer headline",
+      "description": "The headline reads 'Earn cashback daily' in a large, eye-catching font, centered in the middle of the ad.",
+      "text_content": "Earn cashback daily Fast signup; instant card",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price is displayed as '€19.99' in a bold font, located at the bottom center of the ad.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Start now' is positioned at the bottom center, encouraging immediate action.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        27,
+        41,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.094
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, cashback offer, call to action",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with the price and CTA at the bottom.",
+    "ocr_text": "VaultRun, UGC, Earn cashback daily, Fast signup, instant card, €19.99, Start now",
+    "elements_text": "logo: The logo features the text 'VaultRun' in a bold, modern font, prominently displayed at the top center. | icon: A small circular icon labeled 'UGC' is positioned at the top left, indicating user-generated content. | headline: The headline reads 'Earn cashback daily' in a large, eye-catching font, centered in the middle of the ad. text='Earn cashback daily Fast signup; instant card' | price: The price is displayed as '€19.99' in a bold font, located at the bottom center of the ad. text='€19.99 Start now' | cta: A prominent button labeled 'Start now' is positioned at the bottom center, encouraging immediate action. text='VaultRun' | unknown:  text='UGC'"
+  }
+}

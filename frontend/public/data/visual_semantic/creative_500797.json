@@ -1,0 +1,338 @@
+{
+  "creative_id": "500797",
+  "asset_file": "assets/creative_500797.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting a mobile game with a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging new players to join and claim rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "GlitchWave logo",
+      "description": "A stylized logo with the text 'GlitchWave' prominently displayed in bold, contrasting colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A geometric shape or pattern that adds visual interest to the top section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A visual representation of the game interface, showcasing gameplay elements in a vibrant style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another geometric shape or pattern complementing the overall design of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic or icon that adds detail to the top section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic or icon that adds detail to the center section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic or icon that adds detail to the center section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic or icon that adds detail to the top section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small graphic or icon that adds detail to the top section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'GlitchWave' that captures attention at the top of the ad.",
+      "text_content": "GlitchWave",
+      "bbox_xyxy": [
+        24,
+        36,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.056,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.533,
+        0.105
+      ],
+      "area_percentage": 9.19
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "The text 'Beat your rivals Free rewards for new players' that conveys the main offer of the ad.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The text 'Claim reward' that encourages user interaction at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, GlitchWave logo, promotional message, call to action.",
+    "layout_text": "The headline is at the top, followed by gameplay elements in the center, and the CTA at the bottom.",
+    "ocr_text": "GlitchWave, Beat your rivals Free rewards for new players, Claim reward",
+    "elements_text": "logo: A stylized logo with the text 'GlitchWave' prominently displayed in bold, contrasting colors. | unknown: A geometric shape or pattern that adds visual interest to the top section of the ad. | app_screenshot: A visual representation of the game interface, showcasing gameplay elements in a vibrant style. | unknown: Another geometric shape or pattern complementing the overall design of the ad. | unknown: A small graphic or icon that adds detail to the top section of the ad. | unknown: A small graphic or icon that adds detail to the center section of the ad. | unknown: A small graphic or icon that adds detail to the center section of the ad. | unknown: A small graphic or icon that adds detail to the top section of the ad. | unknown: A small graphic or icon that adds detail to the top section of the ad. | headline: The bold text 'GlitchWave' that captures attention at the top of the ad. text='GlitchWave' | body_text: The text 'Beat your rivals Free rewards for new players' that conveys the main offer of the ad. text='Beat your rivals Free rewards for new players' | cta: The text 'Claim reward' that encourages user interaction at the bottom of the ad. text='Claim reward'"
+  }
+}

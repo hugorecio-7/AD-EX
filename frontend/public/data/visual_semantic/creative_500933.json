@@ -1,0 +1,242 @@
+{
+  "creative_id": "500933",
+  "asset_file": "assets/creative_500933.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and decorative shapes.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a streaming service with new hits weekly.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central decorative shape",
+      "description": "A central decorative shape that appears as an abstract form, possibly an oval or circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central decorative shape",
+      "description": "Another central decorative shape, resembling a square or rectangle, with a solid fill.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.59
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A small circular shape positioned centrally, likely with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "Another small circular shape, similar to the previous one, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative circle",
+      "description": "A third small circular shape, also centrally positioned, with a solid color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Stream the hype New hits every week', prominently displayed in the center.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        34,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.681
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'FluxStream' is displayed at the top in a bold, eye-catching font.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.385,
+        0.092
+      ],
+      "area_percentage": 3.91
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom with the text 'Get offer', designed to attract clicks.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, promoting streaming service.",
+    "layout_text": "The logo is at the top, followed by the main text in the center, and the CTA button at the bottom.",
+    "ocr_text": "Stream the hype New hits every week, FluxStream, Get offer",
+    "elements_text": "unknown: A central decorative shape that appears as an abstract form, possibly an oval or circle. | unknown: Another central decorative shape, resembling a square or rectangle, with a solid fill. | unknown: A small circular shape positioned centrally, likely with a solid color. | unknown: Another small circular shape, similar to the previous one, positioned centrally. | unknown: A third small circular shape, also centrally positioned, with a solid color. | body_text: Bold text stating 'Stream the hype New hits every week', prominently displayed in the center. text='Stream the hype New hits every week' | logo: The logo 'FluxStream' is displayed at the top in a bold, eye-catching font. text='FluxStream' | cta: A rectangular button at the bottom with the text 'Get offer', designed to attract clicks. text='Get offer'"
+  }
+}

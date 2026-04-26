@@ -1,0 +1,146 @@
+{
+  "creative_id": "500366",
+  "asset_file": "assets/creative_500366.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a central product placeholder and clear promotional messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time discount on a product.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Empty product placeholder",
+      "description": "A simple outline of a product, resembling a smartphone or tablet, is centered in the ad, indicating a product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Discount announcement",
+      "description": "Bold white text stating 'Up to 40% off Only this weekend' is prominently displayed in the center, conveying urgency.",
+      "text_content": "Up to 40% off Only this weekend",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.508,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text '€9.99 Learn more' is positioned at the bottom, inviting user interaction.",
+      "text_content": "€9.99 Learn more",
+      "bbox_xyxy": [
+        24,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.62
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'LuxShelf' is displayed in a bold font at the top, establishing brand identity.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        26,
+        38,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.315,
+        0.091
+      ],
+      "area_percentage": 3.11
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, discount announcement, call to action",
+    "layout_text": "The logo is at the top, the product placeholder is centered, the headline is below the product, and the CTA is at the bottom.",
+    "ocr_text": "Up to 40% off Only this weekend, €9.99 Learn more, LuxShelf",
+    "elements_text": "product: A simple outline of a product, resembling a smartphone or tablet, is centered in the ad, indicating a product display. | headline: Bold white text stating 'Up to 40% off Only this weekend' is prominently displayed in the center, conveying urgency. text='Up to 40% off Only this weekend' | cta: A rounded button with the text '€9.99 Learn more' is positioned at the bottom, inviting user interaction. text='€9.99 Learn more' | logo: The brand name 'LuxShelf' is displayed in a bold font at the top, establishing brand identity. text='LuxShelf'"
+  }
+}

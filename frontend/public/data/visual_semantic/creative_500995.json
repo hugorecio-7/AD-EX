@@ -1,0 +1,218 @@
+{
+  "creative_id": "500995",
+  "asset_file": "assets/creative_500995.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a mix of text and graphic elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting flexible booking options for RouteBloom.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element featuring a circular shape and a rectangular shape, both outlined with a thin border.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "RouteBloom logo",
+      "description": "A logo text that reads 'RouteBloom' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        23,
+        297,
+        63
+      ],
+      "bbox_normalized": [
+        0.542,
+        0.05,
+        0.93,
+        0.132
+      ],
+      "center_normalized": [
+        0.736,
+        0.091
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Fly smarter Flexible booking options' in a clear, legible font, centrally placed in the ad.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        67,
+        310,
+        253,
+        357
+      ],
+      "bbox_normalized": [
+        0.209,
+        0.646,
+        0.791,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.695
+      ],
+      "area_percentage": 5.69
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A prominent button with the text 'Watch now' in a bold font, located at the bottom of the ad.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        24,
+        32,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.067,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.092
+      ],
+      "area_percentage": 2.31
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge with the word 'SALE' in a bright color, positioned at the top right corner of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label that reads 'UGC' in a simple font, located at the top left corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, RouteBloom logo, main message text, and CTA.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Fly smarter Flexible booking options, RouteBloom, Watch now, SALE, UGC",
+    "elements_text": "unknown: A central graphic element featuring a circular shape and a rectangular shape, both outlined with a thin border. | headline: A logo text that reads 'RouteBloom' in a bold, modern font, positioned at the top of the ad. | body_text: Text that reads 'Fly smarter Flexible booking options' in a clear, legible font, centrally placed in the ad. text='Fly smarter Flexible booking options' | cta: A prominent button with the text 'Watch now' in a bold font, located at the bottom of the ad. text='RouteBloom' | discount_badge: A small badge with the word 'SALE' in a bright color, positioned at the top right corner of the ad. text='Watch now' | social_proof: A small label that reads 'UGC' in a simple font, located at the top left corner of the ad. text='SALE' | unknown:  text='UGC'"
+  }
+}

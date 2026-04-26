@@ -1,0 +1,290 @@
+{
+  "creative_id": "501017",
+  "asset_file": "assets/creative_501017.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a focus on product promotion.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting limited stock of products at a special price.",
+    "dominant_colors": [
+      "red",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, creating a vibrant and eye-catching base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "LuxShelf logo",
+      "description": "The text 'LuxShelf' is prominently displayed at the top, featuring a bold and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.425,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.678,
+        0.091
+      ],
+      "area_percentage": 4.16
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product display",
+      "description": "Three stylized product images resembling shelves are centered in the ad, outlined in a soft pink color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A decorative element that adds visual interest, possibly a graphic or icon, located near the product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        189,
+        135,
+        245,
+        219
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.458
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.08
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional graphic",
+      "description": "Another graphic element that complements the product display, adding depth to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        174,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.546,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.06
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "The text 'Limited stock Only this weekend' is displayed in a clear, bold font, emphasizing urgency.",
+      "text_content": "Limited stock Only this weekend",
+      "bbox_xyxy": [
+        54,
+        307,
+        266,
+        358
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.64,
+        0.831,
+        0.746
+      ],
+      "center_normalized": [
+        0.5,
+        0.693
+      ],
+      "area_percentage": 7.04
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase '€19.99 Book now' is prominently featured at the bottom, encouraging immediate action.",
+      "text_content": "€19.99 Book now",
+      "bbox_xyxy": [
+        22,
+        396,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.358,
+        0.87
+      ],
+      "area_percentage": 5.18
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in a circular badge, indicating user-generated content.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        24,
+        30,
+        132,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.412,
+        0.117
+      ],
+      "center_normalized": [
+        0.244,
+        0.09
+      ],
+      "area_percentage": 1.83
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "SALE indicator",
+      "description": "A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "UGC indicator",
+      "description": "A small label indicating user-generated content, positioned near the top of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and modern, LuxShelf, limited stock, €19.99.",
+    "layout_text": "The headline is at the top, the product display is centered, and the CTA is at the bottom.",
+    "ocr_text": "LuxShelf, SALE, Limited stock Only this weekend, €19.99 Book now, UGC",
+    "elements_text": "headline: The text 'LuxShelf' is prominently displayed at the top, featuring a bold and modern font. | discount_badge: A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner. | product: Three stylized product images resembling shelves are centered in the ad, outlined in a soft pink color. | unknown: A decorative element that adds visual interest, possibly a graphic or icon, located near the product display. | unknown: Another graphic element that complements the product display, adding depth to the composition. | body_text: The text 'Limited stock Only this weekend' is displayed in a clear, bold font, emphasizing urgency. text='Limited stock Only this weekend' | cta: The phrase '€19.99 Book now' is prominently featured at the bottom, encouraging immediate action. text='€19.99 Book now' | social_proof: A small label with the text 'UGC' in a circular badge, indicating user-generated content. text='LuxShelf' | discount_badge: A small yellow badge with the word 'SALE' in bold text, positioned at the top right corner. text='SALE' | unknown: A small label indicating user-generated content, positioned near the top of the ad. text='UGC'"
+  }
+}

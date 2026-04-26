@@ -1,0 +1,170 @@
+{
+  "creative_id": "500808",
+  "asset_file": "assets/creative_500808.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the main message and call to action.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to track their finances with ClearLedger.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A semi-transparent circular shape in the center of the ad, blending with the background color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A semi-transparent rectangular shape overlapping the circular shape, also centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        164,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, modern font displaying the text 'Track every euro Built for peace of mind' in the center of the ad.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        28,
+        306,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.087,
+        0.637,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.495,
+        0.691
+      ],
+      "area_percentage": 8.67
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A simple, rectangular logo at the top of the ad with the text 'ClearLedger' in a clean font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        24,
+        28,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 2.7
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom of the ad with the text 'Book now' in a prominent font.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        115,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.359,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.503,
+        0.894
+      ],
+      "area_percentage": 1.2
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with soft colors, ClearLedger, Track every euro.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro Built for peace of mind, ClearLedger, Book now",
+    "elements_text": "unknown: A semi-transparent circular shape in the center of the ad, blending with the background color. | unknown: A semi-transparent rectangular shape overlapping the circular shape, also centered in the ad. | body_text: Bold, modern font displaying the text 'Track every euro Built for peace of mind' in the center of the ad. text='Track every euro Built for peace of mind' | logo: A simple, rectangular logo at the top of the ad with the text 'ClearLedger' in a clean font. text='ClearLedger' | cta: A rounded button at the bottom of the ad with the text 'Book now' in a prominent font. text='Book now'"
+  }
+}

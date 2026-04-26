@@ -1,0 +1,146 @@
+{
+  "creative_id": "500820",
+  "asset_file": "assets/creative_500820.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with promotional text and a logo, emphasizing a dinner offer.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a quick dinner deal at a special price.",
+    "dominant_colors": [
+      "dark gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty placeholder",
+      "description": "A rectangular placeholder in the center, appearing as a gray box, suggesting an image or graphic that is not displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        134,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.28,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dinner offer text",
+      "description": "Bold white text stating 'Dinner in minutes' with additional smaller text below it in a lighter font, conveying a promotional message.",
+      "text_content": "Dinner in minutes Late-night deals available €29.99 Claim reward",
+      "bbox_xyxy": [
+        22,
+        308,
+        259,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.642,
+        0.809,
+        0.915
+      ],
+      "center_normalized": [
+        0.439,
+        0.778
+      ],
+      "area_percentage": 20.21
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A simple logo at the top left, featuring the text 'QuickFork' in a modern font, likely in white or light color.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        150,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.469,
+        0.117
+      ],
+      "center_normalized": [
+        0.272,
+        0.09
+      ],
+      "area_percentage": 2.13
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold, drawing attention to the discount.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalist with bold text, dinner offer, QuickFork, SALE",
+    "layout_text": "The logo is positioned at the top left, the main text is centered, and the discount badge is at the top right.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, €29.99, Claim reward, QuickFork, SALE",
+    "elements_text": "unknown: A rectangular placeholder in the center, appearing as a gray box, suggesting an image or graphic that is not displayed. | body_text: Bold white text stating 'Dinner in minutes' with additional smaller text below it in a lighter font, conveying a promotional message. text='Dinner in minutes Late-night deals available €29.99 Claim reward' | logo: A simple logo at the top left, featuring the text 'QuickFork' in a modern font, likely in white or light color. text='QuickFork' | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold, drawing attention to the discount. text='SALE'"
+  }
+}

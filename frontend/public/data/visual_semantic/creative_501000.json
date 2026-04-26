@@ -1,0 +1,242 @@
+{
+  "creative_id": "501000",
+  "asset_file": "assets/creative_501000.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with food images and promotional text.",
+    "visual_style": "bright and appetizing",
+    "main_message": "Promoting late-night food delivery with a special sale.",
+    "dominant_colors": [
+      "green",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant green background fills the entire canvas, providing a lively and fresh feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Image of food items",
+      "description": "A rectangular image showcasing two food items, likely in a takeout container, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        163,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.51,
+        0.458
+      ],
+      "center_normalized": [
+        0.33,
+        0.369
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food item close-up",
+      "description": "A close-up view of one food item, emphasizing its texture and appeal, located within the main subject area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Food item close-up",
+      "description": "Another close-up view of a different food item, highlighting its freshness and presentation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Food item close-up",
+      "description": "A close-up of a third food item, showcasing its delicious appearance and enticing colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Food item close-up",
+      "description": "A close-up of a fourth food item, focusing on its appealing details and vibrant colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "Bold text at the bottom of the ad reads 'Your cravings, delivered Late Jable Shop now', encouraging immediate action.",
+      "text_content": "Your cravings, delivered Late Jable Shop now",
+      "bbox_xyxy": [
+        50,
+        198,
+        275,
+        302
+      ],
+      "bbox_normalized": [
+        0.156,
+        0.619,
+        0.859,
+        0.944
+      ],
+      "center_normalized": [
+        0.508,
+        0.781
+      ],
+      "area_percentage": 22.85
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "A small logo at the top left corner, featuring the name 'CraveLoop' in a modern font.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold, eye-catching text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and appetizing, food delivery, sale promotion",
+    "layout_text": "The logo is positioned at the top left, the sale badge at the top right, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your cravings, delivered, Late night deals available, Shop now, CraveLoop, SALE",
+    "elements_text": "main_subject: A rectangular image showcasing two food items, likely in a takeout container, centered in the ad. | main_subject: A close-up view of one food item, emphasizing its texture and appeal, located within the main subject area. | main_subject: Another close-up view of a different food item, highlighting its freshness and presentation. | main_subject: A close-up of a third food item, showcasing its delicious appearance and enticing colors. | main_subject: A close-up of a fourth food item, focusing on its appealing details and vibrant colors. | cta: Bold text at the bottom of the ad reads 'Your cravings, delivered Late Jable Shop now', encouraging immediate action. text='Your cravings, delivered Late Jable Shop now' | logo: A small logo at the top left corner, featuring the name 'CraveLoop' in a modern font. text='CraveLoop' | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold, eye-catching text. text='SALE'"
+  }
+}

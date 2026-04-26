@@ -1,0 +1,362 @@
+{
+  "creative_id": "500892",
+  "asset_file": "assets/creative_500892.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a central offer highlighted.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 late-night meal deal.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        183
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.287
+      ],
+      "center_normalized": [
+        0.499,
+        0.144
+      ],
+      "area_percentage": 28.66
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertically aligned glass panels with a reflective surface, slightly transparent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        78,
+        359,
+        253
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.122,
+        0.998,
+        0.396
+      ],
+      "center_normalized": [
+        0.502,
+        0.259
+      ],
+      "area_percentage": 27.25
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three glass panels",
+      "description": "Three vertically aligned glass panels with a reflective surface, slightly transparent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        78,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.122,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.24
+      ],
+      "area_percentage": 23.33
+    },
+    {
+      "id": 4,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo with the text 'SnapMeal' in a modern font, placed in the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        32,
+        129,
+        215
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.051,
+        0.359,
+        0.337
+      ],
+      "center_normalized": [
+        0.205,
+        0.194
+      ],
+      "area_percentage": 8.84
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "Abstract decorative shapes in lighter purple tones, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.549,
+        0.091
+      ],
+      "area_percentage": 6.25
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main offer headline",
+      "description": "Bold white text stating '2-for-1 tonight' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Offer details",
+      "description": "Smaller white text below the headline that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent white text showing the price '€19.99' located below the offer details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bold white button with the text 'Order now' positioned below the price.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the text 'SALE' in bold letters.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Order now text",
+      "description": "Text that encourages immediate action, reading 'Order now' in a clear, inviting font.",
+      "text_content": "€19.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo with the text 'SnapMeal' in a modern font, placed in the top left corner.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        24,
+        48,
+        136,
+        72
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.075,
+        0.378,
+        0.113
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.17
+    },
+    {
+      "id": 14,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the text 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, SnapMeal logo, 2-for-1 offer.",
+    "layout_text": "The headline is centered at the top, followed by body text, price, and CTA button at the bottom.",
+    "ocr_text": "2-for-1 tonight, Late-night deals available, €19.99, Order now, SnapMeal, SALE",
+    "elements_text": "main_subject: Three vertically aligned glass panels with a reflective surface, slightly transparent. | main_subject: Three vertically aligned glass panels with a reflective surface, slightly transparent. | logo: A simple logo with the text 'SnapMeal' in a modern font, placed in the top left corner. | decorative_element: Abstract decorative shapes in lighter purple tones, adding visual interest to the background. | headline: Bold white text stating '2-for-1 tonight' prominently displayed in the center. | body_text: Smaller white text below the headline that reads 'Late-night deals available'. | price: A prominent white text showing the price '€19.99' located below the offer details. | cta: A bold white button with the text 'Order now' positioned below the price. | discount_badge: A small badge in the top right corner with the text 'SALE' in bold letters. text='2-for-1 tonight Late-night deals available' | body_text: Text that encourages immediate action, reading 'Order now' in a clear, inviting font. text='€19.99 Order now' | logo: A simple logo with the text 'SnapMeal' in a modern font, placed in the top left corner. text='SnapMeal' | discount_badge: A small badge in the top right corner with the text 'SALE' in bold letters. text='SALE'"
+  }
+}

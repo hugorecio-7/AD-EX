@@ -1,0 +1,314 @@
+{
+  "creative_id": "500954",
+  "asset_file": "assets/creative_500954.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant teal background with layered graphic elements and clear text.",
+    "visual_style": "modern and playful",
+    "main_message": "Promoting travel bookings with flexible options and a discount.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid color background",
+      "description": "A solid teal background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic element",
+      "description": "A large, abstract shape in the center, possibly a rectangle or rounded rectangle, with a soft edge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Secondary graphic element",
+      "description": "An oval shape positioned slightly above the main graphic element, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional graphic element",
+      "description": "Another rectangular shape, similar to the main subject but smaller, placed to the right of the main graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Small icon",
+      "description": "A small circular icon located at the top left, possibly representing a feature or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "Another small circular icon positioned towards the bottom center, complementing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small circular icon",
+      "description": "A third small circular icon located towards the bottom right, maintaining symmetry in the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small graphic element",
+      "description": "A small rectangular shape positioned in the center, adding to the layered look of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text at the top reading 'HorizonHop UGC', prominently displayed against the background.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        24,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.12
+      ],
+      "area_percentage": 14.73
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Clear and inviting text in the center stating 'Book your next trip Flexible booking options'.",
+      "text_content": "Book your next trip Flexible booking options",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Order now', designed to attract user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '-30%' in a contrasting color, indicating a promotional offer.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        35,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.172,
+        0.848
+      ],
+      "area_percentage": 0.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and playful, HorizonHop UGC, travel booking, discount offer",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop UGC, Book your next trip Flexible booking options, Order now, -30%",
+    "elements_text": "main_subject: A large, abstract shape in the center, possibly a rectangle or rounded rectangle, with a soft edge. | decorative_element: An oval shape positioned slightly above the main graphic element, adding visual interest. | decorative_element: Another rectangular shape, similar to the main subject but smaller, placed to the right of the main graphic. | icon: A small circular icon located at the top left, possibly representing a feature or service. | icon: Another small circular icon positioned towards the bottom center, complementing the overall design. | icon: A third small circular icon located towards the bottom right, maintaining symmetry in the design. | decorative_element: A small rectangular shape positioned in the center, adding to the layered look of the ad. | headline: Bold text at the top reading 'HorizonHop UGC', prominently displayed against the background. text='HorizonHop UGC' | body_text: Clear and inviting text in the center stating 'Book your next trip Flexible booking options'. text='Book your next trip Flexible booking options' | cta: A prominent button at the bottom with the text 'Order now', designed to attract user interaction. text='Order now' | discount_badge: A small badge displaying '-30%' in a contrasting color, indicating a promotional offer. text='30%'"
+  }
+}

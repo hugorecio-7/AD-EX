@@ -1,0 +1,218 @@
+{
+  "creative_id": "500358",
+  "asset_file": "assets/creative_500358.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with abstract shapes and prominent text.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting binge-worthy content available on NeonCast.",
+    "dominant_colors": [
+      "red",
+      "pink"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "A large pink circle and an oval shape are centered in the ad, creating an abstract visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller pink circle is positioned within the main subject area, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A tiny pink circle is placed near the bottom of the main subject area, serving as a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text reads 'Binge starts now New hits every week', prominently displayed in the center of the ad.",
+      "text_content": "Binge starts now New hits every week",
+      "bbox_xyxy": [
+        33,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 7.66
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo 'NeonCast' appears at the top in a bold font, colored white against the red background.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        29,
+        39,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.061,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.342,
+        0.091
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom reads 'Shop now' in white text, inviting user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small 'UGC' label is positioned at the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, features abstract shapes and engaging text.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now New hits every week, NeonCast, Shop now, UGC",
+    "elements_text": "main_subject: A large pink circle and an oval shape are centered in the ad, creating an abstract visual interest. | unknown: A smaller pink circle is positioned within the main subject area, adding depth to the design. | unknown: A tiny pink circle is placed near the bottom of the main subject area, serving as a decorative touch. | body_text: Bold white text reads 'Binge starts now New hits every week', prominently displayed in the center of the ad. text='Binge starts now New hits every week' | logo: The logo 'NeonCast' appears at the top in a bold font, colored white against the red background. text='NeonCast' | cta: A rounded button at the bottom reads 'Shop now' in white text, inviting user interaction. text='Shop now' | icon: A small 'UGC' label is positioned at the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

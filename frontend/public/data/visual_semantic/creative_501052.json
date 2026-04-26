@@ -1,0 +1,242 @@
+{
+  "creative_id": "501052",
+  "asset_file": "assets/creative_501052.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a central product image and promotional text.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting the CrispBox with a special sale and free shipping offer.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "CrispBox product image",
+      "description": "A rectangular outline representing the CrispBox product, centered in the ad with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon positioned below the product image, suggesting interaction or functionality.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "Another small circular icon below the product image, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A third small circular icon below the product image, maintaining the same design theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating 'Your next favorite pick Free shipping over $25' positioned at the bottom of the ad.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        291,
+        502
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.808,
+        0.784
+      ],
+      "center_normalized": [
+        0.5,
+        0.714
+      ],
+      "area_percentage": 8.67
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Install now' in white, encouraging immediate action.",
+      "text_content": "€19.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "The logo 'CrispBox' in bold text, located at the top left corner of the ad.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        35,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.055,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.314,
+        0.089
+      ],
+      "area_percentage": 3.36
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' in bold, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and modern, CrispBox, free shipping, sale",
+    "layout_text": "The logo is at the top left, the product image is centered, with promotional text and CTA at the bottom.",
+    "ocr_text": "Your next favorite pick, Free shipping over $25, €19.99, Install now, CrispBox, SALE",
+    "elements_text": "product: A rectangular outline representing the CrispBox product, centered in the ad with a simple design. | icon: A small circular icon positioned below the product image, suggesting interaction or functionality. | icon: Another small circular icon below the product image, similar in style to the previous one. | icon: A third small circular icon below the product image, maintaining the same design theme. | body_text: Bold white text stating 'Your next favorite pick Free shipping over $25' positioned at the bottom of the ad. text='Your next favorite pick Free shipping over $25' | cta: A prominent button with the text 'Install now' in white, encouraging immediate action. text='€19.99 Install now' | logo: The logo 'CrispBox' in bold text, located at the top left corner of the ad. text='CrispBox' | discount_badge: A small yellow badge with the text 'SALE' in bold, positioned at the top right corner. text='SALE'"
+  }
+}

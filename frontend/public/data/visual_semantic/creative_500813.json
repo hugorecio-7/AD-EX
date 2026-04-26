@@ -1,0 +1,290 @@
+{
+  "creative_id": "500813",
+  "asset_file": "assets/creative_500813.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and pricing information.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel booking services.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Circular shape",
+      "description": "A circular shape with a light blue background, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        82,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.229,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.504,
+        0.43
+      ],
+      "area_percentage": 9.84
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape with a light blue background, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Large rectangular shape",
+      "description": "A large rectangular shape with a light blue background, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circular shape",
+      "description": "A small circular shape with a light blue background, positioned towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small circular shape",
+      "description": "Another small circular shape with a light blue background, positioned towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small rectangular shape",
+      "description": "A small rectangular shape with a light blue background, positioned towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action text",
+      "description": "Bold text stating 'Book your next trip Hotels + flights in one tap', centered at the bottom of the ad.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        51,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.142,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.712
+      ],
+      "area_percentage": 10.12
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price text",
+      "description": "Text displaying the price '$4.99', positioned at the bottom left of the ad.",
+      "text_content": "$4.99 Learn more",
+      "bbox_xyxy": [
+        26,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.371,
+        0.87
+      ],
+      "area_percentage": 4.57
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Logo text",
+      "description": "Text reading 'WayPoint', positioned at the top left of the ad.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.089
+      ],
+      "area_percentage": 3.59
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE', positioned at the top right of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, travel booking services",
+    "layout_text": "The logo is at the top left, the main message is centered at the bottom, and the CTA is prominently displayed.",
+    "ocr_text": "WayPoint, SALE, Book your next trip Hotels + flights in one tap, $4.99, Learn more",
+    "elements_text": "unknown: A circular shape with a light blue background, positioned in the center of the ad. | unknown: A rectangular shape with a light blue background, positioned in the center of the ad. | unknown: A large rectangular shape with a light blue background, positioned in the center of the ad. | unknown: A small circular shape with a light blue background, positioned towards the bottom center of the ad. | unknown: Another small circular shape with a light blue background, positioned towards the bottom left of the ad. | unknown: A small rectangular shape with a light blue background, positioned towards the bottom center of the ad. | cta: Bold text stating 'Book your next trip Hotels + flights in one tap', centered at the bottom of the ad. text='Book your next trip Hotels flights in one tap' | price: Text displaying the price '$4.99', positioned at the bottom left of the ad. text='$4.99 Learn more' | logo: Text reading 'WayPoint', positioned at the top left of the ad. text='WayPoint' | discount_badge: A small badge with the text 'SALE', positioned at the top right of the ad. text='SALE'"
+  }
+}

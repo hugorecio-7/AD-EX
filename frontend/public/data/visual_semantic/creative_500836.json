@@ -1,0 +1,170 @@
+{
+  "creative_id": "500836",
+  "asset_file": "assets/creative_500836.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold brand name at the top and a discount offer at the bottom.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a discount and free shipping for CrispBox products.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, undefined element located at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another small, undefined element positioned at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        49,
+        91,
+        104,
+        145
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.287,
+        0.326,
+        0.454
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 2.89
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, undefined element located at the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Discount and shipping info",
+      "description": "A prominent text area at the bottom displaying a discount offer and shipping details in a bold, clear font.",
+      "text_content": "Up to 40% off Free shipping over $25 €19.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        203,
+        269,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.634,
+        0.841,
+        0.934
+      ],
+      "center_normalized": [
+        0.455,
+        0.784
+      ],
+      "area_percentage": 23.16
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "A large, bold text at the top of the ad featuring the brand name 'CrispBox' in a modern font.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        19,
+        15,
+        294,
+        89
+      ],
+      "bbox_normalized": [
+        0.059,
+        0.047,
+        0.919,
+        0.278
+      ],
+      "center_normalized": [
+        0.489,
+        0.163
+      ],
+      "area_percentage": 19.87
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, CrispBox, discount offer",
+    "layout_text": "The headline is positioned at the top, while the body text is at the bottom.",
+    "ocr_text": "Up to 40% off, Free shipping over $25, €19.99, Learn more, CrispBox",
+    "elements_text": "unknown: A small, undefined element located at the center of the ad. | unknown: Another small, undefined element positioned at the center of the ad. | unknown: A small, undefined element located at the center of the ad. | body_text: A prominent text area at the bottom displaying a discount offer and shipping details in a bold, clear font. text='Up to 40% off Free shipping over $25 €19.99 Learn more' | headline: A large, bold text at the top of the ad featuring the brand name 'CrispBox' in a modern font. text='CrispBox'"
+  }
+}

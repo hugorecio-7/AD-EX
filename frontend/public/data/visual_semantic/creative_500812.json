@@ -1,0 +1,338 @@
+{
+  "creative_id": "500812",
+  "asset_file": "assets/creative_500812.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a teal background with bold text and geometric shapes.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting last-minute travel savings through the WayPoint app.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        91,
+        358,
+        291
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.144,
+        0.997,
+        0.455
+      ],
+      "center_normalized": [
+        0.498,
+        0.299
+      ],
+      "area_percentage": 31.04
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "A bold, uppercase text logo reading 'WayPoint' in a contrasting color, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        246
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.143,
+        0.998,
+        0.385
+      ],
+      "center_normalized": [
+        0.502,
+        0.264
+      ],
+      "area_percentage": 24.05
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Large, bold text stating 'Last-minute savings' in a prominent position below the logo.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        90,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.141,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.249
+      ],
+      "area_percentage": 21.49
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller text reading 'Hotels + flights in one tap' positioned directly below the main headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.14
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rectangular button with the text 'Claim reward' in a contrasting color, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Various abstract geometric shapes in lighter shades of teal, scattered in the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape in the background, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circular shape in the background, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small rectangle",
+      "description": "A small rectangular shape in the background, adding to the abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Medium rectangle",
+      "description": "A medium-sized rectangular shape in the center, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text that reads 'Hotels flights in one tap' in a clear, readable font at the bottom.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        407,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.636,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.5,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The same 'WayPoint' logo as before, reinforcing brand identity.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        101
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.158
+      ],
+      "center_normalized": [
+        0.475,
+        0.106
+      ],
+      "area_percentage": 8.25
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Claim reward text",
+      "description": "Text stating 'Claim reward' at the bottom, encouraging user action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, WayPoint logo, promotional text",
+    "layout_text": "The logo is at the top, followed by the main headline, subheadline, and CTA at the bottom.",
+    "ocr_text": "WayPoint, Last-minute savings, Hotels + flights in one tap, Claim reward",
+    "elements_text": "logo: A bold, uppercase text logo reading 'WayPoint' in a contrasting color, positioned at the top. | headline: Large, bold text stating 'Last-minute savings' in a prominent position below the logo. | body_text: Smaller text reading 'Hotels + flights in one tap' positioned directly below the main headline. | cta: A rectangular button with the text 'Claim reward' in a contrasting color, located at the bottom of the ad. | decorative_element: Various abstract geometric shapes in lighter shades of teal, scattered in the background. | unknown: A small circular shape in the background, possibly decorative. | unknown: Another small circular shape in the background, similar to the previous one. | unknown: A small rectangular shape in the background, adding to the abstract design. | unknown: A medium-sized rectangular shape in the center, contributing to the overall design. | body_text: Text that reads 'Hotels flights in one tap' in a clear, readable font at the bottom. text='Last-minute savings Hotels flights in one tap' | headline: The same 'WayPoint' logo as before, reinforcing brand identity. text='WayPoint' | cta: Text stating 'Claim reward' at the bottom, encouraging user action. text='Claim reward'"
+  }
+}

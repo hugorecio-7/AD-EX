@@ -1,0 +1,194 @@
+{
+  "creative_id": "500853",
+  "asset_file": "assets/creative_500853.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with promotional text and branding elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a meal delivery service with a focus on speed and convenience.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "A central decorative element that adds visual interest, possibly abstract in nature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        135,
+        105,
+        285
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.596
+      ],
+      "center_normalized": [
+        0.239,
+        0.438
+      ],
+      "area_percentage": 5.67
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "Another central decorative element that complements the overall design, likely with a subtle texture.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "A small central decorative element that enhances the visual appeal, possibly circular.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold, large text at the bottom stating 'Dinner in minutes Fresh favorites nearby s4.99 Try for free' with a clear and inviting font.",
+      "text_content": "Dinner in minutes Fresh favorites nearby s4.99 Try for free",
+      "bbox_xyxy": [
+        23,
+        308,
+        247,
+        442
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.642,
+        0.772,
+        0.921
+      ],
+      "center_normalized": [
+        0.422,
+        0.781
+      ],
+      "area_percentage": 19.54
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "A prominent logo at the top featuring the name 'PlateSprint' in a modern, readable font.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        164,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.512,
+        0.117
+      ],
+      "center_normalized": [
+        0.294,
+        0.087
+      ],
+      "area_percentage": 2.55
+    },
+    {
+      "id": 6,
+      "role": "social_proof",
+      "label": "User-generated content label",
+      "description": "A small label at the top indicating 'UGC' in a simple, unobtrusive style.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, PlateSprint logo, promotional text.",
+    "layout_text": "The logo is positioned at the top, followed by a user-generated content label, with the main promotional text at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, s4.99, Try for free, PlateSprint, UGC",
+    "elements_text": "unknown: A central decorative element that adds visual interest, possibly abstract in nature. | unknown: Another central decorative element that complements the overall design, likely with a subtle texture. | unknown: A small central decorative element that enhances the visual appeal, possibly circular. | body_text: Bold, large text at the bottom stating 'Dinner in minutes Fresh favorites nearby s4.99 Try for free' with a clear and inviting font. text='Dinner in minutes Fresh favorites nearby s4.99 Try for free' | logo: A prominent logo at the top featuring the name 'PlateSprint' in a modern, readable font. text='PlateSprint' | social_proof: A small label at the top indicating 'UGC' in a simple, unobtrusive style. text='UGC'"
+  }
+}

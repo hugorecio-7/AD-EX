@@ -1,0 +1,290 @@
+{
+  "creative_id": "500823",
+  "asset_file": "assets/creative_500823.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and call-to-action.",
+    "visual_style": "modern minimalistic with bold accents",
+    "main_message": "Promoting a streaming service with a sale announcement.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A dark, solid background that provides contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A simple, modern logo featuring the text 'BingeLayer' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        118,
+        156,
+        222
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.247,
+        0.488,
+        0.464
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Abstract geometric shapes, including circles and rectangles, in muted colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        130,
+        166,
+        246,
+        247
+      ],
+      "bbox_normalized": [
+        0.409,
+        0.347,
+        0.77,
+        0.515
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 6.08
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline that reads 'SALE' in a bold, eye-catching font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        23,
+        298,
+        63
+      ],
+      "bbox_normalized": [
+        0.517,
+        0.05,
+        0.932,
+        0.132
+      ],
+      "center_normalized": [
+        0.724,
+        0.091
+      ],
+      "area_percentage": 3.4
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Streaming message",
+      "description": "Text that says 'Stream the hype' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Weekly hits message",
+      "description": "Smaller text below the main message that reads 'New hits every week'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Play button",
+      "description": "A small play button icon, typically triangular, indicating video content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button that says 'Start now', designed to attract user interaction.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        307,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.692
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "BingeLayer title",
+      "description": "The title 'BingeLayer' displayed prominently at the top of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        23,
+        27,
+        162,
+        59
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.506,
+        0.123
+      ],
+      "center_normalized": [
+        0.289,
+        0.09
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A bright button at the bottom of the ad encouraging users to take action.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge that indicates a sale, typically in a bright color to attract attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalistic with bold accents, BingeLayer logo, sale announcement, call to action.",
+    "layout_text": "The headline is at the top, the logo is centered, and the call-to-action is at the bottom.",
+    "ocr_text": "BingeLayer, SALE, Stream the hype, New hits every week, Start now",
+    "elements_text": "logo: A simple, modern logo featuring the text 'BingeLayer' in a bold font. | decorative_element: Abstract geometric shapes, including circles and rectangles, in muted colors. | headline: A prominent headline that reads 'SALE' in a bold, eye-catching font. | body_text: Text that says 'Stream the hype' in a clear, readable font. | body_text: Smaller text below the main message that reads 'New hits every week'. | icon: A small play button icon, typically triangular, indicating video content. | cta: A bold button that says 'Start now', designed to attract user interaction. text='Stream the hype New hits every week' | headline: The title 'BingeLayer' displayed prominently at the top of the ad. text='BingeLayer' | cta: A bright button at the bottom of the ad encouraging users to take action. text='Start now' | discount_badge: A small badge that indicates a sale, typically in a bright color to attract attention. text='SALE'"
+  }
+}

@@ -103,3 +103,20 @@ export const askCreativeChat = async (creativeId, message, history = [], languag
     };
   }
 };
+
+export const fetchCtrPrediction = async (creativeId, { countries = 'US,ES', os = 'iOS,Android', compareImageUrl = null, seqLen = 30 } = {}) => {
+  try {
+    const params = new URLSearchParams({ countries, os, seq_len: seqLen });
+    if (compareImageUrl) params.set('compare_image_url', compareImageUrl);
+
+    const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/predict?${params}`);
+    if (!response.ok) {
+      const err = await response.json().catch(() => ({ detail: response.statusText }));
+      throw new Error(err.detail || `Predict failed: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('[API] CTR prediction failed:', error.message);
+    return null;
+  }
+};

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500871",
+  "asset_file": "assets/creative_500871.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent call to action with decorative elements suggesting a product display.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection at a special price.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "A set of three outlined rectangles arranged horizontally, suggesting a product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        161,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.506,
+        0.457
+      ],
+      "center_normalized": [
+        0.329,
+        0.368
+      ],
+      "area_percentage": 6.34
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative shapes",
+      "description": "A larger outlined rectangle positioned above the smaller shapes, indicating a featured product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        135,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.423,
+        0.279,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.595,
+        0.368
+      ],
+      "area_percentage": 6.11
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A small outlined rectangle, part of a product display, positioned to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A small outlined rectangle, part of a product display, positioned to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        89,
+        245,
+        145
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.279,
+        0.767,
+        0.456
+      ],
+      "center_normalized": [
+        0.678,
+        0.368
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A medium-sized outlined rectangle, part of a product display, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        100,
+        174,
+        155
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.544,
+        0.485
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 2.97
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A small outlined rectangle positioned towards the right side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        197,
+        97,
+        236,
+        129
+      ],
+      "bbox_normalized": [
+        0.616,
+        0.306,
+        0.739,
+        0.405
+      ],
+      "center_normalized": [
+        0.678,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A small outlined rectangle positioned towards the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A small outlined rectangle positioned towards the left side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small filled circle positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        127,
+        208
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.553,
+        0.399,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small filled circle positioned towards the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        170,
+        185,
+        200
+      ],
+      "bbox_normalized": [
+        0.48,
+        0.531,
+        0.578,
+        0.628
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small filled circle positioned towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area with bold white font stating 'New collection drop €9.99 Shop now' against a purple background.",
+      "text_content": "New collection drop €9.99 Shop now",
+      "bbox_xyxy": [
+        22,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.786
+      ],
+      "area_percentage": 23.38
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Brand headline",
+      "description": "A bold text area at the top of the ad stating 'VantaStyle UGC' in a contrasting color.",
+      "text_content": "VantaStyle UGC",
+      "bbox_xyxy": [
+        21,
+        20,
+        132,
+        71
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.062,
+        0.412,
+        0.222
+      ],
+      "center_normalized": [
+        0.239,
+        0.142
+      ],
+      "area_percentage": 5.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting new collection at €9.99.",
+    "layout_text": "The headline is at the top, the main call to action is at the bottom, with decorative elements centered.",
+    "ocr_text": "New collection drop €9.99 Shop now, VantaStyle UGC",
+    "elements_text": "unknown: A set of three outlined rectangles arranged horizontally, suggesting a product display. | unknown: A larger outlined rectangle positioned above the smaller shapes, indicating a featured product. | unknown: A small outlined rectangle, part of a product display, positioned to the left. | unknown: A small outlined rectangle, part of a product display, positioned to the right. | unknown: A medium-sized outlined rectangle, part of a product display, positioned in the center. | unknown: A small outlined rectangle positioned towards the right side of the ad. | unknown: A small outlined rectangle positioned towards the center of the ad. | unknown: A small outlined rectangle positioned towards the left side of the ad. | unknown: A small filled circle positioned towards the bottom of the ad. | unknown: A small filled circle positioned towards the bottom right of the ad. | unknown: A small filled circle positioned towards the bottom left of the ad. | cta: A prominent text area with bold white font stating 'New collection drop €9.99 Shop now' against a purple background. text='New collection drop €9.99 Shop now' | headline: A bold text area at the top of the ad stating 'VantaStyle UGC' in a contrasting color. text='VantaStyle UGC'"
+  }
+}

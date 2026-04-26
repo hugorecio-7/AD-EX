@@ -1,0 +1,266 @@
+{
+  "creative_id": "500826",
+  "asset_file": "assets/creative_500826.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with various graphic elements and text promoting a streaming service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a streaming service with a focus on user-generated content.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears to be a combination of shapes, possibly representing a media or streaming service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular graphic element positioned at the center, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Rectangular graphic element",
+      "description": "A rectangular graphic element located at the center, possibly representing a video or image placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Another rectangular element",
+      "description": "Another rectangular graphic element at the center, complementing the previous shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A small decorative element positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Stream the hype Cancel anytime' in a prominent position at the center.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        29,
+        307,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.692
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo of 'BingeLayer' displayed at the top, featuring a modern font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        23,
+        27,
+        162,
+        59
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.056,
+        0.506,
+        0.123
+      ],
+      "center_normalized": [
+        0.289,
+        0.09
+      ],
+      "area_percentage": 2.9
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Book now', designed to attract attention.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top left corner indicating 'UGC', likely referring to user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, promoting streaming service.",
+    "layout_text": "The logo is at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype Cancel anytime, BingeLayer, Book now, UGC",
+    "elements_text": "unknown: A central graphic element that appears to be a combination of shapes, possibly representing a media or streaming service. | unknown: A small circular graphic element positioned at the center, likely decorative. | unknown: A rectangular graphic element located at the center, possibly representing a video or image placeholder. | unknown: Another rectangular graphic element at the center, complementing the previous shapes. | unknown: A small decorative element positioned at the top right corner. | body_text: Bold text stating 'Stream the hype Cancel anytime' in a prominent position at the center. text='Stream the hype Cancel anytime' | logo: The logo of 'BingeLayer' displayed at the top, featuring a modern font. text='BingeLayer' | cta: A prominent button at the bottom with the text 'Book now', designed to attract attention. text='Book now' | social_proof: A small label at the top left corner indicating 'UGC', likely referring to user-generated content. text='UGC'"
+  }
+}

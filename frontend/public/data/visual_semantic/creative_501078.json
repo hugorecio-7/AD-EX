@@ -1,0 +1,218 @@
+{
+  "creative_id": "501078",
+  "asset_file": "assets/creative_501078.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a prominent logo and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a streaming service with new hits available weekly.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "A bold, modern logo with the text 'StarVault' prominently displayed in a light color against a contrasting background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.67
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, eye-catching headline that reads 'Stream the hype' in a vibrant color, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller text below the headline that states 'New hits every week', designed to complement the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Order now' in a bold font, designed to attract immediate attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        165
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.77
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small, clear price tag displaying '€29.99', positioned to draw attention without overwhelming the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular shape that adds visual interest, positioned near the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.217,
+        0.627
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 7,
+      "role": "background",
+      "label": "Background design",
+      "description": "A vibrant green background that creates a lively atmosphere for the ad's content.",
+      "text_content": "Stream the hype New hits every week €29.92 Order now",
+      "bbox_xyxy": [
+        22,
+        205,
+        291,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.909,
+        0.934
+      ],
+      "center_normalized": [
+        0.489,
+        0.787
+      ],
+      "area_percentage": 24.69
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Top banner",
+      "description": "A rectangular banner at the top of the ad that contains the logo and enhances the overall design.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        6,
+        24,
+        240,
+        72
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.075,
+        0.75,
+        0.225
+      ],
+      "center_normalized": [
+        0.384,
+        0.15
+      ],
+      "area_percentage": 10.97
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, StarVault logo, call to action",
+    "layout_text": "The logo is at the top, followed by the headline, body text, and CTA at the bottom.",
+    "ocr_text": "StarVault, Stream the hype, New hits every week, €29.99, Order now",
+    "elements_text": "logo: A bold, modern logo with the text 'StarVault' prominently displayed in a light color against a contrasting background. | headline: A large, eye-catching headline that reads 'Stream the hype' in a vibrant color, positioned at the top of the ad. | body_text: Smaller text below the headline that states 'New hits every week', designed to complement the main message. | cta: A prominent button with the text 'Order now' in a bold font, designed to attract immediate attention. | price: A small, clear price tag displaying '€29.99', positioned to draw attention without overwhelming the main message. | unknown: A small circular shape that adds visual interest, positioned near the bottom of the ad. | decorative_element: A rectangular banner at the top of the ad that contains the logo and enhances the overall design. text='StarVault'"
+  }
+}

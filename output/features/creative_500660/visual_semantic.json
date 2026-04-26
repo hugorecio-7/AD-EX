@@ -1,0 +1,242 @@
+{
+  "creative_id": "500660",
+  "asset_file": "assets/creative_500660.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and uncluttered foundation. In the upper left corner, there is a prominent logo of 'EarnPath', presented as a light blue rounded rectangle with the brand name in white, establishing brand identity immediately. Centrally positioned within the ad is a decorative element consisting of a light blue circle with a dark blue outline, partially overlapped by a light blue square with a dark blue border. This combination of shapes creates an engaging visual focal point, adding depth and interest. Below these shapes, in the lower half of the ad, is the main headline: 'Secure & simple', in bold white text, with a smaller line below reading 'No hidden fees'. This text is centered within a blue rounded rectangle, reinforcing the message of simplicity and transparency. Near the top left corner, a small white rounded rectangle with the text 'UGC' in black adds a subtle touch of authenticity, suggesting user-generated content. At the bottom center of the ad, the call-to-action 'Start now' is displayed in black text on a white background, inviting immediate engagement from the viewer.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Secure and simple financial services with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "Trustworthy and straightforward"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Secure & Simple Text",
+      "description": "White text reading 'Secure & simple' with a smaller line below saying 'No hidden fees', centered at the bottom of a blue rounded rectangle. Positioned in the lower half of the rectangle, beneath overlapping shapes of an oval and a rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "EarnPath Logo",
+      "description": "A light blue rounded rectangle with the text 'EarnPath' in white, located in the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Blue Circle and Square Overlay",
+      "description": "A light blue circle with a dark blue outline, partially overlapped by a light blue square with a dark blue outline. Positioned centrally within a larger blue rounded rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Blue Square with Border",
+      "description": "A light blue square with a darker blue border, positioned centrally within the ad. It overlaps with an oval shape on the left side.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Secure & Simple Text",
+      "description": "White bold text reading 'Secure & simple' with smaller white text below reading 'No hidden fees', centered on a blue background.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Start Now Text",
+      "description": "Black text reading 'Start now' on a white background, located at the bottom center of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "EarnPath Logo",
+      "description": "A light blue rounded rectangle with the text 'EarnPath' in white, located in the top left corner of the ad.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "UGC Text Box",
+      "description": "A small white rounded rectangle with the text 'UGC' in black, located near the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An advertisement for EarnPath featuring a solid background with a prominent logo, decorative elements of overlapping shapes, and a clear message of 'Secure & simple' with no hidden fees. The call-to-action 'Start now' is invitingly placed at the bottom.",
+    "elements_text": "background: Solid background covering the full canvas. main_subject: EarnPath logo in the top left corner, decorative shapes in the center, headline text in the lower half.",
+    "ocr_text": "Secure & simple No hidden fees EarnPath Start now UGC",
+    "layout_text": "Literal structure: background at full canvas, EarnPath logo at top left, decorative elements at center, headline text at lower half, UGC text box near top left, CTA at bottom center."
+  }
+}

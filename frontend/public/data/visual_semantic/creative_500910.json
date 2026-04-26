@@ -1,0 +1,506 @@
+{
+  "creative_id": "500910",
+  "asset_file": "assets/creative_500910.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with a central focus on a new product collection.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a new collection with a free shipping offer.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "New collection drop",
+      "description": "A bold, prominent text element in the center, conveying the message of a new product launch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.177
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.66
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A stylized logo featuring the brand name 'ThreadMark' in a modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.49
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Free shipping offer",
+      "description": "Smaller text below the headline, stating 'Free shipping over $25' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.583,
+        0.37
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rectangular button with the text 'Get offer', designed to stand out and encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Three circular icons arranged horizontally, possibly representing product features or categories.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        90,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Additional circular icon",
+      "description": "An additional circular icon positioned to the left of the main icons, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        90,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.767,
+        0.457
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small circular icon",
+      "description": "A small circular icon positioned below the main icons, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Vertical icon",
+      "description": "A vertical rectangular icon positioned to the left of the main icons, enhancing the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Right side element",
+      "description": "An element on the right side of the ad, possibly decorative or informational.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        95,
+        319,
+        179
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.298,
+        0.999,
+        0.561
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Lower left element",
+      "description": "An element located in the lower left area, contributing to the overall composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Lower left small element",
+      "description": "A small element in the lower left area, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.529,
+        0.22,
+        0.63
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "An element in the top right corner, likely decorative or informational.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        149
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.281,
+        0.999,
+        0.466
+      ],
+      "center_normalized": [
+        0.976,
+        0.374
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Top right small element",
+      "description": "A small element in the top right area, adding to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        75,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.236,
+        0.999,
+        0.378
+      ],
+      "center_normalized": [
+        0.977,
+        0.307
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Top right corner element",
+      "description": "An element in the top right corner, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        304,
+        57,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.952,
+        0.181,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.45
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Bottom right element",
+      "description": "An element in the bottom right area, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Bottom right small element",
+      "description": "A small element in the bottom right area, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Bottom right additional element",
+      "description": "An additional element in the bottom right area, enhancing the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 18,
+      "role": "background",
+      "label": "Background color",
+      "description": "A vibrant pink background that sets a lively tone for the ad.",
+      "text_content": "New collection drop Fre _ +25 Get offer",
+      "bbox_xyxy": [
+        48,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 20.97
+    },
+    {
+      "id": 19,
+      "role": "headline",
+      "label": "ThreadMark",
+      "description": "The brand name 'ThreadMark' displayed prominently at the top left.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.122
+      ],
+      "center_normalized": [
+        0.222,
+        0.097
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 20,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge in the top right corner with the word 'SALE' in bold text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, new collection drop, free shipping offer",
+    "layout_text": "The headline is centered, the logo is at the top left, and the CTA is at the bottom center.",
+    "ocr_text": "New collection drop, Free shipping over $25, ThreadMark, SALE, Get offer",
+    "elements_text": "headline: A bold, prominent text element in the center, conveying the message of a new product launch. | logo: A stylized logo featuring the brand name 'ThreadMark' in a modern font, positioned at the top left. | body_text: Smaller text below the headline, stating 'Free shipping over $25' in a clear, readable font. | cta: A rectangular button with the text 'Get offer', designed to stand out and encourage user interaction. | decorative_element: Three circular icons arranged horizontally, possibly representing product features or categories. | decorative_element: An additional circular icon positioned to the left of the main icons, adding visual interest. | decorative_element: A small circular icon positioned below the main icons, contributing to the overall design. | decorative_element: A vertical rectangular icon positioned to the left of the main icons, enhancing the layout. | unknown: An element on the right side of the ad, possibly decorative or informational. | unknown: An element located in the lower left area, contributing to the overall composition. | unknown: A small element in the lower left area, possibly decorative. | unknown: An element in the top right corner, likely decorative or informational. | unknown: A small element in the top right area, adding to the design. | unknown: An element in the top right corner, possibly decorative. | unknown: An element in the bottom right area, contributing to the overall design. | unknown: A small element in the bottom right area, possibly decorative. | unknown: An additional element in the bottom right area, enhancing the layout. | headline: The brand name 'ThreadMark' displayed prominently at the top left. text='ThreadMark' | discount_badge: A small badge in the top right corner with the word 'SALE' in bold text. text='SALE'"
+  }
+}

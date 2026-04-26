@@ -1,0 +1,434 @@
+{
+  "creative_id": "500342",
+  "asset_file": "assets/creative_500342.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with various graphic elements and text promoting travel offers.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting travel destinations at a low price with a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "orange background",
+      "description": "A solid orange background fills the entire canvas, providing a warm and inviting base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "main graphic area",
+      "description": "A large rectangular area in the center with rounded edges, featuring a light color that contrasts with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        246,
+        164
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.771,
+        0.513
+      ],
+      "center_normalized": [
+        0.471,
+        0.376
+      ],
+      "area_percentage": 16.45
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "secondary graphic area",
+      "description": "Another large rectangular area with rounded edges, positioned slightly lower than the first, also in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "additional graphic area",
+      "description": "A smaller rectangular area with rounded edges, placed below the second graphic area, maintaining the light color theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "small graphic area",
+      "description": "A smaller rectangular area with rounded edges, located towards the top center, contrasting with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "graphic element",
+      "description": "A medium-sized rectangular area with rounded edges, positioned slightly lower and to the right of the previous elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "A small circular graphic element located towards the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "medium circular graphic",
+      "description": "A medium-sized circular graphic element positioned slightly lower and to the right of the previous circular graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.95
+    },
+    {
+      "id": 9,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "Another small circular graphic element located towards the bottom center, complementing the other graphics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.528,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 10,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "A small circular graphic element positioned towards the bottom left, balancing the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "main_subject",
+      "label": "small rectangular graphic",
+      "description": "A small rectangular graphic element located towards the bottom center, adding to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 12,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "A small circular graphic element located towards the bottom right, completing the visual arrangement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        169,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.53,
+        0.577,
+        0.627
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 13,
+      "role": "main_subject",
+      "label": "small circular graphic",
+      "description": "Another small circular graphic element positioned towards the bottom left, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.217,
+        0.627
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "main offer text",
+      "description": "Bold white text at the bottom, prominently displaying the offer with a clear call to action.",
+      "text_content": "destinations €9.99 Try for free Hotels Flights one tap",
+      "bbox_xyxy": [
+        22,
+        236,
+        259,
+        318
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.738,
+        0.809,
+        0.994
+      ],
+      "center_normalized": [
+        0.439,
+        0.866
+      ],
+      "area_percentage": 18.98
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "headline text",
+      "description": "Large white text in the center, conveying a dream-like theme with a captivating word.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        108,
+        206,
+        212,
+        236
+      ],
+      "bbox_normalized": [
+        0.338,
+        0.644,
+        0.662,
+        0.738
+      ],
+      "center_normalized": [
+        0.5,
+        0.691
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 16,
+      "role": "logo",
+      "label": "advertiser logo",
+      "description": "A small logo positioned at the top left, featuring the brand name in a simple font.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.094
+      ],
+      "area_percentage": 1.26
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small badge in the top right corner, highlighting a sale with bold text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and playful, travel destinations, offers",
+    "layout_text": "The headline is centered, the main offer text is at the bottom, and the logo is at the top left.",
+    "ocr_text": "destinations €9.99 Try for free Hotels Flights one tap, Dream, RouteBloom, SALE",
+    "elements_text": "main_subject: A large rectangular area in the center with rounded edges, featuring a light color that contrasts with the background. | main_subject: Another large rectangular area with rounded edges, positioned slightly lower than the first, also in a light color. | main_subject: A smaller rectangular area with rounded edges, placed below the second graphic area, maintaining the light color theme. | main_subject: A smaller rectangular area with rounded edges, located towards the top center, contrasting with the background. | main_subject: A medium-sized rectangular area with rounded edges, positioned slightly lower and to the right of the previous elements. | main_subject: A small circular graphic element located towards the center, adding visual interest. | main_subject: A medium-sized circular graphic element positioned slightly lower and to the right of the previous circular graphic. | main_subject: Another small circular graphic element located towards the bottom center, complementing the other graphics. | main_subject: A small circular graphic element positioned towards the bottom left, balancing the composition. | main_subject: A small rectangular graphic element located towards the bottom center, adding to the overall design. | main_subject: A small circular graphic element located towards the bottom right, completing the visual arrangement. | main_subject: Another small circular graphic element positioned towards the bottom left, enhancing the design. | body_text: Bold white text at the bottom, prominently displaying the offer with a clear call to action. text='destinations €9.99 Try for free Hotels Flights one tap' | headline: Large white text in the center, conveying a dream-like theme with a captivating word. text='Dream' | logo: A small logo positioned at the top left, featuring the brand name in a simple font. text='RouteBloom' | discount_badge: A small badge in the top right corner, highlighting a sale with bold text. text='SALE'"
+  }
+}

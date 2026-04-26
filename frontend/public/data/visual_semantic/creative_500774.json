@@ -1,0 +1,266 @@
+{
+  "creative_id": "500774",
+  "asset_file": "assets/creative_500774.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bright green background with bold text and decorative shapes.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting last-minute savings on special fares.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Bright green background",
+      "description": "A vibrant green background fills the entire canvas, creating an energetic atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "RouteBloon",
+      "description": "The text 'RouteBloon' is prominently displayed in bold, large font at the top center, conveying the brand name.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Last-minute savings",
+      "description": "The phrase 'Last-minute savings' is presented in a slightly smaller, bold font, emphasizing urgency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "The text 'Special fares today' appears below the savings message in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.342,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small green circle is positioned at the top left, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Medium circle",
+      "description": "A medium-sized green circle is located towards the bottom center, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A square shape is placed in the center, providing a contrasting element to the circular shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        240,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.668,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom center with the text 'Get offer' invites user interaction.",
+      "text_content": "Last-minute savings Special fares today",
+      "bbox_xyxy": [
+        76,
+        407,
+        284,
+        500
+      ],
+      "bbox_normalized": [
+        0.211,
+        0.636,
+        0.789,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.709
+      ],
+      "area_percentage": 8.4
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "RouteBloon",
+      "bbox_xyxy": [
+        28,
+        40,
+        360,
+        95
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        1.0,
+        0.148
+      ],
+      "center_normalized": [
+        0.539,
+        0.105
+      ],
+      "area_percentage": 7.93
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        230,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.639,
+        0.909
+      ],
+      "center_normalized": [
+        0.503,
+        0.891
+      ],
+      "area_percentage": 1.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, RouteBloon, last-minute savings, special fares.",
+    "layout_text": "The headline is at the top center, body text is in the middle, and the CTA is at the bottom center.",
+    "ocr_text": "Last-minute savings, Special fares today, RouteBloon, Get offer",
+    "elements_text": "headline: The text 'RouteBloon' is prominently displayed in bold, large font at the top center, conveying the brand name. | body_text: The phrase 'Last-minute savings' is presented in a slightly smaller, bold font, emphasizing urgency. | body_text: The text 'Special fares today' appears below the savings message in a clear, readable font. | decorative_element: A small green circle is positioned at the top left, adding a decorative touch to the design. | decorative_element: A medium-sized green circle is located towards the bottom center, enhancing the visual interest. | decorative_element: A square shape is placed in the center, providing a contrasting element to the circular shapes. | cta: A rounded button at the bottom center with the text 'Get offer' invites user interaction. text='Last-minute savings Special fares today' | unknown:  text='RouteBloon' | unknown:  text='Get offer'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500986",
+  "asset_file": "assets/creative_500986.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with geometric shapes and clear messaging.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a secure payment service with no hidden fees.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are outlined in a lighter shade, creating a modern design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        157,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.21
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small shape",
+      "description": "A small, faintly outlined shape positioned towards the bottom center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        312,
+        171,
+        332
+      ],
+      "bbox_normalized": [
+        0.475,
+        0.651,
+        0.536,
+        0.693
+      ],
+      "center_normalized": [
+        0.505,
+        0.672
+      ],
+      "area_percentage": 0.26
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Secure & simple' is prominently displayed in bold, white font, with a smaller line below stating 'No hidden fees'.",
+      "text_content": "Secure simple No hidden fees",
+      "bbox_xyxy": [
+        34,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.505,
+        0.69
+      ],
+      "area_percentage": 7.97
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The 'NovaPay' logo appears in a bold, modern font at the top left, colored in white for contrast.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        23,
+        28,
+        130,
+        56
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.058,
+        0.406,
+        0.117
+      ],
+      "center_normalized": [
+        0.239,
+        0.087
+      ],
+      "area_percentage": 1.95
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A bright yellow button at the bottom center with the text 'Claim reward' in bold, inviting users to take action.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting color, drawing attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, secure payment service, geometric shapes",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Secure & simple, No hidden fees, NovaPay, Claim reward, SALE",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, are outlined in a lighter shade, creating a modern design element. | unknown: A small, faintly outlined shape positioned towards the bottom center, adding visual interest. | body_text: The text 'Secure & simple' is prominently displayed in bold, white font, with a smaller line below stating 'No hidden fees'. text='Secure simple No hidden fees' | logo: The 'NovaPay' logo appears in a bold, modern font at the top left, colored in white for contrast. text='NovaPay' | cta: A bright yellow button at the bottom center with the text 'Claim reward' in bold, inviting users to take action. text='Claim reward' | discount_badge: A small, circular badge in the top right corner with the word 'SALE' in bold, contrasting color, drawing attention. text='SALE'"
+  }
+}

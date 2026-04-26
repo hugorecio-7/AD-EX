@@ -1,0 +1,194 @@
+{
+  "creative_id": "500921",
+  "asset_file": "assets/creative_500921.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on a travel offer.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting special fares for weekend getaways.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A prominent logo at the top of the ad, featuring the word 'DriftPass' in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge at the top right corner with the word 'SALE' in bold letters.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.224,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Weekend escape offer",
+      "description": "A large, bold headline in the center of the ad that reads 'Escape this weekend' with a slightly smaller subtext below it.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "A smaller text below the headline that states 'Special fares today' in a clean, readable font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        26,
+        39,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.324,
+        0.092
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent call-to-action button at the bottom of the ad with the text 'Book now' in a contrasting color.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, including a large rectangle and a circle, adding visual interest without distracting from the text.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, DriftPass logo, weekend escape offer",
+    "layout_text": "The logo is at the top, followed by the headline in the center, body text below it, and the CTA button at the bottom.",
+    "ocr_text": "Escape this weekend, Special fares today, DriftPass, SALE, Book now",
+    "elements_text": "logo: A prominent logo at the top of the ad, featuring the word 'DriftPass' in bold, modern typography. | discount_badge: A small, bright yellow badge at the top right corner with the word 'SALE' in bold letters. | headline: A large, bold headline in the center of the ad that reads 'Escape this weekend' with a slightly smaller subtext below it. text='Escape this weekend Special fares today' | body_text: A smaller text below the headline that states 'Special fares today' in a clean, readable font. text='DriftPass' | cta: A prominent call-to-action button at the bottom of the ad with the text 'Book now' in a contrasting color. text='Book now' | decorative_element: Abstract shapes in the background, including a large rectangle and a circle, adding visual interest without distracting from the text. text='SALE'"
+  }
+}

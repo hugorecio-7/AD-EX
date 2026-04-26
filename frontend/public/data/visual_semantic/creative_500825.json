@@ -1,0 +1,194 @@
+{
+  "creative_id": "500825",
+  "asset_file": "assets/creative_500825.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on a streaming service announcement.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting new content available for streaming.",
+    "dominant_colors": [
+      "gray",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Main visual element",
+      "description": "A large abstract shape featuring a circle and a square in a muted color palette.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.764,
+        0.482
+      ],
+      "center_normalized": [
+        0.467,
+        0.361
+      ],
+      "area_percentage": 14.38
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The logo text 'BingeLayer' is displayed prominently at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A small circular decorative element positioned towards the bottom of the main visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Season announcement",
+      "description": "The headline text 'A new season drops' is centered in a large, bold font, conveying excitement.",
+      "text_content": "A new season drops New hits every week",
+      "bbox_xyxy": [
+        65,
+        413,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Weekly hits message",
+      "description": "The text 'New hits every week' is displayed below the headline in a smaller, lighter font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        21,
+        31,
+        250,
+        84
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.694,
+        0.131
+      ],
+      "center_normalized": [
+        0.376,
+        0.09
+      ],
+      "area_percentage": 5.27
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Book now' in a clear, inviting style at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold typography, BingeLayer logo, call to action.",
+    "layout_text": "The logo is at the top, the main visual is centered, the headline is in the middle, followed by body text, and the CTA is at the bottom.",
+    "ocr_text": "A new season drops, New hits every week, BingeLayer, Book now",
+    "elements_text": "unknown: A large abstract shape featuring a circle and a square in a muted color palette. | logo: The logo text 'BingeLayer' is displayed prominently at the top in a bold, modern font. | decorative_element: A small circular decorative element positioned towards the bottom of the main visual. | headline: The headline text 'A new season drops' is centered in a large, bold font, conveying excitement. text='A new season drops New hits every week' | body_text: The text 'New hits every week' is displayed below the headline in a smaller, lighter font. text='BingeLayer' | cta: A button with the text 'Book now' in a clear, inviting style at the bottom of the ad. text='Book now'"
+  }
+}

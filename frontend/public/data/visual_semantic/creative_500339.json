@@ -1,0 +1,242 @@
+{
+  "creative_id": "500339",
+  "asset_file": "assets/creative_500339.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with prominent text and call-to-action elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to track their spending with a fast signup process.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A simple logo featuring the text 'NovaPay' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Track every euro' in a large, bold font, centrally positioned for emphasis.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller text below the main message that says 'Fast signup, instant card', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Watch now', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Graphic shapes",
+      "description": "Two overlapping geometric shapes in the center, adding visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'Track every euro Fast signup, instant card' is bold and eye-catching, located at the bottom.",
+      "text_content": "Track every euro Fast signup, instant card",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.716
+      ],
+      "area_percentage": 13.2
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A small button at the bottom with the text 'Watch now', encouraging immediate action.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.99
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "The logo 'NovaPay' appears at the top left corner, reinforcing brand identity.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        24,
+        19,
+        93,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.291,
+        0.116
+      ],
+      "center_normalized": [
+        0.183,
+        0.087
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, NovaPay logo, call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, Fast signup, instant card, Watch now, NovaPay",
+    "elements_text": "logo: A simple logo featuring the text 'NovaPay' in a bold font, positioned at the top of the ad. | body_text: Text that reads 'Track every euro' in a large, bold font, centrally positioned for emphasis. | body_text: Smaller text below the main message that says 'Fast signup, instant card', providing additional information. | cta: A prominent button with the text 'Watch now', designed to attract user interaction. | decorative_element: Two overlapping geometric shapes in the center, adding visual interest to the ad. | headline: The main headline text 'Track every euro Fast signup, instant card' is bold and eye-catching, located at the bottom. text='Track every euro Fast signup, instant card' | cta: A small button at the bottom with the text 'Watch now', encouraging immediate action. text='Watch now' | logo: The logo 'NovaPay' appears at the top left corner, reinforcing brand identity. text='NovaPay'"
+  }
+}

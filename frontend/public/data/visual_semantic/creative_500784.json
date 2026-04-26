@@ -1,0 +1,290 @@
+{
+  "creative_id": "500784",
+  "asset_file": "assets/creative_500784.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on food delivery services.",
+    "visual_style": "bright and modern",
+    "main_message": "The ad promotes a food delivery service with a special offer.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        63,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.199,
+        0.953,
+        0.737
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.61
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "CraveLoop logo",
+      "description": "The logo features the text 'CraveLoop' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text reads 'Hungry? We got you' in a large, friendly font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.367,
+        0.399
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Delivery information",
+      "description": "The text 'Free delivery over $15' is displayed in a smaller font, positioned below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        163,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.512,
+        0.457
+      ],
+      "center_normalized": [
+        0.331,
+        0.368
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button with the text 'Claim reward' in a contrasting color, centered at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge in the top right corner with the word 'SALE' in bold, eye-catching text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative icons",
+      "description": "Two simple outline icons are displayed above the main text, suggesting food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "Another decorative element that complements the overall design, possibly an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Background area",
+      "description": "The lower part of the ad contains a larger area that supports the main message and CTA.",
+      "text_content": "Hungry? We got you Fre ~ lk Claim reward",
+      "bbox_xyxy": [
+        37,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.116,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.509,
+        0.787
+      ],
+      "area_percentage": 23.13
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "CraveLoop logo",
+      "description": "The logo appears prominently at the top, reinforcing brand identity.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small, bright badge indicating a sale, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, CraveLoop, food delivery, sale offer",
+    "layout_text": "The logo is at the top, followed by the main message in the center, and the CTA at the bottom.",
+    "ocr_text": "Hungry? We got you, Free delivery over $15, Claim reward, CraveLoop, SALE",
+    "elements_text": "headline: The logo features the text 'CraveLoop' in a bold, modern font, positioned at the top of the ad. | body_text: The text reads 'Hungry? We got you' in a large, friendly font, centered in the middle of the ad. | body_text: The text 'Free delivery over $15' is displayed in a smaller font, positioned below the main message. | cta: A prominent button with the text 'Claim reward' in a contrasting color, centered at the bottom of the ad. | discount_badge: A small badge in the top right corner with the word 'SALE' in bold, eye-catching text. | unknown: Two simple outline icons are displayed above the main text, suggesting food items. | unknown: Another decorative element that complements the overall design, possibly an icon or graphic. | unknown: The lower part of the ad contains a larger area that supports the main message and CTA. text='Hungry? We got you Fre ~ lk Claim reward' | logo: The logo appears prominently at the top, reinforcing brand identity. text='CraveLoop' | discount_badge: A small, bright badge indicating a sale, positioned at the top right corner. text='SALE'"
+  }
+}

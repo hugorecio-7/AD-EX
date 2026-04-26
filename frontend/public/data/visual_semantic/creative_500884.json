@@ -1,0 +1,386 @@
+{
+  "creative_id": "500884",
+  "asset_file": "assets/creative_500884.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on promotional text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares with a call to action to try for free.",
+    "dominant_colors": [
+      "green",
+      "dark green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green abstract background",
+      "description": "A vibrant green abstract background with geometric shapes creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        163
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.256
+      ],
+      "center_normalized": [
+        0.499,
+        0.128
+      ],
+      "area_percentage": 25.54
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center featuring lighter green tones, providing a space for text and images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        358,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.997,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.24
+      ],
+      "area_percentage": 23.48
+    },
+    {
+      "id": 3,
+      "role": "background",
+      "label": "Top background layer",
+      "description": "A lighter green top layer that blends into the main content area, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        143
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.225
+      ],
+      "center_normalized": [
+        0.499,
+        0.112
+      ],
+      "area_percentage": 22.42
+    },
+    {
+      "id": 4,
+      "role": "background",
+      "label": "Upper background layer",
+      "description": "A subtle green upper layer that adds depth to the ad's background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, dark text stating 'Fly smarter' prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.14
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller, dark text below the headline that reads 'Special fares today', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        207,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.324,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.421
+      ],
+      "area_percentage": 11.44
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A logo featuring the text 'CloudRoute' in a clean, modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A dark button at the bottom with rounded edges that says 'Try for free', inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small badge labeled 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.087,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Discount percentage",
+      "description": "A small, bold text displaying '-30%' in the bottom left corner, highlighting a discount offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        240,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.668,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Additional information text",
+      "description": "Text at the bottom of the ad that reinforces the offer, positioned in a clear, readable font.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        81,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.685
+      ],
+      "area_percentage": 4.82
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller button at the bottom with the text 'Try for free', encouraging user engagement.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "CloudRoute branding",
+      "description": "The brand name 'CloudRoute' displayed prominently at the top of the ad.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 14,
+      "role": "discount_badge",
+      "label": "Discount label",
+      "description": "A small badge showing '30%' in the bottom left corner, indicating a promotional offer.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        35,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.172,
+        0.848
+      ],
+      "area_percentage": 0.47
+    },
+    {
+      "id": 15,
+      "role": "decorative_element",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in the top left corner, serving as a decorative element.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, Fly smarter, Special fares today, Try for free",
+    "layout_text": "The headline is centered at the top, followed by the subheadline, with the call to action button at the bottom.",
+    "ocr_text": "Fly smarter Special fares today, Try for free, CloudRoute, 30%, UGC",
+    "elements_text": "main_subject: A large rectangular area in the center featuring lighter green tones, providing a space for text and images. | headline: Bold, dark text stating 'Fly smarter' prominently displayed in the center of the ad. | body_text: Smaller, dark text below the headline that reads 'Special fares today', providing additional information. | logo: A logo featuring the text 'CloudRoute' in a clean, modern font, positioned at the top left. | cta: A dark button at the bottom with rounded edges that says 'Try for free', inviting user interaction. | social_proof: A small badge labeled 'UGC' in the top left corner, indicating user-generated content. | discount_badge: A small, bold text displaying '-30%' in the bottom left corner, highlighting a discount offer. | body_text: Text at the bottom of the ad that reinforces the offer, positioned in a clear, readable font. text='Fly smarter Special fares today' | cta: A smaller button at the bottom with the text 'Try for free', encouraging user engagement. text='Try for free' | logo: The brand name 'CloudRoute' displayed prominently at the top of the ad. text='CloudRoute' | discount_badge: A small badge showing '30%' in the bottom left corner, indicating a promotional offer. text='30%' | decorative_element: A small tag labeled 'UGC' in the top left corner, serving as a decorative element. text='UGC'"
+  }
+}

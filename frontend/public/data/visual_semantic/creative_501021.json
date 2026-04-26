@@ -1,0 +1,170 @@
+{
+  "creative_id": "501021",
+  "asset_file": "assets/creative_501021.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on text and abstract shapes.",
+    "visual_style": "minimalist with blue tones",
+    "main_message": "Promoting ClearLedger with a focus on transparency in financial services.",
+    "dominant_colors": [
+      "light blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A combination of a circle and a rectangle in a light blue color, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        134,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.279,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.4
+      ],
+      "area_percentage": 14.56
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A larger rectangle in a light blue color, also centered, overlapping with the other shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Bold white text stating 'Your money, clearer' with a smaller line below it saying 'No hidden fees', centered at the bottom.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        63,
+        307,
+        257,
+        387
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.64,
+        0.803,
+        0.806
+      ],
+      "center_normalized": [
+        0.5,
+        0.723
+      ],
+      "area_percentage": 10.1
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A simple logo with the text 'ClearLedger' in white, positioned at the top of the ad.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        23,
+        173,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.048,
+        0.541,
+        0.125
+      ],
+      "center_normalized": [
+        0.305,
+        0.086
+      ],
+      "area_percentage": 3.64
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A prominent white button with the text 'Get offer' at the bottom center of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with blue tones, ClearLedger, financial transparency",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, ClearLedger, Get offer",
+    "elements_text": "unknown: A combination of a circle and a rectangle in a light blue color, positioned in the center of the ad. | unknown: A larger rectangle in a light blue color, also centered, overlapping with the other shapes. | body_text: Bold white text stating 'Your money, clearer' with a smaller line below it saying 'No hidden fees', centered at the bottom. text='Your money, clearer No hidden fees' | logo: A simple logo with the text 'ClearLedger' in white, positioned at the top of the ad. text='ClearLedger' | cta: A prominent white button with the text 'Get offer' at the bottom center of the ad. text='Get offer'"
+  }
+}

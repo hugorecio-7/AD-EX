@@ -1,0 +1,170 @@
+{
+  "creative_id": "500919",
+  "asset_file": "assets/creative_500919.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a travel promotion with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book travel with special fares.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A bold, stylized logo with the text 'DriftPass' prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract decorative shape in the center, possibly a circle or square, with a light color that contrasts the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Travel promotion headline",
+      "description": "A large, eye-catching text that reads 'Book your next trip' in a prominent font, located at the bottom of the ad.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Special fares text",
+      "description": "A smaller text below the headline that states 'Special fares today', designed to attract attention to the offer.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        26,
+        40,
+        302,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.839,
+        0.15
+      ],
+      "center_normalized": [
+        0.456,
+        0.106
+      ],
+      "area_percentage": 6.71
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom of the ad with the text 'Install now', designed to encourage immediate action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, DriftPass logo, travel promotion.",
+    "layout_text": "The logo is at the top, followed by a decorative shape in the center, with the headline and body text at the bottom, and the CTA button below.",
+    "ocr_text": "Book your next trip, Special fares today, DriftPass, Install now",
+    "elements_text": "logo: A bold, stylized logo with the text 'DriftPass' prominently displayed at the top of the ad. | unknown: An abstract decorative shape in the center, possibly a circle or square, with a light color that contrasts the background. | headline: A large, eye-catching text that reads 'Book your next trip' in a prominent font, located at the bottom of the ad. text='Book your next trip Special fares today' | body_text: A smaller text below the headline that states 'Special fares today', designed to attract attention to the offer. text='DriftPass' | cta: A rounded button at the bottom of the ad with the text 'Install now', designed to encourage immediate action. text='Install now'"
+  }
+}
