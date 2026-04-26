@@ -36,6 +36,11 @@ def _load_model():
     if _model is not None:
         return _model, _features
 
+    # On Windows, this model file crashes the native LightGBM runtime in this
+    # project setup. Force the caller to use the safe heuristic fallback.
+    if os.name == "nt":
+        raise RuntimeError("LightGBM evaluator disabled on Windows; using fallback scorer")
+
     try:
         import lightgbm as lgb
         import joblib

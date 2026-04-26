@@ -36,7 +36,10 @@ def build_prompt(metadata: dict, missing_features: list[str]) -> str:
     parts = []
 
     # Base quality anchor
-    parts.append("high quality professional mobile advertising creative")
+    parts.append(
+        "high quality professional mobile advertising creative, "
+        "preserve original layout, composition, product, logo placement and brand identity"
+    )
 
     # Attempt to load semantic description from visual_semantic.json to anchor the generation
     creative_id = str(metadata.get("id", ""))
@@ -98,14 +101,18 @@ def build_prompt(metadata: dict, missing_features: list[str]) -> str:
 
     # Missing visual features (should be descriptions, not labels)
     if missing_features:
-        for feat in missing_features[:4]:
+        for feat in missing_features[:2]:
             feat = feat.strip()
             # Skip any metadata labels that slipped through
             skip_words = ("format", "themed", "hook style", "ad format", "objective", "vertical")
             if not any(w in feat.lower() for w in skip_words):
-                parts.append(feat)
+                # Keep feature transfer subtle so outputs stay close to the source creative.
+                parts.append(f"subtle {feat}")
 
     # Quality tail
-    parts.append("vibrant professional render, sharp focus, 8k resolution, no text, no typography")
+    parts.append(
+        "minor refinements only, coherent with existing creative, "
+        "vibrant professional render, sharp focus, 8k resolution, no text, no typography"
+    )
 
     return ", ".join(parts)
