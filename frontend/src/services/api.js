@@ -76,7 +76,7 @@ export const evaluateCreative = async (creativeId) => {
   return null;
 };
 
-export const askCreativeChat = async (creativeId, message, history = [], language = 'catalan', agentic = false) => {
+export const askCreativeChat = async (creativeId, message, history = [], language = 'english', agentic = false) => {
   try {
     const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/chat`, {
       method: 'POST',

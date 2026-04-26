@@ -36,7 +36,7 @@ class CreativeChatMessage(BaseModel):
 class CreativeChatRequest(BaseModel):
     message: str = Field(..., min_length=1)
     history: list[CreativeChatMessage] = Field(default_factory=list)
-    language: str = "catalan"
+    language: str = "english"
     agentic: bool = False   # If True, detect modify intent and return action
 
 
@@ -174,8 +174,17 @@ ADDITIONAL RULE (AGENTIC MODE):
 At the very end of your response, append a JSON block on a NEW LINE (and only if a concrete visual change is requested), in exactly this format:
 
 ```json
-{"intent": "modify", "description": "<one-line description of the change>", "diffusion_prompt": "<SD inpainting prompt to apply the change>"}
+{"intent": "modify", "description": "<one-line description of the change>", "diffusion_prompt": "<SD inpainting prompt>"}
 ```
+
+RULES FOR diffusion_prompt (these are critical — bad prompts produce bad results):
+1. DESCRIPTIVE not IMPERATIVE. Describe the desired FINAL appearance, not an instruction.
+   BAD:  "Change the background to blue"
+   GOOD: "vibrant blue gradient background with soft abstract shapes, professional ad layout"
+2. Keep it SHORT — under 30 words. SD follows shorter prompts much better.
+3. NEVER mention text, words, letters, copy, headline, typography, or CTA in the prompt.
+4. Include "same composition, same layout" to preserve the original structure.
+5. End with "no text, no writing, no typography" as reinforcement.
 
 If the user is NOT requesting a change (just asking a question), do NOT append any JSON block.
 Do not mention the JSON to the user. It is invisible to them.
@@ -479,11 +488,8 @@ async def implement_chat_suggestion(creative_id: str, payload: ImplementRequest,
         }
         store_new_creative(new_id, new_entry)   # append as new entry, not replace original
 
-        try:
-            from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
-            enrich_upgraded_creative(creative_id, new_id, dst)
-        except Exception as e:
-            print(f"[API] Background enrichment trigger failed: {e}")
+        # NOTE: SAM enrichment is NOT triggered here.
+        # Frontend calls POST /enrich only after the user clicks 'Replace Image'.
 
         return {
             "success": True,

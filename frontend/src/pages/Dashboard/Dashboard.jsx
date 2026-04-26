@@ -15,7 +15,7 @@ function Dashboard() {
     theme: 'All',
     hook_type: 'All'
   });
-  const [sortOrder, setSortOrder] = useState('score');
+  const [sortOrder, setSortOrder] = useState('fatigue');
   const [selectedCreative, setSelectedCreative] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedChatCreative, setSelectedChatCreative] = useState(null);
@@ -28,7 +28,9 @@ function Dashboard() {
     const originalId = selectedCreative?.id;
     updateCreativeImage(originalId, newUrl);
     const patch = (c) =>
-      c.id === originalId ? { ...c, image_url: newUrl + '?t=' + Date.now(), is_upgraded: true } : c;
+      c.id === originalId
+        ? { ...c, image_url: newUrl + '?t=' + Date.now(), is_upgraded: true, fatigued: false }
+        : c;
     setCreatives(prev => prev.map(patch));
     setAllCreatives(prev => prev.map(patch));
     setIsModalOpen(false);
@@ -41,11 +43,13 @@ function Dashboard() {
     updateCreativeImage(originalId, newUrl);
     const urlWithBust = newUrl + '?t=' + Date.now();
     const patch = (c) =>
-      c.id === originalId ? { ...c, image_url: urlWithBust, is_upgraded: true } : c;
+      c.id === originalId
+        ? { ...c, image_url: urlWithBust, is_upgraded: true, fatigued: false }
+        : c;
     setCreatives(prev => prev.map(patch));
     setAllCreatives(prev => prev.map(patch));
     // Update the chat creative ref so subsequent implements use the new image context
-    setSelectedChatCreative(prev => prev ? { ...prev, image_url: urlWithBust } : prev);
+    setSelectedChatCreative(prev => prev ? { ...prev, image_url: urlWithBust, fatigued: false } : prev);
   };
 
   useEffect(() => {

@@ -107,7 +107,7 @@ export default function CreativeChatModal({ creative, isOpen, onClose, onApplyIm
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
-  const [language, setLanguage] = useState('catalan');
+  const [language, setLanguage] = useState('english');
   const [implementingId, setImplementingId] = useState(null);
   const scrollRef = useRef(null);
 

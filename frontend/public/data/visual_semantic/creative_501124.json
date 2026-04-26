@@ -1,0 +1,434 @@
+{
+  "creative_id": "501124",
+  "asset_file": "assets/creative_501124.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with various food-related icons and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "QuickFork offers quick dinner solutions with late-night deals.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green gradient background",
+      "description": "A smooth green gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface elements",
+      "description": "A series of simple icons representing food items and utensils arranged in a grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        46,
+        150,
+        90,
+        205
+      ],
+      "bbox_normalized": [
+        0.145,
+        0.314,
+        0.283,
+        0.429
+      ],
+      "center_normalized": [
+        0.214,
+        0.372
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Food icons",
+      "description": "Stylized icons of food items, such as a plate and utensils, displayed prominently.",
+      "text_content": null,
+      "bbox_xyxy": [
+        120,
+        151,
+        164,
+        205
+      ],
+      "bbox_normalized": [
+        0.376,
+        0.315,
+        0.513,
+        0.428
+      ],
+      "center_normalized": [
+        0.445,
+        0.372
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Food preparation icons",
+      "description": "Icons depicting food preparation actions, like chopping and mixing, in a clean design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        217,
+        155,
+        270,
+        196
+      ],
+      "bbox_normalized": [
+        0.678,
+        0.324,
+        0.844,
+        0.41
+      ],
+      "center_normalized": [
+        0.761,
+        0.367
+      ],
+      "area_percentage": 1.42
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Cooking icons",
+      "description": "Icons illustrating cooking methods, such as boiling and frying, in a minimalistic style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        225,
+        257,
+        275,
+        297
+      ],
+      "bbox_normalized": [
+        0.705,
+        0.536,
+        0.86,
+        0.619
+      ],
+      "center_normalized": [
+        0.782,
+        0.578
+      ],
+      "area_percentage": 1.29
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Additional food icons",
+      "description": "More icons representing various food items, arranged in a visually appealing manner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        153,
+        101,
+        205
+      ],
+      "bbox_normalized": [
+        0.204,
+        0.319,
+        0.318,
+        0.428
+      ],
+      "center_normalized": [
+        0.261,
+        0.374
+      ],
+      "area_percentage": 1.24
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "Cooking tools icons",
+      "description": "Icons of cooking tools like pots and pans, designed with a modern aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        138,
+        154,
+        173,
+        205
+      ],
+      "bbox_normalized": [
+        0.434,
+        0.321,
+        0.543,
+        0.429
+      ],
+      "center_normalized": [
+        0.489,
+        0.375
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Small decorative icon",
+      "description": "A small decorative icon that adds visual interest, possibly a leaf or herb.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        229,
+        128,
+        262
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.478,
+        0.403,
+        0.547
+      ],
+      "center_normalized": [
+        0.35,
+        0.512
+      ],
+      "area_percentage": 0.73
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Small decorative icon",
+      "description": "Another small decorative icon, enhancing the overall design with a subtle touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        71,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.546,
+        0.224,
+        0.613
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.71
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Small decorative icon",
+      "description": "A small icon that complements the theme, possibly representing freshness or health.",
+      "text_content": null,
+      "bbox_xyxy": [
+        152,
+        262,
+        186,
+        294
+      ],
+      "bbox_normalized": [
+        0.476,
+        0.546,
+        0.582,
+        0.613
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.71
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Small decorative icon",
+      "description": "A tiny icon that adds to the visual appeal, likely related to food or cooking.",
+      "text_content": null,
+      "bbox_xyxy": [
+        95,
+        271,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.566,
+        0.401,
+        0.634
+      ],
+      "center_normalized": [
+        0.349,
+        0.6
+      ],
+      "area_percentage": 0.7
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold text stating 'Dinner in minutes' with a secondary line about late-night deals.",
+      "text_content": "Dinner in minutes Late-night deals available",
+      "bbox_xyxy": [
+        63,
+        308,
+        259,
+        389
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.642,
+        0.809,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.726
+      ],
+      "area_percentage": 10.34
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo of 'QuickFork' displayed prominently at the top, featuring a modern font.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear and inviting button that says 'Try for free', encouraging user interaction.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Secondary text",
+      "description": "Text reading 'Adetlanty', likely a brand or feature name, presented in a smaller font.",
+      "text_content": "Adetlanty",
+      "bbox_xyxy": [
+        42,
+        128,
+        109,
+        146
+      ],
+      "bbox_normalized": [
+        0.131,
+        0.267,
+        0.341,
+        0.304
+      ],
+      "center_normalized": [
+        0.236,
+        0.285
+      ],
+      "area_percentage": 0.79
+    },
+    {
+      "id": 16,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge that says 'SALE', designed to catch the viewer's attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        35,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.825,
+        0.092
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 17,
+      "role": "decorative_element",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC', indicating user-generated content, placed in a corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, QuickFork, late-night deals",
+    "layout_text": "The logo is at the top, followed by the main promotional text in the center, with the CTA at the bottom.",
+    "ocr_text": "Dinner in minutes, Late-night deals available, QuickFork, Try for free, Adetlanty, SALE, UGC",
+    "elements_text": "app_screenshot: A series of simple icons representing food items and utensils arranged in a grid layout. | app_screenshot: Stylized icons of food items, such as a plate and utensils, displayed prominently. | app_screenshot: Icons depicting food preparation actions, like chopping and mixing, in a clean design. | app_screenshot: Icons illustrating cooking methods, such as boiling and frying, in a minimalistic style. | app_screenshot: More icons representing various food items, arranged in a visually appealing manner. | app_screenshot: Icons of cooking tools like pots and pans, designed with a modern aesthetic. | icon: A small decorative icon that adds visual interest, possibly a leaf or herb. | icon: Another small decorative icon, enhancing the overall design with a subtle touch. | icon: A small icon that complements the theme, possibly representing freshness or health. | icon: A tiny icon that adds to the visual appeal, likely related to food or cooking. | body_text: Bold text stating 'Dinner in minutes' with a secondary line about late-night deals. text='Dinner in minutes Late-night deals available' | logo: The logo of 'QuickFork' displayed prominently at the top, featuring a modern font. text='QuickFork' | cta: A clear and inviting button that says 'Try for free', encouraging user interaction. text='Try for free' | body_text: Text reading 'Adetlanty', likely a brand or feature name, presented in a smaller font. text='Adetlanty' | discount_badge: A small badge that says 'SALE', designed to catch the viewer's attention. text='SALE' | decorative_element: A small tag labeled 'UGC', indicating user-generated content, placed in a corner. text='UGC'"
+  }
+}
