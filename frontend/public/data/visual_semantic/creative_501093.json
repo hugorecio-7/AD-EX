@@ -1,0 +1,458 @@
+{
+  "creative_id": "501093",
+  "asset_file": "assets/creative_501093.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a smartphone display showcasing a flash sale with various promotional texts and buttons.",
+    "visual_style": "modern and sleek",
+    "main_message": "Promoting a flash sale with a call to action for rewards.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "phone display background",
+      "description": "A sleek smartphone display showing various app elements and a vibrant background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        23,
+        55,
+        338,
+        639
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.087,
+        0.939,
+        0.999
+      ],
+      "center_normalized": [
+        0.502,
+        0.543
+      ],
+      "area_percentage": 79.81
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VantaStyle logo",
+      "description": "A stylized logo at the top of the screen, featuring modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        35
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.055
+      ],
+      "center_normalized": [
+        0.499,
+        0.027
+      ],
+      "area_percentage": 5.46
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "main promotional text",
+      "description": "Bold text in the center of the screen announcing a flash sale with a dynamic font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        320,
+        219,
+        388
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.5,
+        0.609,
+        0.607
+      ],
+      "center_normalized": [
+        0.504,
+        0.554
+      ],
+      "area_percentage": 2.26
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "claim reward button",
+      "description": "A prominent button at the bottom of the screen inviting users to claim a reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        338,
+        320,
+        359,
+        358
+      ],
+      "bbox_normalized": [
+        0.941,
+        0.5,
+        0.998,
+        0.56
+      ],
+      "center_normalized": [
+        0.97,
+        0.53
+      ],
+      "area_percentage": 0.34
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "30% discount badge",
+      "description": "A small badge displaying a 30% discount in a bright color, positioned at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        50,
+        479,
+        78,
+        506
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.749,
+        0.217,
+        0.792
+      ],
+      "center_normalized": [
+        0.179,
+        0.771
+      ],
+      "area_percentage": 0.33
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "additional promotional text",
+      "description": "Text in the center with a smaller font size, providing more details about the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        138,
+        291,
+        168,
+        314
+      ],
+      "bbox_normalized": [
+        0.384,
+        0.456,
+        0.469,
+        0.491
+      ],
+      "center_normalized": [
+        0.426,
+        0.474
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "secondary text",
+      "description": "A small text element providing additional information, located slightly above the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        33,
+        246,
+        56,
+        267
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.386,
+        0.156,
+        0.418
+      ],
+      "center_normalized": [
+        0.124,
+        0.402
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "extra promotional text",
+      "description": "Another small text element near the main promotional text, enhancing the offer details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        121,
+        298,
+        137,
+        313
+      ],
+      "bbox_normalized": [
+        0.337,
+        0.467,
+        0.382,
+        0.49
+      ],
+      "center_normalized": [
+        0.359,
+        0.479
+      ],
+      "area_percentage": 0.11
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "flash sale announcement",
+      "description": "Text at the bottom of the screen announcing the flash sale with urgency.",
+      "text_content": "Flash sale live Shop bestsellers now DuU: prirgb3l4f1| Laln 96K",
+      "bbox_xyxy": [
+        57,
+        409,
+        326,
+        507
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.639,
+        0.906,
+        0.792
+      ],
+      "center_normalized": [
+        0.532,
+        0.716
+      ],
+      "area_percentage": 11.44
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "claim reward text",
+      "description": "Text on the claim reward button, encouraging users to take action.",
+      "text_content": "30% STYao Claim reward",
+      "bbox_xyxy": [
+        36,
+        529,
+        336,
+        581
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.827,
+        0.933,
+        0.908
+      ],
+      "center_normalized": [
+        0.517,
+        0.867
+      ],
+      "area_percentage": 6.77
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "A text element that appears distorted or unclear, making it hard to interpret.",
+      "text_content": "Ozilniela Crt tultaurl Durlcrtinc]nculd an Uaiun ClhruWUlTionuiglldu Eeed",
+      "bbox_xyxy": [
+        71,
+        249,
+        291,
+        288
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.389,
+        0.808,
+        0.45
+      ],
+      "center_normalized": [
+        0.503,
+        0.42
+      ],
+      "area_percentage": 3.72
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "VantaStyle tagline",
+      "description": "A tagline positioned at the top, featuring a modern font style.",
+      "text_content": "VantaStyle fatlom",
+      "bbox_xyxy": [
+        25,
+        44,
+        233,
+        73
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.069,
+        0.647,
+        0.114
+      ],
+      "center_normalized": [
+        0.358,
+        0.091
+      ],
+      "area_percentage": 2.62
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "Another unclear text element that does not convey a clear message.",
+      "text_content": "OD;? Mnisal IAGIJ",
+      "bbox_xyxy": [
+        53,
+        151,
+        145,
+        183
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.236,
+        0.403,
+        0.286
+      ],
+      "center_normalized": [
+        0.275,
+        0.261
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "A small text element that is difficult to read or interpret.",
+      "text_content": "Dntam Rniisi",
+      "bbox_xyxy": [
+        259,
+        153,
+        323,
+        182
+      ],
+      "bbox_normalized": [
+        0.719,
+        0.239,
+        0.897,
+        0.284
+      ],
+      "center_normalized": [
+        0.808,
+        0.262
+      ],
+      "area_percentage": 0.81
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "A text element that appears distorted or unclear, making it hard to interpret.",
+      "text_content": "DfJOC Ilan",
+      "bbox_xyxy": [
+        78,
+        193,
+        135,
+        212
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.302,
+        0.375,
+        0.331
+      ],
+      "center_normalized": [
+        0.296,
+        0.316
+      ],
+      "area_percentage": 0.47
+    },
+    {
+      "id": 16,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge indicating a sale, prominently displayed at the top.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "A text element that appears distorted or unclear, making it hard to interpret.",
+      "text_content": "mro _JTSnTu",
+      "bbox_xyxy": [
+        220,
+        194,
+        292,
+        202
+      ],
+      "bbox_normalized": [
+        0.611,
+        0.303,
+        0.811,
+        0.316
+      ],
+      "center_normalized": [
+        0.711,
+        0.309
+      ],
+      "area_percentage": 0.25
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "unclear text element",
+      "description": "A small text element that is difficult to read or interpret.",
+      "text_content": "Felob",
+      "bbox_xyxy": [
+        37,
+        295,
+        77,
+        309
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.461,
+        0.214,
+        0.483
+      ],
+      "center_normalized": [
+        0.158,
+        0.472
+      ],
+      "area_percentage": 0.24
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and sleek, flash sale, claim reward",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live, Shop bestsellers now, DuU: prirgb3l4f1, Laln 96K, 30% STYao, Claim reward, VantaStyle fatlom, OD;? Mnisal IAGIJ, Dntam Rniisi, DfJOC Ilan, SALE, mro _JTSnTu, Felob",
+    "elements_text": "headline: A stylized logo at the top of the screen, featuring modern typography. | body_text: Bold text in the center of the screen announcing a flash sale with a dynamic font. | cta: A prominent button at the bottom of the screen inviting users to claim a reward. | discount_badge: A small badge displaying a 30% discount in a bright color, positioned at the bottom. | body_text: Text in the center with a smaller font size, providing more details about the offer. | body_text: A small text element providing additional information, located slightly above the main text. | body_text: Another small text element near the main promotional text, enhancing the offer details. | body_text: Text at the bottom of the screen announcing the flash sale with urgency. text='Flash sale live Shop bestsellers now DuU: prirgb3l4f1| Laln 96K' | cta: Text on the claim reward button, encouraging users to take action. text='30% STYao Claim reward' | unknown: A text element that appears distorted or unclear, making it hard to interpret. text='Ozilniela Crt tultaurl Durlcrtinc]nculd an Uaiun ClhruWUlTionuiglldu Eeed' | headline: A tagline positioned at the top, featuring a modern font style. text='VantaStyle fatlom' | unknown: Another unclear text element that does not convey a clear message. text='OD;? Mnisal IAGIJ' | unknown: A small text element that is difficult to read or interpret. text='Dntam Rniisi' | unknown: A text element that appears distorted or unclear, making it hard to interpret. text='DfJOC Ilan' | discount_badge: A small badge indicating a sale, prominently displayed at the top. text='SALE' | unknown: A text element that appears distorted or unclear, making it hard to interpret. text='mro _JTSnTu' | unknown: A small text element that is difficult to read or interpret. text='Felob'"
+  }
+}

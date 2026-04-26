@@ -1,0 +1,122 @@
+{
+  "creative_id": "501101",
+  "asset_file": "assets/creative_501101.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant abstract background with prominent text elements.",
+    "visual_style": "bright and modern with abstract elements",
+    "main_message": "Encouraging users to engage with the app by claiming a reward.",
+    "dominant_colors": [
+      "blue",
+      "gray"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract textured background",
+      "description": "A blurred, abstract background with a mix of colors and shapes, creating a dynamic and engaging visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A bold, blue logo with the text 'NeonArena' prominently displayed at the top, set against the abstract background.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        37,
+        359,
+        97
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.058,
+        0.997,
+        0.152
+      ],
+      "center_normalized": [
+        0.537,
+        0.105
+      ],
+      "area_percentage": 8.62
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Level up today message",
+      "description": "A bright blue headline stating 'Level up today' with a subtext 'No ads in first week', centered in the middle of the ad.",
+      "text_content": "Level up today No ads in first week",
+      "bbox_xyxy": [
+        53,
+        406,
+        308,
+        463
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.634,
+        0.856,
+        0.723
+      ],
+      "center_normalized": [
+        0.501,
+        0.679
+      ],
+      "area_percentage": 6.31
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A clear call-to-action button at the bottom with the text 'Claim reward', designed to stand out against the background.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern with abstract elements, NeonArena logo, Level up today message, Claim reward button",
+    "layout_text": "The logo is positioned at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Level up today, No ads in first week, Claim reward",
+    "elements_text": "logo: A bold, blue logo with the text 'NeonArena' prominently displayed at the top, set against the abstract background. text='NeonArena' | headline: A bright blue headline stating 'Level up today' with a subtext 'No ads in first week', centered in the middle of the ad. text='Level up today No ads in first week' | cta: A clear call-to-action button at the bottom with the text 'Claim reward', designed to stand out against the background. text='Claim reward'"
+  }
+}

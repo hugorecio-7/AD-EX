@@ -38,10 +38,41 @@ def build_prompt(metadata: dict, missing_features: list[str]) -> str:
     # Base quality anchor
     parts.append("high quality professional mobile advertising creative")
 
+    # Attempt to load semantic description from visual_semantic.json to anchor the generation
+    creative_id = str(metadata.get("id", ""))
+    semantic_desc = ""
+    if creative_id:
+        semantic_path = os.path.join(_PROJECT_ROOT, "frontend", "public", "data", "visual_semantic", f"creative_{creative_id}.json")
+        if os.path.exists(semantic_path):
+            try:
+                import json
+                with open(semantic_path, "r", encoding="utf-8") as f:
+                    sem_data = json.load(f)
+                    semantic_desc = sem_data.get("global", {}).get("description", "").strip()
+            except Exception:
+                pass
+    
+    if semantic_desc:
+        parts.append(f"base composition: {semantic_desc}")
+
     # Visual style from semantic JSON (if available and not a mock)
     visual_style = (metadata.get("visual_style") or "").strip()
     if visual_style and "mock" not in visual_style.lower() and "synthetic" not in visual_style.lower():
         parts.append(visual_style)
+
+    # Main message — gives the AI context on what the ad is about
+    message = (metadata.get("main_message") or "").strip()
+    if message:
+        parts.append(f"the creative features a {message} message")
+
+    # OCR and Layout Context — gives the AI background context without drawing text
+    ocr_text = (metadata.get("ocr_text") or metadata.get("ocr_summary") or "").strip()
+    if ocr_text:
+        parts.append(f"contextual background description: the scene relates to {ocr_text}")
+    
+    layout_text = (metadata.get("layout_text") or metadata.get("layout") or "").strip()
+    if layout_text:
+        parts.append(f"composition context: {layout_text}")
 
     # Emotional tone → lighting cue
     tone = (metadata.get("emotional_tone") or "").strip()

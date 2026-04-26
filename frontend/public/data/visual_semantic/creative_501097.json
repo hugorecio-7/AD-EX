@@ -1,0 +1,146 @@
+{
+  "creative_id": "501097",
+  "asset_file": "assets/creative_501097.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a gradient background with a prominent logo, headline, and call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Engage with our brand and take action now!",
+    "dominant_colors": [
+      "dark blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "gradient background",
+      "description": "A smooth gradient background transitioning from dark blue at the top to light blue at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "main headline text",
+      "description": "Bold, white text centered at the bottom, conveying a key message with a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        403,
+        293,
+        586
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.63,
+        0.816,
+        0.917
+      ],
+      "center_normalized": [
+        0.499,
+        0.773
+      ],
+      "area_percentage": 18.19
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "supporting text",
+      "description": "Smaller white text below the headline, providing additional information in a clean, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        403,
+        293,
+        503
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.63,
+        0.816,
+        0.786
+      ],
+      "center_normalized": [
+        0.5,
+        0.708
+      ],
+      "area_percentage": 9.87
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "brand logo",
+      "description": "A recognizable brand logo positioned at the top center, featuring vibrant colors and distinct design elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        20,
+        35,
+        303,
+        101
+      ],
+      "bbox_normalized": [
+        0.057,
+        0.055,
+        0.844,
+        0.159
+      ],
+      "center_normalized": [
+        0.451,
+        0.107
+      ],
+      "area_percentage": 8.22
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "call to action button",
+      "description": "A prominent button at the bottom with contrasting colors, inviting users to take action with clear text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        113,
+        555,
+        246,
+        587
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.868,
+        0.686,
+        0.918
+      ],
+      "center_normalized": [
+        0.501,
+        0.893
+      ],
+      "area_percentage": 1.84
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, gradient background, bold text, brand logo",
+    "layout_text": "The logo is at the top center, the headline is at the bottom center, and the CTA is at the very bottom.",
+    "ocr_text": "",
+    "elements_text": "headline: Bold, white text centered at the bottom, conveying a key message with a modern font. | body_text: Smaller white text below the headline, providing additional information in a clean, readable font. | logo: A recognizable brand logo positioned at the top center, featuring vibrant colors and distinct design elements. | cta: A prominent button at the bottom with contrasting colors, inviting users to take action with clear text."
+  }
+}

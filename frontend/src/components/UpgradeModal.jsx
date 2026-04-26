@@ -30,7 +30,7 @@ function getColor(country, os, idx = 0) {
   return SEGMENT_COLORS[`${country}-${os}`] || fallbackColors[idx % fallbackColors.length];
 }
 
-// Pure SVG line chart
+// Pure SVG line chart — with fatigue markers
 function LineChart({ series }) {
   if (!series || series.length === 0) return null;
   const W = 560, H = 200;
@@ -61,12 +61,23 @@ function LineChart({ series }) {
         {xLabels.map(d => (
           <text key={d} x={xS(d-1)} y={cH+16} textAnchor="middle" fontSize={9} fill="#94a3b8">D{d}</text>
         ))}
-        {series.map(({ values, color, dashed }, si) => {
+        {series.map(({ values, color, dashed, fatigue_index, fatigue_val }, si) => {
           const pts = values.map((v, i) => `${xS(i)},${yS(v)}`).join(' ');
           const peak = Math.max(...values);
           const pi   = values.indexOf(peak);
           return (
             <g key={si}>
+              {fatigue_index !== null && fatigue_index !== undefined && (
+                <g>
+                  <line
+                    x1={xS(fatigue_index)} y1={0}
+                    x2={xS(fatigue_index)} y2={cH}
+                    stroke="#ef4444" strokeWidth={1} strokeDasharray="4,4"
+                  />
+                  <circle cx={xS(fatigue_index)} cy={yS(fatigue_val)} r={4} fill="#ef4444" stroke="white" strokeWidth={1} />
+                  <text x={xS(fatigue_index) - 6} y={cH - (dashed ? 30 : 10)} textAnchor="end" fontSize={9} fill="#ef4444" fontWeight="bold">Fatigue D{fatigue_index + 1}</text>
+                </g>
+              )}
               <polyline points={pts} fill="none" stroke={color}
                 strokeWidth={dashed ? 1.5 : 2.5}
                 strokeDasharray={dashed ? '5,4' : undefined}
@@ -120,14 +131,16 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   if (!isOpen || !creative) return null;
 
   const handleUpgrade = async () => {
-    const QUALITY_STEPS = { low: 2, medium: 5, high: 15 };
+    const QUALITY_STEPS    = { low: 2, medium: 5, high: 15 };
+    const QUALITY_STRENGTH = { low: 0.25, medium: 0.35, high: 0.50 };
     const numSteps = QUALITY_STEPS[quality] || 5;
+    const strength = QUALITY_STRENGTH[quality] || 0.35;
     setIsUpgrading(true);
     setCurrentStep(0);
     const stepInterval = setInterval(() => {
       setCurrentStep(prev => prev < UPGRADE_STEPS.length - 1 ? prev + 1 : prev);
     }, 2800);
-    const result = await upgradeImage(creative.id, { numSteps });
+    const result = await upgradeImage(creative.id, { numSteps, strength });
     clearInterval(stepInterval);
     setUpgradedData(result);
     setIsUpgrading(false);
@@ -169,22 +182,57 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
     prev.includes(o) ? (prev.length > 1 ? prev.filter(x => x !== o) : prev) : [...prev, o]
   );
 
-  // Build series for chart (generated image only)
-  const buildSeries = (data) => {
-    if (!data?.predictions) return [];
-    return data.predictions.map((p, i) => ({
-      label: `${p.country} · ${p.os}`,
-      values: p.ctr_timeseries,
-      color: getColor(p.country, p.os, i),
-      peak_ctr: p.peak_ctr,
-      avg_ctr: p.avg_ctr,
-      fatigue_day: p.fatigue_day,
-      country: p.country,
-      os: p.os,
-    }));
+  // Build series for chart — Original (dashed) vs AI Generated (solid)
+  const buildComparisonSeries = (predObj) => {
+    if (!predObj?.original?.predictions) return [];
+    const all = [];
+
+    // Map Original
+    predObj.original.predictions.forEach((p, i) => {
+      const fatigue_day = p.fatigue_day ? Math.floor(p.fatigue_day) : null;
+      const fatigue_idx = fatigue_day ? fatigue_day - 1 : null;
+      all.push({
+        label: `${p.country} · ${p.os} (Orig)`,
+        values: p.ctr_timeseries,
+        color: getColor(p.country, p.os, i),
+        dashed: true,
+        peak_ctr: p.peak_ctr,
+        avg_ctr: p.avg_ctr,
+        fatigue_index: fatigue_idx,
+        fatigue_val: fatigue_idx !== null && p.ctr_timeseries[fatigue_idx] !== undefined ? p.ctr_timeseries[fatigue_idx] : null,
+        fatigue_day: fatigue_day,
+        country: p.country,
+        os: p.os,
+        type: 'Original',
+      });
+    });
+
+    // Map Upgraded / Generated
+    if (predObj.generated?.predictions) {
+      predObj.generated.predictions.forEach((p, i) => {
+        const fatigue_day = p.fatigue_day ? Math.floor(p.fatigue_day) : null;
+        const fatigue_idx = fatigue_day ? fatigue_day - 1 : null;
+        all.push({
+          label: `${p.country} · ${p.os} (AI)`,
+          values: p.ctr_timeseries,
+          color: getColor(p.country, p.os, i),
+          dashed: false,
+          peak_ctr: p.peak_ctr,
+          avg_ctr: p.avg_ctr,
+          fatigue_index: fatigue_idx,
+          fatigue_val: fatigue_idx !== null && p.ctr_timeseries[fatigue_idx] !== undefined ? p.ctr_timeseries[fatigue_idx] : null,
+          fatigue_day: fatigue_day,
+          country: p.country,
+          os: p.os,
+          type: 'Upgraded',
+        });
+      });
+    }
+
+    return all;
   };
 
-  const genSeries = buildSeries(prediction?.generated);
+  const genSeries = buildComparisonSeries(prediction);
 
   const IMG_H = 'h-[42vh]';  // shared image slot height – both columns identical
 
@@ -226,9 +274,13 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
               <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400 block mb-0.5">Original</span>
               <div className="flex justify-between items-center">
                 <span className="text-xs font-black text-slate-700 uppercase tracking-tight">{creative.format}</span>
-                <span className={`text-[10px] font-black uppercase tracking-widest ${creative.fatigued ? 'text-red-500' : 'text-emerald-500'}`}>
-                  {creative.fatigued ? '⚠ Fatigued' : `Score ${creative.performance_score}`}
-                </span>
+                {creative.fatigued ? (
+                  <span className="text-[10px] font-black uppercase tracking-widest text-red-500">⚠ Fatigued • Needs Modify</span>
+                ) : creative.performance_score < 0.4 ? (
+                  <span className="text-[10px] font-black uppercase tracking-widest text-amber-500">⚠ Low Score • Needs Modify</span>
+                ) : (
+                  <span className="text-[10px] font-black uppercase tracking-widest text-emerald-500">✓ Healthy</span>
+                )}
               </div>
             </div>
             {/* Image — fixed height, no overflow */}
@@ -332,9 +384,13 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                       <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-4 mb-4">
                         <div className="flex justify-between items-center mb-2">
                           <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">AI Reasoning</span>
-                          <div className="flex gap-2">
-                            <span className="bg-slate-800 text-white text-[10px] font-black px-2 py-0.5 rounded-lg">Score: {upgradedData.performanceScore}</span>
-                            <span className="bg-emerald-600 text-white text-[10px] font-black px-2 py-0.5 rounded-lg animate-pulse">↑ {upgradedData.predictedUplift}</span>
+                          <div className="flex items-center gap-2">
+                            <span className="bg-slate-800 text-white text-[10px] font-black px-2 py-0.5 rounded-lg flex items-center gap-1">
+                              <span className="text-slate-400 font-normal">Score:</span> {upgradedData.performanceScore}
+                            </span>
+                            <span className="bg-emerald-600 text-white text-[10px] font-black px-2 py-0.5 rounded-lg animate-pulse flex items-center gap-1">
+                              <span className="text-emerald-200 font-normal">Uplift:</span> ↑{upgradedData.predictedUplift}
+                            </span>
                           </div>
                         </div>
                         <p className="text-[11px] text-slate-600 leading-relaxed italic line-clamp-3">"{upgradedData.aiReasoning}"</p>
@@ -417,7 +473,11 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                   <div className="flex flex-wrap gap-3 mb-3">
                     {genSeries.map(s => (
                       <div key={s.label} className="flex items-center gap-1.5">
-                        <span className="w-3 h-0.5 rounded-full inline-block" style={{ background: s.color, height: 3 }} />
+                        <span className="w-4 rounded-full inline-block" style={{
+                          height: s.dashed ? 1 : 3,
+                          borderTop: s.dashed ? `1px dashed ${s.color}` : 'none',
+                          background: s.dashed ? 'transparent' : s.color,
+                        }} />
                         <span className="text-[10px] font-bold text-slate-600">{s.label}</span>
                       </div>
                     ))}
@@ -434,6 +494,7 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                       <thead>
                         <tr className="bg-slate-50 border-b border-slate-100">
                           <th className="px-3 py-2 text-left font-black text-slate-400 uppercase tracking-widest text-[9px]">Segment</th>
+                          <th className="px-3 py-2 text-center font-black text-slate-400 uppercase tracking-widest text-[9px]">Version</th>
                           <th className="px-3 py-2 text-right font-black text-slate-400 uppercase tracking-widest text-[9px]">Peak CTR</th>
                           <th className="px-3 py-2 text-right font-black text-slate-400 uppercase tracking-widest text-[9px]">Avg CTR</th>
                           <th className="px-3 py-2 text-right font-black text-slate-400 uppercase tracking-widest text-[9px]">Fatigue</th>
@@ -446,9 +507,20 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                               <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: seg.color }} />
                               {seg.country} · {seg.os}
                             </td>
+                            <td className="px-3 py-2 text-center text-[9px] font-bold uppercase tracking-wide">
+                              <span className={`px-2 py-0.5 rounded-md ${seg.type === 'Upgraded' ? 'bg-indigo-100 text-indigo-700' : 'bg-slate-100 text-slate-500'}`}>
+                                {seg.type}
+                              </span>
+                            </td>
                             <td className="px-3 py-2 text-right font-mono font-bold text-slate-700">{(seg.peak_ctr * 100).toFixed(2)}%</td>
                             <td className="px-3 py-2 text-right font-mono text-slate-500">{(seg.avg_ctr * 100).toFixed(2)}%</td>
-                            <td className="px-3 py-2 text-right text-slate-500">{seg.fatigue_day ? `Day ${seg.fatigue_day}` : '—'}</td>
+                            <td className="px-3 py-2 text-right">
+                              {seg.fatigue_day ? (
+                                <span className="text-red-500 font-bold bg-red-50 px-2 py-0.5 rounded">Day {seg.fatigue_day}</span>
+                              ) : (
+                                <span className="text-slate-400">—</span>
+                              )}
+                            </td>
                           </tr>
                         ))}
                       </tbody>
@@ -456,7 +528,7 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                   </div>
 
                   <p className="text-[9px] text-slate-400 font-bold uppercase tracking-widest mt-2 text-center">
-                    Predicted 30-day CTR for AI-generated creative · {prediction.generated?.summary.best_segment} is top segment
+                    Predicted 30-day CTR comparison · {prediction.generated?.summary.best_segment || prediction.original?.summary.best_segment} is top{prediction.generated ? ' AI' : ''} segment
                   </p>
                 </div>
               )}

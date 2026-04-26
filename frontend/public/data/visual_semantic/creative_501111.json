@@ -1,0 +1,242 @@
+{
+  "creative_id": "501111",
+  "asset_file": "assets/creative_501111.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with various shapes and text elements promoting a travel service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "light orange"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.498,
+        0.398
+      ],
+      "area_percentage": 13.51
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A large, soft-edged circular shape in a lighter orange hue, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A medium-sized square shape in a lighter orange hue, also centrally positioned.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Small logo element",
+      "description": "A small logo element located at the top left, featuring a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.298
+      ],
+      "center_normalized": [
+        0.044,
+        0.24
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button with rounded edges, featuring the text 'Order now' in bold.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller rectangular shape in a lighter hue, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the top stating 'HorizonHop UGC' in a large, eye-catching font.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        22,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.531,
+        0.12
+      ],
+      "area_percentage": 14.82
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Text at the bottom that reads 'Escape this weekend Hotels + flights in one tap' in a clear, readable font.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 9,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Text displaying the price '€29.99' in a prominent, bold font at the bottom.",
+      "text_content": "€29.99 Order now",
+      "bbox_xyxy": [
+        24,
+        532,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.36,
+        0.87
+      ],
+      "area_percentage": 4.49
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, HorizonHop UGC, travel booking.",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "HorizonHop UGC, Escape this weekend Hotels flights in one tap, €29.99, Order now",
+    "elements_text": "decorative_element: A large, soft-edged circular shape in a lighter orange hue, positioned centrally. | decorative_element: A medium-sized square shape in a lighter orange hue, also centrally positioned. | logo: A small logo element located at the top left, featuring a simple design. | cta: A prominent button with rounded edges, featuring the text 'Order now' in bold. | unknown: A smaller rectangular shape in a lighter hue, positioned centrally. | headline: Bold text at the top stating 'HorizonHop UGC' in a large, eye-catching font. text='HorizonHop UGC' | body_text: Text at the bottom that reads 'Escape this weekend Hotels + flights in one tap' in a clear, readable font. text='Escape this weekend Hotels flights in one tap' | price: Text displaying the price '€29.99' in a prominent, bold font at the bottom. text='€29.99 Order now'"
+  }
+}

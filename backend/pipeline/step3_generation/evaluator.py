@@ -195,15 +195,22 @@ def evaluate_creative(
     mean_ctr = float(ctr_series.mean())
     peak_ctr = float(ctr_series.max())
 
-    # Normalise CTR → [0..1] performance score (assumes CTR rarely exceeds 10%)
-    performance_score = round(min(mean_ctr / 0.10, 0.99), 4)
-
-    # Detect fatigue: first day where CTR drops below 50% of peak
-    fatigue_threshold = peak_ctr * 0.5
-    fatigue_mask = ctr_series < fatigue_threshold
+    # Detect fatigue: day when CTR drops to 20% of the peak CTR
+    # We must only look for drops AFTER the peak, to prevent flagging initial warm-up days.
+    fatigue_threshold = peak_ctr * 0.2
+    peak_id = ctr_series.idxmax()
+    post_peak_mask = ctr_series.loc[peak_id + 1:] <= fatigue_threshold
+    
     fatigue_day: int | None = None
-    if fatigue_mask.any():
-        fatigue_day = int(sim_df.loc[fatigue_mask.idxmax(), "days_since_launch"])
+    if post_peak_mask.any():
+        fatigue_day = int(sim_df.loc[post_peak_mask.idxmax(), "days_since_launch"])
+
+    # Improved performance metric: blend mean and peak CTR, penalize early fatigue
+    base_score = 0.6 * (mean_ctr / 0.08) + 0.4 * (peak_ctr / 0.12)
+    if fatigue_day and fatigue_day <= 7:
+        base_score *= 0.85  # Apply penalty for rapid early plateau
+
+    performance_score = round(max(0.0, min(base_score, 0.99)), 4)
 
     is_fatigued = (fatigue_day is not None and fatigue_day <= 7)
 

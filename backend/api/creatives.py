@@ -87,7 +87,7 @@ def _resolve_image_path(creative_id: str) -> Path:
     raise FileNotFoundError("Image not found for creative " + creative_id)
 
 
-def _resolve_structured_path(creative_id: str) -> Path:
+def _resolve_structured_path(creative_id: str) -> Path | None:
     candidates = [
         # Original postllm.py output
         _PROJECT_ROOT / "output" / "features" / f"creative_{creative_id}" / f"creative_{creative_id}_structured.json",
@@ -99,7 +99,7 @@ def _resolve_structured_path(creative_id: str) -> Path:
     for path in candidates:
         if path.exists():
             return path
-    raise FileNotFoundError("Structured JSON not found for creative " + creative_id)
+    return None  # Graceful: caller will build minimal fallback
 
 
 def _resolve_feature_gap_path(creative_id: str) -> Path | None:
@@ -325,7 +325,23 @@ async def chat_with_creative(creative_id: str, payload: CreativeChatRequest):
         structured_path = _resolve_structured_path(creative_id)
         feature_gap_path = _resolve_feature_gap_path(creative_id)
 
-        structured_json = _read_json(structured_path)
+        if structured_path is not None:
+            structured_json = _read_json(structured_path)
+        else:
+            # Newly generated creative — no semantic JSON yet (enrichment may still be running)
+            from pipeline.step4_persistence.core import get_creative_by_id
+            c_db = get_creative_by_id(creative_id) or {}
+            structured_json = {
+                "creative_id": creative_id,
+                "advertiser": c_db.get("advertiser_name", c_db.get("advertiser", "Unknown")),
+                "global": {
+                    "description": c_db.get("insights", "AI-generated creative — semantic analysis not yet available."),
+                    "main_message": "",
+                },
+                "elements": [],
+                "note": "Semantic JSON not yet generated. Enrichment running in background.",
+            }
+            print(f"[Chat] No structured JSON for {creative_id} — using metadata fallback")
         
         # DYNAMIC INJECTION: Ensure advertiser is present for the LLM
         if not structured_json.get("advertiser"):
@@ -456,6 +472,12 @@ async def implement_chat_suggestion(creative_id: str, payload: ImplementRequest,
             "is_upgraded": True,
         }
         store_new_creative(new_id, new_entry)   # append as new entry, not replace original
+
+        try:
+            from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
+            enrich_upgraded_creative(creative_id, new_id, dst)
+        except Exception as e:
+            print(f"[API] Background enrichment trigger failed: {e}")
 
         return {
             "success": True,

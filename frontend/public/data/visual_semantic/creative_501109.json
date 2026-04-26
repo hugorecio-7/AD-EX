@@ -1,0 +1,146 @@
+{
+  "creative_id": "501109",
+  "asset_file": "assets/creative_501109.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a textured background with a prominent logo and clear messaging.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting flexible booking options with a free trial and discount.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Textured abstract background",
+      "description": "A textured abstract background with a mix of muted colors and patterns, creating a visually engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "The logo 'HorizonHop' is prominently displayed at the top, featuring bold, modern typography in a bright color.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        22,
+        26,
+        360,
+        102
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.041,
+        1.0,
+        0.159
+      ],
+      "center_normalized": [
+        0.531,
+        0.1
+      ],
+      "area_percentage": 11.15
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Fly smarter Flexible booking options' is centered, using a large, clear font that stands out against the background.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        411,
+        286,
+        468
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.642,
+        0.794,
+        0.731
+      ],
+      "center_normalized": [
+        0.497,
+        0.687
+      ],
+      "area_percentage": 5.29
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom with the text 'Try for free', designed in a contrasting color to attract attention.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge displaying '30%' in a bold font, positioned near the bottom to indicate a discount.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        36,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.175,
+        0.85
+      ],
+      "area_percentage": 0.56
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, HorizonHop logo, flexible booking options, free trial, discount.",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA and discount badge are at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter Flexible booking options, Try for free, 30%",
+    "elements_text": "logo: The logo 'HorizonHop' is prominently displayed at the top, featuring bold, modern typography in a bright color. text='HorizonHop' | headline: The text 'Fly smarter Flexible booking options' is centered, using a large, clear font that stands out against the background. text='Fly smarter Flexible booking options' | cta: A button at the bottom with the text 'Try for free', designed in a contrasting color to attract attention. text='Try for free' | discount_badge: A small badge displaying '30%' in a bold font, positioned near the bottom to indicate a discount. text='30%'"
+  }
+}

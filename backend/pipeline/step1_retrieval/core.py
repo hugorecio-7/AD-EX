@@ -154,59 +154,70 @@ def get_best_creatives(
             if _sem_json is not None:
                 try:
                     from .created.similarity_score import cosine_scores_against_query
-                    from .created.config import SENTENCE_EMBEDDING_MODEL
+                    from .created.config import SENTENCE_EMBEDDING_MODEL, SEMANTIC_SIMILARITY_WEIGHTS
                     from sentence_transformers import SentenceTransformer
                     import numpy as np
 
-                    # Build text representation identical to how build_semantic_embeddings does it
-                    g = _sem_json.get("global", {})
+                    # ✔️ Use embedding_texts sub-object — this is what build_semantic_embeddings uses
+                    emb_texts = _sem_json.get("embedding_texts", {})
                     query_texts = {
-                        "global_text": g.get("description", "") + " " + " ".join(g.get("tags", [])),
-                        "elements_text": " ".join(
-                            e.get("description", "") for e in _sem_json.get("elements", [])
-                        ),
-                        "ocr_text": g.get("ocr_summary", ""),
-                        "layout_text": g.get("layout", ""),
+                        "global_text":   emb_texts.get("global_text", ""),
+                        "elements_text": emb_texts.get("elements_text", ""),
+                        "ocr_text":      emb_texts.get("ocr_text", ""),
+                        "layout_text":   emb_texts.get("layout_text", ""),
                     }
+                    print(f"[Retrieval] Sim: embedding_texts found: " +
+                          " | ".join(f"{k}={len(v)} chars" for k, v in query_texts.items()))
+
+                    # If embedding_texts is missing/empty, fall back to global fields
+                    if not any(query_texts.values()):
+                        print(f"[Retrieval] Sim: WARNING — embedding_texts all empty, falling back to global fields")
+                        g = _sem_json.get("global", {})
+                        query_texts = {
+                            "global_text":   g.get("description", "") + " " + " ".join(g.get("tags", [])),
+                            "elements_text": " ".join(e.get("description", "") for e in _sem_json.get("elements", [])),
+                            "ocr_text":      g.get("ocr_summary", ""),
+                            "layout_text":   g.get("layout", ""),
+                        }
+                        print(f"[Retrieval] Sim: fallback texts: " +
+                              " | ".join(f"{k}={len(v)} chars" for k, v in query_texts.items()))
 
                     print(f"[Retrieval] Sim: loading sentence-transformer '{SENTENCE_EMBEDDING_MODEL}'...")
                     _st_model = SentenceTransformer(SENTENCE_EMBEDDING_MODEL)
 
-                    field_map = {
-                        "global_text": "global_similarity",
-                        "elements_text": "elements_similarity",
-                        "ocr_text": "ocr_similarity",
-                        "layout_text": "layout_similarity",
-                    }
-                    sim_scores = pd.Series(0.0, index=candidates.index)
-                    from .created.config import SEMANTIC_SIMILARITY_WEIGHTS
                     total_w = float(sum(SEMANTIC_SIMILARITY_WEIGHTS.values()))
+                    sim_scores = pd.Series(0.0, index=candidates.index)
 
-                    for field, col in field_map.items():
-                        emb_key = f"{field}_embeddings"
+                    for field, emb_key in [
+                        ("global_text",   "global_text_embeddings"),
+                        ("elements_text", "elements_text_embeddings"),
+                        ("ocr_text",      "ocr_text_embeddings"),
+                        ("layout_text",   "layout_text_embeddings"),
+                    ]:
                         if emb_key not in embeddings:
+                            print(f"[Retrieval] Sim: key {emb_key} missing from pickle, skipping")
                             continue
-                        matrix = embeddings[emb_key]  # shape (N, D)
-                        q_vec = _st_model.encode(
-                            [query_texts.get(field, "")], normalize_embeddings=True
-                        )[0]
-                        raw = cosine_scores_against_query(q_vec, matrix)  # shape (N,)
-                        # Map [-1,1] → [0,1]
+                        text = query_texts.get(field, "")
+                        if not text.strip():
+                            print(f"[Retrieval] Sim: {field} is EMPTY — this will produce 0.5 for this component")
+                        matrix = embeddings[emb_key]  # (N, D)
+                        q_vec = _st_model.encode([text], normalize_embeddings=True)[0]
+                        raw = cosine_scores_against_query(q_vec, matrix)  # (N,)
                         scores_01 = ((raw + 1.0) / 2.0).clip(0.0, 1.0)
-                        # Build a Series aligned to creative_ids_in_index
-                        score_series = pd.Series(
-                            dict(zip(creative_ids_in_index, scores_01))
-                        )
-                        weight = SEMANTIC_SIMILARITY_WEIGHTS.get(field.replace("_text", ""), 0)
+                        score_series = pd.Series(dict(zip(creative_ids_in_index, scores_01)))
+                        weight_key = field.replace("_text", "")
+                        weight = SEMANTIC_SIMILARITY_WEIGHTS.get(weight_key, 0)
                         sim_scores_raw = candidates["creative_id"].map(score_series).fillna(0.5)
+                        print(f"[Retrieval] Sim: {field} → avg={sim_scores_raw.mean():.3f} (weight={weight})")
                         sim_scores = sim_scores + (weight / total_w) * sim_scores_raw
 
                     candidates["similarity_score_final"] = sim_scores.clip(0.0, 1.0)
-                    print(f"[Retrieval] Sim: on-the-fly done. Sample Sim={candidates['similarity_score_final'].mean():.3f} (avg)")
+                    print(f"[Retrieval] Sim: on-the-fly done. Final avg Sim={candidates['similarity_score_final'].mean():.3f}")
                 except Exception as e:
-                    print(f"[Retrieval] Sim: on-the-fly embedding failed: {e} — keeping 0.5 fallback")
+                    print(f"[Retrieval] Sim: on-the-fly embedding FAILED: {e} — keeping 0.5 fallback")
+                    import traceback; traceback.print_exc()
             else:
-                print(f"[Retrieval] Sim: no visual_semantic.json found for {creative_id_str} — using 0.5 fallback")
+                print(f"[Retrieval] Sim: no visual_semantic.json found for {creative_id_str} — using 0.5 fallback (run post-upgrade enrichment!)")
 
     # ── Final blended score ──────────────────────────────────────────────────
     # performance_score_final (offline) × context × similarity

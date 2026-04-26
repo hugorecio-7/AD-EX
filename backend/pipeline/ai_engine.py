@@ -143,7 +143,14 @@ async def generate_ai_variant_real(
         "cluster_id": original.get("cluster_id", ""),
         "is_upgraded": True,
     }
-    store_new_creative(new_id, new_entry)   # append as new entry, not replace original
+    store_new_creative(new_id, new_entry)
+
+    # Trigger Enrichment (Background)
+    try:
+        from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
+        enrich_upgraded_creative(creative_id, new_id, dst_asset)
+    except Exception as e:
+        print(f"[Engine] Background enrichment trigger failed: {e}")
 
     # Note: enrichment (SAM mask + visual_semantic.json) is triggered by the frontend
     # AFTER the user clicks 'Replace Image', via POST /enrich — not here.

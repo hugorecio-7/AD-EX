@@ -1,0 +1,410 @@
+{
+  "creative_id": "501089",
+  "asset_file": "assets/creative_501089.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features multiple mobile phone displays showcasing vibrant images with promotional text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting limited stock items with a discount and free shipping.",
+    "dominant_colors": [
+      "gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Textured gray background",
+      "description": "A textured gray background that provides a neutral base for the ad elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        41,
+        110,
+        343,
+        400
+      ],
+      "bbox_normalized": [
+        0.115,
+        0.173,
+        0.955,
+        0.625
+      ],
+      "center_normalized": [
+        0.535,
+        0.399
+      ],
+      "area_percentage": 37.99
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Mobile phone display",
+      "description": "A mobile phone display showing a vibrant image of a cactus-like plant.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        111,
+        326,
+        400
+      ],
+      "bbox_normalized": [
+        0.071,
+        0.175,
+        0.906,
+        0.626
+      ],
+      "center_normalized": [
+        0.489,
+        0.4
+      ],
+      "area_percentage": 37.68
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Mobile phone display",
+      "description": "A mobile phone display featuring a rocky landscape with a large boulder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        111,
+        180,
+        400
+      ],
+      "bbox_normalized": [
+        0.071,
+        0.175,
+        0.5,
+        0.626
+      ],
+      "center_normalized": [
+        0.286,
+        0.4
+      ],
+      "area_percentage": 19.35
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Mobile phone display",
+      "description": "A mobile phone display showcasing a colorful abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        203,
+        110,
+        343,
+        400
+      ],
+      "bbox_normalized": [
+        0.566,
+        0.173,
+        0.955,
+        0.625
+      ],
+      "center_normalized": [
+        0.76,
+        0.399
+      ],
+      "area_percentage": 17.58
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Bold white text stating 'Limited stock' against a dark background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        218,
+        195,
+        317,
+        301
+      ],
+      "bbox_normalized": [
+        0.608,
+        0.306,
+        0.882,
+        0.471
+      ],
+      "center_normalized": [
+        0.745,
+        0.388
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Free shipping offer",
+      "description": "Smaller white text below the main message indicating 'Free shipping over $25'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        219,
+        195,
+        318,
+        280
+      ],
+      "bbox_normalized": [
+        0.609,
+        0.305,
+        0.884,
+        0.438
+      ],
+      "center_normalized": [
+        0.747,
+        0.371
+      ],
+      "area_percentage": 3.64
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "-30% discount badge",
+      "description": "A prominent red badge displaying '-30%' in bold white text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        250,
+        301,
+        338,
+        373
+      ],
+      "bbox_normalized": [
+        0.696,
+        0.471,
+        0.941,
+        0.583
+      ],
+      "center_normalized": [
+        0.819,
+        0.527
+      ],
+      "area_percentage": 2.75
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rectangular button with the text 'Watch now' in white on a dark background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        247,
+        286,
+        305,
+        337
+      ],
+      "bbox_normalized": [
+        0.688,
+        0.448,
+        0.849,
+        0.527
+      ],
+      "center_normalized": [
+        0.768,
+        0.488
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Text that appears to be promotional or descriptive, partially obscured.",
+      "text_content": null,
+      "bbox_xyxy": [
+        243,
+        271,
+        297,
+        315
+      ],
+      "bbox_normalized": [
+        0.675,
+        0.425,
+        0.826,
+        0.493
+      ],
+      "center_normalized": [
+        0.751,
+        0.459
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Top decorative element",
+      "description": "A decorative element at the top of the ad, possibly a logo or brand mark.",
+      "text_content": null,
+      "bbox_xyxy": [
+        313,
+        401,
+        359,
+        438
+      ],
+      "bbox_normalized": [
+        0.87,
+        0.627,
+        0.998,
+        0.686
+      ],
+      "center_normalized": [
+        0.934,
+        0.656
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Bottom decorative element",
+      "description": "A small decorative element at the bottom of the ad, possibly a logo or brand mark.",
+      "text_content": null,
+      "bbox_xyxy": [
+        313,
+        440,
+        359,
+        475
+      ],
+      "bbox_normalized": [
+        0.87,
+        0.688,
+        0.998,
+        0.743
+      ],
+      "center_normalized": [
+        0.934,
+        0.715
+      ],
+      "area_percentage": 0.72
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline at the top of the ad, likely the brand or campaign name.",
+      "text_content": null,
+      "bbox_xyxy": [
+        227,
+        150,
+        318,
+        161
+      ],
+      "bbox_normalized": [
+        0.632,
+        0.234,
+        0.885,
+        0.253
+      ],
+      "center_normalized": [
+        0.759,
+        0.244
+      ],
+      "area_percentage": 0.47
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        391,
+        23,
+        431
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.612,
+        0.066,
+        0.675
+      ],
+      "center_normalized": [
+        0.033,
+        0.644
+      ],
+      "area_percentage": 0.41
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A prominent headline at the top of the ad, likely the brand or campaign name.",
+      "text_content": "ThreadMarE OBBFOCAACH TOCCRLAMQ",
+      "bbox_xyxy": [
+        23,
+        37,
+        360,
+        148
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        1.0,
+        0.231
+      ],
+      "center_normalized": [
+        0.532,
+        0.145
+      ],
+      "area_percentage": 16.24
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Text that includes a discount and a call to action, positioned at the bottom.",
+      "text_content": "-30% eldgeshan Indosslig JG6T MI Watch now Plotiicnen",
+      "bbox_xyxy": [
+        12,
+        532,
+        358,
+        588
+      ],
+      "bbox_normalized": [
+        0.033,
+        0.831,
+        0.994,
+        0.919
+      ],
+      "center_normalized": [
+        0.514,
+        0.875
+      ],
+      "area_percentage": 8.41
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Shipping information",
+      "description": "Text indicating shipping details, placed prominently in the ad.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        61,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 5.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, limited stock, discount, free shipping",
+    "layout_text": "The headline is at the top, main subjects are centered, and the CTA is at the bottom.",
+    "ocr_text": "ThreadMarE OBBFOCAACH TOCCRLAMQ, -30% eldgeshan Indosslig JG6T MI Watch now Plotiicnen, Limited stock Free shipping over $25",
+    "elements_text": "main_subject: A mobile phone display showing a vibrant image of a cactus-like plant. | main_subject: A mobile phone display featuring a rocky landscape with a large boulder. | main_subject: A mobile phone display showcasing a colorful abstract design. | body_text: Bold white text stating 'Limited stock' against a dark background. | body_text: Smaller white text below the main message indicating 'Free shipping over $25'. | discount_badge: A prominent red badge displaying '-30%' in bold white text. | cta: A rectangular button with the text 'Watch now' in white on a dark background. | body_text: Text that appears to be promotional or descriptive, partially obscured. | decorative_element: A decorative element at the top of the ad, possibly a logo or brand mark. | decorative_element: A small decorative element at the bottom of the ad, possibly a logo or brand mark. | headline: A bold headline at the top of the ad, likely the brand or campaign name. | unknown: A small, unclear element that does not convey specific information. | headline: A prominent headline at the top of the ad, likely the brand or campaign name. text='ThreadMarE OBBFOCAACH TOCCRLAMQ' | body_text: Text that includes a discount and a call to action, positioned at the bottom. text='-30% eldgeshan Indosslig JG6T MI Watch now Plotiicnen' | body_text: Text indicating shipping details, placed prominently in the ad. text='Limited stock Free shipping over $25'"
+  }
+}
