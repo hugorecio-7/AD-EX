@@ -1,0 +1,218 @@
+{
+  "creative_id": "500657",
+  "asset_file": "assets/creative_500657.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent sale announcement and call to action.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a limited-time flash sale for VantaStyle products.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.72
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "A simple logo featuring the text 'VantaStyle' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "An abstract shape or design element in the center, adding visual interest without specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold white text stating 'Flash sale live Only this weekend' prominently displayed in the center.",
+      "text_content": "Flash sale live Only this weekend",
+      "bbox_xyxy": [
+        57,
+        408,
+        306,
+        466
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.637,
+        0.85,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.683
+      ],
+      "area_percentage": 6.27
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Brand name",
+      "description": "The brand name 'VantaStyle' appears in a clean, modern font at the top of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        72
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.113
+      ],
+      "center_normalized": [
+        0.242,
+        0.094
+      ],
+      "area_percentage": 1.27
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Book now' in white, located at the bottom of the ad.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "The price '€9.99' displayed in a bold font at the bottom, drawing attention to the offer.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, VantaStyle, flash sale, call to action",
+    "layout_text": "The logo is at the top, followed by the headline in the center, and the CTA at the bottom.",
+    "ocr_text": "Flash sale live Only this weekend, VantaStyle, Book now, €9.99, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'VantaStyle' in a modern font, positioned at the top of the ad. | unknown: An abstract shape or design element in the center, adding visual interest without specific identification. | headline: Bold white text stating 'Flash sale live Only this weekend' prominently displayed in the center. text='Flash sale live Only this weekend' | body_text: The brand name 'VantaStyle' appears in a clean, modern font at the top of the ad. text='VantaStyle' | cta: A rounded button with the text 'Book now' in white, located at the bottom of the ad. text='Book now' | price: The price '€9.99' displayed in a bold font at the bottom, drawing attention to the offer. text='€9.99' | social_proof: A small tag labeled 'UGC' positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

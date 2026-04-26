@@ -1,0 +1,314 @@
+{
+  "creative_id": "500490",
+  "asset_file": "assets/creative_500490.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on savings and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting last-minute savings on hotels and flights.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "A small logo featuring the text 'DriftPass' in a modern font, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.997,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.88
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main savings message",
+      "description": "A prominent text area displaying 'Last-minute savings' in bold, large font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.22
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional offer details",
+      "description": "A smaller text area below the main message that reads 'Hotels + flights in one tap', providing more context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.6
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Start now' in bold, inviting users to take action, located below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, including an oval and a rectangle, adding visual interest without being the main focus.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.469
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.44
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional visual element",
+      "description": "A large, abstract shape that is visually appealing but does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.4,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.85
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Secondary decorative element",
+      "description": "Another abstract shape that complements the overall design, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 8,
+      "role": "ugc",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, positioned at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Secondary UGC tag",
+      "description": "A smaller tag positioned near the UGC label, providing additional context but not essential information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.219,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 10,
+      "role": "background",
+      "label": "Overall background",
+      "description": "A solid green background that provides a vibrant and inviting atmosphere for the ad.",
+      "text_content": "Last-minute savings Hotele tap Start now",
+      "bbox_xyxy": [
+        61,
+        204,
+        261,
+        299
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.637,
+        0.816,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 18.55
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        25,
+        23,
+        95,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.297,
+        0.116
+      ],
+      "center_normalized": [
+        0.188,
+        0.094
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, last-minute savings, call to action",
+    "layout_text": "The logo is at the top left, the main message is centered, and the CTA is below the main message.",
+    "ocr_text": "DriftPass, UGC, Last-minute savings, Hotels + flights in one tap, Start now",
+    "elements_text": "logo: A small logo featuring the text 'DriftPass' in a modern font, positioned at the top left corner. | body_text: A prominent text area displaying 'Last-minute savings' in bold, large font, centered in the ad. | body_text: A smaller text area below the main message that reads 'Hotels + flights in one tap', providing more context. | cta: A rectangular button with the text 'Start now' in bold, inviting users to take action, located below the main message. | decorative_element: Abstract shapes in the background, including an oval and a rectangle, adding visual interest without being the main focus. | unknown: A large, abstract shape that is visually appealing but does not convey specific information. | unknown: Another abstract shape that complements the overall design, positioned centrally. | ugc: A small tag labeled 'UGC' indicating user-generated content, positioned at the top right. | unknown: A smaller tag positioned near the UGC label, providing additional context but not essential information. | unknown:  text='DriftPass' | unknown:  text='UGC'"
+  }
+}

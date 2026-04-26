@@ -1,0 +1,314 @@
+{
+  "creative_id": "500479",
+  "asset_file": "assets/creative_500479.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent headline and call to action.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Promoting a product at a specific price with a call to action.",
+    "dominant_colors": [
+      "dark gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A dark gray background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.5,
+        0.188
+      ],
+      "area_percentage": 37.66
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring two overlapping rectangles with rounded corners, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        100
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.314
+      ],
+      "center_normalized": [
+        0.5,
+        0.157
+      ],
+      "area_percentage": 31.41
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Your next favorite pick' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        80
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.252
+      ],
+      "center_normalized": [
+        0.5,
+        0.126
+      ],
+      "area_percentage": 25.17
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "A smaller white text showing the price '€29.99' below the headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button with the text 'Get offer' in bold, centered at the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Two small circles positioned to the left of the price text, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A small rectangle shape located below the price text, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        176,
+        128,
+        213
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.551,
+        0.402,
+        0.667
+      ],
+      "center_normalized": [
+        0.295,
+        0.609
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A small rectangle shape positioned above the price text, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "Another small rectangle shape located near the bottom of the ad, contributing to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        206
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.646
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "A small circle shape positioned near the bottom left, adding to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.625
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Shipping information",
+      "description": "A smaller white text stating 'shipping over $25' located below the price text.",
+      "text_content": "Your next favorite pick €29.99 Get offer",
+      "bbox_xyxy": [
+        22,
+        206,
+        263,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.822,
+        0.934
+      ],
+      "center_normalized": [
+        0.445,
+        0.789
+      ],
+      "area_percentage": 21.89
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "A simple logo featuring two overlapping rectangles with rounded corners, positioned at the top left.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        119,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.372,
+        0.122
+      ],
+      "center_normalized": [
+        0.225,
+        0.097
+      ],
+      "area_percentage": 1.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern minimalist with bold text, key elements include a logo, headline, price, and CTA.",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, €29.99, Get offer, ThreadMark, shipping over $25",
+    "elements_text": "logo: A simple logo featuring two overlapping rectangles with rounded corners, positioned at the top left. | headline: Bold white text stating 'Your next favorite pick' prominently displayed in the center. | body_text: A smaller white text showing the price '€29.99' below the headline. | cta: A rounded rectangular button with the text 'Get offer' in bold, centered at the bottom. | unknown: Two small circles positioned to the left of the price text, possibly decorative. | unknown: A small rectangle shape located below the price text, adding visual interest. | unknown: A small rectangle shape positioned above the price text, enhancing the design. | unknown: Another small rectangle shape located near the bottom of the ad, contributing to the layout. | unknown: A small circle shape positioned near the bottom left, adding to the overall design. | body_text: A smaller white text stating 'shipping over $25' located below the price text. text='Your next favorite pick €29.99 Get offer' | logo: A simple logo featuring two overlapping rectangles with rounded corners, positioned at the top left. text='ThreadMark'"
+  }
+}

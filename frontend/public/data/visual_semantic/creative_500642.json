@@ -1,0 +1,242 @@
+{
+  "creative_id": "500642",
+  "asset_file": "assets/creative_500642.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a blue background and bold text elements.",
+    "visual_style": "clean and modern",
+    "main_message": "Encouraging users to explore trending content with a free trial.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract geometric shapes",
+      "description": "The background features a blue gradient with various abstract geometric shapes in lighter shades.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        197,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.309,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.414
+      ],
+      "area_percentage": 12.56
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo displays the word 'StarVault' in bold, modern typography, prominently positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.4
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric circle",
+      "description": "A large, light blue circle is positioned in the background, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Geometric square",
+      "description": "A medium-sized square shape in a lighter blue hue is placed in the center, contrasting with the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        217,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A small, rounded button at the bottom with the text 'Learn more' in white, set against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The headline text 'Watch what's trending' is bold and white, positioned centrally for emphasis.",
+      "text_content": null,
+      "bbox_xyxy": [
+        310,
+        31,
+        335,
+        83
+      ],
+      "bbox_normalized": [
+        0.863,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.897,
+        0.09
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "The subheadline 'Start free today' is in a smaller font, white in color, located just below the main headline.",
+      "text_content": "Watch what's trending Start free today",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        26,
+        40,
+        312,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.867,
+        0.15
+      ],
+      "center_normalized": [
+        0.469,
+        0.106
+      ],
+      "area_percentage": 6.95
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, clean and modern, StarVault logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the main headline and subheadline in the center, with the CTA button at the bottom.",
+    "ocr_text": "Watch what's trending, Start free today, StarVault, Learn more",
+    "elements_text": "logo: The logo displays the word 'StarVault' in bold, modern typography, prominently positioned at the top. | decorative_element: A large, light blue circle is positioned in the background, adding depth to the design. | decorative_element: A medium-sized square shape in a lighter blue hue is placed in the center, contrasting with the background. | cta: A small, rounded button at the bottom with the text 'Learn more' in white, set against a blue background. | headline: The headline text 'Watch what's trending' is bold and white, positioned centrally for emphasis. | body_text: The subheadline 'Start free today' is in a smaller font, white in color, located just below the main headline. text='Watch what's trending Start free today' | unknown:  text='StarVault' | unknown:  text='Learn more'"
+  }
+}

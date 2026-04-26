@@ -1,0 +1,170 @@
+{
+  "creative_id": "500556",
+  "asset_file": "assets/creative_500556.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent logo, a cashback message, and a call-to-action button.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to earn cashback with NovaPay.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, centered shape that appears to be a combination of an oval and a square, outlined in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.43
+      ],
+      "area_percentage": 7.86
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller, centered shape that overlaps the background shape, also outlined in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cashback message",
+      "description": "Bold, black text at the bottom of the ad stating 'Earn cashback daily' with a smaller line below it saying 'Built for peace of mind'.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "NovaPay logo",
+      "description": "A simple, bold logo at the top of the ad displaying the text 'NovaPay' in a prominent font.",
+      "text_content": "NovaPay",
+      "bbox_xyxy": [
+        26,
+        29,
+        199,
+        82
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.045,
+        0.553,
+        0.128
+      ],
+      "center_normalized": [
+        0.312,
+        0.087
+      ],
+      "area_percentage": 3.98
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A clear, black button at the bottom of the ad with the text 'Shop now' in white, inviting action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, cashback message, NovaPay logo, Shop now button",
+    "layout_text": "The logo is positioned at the top, the main message is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, NovaPay, Shop now",
+    "elements_text": "unknown: A large, centered shape that appears to be a combination of an oval and a square, outlined in a light color. | unknown: A smaller, centered shape that overlaps the background shape, also outlined in a light color. | body_text: Bold, black text at the bottom of the ad stating 'Earn cashback daily' with a smaller line below it saying 'Built for peace of mind'. text='Earn cashback daily Built for peace of mind' | logo: A simple, bold logo at the top of the ad displaying the text 'NovaPay' in a prominent font. text='NovaPay' | cta: A clear, black button at the bottom of the ad with the text 'Shop now' in white, inviting action. text='Shop now'"
+  }
+}

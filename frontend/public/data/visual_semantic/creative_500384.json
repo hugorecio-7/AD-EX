@@ -1,0 +1,290 @@
+{
+  "creative_id": "500384",
+  "asset_file": "assets/creative_500384.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with a clear promotional message for a food delivery app.",
+    "visual_style": "bold and modern",
+    "main_message": "Promoting late-night food deals through the QuickFork app.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant and attention-grabbing base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 46.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "QuickFork logo",
+      "description": "The logo features the text 'QuickFork' in a bold, modern font, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "The text reads 'Fast food, fast' in a large, clear font, conveying urgency and excitement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.488
+      ],
+      "center_normalized": [
+        0.354,
+        0.391
+      ],
+      "area_percentage": 7.57
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional offer details",
+      "description": "The text 'Late-night deals available' is smaller and positioned below the main offer, providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "App interface mockup",
+      "description": "A mockup of the app interface is displayed, showing two food items in rectangular containers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon is positioned near the app mockup, adding a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "The text 'Fast food, fast Late-night deals available' is prominently displayed, emphasizing the offer.",
+      "text_content": "Fast food, fast Late-night deals available",
+      "bbox_xyxy": [
+        47,
+        307,
+        275,
+        357
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.64,
+        0.859,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A button with the text '€19.99 Install now' is located at the bottom, encouraging immediate action.",
+      "text_content": "€19.99 Install now",
+      "bbox_xyxy": [
+        22,
+        396,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.825,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.364,
+        0.87
+      ],
+      "area_percentage": 5.29
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "The logo 'QuickFork' is displayed at the top, representing the brand identity.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        24,
+        30,
+        148,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.463,
+        0.117
+      ],
+      "center_normalized": [
+        0.269,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge with the text 'SALE' is positioned at the top right, indicating a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 11,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is displayed, suggesting user-generated content or reviews.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bold and modern, QuickFork logo, promotional message, call to action.",
+    "layout_text": "The headline is at the top, the main offer is centered, and the CTA is at the bottom.",
+    "ocr_text": "QuickFork, SALE, UGC, Fast food, fast, Late-night deals available, €19.99 Install now",
+    "elements_text": "headline: The logo features the text 'QuickFork' in a bold, modern font, prominently displayed at the top of the ad. | body_text: The text reads 'Fast food, fast' in a large, clear font, conveying urgency and excitement. | body_text: The text 'Late-night deals available' is smaller and positioned below the main offer, providing additional context. | app_screenshot: A mockup of the app interface is displayed, showing two food items in rectangular containers. | icon: A small circular icon is positioned near the app mockup, adding a decorative element. | body_text: The text 'Fast food, fast Late-night deals available' is prominently displayed, emphasizing the offer. text='Fast food, fast Late-night deals available' | cta: A button with the text '€19.99 Install now' is located at the bottom, encouraging immediate action. text='€19.99 Install now' | logo: The logo 'QuickFork' is displayed at the top, representing the brand identity. text='QuickFork' | discount_badge: A small badge with the text 'SALE' is positioned at the top right, indicating a promotional offer. text='SALE' | social_proof: A small tag labeled 'UGC' is displayed, suggesting user-generated content or reviews. text='UGC'"
+  }
+}

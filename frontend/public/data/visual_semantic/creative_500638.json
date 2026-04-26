@@ -1,0 +1,146 @@
+{
+  "creative_id": "500638",
+  "asset_file": "assets/creative_500638.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo at the top, a headline in the center, and a call-to-action button at the bottom.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a quick dining solution with nearby favorites.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "PlateSprint logo",
+      "description": "A simple, stylized logo featuring the word 'PlateSprint' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, eye-catching text that reads 'Dinner in minutes' in a large font, centered in the lower part of the ad.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        75,
+        305,
+        247,
+        389
+      ],
+      "bbox_normalized": [
+        0.234,
+        0.635,
+        0.772,
+        0.81
+      ],
+      "center_normalized": [
+        0.503,
+        0.723
+      ],
+      "area_percentage": 9.41
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "Smaller text below the headline that says 'Fresh favorites nearby', providing additional context in a clean font.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        24,
+        28,
+        164,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.512,
+        0.117
+      ],
+      "center_normalized": [
+        0.294,
+        0.087
+      ],
+      "area_percentage": 2.55
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A prominent button with the text 'Get offer', designed to stand out and encourage user interaction, located at the bottom of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, PlateSprint logo, Dinner in minutes headline, Get offer button",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA button is at the bottom.",
+    "ocr_text": "PlateSprint, Dinner in minutes, Fresh favorites nearby, Get offer",
+    "elements_text": "logo: A simple, stylized logo featuring the word 'PlateSprint' in a modern font, positioned at the top of the ad. | headline: Bold, eye-catching text that reads 'Dinner in minutes' in a large font, centered in the lower part of the ad. text='Dinner in minutes Fresh favorites nearby' | body_text: Smaller text below the headline that says 'Fresh favorites nearby', providing additional context in a clean font. text='PlateSprint' | cta: A prominent button with the text 'Get offer', designed to stand out and encourage user interaction, located at the bottom of the ad. text='Get offer'"
+  }
+}

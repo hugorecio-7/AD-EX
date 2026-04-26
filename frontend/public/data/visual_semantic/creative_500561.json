@@ -1,0 +1,194 @@
+{
+  "creative_id": "500561",
+  "asset_file": "assets/creative_500561.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel booking.",
+    "visual_style": "minimalist with bold accents",
+    "main_message": "Promoting travel bookings with special fares.",
+    "dominant_colors": [
+      "light gray",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray background fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        110,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.173,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.586
+      ],
+      "area_percentage": 82.62
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "RouteBloom logo",
+      "description": "A bold, stylized logo for 'RouteBloom' in a prominent position, featuring a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two simple circular shapes, one small and one larger, are placed in the background, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Large, bold text stating 'Book your next trip' is centrally positioned, conveying the primary message.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 10.54
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Sale announcement",
+      "description": "A bright yellow badge with the text 'SALE' is positioned at the top, drawing attention to the promotion.",
+      "text_content": "RouteBloom SALE",
+      "bbox_xyxy": [
+        27,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.483,
+        0.092
+      ],
+      "area_percentage": 5.1
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent black button with white text saying 'Order now' is located at the bottom, encouraging immediate action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' is positioned at the top, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold accents, RouteBloom logo, call to action.",
+    "layout_text": "The headline is centered, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Book your next trip, Special fares today, RouteBloom SALE, Order now, UGC",
+    "elements_text": "logo: A bold, stylized logo for 'RouteBloom' in a prominent position, featuring a modern font. | decorative_element: Two simple circular shapes, one small and one larger, are placed in the background, adding visual interest. | headline: Large, bold text stating 'Book your next trip' is centrally positioned, conveying the primary message. text='Book your next trip Special fares today' | discount_badge: A bright yellow badge with the text 'SALE' is positioned at the top, drawing attention to the promotion. text='RouteBloom SALE' | cta: A prominent black button with white text saying 'Order now' is located at the bottom, encouraging immediate action. text='Order now' | social_proof: A small tag labeled 'UGC' is positioned at the top, indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "creative_id": "500507",
+  "asset_file": "assets/creative_500507.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple gradient background with gameplay elements and promotional text.",
+    "visual_style": "modern and playful",
+    "main_message": "Unlock rare gear with no ads in the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire canvas, creating a vibrant backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "The logo features bold, stylized text reading 'VoxelRealm' in a large, eye-catching font at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A screenshot of the game interface showing a grid of interactive elements, suggesting gameplay mechanics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "Another screenshot displaying additional gameplay elements, enhancing the interactive feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small, circular icon indicating an interactive element, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small, circular icon indicating another interactive element, located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small, circular icon indicating an interactive element, positioned at the top right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Unlock rare gear text",
+      "description": "Text in a clear, modern font stating 'Unlock rare gear' positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "No ads text",
+      "description": "Text stating 'No ads in first week' in a smaller font, positioned below the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button with the text 'Learn more' in a bold font, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small, circular icon indicating another interactive element, located at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The headline 'VoxelRealm' is prominently displayed at the top of the ad in a large, bold font.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text stating 'Unlock rare gear No ads in first week' in a clear, modern font, centrally positioned.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        409,
+        325,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.903,
+        0.723
+      ],
+      "center_normalized": [
+        0.503,
+        0.681
+      ],
+      "area_percentage": 6.75
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rounded button with the text 'Learn more' in a bold font, located at the bottom center.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, modern and playful, VoxelRealm, unlock rare gear.",
+    "layout_text": "The logo is at the top, followed by gameplay screenshots, the main message in the center, and the CTA button at the bottom.",
+    "ocr_text": "VoxelRealm, Unlock rare gear, No ads in first week, Learn more",
+    "elements_text": "logo: The logo features bold, stylized text reading 'VoxelRealm' in a large, eye-catching font at the top. | app_screenshot: A screenshot of the game interface showing a grid of interactive elements, suggesting gameplay mechanics. | app_screenshot: Another screenshot displaying additional gameplay elements, enhancing the interactive feel. | icon: A small, circular icon indicating an interactive element, positioned at the top left. | icon: A small, circular icon indicating another interactive element, located at the top left. | icon: A small, circular icon indicating an interactive element, positioned at the top right. | body_text: Text in a clear, modern font stating 'Unlock rare gear' positioned centrally. | body_text: Text stating 'No ads in first week' in a smaller font, positioned below the main message. | cta: A rounded button with the text 'Learn more' in a bold font, located at the bottom center. | icon: A small, circular icon indicating another interactive element, located at the top left. | headline: The headline 'VoxelRealm' is prominently displayed at the top of the ad in a large, bold font. text='VoxelRealm' | body_text: Text stating 'Unlock rare gear No ads in first week' in a clear, modern font, centrally positioned. text='Unlock rare gear No ads in first week' | cta: A rounded button with the text 'Learn more' in a bold font, located at the bottom center. text='Learn more'"
+  }
+}

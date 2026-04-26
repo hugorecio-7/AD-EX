@@ -1,0 +1,266 @@
+{
+  "creative_id": "500424",
+  "asset_file": "assets/creative_500424.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent product display and clear call to action.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Promoting late-night food delivery deals.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        165,
+        5,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.458,
+        0.009,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.729,
+        0.504
+      ],
+      "area_percentage": 53.64
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "product display",
+      "description": "A rectangular area featuring three stylized food containers, suggesting a food delivery service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.73
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "main message",
+      "description": "Text in a bold font stating 'Hungry? We got you', positioned centrally to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        193,
+        306
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.536,
+        0.479
+      ],
+      "center_normalized": [
+        0.344,
+        0.38
+      ],
+      "area_percentage": 7.6
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "additional info",
+      "description": "Smaller text below the main message that reads 'Late-night deals available', providing more context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        117,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.326,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "price tag",
+      "description": "Text displaying the price '€19.99' in a prominent position, indicating the cost of the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        275,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.37
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A button with the text 'Install now', encouraging users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "sale badge",
+      "description": "A small badge with the word 'SALE' prominently displayed, indicating a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "headline text",
+      "description": "Text at the top of the ad reading 'PlateSprint SALE', designed to grab attention immediately.",
+      "text_content": "Hungry? We got you Late-night deals available",
+      "bbox_xyxy": [
+        43,
+        409,
+        323,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.897,
+        0.781
+      ],
+      "center_normalized": [
+        0.508,
+        0.71
+      ],
+      "area_percentage": 11.06
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unspecified element that does not fit into the defined roles, possibly decorative.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        21,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.475,
+        0.088
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another unspecified element that does not fit into the defined roles, possibly decorative.",
+      "text_content": "€19.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, interstitial format, modern minimalistic style, key elements include food display and call to action.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Hungry? We got you, Late-night deals available, PlateSprint SALE, €19.99, Install now",
+    "elements_text": "main_subject: A rectangular area featuring three stylized food containers, suggesting a food delivery service. | body_text: Text in a bold font stating 'Hungry? We got you', positioned centrally to attract attention. | body_text: Smaller text below the main message that reads 'Late-night deals available', providing more context. | price: Text displaying the price '€19.99' in a prominent position, indicating the cost of the service. | cta: A button with the text 'Install now', encouraging users to take action. | discount_badge: A small badge with the word 'SALE' prominently displayed, indicating a promotional offer. | headline: Text at the top of the ad reading 'PlateSprint SALE', designed to grab attention immediately. text='Hungry? We got you Late-night deals available' | unknown: An unspecified element that does not fit into the defined roles, possibly decorative. text='PlateSprint SALE' | unknown: Another unspecified element that does not fit into the defined roles, possibly decorative. text='€19.99 Install now'"
+  }
+}

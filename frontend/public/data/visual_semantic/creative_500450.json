@@ -1,0 +1,386 @@
+{
+  "creative_id": "500450",
+  "asset_file": "assets/creative_500450.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a purple background and bold text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting last-minute savings with flexible booking options.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple abstract background",
+      "description": "A smooth purple background with abstract shapes creating a modern and dynamic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Last-minute savings",
+      "description": "Bold, white text stating 'Last-minute savings' prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        77,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.121,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.24
+      ],
+      "area_percentage": 23.57
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Smaller white text below the headline that reads 'Flexible booking options'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Central geometric shapes",
+      "description": "A large oval and square shape in the center, adding visual interest and depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent yellow button at the bottom with the text 'Shop now' in bold, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "The logo 'CloudRoute' displayed at the top left in a clean, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        144,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.6
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold letters.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Circular decorative elements",
+      "description": "Three small circles arranged horizontally, adding a decorative touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.553,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element that does not have a clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        196,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.307,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.323
+      ],
+      "area_percentage": 0.36
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": "Last-minute savings Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        407,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.636,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 8.82
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not have a clear visual identity.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, Last-minute savings, Flexible booking options, Shop now",
+    "layout_text": "The headline is centered, the body text is below it, and the CTA is at the bottom.",
+    "ocr_text": "Last-minute savings, Flexible booking options, Shop now, CloudRoute, SALE",
+    "elements_text": "headline: Bold, white text stating 'Last-minute savings' prominently displayed in the center. | body_text: Smaller white text below the headline that reads 'Flexible booking options'. | main_subject: A large oval and square shape in the center, adding visual interest and depth. | cta: A prominent yellow button at the bottom with the text 'Shop now' in bold, inviting font. | logo: The logo 'CloudRoute' displayed at the top left in a clean, modern font. | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold letters. | decorative_element: Three small circles arranged horizontally, adding a decorative touch to the design. | unknown: An unspecified element that does not have a clear visual identity. | unknown: Another unspecified element that does not have a clear visual identity. | unknown: An unspecified element that does not have a clear visual identity. | unknown: An unspecified element that does not have a clear visual identity. text='Last-minute savings Flexible booking options' | unknown: An unspecified element that does not have a clear visual identity. text='Shop now' | unknown: An unspecified element that does not have a clear visual identity. text='CloudRoute' | unknown: An unspecified element that does not have a clear visual identity. text='SALE'"
+  }
+}

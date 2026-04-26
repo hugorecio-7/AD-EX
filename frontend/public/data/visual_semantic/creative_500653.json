@@ -1,0 +1,338 @@
+{
+  "creative_id": "500653",
+  "asset_file": "assets/creative_500653.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear call to action and user-generated content elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to join and play with friends.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, creating a lively atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small circular icon representing user-generated content, placed centrally in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "Another small circular icon representing user-generated content, positioned next to the first icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Content grid",
+      "description": "A grid of four empty circles, suggesting a space for user-generated content, located at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Content grid",
+      "description": "Another grid of four empty circles, mirroring the previous element, positioned beside it.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element at the top, possibly decorative, with no clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small element at the top, similar to the previous one, lacking a distinct visual purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element in the center, possibly decorative, with no clear visual identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small element in the center, similar to the previous one, lacking a distinct visual purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, prominent text stating 'Join the arena Play with friends tonight', centrally positioned for emphasis.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        53,
+        407,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.492,
+        0.682
+      ],
+      "area_percentage": 6.35
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'PixelForge' displayed at the top left, featuring a modern font.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom with the text 'Start now', designed to attract clicks.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 13,
+      "role": "icon",
+      "label": "User-generated content label",
+      "description": "A small label reading 'UGC', positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, main headline and call to action.",
+    "layout_text": "The headline is centrally positioned, with icons and logos at the top, and the CTA at the bottom.",
+    "ocr_text": "Join the arena Play with friends tonight, PixelForge, Start now, UGC",
+    "elements_text": "icon: A small circular icon representing user-generated content, placed centrally in the ad. | icon: Another small circular icon representing user-generated content, positioned next to the first icon. | decorative_element: A grid of four empty circles, suggesting a space for user-generated content, located at the top center. | decorative_element: Another grid of four empty circles, mirroring the previous element, positioned beside it. | unknown: A small element at the top, possibly decorative, with no clear visual identity. | unknown: Another small element at the top, similar to the previous one, lacking a distinct visual purpose. | unknown: A small element in the center, possibly decorative, with no clear visual identity. | unknown: Another small element in the center, similar to the previous one, lacking a distinct visual purpose. | headline: Bold, prominent text stating 'Join the arena Play with friends tonight', centrally positioned for emphasis. text='Join the arena Play with friends tonight' | logo: The logo 'PixelForge' displayed at the top left, featuring a modern font. text='PixelForge' | cta: A rounded rectangular button at the bottom with the text 'Start now', designed to attract clicks. text='Start now' | icon: A small label reading 'UGC', positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500643",
+  "asset_file": "assets/creative_500643.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a prominent logo and clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting new content available on StarVault.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "A bold, modern logo featuring the text 'StarVault' in a prominent position, likely in a contrasting color against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main visual area",
+      "description": "A central rectangular area that may contain abstract shapes or images, designed to draw attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top decorative shape",
+      "description": "An abstract shape positioned at the top, possibly circular or oval, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Bottom left circle",
+      "description": "A small circular shape located at the bottom left, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Bottom right square",
+      "description": "A small square shape located at the bottom right, complementing the other decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text stating 'A new season drops' in a clear, readable font, positioned centrally.",
+      "text_content": "A new season drops New hits every week",
+      "bbox_xyxy": [
+        65,
+        413,
+        298,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.828,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.713
+      ],
+      "area_percentage": 8.8
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller text below the headline that reads 'New hits every week', providing additional information.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        25,
+        39,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.092
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Shop now' at the bottom, designed to encourage user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, features logo and call to action.",
+    "layout_text": "The logo is at the top, the main visual area is central, the headline is below the main area, and the CTA is at the bottom.",
+    "ocr_text": "StarVault, A new season drops, New hits every week, Shop now",
+    "elements_text": "logo: A bold, modern logo featuring the text 'StarVault' in a prominent position, likely in a contrasting color against the background. | main_subject: A central rectangular area that may contain abstract shapes or images, designed to draw attention. | decorative_element: An abstract shape positioned at the top, possibly circular or oval, adding visual interest. | decorative_element: A small circular shape located at the bottom left, contributing to the overall design. | decorative_element: A small square shape located at the bottom right, complementing the other decorative elements. | headline: Bold text stating 'A new season drops' in a clear, readable font, positioned centrally. text='A new season drops New hits every week' | body_text: Smaller text below the headline that reads 'New hits every week', providing additional information. text='StarVault' | cta: A prominent button labeled 'Shop now' at the bottom, designed to encourage user interaction. text='Shop now'"
+  }
+}

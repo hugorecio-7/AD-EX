@@ -1,0 +1,218 @@
+{
+  "creative_id": "500476",
+  "asset_file": "assets/creative_500476.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent sale announcement with a clear call to action.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a flash sale on ThreadMark products.",
+    "dominant_colors": [
+      "beige",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A rectangular area in the center of the ad, possibly a placeholder or background element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small rectangular area in the center, likely a decorative or background element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another small rectangular area in the center, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Flash sale announcement",
+      "description": "Bold text stating 'Flash sale live Shop bestsellers now' in a prominent position.",
+      "text_content": "Flash sale live Shop bestsellers now",
+      "bbox_xyxy": [
+        58,
+        412,
+        302,
+        466
+      ],
+      "bbox_normalized": [
+        0.161,
+        0.644,
+        0.839,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.686
+      ],
+      "area_percentage": 5.72
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "ThreadMark SALE",
+      "description": "Large, eye-catching text that reads 'ThreadMark SALE' at the top of the ad.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        27,
+        40,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.092
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A button at the bottom of the ad with the text 'Watch now' designed to attract clicks.",
+      "text_content": "€29.99 Watch now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top indicating 'UGC', likely referring to user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, Flash sale announcement, ThreadMark SALE, Watch now button.",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Flash sale live Shop bestsellers now, ThreadMark SALE, €29.99, Watch now, UGC",
+    "elements_text": "unknown: A rectangular area in the center of the ad, possibly a placeholder or background element. | unknown: A small rectangular area in the center, likely a decorative or background element. | unknown: Another small rectangular area in the center, possibly a decorative feature. | headline: Bold text stating 'Flash sale live Shop bestsellers now' in a prominent position. text='Flash sale live Shop bestsellers now' | headline: Large, eye-catching text that reads 'ThreadMark SALE' at the top of the ad. text='ThreadMark SALE' | cta: A button at the bottom of the ad with the text 'Watch now' designed to attract clicks. text='€29.99 Watch now' | social_proof: A small label at the top indicating 'UGC', likely referring to user-generated content. text='UGC'"
+  }
+}

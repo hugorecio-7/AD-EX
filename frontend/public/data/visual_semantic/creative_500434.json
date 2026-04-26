@@ -1,0 +1,362 @@
+{
+  "creative_id": "500434",
+  "asset_file": "assets/creative_500434.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent logo and engaging game interface.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to play with friends and claim rewards.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant backdrop for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.5
+      ],
+      "area_percentage": 99.73
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The PixelForge logo appears at the top, featuring a simple design with bold text against the blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Game interface screenshot",
+      "description": "A screenshot of a game interface is centered, showing four game icons with dots indicating interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        213,
+        314
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.592,
+        0.491
+      ],
+      "center_normalized": [
+        0.346,
+        0.436
+      ],
+      "area_percentage": 5.47
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Game icon",
+      "description": "A small game icon is displayed in the center, featuring a simple design with a dot in the middle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The main message text is positioned below the logo, written in bold white font against the blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.481,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Sub-message text",
+      "description": "A smaller sub-message text appears below the main message, providing additional context in white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded button at the bottom with the text 'Claim reward' in white, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element appears in the center, possibly an icon or graphic, with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small icon is positioned at the top, featuring a simple design that complements the overall theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "Another small icon appears at the top, similar in style to the previous one, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small decorative element is centered, possibly an icon or graphic, with a simple design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The main headline text is prominently displayed in bold white font, conveying the primary message of the ad.",
+      "text_content": "Beat your rivals Play with friends tonight",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The PixelForge logo appears at the top, featuring a simple design with bold text against the blue background.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded button at the bottom with the text 'Claim reward' in white, inviting user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, PixelForge logo, game interface, claim reward button",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA button is at the bottom.",
+    "ocr_text": "Beat your rivals, Play with friends tonight, PixelForge, Claim reward",
+    "elements_text": "logo: The PixelForge logo appears at the top, featuring a simple design with bold text against the blue background. | app_screenshot: A screenshot of a game interface is centered, showing four game icons with dots indicating interaction. | icon: A small game icon is displayed in the center, featuring a simple design with a dot in the middle. | body_text: The main message text is positioned below the logo, written in bold white font against the blue background. | body_text: A smaller sub-message text appears below the main message, providing additional context in white font. | cta: A rounded button at the bottom with the text 'Claim reward' in white, inviting user interaction. | unknown: A small decorative element appears in the center, possibly an icon or graphic, with a simple design. | unknown: A small icon is positioned at the top, featuring a simple design that complements the overall theme. | unknown: Another small icon appears at the top, similar in style to the previous one, enhancing the visual interest. | unknown: A small decorative element is centered, possibly an icon or graphic, with a simple design. | headline: The main headline text is prominently displayed in bold white font, conveying the primary message of the ad. text='Beat your rivals Play with friends tonight' | logo: The PixelForge logo appears at the top, featuring a simple design with bold text against the blue background. text='PixelForge' | cta: A rounded button at the bottom with the text 'Claim reward' in white, inviting user interaction. text='Claim reward'"
+  }
+}

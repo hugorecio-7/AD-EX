@@ -1,0 +1,194 @@
+{
+  "creative_id": "500571",
+  "asset_file": "assets/creative_500571.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and geometric shapes.",
+    "visual_style": "modern and playful",
+    "main_message": "Encouraging users to start binge-watching for free.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a lively and energetic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a smaller circle are positioned in the center, both in a lighter shade of green, creating a modern and abstract look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        157,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle in a lighter green hue is placed near the center, adding a playful touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold black text reads 'Binge starts now' with a smaller line below it saying 'Start free today', prominently displayed in the center.",
+      "text_content": "Binge starts now Start free today",
+      "bbox_xyxy": [
+        29,
+        309,
+        291,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.644,
+        0.909,
+        0.744
+      ],
+      "center_normalized": [
+        0.5,
+        0.694
+      ],
+      "area_percentage": 8.19
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'NeonCast' appears in a bold font at the top left corner, contrasting against the green background.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        24,
+        30,
+        142,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.444,
+        0.117
+      ],
+      "center_normalized": [
+        0.259,
+        0.09
+      ],
+      "area_percentage": 2.0
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom center with the text 'Try for free' in white, inviting users to take action.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        106,
+        418,
+        214,
+        442
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.871,
+        0.669,
+        0.921
+      ],
+      "center_normalized": [
+        0.5,
+        0.896
+      ],
+      "area_percentage": 1.69
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small circular badge labeled 'UGC' in white, positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and playful, vibrant green background, bold text.",
+    "layout_text": "The headline is centered with the main subject shapes behind it, the logo is at the top left, and the CTA is at the bottom center.",
+    "ocr_text": "Binge starts now, Start free today, NeonCast, Try for free, UGC",
+    "elements_text": "main_subject: A large rectangle and a smaller circle are positioned in the center, both in a lighter shade of green, creating a modern and abstract look. | decorative_element: A small circle in a lighter green hue is placed near the center, adding a playful touch to the design. | headline: Bold black text reads 'Binge starts now' with a smaller line below it saying 'Start free today', prominently displayed in the center. text='Binge starts now Start free today' | logo: The logo 'NeonCast' appears in a bold font at the top left corner, contrasting against the green background. text='NeonCast' | cta: A rounded button at the bottom center with the text 'Try for free' in white, inviting users to take action. text='Try for free' | social_proof: A small circular badge labeled 'UGC' in white, positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

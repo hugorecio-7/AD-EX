@@ -1,0 +1,242 @@
+{
+  "creative_id": "500493",
+  "asset_file": "assets/creative_500493.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent logo and promotional text.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Promoting food delivery with a special offer.",
+    "dominant_colors": [
+      "dark gray",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that provides contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.63
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A stylized logo featuring the word 'BiteRush' in a bold, modern font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food delivery icon",
+      "description": "An icon representing food delivery, featuring two stylized food containers with a circular element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        171,
+        227
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.535,
+        0.474
+      ],
+      "center_normalized": [
+        0.343,
+        0.377
+      ],
+      "area_percentage": 7.38
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A gray rectangular shape that may represent a placeholder or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        219
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another gray rectangular shape, possibly a decorative or placeholder element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.46,
+        0.398
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small gray circle that may serve as a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A bold text message stating 'Hungry? We got you Free delivery over $15 $4.99 Get offer' in a clear, readable font.",
+      "text_content": "Hungry? We got you Free delivery over $15 $4.99 Get offer",
+      "bbox_xyxy": [
+        21,
+        305,
+        290,
+        439
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.635,
+        0.906,
+        0.915
+      ],
+      "center_normalized": [
+        0.486,
+        0.775
+      ],
+      "area_percentage": 23.47
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "BiteRush headline",
+      "description": "The word 'BiteRush' prominently displayed at the top in a large, eye-catching font.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        24,
+        30,
+        134,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.419,
+        0.117
+      ],
+      "center_normalized": [
+        0.247,
+        0.09
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold text, positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern minimalistic with bold text, BiteRush logo, promotional message",
+    "layout_text": "The logo is at the top, followed by the promotional message in the center, with a sale badge at the top right.",
+    "ocr_text": "Hungry? We got you Free delivery over $15 $4.99 Get offer, BiteRush, SALE",
+    "elements_text": "logo: A stylized logo featuring the word 'BiteRush' in a bold, modern font, positioned at the top. | main_subject: An icon representing food delivery, featuring two stylized food containers with a circular element. | unknown: A gray rectangular shape that may represent a placeholder or decorative element. | unknown: Another gray rectangular shape, possibly a decorative or placeholder element. | unknown: A small gray circle that may serve as a decorative feature. | body_text: A bold text message stating 'Hungry? We got you Free delivery over $15 $4.99 Get offer' in a clear, readable font. text='Hungry? We got you Free delivery over $15 $4.99 Get offer' | headline: The word 'BiteRush' prominently displayed at the top in a large, eye-catching font. text='BiteRush' | discount_badge: A small yellow badge with the word 'SALE' in bold text, positioned at the top right. text='SALE'"
+  }
+}

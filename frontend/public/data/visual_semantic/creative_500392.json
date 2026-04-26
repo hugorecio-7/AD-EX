@@ -1,0 +1,242 @@
+{
+  "creative_id": "500392",
+  "asset_file": "assets/creative_500392.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with abstract shapes and clear promotional messaging.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting the BingeLayer service with a call to action.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A collection of abstract geometric shapes in the background, creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        358,
+        228
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.997,
+        0.356
+      ],
+      "center_normalized": [
+        0.501,
+        0.259
+      ],
+      "area_percentage": 19.36
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic",
+      "description": "A large, prominent circular shape in the center, surrounded by other geometric forms.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        156,
+        175,
+        297
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.245,
+        0.488,
+        0.465
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "rectangular graphic",
+      "description": "A rectangular shape positioned slightly lower than the circular graphic, adding depth to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        146,
+        220,
+        276,
+        328
+      ],
+      "bbox_normalized": [
+        0.406,
+        0.345,
+        0.769,
+        0.514
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "small shape",
+      "description": "A small, elongated shape located at the top left, contributing to the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.18,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.238
+      ],
+      "area_percentage": 1.59
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "An unclear shape that appears to be a smaller graphic element, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "The text 'BingeLayer' in a bold, modern font, prominently displayed at the top of the ad.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        21,
+        29,
+        360,
+        107
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        1.0,
+        0.167
+      ],
+      "center_normalized": [
+        0.529,
+        0.106
+      ],
+      "area_percentage": 11.48
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "promotional message",
+      "description": "The text 'A new season drops Start free today' in a clear, inviting font, centered at the bottom.",
+      "text_content": "A new season drops Start free today",
+      "bbox_xyxy": [
+        65,
+        413,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.645,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.76
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A rounded button with the text 'Shop now' in a contrasting color, encouraging user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold typography, BingeLayer logo, promotional message, call to action",
+    "layout_text": "The logo is at the top, followed by the main subject graphics in the center, and the body text and CTA at the bottom.",
+    "ocr_text": "BingeLayer, A new season drops, Start free today, Shop now",
+    "elements_text": "decorative_element: A collection of abstract geometric shapes in the background, creating a dynamic visual effect. | main_subject: A large, prominent circular shape in the center, surrounded by other geometric forms. | main_subject: A rectangular shape positioned slightly lower than the circular graphic, adding depth to the composition. | decorative_element: A small, elongated shape located at the top left, contributing to the abstract theme. | unknown: An unclear shape that appears to be a smaller graphic element, positioned centrally. | logo: The text 'BingeLayer' in a bold, modern font, prominently displayed at the top of the ad. text='BingeLayer' | body_text: The text 'A new season drops Start free today' in a clear, inviting font, centered at the bottom. text='A new season drops Start free today' | cta: A rounded button with the text 'Shop now' in a contrasting color, encouraging user interaction. text='Shop now'"
+  }
+}

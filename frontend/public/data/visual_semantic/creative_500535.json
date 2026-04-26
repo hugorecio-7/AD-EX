@@ -1,0 +1,314 @@
+{
+  "creative_id": "500535",
+  "asset_file": "assets/creative_500535.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with an app interface display and promotional text.",
+    "visual_style": "modern flat with bold colors",
+    "main_message": "Promoting the PulsePlay app with a call to action to install.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface display",
+      "description": "A rectangular area showing a simplified app interface with rounded corners, featuring placeholder shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        178,
+        340,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.279,
+        0.946,
+        0.52
+      ],
+      "center_normalized": [
+        0.672,
+        0.399
+      ],
+      "area_percentage": 13.18
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Circular decorative shape",
+      "description": "A large circular shape in the app interface, adding a modern touch to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square decorative shape",
+      "description": "A large square shape in the app interface, complementing the circular element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A right-facing arrow icon indicating navigation, positioned at the top right of the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Small circle icon",
+      "description": "A small circular icon located in the app interface, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Small circle icon",
+      "description": "Another small circular icon in the app interface, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Small circle icon",
+      "description": "A third small circular icon in the app interface, maintaining visual consistency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "Bold white text stating 'Stream the hype Cancel anytime' positioned centrally within the ad.",
+      "text_content": "Stream the hype Cancel anytime",
+      "bbox_xyxy": [
+        35,
+        409,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "App name",
+      "description": "The name 'PulsePlay' displayed in large, bold text at the top of the ad.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        22,
+        27,
+        219,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.042,
+        0.608,
+        0.128
+      ],
+      "center_normalized": [
+        0.335,
+        0.085
+      ],
+      "area_percentage": 4.7
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom of the ad with the text 'Install now' encouraging user action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "User-generated content label",
+      "description": "Small text labeled 'UGC' positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern flat with bold colors, PulsePlay, Stream the hype.",
+    "layout_text": "The headline is at the top, the app interface is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, Cancel anytime, PulsePlay, Install now, UGC",
+    "elements_text": "app_screenshot: A rectangular area showing a simplified app interface with rounded corners, featuring placeholder shapes. | decorative_element: A large circular shape in the app interface, adding a modern touch to the design. | decorative_element: A large square shape in the app interface, complementing the circular element. | icon: A right-facing arrow icon indicating navigation, positioned at the top right of the app interface. | icon: A small circular icon located in the app interface, serving as a decorative element. | icon: Another small circular icon in the app interface, similar to the previous one. | icon: A third small circular icon in the app interface, maintaining visual consistency. | body_text: Bold white text stating 'Stream the hype Cancel anytime' positioned centrally within the ad. text='Stream the hype Cancel anytime' | headline: The name 'PulsePlay' displayed in large, bold text at the top of the ad. text='PulsePlay' | cta: A prominent button at the bottom of the ad with the text 'Install now' encouraging user action. text='Install now' | body_text: Small text labeled 'UGC' positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

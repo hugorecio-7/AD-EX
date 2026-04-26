@@ -1,0 +1,290 @@
+{
+  "creative_id": "500662",
+  "asset_file": "assets/creative_500662.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with abstract shapes and clear messaging about cashback offers.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Encouraging users to earn cashback with a simple signup process.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        135
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.283
+      ],
+      "center_normalized": [
+        0.499,
+        0.142
+      ],
+      "area_percentage": 28.25
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple logo featuring the text 'EarnPath' in a bold, modern font, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        99
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.208
+      ],
+      "center_normalized": [
+        0.499,
+        0.104
+      ],
+      "area_percentage": 20.75
+    },
+    {
+      "id": 3,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small circular badge with the text 'UGC' in a clean font, located near the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "A composition of abstract geometric shapes, including a large rectangle and a circle, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "additional shapes",
+      "description": "Another set of abstract shapes, slightly smaller and overlapping with the first set, adding depth to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        118,
+        156,
+        222
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.247,
+        0.488,
+        0.463
+      ],
+      "center_normalized": [
+        0.335,
+        0.355
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "large shape",
+      "description": "A prominent large rectangle that serves as a focal point, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        166,
+        246,
+        247
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.769,
+        0.515
+      ],
+      "center_normalized": [
+        0.59,
+        0.431
+      ],
+      "area_percentage": 5.99
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "small shape",
+      "description": "A small, irregular shape located towards the bottom center of the ad, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "cashback message",
+      "description": "Bold text stating 'Earn cashback daily' with a smaller tagline 'Fast signup, instant card' below it, centered at the bottom.",
+      "text_content": "Earn cashback daily Fast signup, instant card",
+      "bbox_xyxy": [
+        48,
+        308,
+        276,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.642,
+        0.863,
+        0.81
+      ],
+      "center_normalized": [
+        0.506,
+        0.726
+      ],
+      "area_percentage": 12.02
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button with the text 'Shop now' in a clear, inviting font, positioned below the cashback message.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        35,
+        113,
+        55
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.073,
+        0.353,
+        0.115
+      ],
+      "center_normalized": [
+        0.212,
+        0.094
+      ],
+      "area_percentage": 1.17
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, cashback offer, abstract shapes",
+    "layout_text": "The logo and UGC label are at the top, abstract shapes are centered, and the cashback message and CTA are at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, Shop now, EarnPath, UGC",
+    "elements_text": "logo: A simple logo featuring the text 'EarnPath' in a bold, modern font, positioned at the top left. | social_proof: A small circular badge with the text 'UGC' in a clean font, located near the top left corner. | main_subject: A composition of abstract geometric shapes, including a large rectangle and a circle, centered in the ad. | main_subject: Another set of abstract shapes, slightly smaller and overlapping with the first set, adding depth to the design. | main_subject: A prominent large rectangle that serves as a focal point, positioned centrally within the ad. | unknown: A small, irregular shape located towards the bottom center of the ad, adding visual interest. | body_text: Bold text stating 'Earn cashback daily' with a smaller tagline 'Fast signup, instant card' below it, centered at the bottom. text='Earn cashback daily Fast signup, instant card' | cta: A prominent button with the text 'Shop now' in a clear, inviting font, positioned below the cashback message. text='Shop now' | unknown:  text='EarnPath' | unknown:  text='UGC'"
+  }
+}

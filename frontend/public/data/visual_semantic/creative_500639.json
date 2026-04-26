@@ -1,0 +1,218 @@
+{
+  "creative_id": "500639",
+  "asset_file": "assets/creative_500639.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent promotional message and brand logo.",
+    "visual_style": "dark modern with bold text",
+    "main_message": "Promoting late-night fast food deals at a special price.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered graphic element that appears abstract and does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another small, centered graphic element that is abstract in nature and lacks identifiable features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        155
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.14
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered graphic element that is indistinct and does not provide clear visual information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered graphic element that appears abstract and does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        199
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.529,
+        0.22,
+        0.624
+      ],
+      "center_normalized": [
+        0.17,
+        0.577
+      ],
+      "area_percentage": 0.93
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A prominent text element at the bottom, featuring bold, clear typography that communicates a promotional offer.",
+      "text_content": "Fast food, fast Late-night deals available €29.99 Try for free",
+      "bbox_xyxy": [
+        22,
+        202,
+        275,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.631,
+        0.859,
+        0.934
+      ],
+      "center_normalized": [
+        0.464,
+        0.783
+      ],
+      "area_percentage": 23.97
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left, featuring the brand name 'PlateSprint' in a simple, modern font.",
+      "text_content": "PlateSprint",
+      "bbox_xyxy": [
+        25,
+        20,
+        112,
+        36
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.35,
+        0.113
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.36
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, top right badge with the word 'SALE' in bold, eye-catching typography.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        241,
+        23,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.072,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.825,
+        0.1
+      ],
+      "area_percentage": 0.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, native format, dark modern style, key elements include promotional text and logo.",
+    "layout_text": "The logo is positioned at the top left, the sale badge at the top right, and the main promotional message is centered at the bottom.",
+    "ocr_text": "PlateSprint, SALE, Fast food, fast, Late-night deals available, €29.99, Try for free",
+    "elements_text": "unknown: A small, centered graphic element that appears abstract and does not convey specific information. | unknown: Another small, centered graphic element that is abstract in nature and lacks identifiable features. | unknown: A small, centered graphic element that is indistinct and does not provide clear visual information. | unknown: A small, centered graphic element that appears abstract and does not convey specific information. | body_text: A prominent text element at the bottom, featuring bold, clear typography that communicates a promotional offer. text='Fast food, fast Late-night deals available €29.99 Try for free' | logo: A small logo at the top left, featuring the brand name 'PlateSprint' in a simple, modern font. text='PlateSprint' | discount_badge: A small, top right badge with the word 'SALE' in bold, eye-catching typography. text='SALE'"
+  }
+}

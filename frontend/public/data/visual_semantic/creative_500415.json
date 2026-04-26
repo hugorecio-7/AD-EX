@@ -1,0 +1,362 @@
+{
+  "creative_id": "500415",
+  "asset_file": "assets/creative_500415.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear call to action and supporting text.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to book travel easily.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        59,
+        305,
+        235
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.186,
+        0.953,
+        0.736
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 49.7
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' is prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller white text below the headline reads 'Hotels & flights in one tap', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.51
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.19
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with the text 'Shop now' in white, inviting users to take action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "An abstract shape in the center, possibly a placeholder for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.49
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "Another abstract shape, smaller and positioned near the center, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A larger abstract shape, centered, which may represent a product or service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "A smaller abstract shape, adding to the overall design without specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative shape",
+      "description": "Another abstract shape, contributing to the layered look of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.86
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small shape positioned towards the bottom, possibly for aesthetic balance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small shape, mirroring the previous one, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The main text area at the bottom contains the call to action and supporting details.",
+      "text_content": "Book your next trip Hotele tap Shop now",
+      "bbox_xyxy": [
+        44,
+        206,
+        278,
+        299
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.644,
+        0.869,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.789
+      ],
+      "area_percentage": 21.25
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "The logo 'NomadLayer' appears at the top left, indicating the brand behind the ad.",
+      "text_content": "NomadLayer",
+      "bbox_xyxy": [
+        24,
+        19,
+        121,
+        38
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.227,
+        0.089
+      ],
+      "area_percentage": 1.8
+    },
+    {
+      "id": 14,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, positioned near the logo.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include a headline, body text, and CTA.",
+    "layout_text": "The headline is at the top, followed by body text, with the CTA button at the bottom.",
+    "ocr_text": "Book your next trip, Hotels & flights in one tap, Shop now, NomadLayer, UGC",
+    "elements_text": "headline: Bold white text stating 'Book your next trip' is prominently displayed at the top of the ad. | body_text: Smaller white text below the headline reads 'Hotels & flights in one tap', providing additional context. | cta: A rectangular button with the text 'Shop now' in white, inviting users to take action. | unknown: An abstract shape in the center, possibly a placeholder for an image or graphic. | unknown: Another abstract shape, smaller and positioned near the center, adding visual interest. | unknown: A larger abstract shape, centered, which may represent a product or service. | unknown: A smaller abstract shape, adding to the overall design without specific identification. | unknown: Another abstract shape, contributing to the layered look of the ad. | unknown: A small shape positioned towards the bottom, possibly for aesthetic balance. | unknown: Another small shape, mirroring the previous one, enhancing the design. | body_text: The main text area at the bottom contains the call to action and supporting details. text='Book your next trip Hotele tap Shop now' | logo: The logo 'NomadLayer' appears at the top left, indicating the brand behind the ad. text='NomadLayer' | social_proof: A small tag labeled 'UGC' indicating user-generated content, positioned near the logo. text='UGC'"
+  }
+}

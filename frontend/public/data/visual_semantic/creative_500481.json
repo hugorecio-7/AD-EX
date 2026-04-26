@@ -1,0 +1,218 @@
+{
+  "creative_id": "500481",
+  "asset_file": "assets/creative_500481.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text and geometric shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale for CoinBridge with a focus on transparency in fees.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.951,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a lighter orange shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.481
+      ],
+      "center_normalized": [
+        0.468,
+        0.361
+      ],
+      "area_percentage": 14.36
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "Bold, white text stating 'Track every euro' positioned centrally within the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main text that reads 'No hidden fees'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Bold, yellow text at the top stating 'CoinBridge SALE' with a slight shadow effect.",
+      "text_content": "CoinBridge SALE",
+      "bbox_xyxy": [
+        21,
+        28,
+        321,
+        83
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.044,
+        0.892,
+        0.13
+      ],
+      "center_normalized": [
+        0.475,
+        0.087
+      ],
+      "area_percentage": 7.16
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent white button at the bottom with the text 'Watch now' in bold.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        34,
+        408,
+        325,
+        463
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.637,
+        0.903,
+        0.723
+      ],
+      "center_normalized": [
+        0.499,
+        0.68
+      ],
+      "area_percentage": 6.95
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small white label in the top corner that says 'UGC' in a bold font.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Visual accents",
+      "description": "Minimalistic design elements that enhance the overall aesthetic without distracting from the main message.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "CoinBridge, unknown vertical, interstitial format, bright and modern visual style, key elements include sale announcement and call to action.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge SALE, Track every euro, No hidden fees, Watch now, UGC",
+    "elements_text": "main_subject: Two overlapping geometric shapes, one circular and one rectangular, in a lighter orange shade. | body_text: Bold, white text stating 'Track every euro' positioned centrally within the main subject. | body_text: Smaller white text below the main text that reads 'No hidden fees'. | headline: Bold, yellow text at the top stating 'CoinBridge SALE' with a slight shadow effect. text='CoinBridge SALE' | cta: A prominent white button at the bottom with the text 'Watch now' in bold. text='Track every euro No hidden fees' | social_proof: A small white label in the top corner that says 'UGC' in a bold font. text='Watch now' | decorative_element: Minimalistic design elements that enhance the overall aesthetic without distracting from the main message. text='UGC'"
+  }
+}

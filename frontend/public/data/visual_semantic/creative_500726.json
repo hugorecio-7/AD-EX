@@ -1,0 +1,218 @@
+{
+  "creative_id": "500726",
+  "asset_file": "assets/creative_500726.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo and discount information against a blue background.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time discount on BoltCart.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "A bold, modern logo featuring the word 'BoltCart' in large, white letters against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        165,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.517,
+        0.457
+      ],
+      "center_normalized": [
+        0.334,
+        0.371
+      ],
+      "area_percentage": 6.28
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Discount announcement",
+      "description": "Text displaying 'Up to 40% off' in a prominent, eye-catching font, colored white on a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Weekend offer",
+      "description": "Smaller text stating 'Only this weekend' in a simple, readable font, positioned below the discount announcement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.285,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 4,
+      "role": "discount_badge",
+      "label": "30% off badge",
+      "description": "A circular badge with a bold '30%' in white, set against a blue background, indicating a specific discount.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A rectangular button with the text 'Learn more' in white, set against a blue background, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Top banner",
+      "description": "A thin, horizontal banner at the top of the ad, colored blue, adding visual structure to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        259,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.811,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.871,
+        0.09
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 7,
+      "role": "background",
+      "label": "Ad background",
+      "description": "A solid blue background that fills the entire ad space, providing a cohesive backdrop for all elements.",
+      "text_content": "Up to 40% off Only this weekend 30% Learn more",
+      "bbox_xyxy": [
+        30,
+        205,
+        269,
+        299
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.641,
+        0.841,
+        0.934
+      ],
+      "center_normalized": [
+        0.467,
+        0.787
+      ],
+      "area_percentage": 21.94
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, bold headline reading 'BoltCart' that dominates the top section of the ad, designed to grab attention.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        10,
+        24,
+        260,
+        80
+      ],
+      "bbox_normalized": [
+        0.031,
+        0.075,
+        0.812,
+        0.25
+      ],
+      "center_normalized": [
+        0.422,
+        0.163
+      ],
+      "area_percentage": 13.67
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BoltCart logo, discount announcement, weekend offer",
+    "layout_text": "The logo is at the top, followed by the main headline, discount information, and a call-to-action button at the bottom.",
+    "ocr_text": "Up to 40% off, Only this weekend, 30%, Learn more, BoltCart",
+    "elements_text": "logo: A bold, modern logo featuring the word 'BoltCart' in large, white letters against a blue background. | body_text: Text displaying 'Up to 40% off' in a prominent, eye-catching font, colored white on a blue background. | body_text: Smaller text stating 'Only this weekend' in a simple, readable font, positioned below the discount announcement. | discount_badge: A circular badge with a bold '30%' in white, set against a blue background, indicating a specific discount. | cta: A rectangular button with the text 'Learn more' in white, set against a blue background, inviting user interaction. | decorative_element: A thin, horizontal banner at the top of the ad, colored blue, adding visual structure to the layout. | headline: A large, bold headline reading 'BoltCart' that dominates the top section of the ad, designed to grab attention. text='BoltCart'"
+  }
+}

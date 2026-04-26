@@ -1,0 +1,218 @@
+{
+  "creative_id": "500603",
+  "asset_file": "assets/creative_500603.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a warm orange background with food images and promotional text.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting quick meal options at an affordable price.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background fills the entire canvas, providing a warm and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        126,
+        343,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.197,
+        0.953,
+        0.719
+      ],
+      "center_normalized": [
+        0.501,
+        0.458
+      ],
+      "area_percentage": 47.17
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Three food images",
+      "description": "Three rectangular images of food items are displayed in a row, each with a slight shadow for depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Three food images",
+      "description": "Another view of the three rectangular images of food items, maintaining the same arrangement and shadow effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Three food images",
+      "description": "The third perspective of the three rectangular images of food items, consistent in style and layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "Bold white text stating 'Dinner in minutes' is centrally positioned, conveying a quick meal option.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        80,
+        409,
+        276,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.767,
+        0.781
+      ],
+      "center_normalized": [
+        0.494,
+        0.71
+      ],
+      "area_percentage": 7.74
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "QuickFork SALE",
+      "description": "A prominent yellow text label reading 'QuickFork SALE' is placed at the top, drawing immediate attention.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        23,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.478,
+        0.089
+      ],
+      "area_percentage": 5.69
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A bright button with the text 'Book now' in white, inviting users to take action, located at the bottom.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small yellow price tag displaying '€9.99' is positioned near the bottom, indicating the cost of the meal.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and inviting, Dinner in minutes, QuickFork SALE, Book now, €9.99",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, QuickFork SALE, Book now, €9.99",
+    "elements_text": "main_subject: Three rectangular images of food items are displayed in a row, each with a slight shadow for depth. | main_subject: Another view of the three rectangular images of food items, maintaining the same arrangement and shadow effect. | main_subject: The third perspective of the three rectangular images of food items, consistent in style and layout. | body_text: Bold white text stating 'Dinner in minutes' is centrally positioned, conveying a quick meal option. text='Dinner in minutes Fresh favorites nearby' | headline: A prominent yellow text label reading 'QuickFork SALE' is placed at the top, drawing immediate attention. text='QuickFork SALE' | cta: A bright button with the text 'Book now' in white, inviting users to take action, located at the bottom. text='Book now' | price: A small yellow price tag displaying '€9.99' is positioned near the bottom, indicating the cost of the meal. text='€9.99'"
+  }
+}

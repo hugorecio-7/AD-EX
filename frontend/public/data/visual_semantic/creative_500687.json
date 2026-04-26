@@ -1,0 +1,386 @@
+{
+  "creative_id": "500687",
+  "asset_file": "assets/creative_500687.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting a game with interactive elements.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to join and compete for rewards.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top left icon",
+      "description": "A small circular icon located at the top left, possibly representing a game feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Top right icon",
+      "description": "A small circular icon located at the top right, likely indicating another game feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center left icon",
+      "description": "A small circular icon positioned in the center left area, possibly representing a game action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center right icon",
+      "description": "A small circular icon located in the center right area, likely indicating another game action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top left decorative element",
+      "description": "A small decorative element in the top left, possibly a design feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top right decorative element",
+      "description": "A small decorative element in the top right, possibly enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center left decorative element",
+      "description": "A small decorative element in the center left area, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top center decorative element",
+      "description": "A small decorative element in the top center, adding to the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center text element",
+      "description": "A small text element in the center area, likely part of the game's interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Top left text element",
+      "description": "A small text element in the top left, possibly providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Center left text element",
+      "description": "A small text element in the center left, likely conveying game instructions.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A prominent logo at the top, featuring the text 'NeonArena' in a bold, eye-catching font.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        40,
+        354,
+        92
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.983,
+        0.144
+      ],
+      "center_normalized": [
+        0.531,
+        0.103
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "A larger text block in the center, stating 'Beat your rivals Free rewards for new players' in a clear, engaging font.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        465
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.727
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom with the text 'Start now', designed to attract user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, NeonArena logo, promotional text, call to action.",
+    "layout_text": "The logo is at the top, main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "NeonArena, Beat your rivals Free rewards for new players, Start now",
+    "elements_text": "unknown: A small circular icon located at the top left, possibly representing a game feature or option. | unknown: A small circular icon located at the top right, likely indicating another game feature or option. | unknown: A small circular icon positioned in the center left area, possibly representing a game action. | unknown: A small circular icon located in the center right area, likely indicating another game action. | unknown: A small decorative element in the top left, possibly a design feature. | unknown: A small decorative element in the top right, possibly enhancing the visual appeal. | unknown: A small decorative element in the center left area, contributing to the overall design. | unknown: A small decorative element in the top center, adding to the visual interest. | unknown: A small text element in the center area, likely part of the game's interface. | unknown: A small text element in the top left, possibly providing additional information. | unknown: A small text element in the center left, likely conveying game instructions. | logo: A prominent logo at the top, featuring the text 'NeonArena' in a bold, eye-catching font. text='NeonArena' | body_text: A larger text block in the center, stating 'Beat your rivals Free rewards for new players' in a clear, engaging font. text='Beat your rivals Free rewards for new players' | cta: A button at the bottom with the text 'Start now', designed to attract user interaction. text='Start now'"
+  }
+}

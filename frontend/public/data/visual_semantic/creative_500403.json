@@ -1,0 +1,266 @@
+{
+  "creative_id": "500403",
+  "asset_file": "assets/creative_500403.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a gray background with promotional text and product display areas.",
+    "visual_style": "minimalistic and modern",
+    "main_message": "Promoting a new collection with a special price.",
+    "dominant_colors": [
+      "gray",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Gray background",
+      "description": "A solid gray background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.501,
+        0.089
+      ],
+      "area_percentage": 17.8
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A blank rectangular area in the center, designed to showcase a product with a light outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.31,
+        0.55,
+        0.49
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "Another blank rectangular area in the center, similar to the previous one, for additional product display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A smaller blank rectangular area in the center, intended for showcasing another product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A small black button at the bottom with rounded edges, inviting users to claim a reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.263,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A small black button at the bottom with rounded edges, inviting users to claim a reward.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        269,
+        62,
+        282
+      ],
+      "bbox_normalized": [
+        0.162,
+        0.841,
+        0.196,
+        0.884
+      ],
+      "center_normalized": [
+        0.179,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Bold black text at the bottom stating 'New collection drop €29.99' with a smaller text below it.",
+      "text_content": "New collection drop €29.992k Claim reward",
+      "bbox_xyxy": [
+        25,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.467,
+        0.786
+      ],
+      "area_percentage": 23.1
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, featuring the text 'CrispBox' in a modern font.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        25,
+        21,
+        93,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.291,
+        0.122
+      ],
+      "center_normalized": [
+        0.184,
+        0.094
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge at the top right corner with the word 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 10,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner with the text 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalistic and modern, promoting new collection drop.",
+    "layout_text": "The logo is positioned at the top left, the main promotional text is centered, and the CTA is at the bottom.",
+    "ocr_text": "CrispBox, SALE, UGC, New collection drop, €29.99, Claim reward",
+    "elements_text": "main_subject: A blank rectangular area in the center, designed to showcase a product with a light outline. | main_subject: Another blank rectangular area in the center, similar to the previous one, for additional product display. | main_subject: A smaller blank rectangular area in the center, intended for showcasing another product. | cta: A small black button at the bottom with rounded edges, inviting users to claim a reward. | cta: A small black button at the bottom with rounded edges, inviting users to claim a reward. | body_text: Bold black text at the bottom stating 'New collection drop €29.99' with a smaller text below it. text='New collection drop €29.992k Claim reward' | logo: A small logo at the top left corner, featuring the text 'CrispBox' in a modern font. text='CrispBox' | discount_badge: A small yellow badge at the top right corner with the word 'SALE' in bold letters. text='SALE' | social_proof: A small tag at the top left corner with the text 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

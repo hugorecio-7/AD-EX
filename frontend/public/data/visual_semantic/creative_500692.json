@@ -1,0 +1,242 @@
+{
+  "creative_id": "500692",
+  "asset_file": "assets/creative_500692.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout promoting an app with a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Discover and shop bestsellers at an attractive price.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "app_screenshot",
+      "label": "App screenshot display",
+      "description": "A rectangular area showing a preview of app content with three vertical cards displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App screenshot display",
+      "description": "A rectangular area showing a preview of app content with three vertical cards displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App screenshot display",
+      "description": "A rectangular area showing a preview of app content with three vertical cards displayed.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo positioned at the top left corner, likely representing the brand.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element positioned at the top right corner, possibly an icon or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, large text at the top of the ad reading 'ThreadMarF' in a prominent font.",
+      "text_content": "ThreadMarF",
+      "bbox_xyxy": [
+        25,
+        39,
+        360,
+        99
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        1.0,
+        0.155
+      ],
+      "center_normalized": [
+        0.535,
+        0.108
+      ],
+      "area_percentage": 8.72
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Body text description",
+      "description": "Text in the center of the ad that reads 'Your next favorite pick Shop bestsellers now' in a clear, readable font.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        69,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.56
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price display",
+      "description": "Text displaying the price '€19.99' in a noticeable font, positioned towards the bottom of the ad.",
+      "text_content": "€19.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.362,
+        0.874
+      ],
+      "area_percentage": 5.08
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, app screenshot, price display",
+    "layout_text": "The headline is at the top, followed by the app screenshots in the center, and the body text and CTA at the bottom.",
+    "ocr_text": "ThreadMarF, Your next favorite pick Shop bestsellers now, €19.99 Try for free",
+    "elements_text": "app_screenshot: A rectangular area showing a preview of app content with three vertical cards displayed. | app_screenshot: A rectangular area showing a preview of app content with three vertical cards displayed. | app_screenshot: A rectangular area showing a preview of app content with three vertical cards displayed. | logo: A small logo positioned at the top left corner, likely representing the brand. | decorative_element: A small decorative element positioned at the top right corner, possibly an icon or graphic. | headline: Bold, large text at the top of the ad reading 'ThreadMarF' in a prominent font. text='ThreadMarF' | body_text: Text in the center of the ad that reads 'Your next favorite pick Shop bestsellers now' in a clear, readable font. text='Your next favorite pick Shop bestsellers now' | price: Text displaying the price '€19.99' in a noticeable font, positioned towards the bottom of the ad. text='€19.99 Try for free'"
+  }
+}

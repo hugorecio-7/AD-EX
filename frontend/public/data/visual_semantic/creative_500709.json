@@ -1,0 +1,266 @@
+{
+  "creative_id": "500709",
+  "asset_file": "assets/creative_500709.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on food delivery services.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting late-night food delivery with a reward incentive.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A bold, stylized logo with the word 'BiteRush' prominently displayed in a vibrant color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        138,
+        180,
+        276,
+        305
+      ],
+      "bbox_normalized": [
+        0.384,
+        0.281,
+        0.767,
+        0.477
+      ],
+      "center_normalized": [
+        0.576,
+        0.379
+      ],
+      "area_percentage": 7.49
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A large, eye-catching text that reads 'Your cravings, delivered' in a strong font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline",
+      "description": "A smaller text below the headline that states 'Late-night deals available' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A visual representation of the app interface showing three empty card slots, suggesting a selection of food items.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Top corner icon",
+      "description": "A small decorative icon positioned in the top corner, possibly representing a user-generated content badge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        30,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.085,
+        0.296
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Top corner icon",
+      "description": "Another small decorative icon in the top corner, adding visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        299,
+        32,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.832,
+        0.051,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.881,
+        0.091
+      ],
+      "area_percentage": 0.8
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom of the ad that says 'Claim reward' in a contrasting color.",
+      "text_content": "Your cravings, delivered Late-night deals available",
+      "bbox_xyxy": [
+        54,
+        403,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.63,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.705
+      ],
+      "area_percentage": 10.65
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "Text indicating user-generated content, labeled 'UGC', positioned at the top of the ad.",
+      "text_content": "BiteRush UGC",
+      "bbox_xyxy": [
+        28,
+        40,
+        295,
+        127
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.819,
+        0.198
+      ],
+      "center_normalized": [
+        0.449,
+        0.13
+      ],
+      "area_percentage": 10.08
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Reward claim text",
+      "description": "A small text at the bottom that encourages users to claim their reward.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        109,
+        561,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.877,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.22
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, BiteRush logo, call to action.",
+    "layout_text": "The headline is centered at the top, followed by the app screenshot, with the CTA at the bottom.",
+    "ocr_text": "Your cravings, delivered, Late-night deals available, BiteRush UGC, Claim reward",
+    "elements_text": "logo: A bold, stylized logo with the word 'BiteRush' prominently displayed in a vibrant color. | headline: A large, eye-catching text that reads 'Your cravings, delivered' in a strong font. | body_text: A smaller text below the headline that states 'Late-night deals available' in a clear, readable font. | app_screenshot: A visual representation of the app interface showing three empty card slots, suggesting a selection of food items. | decorative_element: A small decorative icon positioned in the top corner, possibly representing a user-generated content badge. | decorative_element: Another small decorative icon in the top corner, adding visual interest to the ad. | cta: A prominent button at the bottom of the ad that says 'Claim reward' in a contrasting color. text='Your cravings, delivered Late-night deals available' | social_proof: Text indicating user-generated content, labeled 'UGC', positioned at the top of the ad. text='BiteRush UGC' | body_text: A small text at the bottom that encourages users to claim their reward. text='Claim reward'"
+  }
+}

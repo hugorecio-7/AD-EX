@@ -1,0 +1,410 @@
+{
+  "creative_id": "500725",
+  "asset_file": "assets/creative_500725.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a mix of game interface elements and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Unlock rare gear and receive free rewards for new players.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo featuring the text 'VoxelRealm' in a bold, modern font, set against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        211,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.587,
+        0.35
+      ],
+      "center_normalized": [
+        0.343,
+        0.294
+      ],
+      "area_percentage": 5.38
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A simple geometric shape with a circular design, possibly representing a game element, in a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        223
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another circular shape similar to the previous one, adding to the visual interest of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.211,
+        0.294
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A section of the game interface showing a grid layout with various icons, indicating gameplay elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        244,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.382,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "Another part of the game interface, displaying additional icons and gameplay features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        244,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.382,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.41
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular icon, possibly representing a game feature, in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Unlock rewards text",
+      "description": "Text that reads 'Unlock rare gear Free rewards for new players' in a clear, legible font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular icon, similar to others, enhancing the visual appeal of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button labeled 'Book now' in a prominent position, designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular icon, contributing to the overall design of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular icon, adding to the visual complexity of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular icon, similar to others, enhancing the overall aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main message",
+      "description": "The main headline text that communicates the offer, prominently displayed in a bold font.",
+      "text_content": "Unlock rare gear Free rewards for new players",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.17
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Game title",
+      "description": "Text displaying the title 'VoxelRealm' in a large, eye-catching font.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        27,
+        39,
+        253,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.703,
+        0.123
+      ],
+      "center_normalized": [
+        0.389,
+        0.092
+      ],
+      "area_percentage": 3.92
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad labeled 'Book now', designed to prompt user engagement.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and playful, VoxelRealm logo, unlock rewards text",
+    "layout_text": "The logo is at the top, followed by the main message in the center, with the call to action at the bottom.",
+    "ocr_text": "Unlock rare gear Free rewards for new players, VoxelRealm, Book now",
+    "elements_text": "logo: A stylized logo featuring the text 'VoxelRealm' in a bold, modern font, set against a blue background. | unknown: A simple geometric shape with a circular design, possibly representing a game element, in a muted color. | unknown: Another circular shape similar to the previous one, adding to the visual interest of the ad. | app_screenshot: A section of the game interface showing a grid layout with various icons, indicating gameplay elements. | app_screenshot: Another part of the game interface, displaying additional icons and gameplay features. | unknown: A small circular icon, possibly representing a game feature, in a light color. | body_text: Text that reads 'Unlock rare gear Free rewards for new players' in a clear, legible font. | unknown: A small circular icon, similar to others, enhancing the visual appeal of the ad. | cta: A button labeled 'Book now' in a prominent position, designed to attract user interaction. | unknown: A small circular icon, contributing to the overall design of the ad. | unknown: A small circular icon, adding to the visual complexity of the ad. | unknown: A small circular icon, similar to others, enhancing the overall aesthetic. | headline: The main headline text that communicates the offer, prominently displayed in a bold font. text='Unlock rare gear Free rewards for new players' | body_text: Text displaying the title 'VoxelRealm' in a large, eye-catching font. text='VoxelRealm' | cta: A button at the bottom of the ad labeled 'Book now', designed to prompt user engagement. text='Book now'"
+  }
+}

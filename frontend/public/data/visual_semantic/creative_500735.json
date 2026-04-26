@@ -1,0 +1,242 @@
+{
+  "creative_id": "500735",
+  "asset_file": "assets/creative_500735.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a combination of text and graphic elements centered around a financial tracking theme.",
+    "visual_style": "clean and modern",
+    "main_message": "Encouraging users to track their finances with VaultRun.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "serious"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears to be a rounded rectangle shape with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.769,
+        0.508
+      ],
+      "center_normalized": [
+        0.469,
+        0.38
+      ],
+      "area_percentage": 15.28
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "An overlay graphic element that is slightly smaller and positioned above the central graphic, featuring a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        96,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.303,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.412
+      ],
+      "area_percentage": 13.14
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional overlay element",
+      "description": "Another overlay graphic element that is similar in size and shape to the previous one, positioned slightly lower.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        103,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.324,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.77
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Lower graphic element",
+      "description": "A lower graphic element that is a rectangular shape, positioned centrally with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.282,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.531,
+        0.429
+      ],
+      "area_percentage": 9.1
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Left graphic element",
+      "description": "A smaller graphic element located on the left side, featuring a rounded rectangle shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A prominent text element at the bottom of the ad, featuring a bold font that communicates a message about tracking finances.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        30,
+        206,
+        288,
+        255
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.644,
+        0.9,
+        0.797
+      ],
+      "center_normalized": [
+        0.497,
+        0.72
+      ],
+      "area_percentage": 12.35
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Ad headline",
+      "description": "A large, bold text element at the top of the ad that reads 'VaultRun' in a striking font.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        7,
+        25,
+        227,
+        69
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.709,
+        0.216
+      ],
+      "center_normalized": [
+        0.366,
+        0.147
+      ],
+      "area_percentage": 9.45
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small text element at the bottom right corner that encourages users to take action with the phrase 'Start now'.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        279,
+        207,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.647,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.84
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, financial tracking theme",
+    "layout_text": "The headline is positioned at the top, the main body text is centered, and the CTA is located at the bottom right.",
+    "ocr_text": "VaultRun, Track every euro, Built for peace of mind, Start now",
+    "elements_text": "unknown: A central graphic element that appears to be a rounded rectangle shape with a light background. | unknown: An overlay graphic element that is slightly smaller and positioned above the central graphic, featuring a light color. | unknown: Another overlay graphic element that is similar in size and shape to the previous one, positioned slightly lower. | unknown: A lower graphic element that is a rectangular shape, positioned centrally with a light background. | unknown: A smaller graphic element located on the left side, featuring a rounded rectangle shape. | body_text: A prominent text element at the bottom of the ad, featuring a bold font that communicates a message about tracking finances. text='Track every euro Built for peace of mind' | headline: A large, bold text element at the top of the ad that reads 'VaultRun' in a striking font. text='VaultRun' | cta: A small text element at the bottom right corner that encourages users to take action with the phrase 'Start now'. text='Start now'"
+  }
+}

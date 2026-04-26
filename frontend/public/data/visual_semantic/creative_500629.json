@@ -1,0 +1,194 @@
+{
+  "creative_id": "500629",
+  "asset_file": "assets/creative_500629.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold headline and a clear call to action, emphasizing a cashback offer.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a cashback offer with a free trial.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element with a rectangular shape, possibly a placeholder for an image or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Small circular element",
+      "description": "A small circular graphic element positioned at the center bottom, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        353,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.552,
+        0.222,
+        0.609
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "Bold, large text at the bottom of the ad, stating 'Earn cashback daily' with a smaller subtext below it.",
+      "text_content": "Earn cashback daily Fast signup, instant card",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        502
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.784
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.17
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main sale headline",
+      "description": "A prominent headline at the top of the ad reading 'SwiftStack SALE' in bold letters.",
+      "text_content": "SwiftStack SALE",
+      "bbox_xyxy": [
+        27,
+        39,
+        321,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.892,
+        0.12
+      ],
+      "center_normalized": [
+        0.483,
+        0.091
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom of the ad with the text 'Try for free' in a contrasting color.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small label at the top left corner reading 'UGC' in a simple font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, cashback offer, free trial",
+    "layout_text": "The headline is at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, SwiftStack SALE, Try for free, UGC",
+    "elements_text": "unknown: A central graphic element with a rectangular shape, possibly a placeholder for an image or icon. | unknown: A small circular graphic element positioned at the center bottom, likely decorative. | body_text: Bold, large text at the bottom of the ad, stating 'Earn cashback daily' with a smaller subtext below it. text='Earn cashback daily Fast signup, instant card' | headline: A prominent headline at the top of the ad reading 'SwiftStack SALE' in bold letters. text='SwiftStack SALE' | cta: A button at the bottom of the ad with the text 'Try for free' in a contrasting color. text='Try for free' | decorative_element: A small label at the top left corner reading 'UGC' in a simple font. text='UGC'"
+  }
+}

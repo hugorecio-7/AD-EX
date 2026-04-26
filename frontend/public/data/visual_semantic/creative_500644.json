@@ -1,0 +1,338 @@
+{
+  "creative_id": "500644",
+  "asset_file": "assets/creative_500644.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold orange background with prominent text and a call-to-action button.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new season of products with a clear call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A vibrant orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.469,
+        0.378
+      ],
+      "area_percentage": 14.94
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StarVault logo",
+      "description": "The text 'StarVault' in bold, black font positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.65
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "New season announcement",
+      "description": "The phrase 'A new season drops' in white text, centrally placed and prominent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rectangular button with rounded corners, featuring the text 'Order now' in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.92
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Circular icons",
+      "description": "Three small circular icons arranged horizontally, likely decorative or functional.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.528,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small oval shape, possibly a decorative element, positioned towards the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small oval shape, similar to the previous one, located near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small oval shape, positioned towards the bottom, similar to the others.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small oval shape, located near the bottom, consistent with the other decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        154,
+        170,
+        184,
+        200
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.531,
+        0.576,
+        0.626
+      ],
+      "center_normalized": [
+        0.529,
+        0.579
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Arrow icon",
+      "description": "A small right-facing arrow icon, positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        76,
+        304,
+        102
+      ],
+      "bbox_normalized": [
+        0.878,
+        0.238,
+        0.951,
+        0.32
+      ],
+      "center_normalized": [
+        0.915,
+        0.279
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small rectangular shape located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        229
+      ],
+      "bbox_normalized": [
+        0.173,
+        0.656,
+        0.235,
+        0.718
+      ],
+      "center_normalized": [
+        0.204,
+        0.687
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Order now text",
+      "description": "The text 'Order now' in white, prominently displayed on the button.",
+      "text_content": "new season drops Order now",
+      "bbox_xyxy": [
+        84,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.263,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.544,
+        0.795
+      ],
+      "area_percentage": 15.64
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'StarVault' in bold, black font, prominently displayed at the top.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        5,
+        21,
+        240,
+        73
+      ],
+      "bbox_normalized": [
+        0.016,
+        0.066,
+        0.75,
+        0.228
+      ],
+      "center_normalized": [
+        0.383,
+        0.147
+      ],
+      "area_percentage": 11.93
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, StarVault, new season drops, Order now",
+    "layout_text": "The headline is at the top, followed by the body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "new season drops, Order now, StarVault",
+    "elements_text": "headline: The text 'StarVault' in bold, black font positioned at the top of the ad. | body_text: The phrase 'A new season drops' in white text, centrally placed and prominent. | cta: A rectangular button with rounded corners, featuring the text 'Order now' in white. | decorative_element: Three small circular icons arranged horizontally, likely decorative or functional. | unknown: A small oval shape, possibly a decorative element, positioned towards the bottom. | unknown: Another small oval shape, similar to the previous one, located near the bottom. | unknown: A small oval shape, positioned towards the bottom, similar to the others. | unknown: Another small oval shape, located near the bottom, consistent with the other decorative elements. | unknown: A small right-facing arrow icon, positioned at the top right corner. | unknown: A small rectangular shape located towards the bottom of the ad. | body_text: The text 'Order now' in white, prominently displayed on the button. text='new season drops Order now' | headline: The text 'StarVault' in bold, black font, prominently displayed at the top. text='StarVault'"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "creative_id": "500645",
+  "asset_file": "assets/creative_500645.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with prominent text elements highlighting a new product launch.",
+    "visual_style": "modern and playful",
+    "main_message": "The ad promotes new seasonal drops from StarVault, encouraging users to shop now.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        73,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.229,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.374
+      ],
+      "area_percentage": 22.1
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "StarVault logo",
+      "description": "The text 'StarVault' is prominently displayed in a bold font at the top, suggesting a brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        72,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.228,
+        0.94,
+        0.52
+      ],
+      "center_normalized": [
+        0.621,
+        0.374
+      ],
+      "area_percentage": 18.71
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "new season drops",
+      "description": "The phrase 'new season drops' is written in a large, eye-catching font, positioned centrally to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        72,
+        300,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.228,
+        0.939,
+        0.52
+      ],
+      "center_normalized": [
+        0.669,
+        0.374
+      ],
+      "area_percentage": 15.85
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "New hits every week",
+      "description": "A smaller text below the main message reads 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.378
+      ],
+      "area_percentage": 14.97
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rectangular button with the text 'Shop now' is located at the bottom, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.278,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.62
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "circular shapes",
+      "description": "Several circular shapes are scattered across the background, adding a playful design element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.415
+      ],
+      "area_percentage": 12.75
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "rectangular shapes",
+      "description": "Various rectangular shapes are also present, contributing to the overall modern aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "additional shapes",
+      "description": "Additional shapes are present but do not have a clear role, enhancing the visual complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "small circles",
+      "description": "Small circles are included in the design, adding to the decorative aspect without specific meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "additional text",
+      "description": "An additional text element appears but is less prominent, contributing to the overall message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.346,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 6.08
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "lower text",
+      "description": "A small text element at the bottom of the ad, likely providing further information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "side text",
+      "description": "A narrow text element on the side, possibly for additional branding or messaging.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.219,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.94
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "lower side text",
+      "description": "Another small text element located lower on the side, contributing to the overall layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        177,
+        127,
+        207
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.554,
+        0.397,
+        0.647
+      ],
+      "center_normalized": [
+        0.35,
+        0.601
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "bottom text",
+      "description": "A small text element at the very bottom, likely providing supplementary information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        55,
+        210,
+        75,
+        230
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.656,
+        0.235,
+        0.719
+      ],
+      "center_normalized": [
+        0.204,
+        0.688
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 15,
+      "role": "body_text",
+      "label": "main message",
+      "description": "The main message 'new season drops Ne Shop now' is prominently displayed, encouraging immediate action.",
+      "text_content": "new season drops Ne Shop now",
+      "bbox_xyxy": [
+        81,
+        210,
+        264,
+        299
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.656,
+        0.825,
+        0.934
+      ],
+      "center_normalized": [
+        0.539,
+        0.795
+      ],
+      "area_percentage": 15.91
+    },
+    {
+      "id": 16,
+      "role": "headline",
+      "label": "StarVault branding",
+      "description": "The brand name 'StarVault' is featured at the top in a bold, attention-grabbing font.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        7,
+        25,
+        238,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.744,
+        0.212
+      ],
+      "center_normalized": [
+        0.383,
+        0.145
+      ],
+      "area_percentage": 9.7
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and playful, StarVault, new season drops, Shop now",
+    "layout_text": "The headline is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "StarVault, new season drops, Shop now, New hits every week",
+    "elements_text": "headline: The text 'StarVault' is prominently displayed in a bold font at the top, suggesting a brand identity. | body_text: The phrase 'new season drops' is written in a large, eye-catching font, positioned centrally to attract attention. | body_text: A smaller text below the main message reads 'New hits every week', providing additional context. | cta: A rectangular button with the text 'Shop now' is located at the bottom, inviting user interaction. | decorative_element: Several circular shapes are scattered across the background, adding a playful design element. | decorative_element: Various rectangular shapes are also present, contributing to the overall modern aesthetic. | unknown: Additional shapes are present but do not have a clear role, enhancing the visual complexity. | unknown: Small circles are included in the design, adding to the decorative aspect without specific meaning. | unknown: An additional text element appears but is less prominent, contributing to the overall message. | unknown: A small text element at the bottom of the ad, likely providing further information. | unknown: A narrow text element on the side, possibly for additional branding or messaging. | unknown: Another small text element located lower on the side, contributing to the overall layout. | unknown: A small text element at the very bottom, likely providing supplementary information. | body_text: The main message 'new season drops Ne Shop now' is prominently displayed, encouraging immediate action. text='new season drops Ne Shop now' | headline: The brand name 'StarVault' is featured at the top in a bold, attention-grabbing font. text='StarVault'"
+  }
+}

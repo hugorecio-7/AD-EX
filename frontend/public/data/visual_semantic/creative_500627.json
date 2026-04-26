@@ -1,0 +1,242 @@
+{
+  "creative_id": "500627",
+  "asset_file": "assets/creative_500627.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean, modern design with a focus on the brand and its offer.",
+    "visual_style": "minimalist blue with white text",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, rounded rectangle with a soft blue background, creating a subtle backdrop for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.23
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A medium-sized square with rounded corners, slightly lighter than the background, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Decorative circle",
+      "description": "A small, circular shape in a lighter shade of blue, positioned within the central area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Decorative rectangle",
+      "description": "A small rectangle with rounded corners, also in a lighter blue, positioned near the bottom of the central area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Secure & simple No hidden fees', prominently displayed in the center of the ad.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The word 'SwiftStack' in a large, bold font at the top of the ad, colored in white against the blue background.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        35,
+        239,
+        79
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.055,
+        0.664,
+        0.123
+      ],
+      "center_normalized": [
+        0.365,
+        0.089
+      ],
+      "area_percentage": 4.11
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom of the ad with the text 'Shop now' in white, set against a blue background.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Discount label",
+      "description": "A small, white text label at the bottom left corner displaying '-30%' to indicate a discount.",
+      "text_content": "-30%",
+      "bbox_xyxy": [
+        26,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.161,
+        0.85
+      ],
+      "area_percentage": 0.67
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist blue with white text, secure service offer",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple No hidden fees, SwiftStack, Shop now, -30%",
+    "elements_text": "unknown: A large, rounded rectangle with a soft blue background, creating a subtle backdrop for the ad. | unknown: A medium-sized square with rounded corners, slightly lighter than the background, positioned centrally. | unknown: A small, circular shape in a lighter shade of blue, positioned within the central area. | unknown: A small rectangle with rounded corners, also in a lighter blue, positioned near the bottom of the central area. | body_text: Bold, white text stating 'Secure & simple No hidden fees', prominently displayed in the center of the ad. text='Secure & simple No hidden fees' | logo: The word 'SwiftStack' in a large, bold font at the top of the ad, colored in white against the blue background. text='SwiftStack' | cta: A rounded button at the bottom of the ad with the text 'Shop now' in white, set against a blue background. text='Shop now' | discount_badge: A small, white text label at the bottom left corner displaying '-30%' to indicate a discount. text='-30%'"
+  }
+}

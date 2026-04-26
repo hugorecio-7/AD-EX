@@ -1,0 +1,266 @@
+{
+  "creative_id": "500693",
+  "asset_file": "assets/creative_500693.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a light gray background with promotional text and placeholders for images.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Promoting a limited-time discount offer.",
+    "dominant_colors": [
+      "light gray",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Light gray background",
+      "description": "A light gray background fills the top portion of the ad, providing a neutral base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Four empty rectangles",
+      "description": "Four empty rectangles arranged in a row, suggesting placeholders for images or products.",
+      "text_content": null,
+      "bbox_xyxy": [
+        187,
+        89,
+        245,
+        146
+      ],
+      "bbox_normalized": [
+        0.587,
+        0.278,
+        0.769,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.369
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Empty rectangle",
+      "description": "An empty rectangle positioned in the center, likely for an image or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.278,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.369
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Empty rectangle",
+      "description": "Another empty rectangle in the center, similar to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        117,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.31,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.25
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small empty rectangle",
+      "description": "A smaller empty rectangle located in the center, possibly for a product image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle located towards the bottom center, possibly indicating a feature or product.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.222,
+        0.631
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Discount offer text",
+      "description": "Bold text at the bottom stating 'Up to 40% off Only this weekend €19.99 Learn more' in a prominent font.",
+      "text_content": "Up to 40% off Only this weekend €19.99 Learn more",
+      "bbox_xyxy": [
+        22,
+        205,
+        269,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.641,
+        0.841,
+        0.934
+      ],
+      "center_normalized": [
+        0.455,
+        0.787
+      ],
+      "area_percentage": 22.67
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "ThreadMark logo",
+      "description": "The 'ThreadMark' logo appears at the top left, featuring a simple and modern design.",
+      "text_content": "ThreadMark",
+      "bbox_xyxy": [
+        25,
+        23,
+        117,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.366,
+        0.122
+      ],
+      "center_normalized": [
+        0.222,
+        0.097
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A bright yellow 'SALE' badge positioned at the top right, drawing attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 10,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small 'UGC' label located at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalistic with bold text, discount offer",
+    "layout_text": "The headline and logo are at the top, with the main subject in the center and the CTA at the bottom.",
+    "ocr_text": "ThreadMark, SALE, UGC, Up to 40% off, Only this weekend, €19.99, Learn more",
+    "elements_text": "unknown: Four empty rectangles arranged in a row, suggesting placeholders for images or products. | unknown: An empty rectangle positioned in the center, likely for an image or graphic. | unknown: Another empty rectangle in the center, similar to the previous one. | unknown: A smaller empty rectangle located in the center, possibly for a product image. | unknown: A small circle located towards the bottom center, possibly indicating a feature or product. | cta: Bold text at the bottom stating 'Up to 40% off Only this weekend €19.99 Learn more' in a prominent font. text='Up to 40% off Only this weekend €19.99 Learn more' | logo: The 'ThreadMark' logo appears at the top left, featuring a simple and modern design. text='ThreadMark' | discount_badge: A bright yellow 'SALE' badge positioned at the top right, drawing attention. text='SALE' | social_proof: A small 'UGC' label located at the top left, indicating user-generated content. text='UGC'"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "creative_id": "500475",
+  "asset_file": "assets/creative_500475.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a prominent sale message and a call-to-action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a limited-time sale on a product.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and eye-catching base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Placeholder product image",
+      "description": "A simple outline of a product, represented as a light blue rectangle with a diagonal line, indicating a phone or similar device.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Bold white text stating 'Limited stock Only this weekend' is centrally positioned, conveying urgency.",
+      "text_content": "Limited stock Only this weekend",
+      "bbox_xyxy": [
+        61,
+        409,
+        299,
+        466
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.639,
+        0.831,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 5.89
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "ThreadMark SALE headline",
+      "description": "The headline 'ThreadMark SALE' is prominently displayed at the top in large, bold text, with 'SALE' highlighted in yellow.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        25,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.092
+      ],
+      "area_percentage": 5.14
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A bright white button at the bottom with the text 'Shop now' in bold, encouraging immediate action.",
+      "text_content": "€19.99 Shop now",
+      "bbox_xyxy": [
+        24,
+        532,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.356,
+        0.872
+      ],
+      "area_percentage": 4.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, limited stock message, call-to-action",
+    "layout_text": "The headline is at the top, the product image is centered, the body text is below the product, and the CTA is at the bottom.",
+    "ocr_text": "Limited stock Only this weekend, ThreadMark SALE, €19.99 Shop now",
+    "elements_text": "product: A simple outline of a product, represented as a light blue rectangle with a diagonal line, indicating a phone or similar device. | body_text: Bold white text stating 'Limited stock Only this weekend' is centrally positioned, conveying urgency. text='Limited stock Only this weekend' | headline: The headline 'ThreadMark SALE' is prominently displayed at the top in large, bold text, with 'SALE' highlighted in yellow. text='ThreadMark SALE' | cta: A bright white button at the bottom with the text 'Shop now' in bold, encouraging immediate action. text='€19.99 Shop now'"
+  }
+}

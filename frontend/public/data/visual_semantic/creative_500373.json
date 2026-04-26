@@ -1,0 +1,194 @@
+{
+  "creative_id": "500373",
+  "asset_file": "assets/creative_500373.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a clean design with a focus on security and simplicity.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting a secure and straightforward financial service.",
+    "dominant_colors": [
+      "#A8E6CE",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract shapes background",
+      "description": "A soft green background featuring overlapping geometric shapes, including circles and rectangles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        117,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.244,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.356
+      ],
+      "area_percentage": 7.24
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A simple, modern logo with the text 'ClearLedger' displayed prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 3,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small circular badge labeled 'UGC' positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        151,
+        312,
+        171,
+        332
+      ],
+      "bbox_normalized": [
+        0.473,
+        0.651,
+        0.536,
+        0.693
+      ],
+      "center_normalized": [
+        0.505,
+        0.672
+      ],
+      "area_percentage": 0.26
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Secure & simple headline",
+      "description": "A bold, white headline reading 'Secure & simple' with a smaller text below it stating 'No hidden fees'.",
+      "text_content": "Secure simple No hidden fees",
+      "bbox_xyxy": [
+        34,
+        306,
+        288,
+        355
+      ],
+      "bbox_normalized": [
+        0.106,
+        0.637,
+        0.9,
+        0.74
+      ],
+      "center_normalized": [
+        0.503,
+        0.689
+      ],
+      "area_percentage": 8.1
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A rounded button at the bottom center with the text 'Get offer' in a clear, inviting font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        24,
+        28,
+        172,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.537,
+        0.117
+      ],
+      "center_normalized": [
+        0.306,
+        0.087
+      ],
+      "area_percentage": 2.7
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        117,
+        419,
+        203,
+        439
+      ],
+      "bbox_normalized": [
+        0.366,
+        0.873,
+        0.634,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.12
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with soft colors, ClearLedger logo, secure and simple headline",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with a social proof badge in the top left and a CTA button at the bottom.",
+    "ocr_text": "Secure simple, No hidden fees, ClearLedger, Get offer, UGC",
+    "elements_text": "logo: A simple, modern logo with the text 'ClearLedger' displayed prominently at the top. | social_proof: A small circular badge labeled 'UGC' positioned at the top left corner. | headline: A bold, white headline reading 'Secure & simple' with a smaller text below it stating 'No hidden fees'. text='Secure simple No hidden fees' | cta: A rounded button at the bottom center with the text 'Get offer' in a clear, inviting font. text='ClearLedger' | unknown:  text='Get offer' | unknown:  text='UGC'"
+  }
+}

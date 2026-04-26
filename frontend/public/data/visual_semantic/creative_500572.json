@@ -1,0 +1,218 @@
+{
+  "creative_id": "500572",
+  "asset_file": "assets/creative_500572.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with abstract shapes and prominent text.",
+    "visual_style": "bold and colorful",
+    "main_message": "Promoting a new season of products with a call to action.",
+    "dominant_colors": [
+      "red",
+      "pink"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A large pink square and a smaller pink circle overlapping on a red background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "abstract shapes",
+      "description": "A larger pink oval shape positioned behind the square and circle, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, indistinct shape at the bottom of the ad, possibly a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A very small shape at the bottom of the ad, unclear in purpose or design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        64,
+        415,
+        86,
+        436
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.648,
+        0.24,
+        0.683
+      ],
+      "center_normalized": [
+        0.209,
+        0.666
+      ],
+      "area_percentage": 0.21
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "new season drops",
+      "description": "Bold, white text stating 'A new season drops' prominently displayed in the center of the ad.",
+      "text_content": "new season drops Start free today",
+      "bbox_xyxy": [
+        98,
+        414,
+        297,
+        500
+      ],
+      "bbox_normalized": [
+        0.272,
+        0.647,
+        0.825,
+        0.781
+      ],
+      "center_normalized": [
+        0.549,
+        0.714
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The logo 'NeonCast' in a bold font, positioned at the top of the ad against a red background.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        39,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.091
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in white, centered at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and colorful, new season drops, Shop now",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA button is at the bottom.",
+    "ocr_text": "NeonCast, A new season drops, Start free today, Shop now",
+    "elements_text": "decorative_element: A large pink square and a smaller pink circle overlapping on a red background. | decorative_element: A larger pink oval shape positioned behind the square and circle, creating a layered effect. | unknown: A small, indistinct shape at the bottom of the ad, possibly a decorative element. | unknown: A very small shape at the bottom of the ad, unclear in purpose or design. | headline: Bold, white text stating 'A new season drops' prominently displayed in the center of the ad. text='new season drops Start free today' | logo: The logo 'NeonCast' in a bold font, positioned at the top of the ad against a red background. text='NeonCast' | cta: A rounded button with the text 'Shop now' in white, centered at the bottom of the ad. text='Shop now'"
+  }
+}

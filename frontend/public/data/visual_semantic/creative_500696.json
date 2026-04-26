@@ -1,0 +1,194 @@
+{
+  "creative_id": "500696",
+  "asset_file": "assets/creative_500696.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with a logo, headline, body text, price, and a call to action.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a financial service with a clear call to action.",
+    "dominant_colors": [
+      "black",
+      "gray"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that provides contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.388
+      ],
+      "center_normalized": [
+        0.499,
+        0.194
+      ],
+      "area_percentage": 38.67
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A stylized logo featuring geometric shapes, primarily in gray tones, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Geometric shapes",
+      "description": "Abstract geometric shapes in gray, possibly representing a product or service, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        118,
+        155,
+        222
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.247,
+        0.486,
+        0.463
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "Small text in a simple font, conveying additional information, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price label displaying '$4.99' in a clear font, positioned below the body text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.352,
+        0.599
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent 'Order now' button in a bold font, encouraging immediate action, located at the bottom.",
+      "text_content": "Your money, clearer Built for peace of mind $4.99 Order now",
+      "bbox_xyxy": [
+        21,
+        305,
+        260,
+        439
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.635,
+        0.812,
+        0.915
+      ],
+      "center_normalized": [
+        0.439,
+        0.775
+      ],
+      "area_percentage": 20.85
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline stating 'Your money, clearer' in a large font, positioned centrally above the call to action.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, CoinBridge logo, call to action.",
+    "layout_text": "The logo is at the top, followed by the headline, body text, price, and the call to action at the bottom.",
+    "ocr_text": "CoinBridge, Your money, clearer, Built for peace of mind, $4.99, Order now",
+    "elements_text": "logo: A stylized logo featuring geometric shapes, primarily in gray tones, positioned at the top center. | unknown: Abstract geometric shapes in gray, possibly representing a product or service, located in the center. | body_text: Small text in a simple font, conveying additional information, located in the center. | price: A small price label displaying '$4.99' in a clear font, positioned below the body text. | cta: A prominent 'Order now' button in a bold font, encouraging immediate action, located at the bottom. text='Your money, clearer Built for peace of mind $4.99 Order now' | headline: A bold headline stating 'Your money, clearer' in a large font, positioned centrally above the call to action. text='CoinBridge'"
+  }
+}

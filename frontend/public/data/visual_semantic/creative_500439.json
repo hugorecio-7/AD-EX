@@ -1,0 +1,314 @@
+{
+  "creative_id": "500439",
+  "asset_file": "assets/creative_500439.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with a clear focus on the product and promotional messages.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting the VantaStyle app with a focus on bestsellers and a sale.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A rectangular area at the top featuring a product display, possibly with a placeholder for an image.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.239
+      ],
+      "area_percentage": 23.43
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' is prominently displayed at the top, styled in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "App screenshot placeholder",
+      "description": "A centered rectangular area that likely represents a screenshot of the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner that reads 'SALE' in bold text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.297
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main promotional text",
+      "description": "Text in the center that reads 'Your next favorite pick Shop bestsellers now', inviting users to explore.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.58,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text area displaying the price '€29.99' in a clear, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom that says 'Install now', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "Text at the bottom encouraging users to shop bestsellers, enhancing the ad's appeal.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        497
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.777
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 8.3
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Secondary promotional text",
+      "description": "Additional text at the bottom reinforcing the call to action with 'Install now'.",
+      "text_content": "€29.99 Install now",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.362,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline 'VantaStyle' is positioned at the top, drawing immediate attention.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        26,
+        48,
+        148,
+        74
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.075,
+        0.411,
+        0.116
+      ],
+      "center_normalized": [
+        0.242,
+        0.095
+      ],
+      "area_percentage": 1.38
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small 'SALE' text badge indicating a promotional offer, enhancing urgency.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, VantaStyle, SALE, €29.99, Install now",
+    "layout_text": "The logo is at the top, followed by the product display area, with the main promotional text and call to action at the bottom.",
+    "ocr_text": "VantaStyle, SALE, Your next favorite pick Shop bestsellers now, €29.99, Install now",
+    "elements_text": "main_subject: A rectangular area at the top featuring a product display, possibly with a placeholder for an image. | logo: The logo 'VantaStyle' is prominently displayed at the top, styled in a modern font. | app_screenshot: A centered rectangular area that likely represents a screenshot of the app interface. | discount_badge: A small badge at the top right corner that reads 'SALE' in bold text. | body_text: Text in the center that reads 'Your next favorite pick Shop bestsellers now', inviting users to explore. | price: A small text area displaying the price '€29.99' in a clear, readable font. | cta: A button at the bottom that says 'Install now', designed to attract user interaction. | body_text: Text at the bottom encouraging users to shop bestsellers, enhancing the ad's appeal. text='Your next favorite pick Shop bestsellers now' | body_text: Additional text at the bottom reinforcing the call to action with 'Install now'. text='€29.99 Install now' | headline: The main headline 'VantaStyle' is positioned at the top, drawing immediate attention. text='VantaStyle' | discount_badge: A small 'SALE' text badge indicating a promotional offer, enhancing urgency. text='SALE'"
+  }
+}

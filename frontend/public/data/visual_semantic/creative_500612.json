@@ -1,0 +1,338 @@
+{
+  "creative_id": "500612",
+  "asset_file": "assets/creative_500612.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a game interface and promotional text.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging players to join and play the game with friends.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Game interface",
+      "description": "A rectangular game interface showing four circular icons arranged in a grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        182,
+        188,
+        235
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A simple circular icon with a filled center, located at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        114,
+        188,
+        167
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.239,
+        0.59,
+        0.35
+      ],
+      "center_normalized": [
+        0.48,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "Another circular icon similar to the previous one, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        114,
+        102,
+        167
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A circular icon located at the center left of the ad, mirroring the top left icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        31,
+        182,
+        102,
+        235
+      ],
+      "bbox_normalized": [
+        0.1,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.44
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small right-pointing arrow icon located at the top right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        115,
+        304,
+        153
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.914,
+        0.28
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "A smaller text below the main headline, encouraging social play.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        189,
+        147,
+        210
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.396,
+        0.46,
+        0.439
+      ],
+      "center_normalized": [
+        0.426,
+        0.417
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Play with friends text",
+      "description": "Another instance of smaller text, located above the main headline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        125,
+        122,
+        147,
+        143
+      ],
+      "bbox_normalized": [
+        0.393,
+        0.256,
+        0.46,
+        0.3
+      ],
+      "center_normalized": [
+        0.426,
+        0.278
+      ],
+      "area_percentage": 0.3
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon located at the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        122,
+        60,
+        143
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.256,
+        0.19,
+        0.3
+      ],
+      "center_normalized": [
+        0.157,
+        0.278
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Circular icon",
+      "description": "A small circular icon located at the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        189,
+        60,
+        210
+      ],
+      "bbox_normalized": [
+        0.125,
+        0.396,
+        0.19,
+        0.439
+      ],
+      "center_normalized": [
+        0.157,
+        0.417
+      ],
+      "area_percentage": 0.29
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold, prominent text that reads 'Join the arena' in the center of the ad.",
+      "text_content": "Join the arena Play with friends tonight",
+      "bbox_xyxy": [
+        45,
+        305,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.635,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.491,
+        0.691
+      ],
+      "area_percentage": 7.73
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Game title",
+      "description": "The title 'IronQuest' displayed prominently at the top left of the ad.",
+      "text_content": "IronQuest",
+      "bbox_xyxy": [
+        22,
+        30,
+        146,
+        56
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.062,
+        0.456,
+        0.117
+      ],
+      "center_normalized": [
+        0.263,
+        0.09
+      ],
+      "area_percentage": 2.1
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded button at the bottom of the ad with the text 'Claim reward'.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, game interface, promotional text",
+    "layout_text": "The headline is centered, the game interface is in the center, and the CTA is at the bottom.",
+    "ocr_text": "Join the arena, Play with friends tonight, IronQuest, Claim reward",
+    "elements_text": "app_screenshot: A rectangular game interface showing four circular icons arranged in a grid. | icon: A simple circular icon with a filled center, located at the top center of the ad. | icon: Another circular icon similar to the previous one, positioned at the top left. | icon: A circular icon located at the center left of the ad, mirroring the top left icon. | icon: A small right-pointing arrow icon located at the top right of the ad. | body_text: A smaller text below the main headline, encouraging social play. | body_text: Another instance of smaller text, located above the main headline. | icon: A small circular icon located at the top left corner of the ad. | icon: A small circular icon located at the bottom left of the ad. | headline: A bold, prominent text that reads 'Join the arena' in the center of the ad. text='Join the arena Play with friends tonight' | logo: The title 'IronQuest' displayed prominently at the top left of the ad. text='IronQuest' | cta: A rounded button at the bottom of the ad with the text 'Claim reward'. text='Claim reward'"
+  }
+}

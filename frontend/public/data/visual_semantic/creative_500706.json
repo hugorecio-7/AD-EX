@@ -1,0 +1,290 @@
+{
+  "creative_id": "500706",
+  "asset_file": "assets/creative_500706.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a blue background with layered text and shapes promoting a travel offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel deal for hotels and flights.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.378
+      ],
+      "area_percentage": 14.97
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Two overlapping circular shapes in lighter shades of blue, adding depth to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        80,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.253,
+        0.498,
+        0.611
+      ],
+      "center_normalized": [
+        0.318,
+        0.432
+      ],
+      "area_percentage": 12.91
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text",
+      "description": "Bold white text stating 'Escape this weekend' positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.309,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.478,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller white text below the main text that reads 'Hotels + flights in one tap'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.339,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.43
+      ],
+      "area_percentage": 10.8
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Start now' in white, set against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.532,
+        0.429
+      ],
+      "area_percentage": 9.08
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller circular shape in the background, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional rectangle",
+      "description": "A rectangular shape in the background, enhancing the visual layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.347,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.586,
+        0.429
+      ],
+      "area_percentage": 6.04
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape positioned towards the bottom left of the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circle shape positioned slightly above the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Bold text at the bottom of the canvas stating 'SALE DriftPass' with a yellow highlight.",
+      "text_content": "Escape this_ weekend Hotele ARaat tap Start now",
+      "bbox_xyxy": [
+        61,
+        204,
+        259,
+        299
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.637,
+        0.809,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.786
+      ],
+      "area_percentage": 18.37
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Large, bold text at the top of the canvas reading 'DriftPass' in black.",
+      "text_content": "SALE DriftPass",
+      "bbox_xyxy": [
+        9,
+        25,
+        287,
+        69
+      ],
+      "bbox_normalized": [
+        0.028,
+        0.078,
+        0.897,
+        0.216
+      ],
+      "center_normalized": [
+        0.463,
+        0.147
+      ],
+      "area_percentage": 11.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, promoting travel deals.",
+    "layout_text": "The headline is at the top, the main text is centered, and the CTA is at the bottom.",
+    "ocr_text": "Escape this weekend, Hotels + flights in one tap, Start now, SALE DriftPass, DriftPass",
+    "elements_text": "decorative_element: Two overlapping circular shapes in lighter shades of blue, adding depth to the background. | body_text: Bold white text stating 'Escape this weekend' positioned centrally. | body_text: Smaller white text below the main text that reads 'Hotels + flights in one tap'. | cta: A prominent button with the text 'Start now' in white, set against a blue background. | unknown: A smaller circular shape in the background, contributing to the overall design. | unknown: A rectangular shape in the background, enhancing the visual layout. | unknown: A small circle shape positioned towards the bottom left of the canvas. | unknown: Another small circle shape positioned slightly above the previous one. | headline: Bold text at the bottom of the canvas stating 'SALE DriftPass' with a yellow highlight. text='Escape this_ weekend Hotele ARaat tap Start now' | headline: Large, bold text at the top of the canvas reading 'DriftPass' in black. text='SALE DriftPass'"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "creative_id": "500484",
+  "asset_file": "assets/creative_500484.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent logo, headline, and call to action.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Encouraging users to install the CoinBridge app with a focus on savings.",
+    "dominant_colors": [
+      "light gray",
+      "dark gray"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "abstract shapes",
+      "description": "A combination of overlapping circles and rectangles in a light color, creating a modern and abstract background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        167,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.262,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.484,
+        0.391
+      ],
+      "area_percentage": 15.22
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A bold, stylized text logo that reads 'CoinBridge', prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        332
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.773,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "decorative element",
+      "description": "An abstract shape that adds visual interest, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.224,
+        0.61
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "main headline",
+      "description": "A large, bold text that states 'Save with confidence' in a dark font, with a smaller line below it saying 'No hidden fees'.",
+      "text_content": "Save with confidence No hidden fees",
+      "bbox_xyxy": [
+        85,
+        409,
+        275,
+        497
+      ],
+      "bbox_normalized": [
+        0.236,
+        0.639,
+        0.764,
+        0.777
+      ],
+      "center_normalized": [
+        0.5,
+        0.708
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "price tag",
+      "description": "A clear, bold text displaying the price '$4.99' in a prominent position at the bottom of the ad.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        21,
+        29,
+        244,
+        83
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        0.678,
+        0.13
+      ],
+      "center_normalized": [
+        0.368,
+        0.087
+      ],
+      "area_percentage": 5.23
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A rounded button with the text 'Install now' in white font on a dark background, encouraging immediate action.",
+      "text_content": "$4.99 Install now",
+      "bbox_xyxy": [
+        26,
+        532,
+        239,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.664,
+        0.908
+      ],
+      "center_normalized": [
+        0.368,
+        0.87
+      ],
+      "area_percentage": 4.53
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "CoinBridge, app promotion, interstitial format, minimalist with bold typography, key elements include logo, headline, and call to action.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, and the call to action at the bottom.",
+    "ocr_text": "Save with confidence, No hidden fees, CoinBridge, $4.99, Install now",
+    "elements_text": "unknown: A combination of overlapping circles and rectangles in a light color, creating a modern and abstract background. | logo: A bold, stylized text logo that reads 'CoinBridge', prominently displayed at the top of the ad. | unknown: An abstract shape that adds visual interest, positioned towards the bottom of the ad. | headline: A large, bold text that states 'Save with confidence' in a dark font, with a smaller line below it saying 'No hidden fees'. text='Save with confidence No hidden fees' | price: A clear, bold text displaying the price '$4.99' in a prominent position at the bottom of the ad. text='CoinBridge' | cta: A rounded button with the text 'Install now' in white font on a dark background, encouraging immediate action. text='$4.99 Install now'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500566",
+  "asset_file": "assets/creative_500566.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold orange background with prominent text and a call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting late-night fast food deals.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        10,
+        60,
+        305,
+        230
+      ],
+      "bbox_normalized": [
+        0.032,
+        0.188,
+        0.953,
+        0.72
+      ],
+      "center_normalized": [
+        0.493,
+        0.454
+      ],
+      "area_percentage": 49.01
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top that reads 'CraveLoop' against the orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Body text description",
+      "description": "Medium-sized white text in the center that says 'Fast food, fast'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "Smaller white text below the main body text that reads 'Late-night deals available'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price display",
+      "description": "A prominent white text displaying the price '€9.99' in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        107,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.337,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.23
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded white button at the bottom with the text 'Order now' in bold.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.307,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.356
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Icon representation",
+      "description": "Two simple outlined icons representing food items, centered above the body text.",
+      "text_content": "Fast food, fast Late-night deals available €9.99 Order now",
+      "bbox_xyxy": [
+        22,
+        206,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.789
+      ],
+      "area_percentage": 22.89
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo at the top left corner, featuring a minimalistic design.",
+      "text_content": "CraveLoop",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.116
+      ],
+      "center_normalized": [
+        0.203,
+        0.094
+      ],
+      "area_percentage": 1.09
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, CraveLoop, fast food, late-night deals",
+    "layout_text": "The headline is at the top, followed by body text and a price in the center, with a call to action button at the bottom.",
+    "ocr_text": "Fast food, fast, Late-night deals available, €9.99, Order now, CraveLoop",
+    "elements_text": "headline: Bold white text at the top that reads 'CraveLoop' against the orange background. | body_text: Medium-sized white text in the center that says 'Fast food, fast'. | body_text: Smaller white text below the main body text that reads 'Late-night deals available'. | price: A prominent white text displaying the price '€9.99' in the center. | cta: A rounded white button at the bottom with the text 'Order now' in bold. | decorative_element: Two simple outlined icons representing food items, centered above the body text. text='Fast food, fast Late-night deals available €9.99 Order now' | logo: A small logo at the top left corner, featuring a minimalistic design. text='CraveLoop'"
+  }
+}

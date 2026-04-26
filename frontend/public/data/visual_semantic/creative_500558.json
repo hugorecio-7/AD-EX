@@ -1,0 +1,266 @@
+{
+  "creative_id": "500558",
+  "asset_file": "assets/creative_500558.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on travel booking.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a travel booking service with a simple call to action.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A blank area in the center of the ad, possibly for images or graphics.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        278,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.774,
+        0.52
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A small blank area in the center, likely for additional content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        352,
+        209,
+        390
+      ],
+      "bbox_normalized": [
+        0.476,
+        0.551,
+        0.582,
+        0.61
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.63
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A small blank area in the center, possibly for icons or images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        42,
+        352,
+        80,
+        390
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.551,
+        0.222,
+        0.61
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.62
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A small blank area in the center, likely for decorative elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        365,
+        143,
+        403
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.571,
+        0.399,
+        0.63
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold text at the bottom of the ad stating 'Book your next trip Hotels + flights in one tap'.",
+      "text_content": "Book your next trip Hotels + flights in one tap",
+      "bbox_xyxy": [
+        49,
+        408,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.637,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.709
+      ],
+      "area_percentage": 10.54
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'RouteBloom' displayed prominently at the top of the ad.",
+      "text_content": "RouteBloom",
+      "bbox_xyxy": [
+        25,
+        37,
+        263,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.058,
+        0.731,
+        0.123
+      ],
+      "center_normalized": [
+        0.4,
+        0.091
+      ],
+      "area_percentage": 4.34
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom saying 'Order now' in a clear, inviting font.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        123,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag at the bottom displaying '$4.99' in a noticeable font.",
+      "text_content": "$4.99",
+      "bbox_xyxy": [
+        26,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content",
+      "description": "Text at the top labeled 'UGC', indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, main offer text, brand logo, call to action.",
+    "layout_text": "The logo is at the top, followed by user-generated content, the main offer text in the center, and the call to action and price at the bottom.",
+    "ocr_text": "RouteBloom, UGC, Book your next trip Hotels + flights in one tap, $4.99, Order now",
+    "elements_text": "unknown: A blank area in the center of the ad, possibly for images or graphics. | unknown: A small blank area in the center, likely for additional content. | unknown: A small blank area in the center, possibly for icons or images. | unknown: A small blank area in the center, likely for decorative elements. | body_text: Bold text at the bottom of the ad stating 'Book your next trip Hotels + flights in one tap'. text='Book your next trip Hotels + flights in one tap' | logo: The logo 'RouteBloom' displayed prominently at the top of the ad. text='RouteBloom' | cta: A button at the bottom saying 'Order now' in a clear, inviting font. text='Order now' | price: A small price tag at the bottom displaying '$4.99' in a noticeable font. text='$4.99' | social_proof: Text at the top labeled 'UGC', indicating user-generated content. text='UGC'"
+  }
+}

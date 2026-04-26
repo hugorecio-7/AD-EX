@@ -1,0 +1,530 @@
+{
+  "creative_id": "500462",
+  "asset_file": "assets/creative_500462.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a prominent app interface and clear call-to-action elements.",
+    "visual_style": "minimalist dark theme",
+    "main_message": "Encouraging users to start binge-watching with the app.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing a stark contrast to the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        118,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.186,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.499,
+        0.592
+      ],
+      "area_percentage": 81.21
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A rectangular area showcasing a simplified app interface with geometric shapes, likely representing content or features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        378
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.591
+      ],
+      "center_normalized": [
+        0.499,
+        0.295
+      ],
+      "area_percentage": 58.98
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text stating 'Binge starts now' prominently displayed in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        176
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.275
+      ],
+      "center_normalized": [
+        0.499,
+        0.138
+      ],
+      "area_percentage": 27.49
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subtext",
+      "description": "Smaller text below the headline that reads 'Cancel anytime', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        158
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.247
+      ],
+      "center_normalized": [
+        0.499,
+        0.124
+      ],
+      "area_percentage": 24.66
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A circular logo positioned at the top, representing the brand 'MoonScreen'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad with the text 'Start now', inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        86,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.24,
+        0.34,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.509,
+        0.429
+      ],
+      "area_percentage": 9.57
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.241,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.28
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.518
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        259,
+        180,
+        300,
+        241
+      ],
+      "bbox_normalized": [
+        0.721,
+        0.282,
+        0.835,
+        0.378
+      ],
+      "center_normalized": [
+        0.778,
+        0.33
+      ],
+      "area_percentage": 1.1
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        183,
+        17,
+        306
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.286,
+        0.049,
+        0.479
+      ],
+      "center_normalized": [
+        0.026,
+        0.383
+      ],
+      "area_percentage": 0.87
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        246,
+        359,
+        370
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.385,
+        0.998,
+        0.579
+      ],
+      "center_normalized": [
+        0.978,
+        0.482
+      ],
+      "area_percentage": 0.78
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        180,
+        359,
+        303
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.281,
+        0.998,
+        0.475
+      ],
+      "center_normalized": [
+        0.978,
+        0.378
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        180,
+        17,
+        289
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.281,
+        0.049,
+        0.452
+      ],
+      "center_normalized": [
+        0.026,
+        0.367
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        180,
+        42,
+        242
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.282,
+        0.118,
+        0.379
+      ],
+      "center_normalized": [
+        0.084,
+        0.331
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        344,
+        116,
+        359,
+        178
+      ],
+      "bbox_normalized": [
+        0.957,
+        0.182,
+        0.998,
+        0.279
+      ],
+      "center_normalized": [
+        0.977,
+        0.23
+      ],
+      "area_percentage": 0.41
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        244,
+        359,
+        306
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.382,
+        0.998,
+        0.479
+      ],
+      "center_normalized": [
+        0.978,
+        0.431
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        179,
+        359,
+        242
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.28,
+        0.998,
+        0.379
+      ],
+      "center_normalized": [
+        0.978,
+        0.33
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": null,
+      "bbox_xyxy": [
+        345,
+        308,
+        359,
+        370
+      ],
+      "bbox_normalized": [
+        0.958,
+        0.481,
+        0.998,
+        0.579
+      ],
+      "center_normalized": [
+        0.978,
+        0.53
+      ],
+      "area_percentage": 0.39
+    },
+    {
+      "id": 19,
+      "role": "headline",
+      "label": "Main message",
+      "description": "The prominent text 'Binge starts now' is visually striking and central to the ad's message.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        31,
+        406,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.086,
+        0.634,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.681
+      ],
+      "area_percentage": 7.71
+    },
+    {
+      "id": 20,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'MoonScreen' is displayed at the top, indicating the brand identity.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        26,
+        46,
+        164,
+        70
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.456,
+        0.109
+      ],
+      "center_normalized": [
+        0.264,
+        0.091
+      ],
+      "area_percentage": 1.44
+    },
+    {
+      "id": 21,
+      "role": "cta",
+      "label": "Action button",
+      "description": "A clear button at the bottom with the text 'Start now', designed to attract clicks.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist dark theme, key elements include app interface and call-to-action.",
+    "layout_text": "The headline is centered, the logo is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, MoonScreen, Start now",
+    "elements_text": "app_screenshot: A rectangular area showcasing a simplified app interface with geometric shapes, likely representing content or features. | headline: Bold text stating 'Binge starts now' prominently displayed in the center of the ad. | body_text: Smaller text below the headline that reads 'Cancel anytime', providing additional information. | logo: A circular logo positioned at the top, representing the brand 'MoonScreen'. | cta: A button at the bottom of the ad with the text 'Start now', inviting user interaction. | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | unknown:  | headline: The prominent text 'Binge starts now' is visually striking and central to the ad's message. text='Binge starts now Cancel anytime' | logo: The logo 'MoonScreen' is displayed at the top, indicating the brand identity. text='MoonScreen' | cta: A clear button at the bottom with the text 'Start now', designed to attract clicks. text='Start now'"
+  }
+}

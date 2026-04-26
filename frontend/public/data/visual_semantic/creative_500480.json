@@ -1,0 +1,242 @@
+{
+  "creative_id": "500480",
+  "asset_file": "assets/creative_500480.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with a purple gradient background and geometric shapes.",
+    "visual_style": "modern minimalist with geometric shapes",
+    "main_message": "Encouraging users to save confidently with CoinBridge.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the background, creating a calming atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        3,
+        101,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.01,
+        0.158,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.504,
+        0.258
+      ],
+      "area_percentage": 19.68
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Central geometric shapes",
+      "description": "An abstract arrangement of geometric shapes, including an oval and a square, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.14
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Additional overlay shapes in lighter shades of purple, adding depth and interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional geometric element",
+      "description": "A larger square shape in the center, providing a contrasting visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The text 'CoinBridge' in bold, prominent font at the top, indicating the brand.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small, unclear element that does not convey specific information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.557,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The bold text 'CoinBridge' stands out prominently at the top of the ad.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        32,
+        358,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.05,
+        0.994,
+        0.163
+      ],
+      "center_normalized": [
+        0.531,
+        0.106
+      ],
+      "area_percentage": 10.44
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Supporting message",
+      "description": "The text 'Save with confidence Built for peace of mind' is displayed in a clear, readable font.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button text 'Start now' is positioned at the bottom, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern minimalist with geometric shapes, CoinBridge, save with confidence",
+    "layout_text": "The headline is at the top, main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "CoinBridge, Save with confidence, Built for peace of mind, Start now",
+    "elements_text": "main_subject: An abstract arrangement of geometric shapes, including an oval and a square, positioned centrally. | decorative_element: Additional overlay shapes in lighter shades of purple, adding depth and interest to the design. | decorative_element: A larger square shape in the center, providing a contrasting visual element. | logo: The text 'CoinBridge' in bold, prominent font at the top, indicating the brand. | unknown: A small, unclear element that does not convey specific information. | headline: The bold text 'CoinBridge' stands out prominently at the top of the ad. text='CoinBridge' | body_text: The text 'Save with confidence Built for peace of mind' is displayed in a clear, readable font. text='Save with confidence Built for peace of mind' | cta: The button text 'Start now' is positioned at the bottom, inviting user interaction. text='Start now'"
+  }
+}

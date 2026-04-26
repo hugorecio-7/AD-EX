@@ -1,0 +1,146 @@
+{
+  "creative_id": "500699",
+  "asset_file": "assets/creative_500699.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on a financial tracking app.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Encouraging users to track their finances with CoinBridge.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "A simple background featuring a large circle and rectangle in a muted color, providing a subtle visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold, modern font displaying the text 'Track every euro Built for peace of mind' in a contrasting color for visibility.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        29,
+        309,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.644,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.497,
+        0.694
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A stylized logo with the text 'CoinBridge' prominently displayed at the top, likely in a unique font or color scheme.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        24,
+        28,
+        160,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.5,
+        0.117
+      ],
+      "center_normalized": [
+        0.287,
+        0.087
+      ],
+      "area_percentage": 2.48
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A clear and inviting button at the bottom with the text 'Install now' in a bold font, designed to attract clicks.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, CoinBridge, financial tracking.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro Built for peace of mind, CoinBridge, Install now",
+    "elements_text": "decorative_element: A simple background featuring a large circle and rectangle in a muted color, providing a subtle visual interest. | body_text: Bold, modern font displaying the text 'Track every euro Built for peace of mind' in a contrasting color for visibility. text='Track every euro Built for peace of mind' | logo: A stylized logo with the text 'CoinBridge' prominently displayed at the top, likely in a unique font or color scheme. text='CoinBridge' | cta: A clear and inviting button at the bottom with the text 'Install now' in a bold font, designed to attract clicks. text='Install now'"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "creative_id": "500527",
+  "asset_file": "assets/creative_500527.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the brand and call to action.",
+    "visual_style": "minimalistic with bold text",
+    "main_message": "Encouraging users to claim a reward for booking flights.",
+    "dominant_colors": [
+      "white",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "A central decorative element that appears abstract and blends into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.484,
+        0.399
+      ],
+      "area_percentage": 14.24
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central decorative element",
+      "description": "Another central decorative element that is abstract and complements the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.69
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "HorizonHop UGC",
+      "description": "Bold, large text at the top of the ad, prominently displaying the brand name 'HorizonHop UGC' in a modern font.",
+      "text_content": "HorizonHop UGC",
+      "bbox_xyxy": [
+        23,
+        26,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.041,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.532,
+        0.12
+      ],
+      "area_percentage": 14.77
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "Medium-sized text in the center that reads 'Fly smarter Flexible booking options' in a clear, readable font.",
+      "text_content": "Fly smarter Flexible booking options",
+      "bbox_xyxy": [
+        74,
+        411,
+        286,
+        466
+      ],
+      "bbox_normalized": [
+        0.206,
+        0.642,
+        0.794,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.685
+      ],
+      "area_percentage": 5.06
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A rounded button at the bottom with the text '€9.99 Claim reward' in a contrasting color, designed to attract attention.",
+      "text_content": "€9.99 Claim reward",
+      "bbox_xyxy": [
+        24,
+        532,
+        249,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.692,
+        0.908
+      ],
+      "center_normalized": [
+        0.379,
+        0.87
+      ],
+      "area_percentage": 4.79
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalistic with bold text, HorizonHop UGC, Fly smarter Flexible booking options, €9.99 Claim reward",
+    "layout_text": "The headline is at the top, body text is centered, and the CTA is at the bottom.",
+    "ocr_text": "HorizonHop UGC, Fly smarter Flexible booking options, €9.99 Claim reward",
+    "elements_text": "unknown: A central decorative element that appears abstract and blends into the background. | unknown: Another central decorative element that is abstract and complements the overall design. | headline: Bold, large text at the top of the ad, prominently displaying the brand name 'HorizonHop UGC' in a modern font. text='HorizonHop UGC' | body_text: Medium-sized text in the center that reads 'Fly smarter Flexible booking options' in a clear, readable font. text='Fly smarter Flexible booking options' | cta: A rounded button at the bottom with the text '€9.99 Claim reward' in a contrasting color, designed to attract attention. text='€9.99 Claim reward'"
+  }
+}

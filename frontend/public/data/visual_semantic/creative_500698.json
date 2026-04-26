@@ -1,0 +1,146 @@
+{
+  "creative_id": "500698",
+  "asset_file": "assets/creative_500698.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a central focus on text and shapes.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting a secure and simple service with no hidden fees.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "A large, abstract shape in the center of the ad, featuring a combination of a circle and a square in muted colors.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.35
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold, white text stating 'Secure & simple No hidden fees' prominently displayed in the center of the ad.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo 'CoinBridge' is positioned at the top, featuring a modern font in white against a dark background.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        21,
+        26,
+        245,
+        83
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.041,
+        0.681,
+        0.13
+      ],
+      "center_normalized": [
+        0.369,
+        0.085
+      ],
+      "area_percentage": 5.54
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A rounded button at the bottom of the ad with the text 'Shop now' in bold, inviting white font.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, Secure & simple No hidden fees, CoinBridge, Shop now",
+    "layout_text": "The logo is at the top, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, No hidden fees, CoinBridge, Shop now",
+    "elements_text": "decorative_element: A large, abstract shape in the center of the ad, featuring a combination of a circle and a square in muted colors. | body_text: Bold, white text stating 'Secure & simple No hidden fees' prominently displayed in the center of the ad. text='Secure & simple No hidden fees' | logo: The logo 'CoinBridge' is positioned at the top, featuring a modern font in white against a dark background. text='CoinBridge' | cta: A rounded button at the bottom of the ad with the text 'Shop now' in bold, inviting white font. text='Shop now'"
+  }
+}

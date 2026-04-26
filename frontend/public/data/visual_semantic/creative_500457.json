@@ -1,0 +1,266 @@
+{
+  "creative_id": "500457",
+  "asset_file": "assets/creative_500457.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "The ad promotes a food delivery service with an emphasis on freshness.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green background",
+      "description": "A solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.955,
+        0.72
+      ],
+      "center_normalized": [
+        0.502,
+        0.46
+      ],
+      "area_percentage": 47.03
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold, large text at the top that reads 'Hungry? We got you'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller text below the headline that says 'Fresh favorites nearby'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        51,
+        141,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.16,
+        0.294,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.354,
+        0.392
+      ],
+      "area_percentage": 7.61
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "A simple logo design featuring the text 'SnapMeal' in a modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.28,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.22
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "UGC icon",
+      "description": "A small circular icon labeled 'UGC' indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        234
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.17
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button at the bottom that reads 'Start now' in bold text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Visual decoration",
+      "description": "A subtle decorative element that enhances the overall design without being distracting.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        37,
+        307,
+        290,
+        389
+      ],
+      "bbox_normalized": [
+        0.116,
+        0.64,
+        0.906,
+        0.81
+      ],
+      "center_normalized": [
+        0.511,
+        0.725
+      ],
+      "area_percentage": 13.51
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that does not fit into the defined roles.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        23,
+        37,
+        121,
+        57
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.077,
+        0.378,
+        0.119
+      ],
+      "center_normalized": [
+        0.225,
+        0.098
+      ],
+      "area_percentage": 1.28
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element that does not fit into the defined roles.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A third unspecified element that does not fit into the defined roles.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, key elements include a headline, logo, and CTA.",
+    "layout_text": "The headline is at the top, followed by supporting text, with the logo and CTA at the bottom.",
+    "ocr_text": "Hungry? We got you, Fresh favorites nearby, SnapMeal, Start now, UGC",
+    "elements_text": "headline: Bold, large text at the top that reads 'Hungry? We got you'. | body_text: Smaller text below the headline that says 'Fresh favorites nearby'. | logo: A simple logo design featuring the text 'SnapMeal' in a modern font. | icon: A small circular icon labeled 'UGC' indicating user-generated content. | cta: A prominent button at the bottom that reads 'Start now' in bold text. | decorative_element: A subtle decorative element that enhances the overall design without being distracting. text='Hungry? We got you Fresh favorites nearby' | unknown: An unspecified element that does not fit into the defined roles. text='SnapMeal' | unknown: Another unspecified element that does not fit into the defined roles. text='Start now' | unknown: A third unspecified element that does not fit into the defined roles. text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500679",
+  "asset_file": "assets/creative_500679.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold red background with prominent text and abstract shapes.",
+    "visual_style": "bold and minimalistic",
+    "main_message": "Promoting a free trial for the MoonScreen app.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top logo area",
+      "description": "A small rectangular area at the top featuring the text 'MoonScreen' in a bold font against a red background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A large central area containing abstract shapes, including a square and circles, in varying shades of red.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.25
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "A prominent text area displaying 'Exclusive tonight' in a large, bold font, with a secondary line 'Cancel anytime' in smaller text below.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small rectangular button at the bottom with the text 'Try for free' in a clear, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small graphic element",
+      "description": "A small circular graphic element positioned near the bottom, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Offer details text",
+      "description": "A text area stating 'Exclusive tonight Cancel anytime' in a clear, readable font.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Free trial button",
+      "description": "A small button at the bottom center with the text 'Try for free' in a bold, eye-catching font.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Top headline",
+      "description": "A small area at the top with the text 'MoonScreen' in a bold, prominent font.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        26,
+        46,
+        164,
+        70
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.456,
+        0.109
+      ],
+      "center_normalized": [
+        0.264,
+        0.091
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bold and minimalistic, promoting free trial.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight, Cancel anytime, Try for free, MoonScreen",
+    "elements_text": "decorative_element: A small rectangular area at the top featuring the text 'MoonScreen' in a bold font against a red background. | main_subject: A large central area containing abstract shapes, including a square and circles, in varying shades of red. | body_text: A prominent text area displaying 'Exclusive tonight' in a large, bold font, with a secondary line 'Cancel anytime' in smaller text below. | cta: A small rectangular button at the bottom with the text 'Try for free' in a clear, inviting font. | unknown: A small circular graphic element positioned near the bottom, likely decorative. | body_text: A text area stating 'Exclusive tonight Cancel anytime' in a clear, readable font. text='Exclusive tonight Cancel anytime' | cta: A small button at the bottom center with the text 'Try for free' in a bold, eye-catching font. text='Try for free' | headline: A small area at the top with the text 'MoonScreen' in a bold, prominent font. text='MoonScreen'"
+  }
+}

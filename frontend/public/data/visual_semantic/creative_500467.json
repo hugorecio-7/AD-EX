@@ -1,0 +1,242 @@
+{
+  "creative_id": "500467",
+  "asset_file": "assets/creative_500467.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text and shapes.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Promoting binge-watching with a call to action.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        573
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.896
+      ],
+      "center_normalized": [
+        0.502,
+        0.549
+      ],
+      "area_percentage": 62.77
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Content area",
+      "description": "A central area featuring geometric shapes, including a circle and a square, both in lighter shades of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text at the top reads 'Binge starts now', prominently displayed against the purple background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline states 'Cancel anytime', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button at the bottom with the text 'Watch now' in white, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'MoonScreen' appears in the top left corner, displayed in white against the purple background.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        31,
+        407,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.086,
+        0.636,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.497,
+        0.682
+      ],
+      "area_percentage": 7.58
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white, positioned at the top left, indicating user-generated content.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        27,
+        49,
+        163,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.453,
+        0.108
+      ],
+      "center_normalized": [
+        0.264,
+        0.092
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, promoting binge-watching.",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Binge starts now, Cancel anytime, MoonScreen, Watch now, UGC",
+    "elements_text": "main_subject: A central area featuring geometric shapes, including a circle and a square, both in lighter shades of purple. | headline: Bold white text at the top reads 'Binge starts now', prominently displayed against the purple background. | body_text: Smaller white text below the headline states 'Cancel anytime', providing additional information. | cta: A rounded button at the bottom with the text 'Watch now' in white, inviting user interaction. | logo: The logo 'MoonScreen' appears in the top left corner, displayed in white against the purple background. text='Binge starts now Cancel anytime' | social_proof: A small tag labeled 'UGC' in white, positioned at the top left, indicating user-generated content. text='MoonScreen' | unknown:  text='Watch now' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500391",
+  "asset_file": "assets/creative_500391.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with engaging text elements promoting a binge-watching service.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to start binge-watching for free.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "BingeLayer UGC",
+      "description": "A bold, large text at the top of the ad, prominently displaying the brand name 'BingeLayer' with 'UGC' in a smaller font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        276,
+        308
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.767,
+        0.481
+      ],
+      "center_normalized": [
+        0.469,
+        0.361
+      ],
+      "area_percentage": 14.41
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Binge starts now",
+      "description": "A medium-sized text in the center, stating 'Binge starts now' in a clear, inviting font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        177,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.277,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.34
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Start free today",
+      "description": "A smaller text below the main body text, encouraging users to start for free, presented in a friendly font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Get offer",
+      "description": "A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular shape positioned towards the bottom, adding a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Rectangle shape",
+      "description": "A rectangular shape in the center, providing a background for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 7,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background that fills the entire ad space, creating a vibrant and engaging atmosphere.",
+      "text_content": "BingeLayer UGC",
+      "bbox_xyxy": [
+        21,
+        29,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.045,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.529,
+        0.122
+      ],
+      "area_percentage": 14.42
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Binge starts now",
+      "description": "A medium-sized text in the center, stating 'Binge starts now' in a clear, inviting font.",
+      "text_content": "Binge starts now Start free today",
+      "bbox_xyxy": [
+        35,
+        411,
+        327,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.642,
+        0.908,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.685
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Get offer",
+      "description": "A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color to attract attention.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, BingeLayer UGC, binge starts now, Get offer",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "BingeLayer UGC, Binge starts now, Start free today, Get offer",
+    "elements_text": "headline: A bold, large text at the top of the ad, prominently displaying the brand name 'BingeLayer' with 'UGC' in a smaller font. | body_text: A medium-sized text in the center, stating 'Binge starts now' in a clear, inviting font. | body_text: A smaller text below the main body text, encouraging users to start for free, presented in a friendly font. | cta: A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color to attract attention. | decorative_element: A small circular shape positioned towards the bottom, adding a decorative touch to the layout. | decorative_element: A rectangular shape in the center, providing a background for the text elements. | body_text: A medium-sized text in the center, stating 'Binge starts now' in a clear, inviting font. text='Binge starts now Start free today' | cta: A rounded button at the bottom of the ad with the text 'Get offer' in a contrasting color to attract attention. text='Get offer'"
+  }
+}

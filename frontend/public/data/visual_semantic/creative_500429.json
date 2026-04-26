@@ -1,0 +1,314 @@
+{
+  "creative_id": "500429",
+  "asset_file": "assets/creative_500429.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with prominent text and a call-to-action button.",
+    "visual_style": "modern and playful",
+    "main_message": "Encouraging users to install the StarVault app for binge-watching.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.769,
+        0.508
+      ],
+      "center_normalized": [
+        0.469,
+        0.38
+      ],
+      "area_percentage": 15.28
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The logo features the word 'StarVault' in bold, modern typography, positioned prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.278,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.59
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Binge starts now",
+      "description": "A large, bold headline reads 'Binge starts now' in white text, centrally located for emphasis.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        96,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.303,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.478,
+        0.412
+      ],
+      "area_percentage": 13.12
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cancel anytime",
+      "description": "A smaller text below the headline states 'Cancel anytime' in a lighter font, adding context to the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A rounded button at the bottom with the text 'Install now' in a contrasting color, inviting user action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        90,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.283,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.532,
+        0.429
+      ],
+      "area_percentage": 9.08
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Several circular shapes in varying sizes are scattered across the background, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.494,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.93
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Rectangular shape",
+      "description": "A large rectangular shape is present, possibly serving as a placeholder or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        129,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.403,
+        0.347,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.587,
+        0.429
+      ],
+      "area_percentage": 6.06
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape located towards the bottom left, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Another small circle",
+      "description": "Another small circle shape positioned near the first, maintaining the design's playful aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Binge starts now text",
+      "description": "The text 'Binge starts now' is prominently displayed in a large, bold font, capturing attention.",
+      "text_content": "Binge starts now Cancel anytime",
+      "bbox_xyxy": [
+        25,
+        198,
+        290,
+        255
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.619,
+        0.906,
+        0.797
+      ],
+      "center_normalized": [
+        0.492,
+        0.708
+      ],
+      "area_percentage": 14.75
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "StarVault title",
+      "description": "The title 'StarVault' is presented in a bold, eye-catching font at the top of the ad.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        7,
+        25,
+        238,
+        68
+      ],
+      "bbox_normalized": [
+        0.022,
+        0.078,
+        0.744,
+        0.212
+      ],
+      "center_normalized": [
+        0.383,
+        0.145
+      ],
+      "area_percentage": 9.7
+    },
+    {
+      "id": 12,
+      "role": "cta",
+      "label": "Install now text",
+      "description": "The text 'Install now' is displayed in a button format at the bottom, encouraging immediate action.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.03
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and playful, StarVault logo, binge starts now message, install now button",
+    "layout_text": "The logo is at the top, followed by the headline and body text, with the CTA button at the bottom.",
+    "ocr_text": "StarVault, Binge starts now, Cancel anytime, Install now",
+    "elements_text": "logo: The logo features the word 'StarVault' in bold, modern typography, positioned prominently at the top. | headline: A large, bold headline reads 'Binge starts now' in white text, centrally located for emphasis. | body_text: A smaller text below the headline states 'Cancel anytime' in a lighter font, adding context to the offer. | cta: A rounded button at the bottom with the text 'Install now' in a contrasting color, inviting user action. | decorative_element: Several circular shapes in varying sizes are scattered across the background, adding visual interest. | unknown: A large rectangular shape is present, possibly serving as a placeholder or decorative element. | unknown: A small circle shape located towards the bottom left, contributing to the overall design. | unknown: Another small circle shape positioned near the first, maintaining the design's playful aesthetic. | body_text: The text 'Binge starts now' is prominently displayed in a large, bold font, capturing attention. text='Binge starts now Cancel anytime' | headline: The title 'StarVault' is presented in a bold, eye-catching font at the top of the ad. text='StarVault' | cta: The text 'Install now' is displayed in a button format at the bottom, encouraging immediate action. text='Install now'"
+  }
+}

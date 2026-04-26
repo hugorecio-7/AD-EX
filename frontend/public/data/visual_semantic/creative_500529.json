@@ -1,0 +1,338 @@
+{
+  "creative_id": "500529",
+  "asset_file": "assets/creative_500529.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a focus on food delivery.",
+    "visual_style": "bright and inviting",
+    "main_message": "Promoting a food delivery service with a special sale.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background that fills the entire canvas, providing a warm and inviting base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        9,
+        59,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.028,
+        0.185,
+        0.952,
+        0.719
+      ],
+      "center_normalized": [
+        0.49,
+        0.452
+      ],
+      "area_percentage": 49.35
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "The logo 'FreshDash' appears in a bold font at the top, colored in a contrasting shade to stand out against the orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Food icons",
+      "description": "Two simple line-drawn food icons, representing meals, centered in the ad, conveying the theme of food delivery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.364,
+        0.399
+      ],
+      "area_percentage": 6.56
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Dinner in minutes",
+      "description": "The phrase 'Dinner in minutes' is prominently displayed in a large, bold font, centered below the food icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.278,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "A smaller text line reading 'fresh favorites nearby' is placed directly below the main body text, in a lighter font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        99,
+        175,
+        156
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.31,
+        0.548,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "$4.99 price tag",
+      "description": "The price '$4.99' is highlighted in a bold font, positioned below the body text, drawing attention to the cost.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        166,
+        139
+      ],
+      "bbox_normalized": [
+        0.397,
+        0.338,
+        0.52,
+        0.437
+      ],
+      "center_normalized": [
+        0.459,
+        0.387
+      ],
+      "area_percentage": 1.2
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A bright button labeled 'Install now' is located at the bottom of the ad, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        25,
+        269,
+        36,
+        285
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.841,
+        0.115,
+        0.893
+      ],
+      "center_normalized": [
+        0.098,
+        0.867
+      ],
+      "area_percentage": 0.18
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge labeled 'SALE' is positioned at the top right corner, indicating a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        268,
+        50,
+        282
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.84,
+        0.157,
+        0.884
+      ],
+      "center_normalized": [
+        0.139,
+        0.862
+      ],
+      "area_percentage": 0.16
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, indistinct element at the bottom of the ad that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.263,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another small, indistinct element at the bottom of the ad that does not contribute to the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        269,
+        70,
+        282
+      ],
+      "bbox_normalized": [
+        0.187,
+        0.841,
+        0.222,
+        0.884
+      ],
+      "center_normalized": [
+        0.204,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "Dinner in minutes text",
+      "description": "The text 'Dinner in minutes $4.99' is displayed prominently, encouraging viewers to consider the offer.",
+      "text_content": "Dinner in minutes $4.99r0' Install now",
+      "bbox_xyxy": [
+        22,
+        204,
+        232,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.725,
+        0.934
+      ],
+      "center_normalized": [
+        0.397,
+        0.786
+      ],
+      "area_percentage": 19.48
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "The 'FreshDash' logo appears at the top, designed to establish brand identity.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        23,
+        105,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.328,
+        0.122
+      ],
+      "center_normalized": [
+        0.203,
+        0.097
+      ],
+      "area_percentage": 1.25
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "SALE text",
+      "description": "The word 'SALE' is displayed in a bright color at the top right, indicating a special offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and inviting, FreshDash, food delivery, SALE",
+    "layout_text": "The logo is at the top, followed by the main subject in the center, with body text and price below, and a CTA at the bottom.",
+    "ocr_text": "Dinner in minutes $4.99, Install now, FreshDash, SALE",
+    "elements_text": "headline: The logo 'FreshDash' appears in a bold font at the top, colored in a contrasting shade to stand out against the orange background. | main_subject: Two simple line-drawn food icons, representing meals, centered in the ad, conveying the theme of food delivery. | body_text: The phrase 'Dinner in minutes' is prominently displayed in a large, bold font, centered below the food icons. | body_text: A smaller text line reading 'fresh favorites nearby' is placed directly below the main body text, in a lighter font. | price: The price '$4.99' is highlighted in a bold font, positioned below the body text, drawing attention to the cost. | cta: A bright button labeled 'Install now' is located at the bottom of the ad, encouraging immediate action. | discount_badge: A small badge labeled 'SALE' is positioned at the top right corner, indicating a promotional offer. | unknown: A small, indistinct element at the bottom of the ad that does not contribute to the main message. | unknown: Another small, indistinct element at the bottom of the ad that does not contribute to the main message. | body_text: The text 'Dinner in minutes $4.99' is displayed prominently, encouraging viewers to consider the offer. text='Dinner in minutes $4.99r0' Install now' | logo: The 'FreshDash' logo appears at the top, designed to establish brand identity. text='FreshDash' | discount_badge: The word 'SALE' is displayed in a bright color at the top right, indicating a special offer. text='SALE'"
+  }
+}

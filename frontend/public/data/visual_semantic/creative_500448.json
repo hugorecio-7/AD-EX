@@ -1,0 +1,266 @@
+{
+  "creative_id": "500448",
+  "asset_file": "assets/creative_500448.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a dark background with bold text and abstract shapes, promoting a cashback offer.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Earn cashback daily with a focus on peace of mind.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        186
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.388
+      ],
+      "center_normalized": [
+        0.499,
+        0.194
+      ],
+      "area_percentage": 38.67
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "A collection of abstract geometric shapes in varying sizes, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        149
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.311
+      ],
+      "center_normalized": [
+        0.499,
+        0.155
+      ],
+      "area_percentage": 30.98
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "additional shapes",
+      "description": "Smaller abstract shapes that complement the main subject, adding visual interest at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "cashback message",
+      "description": "Bold text stating 'Earn cashback daily' in a prominent position, designed to catch the viewer's attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        115,
+        158,
+        225
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.241,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "peace of mind",
+      "description": "Smaller text below the main message that reads 'Built for peace of mind', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        118,
+        155,
+        222
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.247,
+        0.486,
+        0.463
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.64
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A small button or text element that encourages user interaction, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        292
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.61
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "shop now button",
+      "description": "A prominent button labeled 'Shop now', designed to stand out and prompt immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        302
+      ],
+      "bbox_normalized": [
+        0.3,
+        0.567,
+        0.401,
+        0.631
+      ],
+      "center_normalized": [
+        0.351,
+        0.599
+      ],
+      "area_percentage": 0.64
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "main headline",
+      "description": "A large, bold headline at the bottom of the ad that reinforces the cashback message.",
+      "text_content": "Earn cashback daily Built for peace of mind",
+      "bbox_xyxy": [
+        48,
+        308,
+        276,
+        389
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.642,
+        0.863,
+        0.81
+      ],
+      "center_normalized": [
+        0.506,
+        0.726
+      ],
+      "area_percentage": 12.02
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "shop now text",
+      "description": "A small text element that serves as a call to action, encouraging users to engage with the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple logo at the top left corner that reads 'EarnPath', establishing brand identity.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        23,
+        35,
+        113,
+        55
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.073,
+        0.353,
+        0.115
+      ],
+      "center_normalized": [
+        0.212,
+        0.094
+      ],
+      "area_percentage": 1.17
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold text, cashback offer, call to action.",
+    "layout_text": "The logo is positioned at the top left, the main headline is at the bottom, and the call to action is centrally located.",
+    "ocr_text": "Earn cashback daily, Built for peace of mind, Shop now, EarnPath",
+    "elements_text": "main_subject: A collection of abstract geometric shapes in varying sizes, positioned at the top of the ad. | decorative_element: Smaller abstract shapes that complement the main subject, adding visual interest at the top. | body_text: Bold text stating 'Earn cashback daily' in a prominent position, designed to catch the viewer's attention. | body_text: Smaller text below the main message that reads 'Built for peace of mind', providing additional context. | cta: A small button or text element that encourages user interaction, positioned centrally. | cta: A prominent button labeled 'Shop now', designed to stand out and prompt immediate action. | headline: A large, bold headline at the bottom of the ad that reinforces the cashback message. text='Earn cashback daily Built for peace of mind' | cta: A small text element that serves as a call to action, encouraging users to engage with the ad. text='Shop now' | logo: A simple logo at the top left corner that reads 'EarnPath', establishing brand identity. text='EarnPath'"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "creative_id": "500372",
+  "asset_file": "assets/creative_500372.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent call to action and clear messaging.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to earn cashback with a free trial.",
+    "dominant_colors": [
+      "#A8E6CE",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A simple logo featuring the text 'ClearLedger' in a clean font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A large, bold text area that reads 'Earn cashback daily' in a prominent font, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.502
+      ],
+      "center_normalized": [
+        0.469,
+        0.371
+      ],
+      "area_percentage": 15.7
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A smaller text area below the main text that reads 'No hidden fees', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button with the text 'Try for free', designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.316,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.47
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Decorative shapes",
+      "description": "A collection of circular and rectangular shapes in the background, adding visual interest without distracting from the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element that occupies a central position, potentially a placeholder or decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.94
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "Another unspecified element that appears in the center, possibly a decorative shape or graphic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.461
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.57
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape located towards the bottom of the ad, likely serving a decorative purpose.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular shape positioned near the bottom, contributing to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.531,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.97
+    },
+    {
+      "id": 10,
+      "role": "background",
+      "label": "Background area",
+      "description": "A solid color background that provides a cohesive backdrop for the text and elements in the ad.",
+      "text_content": "Earn cashback daily Try for free",
+      "bbox_xyxy": [
+        48,
+        204,
+        276,
+        302
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.637,
+        0.863,
+        0.944
+      ],
+      "center_normalized": [
+        0.506,
+        0.791
+      ],
+      "area_percentage": 21.82
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Headline text",
+      "description": "A smaller headline text at the top left, indicating the brand name 'ClearLedger' in a clear font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "ClearLedger, cashback service, native format, minimalist with soft colors, key elements include logo, body text, and call to action.",
+    "layout_text": "The logo is at the top, followed by the main body text in the center, with the call to action button at the bottom.",
+    "ocr_text": "ClearLedger, Earn cashback daily, No hidden fees, Try for free",
+    "elements_text": "logo: A simple logo featuring the text 'ClearLedger' in a clean font, positioned at the top of the ad. | body_text: A large, bold text area that reads 'Earn cashback daily' in a prominent font, centered in the ad. | body_text: A smaller text area below the main text that reads 'No hidden fees', providing additional information. | cta: A rounded rectangular button with the text 'Try for free', designed to attract user interaction. | decorative_element: A collection of circular and rectangular shapes in the background, adding visual interest without distracting from the text. | unknown: An unspecified element that occupies a central position, potentially a placeholder or decorative feature. | unknown: Another unspecified element that appears in the center, possibly a decorative shape or graphic. | unknown: A small circular shape located towards the bottom of the ad, likely serving a decorative purpose. | unknown: A small circular shape positioned near the bottom, contributing to the overall design. | headline: A smaller headline text at the top left, indicating the brand name 'ClearLedger' in a clear font. text='ClearLedger'"
+  }
+}

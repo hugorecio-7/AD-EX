@@ -1,0 +1,242 @@
+{
+  "creative_id": "500654",
+  "asset_file": "assets/creative_500654.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with product images and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with discounts on bestsellers.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "A simple logo text 'VantaStyle' displayed prominently at the top in a clean font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Product display",
+      "description": "Three rectangular product images arranged in a row, each with a glossy finish.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        158,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.495,
+        0.459
+      ],
+      "center_normalized": [
+        0.323,
+        0.37
+      ],
+      "area_percentage": 6.12
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Additional product image",
+      "description": "An additional rectangular product image with a glossy finish, positioned slightly to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.31,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.398
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional product image",
+      "description": "A smaller rectangular product image with a glossy finish, positioned to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.152,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Additional product image",
+      "description": "Another rectangular product image with a glossy finish, positioned to the right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Discount headline",
+      "description": "Bold text stating 'Up to 40% off Shop bestsellers now' in a prominent position.",
+      "text_content": "Up to 40% off Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        307,
+        269,
+        358
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.64,
+        0.841,
+        0.746
+      ],
+      "center_normalized": [
+        0.506,
+        0.693
+      ],
+      "area_percentage": 7.11
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Book now' in a contrasting color, located at the bottom.",
+      "text_content": "€29.99 Book now",
+      "bbox_xyxy": [
+        23,
+        399,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.359,
+        0.873
+      ],
+      "area_percentage": 4.79
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Price text",
+      "description": "Text displaying the price '€29.99' in a clear and readable font, positioned above the CTA.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, discount headline, product images",
+    "layout_text": "The logo is at the top, followed by the headline in the center, product images in the middle, and the CTA at the bottom.",
+    "ocr_text": "VantaStyle, Up to 40% off Shop bestsellers now, €29.99, Book now",
+    "elements_text": "logo: A simple logo text 'VantaStyle' displayed prominently at the top in a clean font. | product: Three rectangular product images arranged in a row, each with a glossy finish. | unknown: An additional rectangular product image with a glossy finish, positioned slightly to the right. | unknown: A smaller rectangular product image with a glossy finish, positioned to the left. | unknown: Another rectangular product image with a glossy finish, positioned to the right. | headline: Bold text stating 'Up to 40% off Shop bestsellers now' in a prominent position. text='Up to 40% off Shop bestsellers now' | cta: A button with the text 'Book now' in a contrasting color, located at the bottom. text='€29.99 Book now' | body_text: Text displaying the price '€29.99' in a clear and readable font, positioned above the CTA. text='VantaStyle'"
+  }
+}

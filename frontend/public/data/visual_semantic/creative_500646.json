@@ -1,0 +1,242 @@
+{
+  "creative_id": "500646",
+  "asset_file": "assets/creative_500646.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and prominent text elements.",
+    "visual_style": "modern minimalist with bold colors",
+    "main_message": "Encouraging users to stream and start for free.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 46.81
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large rectangle and a circle are centered on the background, both outlined in a lighter shade of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional geometric shape",
+      "description": "A smaller rectangle is positioned within the main subject area, also outlined in blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "StarVault logo",
+      "description": "The text 'StarVault' is displayed prominently at the top in bold, black font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "The text 'UGC' appears at the top left in a small, black font, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The phrase 'Stream the hype Start free today' is centered in white, bold font against the blue background.",
+      "text_content": "Stream the hype Start free today",
+      "bbox_xyxy": [
+        35,
+        409,
+        326,
+        466
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.639,
+        0.906,
+        0.728
+      ],
+      "center_normalized": [
+        0.501,
+        0.684
+      ],
+      "area_percentage": 7.2
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rectangular button at the bottom with the text 'Order now' in white, set against a blue background.",
+      "text_content": "StarVault",
+      "bbox_xyxy": [
+        27,
+        41,
+        215,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.597,
+        0.123
+      ],
+      "center_normalized": [
+        0.336,
+        0.094
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small circular element is placed near the bottom left, adding a decorative touch.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Additional decorative element",
+      "description": "An arrow icon is positioned to the right of the main subject, suggesting interaction.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold colors, StarVault logo, call to action.",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype Start free today, StarVault, Order now, UGC",
+    "elements_text": "main_subject: A large rectangle and a circle are centered on the background, both outlined in a lighter shade of blue. | unknown: A smaller rectangle is positioned within the main subject area, also outlined in blue. | logo: The text 'StarVault' is displayed prominently at the top in bold, black font. | social_proof: The text 'UGC' appears at the top left in a small, black font, indicating user-generated content. | headline: The phrase 'Stream the hype Start free today' is centered in white, bold font against the blue background. text='Stream the hype Start free today' | cta: A rectangular button at the bottom with the text 'Order now' in white, set against a blue background. text='StarVault' | unknown: A small circular element is placed near the bottom left, adding a decorative touch. text='Order now' | unknown: An arrow icon is positioned to the right of the main subject, suggesting interaction. text='UGC'"
+  }
+}

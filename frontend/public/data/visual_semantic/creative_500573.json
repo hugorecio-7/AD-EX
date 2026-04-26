@@ -1,0 +1,266 @@
+{
+  "creative_id": "500573",
+  "asset_file": "assets/creative_500573.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear text elements.",
+    "visual_style": "modern and geometric",
+    "main_message": "Promoting the NeonCast app with a focus on trending content.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract blue background",
+      "description": "A smooth gradient blue background with abstract shapes in lighter and darker shades.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        94,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.147,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.253
+      ],
+      "area_percentage": 20.95
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large circular shape and a rectangular shape in the center, both in varying shades of blue.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        178,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.399
+      ],
+      "area_percentage": 14.32
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Additional geometric shapes overlaying the main subject, adding depth and interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Layered shapes",
+      "description": "More layered geometric shapes that enhance the visual complexity of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The text 'NeonCast' in bold, modern font, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A simple right-facing arrow icon indicating action, placed near the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small, abstract shape that does not convey a clear meaning.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Trending message",
+      "description": "The text 'Watch what's trending Cancel anytime' in a clear, readable font at the bottom.",
+      "text_content": "Watch what's trending Cancel anytime",
+      "bbox_xyxy": [
+        65,
+        409,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.506,
+        0.71
+      ],
+      "area_percentage": 9.24
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold text 'NeonCast' at the top, designed to grab attention.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        30,
+        40,
+        318,
+        96
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.883,
+        0.15
+      ],
+      "center_normalized": [
+        0.483,
+        0.106
+      ],
+      "area_percentage": 7.0
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button text 'Start now' in a rounded rectangle, inviting user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and geometric, NeonCast, trending message, call to action",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Watch what's trending, Cancel anytime, NeonCast, Start now",
+    "elements_text": "main_subject: A large circular shape and a rectangular shape in the center, both in varying shades of blue. | decorative_element: Additional geometric shapes overlaying the main subject, adding depth and interest. | decorative_element: More layered geometric shapes that enhance the visual complexity of the ad. | logo: The text 'NeonCast' in bold, modern font, prominently displayed at the top. | icon: A simple right-facing arrow icon indicating action, placed near the center. | unknown: A small, abstract shape that does not convey a clear meaning. | body_text: The text 'Watch what's trending Cancel anytime' in a clear, readable font at the bottom. text='Watch what's trending Cancel anytime' | headline: The bold text 'NeonCast' at the top, designed to grab attention. text='NeonCast' | cta: The button text 'Start now' in a rounded rectangle, inviting user interaction. text='Start now'"
+  }
+}

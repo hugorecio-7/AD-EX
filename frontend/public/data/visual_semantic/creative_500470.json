@@ -1,0 +1,362 @@
+{
+  "creative_id": "500470",
+  "asset_file": "assets/creative_500470.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting the game NeonArena with engaging visuals and clear calls to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Compete in NeonArena and earn rewards for new players.",
+    "dominant_colors": [
+      "light green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A stylized logo featuring the text 'NeonArena' in bold, vibrant colors, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 2,
+      "role": "icon",
+      "label": "Game icons",
+      "description": "Four circular game icons with a minimalistic design, arranged in a grid format at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay preview",
+      "description": "A visual representation of gameplay, showcasing interactive elements in a vibrant, engaging style, located in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "gameplay",
+      "label": "Game interaction",
+      "description": "An interactive gameplay scene with colorful graphics and dynamic elements, positioned below the app screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Geometric shapes in a light green background, adding depth and interest to the ad's design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the top right, possibly a decorative feature or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned near the top center, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned in the center, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned near the top left, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element positioned in the center left, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The bold headline 'Beat your rivals' in a prominent font, centrally located to attract attention.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        40,
+        354,
+        92
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.983,
+        0.144
+      ],
+      "center_normalized": [
+        0.531,
+        0.103
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "The text 'Free rewards for new players' in a smaller font, positioned below the headline to provide additional information.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        465
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.727
+      ],
+      "center_normalized": [
+        0.5,
+        0.682
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button 'Start now' in a bold, inviting font, located at the bottom of the ad to encourage user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, NeonArena logo, engaging gameplay visuals, clear call to action.",
+    "layout_text": "The headline is at the top, followed by game icons, gameplay preview, supporting text, and the call to action at the bottom.",
+    "ocr_text": "NeonArena, Beat your rivals, Free rewards for new players, Start now",
+    "elements_text": "logo: A stylized logo featuring the text 'NeonArena' in bold, vibrant colors, positioned at the top of the ad. | icon: Four circular game icons with a minimalistic design, arranged in a grid format at the top center of the ad. | app_screenshot: A visual representation of gameplay, showcasing interactive elements in a vibrant, engaging style, located in the center. | gameplay: An interactive gameplay scene with colorful graphics and dynamic elements, positioned below the app screenshot. | decorative_element: Geometric shapes in a light green background, adding depth and interest to the ad's design. | unknown: A small, unclear element at the top right, possibly a decorative feature or icon. | unknown: A small, unclear element positioned near the top center, possibly a decorative feature. | unknown: A small, unclear element positioned in the center, possibly a decorative feature. | unknown: A small, unclear element positioned near the top left, possibly a decorative feature. | unknown: A small, unclear element positioned in the center left, possibly a decorative feature. | headline: The bold headline 'Beat your rivals' in a prominent font, centrally located to attract attention. text='NeonArena' | body_text: The text 'Free rewards for new players' in a smaller font, positioned below the headline to provide additional information. text='Beat your rivals Free rewards for new players' | cta: The button 'Start now' in a bold, inviting font, located at the bottom of the ad to encourage user interaction. text='Start now'"
+  }
+}

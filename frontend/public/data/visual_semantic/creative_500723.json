@@ -1,0 +1,362 @@
+{
+  "creative_id": "500723",
+  "asset_file": "assets/creative_500723.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant design promoting the game VoxelRealm with gameplay elements and a clear call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Encouraging users to install the game and play with friends.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "VoxelRealm logo",
+      "description": "A stylized logo featuring the text 'VoxelRealm' in bold, prominent font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A visual representation of the gameplay, showing a grid of interactive elements with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "Another view of the gameplay, similar to the previous element, showcasing different interactive elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small circular icon that appears to represent an interactive element in the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small circular icon, similar to the previous one, indicating another interactive feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Interactive icon",
+      "description": "A small circular icon positioned at the top right, representing an additional interactive element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element positioned in the center, possibly enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "Another small decorative element, similar to the previous one, adding to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "A small decorative element at the top, contributing to the ad's visual style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Decorative element",
+      "description": "Another small decorative element at the top, enhancing the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The main headline text 'VoxelRealm' is bold and large, capturing attention at the top of the ad.",
+      "text_content": "VoxelRealm",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        96
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.15
+      ],
+      "center_normalized": [
+        0.536,
+        0.106
+      ],
+      "area_percentage": 8.12
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Body text",
+      "description": "The body text reads 'Unlock rare gear Play with friends tonight' in a clear, readable font.",
+      "text_content": "Unlock rare gear Play with friends tonight",
+      "bbox_xyxy": [
+        37,
+        409,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.503,
+        0.684
+      ],
+      "area_percentage": 7.12
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The call to action text 'Install now' is prominently displayed at the bottom, encouraging user engagement.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and playful, VoxelRealm logo, gameplay screenshots, call to action.",
+    "layout_text": "The headline is at the top, gameplay elements are centered, and the call to action is at the bottom.",
+    "ocr_text": "VoxelRealm, Unlock rare gear Play with friends tonight, Install now",
+    "elements_text": "logo: A stylized logo featuring the text 'VoxelRealm' in bold, prominent font at the top of the ad. | app_screenshot: A visual representation of the gameplay, showing a grid of interactive elements with a light background. | app_screenshot: Another view of the gameplay, similar to the previous element, showcasing different interactive elements. | icon: A small circular icon that appears to represent an interactive element in the game. | icon: A small circular icon, similar to the previous one, indicating another interactive feature. | icon: A small circular icon positioned at the top right, representing an additional interactive element. | decorative_element: A small decorative element positioned in the center, possibly enhancing the visual appeal. | decorative_element: Another small decorative element, similar to the previous one, adding to the overall design. | decorative_element: A small decorative element at the top, contributing to the ad's visual style. | decorative_element: Another small decorative element at the top, enhancing the overall design. | headline: The main headline text 'VoxelRealm' is bold and large, capturing attention at the top of the ad. text='VoxelRealm' | body_text: The body text reads 'Unlock rare gear Play with friends tonight' in a clear, readable font. text='Unlock rare gear Play with friends tonight' | cta: The call to action text 'Install now' is prominently displayed at the bottom, encouraging user engagement. text='Install now'"
+  }
+}

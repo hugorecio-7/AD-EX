@@ -1,0 +1,266 @@
+{
+  "creative_id": "500489",
+  "asset_file": "assets/creative_500489.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a teal background with various shapes and text elements promoting a travel service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting DriftPass for weekend travel deals.",
+    "dominant_colors": [
+      "teal",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Teal background",
+      "description": "A solid teal background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        89,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.14,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.249
+      ],
+      "area_percentage": 21.72
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Large rectangular shape",
+      "description": "A large, light teal rectangular shape positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        177,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.277,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.2
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Oval shape",
+      "description": "A light teal oval shape overlapping with the rectangular shape in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Square shape",
+      "description": "A light teal square shape positioned slightly lower in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "DriftPass logo",
+      "description": "The logo text 'DriftPass' in bold, prominent font at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Decorative icon",
+      "description": "A small decorative icon in the top right corner, possibly representing a feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        303,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.844,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.887,
+        0.091
+      ],
+      "area_percentage": 0.71
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear element at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The text 'Escape this weekend Hotels + flights in one tap' in bold, white font at the bottom.",
+      "text_content": "Escape this weekend Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.5,
+        0.711
+      ],
+      "area_percentage": 9.18
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "DriftPass headline",
+      "description": "The text 'DriftPass' in large, bold font at the top of the ad.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        28,
+        40,
+        302,
+        96
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.839,
+        0.15
+      ],
+      "center_normalized": [
+        0.458,
+        0.106
+      ],
+      "area_percentage": 6.66
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "The text '€29.99 Start now' in bold, white font at the bottom, indicating a call to action.",
+      "text_content": "€29.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, DriftPass, travel deals, weekend escape.",
+    "layout_text": "The logo is at the top, followed by the main headline, decorative shapes in the center, and the CTA at the bottom.",
+    "ocr_text": "Escape this weekend Hotels flights in one tap, DriftPass, €29.99 Start now",
+    "elements_text": "main_subject: A large, light teal rectangular shape positioned in the center of the ad. | decorative_element: A light teal oval shape overlapping with the rectangular shape in the center. | decorative_element: A light teal square shape positioned slightly lower in the center. | logo: The logo text 'DriftPass' in bold, prominent font at the top of the ad. | icon: A small decorative icon in the top right corner, possibly representing a feature. | unknown: A small, unclear element at the bottom center of the ad. | headline: The text 'Escape this weekend Hotels + flights in one tap' in bold, white font at the bottom. text='Escape this weekend Hotels flights in one tap' | headline: The text 'DriftPass' in large, bold font at the top of the ad. text='DriftPass' | cta: The text '€29.99 Start now' in bold, white font at the bottom, indicating a call to action. text='€29.99 Start now'"
+  }
+}

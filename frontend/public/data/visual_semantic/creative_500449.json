@@ -1,0 +1,218 @@
+{
+  "creative_id": "500449",
+  "asset_file": "assets/creative_500449.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, main message, supporting text, and a call to action.",
+    "visual_style": "minimalist with warm tones",
+    "main_message": "Encouraging users to track their spending with a call to action to shop.",
+    "dominant_colors": [
+      "orange",
+      "light orange"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "EarnPath logo",
+      "description": "A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A central area with abstract shapes, including an oval and a square, in a light orange color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        301
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.471
+      ],
+      "center_normalized": [
+        0.468,
+        0.355
+      ],
+      "area_percentage": 13.72
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Text that reads 'Track every euro' in a clear, modern font, centrally placed within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "Smaller text below the main message that says 'Built for peace of mind', in a complementary font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom of the ad with the text 'Shop now', designed to stand out.",
+      "text_content": "Track every euro Built for peace of mind",
+      "bbox_xyxy": [
+        34,
+        408,
+        325,
+        466
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.637,
+        0.903,
+        0.728
+      ],
+      "center_normalized": [
+        0.499,
+        0.683
+      ],
+      "area_percentage": 7.33
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unspecified element with a small area, positioned at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small element at the top of the ad, possibly decorative, with no clear identification.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        27,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.214,
+        0.092
+      ],
+      "area_percentage": 0.87
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, interstitial format, minimalist with warm tones, key elements include a logo, main message, and call to action.",
+    "layout_text": "The logo is at the top, the main message and supporting text are centered, and the call to action is at the bottom.",
+    "ocr_text": "EarnPath, Track every euro, Built for peace of mind, Shop now",
+    "elements_text": "logo: A simple logo featuring the text 'EarnPath' in a bold font, positioned at the top of the ad. | main_subject: A central area with abstract shapes, including an oval and a square, in a light orange color. | body_text: Text that reads 'Track every euro' in a clear, modern font, centrally placed within the ad. | body_text: Smaller text below the main message that says 'Built for peace of mind', in a complementary font. | cta: A prominent button at the bottom of the ad with the text 'Shop now', designed to stand out. text='Track every euro Built for peace of mind' | unknown: An unspecified element with a small area, positioned at the bottom of the ad. text='Shop now' | unknown: A small element at the top of the ad, possibly decorative, with no clear identification. text='EarnPath'"
+  }
+}

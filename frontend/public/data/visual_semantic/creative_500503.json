@@ -1,0 +1,218 @@
+{
+  "creative_id": "500503",
+  "asset_file": "assets/creative_500503.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with bold text and interactive elements.",
+    "visual_style": "modern and vibrant",
+    "main_message": "An exclusive offer for users to claim rewards.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the entire canvas, creating a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.99
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "The logo features the word 'FluxStream' in bold, modern typography, positioned prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are displayed in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        142,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.396,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular element appears in the lower section, adding visual interest without specific identification.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Exclusive offer text",
+      "description": "The text 'Exclusive tonight Cancel anytime' is displayed in a bold, white font, making it stand out against the blue background.",
+      "text_content": "Exclusive tonight Cancel anytime",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 7.37
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "UGC label",
+      "description": "The text 'UGC' is presented in a smaller font at the top left, indicating user-generated content.",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.385,
+        0.092
+      ],
+      "area_percentage": 3.91
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button at the bottom reads 'Claim reward' in bold white text, inviting user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small circular icon is positioned near the top left, serving as a decorative element.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and vibrant, exclusive offer, call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Exclusive tonight Cancel anytime, FluxStream, Claim reward, UGC",
+    "elements_text": "logo: The logo features the word 'FluxStream' in bold, modern typography, positioned prominently at the top. | decorative_element: Two overlapping geometric shapes, one circular and one rectangular, are displayed in a lighter blue shade. | unknown: A small circular element appears in the lower section, adding visual interest without specific identification. | headline: The text 'Exclusive tonight Cancel anytime' is displayed in a bold, white font, making it stand out against the blue background. text='Exclusive tonight Cancel anytime' | body_text: The text 'UGC' is presented in a smaller font at the top left, indicating user-generated content. text='FluxStream' | cta: A prominent button at the bottom reads 'Claim reward' in bold white text, inviting user interaction. text='Claim reward' | unknown: A small circular icon is positioned near the top left, serving as a decorative element. text='UGC'"
+  }
+}

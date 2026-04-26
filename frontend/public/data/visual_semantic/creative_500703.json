@@ -1,0 +1,242 @@
+{
+  "creative_id": "500703",
+  "asset_file": "assets/creative_500703.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on the headline and call to action.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a weekend escape with flexible booking options.",
+    "dominant_colors": [
+      "light teal",
+      "white"
+    ],
+    "emotional_tone": "adventurous"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element featuring abstract shapes, possibly circles and squares, in a light teal background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.481,
+        0.43
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element that appears to be a larger square shape, also in a light teal background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.497,
+        0.469
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.42
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic element",
+      "description": "An overlay graphic element that includes various shapes, blending into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.34,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.429
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Top left label",
+      "description": "A small label in the top left corner, possibly indicating user-generated content (UGC).",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold, prominent text at the bottom center stating 'Escape this weekend' with a subtext 'Flexible booking options' beneath it.",
+      "text_content": "Escape this weekend Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        409,
+        286,
+        502
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.639,
+        0.794,
+        0.784
+      ],
+      "center_normalized": [
+        0.497,
+        0.712
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A logo at the top of the ad, featuring the word 'DriftPass' in a modern font.",
+      "text_content": "DriftPass",
+      "bbox_xyxy": [
+        27,
+        39,
+        207,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.061,
+        0.575,
+        0.123
+      ],
+      "center_normalized": [
+        0.325,
+        0.092
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A clear call to action button at the bottom center stating 'Try for free' in a contrasting color.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        116,
+        557,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.322,
+        0.87,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.49,
+        0.894
+      ],
+      "area_percentage": 1.58
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "User-generated content icon",
+      "description": "A small icon in the top left corner indicating user-generated content (UGC), likely a simple graphic.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, promoting weekend escape.",
+    "layout_text": "The headline is centered at the bottom, the logo is at the top, and the CTA is also centered at the bottom.",
+    "ocr_text": "Escape this weekend, Flexible booking options, DriftPass, Try for free, UGC",
+    "elements_text": "unknown: A central graphic element featuring abstract shapes, possibly circles and squares, in a light teal background. | unknown: A secondary graphic element that appears to be a larger square shape, also in a light teal background. | unknown: An overlay graphic element that includes various shapes, blending into the background. | unknown: A small label in the top left corner, possibly indicating user-generated content (UGC). | headline: Bold, prominent text at the bottom center stating 'Escape this weekend' with a subtext 'Flexible booking options' beneath it. text='Escape this weekend Flexible booking options' | logo: A logo at the top of the ad, featuring the word 'DriftPass' in a modern font. text='DriftPass' | cta: A clear call to action button at the bottom center stating 'Try for free' in a contrasting color. text='Try for free' | icon: A small icon in the top left corner indicating user-generated content (UGC), likely a simple graphic. text='UGC'"
+  }
+}

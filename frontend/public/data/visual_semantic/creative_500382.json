@@ -1,0 +1,242 @@
+{
+  "creative_id": "500382",
+  "asset_file": "assets/creative_500382.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on promotional text and graphic elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special weekend fares at an attractive price.",
+    "dominant_colors": [
+      "#00B2A9",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element featuring abstract shapes, possibly circles and squares, in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.341,
+        0.778,
+        0.518
+      ],
+      "center_normalized": [
+        0.483,
+        0.429
+      ],
+      "area_percentage": 10.4
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Secondary graphic element",
+      "description": "A secondary graphic element that complements the central graphic, likely in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.39
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Main graphic element",
+      "description": "A prominent graphic element that is larger and more defined, possibly a square shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.34,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.429
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small graphic element located at the bottom, possibly a decorative shape.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small bottom graphic",
+      "description": "A small circular graphic element positioned at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Escape this weekend",
+      "description": "A bold, prominent headline text that communicates a special offer, set in a modern font.",
+      "text_content": "Escape this weekend Special fares today",
+      "bbox_xyxy": [
+        80,
+        409,
+        281,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.781,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.71
+      ],
+      "area_percentage": 7.94
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A clear call-to-action button with the text 'Get offer', designed to stand out.",
+      "text_content": "€19.99 Get offer",
+      "bbox_xyxy": [
+        24,
+        532,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.349,
+        0.87
+      ],
+      "area_percentage": 4.32
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "WayPoint logo",
+      "description": "A logo at the top of the ad, featuring the brand name 'WayPoint' in a stylized font.",
+      "text_content": "WayPoint",
+      "bbox_xyxy": [
+        27,
+        35,
+        213,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.592,
+        0.123
+      ],
+      "center_normalized": [
+        0.333,
+        0.089
+      ],
+      "area_percentage": 3.55
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern and minimalistic, promoting special fares.",
+    "layout_text": "The logo is at the top, the headline is centrally positioned, and the CTA is at the bottom.",
+    "ocr_text": "Escape this weekend, Special fares today, €19.99, Get offer, WayPoint",
+    "elements_text": "unknown: A central graphic element featuring abstract shapes, possibly circles and squares, in a light color. | unknown: A secondary graphic element that complements the central graphic, likely in a contrasting color. | unknown: A prominent graphic element that is larger and more defined, possibly a square shape. | unknown: A small graphic element located at the bottom, possibly a decorative shape. | unknown: A small circular graphic element positioned at the bottom of the ad. | headline: A bold, prominent headline text that communicates a special offer, set in a modern font. text='Escape this weekend Special fares today' | cta: A clear call-to-action button with the text 'Get offer', designed to stand out. text='€19.99 Get offer' | logo: A logo at the top of the ad, featuring the brand name 'WayPoint' in a stylized font. text='WayPoint'"
+  }
+}

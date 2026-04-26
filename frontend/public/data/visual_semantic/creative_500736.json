@@ -1,0 +1,290 @@
+{
+  "creative_id": "500736",
+  "asset_file": "assets/creative_500736.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear text elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Encouraging users to sign up for a card with confidence.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "confident"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large circular shape and a rectangular shape are centered, both in a lighter blue shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Overlapping shapes",
+      "description": "Another circular shape overlaps with the previous shapes, adding depth and interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.323,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.422
+      ],
+      "area_percentage": 11.9
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Smaller geometric shape",
+      "description": "A smaller rectangular shape is positioned slightly above the center, contributing to the geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional circular shape",
+      "description": "A large circular shape is placed in the center, creating a focal point for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.82
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small element at the bottom center, details are unclear due to its size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        262,
+        185,
+        294
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.547,
+        0.58,
+        0.614
+      ],
+      "center_normalized": [
+        0.53,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small element on the left side, details are unclear due to its size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unidentified element",
+      "description": "A small element on the right side, details are unclear due to its size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Main text message",
+      "description": "A bold text message at the bottom, stating 'Save with confidence Fast signup instant card' in a clear, readable font.",
+      "text_content": "Save with confidence Fast signup  instant card",
+      "bbox_xyxy": [
+        67,
+        308,
+        253,
+        389
+      ],
+      "bbox_normalized": [
+        0.209,
+        0.642,
+        0.791,
+        0.81
+      ],
+      "center_normalized": [
+        0.5,
+        0.726
+      ],
+      "area_percentage": 9.81
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The logo 'VaultRun' is displayed at the top left corner in a prominent font.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        24,
+        30,
+        136,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.425,
+        0.117
+      ],
+      "center_normalized": [
+        0.25,
+        0.09
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A call-to-action button at the bottom, labeled 'Claim reward' in a contrasting color for visibility.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, geometric shapes, clear text.",
+    "layout_text": "The logo is positioned at the top left, the main message is centered, and the CTA is at the bottom.",
+    "ocr_text": "VaultRun, Save with confidence, Fast signup, instant card, Claim reward",
+    "elements_text": "main_subject: A large circular shape and a rectangular shape are centered, both in a lighter blue shade. | main_subject: Another circular shape overlaps with the previous shapes, adding depth and interest. | main_subject: A smaller rectangular shape is positioned slightly above the center, contributing to the geometric theme. | main_subject: A large circular shape is placed in the center, creating a focal point for the ad. | unknown: A small element at the bottom center, details are unclear due to its size. | unknown: A small element on the left side, details are unclear due to its size. | unknown: A small element on the right side, details are unclear due to its size. | body_text: A bold text message at the bottom, stating 'Save with confidence Fast signup instant card' in a clear, readable font. text='Save with confidence Fast signup  instant card' | logo: The logo 'VaultRun' is displayed at the top left corner in a prominent font. text='VaultRun' | cta: A call-to-action button at the bottom, labeled 'Claim reward' in a contrasting color for visibility. text='Claim reward'"
+  }
+}

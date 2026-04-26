@@ -1,0 +1,170 @@
+{
+  "creative_id": "500631",
+  "asset_file": "assets/creative_500631.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant background with bold text and a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a weekend getaway with hotel and flight deals.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A simple geometric shape consisting of an oval and a square, both in a muted color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "Another geometric shape that complements the first, maintaining a cohesive design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Weekend escape offer",
+      "description": "Bold, white text stating 'Escape this weekend Hotels + flights in one tap' prominently displayed at the bottom.",
+      "text_content": "Escape this weekend Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 9.08
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "A striking banner at the top with the text 'NomadLayer SALE' in a contrasting color to grab attention.",
+      "text_content": "NomadLayer SALE",
+      "bbox_xyxy": [
+        25,
+        30,
+        321,
+        81
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.047,
+        0.892,
+        0.127
+      ],
+      "center_normalized": [
+        0.481,
+        0.087
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bright button with the text 'Book now' designed to stand out and encourage user interaction.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, weekend escape offer, sale announcement, call to action",
+    "layout_text": "The headline is positioned at the top, the body text is centered at the bottom, and the CTA is located just below the body text.",
+    "ocr_text": "Escape this weekend Hotels + flights in one tap, NomadLayer SALE, Book now",
+    "elements_text": "unknown: A simple geometric shape consisting of an oval and a square, both in a muted color. | unknown: Another geometric shape that complements the first, maintaining a cohesive design. | body_text: Bold, white text stating 'Escape this weekend Hotels + flights in one tap' prominently displayed at the bottom. text='Escape this weekend Hotels + flights in one tap' | headline: A striking banner at the top with the text 'NomadLayer SALE' in a contrasting color to grab attention. text='NomadLayer SALE' | cta: A bright button with the text 'Book now' designed to stand out and encourage user interaction. text='Book now'"
+  }
+}

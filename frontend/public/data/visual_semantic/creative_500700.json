@@ -1,0 +1,434 @@
+{
+  "creative_id": "500700",
+  "asset_file": "assets/creative_500700.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a green gradient background with a central content area highlighting a service.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a secure and simple signup for a financial service.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Green gradient background",
+      "description": "A smooth green gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center with a light color, designed to hold key information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.469,
+        0.371
+      ],
+      "area_percentage": 15.76
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main text description",
+      "description": "Bold black text stating 'Secure & simple' with a smaller font below it for additional details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Additional text",
+      "description": "Smaller black text that reads 'Fast signup, instant card' positioned below the main text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.86
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button with the text 'Try for free' in a contrasting color, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.74
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Secondary content area",
+      "description": "A smaller rectangular area that may contain additional information or images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.38
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Additional content area",
+      "description": "Another rectangular area that could display more details or visuals.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A circular shape that adds visual interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.486,
+        0.461
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another circular shape that complements the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        110,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.346,
+        0.77,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.428
+      ],
+      "area_percentage": 5.92
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Lower content area",
+      "description": "A rectangular area at the bottom that may contain additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        101,
+        228
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.318,
+        0.713
+      ],
+      "center_normalized": [
+        0.219,
+        0.621
+      ],
+      "area_percentage": 3.66
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Small content area",
+      "description": "A smaller rectangular area within the lower content area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Another small content area",
+      "description": "A rectangular area that may contain more details or visuals.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.651
+      ],
+      "center_normalized": [
+        0.351,
+        0.602
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 13,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "Bold text at the bottom stating 'Secure & simple Fast signup, instant card' that captures attention.",
+      "text_content": "Secure & simple Fast signup, instant card",
+      "bbox_xyxy": [
+        33,
+        205,
+        288,
+        257
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.641,
+        0.9,
+        0.803
+      ],
+      "center_normalized": [
+        0.502,
+        0.722
+      ],
+      "area_percentage": 12.95
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller button at the bottom with the text 'Try for free' encouraging user engagement.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        107,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 2.07
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo at the top left corner labeled 'CoinBridge'.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    },
+    {
+      "id": 16,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge at the top right corner with the text 'SALE' in a bright color.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 17,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left indicating 'UGC' to signify user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, secure signup, call to action",
+    "layout_text": "The headline is at the bottom, main subject in the center, and CTAs are positioned prominently.",
+    "ocr_text": "Secure & simple, Fast signup, instant card, Try for free, CoinBridge, SALE, UGC",
+    "elements_text": "main_subject: A large rectangular area in the center with a light color, designed to hold key information. | body_text: Bold black text stating 'Secure & simple' with a smaller font below it for additional details. | body_text: Smaller black text that reads 'Fast signup, instant card' positioned below the main text. | cta: A prominent button with the text 'Try for free' in a contrasting color, inviting user interaction. | unknown: A smaller rectangular area that may contain additional information or images. | unknown: Another rectangular area that could display more details or visuals. | unknown: A circular shape that adds visual interest to the design. | unknown: Another circular shape that complements the overall design. | unknown: A rectangular area at the bottom that may contain additional information. | unknown: A smaller rectangular area within the lower content area. | unknown: A rectangular area that may contain more details or visuals. | headline: Bold text at the bottom stating 'Secure & simple Fast signup, instant card' that captures attention. text='Secure & simple Fast signup, instant card' | cta: A smaller button at the bottom with the text 'Try for free' encouraging user engagement. text='Try for free' | logo: A small logo at the top left corner labeled 'CoinBridge'. text='CoinBridge' | discount_badge: A small badge at the top right corner with the text 'SALE' in a bright color. text='SALE' | social_proof: A small tag at the top left indicating 'UGC' to signify user-generated content. text='UGC'"
+  }
+}

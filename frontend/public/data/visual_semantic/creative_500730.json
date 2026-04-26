@@ -1,0 +1,266 @@
+{
+  "creative_id": "500730",
+  "asset_file": "assets/creative_500730.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent logo, product placeholder, and clear call-to-action buttons.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting limited stock with free shipping offers.",
+    "dominant_colors": [
+      "#00BFFF",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "BoltCart logo",
+      "description": "A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "Product placeholder",
+      "description": "A rectangular placeholder for a product image, located in the center of the ad, with a light background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Limited stock text",
+      "description": "Text reading 'Limited stock' in a prominent font, centered within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        169,
+        185,
+        201
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.529,
+        0.58,
+        0.63
+      ],
+      "center_normalized": [
+        0.529,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Free shipping text",
+      "description": "Text stating 'Free shipping over $25' in a smaller font, positioned below the 'Limited stock' text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Watch now button",
+      "description": "A rounded button with the text 'Watch now' in a bold font, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.98
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, circular element that appears to be a decorative feature, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "Text that emphasizes urgency with 'Limited stock' in a large, eye-catching font at the bottom of the ad.",
+      "text_content": "Limited stock Free shipping over $25",
+      "bbox_xyxy": [
+        54,
+        206,
+        266,
+        255
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.644,
+        0.831,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.72
+      ],
+      "area_percentage": 10.14
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Watch now' in a bold font, encouraging user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        279,
+        211,
+        299
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.872,
+        0.659,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 1.99
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "BoltCart logo",
+      "description": "The logo of 'BoltCart' displayed at the top of the ad, featuring a modern design.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        25,
+        23,
+        89,
+        39
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.278,
+        0.122
+      ],
+      "center_normalized": [
+        0.178,
+        0.097
+      ],
+      "area_percentage": 1.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, BoltCart logo, limited stock message, call to action.",
+    "layout_text": "The logo is at the top, the product placeholder is in the center, and the call-to-action buttons are at the bottom.",
+    "ocr_text": "BoltCart, Limited stock, Free shipping over $25, Watch now",
+    "elements_text": "headline: A simple logo featuring the text 'BoltCart' in a bold font, positioned at the top of the ad. | product: A rectangular placeholder for a product image, located in the center of the ad, with a light background. | body_text: Text reading 'Limited stock' in a prominent font, centered within the ad. | body_text: Text stating 'Free shipping over $25' in a smaller font, positioned below the 'Limited stock' text. | cta: A rounded button with the text 'Watch now' in a bold font, located at the bottom of the ad. | unknown: A small, circular element that appears to be a decorative feature, located in the center of the ad. | body_text: Text that emphasizes urgency with 'Limited stock' in a large, eye-catching font at the bottom of the ad. text='Limited stock Free shipping over $25' | cta: A prominent button with the text 'Watch now' in a bold font, encouraging user interaction. text='Watch now' | logo: The logo of 'BoltCart' displayed at the top of the ad, featuring a modern design. text='BoltCart'"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "creative_id": "500442",
+  "asset_file": "assets/creative_500442.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with product outlines and promotional text.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting limited stock of bestsellers with a clear call to action.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "green background",
+      "description": "A solid green background fills the entire canvas, providing a vibrant and fresh look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        85
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.85
+    },
+    {
+      "id": 2,
+      "role": "product",
+      "label": "two product outlines",
+      "description": "Two rectangular outlines representing products, drawn with thin lines and positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "two product outlines",
+      "description": "Another set of two rectangular outlines for products, similar in style to the first, slightly offset.",
+      "text_content": null,
+      "bbox_xyxy": [
+        118,
+        148,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.371,
+        0.31,
+        0.548,
+        0.486
+      ],
+      "center_normalized": [
+        0.459,
+        0.398
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circular shape located near the bottom center, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.171,
+        0.581
+      ],
+      "area_percentage": 0.66
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "limited stock message",
+      "description": "A bold text message stating 'Limited stock Shop bestsellers now' in a prominent font.",
+      "text_content": "Limited stock Shop bestsellers now",
+      "bbox_xyxy": [
+        56,
+        307,
+        266,
+        358
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.64,
+        0.831,
+        0.746
+      ],
+      "center_normalized": [
+        0.503,
+        0.693
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "order now button",
+      "description": "A clear call-to-action button with the text '€29.99 Order now', designed to stand out.",
+      "text_content": "€29.99 Order now",
+      "bbox_xyxy": [
+        23,
+        399,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.362,
+        0.873
+      ],
+      "area_percentage": 4.84
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "VantaStyle logo",
+      "description": "The logo 'VantaStyle' displayed in a stylish font at the top left corner.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        22,
+        34,
+        132,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.071,
+        0.412,
+        0.125
+      ],
+      "center_normalized": [
+        0.241,
+        0.098
+      ],
+      "area_percentage": 1.86
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge labeled 'SALE' in a contrasting color, positioned at the top right.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label reading 'UGC' in the top left corner, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        55,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.172,
+        0.206
+      ],
+      "center_normalized": [
+        0.125,
+        0.192
+      ],
+      "area_percentage": 0.27
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, limited stock, bestsellers, order now",
+    "layout_text": "The logo is at the top left, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Limited stock Shop bestsellers now, €29.99 Order now, VantaStyle, SALE, UGC",
+    "elements_text": "product: Two rectangular outlines representing products, drawn with thin lines and positioned in the center of the ad. | product: Another set of two rectangular outlines for products, similar in style to the first, slightly offset. | decorative_element: A small circular shape located near the bottom center, adding a decorative touch. | headline: A bold text message stating 'Limited stock Shop bestsellers now' in a prominent font. text='Limited stock Shop bestsellers now' | cta: A clear call-to-action button with the text '€29.99 Order now', designed to stand out. text='€29.99 Order now' | logo: The logo 'VantaStyle' displayed in a stylish font at the top left corner. text='VantaStyle' | discount_badge: A small badge labeled 'SALE' in a contrasting color, positioned at the top right. text='SALE' | social_proof: A small label reading 'UGC' in the top left corner, indicating user-generated content. text='UGC'"
+  }
+}

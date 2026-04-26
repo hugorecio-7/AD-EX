@@ -1,0 +1,266 @@
+{
+  "creative_id": "500628",
+  "asset_file": "assets/creative_500628.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on financial clarity and a strong call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a financial service that offers clarity and rewards.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A simple logo featuring the text 'SwiftStack' in a bold font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A large block of text in a clear font, conveying the message about financial clarity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.309,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.48,
+        0.415
+      ],
+      "area_percentage": 12.77
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A smaller text element that provides further details, likely about the service offered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.46
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Secondary body text",
+      "description": "Another text block that emphasizes the benefits of the service, presented in a readable format.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 7.01
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Supporting text",
+      "description": "A concise text element that adds context to the main message, likely highlighting features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.486,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.5
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button or text element urging users to take action, designed to stand out.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A visually distinct button that invites users to claim a reward, likely in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.531,
+        0.218,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.91
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold and eye-catching headline that captures the essence of the ad's message.",
+      "text_content": "Your money; clearer Claim reward",
+      "bbox_xyxy": [
+        63,
+        203,
+        257,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.634,
+        0.803,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.784
+      ],
+      "area_percentage": 18.19
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Background shape",
+      "description": "An abstract shape or design element that adds visual interest to the background of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        23,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.094
+      ],
+      "area_percentage": 1.15
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, financial clarity, call to action",
+    "layout_text": "The logo is at the top, followed by body text in the center, and the call to action at the bottom.",
+    "ocr_text": "SwiftStack, Your money, clearer, Claim reward",
+    "elements_text": "logo: A simple logo featuring the text 'SwiftStack' in a bold font, positioned at the top of the ad. | body_text: A large block of text in a clear font, conveying the message about financial clarity. | body_text: A smaller text element that provides further details, likely about the service offered. | body_text: Another text block that emphasizes the benefits of the service, presented in a readable format. | body_text: A concise text element that adds context to the main message, likely highlighting features. | cta: A prominent button or text element urging users to take action, designed to stand out. | cta: A visually distinct button that invites users to claim a reward, likely in a contrasting color. | headline: A bold and eye-catching headline that captures the essence of the ad's message. text='Your money; clearer Claim reward' | decorative_element: An abstract shape or design element that adds visual interest to the background of the ad. text='SwiftStack'"
+  }
+}

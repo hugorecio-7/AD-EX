@@ -1,0 +1,170 @@
+{
+  "creative_id": "500593",
+  "asset_file": "assets/creative_500593.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a logo, abstract shapes, and clear messaging about cashback offers.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Sign up for cashback rewards with ClearLedger.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A prominent logo at the top of the ad, featuring the text 'ClearLedger' in a bold, modern font against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, rendered in a light blue color, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Cashback offer text",
+      "description": "A clear and bold text block at the bottom, stating 'Earn cashback daily' with a smaller subtext 'Fast signup, instant card' in a contrasting color.",
+      "text_content": "Earn cashback daily Fast signup; instant card",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        500
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.71
+      ],
+      "area_percentage": 9.95
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "ClearLedger headline",
+      "description": "The headline text 'ClearLedger' is displayed prominently at the top, designed to catch the viewer's attention.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        21,
+        28,
+        268,
+        84
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.044,
+        0.744,
+        0.131
+      ],
+      "center_normalized": [
+        0.401,
+        0.087
+      ],
+      "area_percentage": 6.0
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A call-to-action button at the bottom of the ad, featuring the text 'Shop now' in a bold font, designed to encourage immediate action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "ClearLedger, unknown, interstitial, modern and minimalistic, cashback offer.",
+    "layout_text": "The logo is at the top, followed by abstract shapes in the center, with body text at the bottom and a CTA button.",
+    "ocr_text": "Earn cashback daily, Fast signup, instant card, ClearLedger, Shop now",
+    "elements_text": "logo: A prominent logo at the top of the ad, featuring the text 'ClearLedger' in a bold, modern font against a blue background. | unknown: Two overlapping geometric shapes, one circular and one rectangular, rendered in a light blue color, positioned centrally. | body_text: A clear and bold text block at the bottom, stating 'Earn cashback daily' with a smaller subtext 'Fast signup, instant card' in a contrasting color. text='Earn cashback daily Fast signup; instant card' | headline: The headline text 'ClearLedger' is displayed prominently at the top, designed to catch the viewer's attention. text='ClearLedger' | cta: A call-to-action button at the bottom of the ad, featuring the text 'Shop now' in a bold font, designed to encourage immediate action. text='Shop now'"
+  }
+}

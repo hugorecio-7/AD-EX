@@ -1,0 +1,194 @@
+{
+  "creative_id": "500409",
+  "asset_file": "assets/creative_500409.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent message and call to action.",
+    "visual_style": "simple and modern",
+    "main_message": "Promoting a secure and straightforward service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element featuring abstract shapes, possibly a circle and a square, outlined in a simple style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.34,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.429
+      ],
+      "area_percentage": 10.55
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Background pattern",
+      "description": "A textured background that appears to be a solid color with a subtle grid pattern overlay.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        300
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.24,
+        0.495,
+        0.469
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.38
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Overlay graphic",
+      "description": "An overlay graphic that complements the central element, possibly with a transparent effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        217,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.34,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.429
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main message text",
+      "description": "Bold, white text stating 'Secure & simple' with a smaller line below it saying 'No hidden fees', prominently displayed.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        39,
+        409,
+        321,
+        463
+      ],
+      "bbox_normalized": [
+        0.108,
+        0.639,
+        0.892,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.61
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'SwiftStack' in a large, bold font at the top of the ad, likely in a contrasting color.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        27,
+        40,
+        238,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.661,
+        0.122
+      ],
+      "center_normalized": [
+        0.368,
+        0.092
+      ],
+      "area_percentage": 3.48
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button with the text 'Watch now' in a clear, inviting font, positioned at the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, simple and modern, secure service message, call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Secure & simple, No hidden fees, SwiftStack, Watch now",
+    "elements_text": "unknown: A central graphic element featuring abstract shapes, possibly a circle and a square, outlined in a simple style. | unknown: A textured background that appears to be a solid color with a subtle grid pattern overlay. | unknown: An overlay graphic that complements the central element, possibly with a transparent effect. | headline: Bold, white text stating 'Secure & simple' with a smaller line below it saying 'No hidden fees', prominently displayed. text='Secure & simple No hidden fees' | logo: The logo 'SwiftStack' in a large, bold font at the top of the ad, likely in a contrasting color. text='SwiftStack' | cta: A button with the text 'Watch now' in a clear, inviting font, positioned at the bottom of the ad. text='Watch now'"
+  }
+}

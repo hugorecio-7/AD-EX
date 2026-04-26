@@ -1,0 +1,242 @@
+{
+  "creative_id": "500718",
+  "asset_file": "assets/creative_500718.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on the promotional offer.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a free trial for FluxStream with an exclusive offer.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a lively and fresh feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.953,
+        0.721
+      ],
+      "center_normalized": [
+        0.502,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FluxStream logo",
+      "description": "The logo 'FluxStream' is prominently displayed at the top center in bold, modern typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small 'UGC' label appears at the top left, indicating user-generated content, in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Exclusive offer headline",
+      "description": "The headline 'Exclusive tonight' is bold and large, positioned centrally to grab attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Call to action text",
+      "description": "The text 'Start free today' is smaller and placed directly below the headline, encouraging immediate action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '€19.99' is displayed in a prominent position at the bottom, designed to attract attention.",
+      "text_content": "Exclusive tonight Start free today",
+      "bbox_xyxy": [
+        33,
+        407,
+        331,
+        466
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.636,
+        0.919,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.682
+      ],
+      "area_percentage": 7.63
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A bold button labeled 'Try for free' is located at the bottom center, inviting users to take action.",
+      "text_content": "€19.99 Try for free",
+      "bbox_xyxy": [
+        25,
+        533,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.833,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.368,
+        0.874
+      ],
+      "area_percentage": 4.95
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "FluxStream",
+      "bbox_xyxy": [
+        26,
+        39,
+        251,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.061,
+        0.697,
+        0.123
+      ],
+      "center_normalized": [
+        0.385,
+        0.092
+      ],
+      "area_percentage": 3.91
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, FluxStream, exclusive offer, free trial",
+    "layout_text": "The logo is at the top, followed by the UGC label, the headline in the center, body text below it, and the price and CTA at the bottom.",
+    "ocr_text": "Exclusive tonight, Start free today, €19.99, FluxStream, UGC",
+    "elements_text": "logo: The logo 'FluxStream' is prominently displayed at the top center in bold, modern typography. | social_proof: A small 'UGC' label appears at the top left, indicating user-generated content, in a simple font. | headline: The headline 'Exclusive tonight' is bold and large, positioned centrally to grab attention. | body_text: The text 'Start free today' is smaller and placed directly below the headline, encouraging immediate action. | price: The price '€19.99' is displayed in a prominent position at the bottom, designed to attract attention. text='Exclusive tonight Start free today' | cta: A bold button labeled 'Try for free' is located at the bottom center, inviting users to take action. text='€19.99 Try for free' | unknown:  text='FluxStream' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "creative_id": "500577",
+  "asset_file": "assets/creative_500577.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with gameplay elements and promotional text.",
+    "visual_style": "playful and engaging",
+    "main_message": "Encouraging players to beat rivals with rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A rectangular area showing a gameplay screenshot with four game elements arranged in a grid.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "Another rectangular area displaying gameplay elements, complementing the first screenshot.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "A rectangular area showing additional gameplay elements, enhancing the visual appeal.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Gameplay screenshot",
+      "description": "Another rectangular area depicting gameplay elements, contributing to the overall game experience.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Play button icon",
+      "description": "A small play button icon located at the top right, indicating interactivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.58
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "Game logo",
+      "description": "A small logo representing the game, positioned centrally within the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Info icon",
+      "description": "A small information icon located at the top left, suggesting additional details.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 9,
+      "role": "icon",
+      "label": "Info icon",
+      "description": "Another small information icon positioned centrally, providing more context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "Play button icon",
+      "description": "A small play button icon located at the top center, indicating interactivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A bold headline at the top stating 'GlitchWave UGC', capturing attention immediately.",
+      "text_content": "GlitchWave UGC",
+      "bbox_xyxy": [
+        24,
+        36,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.056,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.533,
+        0.127
+      ],
+      "area_percentage": 13.27
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "A prominent text area in the center that reads 'Beat your rivals Free rewards for new players', conveying the main offer.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.684
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 13,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A small text at the bottom saying 'Learn more', encouraging user engagement.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, playful and engaging, GlitchWave UGC, gameplay elements, promotional text.",
+    "layout_text": "The headline is at the top, gameplay screenshots are centered, and the CTA is at the bottom.",
+    "ocr_text": "GlitchWave UGC, Beat your rivals Free rewards for new players, Learn more",
+    "elements_text": "app_screenshot: A rectangular area showing a gameplay screenshot with four game elements arranged in a grid. | app_screenshot: Another rectangular area displaying gameplay elements, complementing the first screenshot. | app_screenshot: A rectangular area showing additional gameplay elements, enhancing the visual appeal. | app_screenshot: Another rectangular area depicting gameplay elements, contributing to the overall game experience. | icon: A small play button icon located at the top right, indicating interactivity. | logo: A small logo representing the game, positioned centrally within the ad. | icon: A small information icon located at the top left, suggesting additional details. | icon: Another small information icon positioned centrally, providing more context. | icon: A small play button icon located at the top center, indicating interactivity. | headline: A bold headline at the top stating 'GlitchWave UGC', capturing attention immediately. text='GlitchWave UGC' | body_text: A prominent text area in the center that reads 'Beat your rivals Free rewards for new players', conveying the main offer. text='Beat your rivals Free rewards for new players' | cta: A small text at the bottom saying 'Learn more', encouraging user engagement. text='Learn more'"
+  }
+}

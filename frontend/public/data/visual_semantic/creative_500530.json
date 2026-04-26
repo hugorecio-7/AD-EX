@@ -1,0 +1,266 @@
+{
+  "creative_id": "500530",
+  "asset_file": "assets/creative_500530.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold orange background with clear messaging about food delivery.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting food delivery service with a special offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "playful"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A vibrant orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        91,
+        359,
+        281
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.143,
+        0.998,
+        0.439
+      ],
+      "center_normalized": [
+        0.503,
+        0.291
+      ],
+      "area_percentage": 29.43
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "FreshDash logo",
+      "description": "Bold, black text displaying 'FreshDash' prominently at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        91,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.144,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.503,
+        0.25
+      ],
+      "area_percentage": 21.2
+    },
+    {
+      "id": 3,
+      "role": "icon",
+      "label": "Two stacked rectangles",
+      "description": "Two vertically stacked rectangles with rounded corners, resembling a delivery box.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        108,
+        108,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.169,
+        0.302,
+        0.296
+      ],
+      "center_normalized": [
+        0.151,
+        0.232
+      ],
+      "area_percentage": 3.84
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Cravings message",
+      "description": "White text stating 'Your cravings, delivered' in a clear, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Delivery offer",
+      "description": "Smaller white text below the main message indicating 'Free delivery over $15'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Delivery box icon",
+      "description": "A small icon representing a delivery box, located at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        49,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.137,
+        0.296
+      ],
+      "center_normalized": [
+        0.069,
+        0.239
+      ],
+      "area_percentage": 1.57
+    },
+    {
+      "id": 7,
+      "role": "icon",
+      "label": "Arrow icon",
+      "description": "A small right-facing arrow icon located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.95,
+        0.318
+      ],
+      "center_normalized": [
+        0.913,
+        0.279
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Learn more button",
+      "description": "A prominent button at the bottom with the text 'Learn more' in white on an orange background.",
+      "text_content": "Your cravings, delivered Free delivery over $15",
+      "bbox_xyxy": [
+        57,
+        405,
+        306,
+        500
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.633,
+        0.85,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.707
+      ],
+      "area_percentage": 10.27
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        26,
+        40,
+        339,
+        95
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.942,
+        0.148
+      ],
+      "center_normalized": [
+        0.507,
+        0.105
+      ],
+      "area_percentage": 7.47
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and modern, FreshDash, food delivery, special offer",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA button at the bottom.",
+    "ocr_text": "FreshDash, Your cravings, delivered, Free delivery over $15, Learn more",
+    "elements_text": "headline: Bold, black text displaying 'FreshDash' prominently at the top of the ad. | icon: Two vertically stacked rectangles with rounded corners, resembling a delivery box. | body_text: White text stating 'Your cravings, delivered' in a clear, modern font. | body_text: Smaller white text below the main message indicating 'Free delivery over $15'. | icon: A small icon representing a delivery box, located at the top left corner. | icon: A small right-facing arrow icon located at the top right corner. | cta: A prominent button at the bottom with the text 'Learn more' in white on an orange background. text='Your cravings, delivered Free delivery over $15' | unknown:  text='FreshDash' | unknown:  text='Learn more'"
+  }
+}

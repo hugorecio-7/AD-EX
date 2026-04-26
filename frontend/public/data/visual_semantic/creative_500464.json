@@ -1,0 +1,314 @@
+{
+  "creative_id": "500464",
+  "asset_file": "assets/creative_500464.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with bold text and interactive elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Encouraging users to stream new hits with a free trial.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a lively and energetic feel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A large rectangular area in the center, featuring two overlapping shapes that suggest a dynamic layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.371
+      ],
+      "area_percentage": 15.78
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Main headline text",
+      "description": "Bold, large black text stating 'Stream the hype' is prominently displayed in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller black text below the headline reads 'New hits every week', providing additional context.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "App logo",
+      "description": "A simple logo labeled 'MoonScreen' appears at the top left, featuring a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.494,
+        0.468
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.41
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Overlapping shape",
+      "description": "An abstract shape that overlaps with the main content area, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.79
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Secondary shape",
+      "description": "Another abstract shape that complements the main subject, enhancing the design's complexity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.249,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Play button icon",
+      "description": "A small play button icon located at the top right, indicating interactivity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        280,
+        76,
+        304,
+        102
+      ],
+      "bbox_normalized": [
+        0.878,
+        0.238,
+        0.951,
+        0.32
+      ],
+      "center_normalized": [
+        0.915,
+        0.279
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent black button at the bottom with the text 'Try for free', encouraging user engagement.",
+      "text_content": "Stream the hype New hits every week",
+      "bbox_xyxy": [
+        29,
+        205,
+        291,
+        255
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.641,
+        0.909,
+        0.797
+      ],
+      "center_normalized": [
+        0.5,
+        0.719
+      ],
+      "area_percentage": 12.79
+    },
+    {
+      "id": 10,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' at the top left, indicating user-generated content.",
+      "text_content": "MoonScreen",
+      "bbox_xyxy": [
+        23,
+        23,
+        145,
+        43
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.072,
+        0.453,
+        0.134
+      ],
+      "center_normalized": [
+        0.263,
+        0.103
+      ],
+      "area_percentage": 2.38
+    },
+    {
+      "id": 11,
+      "role": "body_text",
+      "label": "CTA text",
+      "description": "Text on the call to action button reads 'Try for free', designed to attract clicks.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        107,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.5,
+        0.903
+      ],
+      "area_percentage": 2.07
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element that adds visual flair but does not convey specific information.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, key elements include bold text and a call to action.",
+    "layout_text": "The headline is centered, the logo is at the top left, and the CTA is at the bottom.",
+    "ocr_text": "Stream the hype, New hits every week, MoonScreen, Try for free, UGC",
+    "elements_text": "main_subject: A large rectangular area in the center, featuring two overlapping shapes that suggest a dynamic layout. | body_text: Bold, large black text stating 'Stream the hype' is prominently displayed in the center. | body_text: Smaller black text below the headline reads 'New hits every week', providing additional context. | logo: A simple logo labeled 'MoonScreen' appears at the top left, featuring a clean and modern font. | unknown: An abstract shape that overlaps with the main content area, adding visual interest. | unknown: Another abstract shape that complements the main subject, enhancing the design's complexity. | icon: A small play button icon located at the top right, indicating interactivity. | cta: A prominent black button at the bottom with the text 'Try for free', encouraging user engagement. text='Stream the hype New hits every week' | social_proof: A small tag labeled 'UGC' at the top left, indicating user-generated content. text='MoonScreen' | body_text: Text on the call to action button reads 'Try for free', designed to attract clicks. text='Try for free' | unknown: A small decorative element that adds visual flair but does not convey specific information. text='UGC'"
+  }
+}

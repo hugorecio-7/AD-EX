@@ -1,0 +1,290 @@
+{
+  "creative_id": "500483",
+  "asset_file": "assets/creative_500483.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean and modern design with a focus on financial clarity.",
+    "visual_style": "minimalist with soft shapes",
+    "main_message": "Promoting a financial service with no hidden fees.",
+    "dominant_colors": [
+      "#4CAF50",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "A small logo in the top left corner featuring the text 'CoinBridge' in a simple font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.501,
+        0.09
+      ],
+      "area_percentage": 17.9
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "A large, bold text in the center stating 'Your money, clearer' with a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.371
+      ],
+      "area_percentage": 15.78
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A smaller text below the main body text that reads 'No hidden fees' in a subtle font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.415
+      ],
+      "area_percentage": 12.55
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button in the center with the text 'Learn more' in a bold font, designed to attract attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        195
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.498,
+        0.611
+      ],
+      "center_normalized": [
+        0.334,
+        0.425
+      ],
+      "area_percentage": 12.25
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Soft, rounded shapes in the background that create a visually appealing layout without distracting from the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Additional soft shapes in the background that complement the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "More rounded shapes in the background, adding depth and interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.83
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape in the center that adds a decorative touch to the layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        170,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.531,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Main body text",
+      "description": "The same large, bold text stating 'Your money, clearer' at the bottom of the ad.",
+      "text_content": "Your money, clearer Learn more",
+      "bbox_xyxy": [
+        63,
+        203,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.634,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.784
+      ],
+      "area_percentage": 18.28
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "CoinBridge logo",
+      "description": "The logo appears again in the top left corner, reinforcing brand identity.",
+      "text_content": "CoinBridge",
+      "bbox_xyxy": [
+        25,
+        21,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.091
+      ],
+      "area_percentage": 1.31
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "CoinBridge, financial services, native format, minimalist with soft shapes, key elements include logo and call to action.",
+    "layout_text": "The logo is positioned at the top left, the main body text is centered, and the call to action is prominently displayed in the center.",
+    "ocr_text": "CoinBridge, Your money, clearer, No hidden fees, Learn more",
+    "elements_text": "logo: A small logo in the top left corner featuring the text 'CoinBridge' in a simple font. | body_text: A large, bold text in the center stating 'Your money, clearer' with a clean and modern font. | body_text: A smaller text below the main body text that reads 'No hidden fees' in a subtle font. | cta: A prominent button in the center with the text 'Learn more' in a bold font, designed to attract attention. | decorative_element: Soft, rounded shapes in the background that create a visually appealing layout without distracting from the text. | decorative_element: Additional soft shapes in the background that complement the overall design. | decorative_element: More rounded shapes in the background, adding depth and interest to the ad. | unknown: A small circular shape in the center that adds a decorative touch to the layout. | body_text: The same large, bold text stating 'Your money, clearer' at the bottom of the ad. text='Your money, clearer Learn more' | logo: The logo appears again in the top left corner, reinforcing brand identity. text='CoinBridge'"
+  }
+}

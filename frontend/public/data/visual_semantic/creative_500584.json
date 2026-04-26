@@ -1,0 +1,170 @@
+{
+  "creative_id": "500584",
+  "asset_file": "assets/creative_500584.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a bold brand name and a clear call to action, promoting a new collection.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a new collection with a special price.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "LuxShelf Brand Name",
+      "description": "A bold, prominent text element displaying the brand name 'LuxShelf' in a large font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        91,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.285,
+        0.33,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.372
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "New Collection Announcement",
+      "description": "A smaller text element stating 'New collection drop €29, g Book now', centered below the brand name, with a clean and modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        97,
+        96,
+        129
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.306,
+        0.302,
+        0.405
+      ],
+      "center_normalized": [
+        0.24,
+        0.355
+      ],
+      "area_percentage": 1.24
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Top Banner",
+      "description": "A thin, rectangular banner at the top of the ad, possibly in a contrasting color, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        272,
+        15,
+        297,
+        41
+      ],
+      "bbox_normalized": [
+        0.851,
+        0.05,
+        0.931,
+        0.131
+      ],
+      "center_normalized": [
+        0.891,
+        0.09
+      ],
+      "area_percentage": 0.65
+    },
+    {
+      "id": 4,
+      "role": "cta",
+      "label": "Call to Action Button",
+      "description": "A small button at the bottom of the ad with the text 'Book now', designed to stand out and encourage user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        84,
+        282
+      ],
+      "bbox_normalized": [
+        0.228,
+        0.841,
+        0.263,
+        0.884
+      ],
+      "center_normalized": [
+        0.245,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price Tag",
+      "description": "A larger text element displaying the price '€29.99', prominently placed in the lower section of the ad to attract attention.",
+      "text_content": "New collection drop €29, g Book now",
+      "bbox_xyxy": [
+        22,
+        204,
+        274,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.856,
+        0.934
+      ],
+      "center_normalized": [
+        0.463,
+        0.786
+      ],
+      "area_percentage": 23.38
+    },
+    {
+      "id": 6,
+      "role": "background",
+      "label": "Ad Background",
+      "description": "A solid color background that complements the text elements, providing a cohesive look to the overall ad.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        6,
+        20,
+        275,
+        84
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.062,
+        0.859,
+        0.263
+      ],
+      "center_normalized": [
+        0.439,
+        0.163
+      ],
+      "area_percentage": 16.81
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, LuxShelf, new collection, €29.99, Book now",
+    "layout_text": "The headline is at the top center, the body text is centered below it, and the CTA is at the bottom.",
+    "ocr_text": "LuxShelf, New collection drop €29, g Book now, €29.99",
+    "elements_text": "headline: A bold, prominent text element displaying the brand name 'LuxShelf' in a large font, positioned at the top center of the ad. | body_text: A smaller text element stating 'New collection drop €29, g Book now', centered below the brand name, with a clean and modern font. | decorative_element: A thin, rectangular banner at the top of the ad, possibly in a contrasting color, adding visual interest. | cta: A small button at the bottom of the ad with the text 'Book now', designed to stand out and encourage user interaction. | price: A larger text element displaying the price '€29.99', prominently placed in the lower section of the ad to attract attention. text='New collection drop €29, g Book now'"
+  }
+}

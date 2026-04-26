@@ -1,0 +1,218 @@
+{
+  "creative_id": "500746",
+  "asset_file": "assets/creative_500746.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a prominent headline and call to action with promotional text in a visually appealing layout.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a special offer for FreshDash with a clear call to action.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Top decorative element",
+      "description": "A light-colored area at the top of the ad, possibly serving as a background or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        108,
+        108,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.169,
+        0.302,
+        0.296
+      ],
+      "center_normalized": [
+        0.151,
+        0.232
+      ],
+      "area_percentage": 3.84
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center decorative element",
+      "description": "A central area with a light background, possibly containing additional design elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top left decorative element",
+      "description": "A small decorative element in the top left corner, possibly a design accent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        115,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.181,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.03
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center bottom decorative element",
+      "description": "A small area at the center bottom, likely serving as a decorative or informational element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "FreshDash UGC",
+      "description": "A bold, prominent text element at the top, featuring the words 'FreshDash UGC' in a large font.",
+      "text_content": "FreshDash UGC",
+      "bbox_xyxy": [
+        25,
+        39,
+        341,
+        127
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.947,
+        0.198
+      ],
+      "center_normalized": [
+        0.508,
+        0.13
+      ],
+      "area_percentage": 12.07
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Promotional text",
+      "description": "A large text area in the center that reads '2-for-1 tonight Free delivery over $15' in a clear, readable font.",
+      "text_content": "2-for-1 tonight Free delivery over $15",
+      "bbox_xyxy": [
+        52,
+        407,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.144,
+        0.636,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.504,
+        0.682
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A bold button at the bottom of the ad with the text '$4.99 Try for free' designed to attract attention.",
+      "text_content": "$4.99 Try for free",
+      "bbox_xyxy": [
+        26,
+        532,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.369,
+        0.873
+      ],
+      "area_percentage": 5.02
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, FreshDash UGC, promotional text, call to action.",
+    "layout_text": "The headline is positioned at the top, the body text is centered, and the call to action is at the bottom.",
+    "ocr_text": "FreshDash UGC, 2-for-1 tonight Free delivery over $15, $4.99 Try for free",
+    "elements_text": "unknown: A light-colored area at the top of the ad, possibly serving as a background or decorative element. | unknown: A central area with a light background, possibly containing additional design elements. | unknown: A small decorative element in the top left corner, possibly a design accent. | unknown: A small area at the center bottom, likely serving as a decorative or informational element. | headline: A bold, prominent text element at the top, featuring the words 'FreshDash UGC' in a large font. text='FreshDash UGC' | body_text: A large text area in the center that reads '2-for-1 tonight Free delivery over $15' in a clear, readable font. text='2-for-1 tonight Free delivery over $15' | cta: A bold button at the bottom of the ad with the text '$4.99 Try for free' designed to attract attention. text='$4.99 Try for free'"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "creative_id": "500376",
+  "asset_file": "assets/creative_500376.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a central focus on the brand message and call to action.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Promoting transparency in financial services with no hidden fees.",
+    "dominant_colors": [
+      "light green",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Background shape",
+      "description": "A large, rounded rectangle shape in the center with a light green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        400
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.626
+      ],
+      "center_normalized": [
+        0.333,
+        0.433
+      ],
+      "area_percentage": 12.59
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shape",
+      "description": "A smaller rounded rectangle shape overlaying the background, also in light green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.29
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central shape",
+      "description": "A larger square shape in the center with a light green background, featuring a circular cutout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape positioned towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "Another small circular shape positioned towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape positioned towards the bottom right of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold text in the center of the ad stating 'Your money, clearer No hidden fees' in a clear, readable font.",
+      "text_content": "Your money, clearer No hidden fees",
+      "bbox_xyxy": [
+        71,
+        408,
+        288,
+        497
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.637,
+        0.8,
+        0.777
+      ],
+      "center_normalized": [
+        0.499,
+        0.707
+      ],
+      "area_percentage": 8.38
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The brand name 'ClearLedger' displayed prominently at the top of the ad in a bold font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        34,
+        268,
+        82
+      ],
+      "bbox_normalized": [
+        0.061,
+        0.053,
+        0.744,
+        0.128
+      ],
+      "center_normalized": [
+        0.403,
+        0.091
+      ],
+      "area_percentage": 5.12
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad with the text 'Claim reward' in a clear, inviting font.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, key elements include brand logo and call to action.",
+    "layout_text": "The logo is positioned at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Your money, clearer, No hidden fees, ClearLedger, Claim reward",
+    "elements_text": "unknown: A large, rounded rectangle shape in the center with a light green background. | unknown: A smaller rounded rectangle shape overlaying the background, also in light green. | unknown: A larger square shape in the center with a light green background, featuring a circular cutout. | unknown: A small circular shape positioned towards the bottom left of the ad. | unknown: Another small circular shape positioned towards the bottom center of the ad. | unknown: A small circular shape positioned towards the bottom right of the ad. | body_text: Bold text in the center of the ad stating 'Your money, clearer No hidden fees' in a clear, readable font. text='Your money, clearer No hidden fees' | logo: The brand name 'ClearLedger' displayed prominently at the top of the ad in a bold font. text='ClearLedger' | cta: A button at the bottom of the ad with the text 'Claim reward' in a clear, inviting font. text='Claim reward'"
+  }
+}

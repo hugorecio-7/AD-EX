@@ -1,0 +1,242 @@
+{
+  "creative_id": "500623",
+  "asset_file": "assets/creative_500623.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on product showcases and a strong call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a new collection of products with a call to action to shop bestsellers.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background fills the entire canvas, providing a fresh and lively atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        305,
+        345
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.2,
+        0.954,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 47.03
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "New collection drop",
+      "description": "Bold, large text in a contrasting color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Three product images",
+      "description": "Three vertically aligned rectangular images with reflective surfaces, showcasing products in a minimalist style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        135,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.33,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Three product images",
+      "description": "Another set of three vertically aligned rectangular images with reflective surfaces, complementing the first set.",
+      "text_content": null,
+      "bbox_xyxy": [
+        188,
+        135,
+        245,
+        220
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.766,
+        0.459
+      ],
+      "center_normalized": [
+        0.678,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Three product images",
+      "description": "A third set of three vertically aligned rectangular images with reflective surfaces, completing the product showcase.",
+      "text_content": null,
+      "bbox_xyxy": [
+        119,
+        149,
+        175,
+        233
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.548,
+        0.487
+      ],
+      "center_normalized": [
+        0.46,
+        0.399
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Shop bestsellers now",
+      "description": "Medium-sized text in a clear font, positioned below the headline, inviting users to explore popular items.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        45,
+        305,
+        275,
+        387
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.635,
+        0.859,
+        0.806
+      ],
+      "center_normalized": [
+        0.5,
+        0.721
+      ],
+      "area_percentage": 12.28
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "A small logo positioned at the top left corner, featuring a simple and modern design.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        21,
+        26,
+        134,
+        58
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.054,
+        0.419,
+        0.121
+      ],
+      "center_normalized": [
+        0.242,
+        0.087
+      ],
+      "area_percentage": 2.35
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button at the bottom of the ad with bold text, encouraging immediate action.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        111,
+        416,
+        206,
+        442
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.867,
+        0.644,
+        0.921
+      ],
+      "center_normalized": [
+        0.495,
+        0.894
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC tag",
+      "description": "A small tag in the top left corner indicating user-generated content, enhancing credibility.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and modern, new collection drop, shop bestsellers now",
+    "layout_text": "The headline is at the top, followed by product images in the center, and the CTA button at the bottom.",
+    "ocr_text": "New collection drop, Shop bestsellers now, CrispBox, Shop now, UGC",
+    "elements_text": "headline: Bold, large text in a contrasting color, prominently displayed at the top of the ad. | product: Three vertically aligned rectangular images with reflective surfaces, showcasing products in a minimalist style. | product: Another set of three vertically aligned rectangular images with reflective surfaces, complementing the first set. | product: A third set of three vertically aligned rectangular images with reflective surfaces, completing the product showcase. | body_text: Medium-sized text in a clear font, positioned below the headline, inviting users to explore popular items. text='New collection drop Shop bestsellers now' | logo: A small logo positioned at the top left corner, featuring a simple and modern design. text='CrispBox' | cta: A prominent button at the bottom of the ad with bold text, encouraging immediate action. text='Shop now' | social_proof: A small tag in the top left corner indicating user-generated content, enhancing credibility. text='UGC'"
+  }
+}

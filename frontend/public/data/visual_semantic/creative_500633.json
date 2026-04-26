@@ -1,0 +1,290 @@
+{
+  "creative_id": "500633",
+  "asset_file": "assets/creative_500633.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a solid blue background with bold text elements promoting a travel service.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a travel service for hotels and flights.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "NomadLaye",
+      "description": "The text 'NomadLaye' is prominently displayed at the top in bold, large font, creating a strong focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Escape this weekend",
+      "description": "The phrase 'Escape this weekend' is presented in a clean, modern font, centered in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        65,
+        168,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.182,
+        0.263,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.391
+      ],
+      "area_percentage": 15.34
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Hotels + flights in one tap",
+      "description": "This text appears below the headline, in a smaller font, conveying the service offered.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "The call-to-action button 'Learn more' is displayed in a bold font at the bottom, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.588,
+        0.43
+      ],
+      "area_percentage": 6.7
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "$4.99",
+      "description": "The price '$4.99' is shown in a prominent position at the bottom left, drawing attention to the cost.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A small circular shape is positioned towards the bottom center, adding a decorative touch.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A rectangular shape is placed in the center, providing a visual contrast to the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Top text area",
+      "description": "An empty area at the top of the ad, possibly for additional branding or decorative elements.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.533,
+        0.101
+      ],
+      "area_percentage": 11.52
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Service description",
+      "description": "The text 'Hotels + flights in one tap' is clearly stated, emphasizing the convenience of the service.",
+      "text_content": "Escape this weekend Hotels + flights in one tap",
+      "bbox_xyxy": [
+        64,
+        409,
+        295,
+        501
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.639,
+        0.819,
+        0.783
+      ],
+      "center_normalized": [
+        0.499,
+        0.711
+      ],
+      "area_percentage": 9.22
+    },
+    {
+      "id": 11,
+      "role": "price",
+      "label": "Price display",
+      "description": "The price '$4.99' is clearly visible, indicating the cost of the service offered.",
+      "text_content": "$4.99 Learn more",
+      "bbox_xyxy": [
+        26,
+        532,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.831,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.371,
+        0.87
+      ],
+      "area_percentage": 4.57
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, NomadLaye, Escape this weekend, Learn more",
+    "layout_text": "The headline is at the top, followed by body text in the center, and the CTA at the bottom.",
+    "ocr_text": "NomadLaye, Escape this weekend, Hotels + flights in one tap, $4.99, Learn more",
+    "elements_text": "headline: The text 'NomadLaye' is prominently displayed at the top in bold, large font, creating a strong focal point. | body_text: The phrase 'Escape this weekend' is presented in a clean, modern font, centered in the middle of the ad. | body_text: This text appears below the headline, in a smaller font, conveying the service offered. | cta: The call-to-action button 'Learn more' is displayed in a bold font at the bottom, inviting user interaction. | price: The price '$4.99' is shown in a prominent position at the bottom left, drawing attention to the cost. | decorative_element: A small circular shape is positioned towards the bottom center, adding a decorative touch. | decorative_element: A rectangular shape is placed in the center, providing a visual contrast to the text. | unknown: An empty area at the top of the ad, possibly for additional branding or decorative elements. text='NomadLaye' | body_text: The text 'Hotels + flights in one tap' is clearly stated, emphasizing the convenience of the service. text='Escape this weekend Hotels + flights in one tap' | price: The price '$4.99' is clearly visible, indicating the cost of the service offered. text='$4.99 Learn more'"
+  }
+}

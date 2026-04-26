@@ -1,0 +1,218 @@
+{
+  "creative_id": "500517",
+  "asset_file": "assets/creative_500517.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with geometric shapes and clear messaging.",
+    "visual_style": "modern and abstract",
+    "main_message": "Promoting financial clarity and peace of mind with VaultRun.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple background",
+      "description": "A solid purple background fills the entire canvas, providing a vibrant base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        362
+      ],
+      "bbox_normalized": [
+        0.048,
+        0.2,
+        0.952,
+        0.756
+      ],
+      "center_normalized": [
+        0.5,
+        0.478
+      ],
+      "area_percentage": 50.22
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VaultRun logo",
+      "description": "The text 'VaultRun' is displayed prominently at the top in a bold, modern font, likely in white or light color for contrast.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large, semi-transparent circle and rectangle are centered in the ad, overlapping slightly, creating a modern and abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        133,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.278,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.399
+      ],
+      "area_percentage": 14.62
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "Additional geometric shapes are layered in the center, adding depth and interest to the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.495,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.27
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "The text 'Your money, clearer Built for peace of mind' is centered in a large, clear font, conveying the ad's main message.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        61,
+        305,
+        258,
+        389
+      ],
+      "bbox_normalized": [
+        0.191,
+        0.635,
+        0.806,
+        0.81
+      ],
+      "center_normalized": [
+        0.498,
+        0.723
+      ],
+      "area_percentage": 10.77
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge in the top right corner reads 'SALE' in bold, eye-catching text, likely in a contrasting color.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        24,
+        30,
+        136,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.425,
+        0.117
+      ],
+      "center_normalized": [
+        0.25,
+        0.09
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button at the bottom of the ad says 'Watch now' in a clear, inviting font, encouraging user interaction.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        109,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.33
+    },
+    {
+      "id": 8,
+      "role": "icon",
+      "label": "Sale icon",
+      "description": "The 'SALE' text is set against a contrasting background, making it stand out as a promotional element.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and abstract, VaultRun, SALE, Watch now",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "VaultRun, Your money, clearer, Built for peace of mind, Watch now, SALE",
+    "elements_text": "headline: The text 'VaultRun' is displayed prominently at the top in a bold, modern font, likely in white or light color for contrast. | main_subject: A large, semi-transparent circle and rectangle are centered in the ad, overlapping slightly, creating a modern and abstract visual. | decorative_element: Additional geometric shapes are layered in the center, adding depth and interest to the design. | body_text: The text 'Your money, clearer Built for peace of mind' is centered in a large, clear font, conveying the ad's main message. text='Your money, clearer Built for peace of mind' | discount_badge: A small, circular badge in the top right corner reads 'SALE' in bold, eye-catching text, likely in a contrasting color. text='VaultRun' | cta: A button at the bottom of the ad says 'Watch now' in a clear, inviting font, encouraging user interaction. text='Watch now' | icon: The 'SALE' text is set against a contrasting background, making it stand out as a promotional element. text='SALE'"
+  }
+}

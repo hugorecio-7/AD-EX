@@ -1,0 +1,194 @@
+{
+  "creative_id": "500412",
+  "asset_file": "assets/creative_500412.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with geometric shapes and clear text elements.",
+    "visual_style": "minimalist with soft colors",
+    "main_message": "Encouraging users to save and claim rewards.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "A combination of geometric shapes including a circle and a square, rendered in a soft blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Overlay shapes",
+      "description": "A larger square shape overlaying the background, also in a soft blue tone.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape in a lighter blue, positioned within the larger square.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Main message",
+      "description": "Bold white text stating 'Save with confidence' with a smaller tagline below it in a clean font.",
+      "text_content": "Save with confidence Built for peace of mind",
+      "bbox_xyxy": [
+        80,
+        407,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.636,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 7.99
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The word 'SwiftStack' in bold, dark text positioned at the top of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        35,
+        239,
+        79
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.055,
+        0.664,
+        0.123
+      ],
+      "center_normalized": [
+        0.365,
+        0.089
+      ],
+      "area_percentage": 4.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent white button with the text 'Claim reward' at the bottom of the ad.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        111,
+        561,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.308,
+        0.877,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.18
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with soft colors, key elements include brand logo and call to action.",
+    "layout_text": "The logo is at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Save with confidence, Built for peace of mind, SwiftStack, Claim reward",
+    "elements_text": "unknown: A combination of geometric shapes including a circle and a square, rendered in a soft blue color. | unknown: A larger square shape overlaying the background, also in a soft blue tone. | unknown: A small circle shape in a lighter blue, positioned within the larger square. | body_text: Bold white text stating 'Save with confidence' with a smaller tagline below it in a clean font. text='Save with confidence Built for peace of mind' | logo: The word 'SwiftStack' in bold, dark text positioned at the top of the ad. text='SwiftStack' | cta: A prominent white button with the text 'Claim reward' at the bottom of the ad. text='Claim reward'"
+  }
+}

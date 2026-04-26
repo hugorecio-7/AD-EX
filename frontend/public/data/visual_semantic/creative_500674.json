@@ -1,0 +1,242 @@
+{
+  "creative_id": "500674",
+  "asset_file": "assets/creative_500674.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a bold offer for a meal service with a bright yellow background.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a 2-for-1 meal deal for late-night dining.",
+    "dominant_colors": [
+      "yellow",
+      "black"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "yellow background",
+      "description": "A solid yellow background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "meal screenshot",
+      "description": "A rectangular area showing a blurred image of a meal, positioned in the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        134,
+        105,
+        293
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.279,
+        0.331,
+        0.611
+      ],
+      "center_normalized": [
+        0.234,
+        0.445
+      ],
+      "area_percentage": 6.47
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "meal icon",
+      "description": "A small circular icon representing a meal, located in the center area.",
+      "text_content": null,
+      "bbox_xyxy": [
+        47,
+        134,
+        105,
+        220
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.279,
+        0.331,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.28
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "small circle",
+      "description": "A small circular element positioned in the center, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.221,
+        0.614
+      ],
+      "center_normalized": [
+        0.17,
+        0.581
+      ],
+      "area_percentage": 0.69
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "2-for-1 offer",
+      "description": "Bold text stating '2-for-1 tonight Late-night deals available' in a prominent position.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        45,
+        307,
+        277,
+        357
+      ],
+      "bbox_normalized": [
+        0.141,
+        0.64,
+        0.866,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 7.55
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "SnapMeal logo",
+      "description": "The logo of SnapMeal displayed at the top left corner in a clear font.",
+      "text_content": "SnapMeal",
+      "bbox_xyxy": [
+        22,
+        36,
+        122,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.075,
+        0.381,
+        0.125
+      ],
+      "center_normalized": [
+        0.225,
+        0.1
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Book now button",
+      "description": "A prominent button at the bottom with the text 'Book now' in bold.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        113,
+        419,
+        207,
+        439
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.873,
+        0.647,
+        0.915
+      ],
+      "center_normalized": [
+        0.5,
+        0.894
+      ],
+      "area_percentage": 1.22
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "SALE badge",
+      "description": "A small badge at the top right corner with the word 'SALE' in bold letters.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        37,
+        287,
+        53
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.077,
+        0.897,
+        0.11
+      ],
+      "center_normalized": [
+        0.828,
+        0.094
+      ],
+      "area_percentage": 0.46
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top left corner with the text 'UGC' in a simple font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, bright and playful, 2-for-1 offer, SnapMeal logo, SALE badge",
+    "layout_text": "The headline is at the center, the logo is at the top left, and the CTA is at the bottom.",
+    "ocr_text": "2-for-1 tonight Late-night deals available, SnapMeal, Book now, SALE, UGC",
+    "elements_text": "app_screenshot: A rectangular area showing a blurred image of a meal, positioned in the center. | unknown: A small circular icon representing a meal, located in the center area. | unknown: A small circular element positioned in the center, possibly decorative. | body_text: Bold text stating '2-for-1 tonight Late-night deals available' in a prominent position. text='2-for-1 tonight Late-night deals available' | logo: The logo of SnapMeal displayed at the top left corner in a clear font. text='SnapMeal' | cta: A prominent button at the bottom with the text 'Book now' in bold. text='Book now' | discount_badge: A small badge at the top right corner with the word 'SALE' in bold letters. text='SALE' | social_proof: A small label at the top left corner with the text 'UGC' in a simple font. text='UGC'"
+  }
+}

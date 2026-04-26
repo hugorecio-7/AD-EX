@@ -1,0 +1,266 @@
+{
+  "creative_id": "500625",
+  "asset_file": "assets/creative_500625.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a blue background with abstract shapes and clear calls to action.",
+    "visual_style": "simple and modern",
+    "main_message": "Encouraging users to track their spending with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        480
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "top blue background",
+      "description": "A solid blue background occupying the top portion of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.02
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "abstract shapes",
+      "description": "A collection of abstract geometric shapes including circles and rectangles in a light color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "overlapping shapes",
+      "description": "A large rectangle overlapping with smaller circles, creating a layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.324,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.48,
+        0.422
+      ],
+      "area_percentage": 11.82
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "large rectangle",
+      "description": "A prominent rectangle in the center, visually distinct with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A rounded button at the bottom with a clear call to action, featuring bold text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        272,
+        128,
+        304
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.567,
+        0.401,
+        0.635
+      ],
+      "center_normalized": [
+        0.352,
+        0.601
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "hidden fees text",
+      "description": "Text stating 'No hidden fees' in a smaller font, positioned near the call to action.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.548,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.67
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "main headline",
+      "description": "Bold text stating 'Track every euro' prominently displayed in the center of the ad.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        29,
+        307,
+        288,
+        355
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.64,
+        0.9,
+        0.74
+      ],
+      "center_normalized": [
+        0.495,
+        0.69
+      ],
+      "area_percentage": 8.09
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A logo at the top left corner, featuring the brand name 'SwiftStack' in a clear font.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        24,
+        30,
+        155,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.484,
+        0.117
+      ],
+      "center_normalized": [
+        0.28,
+        0.09
+      ],
+      "area_percentage": 2.22
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Order now text",
+      "description": "Text reading 'Order now' in a bold font, positioned within the call to action button.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        109,
+        419,
+        209,
+        439
+      ],
+      "bbox_normalized": [
+        0.341,
+        0.873,
+        0.653,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.3
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, simple and modern, key elements include abstract shapes and clear CTAs.",
+    "layout_text": "The headline is centered, the logo is at the top left, and the CTA is at the bottom.",
+    "ocr_text": "Track every euro, No hidden fees, SwiftStack, Order now",
+    "elements_text": "decorative_element: A solid blue background occupying the top portion of the ad. | main_subject: A collection of abstract geometric shapes including circles and rectangles in a light color. | main_subject: A large rectangle overlapping with smaller circles, creating a layered effect. | main_subject: A prominent rectangle in the center, visually distinct with a contrasting color. | cta: A rounded button at the bottom with a clear call to action, featuring bold text. | body_text: Text stating 'No hidden fees' in a smaller font, positioned near the call to action. | headline: Bold text stating 'Track every euro' prominently displayed in the center of the ad. text='Track every euro No hidden fees' | logo: A logo at the top left corner, featuring the brand name 'SwiftStack' in a clear font. text='SwiftStack' | cta: Text reading 'Order now' in a bold font, positioned within the call to action button. text='Order now'"
+  }
+}

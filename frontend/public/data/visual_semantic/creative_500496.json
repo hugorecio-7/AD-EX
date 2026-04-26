@@ -1,0 +1,242 @@
+{
+  "creative_id": "500496",
+  "asset_file": "assets/creative_500496.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with bold text and a clear call to action.",
+    "visual_style": "modern minimalistic with bold text",
+    "main_message": "Promoting a 2-for-1 late-night deal with a clear call to action.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "BiteRush logo",
+      "description": "A bold, modern logo featuring the word 'BiteRush' in a prominent font, set against a dark background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A bright yellow badge with the word 'SALE' in bold, eye-catching letters, positioned at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in a simple font, located at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "A large, bold headline stating '2-for-1 tonight Late-night deals available' in a clear, readable font.",
+      "text_content": "2-for-1 tonight Late-night deals available",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Claim reward button",
+      "description": "A prominent button with the text 'Claim reward' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "30% Claim reward",
+      "bbox_xyxy": [
+        34,
+        532,
+        247,
+        581
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.686,
+        0.908
+      ],
+      "center_normalized": [
+        0.39,
+        0.87
+      ],
+      "area_percentage": 4.53
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Reward percentage",
+      "description": "A bold text displaying '-30%' in a striking font, indicating a discount, positioned above the CTA.",
+      "text_content": "BiteRush",
+      "bbox_xyxy": [
+        25,
+        39,
+        203,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.564,
+        0.123
+      ],
+      "center_normalized": [
+        0.317,
+        0.092
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Image placeholders",
+      "description": "Two rectangular placeholders for images, designed to represent user-generated content, with a simple outline.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "UGC label",
+      "description": "A small label indicating user-generated content, placed in the top left corner.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalistic with bold text, 2-for-1 offer, claim reward.",
+    "layout_text": "The logo is at the top, followed by the sale badge, the headline in the center, and the CTA at the bottom.",
+    "ocr_text": "BiteRush, SALE, UGC, 2-for-1 tonight Late-night deals available, -30%, Claim reward",
+    "elements_text": "logo: A bold, modern logo featuring the word 'BiteRush' in a prominent font, set against a dark background. | discount_badge: A bright yellow badge with the word 'SALE' in bold, eye-catching letters, positioned at the top right corner. | decorative_element: A small label with the text 'UGC' in a simple font, located at the top left corner. | headline: A large, bold headline stating '2-for-1 tonight Late-night deals available' in a clear, readable font. text='2-for-1 tonight Late-night deals available' | cta: A prominent button with the text 'Claim reward' in a contrasting color, located at the bottom of the ad. text='30% Claim reward' | body_text: A bold text displaying '-30%' in a striking font, indicating a discount, positioned above the CTA. text='BiteRush' | unknown: Two rectangular placeholders for images, designed to represent user-generated content, with a simple outline. text='SALE' | unknown: A small label indicating user-generated content, placed in the top left corner. text='UGC'"
+  }
+}

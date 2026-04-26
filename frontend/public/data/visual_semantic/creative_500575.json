@@ -1,0 +1,194 @@
+{
+  "creative_id": "500575",
+  "asset_file": "assets/creative_500575.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on abstract shapes and promotional text.",
+    "visual_style": "modern minimalist with blue tones",
+    "main_message": "Promoting trending content and encouraging shopping.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element features a combination of geometric shapes, including a circle and a square, rendered in a soft blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.242,
+        0.497,
+        0.466
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.26
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "This element contains additional abstract shapes, possibly overlapping, in a similar soft blue color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.778,
+        0.52
+      ],
+      "center_normalized": [
+        0.586,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small decorative element",
+      "description": "A small circular shape in a light color, positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Trending message",
+      "description": "A bold, white text phrase stating 'Watch what's trending' with a subtitle 'New hits every week' below it, set against a blue background.",
+      "text_content": "Watch what's trending New hits every week",
+      "bbox_xyxy": [
+        64,
+        408,
+        299,
+        500
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.637,
+        0.831,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.709
+      ],
+      "area_percentage": 9.38
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "NeonCast logo",
+      "description": "The text 'NeonCast' is displayed prominently at the top in a bold, modern font, likely in black or dark color.",
+      "text_content": "NeonCast",
+      "bbox_xyxy": [
+        27,
+        37,
+        217,
+        77
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.058,
+        0.603,
+        0.12
+      ],
+      "center_normalized": [
+        0.339,
+        0.089
+      ],
+      "area_percentage": 3.3
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A rounded button with the text 'Shop now' in white, set against a contrasting background, positioned at the bottom of the ad.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with blue tones, trending message, call to action",
+    "layout_text": "The logo is at the top, the headline is centered, and the CTA is at the bottom.",
+    "ocr_text": "Watch what's trending, New hits every week, NeonCast, Shop now",
+    "elements_text": "unknown: This element features a combination of geometric shapes, including a circle and a square, rendered in a soft blue color. | unknown: This element contains additional abstract shapes, possibly overlapping, in a similar soft blue color scheme. | unknown: A small circular shape in a light color, positioned towards the bottom of the ad. | headline: A bold, white text phrase stating 'Watch what's trending' with a subtitle 'New hits every week' below it, set against a blue background. text='Watch what's trending New hits every week' | logo: The text 'NeonCast' is displayed prominently at the top in a bold, modern font, likely in black or dark color. text='NeonCast' | cta: A rounded button with the text 'Shop now' in white, set against a contrasting background, positioned at the bottom of the ad. text='Shop now'"
+  }
+}

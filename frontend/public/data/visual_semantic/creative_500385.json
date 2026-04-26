@@ -1,0 +1,242 @@
+{
+  "creative_id": "500385",
+  "asset_file": "assets/creative_500385.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear promotional message.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a 2-for-1 offer at QuickFork.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.721
+      ],
+      "center_normalized": [
+        0.5,
+        0.461
+      ],
+      "area_percentage": 46.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "QuickFork logo",
+      "description": "A simple logo with the text 'QuickFork' in a bold font, positioned at the top center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small circular badge with the word 'SALE' in white text, located at the top right corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label with the text 'UGC' in white, positioned at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.281,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.37
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small circular element that is not clearly defined, located in the middle of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Main offer text",
+      "description": "Bold white text stating '2-for-1 tonight' with a smaller line below it saying 'Fresh favorites nearby'.",
+      "text_content": "2-for-1 tonight Fresh favorites nearby",
+      "bbox_xyxy": [
+        53,
+        409,
+        311,
+        466
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.639,
+        0.864,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.684
+      ],
+      "area_percentage": 6.38
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A prominent price tag displaying '€19.99' in white text, located at the bottom left.",
+      "text_content": "QuickFork SALE",
+      "bbox_xyxy": [
+        23,
+        35,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.478,
+        0.089
+      ],
+      "area_percentage": 5.69
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Book now' in white, positioned at the bottom center.",
+      "text_content": "€19.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, QuickFork, 2-for-1 offer",
+    "layout_text": "The logo and sale badge are at the top, the main offer text is centered, and the price and CTA are at the bottom.",
+    "ocr_text": "QuickFork, SALE, UGC, 2-for-1 tonight, Fresh favorites nearby, €19.99, Book now",
+    "elements_text": "logo: A simple logo with the text 'QuickFork' in a bold font, positioned at the top center. | discount_badge: A small circular badge with the word 'SALE' in white text, located at the top right corner. | social_proof: A small label with the text 'UGC' in white, positioned at the top left corner. | unknown: A small circular element that is not clearly defined, located in the middle of the ad. | headline: Bold white text stating '2-for-1 tonight' with a smaller line below it saying 'Fresh favorites nearby'. text='2-for-1 tonight Fresh favorites nearby' | price: A prominent price tag displaying '€19.99' in white text, located at the bottom left. text='QuickFork SALE' | cta: A button with the text 'Book now' in white, positioned at the bottom center. text='€19.99 Book now' | unknown:  text='UGC'"
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "creative_id": "500595",
+  "asset_file": "assets/creative_500595.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text elements promoting travel deals.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel destinations with special fares.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange abstract background",
+      "description": "A vibrant orange background with abstract shapes and gradients.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        91,
+        359,
+        291
+      ],
+      "bbox_normalized": [
+        0.003,
+        0.143,
+        0.998,
+        0.455
+      ],
+      "center_normalized": [
+        0.501,
+        0.299
+      ],
+      "area_percentage": 31.09
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "WayPoint UGC",
+      "description": "Bold, black text stating 'WayPoint UGC' prominently at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.398
+      ],
+      "area_percentage": 14.18
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Dream destinations await",
+      "description": "White text in a modern font saying 'Dream destinations await' centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.484,
+        0.414
+      ],
+      "area_percentage": 12.34
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Smaller white text below the main message, reading 'Special fares today'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price €9.99",
+      "description": "A prominent white text displaying the price '€9.99' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A rectangular button with white text 'Start now' on an orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circular shape in a lighter shade of orange, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Small oval shape",
+      "description": "An oval shape in a lighter orange color, positioned near the bottom.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape with no discernible features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Start now' encouraging user interaction.",
+      "text_content": "destinations await Special fares today €9.99 Start now",
+      "bbox_xyxy": [
+        24,
+        443,
+        288,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.692,
+        0.8,
+        0.908
+      ],
+      "center_normalized": [
+        0.433,
+        0.8
+      ],
+      "area_percentage": 15.81
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "WayPoint UGC",
+      "description": "Bold, black text stating 'WayPoint UGC' prominently at the top.",
+      "text_content": "WayPoint UGC",
+      "bbox_xyxy": [
+        27,
+        35,
+        315,
+        127
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.055,
+        0.875,
+        0.198
+      ],
+      "center_normalized": [
+        0.475,
+        0.127
+      ],
+      "area_percentage": 11.5
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Dream",
+      "description": "A smaller text element saying 'Dream' in a light font.",
+      "text_content": "Dream",
+      "bbox_xyxy": [
+        124,
+        412,
+        238,
+        444
+      ],
+      "bbox_normalized": [
+        0.344,
+        0.644,
+        0.661,
+        0.694
+      ],
+      "center_normalized": [
+        0.503,
+        0.669
+      ],
+      "area_percentage": 1.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, WayPoint UGC, Dream destinations await, Special fares today, €9.99, Start now",
+    "layout_text": "The headline is at the top, followed by the main message and price in the center, with the CTA button at the bottom.",
+    "ocr_text": "WayPoint UGC, Dream, destinations await, Special fares today, €9.99, Start now",
+    "elements_text": "headline: Bold, black text stating 'WayPoint UGC' prominently at the top. | body_text: White text in a modern font saying 'Dream destinations await' centered in the ad. | body_text: Smaller white text below the main message, reading 'Special fares today'. | price: A prominent white text displaying the price '€9.99' in a bold font. | cta: A rectangular button with white text 'Start now' on an orange background. | decorative_element: A small circular shape in a lighter shade of orange, adding visual interest. | decorative_element: An oval shape in a lighter orange color, positioned near the bottom. | unknown: A small rectangular shape with no discernible features. | cta: A prominent button with the text 'Start now' encouraging user interaction. text='destinations await Special fares today €9.99 Start now' | headline: Bold, black text stating 'WayPoint UGC' prominently at the top. text='WayPoint UGC' | body_text: A smaller text element saying 'Dream' in a light font. text='Dream'"
+  }
+}

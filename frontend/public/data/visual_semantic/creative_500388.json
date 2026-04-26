@@ -1,0 +1,218 @@
+{
+  "creative_id": "500388",
+  "asset_file": "assets/creative_500388.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a prominent logo and enticing food imagery.",
+    "visual_style": "bright and modern",
+    "main_message": "The ad promotes a food delivery service with a focus on convenience.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange background",
+      "description": "A solid orange background fills the canvas, providing a vibrant and warm base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        11,
+        61,
+        304,
+        235
+      ],
+      "bbox_normalized": [
+        0.036,
+        0.192,
+        0.952,
+        0.737
+      ],
+      "center_normalized": [
+        0.494,
+        0.465
+      ],
+      "area_percentage": 49.92
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "QuickFork logo",
+      "description": "A simple logo at the top left corner, featuring the text 'QuickFork' in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "product",
+      "label": "Food container",
+      "description": "A stylized food container with a lid, depicted in a minimalistic design, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        48,
+        89,
+        105,
+        146
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.279,
+        0.329,
+        0.457
+      ],
+      "center_normalized": [
+        0.24,
+        0.368
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "Food item icon",
+      "description": "A small circular icon representing a food item, placed near the food container.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 5,
+      "role": "icon",
+      "label": "Food item icon",
+      "description": "Another small circular icon representing a different food item, positioned next to the first icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 6,
+      "role": "icon",
+      "label": "Food item icon",
+      "description": "A third small circular icon representing yet another food item, located adjacent to the other icons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Hungry? We got you' is prominently displayed in a large, bold font at the bottom of the ad.",
+      "text_content": "Hungry? We got you Fre Shop now",
+      "bbox_xyxy": [
+        36,
+        205,
+        289,
+        299
+      ],
+      "bbox_normalized": [
+        0.113,
+        0.641,
+        0.903,
+        0.934
+      ],
+      "center_normalized": [
+        0.508,
+        0.787
+      ],
+      "area_percentage": 23.22
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The phrase 'Shop now' is presented in a clear, inviting font, encouraging immediate action.",
+      "text_content": "QuickFork",
+      "bbox_xyxy": [
+        25,
+        23,
+        103,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.322,
+        0.116
+      ],
+      "center_normalized": [
+        0.2,
+        0.094
+      ],
+      "area_percentage": 1.07
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, QuickFork logo, food imagery, call to action.",
+    "layout_text": "The headline is positioned at the top left, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "QuickFork, Hungry? We got you, Shop now",
+    "elements_text": "headline: A simple logo at the top left corner, featuring the text 'QuickFork' in a bold, modern font. | product: A stylized food container with a lid, depicted in a minimalistic design, centered in the ad. | icon: A small circular icon representing a food item, placed near the food container. | icon: Another small circular icon representing a different food item, positioned next to the first icon. | icon: A third small circular icon representing yet another food item, located adjacent to the other icons. | body_text: The text 'Hungry? We got you' is prominently displayed in a large, bold font at the bottom of the ad. text='Hungry? We got you Fre Shop now' | cta: The phrase 'Shop now' is presented in a clear, inviting font, encouraging immediate action. text='QuickFork'"
+  }
+}

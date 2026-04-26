@@ -1,0 +1,290 @@
+{
+  "creative_id": "500411",
+  "asset_file": "assets/creative_500411.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent message and call to action.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Track your spending with no hidden fees.",
+    "dominant_colors": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A simple logo featuring the text 'SwiftStack' in a modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.179
+      ],
+      "center_normalized": [
+        0.5,
+        0.089
+      ],
+      "area_percentage": 17.82
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main graphic area",
+      "description": "A large rectangular area in the center, likely containing a visual representation or graphic related to the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        89,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.278,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.4
+      ],
+      "area_percentage": 14.51
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary graphic area",
+      "description": "Another rectangular area in the center, possibly showcasing additional features or benefits of the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        59,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.185,
+        0.31,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.482,
+        0.416
+      ],
+      "area_percentage": 12.63
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Tertiary graphic area",
+      "description": "A smaller rectangular area in the center, which may highlight specific details or offers.",
+      "text_content": null,
+      "bbox_xyxy": [
+        97,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.306,
+        0.338,
+        0.78,
+        0.521
+      ],
+      "center_normalized": [
+        0.543,
+        0.43
+      ],
+      "area_percentage": 8.72
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Additional graphic area",
+      "description": "A smaller rectangular area in the center, likely displaying more information or a visual element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        150
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.239,
+        0.495,
+        0.47
+      ],
+      "center_normalized": [
+        0.332,
+        0.354
+      ],
+      "area_percentage": 7.52
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Feature highlight area",
+      "description": "A rectangular area in the center that may emphasize key features or advantages of the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.43
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Small circle graphic",
+      "description": "A small circular graphic element positioned in the center, possibly decorative or illustrative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.118,
+        0.528,
+        0.221,
+        0.631
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold text at the bottom stating 'Track every euro No hidden fees', conveying the primary message of the ad.",
+      "text_content": "Track every euro No hidden fees",
+      "bbox_xyxy": [
+        29,
+        203,
+        289,
+        253
+      ],
+      "bbox_normalized": [
+        0.091,
+        0.634,
+        0.903,
+        0.791
+      ],
+      "center_normalized": [
+        0.497,
+        0.713
+      ],
+      "area_percentage": 12.7
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A small button at the bottom with the text 'Shop now', encouraging user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        113,
+        279,
+        205,
+        299
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.872,
+        0.641,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 1.8
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "SwiftStack logo",
+      "description": "A small logo featuring the text 'SwiftStack' at the top left corner of the ad.",
+      "text_content": "SwiftStack",
+      "bbox_xyxy": [
+        25,
+        23,
+        109,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.072,
+        0.341,
+        0.116
+      ],
+      "center_normalized": [
+        0.209,
+        0.094
+      ],
+      "area_percentage": 1.15
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, minimalist with bold text, SwiftStack logo, main message.",
+    "layout_text": "The logo is at the top, main graphics are centered, and the call to action is at the bottom.",
+    "ocr_text": "SwiftStack, Track every euro, No hidden fees, Shop now",
+    "elements_text": "logo: A simple logo featuring the text 'SwiftStack' in a modern font, positioned at the top of the ad. | main_subject: A large rectangular area in the center, likely containing a visual representation or graphic related to the service. | main_subject: Another rectangular area in the center, possibly showcasing additional features or benefits of the service. | main_subject: A smaller rectangular area in the center, which may highlight specific details or offers. | main_subject: A smaller rectangular area in the center, likely displaying more information or a visual element. | main_subject: A rectangular area in the center that may emphasize key features or advantages of the service. | decorative_element: A small circular graphic element positioned in the center, possibly decorative or illustrative. | body_text: Bold text at the bottom stating 'Track every euro No hidden fees', conveying the primary message of the ad. text='Track every euro No hidden fees' | cta: A small button at the bottom with the text 'Shop now', encouraging user interaction. text='Shop now' | logo: A small logo featuring the text 'SwiftStack' at the top left corner of the ad. text='SwiftStack'"
+  }
+}

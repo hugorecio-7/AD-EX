@@ -1,0 +1,266 @@
+{
+  "creative_id": "500666",
+  "asset_file": "assets/creative_500666.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with a clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service with a focus on convenience.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Orange gradient background",
+      "description": "A smooth orange gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        469
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.733
+      ],
+      "center_normalized": [
+        0.501,
+        0.467
+      ],
+      "area_percentage": 47.96
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Book your next trip' prominently displayed at the center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Subheadline text",
+      "description": "Smaller white text below the headline that reads 'Hotels + flights in one tap'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        275,
+        301
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.766,
+        0.471
+      ],
+      "center_normalized": [
+        0.468,
+        0.355
+      ],
+      "area_percentage": 13.72
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Image placeholder",
+      "description": "An empty circular shape and a square shape, suggesting a placeholder for images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.22
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded button with the text 'Watch now' in white, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' displayed at the top left in a bold font.",
+      "text_content": "Book your next trip Hotels flights in one tap",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 7,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the word 'SALE' in bold black text at the top right.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text displaying the price '€9.99' in white, located at the bottom left.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include a headline, logo, and call to action.",
+    "layout_text": "The headline is centered, the logo is at the top left, and the call to action is at the bottom center.",
+    "ocr_text": "Book your next trip, Hotels + flights in one tap, CloudRoute, Watch now, €9.99, SALE",
+    "elements_text": "headline: Bold white text stating 'Book your next trip' prominently displayed at the center. | body_text: Smaller white text below the headline that reads 'Hotels + flights in one tap'. | product: An empty circular shape and a square shape, suggesting a placeholder for images. | cta: A rounded button with the text 'Watch now' in white, located at the bottom center. | logo: The logo 'CloudRoute' displayed at the top left in a bold font. text='Book your next trip Hotels flights in one tap' | discount_badge: A small yellow badge with the word 'SALE' in bold black text at the top right. text='CloudRoute' | price: A small text displaying the price '€9.99' in white, located at the bottom left. text='Watch now' | unknown:  text='€9.99' | unknown:  text='SALE'"
+  }
+}

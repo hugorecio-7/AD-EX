@@ -1,0 +1,338 @@
+{
+  "creative_id": "500658",
+  "asset_file": "assets/creative_500658.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant pink background with product images and promotional text.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting a new collection with a sale.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Pink abstract background",
+      "description": "A vibrant pink background with abstract shapes and patterns creating a dynamic visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main product display",
+      "description": "A central display featuring three stylized product images with a glossy finish, arranged vertically.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.24
+      ],
+      "area_percentage": 23.53
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Brand name",
+      "description": "The brand name 'VantaStyle' is prominently displayed in bold, modern typography at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 4,
+      "role": "product",
+      "label": "Product image",
+      "description": "A stylized product image with a sleek design, positioned in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 5,
+      "role": "product",
+      "label": "Product image",
+      "description": "Another stylized product image, slightly larger, also centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, circular badge with the word 'SALE' in bold letters, positioned at the top left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.087,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 7,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' indicating user-generated content, located at the top left corner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 8,
+      "role": "body_text",
+      "label": "Promotional message",
+      "description": "A clear and inviting message stating 'New collection drop Shop bestsellers now' in a modern font at the bottom.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent button with the text 'Watch now' in bold, encouraging immediate action.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small price tag displaying '€9.99' in a bold font, located near the bottom of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge indicating a sale, positioned at the top right corner with the word 'SALE'.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "An unidentified element that does not fit into the other categories, possibly decorative.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and vibrant, VantaStyle, new collection, sale.",
+    "layout_text": "The headline is at the top, main product images are centered, and the CTA is at the bottom.",
+    "ocr_text": "VantaStyle, SALE, UGC, New collection drop, Shop bestsellers now, €9.99, Watch now",
+    "elements_text": "main_subject: A central display featuring three stylized product images with a glossy finish, arranged vertically. | headline: The brand name 'VantaStyle' is prominently displayed in bold, modern typography at the top of the ad. | product: A stylized product image with a sleek design, positioned in the center of the ad. | product: Another stylized product image, slightly larger, also centered in the ad. | discount_badge: A small, circular badge with the word 'SALE' in bold letters, positioned at the top left. | social_proof: A small tag labeled 'UGC' indicating user-generated content, located at the top left corner. | body_text: A clear and inviting message stating 'New collection drop Shop bestsellers now' in a modern font at the bottom. text='New collection drop Shop bestsellers now' | cta: A prominent button with the text 'Watch now' in bold, encouraging immediate action. text='VantaStyle' | price: A small price tag displaying '€9.99' in a bold font, located near the bottom of the ad. text='Watch now' | discount_badge: A small badge indicating a sale, positioned at the top right corner with the word 'SALE'. text='€9.99' | unknown: An unidentified element that does not fit into the other categories, possibly decorative. text='SALE' | unknown:  text='UGC'"
+  }
+}

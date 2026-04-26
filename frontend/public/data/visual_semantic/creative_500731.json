@@ -1,0 +1,314 @@
+{
+  "creative_id": "500731",
+  "asset_file": "assets/creative_500731.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a central product display and promotional text.",
+    "visual_style": "minimalist with bold text",
+    "main_message": "Promoting limited stock bestsellers with a call to action.",
+    "dominant_colors": [
+      "black",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A solid dark background that fills the entire canvas, providing contrast for the foreground elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        70,
+        5,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.196,
+        0.008,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.598,
+        0.503
+      ],
+      "area_percentage": 79.68
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product display area",
+      "description": "A rectangular area in the center featuring two vertical product images with a subtle gray outline.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        460
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.719
+      ],
+      "center_normalized": [
+        0.5,
+        0.46
+      ],
+      "area_percentage": 46.73
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Limited stock message",
+      "description": "A bold, white text stating 'Limited stock' positioned prominently in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "Shop bestsellers text",
+      "description": "A smaller white text below the main message that reads 'Shop bestsellers now'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.05
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small, white text displaying the price '€9.99' located at the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        401
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.627
+      ],
+      "center_normalized": [
+        0.348,
+        0.6
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button with white text 'Get offer' at the bottom center, inviting user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main promotional message",
+      "description": "A prominent text in the center stating 'Limited stock Shop bestsellers now', designed to attract attention.",
+      "text_content": "Limited stock Shop bestsellers now",
+      "bbox_xyxy": [
+        61,
+        409,
+        299,
+        463
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.639,
+        0.831,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'BoltCart' displayed at the top left in bold, white letters against the dark background.",
+      "text_content": "BoltCart",
+      "bbox_xyxy": [
+        27,
+        41,
+        193,
+        79
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.064,
+        0.536,
+        0.123
+      ],
+      "center_normalized": [
+        0.306,
+        0.094
+      ],
+      "area_percentage": 2.74
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A small button at the bottom center with the text 'Get offer', encouraging users to take action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text at the bottom showing the price '€9.99', indicating the cost of the product.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 11,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small, bright yellow badge at the top right corner with the text 'SALE', highlighting a promotional offer.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 12,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC', indicating user-generated content related to the products.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with bold text, limited stock promotion, call to action.",
+    "layout_text": "The headline is centered, the product display is in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Limited stock, Shop bestsellers now, BoltCart, Get offer, €9.99, SALE, UGC",
+    "elements_text": "main_subject: A rectangular area in the center featuring two vertical product images with a subtle gray outline. | body_text: A bold, white text stating 'Limited stock' positioned prominently in the center of the ad. | body_text: A smaller white text below the main message that reads 'Shop bestsellers now'. | price: A small, white text displaying the price '€9.99' located at the bottom center of the ad. | cta: A rectangular button with white text 'Get offer' at the bottom center, inviting user interaction. | headline: A prominent text in the center stating 'Limited stock Shop bestsellers now', designed to attract attention. text='Limited stock Shop bestsellers now' | logo: The logo 'BoltCart' displayed at the top left in bold, white letters against the dark background. text='BoltCart' | cta: A small button at the bottom center with the text 'Get offer', encouraging users to take action. text='Get offer' | price: A small text at the bottom showing the price '€9.99', indicating the cost of the product. text='€9.99' | discount_badge: A small, bright yellow badge at the top right corner with the text 'SALE', highlighting a promotional offer. text='SALE' | social_proof: A small tag at the top left corner labeled 'UGC', indicating user-generated content related to the products. text='UGC'"
+  }
+}

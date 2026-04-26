@@ -1,0 +1,266 @@
+{
+  "creative_id": "500690",
+  "asset_file": "assets/creative_500690.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent sale announcement and clear call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a sale with significant discounts and free shipping.",
+    "dominant_colors": [
+      "#00BFFF",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A rectangular graphic element centered in the ad, possibly representing a product or feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.168,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.358,
+        0.4
+      ],
+      "area_percentage": 6.76
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A smaller rectangular graphic element centered in the ad, likely complementing the main subject.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another rectangular graphic element centered in the ad, similar in style to the other center elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small rectangular graphic element located towards the bottom center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Bottom graphic element",
+      "description": "A small circular graphic element located towards the bottom left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Discount and shipping info",
+      "description": "Text displaying a discount offer and shipping information, prominently placed in the center.",
+      "text_content": "Up to 40% off Free shipping over $25",
+      "bbox_xyxy": [
+        65,
+        409,
+        301,
+        466
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.836,
+        0.728
+      ],
+      "center_normalized": [
+        0.508,
+        0.684
+      ],
+      "area_percentage": 5.84
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main sale headline",
+      "description": "Bold text at the top of the ad announcing the sale, with a vibrant color to attract attention.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        25,
+        39,
+        321,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.061,
+        0.892,
+        0.123
+      ],
+      "center_normalized": [
+        0.481,
+        0.092
+      ],
+      "area_percentage": 5.14
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rounded rectangular button at the bottom center of the ad encouraging users to take action.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Discount badge",
+      "description": "A small badge indicating a percentage discount, positioned at the bottom left of the ad.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        35,
+        533,
+        89,
+        553
+      ],
+      "bbox_normalized": [
+        0.097,
+        0.833,
+        0.247,
+        0.864
+      ],
+      "center_normalized": [
+        0.172,
+        0.848
+      ],
+      "area_percentage": 0.47
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, sale announcement, discount information, call to action.",
+    "layout_text": "The headline is at the top, followed by the main body text in the center, with the CTA at the bottom.",
+    "ocr_text": "Up to 40% off, Free shipping over $25, ThreadMark SALE, Order now, 30%",
+    "elements_text": "unknown: A rectangular graphic element centered in the ad, possibly representing a product or feature. | unknown: A smaller rectangular graphic element centered in the ad, likely complementing the main subject. | unknown: Another rectangular graphic element centered in the ad, similar in style to the other center elements. | unknown: A small rectangular graphic element located towards the bottom center of the ad. | unknown: A small circular graphic element located towards the bottom left of the ad. | body_text: Text displaying a discount offer and shipping information, prominently placed in the center. text='Up to 40% off Free shipping over $25' | headline: Bold text at the top of the ad announcing the sale, with a vibrant color to attract attention. text='ThreadMark SALE' | cta: A rounded rectangular button at the bottom center of the ad encouraging users to take action. text='Order now' | discount_badge: A small badge indicating a percentage discount, positioned at the bottom left of the ad. text='30%'"
+  }
+}

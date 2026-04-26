@@ -1,0 +1,242 @@
+{
+  "creative_id": "500521",
+  "asset_file": "assets/creative_500521.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a modern design with a focus on security and simplicity.",
+    "visual_style": "minimalist with bold colors",
+    "main_message": "Promoting a secure and simple app experience.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        15,
+        96,
+        304,
+        345
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.46
+      ],
+      "area_percentage": 46.88
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "VaultRun logo",
+      "description": "The logo 'VaultRun' is displayed prominently at the top in a bold, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        86
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.181
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 18.05
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Abstract shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        155,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.324,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.422
+      ],
+      "area_percentage": 11.73
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Additional shape",
+      "description": "A smaller rectangular shape positioned slightly above the main subject, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Additional circular shape",
+      "description": "A circular shape that appears to be part of the main subject, enhancing the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        128,
+        163,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.401,
+        0.341,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.591,
+        0.431
+      ],
+      "area_percentage": 6.82
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "The text 'Secure & simple Built for peace of mind' is displayed in a clear, readable font at the center.",
+      "text_content": "Secure & simple Built for peace of mind",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        357
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.744
+      ],
+      "center_normalized": [
+        0.503,
+        0.692
+      ],
+      "area_percentage": 8.33
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "VaultRun logo",
+      "description": "The 'VaultRun' logo appears in the top left corner, small but distinct.",
+      "text_content": "VaultRun",
+      "bbox_xyxy": [
+        24,
+        30,
+        136,
+        56
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.425,
+        0.117
+      ],
+      "center_normalized": [
+        0.25,
+        0.09
+      ],
+      "area_percentage": 1.9
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button at the bottom with the text 'Install now' in a contrasting color.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        107,
+        419,
+        211,
+        439
+      ],
+      "bbox_normalized": [
+        0.334,
+        0.873,
+        0.659,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label in the top left corner that reads 'UGC' in a simple font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        85,
+        57,
+        99
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.177,
+        0.178,
+        0.206
+      ],
+      "center_normalized": [
+        0.128,
+        0.192
+      ],
+      "area_percentage": 0.29
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, minimalist with bold colors, VaultRun logo, secure app message",
+    "layout_text": "The logo is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, Built for peace of mind, VaultRun, Install now, UGC",
+    "elements_text": "headline: The logo 'VaultRun' is displayed prominently at the top in a bold, modern font. | main_subject: Two overlapping geometric shapes, one circular and one rectangular, in a lighter shade of purple. | decorative_element: A smaller rectangular shape positioned slightly above the main subject, adding depth. | unknown: A circular shape that appears to be part of the main subject, enhancing the design. | body_text: The text 'Secure & simple Built for peace of mind' is displayed in a clear, readable font at the center. text='Secure & simple Built for peace of mind' | logo: The 'VaultRun' logo appears in the top left corner, small but distinct. text='VaultRun' | cta: A prominent button at the bottom with the text 'Install now' in a contrasting color. text='Install now' | social_proof: A small label in the top left corner that reads 'UGC' in a simple font. text='UGC'"
+  }
+}

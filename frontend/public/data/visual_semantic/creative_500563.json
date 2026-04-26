@@ -1,0 +1,338 @@
+{
+  "creative_id": "500563",
+  "asset_file": "assets/creative_500563.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant orange background with bold text promoting travel deals.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting travel with special fares and a call to action.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "RouteBloon UGC",
+      "description": "Bold, uppercase text in a dark color, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        178,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.278,
+        0.779,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.398
+      ],
+      "area_percentage": 14.22
+    },
+    {
+      "id": 2,
+      "role": "body_text",
+      "label": "Book your next trip",
+      "description": "Large, friendly font in white, centered in the middle of the ad, conveying an inviting message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        68,
+        198,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.31,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.414
+      ],
+      "area_percentage": 12.3
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Special fares today",
+      "description": "Smaller text in white, positioned below the main body text, emphasizing a promotional offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        67,
+        218,
+        280,
+        331
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.341,
+        0.778,
+        0.519
+      ],
+      "center_normalized": [
+        0.483,
+        0.43
+      ],
+      "area_percentage": 10.49
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract geometric shapes in a warm orange hue, creating a vibrant backdrop for the text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        177,
+        298
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.243,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.355
+      ],
+      "area_percentage": 7.18
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Learn more",
+      "description": "A prominent button in white with rounded edges, inviting users to take action, located at the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        219,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.343,
+        0.774,
+        0.518
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.55
+    },
+    {
+      "id": 6,
+      "role": "discount_badge",
+      "label": "30% off",
+      "description": "A small circular badge in white with a bold percentage, indicating a discount, positioned at the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small, unclear shape or icon, possibly decorative, located towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small rectangular shape in a lighter color, possibly decorative, located in the center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.305,
+        0.672,
+        0.339
+      ],
+      "center_normalized": [
+        0.614,
+        0.322
+      ],
+      "area_percentage": 0.4
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A large area at the top of the ad, possibly a background or decorative element, with no specific details.",
+      "text_content": "RouteBloon UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        360,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        1.0,
+        0.198
+      ],
+      "center_normalized": [
+        0.536,
+        0.13
+      ],
+      "area_percentage": 12.61
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A large area at the bottom of the ad, possibly a background or decorative element, with no specific details.",
+      "text_content": "Book your next trip Special fares today",
+      "bbox_xyxy": [
+        49,
+        411,
+        313,
+        500
+      ],
+      "bbox_normalized": [
+        0.136,
+        0.642,
+        0.869,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.712
+      ],
+      "area_percentage": 10.2
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small area at the bottom of the ad, possibly a footer or additional text, with no specific details.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A small area at the bottom of the ad, possibly a promotional badge, with no specific details.",
+      "text_content": "30%",
+      "bbox_xyxy": [
+        34,
+        532,
+        90,
+        556
+      ],
+      "bbox_normalized": [
+        0.094,
+        0.831,
+        0.25,
+        0.869
+      ],
+      "center_normalized": [
+        0.172,
+        0.85
+      ],
+      "area_percentage": 0.58
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and modern, RouteBloon UGC, Book your next trip, Special fares today, Learn more, 30%",
+    "layout_text": "Headline at the top, body text in the center, CTA at the bottom.",
+    "ocr_text": "RouteBloon UGC, Book your next trip, Special fares today, Learn more, 30%",
+    "elements_text": "headline: Bold, uppercase text in a dark color, prominently displayed at the top of the ad. | body_text: Large, friendly font in white, centered in the middle of the ad, conveying an inviting message. | body_text: Smaller text in white, positioned below the main body text, emphasizing a promotional offer. | decorative_element: Abstract geometric shapes in a warm orange hue, creating a vibrant backdrop for the text. | cta: A prominent button in white with rounded edges, inviting users to take action, located at the bottom of the ad. | discount_badge: A small circular badge in white with a bold percentage, indicating a discount, positioned at the bottom left. | unknown: A small, unclear shape or icon, possibly decorative, located towards the bottom of the ad. | unknown: A small rectangular shape in a lighter color, possibly decorative, located in the center of the ad. | unknown: A large area at the top of the ad, possibly a background or decorative element, with no specific details. text='RouteBloon UGC' | unknown: A large area at the bottom of the ad, possibly a background or decorative element, with no specific details. text='Book your next trip Special fares today' | unknown: A small area at the bottom of the ad, possibly a footer or additional text, with no specific details. text='Learn more' | unknown: A small area at the bottom of the ad, possibly a promotional badge, with no specific details. text='30%'"
+  }
+}

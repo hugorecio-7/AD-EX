@@ -1,0 +1,458 @@
+{
+  "creative_id": "500649",
+  "asset_file": "assets/creative_500649.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a focus on rewards and gameplay.",
+    "visual_style": "modern and playful",
+    "main_message": "Encouraging users to install the app for rewards.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient fills the entire background, creating a vibrant and engaging atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The logo features the text 'PixelForge' in a bold, modern font, positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.268
+      ],
+      "center_normalized": [
+        0.499,
+        0.134
+      ],
+      "area_percentage": 26.71
+    },
+    {
+      "id": 3,
+      "role": "headline",
+      "label": "Main reward message",
+      "description": "The headline reads 'Win epic rewards' in large, eye-catching white text, prominently displayed at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        141
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.221
+      ],
+      "center_normalized": [
+        0.499,
+        0.11
+      ],
+      "area_percentage": 22.03
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "No ads message",
+      "description": "A smaller text below the headline states 'No ads in first week' in a clean, readable font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Game elements",
+      "description": "Four circular game elements are arranged in a grid pattern, suggesting an interactive gameplay feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Gameplay indicator",
+      "description": "An arrow pointing to the right indicates progression or interaction within the game.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A prominent button at the bottom reads 'Install now' in bold white text against a contrasting background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Gameplay visuals",
+      "description": "Additional gameplay visuals are displayed in a grid format, enhancing the interactive feel of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element positioned at the top left adds visual interest to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        189
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.296
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.55
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Gameplay feature",
+      "description": "A small gameplay feature is positioned at the top right, contributing to the overall interactive theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.239,
+        0.951,
+        0.318
+      ],
+      "center_normalized": [
+        0.914,
+        0.279
+      ],
+      "area_percentage": 0.59
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Additional gameplay element",
+      "description": "A small circular element at the center bottom suggests further gameplay interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Gameplay detail",
+      "description": "A small detail element positioned at the center adds depth to the gameplay visuals.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Gameplay detail",
+      "description": "Another small detail element positioned at the center enhances the interactive aspect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A small decorative element at the top center adds visual flair to the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        182
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.285
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "Another small decorative element at the top left enhances the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Main reward message",
+      "description": "The text 'Win epic rewards' is prominently displayed in bold white font, conveying the main offer.",
+      "text_content": "Win epic rewards No ads in first week",
+      "bbox_xyxy": [
+        33,
+        409,
+        331,
+        463
+      ],
+      "bbox_normalized": [
+        0.092,
+        0.639,
+        0.919,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.98
+    },
+    {
+      "id": 17,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "The logo 'PixelForge' is displayed in a modern font, emphasizing brand identity.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 18,
+      "role": "cta",
+      "label": "Install now button",
+      "description": "A clear call-to-action button at the bottom reads 'Install now' in bold text, encouraging user engagement.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and playful, PixelForge logo, install now button.",
+    "layout_text": "The logo is at the top, followed by the headline and body text, with the CTA button at the bottom.",
+    "ocr_text": "Win epic rewards, No ads in first week, PixelForge, Install now",
+    "elements_text": "logo: The logo features the text 'PixelForge' in a bold, modern font, positioned at the top of the ad. | headline: The headline reads 'Win epic rewards' in large, eye-catching white text, prominently displayed at the top. | body_text: A smaller text below the headline states 'No ads in first week' in a clean, readable font. | unknown: Four circular game elements are arranged in a grid pattern, suggesting an interactive gameplay feature. | unknown: An arrow pointing to the right indicates progression or interaction within the game. | cta: A prominent button at the bottom reads 'Install now' in bold white text against a contrasting background. | unknown: Additional gameplay visuals are displayed in a grid format, enhancing the interactive feel of the ad. | unknown: A small decorative element positioned at the top left adds visual interest to the ad. | unknown: A small gameplay feature is positioned at the top right, contributing to the overall interactive theme. | unknown: A small circular element at the center bottom suggests further gameplay interaction. | unknown: A small detail element positioned at the center adds depth to the gameplay visuals. | unknown: Another small detail element positioned at the center enhances the interactive aspect. | unknown: A small decorative element at the top center adds visual flair to the ad. | unknown: Another small decorative element at the top left enhances the overall design. | body_text: The text 'Win epic rewards' is prominently displayed in bold white font, conveying the main offer. text='Win epic rewards No ads in first week' | logo: The logo 'PixelForge' is displayed in a modern font, emphasizing brand identity. text='PixelForge' | cta: A clear call-to-action button at the bottom reads 'Install now' in bold text, encouraging user engagement. text='Install now'"
+  }
+}

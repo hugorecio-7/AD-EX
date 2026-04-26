@@ -1,0 +1,242 @@
+{
+  "creative_id": "500587",
+  "asset_file": "assets/creative_500587.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent headline and call to action.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a product selection with a clear call to action.",
+    "dominant_colors": [
+      "green",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        212,
+        180,
+        276,
+        294
+      ],
+      "bbox_normalized": [
+        0.59,
+        0.281,
+        0.767,
+        0.46
+      ],
+      "center_normalized": [
+        0.679,
+        0.371
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Unknown element",
+      "description": "A central element with an undefined visual appearance.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text in the bottom area that reads 'Your next favorite pick Shop bestsellers now' against a contrasting background.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        68,
+        408,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.637,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.709
+      ],
+      "area_percentage": 8.98
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "LuxShelf logo",
+      "description": "A prominent logo at the top with the text 'LuxShelf' in a clear, bold font.",
+      "text_content": "LuxShelf",
+      "bbox_xyxy": [
+        26,
+        38,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.059,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.315,
+        0.091
+      ],
+      "area_percentage": 3.11
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button at the bottom that reads 'Book now' in a bold, inviting font.",
+      "text_content": "Book now",
+      "bbox_xyxy": [
+        129,
+        561,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.358,
+        0.877,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 7,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A small text element at the bottom displaying the price '€9.99' in a clear, readable font.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        96,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.267,
+        0.869
+      ],
+      "center_normalized": [
+        0.167,
+        0.85
+      ],
+      "area_percentage": 0.75
+    },
+    {
+      "id": 8,
+      "role": "social_proof",
+      "label": "UGC label",
+      "description": "A small label at the top indicating 'UGC' in a simple, unobtrusive font.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, LuxShelf logo, call to action.",
+    "layout_text": "The logo is positioned at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Your next favorite pick, Shop bestsellers now, LuxShelf, Book now, €9.99, UGC",
+    "elements_text": "unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | unknown: A central element with an undefined visual appearance. | headline: Bold text in the bottom area that reads 'Your next favorite pick Shop bestsellers now' against a contrasting background. text='Your next favorite pick Shop bestsellers now' | logo: A prominent logo at the top with the text 'LuxShelf' in a clear, bold font. text='LuxShelf' | cta: A button at the bottom that reads 'Book now' in a bold, inviting font. text='Book now' | price: A small text element at the bottom displaying the price '€9.99' in a clear, readable font. text='€9.99' | social_proof: A small label at the top indicating 'UGC' in a simple, unobtrusive font. text='UGC'"
+  }
+}

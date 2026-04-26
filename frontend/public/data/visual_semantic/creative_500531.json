@@ -1,0 +1,194 @@
+{
+  "creative_id": "500531",
+  "asset_file": "assets/creative_500531.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a prominent headline and call-to-action, centered around the theme of food delivery.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a food delivery service with a focus on convenience and freshness.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "A central graphic element that appears to be a stylized representation, possibly abstract or decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.311,
+        0.547,
+        0.487
+      ],
+      "center_normalized": [
+        0.458,
+        0.399
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Center graphic element",
+      "description": "Another central graphic element that resembles a rectangular shape, likely transparent or semi-transparent.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        181,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.283,
+        0.328,
+        0.458
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.09
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Bottom circular element",
+      "description": "A small circular graphic element positioned towards the bottom of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "FreshDash UGC",
+      "description": "Bold, large text at the top of the ad, prominently displaying the brand name 'FreshDash' with a modern font.",
+      "text_content": "FreshDash UGC",
+      "bbox_xyxy": [
+        26,
+        40,
+        339,
+        127
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.062,
+        0.942,
+        0.198
+      ],
+      "center_normalized": [
+        0.507,
+        0.13
+      ],
+      "area_percentage": 11.82
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cravings delivered message",
+      "description": "Medium-sized text at the bottom center, conveying the message about cravings being delivered, in a clean and readable font.",
+      "text_content": "Your cravings, delivered Fresh favorites nearby",
+      "bbox_xyxy": [
+        57,
+        405,
+        306,
+        500
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.633,
+        0.85,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.707
+      ],
+      "area_percentage": 10.27
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Try for free button",
+      "description": "A clear call-to-action button at the bottom, featuring the text 'Try for free' in a bold and inviting style.",
+      "text_content": "€9.99 Try for free",
+      "bbox_xyxy": [
+        24,
+        532,
+        237,
+        587
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.658,
+        0.917
+      ],
+      "center_normalized": [
+        0.362,
+        0.874
+      ],
+      "area_percentage": 5.08
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern and minimalistic, FreshDash UGC, cravings delivered, Try for free",
+    "layout_text": "Headline at the top, body text centered, and CTA at the bottom.",
+    "ocr_text": "FreshDash UGC, Your cravings, delivered, Fresh favorites nearby, €9.99, Try for free",
+    "elements_text": "unknown: A central graphic element that appears to be a stylized representation, possibly abstract or decorative. | unknown: Another central graphic element that resembles a rectangular shape, likely transparent or semi-transparent. | unknown: A small circular graphic element positioned towards the bottom of the ad. | headline: Bold, large text at the top of the ad, prominently displaying the brand name 'FreshDash' with a modern font. text='FreshDash UGC' | body_text: Medium-sized text at the bottom center, conveying the message about cravings being delivered, in a clean and readable font. text='Your cravings, delivered Fresh favorites nearby' | cta: A clear call-to-action button at the bottom, featuring the text 'Try for free' in a bold and inviting style. text='€9.99 Try for free'"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "creative_id": "500741",
+  "asset_file": "assets/creative_500741.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a solid green background with text and shapes.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting special fares for HorizonHop.",
+    "dominant_colors": [
+      "green",
+      "light green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        461
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.722
+      ],
+      "center_normalized": [
+        0.501,
+        0.461
+      ],
+      "area_percentage": 47.08
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Abstract shapes",
+      "description": "Two abstract shapes, one oval and one rectangle, in a lighter shade of green.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        155,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.243,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shapes",
+      "description": "A larger rectangular shape in the center, possibly for content display.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.342,
+        0.774,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.63
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circle shape positioned towards the bottom left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Another small circle",
+      "description": "Another small circle shape located near the bottom right.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "HorizonHop logo",
+      "description": "The text 'HorizonHop' in bold, modern font at the top of the ad.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        23,
+        29,
+        256,
+        81
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.045,
+        0.711,
+        0.127
+      ],
+      "center_normalized": [
+        0.388,
+        0.086
+      ],
+      "area_percentage": 5.26
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "The phrase 'Fly smarter Special fares today' in a prominent, easy-to-read font.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        81,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.685
+      ],
+      "area_percentage": 4.82
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A rectangular button at the bottom with the text 'Shop now' in bold.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        126,
+        560,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.35,
+        0.875,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.1
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, HorizonHop logo, special fares.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, and the CTA button at the bottom.",
+    "ocr_text": "HorizonHop, Fly smarter Special fares today, Shop now",
+    "elements_text": "unknown: Two abstract shapes, one oval and one rectangle, in a lighter shade of green. | unknown: A larger rectangular shape in the center, possibly for content display. | unknown: A small circle shape positioned towards the bottom left. | unknown: Another small circle shape located near the bottom right. | logo: The text 'HorizonHop' in bold, modern font at the top of the ad. text='HorizonHop' | headline: The phrase 'Fly smarter Special fares today' in a prominent, easy-to-read font. text='Fly smarter Special fares today' | cta: A rectangular button at the bottom with the text 'Shop now' in bold. text='Shop now'"
+  }
+}

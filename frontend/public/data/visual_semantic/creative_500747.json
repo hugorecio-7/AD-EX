@@ -1,0 +1,218 @@
+{
+  "creative_id": "500747",
+  "asset_file": "assets/creative_500747.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a dark background with a central app interface and clear call-to-action.",
+    "visual_style": "modern minimalist with bold text",
+    "main_message": "Order fresh meals quickly from nearby options.",
+    "dominant_colors": [
+      "dark gray",
+      "white"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Dark background",
+      "description": "A dark gray background that fills the entire canvas, providing a neutral base for the other elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        459
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.2,
+        0.951,
+        0.718
+      ],
+      "center_normalized": [
+        0.501,
+        0.459
+      ],
+      "area_percentage": 46.64
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "FreshDash logo",
+      "description": "A simple logo featuring the word 'FreshDash' in a modern font, positioned at the top center of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "App interface",
+      "description": "A representation of an app interface with two gray rectangles indicating food items, centered in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        134,
+        199,
+        196,
+        311
+      ],
+      "bbox_normalized": [
+        0.373,
+        0.312,
+        0.545,
+        0.487
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.02
+    },
+    {
+      "id": 4,
+      "role": "icon",
+      "label": "UGC badge",
+      "description": "A small circular icon labeled 'UGC' positioned at the top left corner, indicating user-generated content.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        388
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.606
+      ],
+      "center_normalized": [
+        0.169,
+        0.579
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "A bold, white headline text that reads 'Dinner in minutes', centrally placed and easily readable.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Fresh favorites nearby",
+      "description": "A smaller white text below the headline that says 'Fresh favorites nearby', providing additional context.",
+      "text_content": "FreshDash",
+      "bbox_xyxy": [
+        25,
+        41,
+        233,
+        79
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.064,
+        0.647,
+        0.123
+      ],
+      "center_normalized": [
+        0.358,
+        0.094
+      ],
+      "area_percentage": 3.43
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Order now button",
+      "description": "A prominent button at the bottom of the ad with the text 'Order now', designed to attract user interaction.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "UGC label",
+      "description": "A small decorative label indicating user-generated content, enhancing the ad's credibility.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern minimalist with bold text, FreshDash logo, app interface, and call-to-action.",
+    "layout_text": "The logo is at the top, followed by the app interface in the center, with the headline and body text below, and the CTA button at the bottom.",
+    "ocr_text": "FreshDash, Dinner in minutes, Fresh favorites nearby, Order now, UGC",
+    "elements_text": "logo: A simple logo featuring the word 'FreshDash' in a modern font, positioned at the top center of the ad. | app_screenshot: A representation of an app interface with two gray rectangles indicating food items, centered in the ad. | icon: A small circular icon labeled 'UGC' positioned at the top left corner, indicating user-generated content. | headline: A bold, white headline text that reads 'Dinner in minutes', centrally placed and easily readable. text='Dinner in minutes Fresh favorites nearby' | body_text: A smaller white text below the headline that says 'Fresh favorites nearby', providing additional context. text='FreshDash' | cta: A prominent button at the bottom of the ad with the text 'Order now', designed to attract user interaction. text='Order now' | decorative_element: A small decorative label indicating user-generated content, enhancing the ad's credibility. text='UGC'"
+  }
+}

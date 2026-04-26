@@ -1,0 +1,314 @@
+{
+  "creative_id": "500534",
+  "asset_file": "assets/creative_500534.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant red background with bold text and geometric shapes.",
+    "visual_style": "modern and vibrant",
+    "main_message": "Promoting exclusive offers available tonight.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Red background",
+      "description": "A solid red background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        16,
+        63,
+        304,
+        230
+      ],
+      "bbox_normalized": [
+        0.051,
+        0.199,
+        0.952,
+        0.72
+      ],
+      "center_normalized": [
+        0.501,
+        0.459
+      ],
+      "area_percentage": 46.92
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "A small logo positioned at the top left, featuring a simple design with rounded shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.95
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Exclusive tonight text",
+      "description": "Bold white text stating 'Exclusive tonight' is centrally placed, drawing attention with its large font size.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        233,
+        160
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.729,
+        0.502
+      ],
+      "center_normalized": [
+        0.449,
+        0.371
+      ],
+      "area_percentage": 14.67
+    },
+    {
+      "id": 4,
+      "role": "body_text",
+      "label": "New hits every week",
+      "description": "Smaller white text below the main headline, providing additional context about the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Shop now button",
+      "description": "A prominent button with the text 'Shop now' in white, encouraging immediate action, located at the bottom center.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Circular shapes",
+      "description": "Several overlapping circular shapes in varying sizes, adding visual interest to the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.589,
+        0.429
+      ],
+      "area_percentage": 6.97
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Rectangular shape",
+      "description": "A large rectangular shape in the center, providing a backdrop for the text elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Additional shapes",
+      "description": "More geometric shapes scattered throughout the ad, enhancing the modern aesthetic.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        245,
+        163
+      ],
+      "bbox_normalized": [
+        0.411,
+        0.348,
+        0.769,
+        0.511
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 5.83
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Small element",
+      "description": "A small, indistinct element located towards the bottom right, not clearly defined.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.552,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Another small element",
+      "description": "Another small, indistinct element positioned towards the bottom left, lacking clear features.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        200
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.53,
+        0.22,
+        0.628
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 11,
+      "role": "headline",
+      "label": "Main offer headline",
+      "description": "A large, bold headline at the bottom of the ad, prominently displaying the main offer.",
+      "text_content": "Exclusive tonight Ne Shop now",
+      "bbox_xyxy": [
+        81,
+        204,
+        234,
+        299
+      ],
+      "bbox_normalized": [
+        0.253,
+        0.637,
+        0.731,
+        0.934
+      ],
+      "center_normalized": [
+        0.492,
+        0.786
+      ],
+      "area_percentage": 14.19
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "PulsePlay logo",
+      "description": "A small logo positioned at the top left, featuring a simple design with rounded shapes.",
+      "text_content": "PulsePlay",
+      "bbox_xyxy": [
+        25,
+        21,
+        99,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.309,
+        0.116
+      ],
+      "center_normalized": [
+        0.194,
+        0.091
+      ],
+      "area_percentage": 1.16
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and vibrant, exclusive offers, bold text.",
+    "layout_text": "The logo is at the top left, the main headline is centered, and the CTA is at the bottom center.",
+    "ocr_text": "Exclusive tonight, Shop now, PulsePlay",
+    "elements_text": "logo: A small logo positioned at the top left, featuring a simple design with rounded shapes. | body_text: Bold white text stating 'Exclusive tonight' is centrally placed, drawing attention with its large font size. | body_text: Smaller white text below the main headline, providing additional context about the offer. | cta: A prominent button with the text 'Shop now' in white, encouraging immediate action, located at the bottom center. | decorative_element: Several overlapping circular shapes in varying sizes, adding visual interest to the background. | decorative_element: A large rectangular shape in the center, providing a backdrop for the text elements. | decorative_element: More geometric shapes scattered throughout the ad, enhancing the modern aesthetic. | unknown: A small, indistinct element located towards the bottom right, not clearly defined. | unknown: Another small, indistinct element positioned towards the bottom left, lacking clear features. | headline: A large, bold headline at the bottom of the ad, prominently displaying the main offer. text='Exclusive tonight Ne Shop now' | logo: A small logo positioned at the top left, featuring a simple design with rounded shapes. text='PulsePlay'"
+  }
+}

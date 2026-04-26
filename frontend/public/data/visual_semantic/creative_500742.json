@@ -1,0 +1,362 @@
+{
+  "creative_id": "500742",
+  "asset_file": "assets/creative_500742.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a modern design with layered visual elements and a clear call to action.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting a weekend escape deal for $4.99.",
+    "dominant_colors": [
+      "#00BFFF",
+      "#FFFFFF"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "decorative_element",
+      "label": "Top background area",
+      "description": "A solid color background occupying the top portion of the ad, providing a clean and modern look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main visual area",
+      "description": "A large rectangular area in the center featuring abstract shapes, creating a visually engaging focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.504
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.82
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Secondary visual area",
+      "description": "Another rectangular shape in the center, slightly overlapping with the main visual area, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        99,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.31,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.415
+      ],
+      "area_percentage": 12.57
+    },
+    {
+      "id": 4,
+      "role": "main_subject",
+      "label": "Additional visual area",
+      "description": "A smaller rectangle in the center, contributing to the layered visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.338,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.429
+      ],
+      "area_percentage": 10.88
+    },
+    {
+      "id": 5,
+      "role": "main_subject",
+      "label": "Overlapping visual area",
+      "description": "A narrow rectangle positioned centrally, enhancing the complexity of the design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.302,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.541,
+        0.429
+      ],
+      "area_percentage": 8.74
+    },
+    {
+      "id": 6,
+      "role": "main_subject",
+      "label": "Left visual area",
+      "description": "A smaller rectangular shape on the left side of the center, adding variety to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 7,
+      "role": "main_subject",
+      "label": "Right visual area",
+      "description": "A larger rectangular shape on the right side, balancing the overall visual weight.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.339,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 8,
+      "role": "main_subject",
+      "label": "Small visual area",
+      "description": "A small circular shape in the center, providing a contrast to the rectangular elements.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.179,
+        0.249,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 6.51
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Body text area",
+      "description": "A small text area positioned lower in the center, containing promotional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.53,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional body text",
+      "description": "A slightly smaller text area below the previous one, reinforcing the promotional message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.217,
+        0.626
+      ],
+      "center_normalized": [
+        0.17,
+        0.579
+      ],
+      "area_percentage": 0.88
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent text area at the bottom of the ad, urging viewers to take action with a clear message.",
+      "text_content": "Escape this weekend $4.99 Order now",
+      "bbox_xyxy": [
+        22,
+        204,
+        251,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.637,
+        0.784,
+        0.934
+      ],
+      "center_normalized": [
+        0.427,
+        0.786
+      ],
+      "area_percentage": 21.25
+    },
+    {
+      "id": 12,
+      "role": "logo",
+      "label": "Advertiser logo",
+      "description": "A small logo positioned at the top left, representing the brand identity.",
+      "text_content": "HorizonHop",
+      "bbox_xyxy": [
+        24,
+        19,
+        113,
+        37
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.059,
+        0.353,
+        0.116
+      ],
+      "center_normalized": [
+        0.214,
+        0.087
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 13,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag in the top left corner indicating user-generated content, adding credibility.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        25,
+        57,
+        57,
+        71
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.178,
+        0.178,
+        0.222
+      ],
+      "center_normalized": [
+        0.128,
+        0.2
+      ],
+      "area_percentage": 0.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, promoting a weekend escape deal.",
+    "layout_text": "The headline is centrally positioned, with the main visual elements in the center and the CTA at the bottom.",
+    "ocr_text": "Escape this weekend, $4.99, Order now, HorizonHop, UGC",
+    "elements_text": "decorative_element: A solid color background occupying the top portion of the ad, providing a clean and modern look. | main_subject: A large rectangular area in the center featuring abstract shapes, creating a visually engaging focal point. | main_subject: Another rectangular shape in the center, slightly overlapping with the main visual area, adding depth. | main_subject: A smaller rectangle in the center, contributing to the layered visual effect. | main_subject: A narrow rectangle positioned centrally, enhancing the complexity of the design. | main_subject: A smaller rectangular shape on the left side of the center, adding variety to the composition. | main_subject: A larger rectangular shape on the right side, balancing the overall visual weight. | main_subject: A small circular shape in the center, providing a contrast to the rectangular elements. | body_text: A small text area positioned lower in the center, containing promotional information. | body_text: A slightly smaller text area below the previous one, reinforcing the promotional message. | cta: A prominent text area at the bottom of the ad, urging viewers to take action with a clear message. text='Escape this weekend $4.99 Order now' | logo: A small logo positioned at the top left, representing the brand identity. text='HorizonHop' | social_proof: A small tag in the top left corner indicating user-generated content, adding credibility. text='UGC'"
+  }
+}

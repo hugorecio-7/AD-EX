@@ -1,0 +1,242 @@
+{
+  "creative_id": "500420",
+  "asset_file": "assets/creative_500420.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a bold orange background with prominent text and call-to-action elements.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a food delivery service with a sale and free delivery offer.",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid orange background",
+      "description": "A vibrant solid orange background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.5,
+        0.468
+      ],
+      "area_percentage": 48.22
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Empty space",
+      "description": "A blank area in the center of the ad, possibly for a product image or placeholder.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "A small circular shape located in the center, likely representing a button or icon.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Small circle",
+      "description": "Another small circular shape positioned near the previous one, possibly for design consistency.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Main offer text",
+      "description": "Bold white text stating 'Your cravings, delivered' with a subtext in smaller font for delivery details.",
+      "text_content": "Your cravings, delivered Free delivery over $15",
+      "bbox_xyxy": [
+        57,
+        405,
+        306,
+        500
+      ],
+      "bbox_normalized": [
+        0.158,
+        0.633,
+        0.85,
+        0.781
+      ],
+      "center_normalized": [
+        0.504,
+        0.707
+      ],
+      "area_percentage": 10.27
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "Sale announcement",
+      "description": "Large, bold text at the top reading 'PlateSprint SALE' in a contrasting color.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        24,
+        34,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.479,
+        0.091
+      ],
+      "area_percentage": 6.19
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom with the text 'Start now' encouraging user interaction.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "price",
+      "label": "Price display",
+      "description": "A small text displaying the price '€9.99' in a noticeable font at the bottom.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag at the top left corner labeled 'UGC' indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, key elements include sale announcement and call to action.",
+    "layout_text": "The headline is at the top, the main offer text is centered, and the CTA is at the bottom.",
+    "ocr_text": "PlateSprint SALE, Your cravings, delivered, Free delivery over $15, Start now, €9.99, UGC",
+    "elements_text": "unknown: A blank area in the center of the ad, possibly for a product image or placeholder. | unknown: A small circular shape located in the center, likely representing a button or icon. | unknown: Another small circular shape positioned near the previous one, possibly for design consistency. | body_text: Bold white text stating 'Your cravings, delivered' with a subtext in smaller font for delivery details. text='Your cravings, delivered Free delivery over $15' | headline: Large, bold text at the top reading 'PlateSprint SALE' in a contrasting color. text='PlateSprint SALE' | cta: A prominent button at the bottom with the text 'Start now' encouraging user interaction. text='Start now' | price: A small text displaying the price '€9.99' in a noticeable font at the bottom. text='€9.99' | social_proof: A small tag at the top left corner labeled 'UGC' indicating user-generated content. text='UGC'"
+  }
+}

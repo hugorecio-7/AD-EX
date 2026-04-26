@@ -1,0 +1,242 @@
+{
+  "creative_id": "500667",
+  "asset_file": "assets/creative_500667.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a clean layout with a focus on promotional text and a call to action.",
+    "visual_style": "minimalist with bold typography",
+    "main_message": "Promoting last-minute savings on hotels and flights.",
+    "dominant_colors": [
+      "black",
+      "yellow"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A central graphic element that appears to be a placeholder shape, possibly an abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        93,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.259,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.519,
+        0.43
+      ],
+      "area_percentage": 9.36
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "Another central graphic element that resembles a placeholder shape, likely complementing the first.",
+      "text_content": null,
+      "bbox_xyxy": [
+        123,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.561,
+        0.43
+      ],
+      "area_percentage": 7.86
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Central graphic element",
+      "description": "A third central graphic element that looks like a placeholder shape, maintaining the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        278,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.773,
+        0.519
+      ],
+      "center_normalized": [
+        0.585,
+        0.43
+      ],
+      "area_percentage": 6.67
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "CloudRoute logo",
+      "description": "A simple logo featuring the text 'CloudRoute' in a clean, modern font, positioned at the top.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        187
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.293
+      ],
+      "center_normalized": [
+        0.068,
+        0.237
+      ],
+      "area_percentage": 1.51
+    },
+    {
+      "id": 5,
+      "role": "headline",
+      "label": "Main promotional text",
+      "description": "Bold, large text stating 'Last-minute savings' in a prominent position at the bottom of the ad.",
+      "text_content": "Last-minute savings Hotels flights in one tap",
+      "bbox_xyxy": [
+        65,
+        409,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.181,
+        0.639,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 9.04
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Additional details",
+      "description": "Smaller text below the headline that reads 'Hotels + flights in one tap', providing more information.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        26,
+        45,
+        153,
+        69
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.07,
+        0.425,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.089
+      ],
+      "area_percentage": 1.32
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Start now' in a clear, inviting font, located at the bottom of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 8,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A bright yellow badge with the word 'SALE' in bold text, positioned at the top right corner.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, minimalist with bold typography, Last-minute savings, Hotels + flights in one tap, Start now",
+    "layout_text": "The headline is at the bottom center, the logo is at the top left, and the CTA is at the bottom center.",
+    "ocr_text": "Last-minute savings, Hotels + flights in one tap, CloudRoute, Start now, SALE",
+    "elements_text": "unknown: A central graphic element that appears to be a placeholder shape, possibly an abstract design. | unknown: Another central graphic element that resembles a placeholder shape, likely complementing the first. | unknown: A third central graphic element that looks like a placeholder shape, maintaining the abstract theme. | logo: A simple logo featuring the text 'CloudRoute' in a clean, modern font, positioned at the top. | headline: Bold, large text stating 'Last-minute savings' in a prominent position at the bottom of the ad. text='Last-minute savings Hotels flights in one tap' | body_text: Smaller text below the headline that reads 'Hotels + flights in one tap', providing more information. text='CloudRoute' | cta: A button with the text 'Start now' in a clear, inviting font, located at the bottom of the ad. text='Start now' | discount_badge: A bright yellow badge with the word 'SALE' in bold text, positioned at the top right corner. text='SALE'"
+  }
+}

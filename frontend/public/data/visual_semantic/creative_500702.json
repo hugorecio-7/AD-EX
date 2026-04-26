@@ -1,0 +1,266 @@
+{
+  "creative_id": "500702",
+  "asset_file": "assets/creative_500702.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with prominent text highlighting a sale.",
+    "visual_style": "bright and modern",
+    "main_message": "Promoting a travel booking service at a discounted price.",
+    "dominant_colors": [
+      "purple",
+      "yellow"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Purple gradient background",
+      "description": "A smooth purple gradient background that fills the canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        245,
+        160
+      ],
+      "bbox_normalized": [
+        0.169,
+        0.253,
+        0.768,
+        0.503
+      ],
+      "center_normalized": [
+        0.468,
+        0.378
+      ],
+      "area_percentage": 14.97
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "SALE DriftPass",
+      "description": "Bold, large text at the top left corner, with 'SALE' in a bright yellow badge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        98,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.178,
+        0.308,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.414
+      ],
+      "area_percentage": 12.81
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Booking message",
+      "description": "Centered text that reads 'Book your next trip' in a clear, modern font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.339,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.43
+      ],
+      "area_percentage": 10.84
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Placeholder shapes",
+      "description": "Two abstract shapes in the center, one oval and one rectangle, in a lighter shade of purple.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        80,
+        157,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.253,
+        0.493,
+        0.467
+      ],
+      "center_normalized": [
+        0.332,
+        0.36
+      ],
+      "area_percentage": 6.91
+    },
+    {
+      "id": 5,
+      "role": "price",
+      "label": "Price tag",
+      "description": "Small text at the bottom left corner displaying the price '€9.99' in white.",
+      "text_content": null,
+      "bbox_xyxy": [
+        24,
+        268,
+        36,
+        283
+      ],
+      "bbox_normalized": [
+        0.077,
+        0.84,
+        0.115,
+        0.885
+      ],
+      "center_normalized": [
+        0.096,
+        0.862
+      ],
+      "area_percentage": 0.17
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "Text at the bottom center that says 'Try for free' in a bold font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        60,
+        269,
+        70,
+        282
+      ],
+      "bbox_normalized": [
+        0.188,
+        0.841,
+        0.222,
+        0.884
+      ],
+      "center_normalized": [
+        0.205,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "A small icon at the bottom left, possibly representing a feature or option.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        269,
+        50,
+        283
+      ],
+      "bbox_normalized": [
+        0.121,
+        0.841,
+        0.156,
+        0.885
+      ],
+      "center_normalized": [
+        0.139,
+        0.863
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Small icon",
+      "description": "Another small icon at the bottom right, similar in style to the previous one.",
+      "text_content": null,
+      "bbox_xyxy": [
+        72,
+        269,
+        83,
+        282
+      ],
+      "bbox_normalized": [
+        0.227,
+        0.841,
+        0.262,
+        0.884
+      ],
+      "center_normalized": [
+        0.244,
+        0.862
+      ],
+      "area_percentage": 0.15
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Flexible options",
+      "description": "Text below the main booking message that reads 'Flexible booking options' in a smaller font.",
+      "text_content": "Book your next trip €9.99xite tons Try for free",
+      "bbox_xyxy": [
+        22,
+        206,
+        278,
+        299
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.644,
+        0.869,
+        0.934
+      ],
+      "center_normalized": [
+        0.469,
+        0.789
+      ],
+      "area_percentage": 23.25
+    },
+    {
+      "id": 10,
+      "role": "headline",
+      "label": "SALE DriftPass",
+      "description": "Repeating bold text at the top left corner, emphasizing the sale.",
+      "text_content": "SALE DriftPass",
+      "bbox_xyxy": [
+        9,
+        25,
+        287,
+        69
+      ],
+      "bbox_normalized": [
+        0.028,
+        0.078,
+        0.897,
+        0.216
+      ],
+      "center_normalized": [
+        0.463,
+        0.147
+      ],
+      "area_percentage": 11.95
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, bright and modern, SALE DriftPass, Book your next trip, €9.99, Try for free",
+    "layout_text": "The headline is positioned at the top left, the main body text is centered, and the CTA is at the bottom center.",
+    "ocr_text": "SALE DriftPass, Book your next trip, €9.99, Try for free, flexible booking options",
+    "elements_text": "headline: Bold, large text at the top left corner, with 'SALE' in a bright yellow badge. | body_text: Centered text that reads 'Book your next trip' in a clear, modern font. | unknown: Two abstract shapes in the center, one oval and one rectangle, in a lighter shade of purple. | price: Small text at the bottom left corner displaying the price '€9.99' in white. | cta: Text at the bottom center that says 'Try for free' in a bold font. | unknown: A small icon at the bottom left, possibly representing a feature or option. | unknown: Another small icon at the bottom right, similar in style to the previous one. | body_text: Text below the main booking message that reads 'Flexible booking options' in a smaller font. text='Book your next trip €9.99xite tons Try for free' | headline: Repeating bold text at the top left corner, emphasizing the sale. text='SALE DriftPass'"
+  }
+}

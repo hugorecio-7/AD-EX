@@ -1,0 +1,170 @@
+{
+  "creative_id": "500377",
+  "asset_file": "assets/creative_500377.png",
+  "canvas": {
+    "width": 320,
+    "height": 480
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with geometric shapes and clear text elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting a secure and simple financial service with no hidden fees.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "trustworthy"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and engaging backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        56,
+        141,
+        249,
+        249
+      ],
+      "bbox_normalized": [
+        0.177,
+        0.294,
+        0.781,
+        0.52
+      ],
+      "center_normalized": [
+        0.479,
+        0.407
+      ],
+      "area_percentage": 13.67
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Geometric shapes",
+      "description": "Two overlapping geometric shapes, one circular and one rectangular, are centered in the background, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        116,
+        158,
+        224
+      ],
+      "bbox_normalized": [
+        0.171,
+        0.243,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.355
+      ],
+      "area_percentage": 7.3
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Additional shape",
+      "description": "A smaller circular shape is positioned towards the bottom, contributing to the overall design without a specific function.",
+      "text_content": null,
+      "bbox_xyxy": [
+        37,
+        262,
+        70,
+        294
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.547,
+        0.22,
+        0.614
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold white text stating 'Secure & simple' is prominently displayed, with a smaller line below it reading 'No hidden fees'.",
+      "text_content": "Secure & simple No hidden fees",
+      "bbox_xyxy": [
+        33,
+        307,
+        289,
+        355
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.64,
+        0.903,
+        0.74
+      ],
+      "center_normalized": [
+        0.503,
+        0.69
+      ],
+      "area_percentage": 8.0
+    },
+    {
+      "id": 5,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'ClearLedger' appears at the top in a clear, modern font, establishing brand identity.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        22,
+        23,
+        173,
+        60
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.048,
+        0.541,
+        0.125
+      ],
+      "center_normalized": [
+        0.305,
+        0.086
+      ],
+      "area_percentage": 3.64
+    },
+    {
+      "id": 6,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button at the bottom reads 'Claim reward' in bold text, inviting user interaction.",
+      "text_content": "Claim reward",
+      "bbox_xyxy": [
+        97,
+        419,
+        221,
+        439
+      ],
+      "bbox_normalized": [
+        0.303,
+        0.873,
+        0.691,
+        0.915
+      ],
+      "center_normalized": [
+        0.497,
+        0.894
+      ],
+      "area_percentage": 1.61
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, banner, modern and minimalistic, ClearLedger, Secure & simple, Claim reward",
+    "layout_text": "The logo is positioned at the top, the headline is centered in the middle, and the CTA is at the bottom.",
+    "ocr_text": "Secure & simple, No hidden fees, ClearLedger, Claim reward",
+    "elements_text": "decorative_element: Two overlapping geometric shapes, one circular and one rectangular, are centered in the background, adding visual interest. | unknown: A smaller circular shape is positioned towards the bottom, contributing to the overall design without a specific function. | headline: Bold white text stating 'Secure & simple' is prominently displayed, with a smaller line below it reading 'No hidden fees'. text='Secure & simple No hidden fees' | logo: The logo 'ClearLedger' appears at the top in a clear, modern font, establishing brand identity. text='ClearLedger' | cta: A prominent button at the bottom reads 'Claim reward' in bold text, inviting user interaction. text='Claim reward'"
+  }
+}

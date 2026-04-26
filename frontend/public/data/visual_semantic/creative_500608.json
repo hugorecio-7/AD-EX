@@ -1,0 +1,650 @@
+{
+  "creative_id": "500608",
+  "asset_file": "assets/creative_500608.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a prominent headline, logo, and call to action with a clean layout.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Encourages viewers to watch trending content.",
+    "dominant_colors": [
+      "red",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        320,
+        320
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "headline",
+      "label": "Watch what's trending",
+      "description": "A bold, prominent text element at the top of the ad, likely in a white or light color against a contrasting background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        56
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.999,
+        0.176
+      ],
+      "center_normalized": [
+        0.5,
+        0.088
+      ],
+      "area_percentage": 17.56
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "BingeLayer logo",
+      "description": "A stylized logo featuring the text 'BingeLayer', likely in a modern font, positioned centrally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        158,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.495,
+        0.467
+      ],
+      "center_normalized": [
+        0.333,
+        0.353
+      ],
+      "area_percentage": 7.4
+    },
+    {
+      "id": 3,
+      "role": "cta",
+      "label": "Start now button",
+      "description": "A rounded button with the text 'Start now', designed to stand out, likely in a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        44,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.138,
+        0.551,
+        0.401,
+        0.65
+      ],
+      "center_normalized": [
+        0.27,
+        0.601
+      ],
+      "area_percentage": 2.63
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Background shapes",
+      "description": "Abstract shapes in the background, possibly in muted colors, adding visual interest without distracting from the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        72,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.228,
+        0.949,
+        0.377
+      ],
+      "center_normalized": [
+        0.892,
+        0.302
+      ],
+      "area_percentage": 1.71
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Cancel anytime text",
+      "description": "Smaller text below the CTA, likely in a lighter color, providing additional information about the service.",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        300,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.201,
+        0.938,
+        0.275
+      ],
+      "center_normalized": [
+        0.827,
+        0.238
+      ],
+      "area_percentage": 1.65
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Top left element",
+      "description": "A small, possibly decorative element located at the top left of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        58,
+        36,
+        88
+      ],
+      "bbox_normalized": [
+        0.004,
+        0.182,
+        0.115,
+        0.277
+      ],
+      "center_normalized": [
+        0.06,
+        0.229
+      ],
+      "area_percentage": 1.07
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "Another small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        90,
+        303,
+        120
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.283,
+        0.949,
+        0.376
+      ],
+      "center_normalized": [
+        0.892,
+        0.33
+      ],
+      "area_percentage": 1.06
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top center element",
+      "description": "A small element at the top center, likely decorative or informational.",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        64,
+        227,
+        94
+      ],
+      "bbox_normalized": [
+        0.599,
+        0.2,
+        0.711,
+        0.294
+      ],
+      "center_normalized": [
+        0.655,
+        0.247
+      ],
+      "area_percentage": 1.05
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center left element",
+      "description": "A small element located towards the center left, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        96,
+        176,
+        128,
+        208
+      ],
+      "bbox_normalized": [
+        0.301,
+        0.551,
+        0.4,
+        0.65
+      ],
+      "center_normalized": [
+        0.351,
+        0.601
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Lower center element",
+      "description": "A small element located in the lower center area, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.529,
+        0.22,
+        0.629
+      ],
+      "center_normalized": [
+        0.171,
+        0.579
+      ],
+      "area_percentage": 0.96
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small element positioned at the top right, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        229,
+        64,
+        265,
+        88
+      ],
+      "bbox_normalized": [
+        0.716,
+        0.201,
+        0.83,
+        0.275
+      ],
+      "center_normalized": [
+        0.773,
+        0.238
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Top center right element",
+      "description": "A small element located at the top center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        64,
+        227,
+        88
+      ],
+      "bbox_normalized": [
+        0.598,
+        0.201,
+        0.711,
+        0.276
+      ],
+      "center_normalized": [
+        0.654,
+        0.239
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small element positioned at the top right, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        64,
+        303,
+        88
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.2,
+        0.948,
+        0.275
+      ],
+      "center_normalized": [
+        0.892,
+        0.238
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Top center left element",
+      "description": "A small element located at the top center left, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        153,
+        64,
+        189,
+        88
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.201,
+        0.593,
+        0.276
+      ],
+      "center_normalized": [
+        0.536,
+        0.239
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "A small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        149
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.281,
+        0.999,
+        0.467
+      ],
+      "center_normalized": [
+        0.976,
+        0.374
+      ],
+      "area_percentage": 0.85
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "Another small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        179
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.382,
+        0.999,
+        0.561
+      ],
+      "center_normalized": [
+        0.976,
+        0.471
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 17,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "A small element located towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        105,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.33,
+        0.999,
+        0.478
+      ],
+      "center_normalized": [
+        0.976,
+        0.404
+      ],
+      "area_percentage": 0.68
+    },
+    {
+      "id": 18,
+      "role": "unknown",
+      "label": "Center left element",
+      "description": "A small element located towards the center left, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        155,
+        90,
+        189,
+        107
+      ],
+      "bbox_normalized": [
+        0.484,
+        0.282,
+        0.592,
+        0.335
+      ],
+      "center_normalized": [
+        0.538,
+        0.309
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 19,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small element positioned at the top right, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        267,
+        57,
+        303,
+        73
+      ],
+      "bbox_normalized": [
+        0.835,
+        0.181,
+        0.949,
+        0.229
+      ],
+      "center_normalized": [
+        0.892,
+        0.205
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 20,
+      "role": "unknown",
+      "label": "Top right element",
+      "description": "A small element positioned at the top right, likely decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        58,
+        319,
+        88
+      ],
+      "bbox_normalized": [
+        0.953,
+        0.182,
+        0.999,
+        0.276
+      ],
+      "center_normalized": [
+        0.976,
+        0.229
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 21,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "A small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        122,
+        319,
+        152
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.382,
+        0.999,
+        0.477
+      ],
+      "center_normalized": [
+        0.977,
+        0.429
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 22,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "A small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        90,
+        319,
+        120
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.281,
+        0.999,
+        0.377
+      ],
+      "center_normalized": [
+        0.977,
+        0.329
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 23,
+      "role": "unknown",
+      "label": "Center right element",
+      "description": "A small element positioned towards the center right, possibly decorative.",
+      "text_content": null,
+      "bbox_xyxy": [
+        305,
+        154,
+        319,
+        184
+      ],
+      "bbox_normalized": [
+        0.954,
+        0.481,
+        0.999,
+        0.577
+      ],
+      "center_normalized": [
+        0.977,
+        0.529
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 24,
+      "role": "body_text",
+      "label": "Main call to action",
+      "description": "A large text element at the bottom of the ad, encouraging viewers to engage with the content.",
+      "text_content": "Watch what's trending Start now",
+      "bbox_xyxy": [
+        56,
+        204,
+        266,
+        299
+      ],
+      "bbox_normalized": [
+        0.175,
+        0.637,
+        0.831,
+        0.934
+      ],
+      "center_normalized": [
+        0.503,
+        0.786
+      ],
+      "area_percentage": 19.48
+    },
+    {
+      "id": 25,
+      "role": "logo",
+      "label": "BingeLayer branding",
+      "description": "A small logo element at the top left, featuring the text 'BingeLayer' in a modern font.",
+      "text_content": "BingeLayer",
+      "bbox_xyxy": [
+        25,
+        21,
+        111,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.347,
+        0.116
+      ],
+      "center_normalized": [
+        0.212,
+        0.091
+      ],
+      "area_percentage": 1.34
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, key elements include a headline, logo, and call to action.",
+    "layout_text": "The headline is at the top, the logo is centered, and the CTA is at the bottom.",
+    "ocr_text": "Watch what's trending, Start now, BingeLayer",
+    "elements_text": "headline: A bold, prominent text element at the top of the ad, likely in a white or light color against a contrasting background. | logo: A stylized logo featuring the text 'BingeLayer', likely in a modern font, positioned centrally. | cta: A rounded button with the text 'Start now', designed to stand out, likely in a contrasting color. | decorative_element: Abstract shapes in the background, possibly in muted colors, adding visual interest without distracting from the main message. | body_text: Smaller text below the CTA, likely in a lighter color, providing additional information about the service. | unknown: A small, possibly decorative element located at the top left of the ad. | unknown: Another small element positioned towards the center right, possibly decorative. | unknown: A small element at the top center, likely decorative or informational. | unknown: A small element located towards the center left, possibly decorative. | unknown: A small element located in the lower center area, possibly decorative. | unknown: A small element positioned at the top right, likely decorative. | unknown: A small element located at the top center right, possibly decorative. | unknown: A small element positioned at the top right, likely decorative. | unknown: A small element located at the top center left, possibly decorative. | unknown: A small element positioned towards the center right, possibly decorative. | unknown: Another small element positioned towards the center right, possibly decorative. | unknown: A small element located towards the center right, possibly decorative. | unknown: A small element located towards the center left, possibly decorative. | unknown: A small element positioned at the top right, likely decorative. | unknown: A small element positioned at the top right, likely decorative. | unknown: A small element positioned towards the center right, possibly decorative. | unknown: A small element positioned towards the center right, possibly decorative. | unknown: A small element positioned towards the center right, possibly decorative. | body_text: A large text element at the bottom of the ad, encouraging viewers to engage with the content. text='Watch what's trending Start now' | logo: A small logo element at the top left, featuring the text 'BingeLayer' in a modern font. text='BingeLayer'"
+  }
+}

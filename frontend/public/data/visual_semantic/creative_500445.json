@@ -1,0 +1,242 @@
+{
+  "creative_id": "500445",
+  "asset_file": "assets/creative_500445.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern design with geometric shapes and clear messaging.",
+    "visual_style": "minimalist with geometric shapes",
+    "main_message": "Promoting financial clarity and peace of mind.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "calm"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant and calming base.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large light blue rectangle and an oval shape are centered, creating a modern and abstract visual.",
+      "text_content": null,
+      "bbox_xyxy": [
+        62,
+        153,
+        178,
+        298
+      ],
+      "bbox_normalized": [
+        0.174,
+        0.24,
+        0.497,
+        0.467
+      ],
+      "center_normalized": [
+        0.335,
+        0.354
+      ],
+      "area_percentage": 7.32
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional geometric shapes",
+      "description": "A smaller light blue square and two circles are arranged within the main subject area, adding depth and interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        217,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.34,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.92
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small light blue circle positioned towards the bottom center, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Another small circle",
+      "description": "Another small light blue circle, similar to the previous one, positioned slightly to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "Bold white text stating 'Your money, clearer' with a smaller tagline below in a clean font.",
+      "text_content": "Your money, clearer Built for peace of mind",
+      "bbox_xyxy": [
+        73,
+        407,
+        288,
+        500
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.636,
+        0.8,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.709
+      ],
+      "area_percentage": 8.68
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent white button with the text 'Shop now' in a bold font, inviting user interaction.",
+      "text_content": "Shop now",
+      "bbox_xyxy": [
+        125,
+        558,
+        232,
+        584
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.872,
+        0.644,
+        0.912
+      ],
+      "center_normalized": [
+        0.496,
+        0.892
+      ],
+      "area_percentage": 1.21
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "A small logo labeled 'EarnPath' in white, positioned at the top left corner.",
+      "text_content": "EarnPath",
+      "bbox_xyxy": [
+        25,
+        49,
+        127,
+        69
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.077,
+        0.353,
+        0.108
+      ],
+      "center_normalized": [
+        0.211,
+        0.092
+      ],
+      "area_percentage": 0.89
+    },
+    {
+      "id": 9,
+      "role": "social_proof",
+      "label": "User-generated content tag",
+      "description": "A small tag labeled 'UGC' in white, positioned at the top left, indicating user-generated content.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, minimalist with geometric shapes, financial clarity.",
+    "layout_text": "The headline is centrally positioned with the main subject, while the CTA is at the bottom.",
+    "ocr_text": "Your money, clearer, Built for peace of mind, Shop now, EarnPath, UGC",
+    "elements_text": "main_subject: A large light blue rectangle and an oval shape are centered, creating a modern and abstract visual. | main_subject: A smaller light blue square and two circles are arranged within the main subject area, adding depth and interest. | decorative_element: A small light blue circle positioned towards the bottom center, serving as a decorative element. | decorative_element: Another small light blue circle, similar to the previous one, positioned slightly to the left. | body_text: Bold white text stating 'Your money, clearer' with a smaller tagline below in a clean font. text='Your money, clearer Built for peace of mind' | cta: A prominent white button with the text 'Shop now' in a bold font, inviting user interaction. text='Shop now' | logo: A small logo labeled 'EarnPath' in white, positioned at the top left corner. text='EarnPath' | social_proof: A small tag labeled 'UGC' in white, positioned at the top left, indicating user-generated content. text='UGC'"
+  }
+}

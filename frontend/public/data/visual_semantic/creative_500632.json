@@ -1,0 +1,266 @@
+{
+  "creative_id": "500632",
+  "asset_file": "assets/creative_500632.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a modern blue abstract background with layered graphic elements and clear promotional text.",
+    "visual_style": "modern abstract with bold text",
+    "main_message": "Promoting special fares for smarter flying.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "blue abstract background",
+      "description": "A smooth blue background with abstract shapes creating a modern and clean look.",
+      "text_content": null,
+      "bbox_xyxy": [
+        1,
+        103,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.005,
+        0.161,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.502,
+        0.26
+      ],
+      "area_percentage": 19.59
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "central graphic element",
+      "description": "A large rectangular shape in the center, possibly representing a product or service, with a subtle gradient.",
+      "text_content": null,
+      "bbox_xyxy": [
+        66,
+        168,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.263,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.482,
+        0.391
+      ],
+      "area_percentage": 15.29
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "oval shape",
+      "description": "An oval shape overlapping the central graphic, adding depth and interest to the composition.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        154,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.172,
+        0.241,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "rectangle shape",
+      "description": "A rectangular shape positioned slightly off-center, contributing to the layered design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        143,
+        218,
+        279,
+        331
+      ],
+      "bbox_normalized": [
+        0.398,
+        0.341,
+        0.776,
+        0.519
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.73
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "small circle",
+      "description": "A small circle located near the top, enhancing the abstract theme of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "lower graphic element",
+      "description": "A small graphic element at the bottom, unclear in purpose but adds to the overall design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "small rectangle",
+      "description": "A small rectangle positioned in the center, possibly a placeholder or decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        200,
+        195,
+        241,
+        216
+      ],
+      "bbox_normalized": [
+        0.556,
+        0.306,
+        0.67,
+        0.339
+      ],
+      "center_normalized": [
+        0.613,
+        0.322
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "brand name",
+      "description": "The text 'NomadLaye' in bold, large font at the top, prominently displaying the brand name.",
+      "text_content": "NomadLaye",
+      "bbox_xyxy": [
+        24,
+        25,
+        360,
+        104
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.039,
+        1.0,
+        0.163
+      ],
+      "center_normalized": [
+        0.533,
+        0.101
+      ],
+      "area_percentage": 11.52
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "promotional message",
+      "description": "The text 'Fly smarter Special fares today' in a clear, readable font, conveying the promotional offer.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        81,
+        411,
+        283,
+        466
+      ],
+      "bbox_normalized": [
+        0.225,
+        0.642,
+        0.786,
+        0.728
+      ],
+      "center_normalized": [
+        0.506,
+        0.685
+      ],
+      "area_percentage": 4.82
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "call to action",
+      "description": "A rounded button with the text 'Get offer' in a contrasting color, inviting user interaction.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        132,
+        558,
+        228,
+        582
+      ],
+      "bbox_normalized": [
+        0.367,
+        0.872,
+        0.633,
+        0.909
+      ],
+      "center_normalized": [
+        0.5,
+        0.891
+      ],
+      "area_percentage": 1.0
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, modern abstract with bold text, brand name, promotional message, call to action",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "NomadLaye, Fly smarter Special fares today, Get offer",
+    "elements_text": "main_subject: A large rectangular shape in the center, possibly representing a product or service, with a subtle gradient. | decorative_element: An oval shape overlapping the central graphic, adding depth and interest to the composition. | decorative_element: A rectangular shape positioned slightly off-center, contributing to the layered design. | decorative_element: A small circle located near the top, enhancing the abstract theme of the ad. | unknown: A small graphic element at the bottom, unclear in purpose but adds to the overall design. | unknown: A small rectangle positioned in the center, possibly a placeholder or decorative element. | headline: The text 'NomadLaye' in bold, large font at the top, prominently displaying the brand name. text='NomadLaye' | body_text: The text 'Fly smarter Special fares today' in a clear, readable font, conveying the promotional offer. text='Fly smarter Special fares today' | cta: A rounded button with the text 'Get offer' in a contrasting color, inviting user interaction. text='Get offer'"
+  }
+}

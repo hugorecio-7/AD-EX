@@ -1,0 +1,338 @@
+{
+  "creative_id": "500670",
+  "asset_file": "assets/creative_500670.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a vibrant blue background with layered shapes and prominent text elements.",
+    "visual_style": "modern and minimalistic",
+    "main_message": "Promoting special fares for smarter travel options.",
+    "dominant_colors": [
+      "blue",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Blue background",
+      "description": "A solid blue background fills the canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        161
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.768,
+        0.505
+      ],
+      "center_normalized": [
+        0.469,
+        0.372
+      ],
+      "area_percentage": 15.87
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Abstract shapes",
+      "description": "Several abstract shapes in lighter blue tones are scattered across the background, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.183,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.65
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Overlay shapes",
+      "description": "An overlay shape in a rectangular form is positioned centrally, creating a focal point.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.317,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.549,
+        0.429
+      ],
+      "area_percentage": 8.45
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Circular shape",
+      "description": "A circular shape in a lighter shade of blue is placed towards the left side of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Large rectangle",
+      "description": "A large rectangular shape is positioned centrally, serving as a container for text.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Small circle",
+      "description": "A small circle in a lighter blue is located towards the bottom left, adding depth.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        156,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.488,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.54
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Overlay rectangle",
+      "description": "Another rectangular overlay is placed slightly off-center, enhancing the layered effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        131,
+        111,
+        246,
+        163
+      ],
+      "bbox_normalized": [
+        0.41,
+        0.348,
+        0.77,
+        0.512
+      ],
+      "center_normalized": [
+        0.59,
+        0.43
+      ],
+      "area_percentage": 5.91
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "The text 'Fly smarter' is prominently displayed in bold, white font, conveying the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        38,
+        169,
+        70,
+        201
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.529,
+        0.221,
+        0.63
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Subheadline",
+      "description": "The text 'Special fares today' is presented below the headline in a smaller, white font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        39,
+        170,
+        69,
+        200
+      ],
+      "bbox_normalized": [
+        0.123,
+        0.532,
+        0.218,
+        0.627
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "The button 'Learn more' is centered at the bottom in a bold, white font, inviting user interaction.",
+      "text_content": "Fly smarter Special fares today",
+      "bbox_xyxy": [
+        65,
+        201,
+        250,
+        255
+      ],
+      "bbox_normalized": [
+        0.203,
+        0.628,
+        0.781,
+        0.797
+      ],
+      "center_normalized": [
+        0.492,
+        0.713
+      ],
+      "area_percentage": 9.76
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' is displayed at the top left in a clear, readable font.",
+      "text_content": "CloudRoute UGC",
+      "bbox_xyxy": [
+        21,
+        20,
+        138,
+        71
+      ],
+      "bbox_normalized": [
+        0.066,
+        0.062,
+        0.431,
+        0.222
+      ],
+      "center_normalized": [
+        0.248,
+        0.142
+      ],
+      "area_percentage": 5.83
+    },
+    {
+      "id": 12,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small yellow badge with the text 'SALE' is positioned at the top right, drawing attention.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        105,
+        279,
+        213,
+        299
+      ],
+      "bbox_normalized": [
+        0.328,
+        0.872,
+        0.666,
+        0.934
+      ],
+      "center_normalized": [
+        0.497,
+        0.903
+      ],
+      "area_percentage": 2.11
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        243,
+        25,
+        287,
+        41
+      ],
+      "bbox_normalized": [
+        0.759,
+        0.078,
+        0.897,
+        0.128
+      ],
+      "center_normalized": [
+        0.828,
+        0.103
+      ],
+      "area_percentage": 0.69
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, modern and minimalistic, promoting travel fares.",
+    "layout_text": "The headline is centrally positioned, with the logo at the top left and the CTA at the bottom.",
+    "ocr_text": "Fly smarter, Special fares today, CloudRoute UGC, Learn more, SALE",
+    "elements_text": "decorative_element: Several abstract shapes in lighter blue tones are scattered across the background, adding visual interest. | decorative_element: An overlay shape in a rectangular form is positioned centrally, creating a focal point. | decorative_element: A circular shape in a lighter shade of blue is placed towards the left side of the ad. | decorative_element: A large rectangular shape is positioned centrally, serving as a container for text. | decorative_element: A small circle in a lighter blue is located towards the bottom left, adding depth. | decorative_element: Another rectangular overlay is placed slightly off-center, enhancing the layered effect. | headline: The text 'Fly smarter' is prominently displayed in bold, white font, conveying the main message. | body_text: The text 'Special fares today' is presented below the headline in a smaller, white font. | cta: The button 'Learn more' is centered at the bottom in a bold, white font, inviting user interaction. text='Fly smarter Special fares today' | logo: The logo 'CloudRoute' is displayed at the top left in a clear, readable font. text='CloudRoute UGC' | discount_badge: A small yellow badge with the text 'SALE' is positioned at the top right, drawing attention. text='Learn more' | unknown:  text='SALE'"
+  }
+}

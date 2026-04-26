@@ -1,0 +1,266 @@
+{
+  "creative_id": "500453",
+  "asset_file": "assets/creative_500453.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with geometric shapes and prominent text elements.",
+    "visual_style": "modern abstract with bold text",
+    "main_message": "Promoting last-minute savings and flexible booking options.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant green background fills the entire canvas, providing a fresh and inviting atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Geometric shapes",
+      "description": "A large square and an oval shape are centered, overlapping slightly, creating a modern abstract design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        61,
+        153,
+        178,
+        299
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.24,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.333,
+        0.354
+      ],
+      "area_percentage": 7.43
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Additional geometric shapes",
+      "description": "A smaller square and two circles are arranged in a visually appealing manner, enhancing the abstract theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        141,
+        218,
+        280,
+        332
+      ],
+      "bbox_normalized": [
+        0.394,
+        0.341,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.587,
+        0.43
+      ],
+      "area_percentage": 6.89
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "CloudRoute logo",
+      "description": "The text 'CloudRoute' is displayed prominently at the top in a bold, modern font, conveying brand identity.",
+      "text_content": null,
+      "bbox_xyxy": [
+        101,
+        31,
+        335,
+        84
+      ],
+      "bbox_normalized": [
+        0.281,
+        0.05,
+        0.931,
+        0.132
+      ],
+      "center_normalized": [
+        0.606,
+        0.091
+      ],
+      "area_percentage": 5.33
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A button with the text 'Try for free' is centered at the bottom, designed to attract user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Flexible booking options",
+      "description": "The text 'Flexible booking options' is presented in a smaller font beneath the main message, providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Last-minute savings message",
+      "description": "The phrase 'Last-minute savings' is prominently displayed in bold, eye-catching text, emphasizing urgency.",
+      "text_content": "Last-minute savings Flexible booking options",
+      "bbox_xyxy": [
+        72,
+        407,
+        286,
+        500
+      ],
+      "bbox_normalized": [
+        0.2,
+        0.636,
+        0.794,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.709
+      ],
+      "area_percentage": 8.64
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Secondary call to action",
+      "description": "A smaller button at the bottom with the text 'Try for free' encourages immediate engagement.",
+      "text_content": "Try for free",
+      "bbox_xyxy": [
+        120,
+        560,
+        240,
+        586
+      ],
+      "bbox_normalized": [
+        0.333,
+        0.875,
+        0.667,
+        0.916
+      ],
+      "center_normalized": [
+        0.5,
+        0.895
+      ],
+      "area_percentage": 1.35
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "Brand logo",
+      "description": "The logo 'CloudRoute' is positioned at the top left, reinforcing brand recognition.",
+      "text_content": "CloudRoute",
+      "bbox_xyxy": [
+        27,
+        49,
+        152,
+        69
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.077,
+        0.422,
+        0.108
+      ],
+      "center_normalized": [
+        0.249,
+        0.092
+      ],
+      "area_percentage": 1.09
+    },
+    {
+      "id": 10,
+      "role": "discount_badge",
+      "label": "Sale announcement",
+      "description": "A small badge with the word 'SALE' is placed at the top right, drawing attention to promotional offers.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, modern abstract with bold text, last-minute savings, flexible booking options",
+    "layout_text": "The headline is at the top, main subjects are centered, and CTAs are at the bottom.",
+    "ocr_text": "CloudRoute, SALE, Last-minute savings, Flexible booking options, Try for free",
+    "elements_text": "main_subject: A large square and an oval shape are centered, overlapping slightly, creating a modern abstract design. | main_subject: A smaller square and two circles are arranged in a visually appealing manner, enhancing the abstract theme. | headline: The text 'CloudRoute' is displayed prominently at the top in a bold, modern font, conveying brand identity. | cta: A button with the text 'Try for free' is centered at the bottom, designed to attract user interaction. | body_text: The text 'Flexible booking options' is presented in a smaller font beneath the main message, providing additional information. | body_text: The phrase 'Last-minute savings' is prominently displayed in bold, eye-catching text, emphasizing urgency. text='Last-minute savings Flexible booking options' | cta: A smaller button at the bottom with the text 'Try for free' encourages immediate engagement. text='Try for free' | logo: The logo 'CloudRoute' is positioned at the top left, reinforcing brand recognition. text='CloudRoute' | discount_badge: A small badge with the word 'SALE' is placed at the top right, drawing attention to promotional offers. text='SALE'"
+  }
+}

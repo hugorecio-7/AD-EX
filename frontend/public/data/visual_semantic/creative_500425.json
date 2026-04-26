@@ -1,0 +1,170 @@
+{
+  "creative_id": "500425",
+  "asset_file": "assets/creative_500425.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant green background with a clear focus on food delivery.",
+    "visual_style": "bright and modern",
+    "main_message": "Quick food delivery service with a special sale.",
+    "dominant_colors": [
+      "green",
+      "black"
+    ],
+    "emotional_tone": "urgent"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid green background",
+      "description": "A vibrant solid green background that fills the entire canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        17,
+        128,
+        343,
+        470
+      ],
+      "bbox_normalized": [
+        0.049,
+        0.201,
+        0.953,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.32
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "Two overlapping rectangles",
+      "description": "Two slightly transparent overlapping rectangles positioned in the center, resembling a placeholder for images.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.46
+      ],
+      "center_normalized": [
+        0.239,
+        0.371
+      ],
+      "area_percentage": 3.2
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Two overlapping rectangles",
+      "description": "Another set of two slightly transparent overlapping rectangles positioned in the center, similar to ID 2.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        197,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.549,
+        0.489
+      ],
+      "center_normalized": [
+        0.46,
+        0.4
+      ],
+      "area_percentage": 3.16
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Dinner in minutes",
+      "description": "Bold, black text stating 'Dinner in minutes' prominently displayed at the center of the ad.",
+      "text_content": "Dinner in minutes Fresh favorites nearby",
+      "bbox_xyxy": [
+        80,
+        409,
+        278,
+        500
+      ],
+      "bbox_normalized": [
+        0.222,
+        0.639,
+        0.772,
+        0.781
+      ],
+      "center_normalized": [
+        0.497,
+        0.71
+      ],
+      "area_percentage": 7.82
+    },
+    {
+      "id": 5,
+      "role": "discount_badge",
+      "label": "PlateSprint SALE",
+      "description": "A bright yellow badge with the text 'PlateSprint SALE' in bold, black font, located at the top of the ad.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        23,
+        31,
+        321,
+        82
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.048,
+        0.892,
+        0.128
+      ],
+      "center_normalized": [
+        0.478,
+        0.088
+      ],
+      "area_percentage": 6.6
+    },
+    {
+      "id": 6,
+      "role": "price",
+      "label": "Price tag",
+      "description": "A bold, black text displaying '€29.99' positioned at the bottom of the ad.",
+      "text_content": "€29.99 Book now",
+      "bbox_xyxy": [
+        24,
+        532,
+        231,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.642,
+        0.908
+      ],
+      "center_normalized": [
+        0.354,
+        0.87
+      ],
+      "area_percentage": 4.4
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, interstitial, bright and modern, quick food delivery service",
+    "layout_text": "The headline is centered, the discount badge is at the top, and the CTA is at the bottom.",
+    "ocr_text": "Dinner in minutes, Fresh favorites nearby, PlateSprint SALE, €29.99, Book now",
+    "elements_text": "unknown: Two slightly transparent overlapping rectangles positioned in the center, resembling a placeholder for images. | unknown: Another set of two slightly transparent overlapping rectangles positioned in the center, similar to ID 2. | headline: Bold, black text stating 'Dinner in minutes' prominently displayed at the center of the ad. text='Dinner in minutes Fresh favorites nearby' | discount_badge: A bright yellow badge with the text 'PlateSprint SALE' in bold, black font, located at the top of the ad. text='PlateSprint SALE' | price: A bold, black text displaying '€29.99' positioned at the bottom of the ad. text='€29.99 Book now'"
+  }
+}

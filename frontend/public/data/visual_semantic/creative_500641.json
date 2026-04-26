@@ -1,0 +1,242 @@
+{
+  "creative_id": "500641",
+  "asset_file": "assets/creative_500641.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant purple background with a clear focus on promotional text and a call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Promoting a food delivery service with a sale offer.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered rectangular area with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 2,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "Another small, centered rectangular area that does not convey specific imagery.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        313
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.489
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered rectangular area with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered rectangular area with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "unknown element",
+      "description": "A small, centered rectangular area with an unclear visual representation.",
+      "text_content": null,
+      "bbox_xyxy": [
+        172,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.479,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Main message text",
+      "description": "A prominent text area at the bottom featuring the message 'Hungry? We got you Fresh favorites nearby' in a clear, readable font.",
+      "text_content": "Hungry? We got you Fresh favorites nearby",
+      "bbox_xyxy": [
+        43,
+        409,
+        323,
+        500
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.897,
+        0.781
+      ],
+      "center_normalized": [
+        0.508,
+        0.71
+      ],
+      "area_percentage": 11.06
+    },
+    {
+      "id": 7,
+      "role": "headline",
+      "label": "Sale headline",
+      "description": "A bold, large text at the top stating 'PlateSprint SALE' in an eye-catching font.",
+      "text_content": "PlateSprint SALE",
+      "bbox_xyxy": [
+        23,
+        30,
+        321,
+        83
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.047,
+        0.892,
+        0.13
+      ],
+      "center_normalized": [
+        0.478,
+        0.088
+      ],
+      "area_percentage": 6.86
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A clear call-to-action button at the bottom with the text '€19.99 Start now' in a prominent, inviting style.",
+      "text_content": "€19.99 Start now",
+      "bbox_xyxy": [
+        24,
+        532,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.357,
+        0.87
+      ],
+      "area_percentage": 4.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown advertiser, unknown vertical, interstitial format, bright and playful visual style, key elements include sale headline and call to action.",
+    "layout_text": "The headline is positioned at the top, the main message is centered, and the call to action is at the bottom.",
+    "ocr_text": "Hungry? We got you Fresh favorites nearby, PlateSprint SALE, €19.99 Start now",
+    "elements_text": "unknown: A small, centered rectangular area with an unclear visual representation. | unknown: Another small, centered rectangular area that does not convey specific imagery. | unknown: A small, centered rectangular area with an unclear visual representation. | unknown: A small, centered rectangular area with an unclear visual representation. | unknown: A small, centered rectangular area with an unclear visual representation. | body_text: A prominent text area at the bottom featuring the message 'Hungry? We got you Fresh favorites nearby' in a clear, readable font. text='Hungry? We got you Fresh favorites nearby' | headline: A bold, large text at the top stating 'PlateSprint SALE' in an eye-catching font. text='PlateSprint SALE' | cta: A clear call-to-action button at the bottom with the text '€19.99 Start now' in a prominent, inviting style. text='€19.99 Start now'"
+  }
+}

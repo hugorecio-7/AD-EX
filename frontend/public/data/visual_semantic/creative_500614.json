@@ -1,0 +1,458 @@
+{
+  "creative_id": "500614",
+  "asset_file": "assets/creative_500614.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a game interface with a prominent title and call to action.",
+    "visual_style": "bright and playful",
+    "main_message": "Join the game with no ads for the first week.",
+    "dominant_colors": [
+      "purple",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 0,
+      "role": "background",
+      "label": "Ad background",
+      "description": "Full canvas background of the mobile advertisement.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 1,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central element with a grid-like pattern, possibly representing a game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        156,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.244,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.368
+      ],
+      "area_percentage": 5.49
+    },
+    {
+      "id": 2,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "Bold text at the top reading 'IronQuest' in a large, prominent font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        210,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.585,
+        0.35
+      ],
+      "center_normalized": [
+        0.342,
+        0.294
+      ],
+      "area_percentage": 5.36
+    },
+    {
+      "id": 3,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A top element with a grid pattern, likely part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.49
+    },
+    {
+      "id": 4,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "Another central element with a grid-like pattern, similar to ID 1.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 5,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A smaller top element with a grid pattern, part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A central element with a grid-like pattern, possibly representing gameplay.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.481,
+        0.436
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 7,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small central element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.171,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A small top element, possibly part of the game interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 9,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small central element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        107,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.299,
+        0.573,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.348,
+        0.601
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A small central element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        173,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.481,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.529,
+        0.581
+      ],
+      "area_percentage": 0.54
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A very small central element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Center element",
+      "description": "A very small central element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A very small top element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "unknown",
+      "label": "Top element",
+      "description": "A very small top element, possibly a decorative feature.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 15,
+      "role": "headline",
+      "label": "Game Title",
+      "description": "Bold text at the top reading 'IronQuest' in a large, prominent font.",
+      "text_content": "IronQuest",
+      "bbox_xyxy": [
+        23,
+        37,
+        327,
+        99
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.058,
+        0.908,
+        0.155
+      ],
+      "center_normalized": [
+        0.486,
+        0.106
+      ],
+      "area_percentage": 8.18
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Game Description",
+      "description": "Text in the center stating 'Join the arena No ads in first week' in a clear, readable font.",
+      "text_content": "Join the arena No ads in first week",
+      "bbox_xyxy": [
+        53,
+        407,
+        303,
+        464
+      ],
+      "bbox_normalized": [
+        0.147,
+        0.636,
+        0.842,
+        0.725
+      ],
+      "center_normalized": [
+        0.494,
+        0.68
+      ],
+      "area_percentage": 6.18
+    },
+    {
+      "id": 17,
+      "role": "cta",
+      "label": "Call to Action",
+      "description": "A button at the bottom with the text 'Learn more' in a prominent, clickable style.",
+      "text_content": "Learn more",
+      "bbox_xyxy": [
+        119,
+        561,
+        241,
+        581
+      ],
+      "bbox_normalized": [
+        0.331,
+        0.877,
+        0.669,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 1.06
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright and playful, IronQuest, Join the arena No ads in first week, Learn more",
+    "layout_text": "The headline is at the top, the main subject is centered, and the CTA is at the bottom.",
+    "ocr_text": "IronQuest, Join the arena No ads in first week, Learn more",
+    "elements_text": "unknown: A central element with a grid-like pattern, possibly representing a game interface. | headline: Bold text at the top reading 'IronQuest' in a large, prominent font. | unknown: A top element with a grid pattern, likely part of the game interface. | unknown: Another central element with a grid-like pattern, similar to ID 1. | unknown: A smaller top element with a grid pattern, part of the game interface. | unknown: A central element with a grid-like pattern, possibly representing gameplay. | unknown: A small central element, possibly a decorative feature. | unknown: A small top element, possibly part of the game interface. | unknown: A small central element, possibly a decorative feature. | unknown: A small central element, possibly a decorative feature. | unknown: A very small central element, possibly a decorative feature. | unknown: A very small central element, possibly a decorative feature. | unknown: A very small top element, possibly a decorative feature. | unknown: A very small top element, possibly a decorative feature. | headline: Bold text at the top reading 'IronQuest' in a large, prominent font. text='IronQuest' | body_text: Text in the center stating 'Join the arena No ads in first week' in a clear, readable font. text='Join the arena No ads in first week' | cta: A button at the bottom with the text 'Learn more' in a prominent, clickable style. text='Learn more'"
+  }
+}

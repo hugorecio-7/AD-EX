@@ -1,0 +1,242 @@
+{
+  "creative_id": "500375",
+  "asset_file": "assets/creative_500375.png",
+  "canvas": {
+    "width": 320,
+    "height": 320
+  },
+  "global": {
+    "description": "The ad features a solid blue background with an app interface mockup and prominent text.",
+    "visual_style": "clean and modern",
+    "main_message": "Promoting a financial app with a focus on clarity and rewards.",
+    "dominant_colors": [
+      "blue",
+      "light blue"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid blue background",
+      "description": "A solid blue background fills the entire canvas, providing a vibrant base for the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        319,
+        57
+      ],
+      "bbox_normalized": [
+        0.002,
+        0.0,
+        0.999,
+        0.18
+      ],
+      "center_normalized": [
+        0.5,
+        0.09
+      ],
+      "area_percentage": 17.92
+    },
+    {
+      "id": 2,
+      "role": "app_screenshot",
+      "label": "App interface mockup",
+      "description": "A rectangular mockup of an app interface with rounded corners, featuring placeholder shapes for cards and buttons.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        245,
+        162
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.769,
+        0.509
+      ],
+      "center_normalized": [
+        0.469,
+        0.374
+      ],
+      "area_percentage": 16.13
+    },
+    {
+      "id": 3,
+      "role": "app_screenshot",
+      "label": "Card design elements",
+      "description": "Two overlapping shapes resembling a card and a button, designed in a light blue color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        58,
+        104,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.184,
+        0.325,
+        0.779,
+        0.52
+      ],
+      "center_normalized": [
+        0.481,
+        0.423
+      ],
+      "area_percentage": 11.64
+    },
+    {
+      "id": 4,
+      "role": "app_screenshot",
+      "label": "Additional card element",
+      "description": "A rectangular shape that looks like a card, positioned within the app interface mockup.",
+      "text_content": null,
+      "bbox_xyxy": [
+        100,
+        107,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.315,
+        0.337,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.548,
+        0.429
+      ],
+      "area_percentage": 8.53
+    },
+    {
+      "id": 5,
+      "role": "app_screenshot",
+      "label": "Card and button layout",
+      "description": "A layout featuring a card and button design, with a light blue color scheme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        76,
+        159,
+        149
+      ],
+      "bbox_normalized": [
+        0.17,
+        0.239,
+        0.497,
+        0.468
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 7.48
+    },
+    {
+      "id": 6,
+      "role": "app_screenshot",
+      "label": "Highlighted card element",
+      "description": "A prominent rectangular shape that resembles a highlighted card within the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        127,
+        108,
+        249,
+        166
+      ],
+      "bbox_normalized": [
+        0.399,
+        0.338,
+        0.78,
+        0.52
+      ],
+      "center_normalized": [
+        0.59,
+        0.429
+      ],
+      "area_percentage": 6.96
+    },
+    {
+      "id": 7,
+      "role": "app_screenshot",
+      "label": "Secondary card design",
+      "description": "A smaller rectangular shape that resembles a secondary card design within the app interface.",
+      "text_content": null,
+      "bbox_xyxy": [
+        57,
+        79,
+        155,
+        147
+      ],
+      "bbox_normalized": [
+        0.18,
+        0.248,
+        0.487,
+        0.46
+      ],
+      "center_normalized": [
+        0.334,
+        0.354
+      ],
+      "area_percentage": 6.52
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "Main headline text",
+      "description": "Bold text stating 'Your money, clearer' positioned at the bottom of the ad, conveying the main message.",
+      "text_content": "Your money, clearer Fast Claim reward",
+      "bbox_xyxy": [
+        63,
+        203,
+        258,
+        299
+      ],
+      "bbox_normalized": [
+        0.197,
+        0.634,
+        0.806,
+        0.934
+      ],
+      "center_normalized": [
+        0.502,
+        0.784
+      ],
+      "area_percentage": 18.28
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "ClearLedger logo",
+      "description": "A small logo at the top left corner, featuring the text 'ClearLedger' in a simple font.",
+      "text_content": "ClearLedger",
+      "bbox_xyxy": [
+        25,
+        21,
+        117,
+        37
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.066,
+        0.366,
+        0.116
+      ],
+      "center_normalized": [
+        0.222,
+        0.091
+      ],
+      "area_percentage": 1.44
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, native, clean and modern, app interface, financial rewards",
+    "layout_text": "The logo is positioned at the top left, the headline is at the bottom, and the app interface mockup is centered.",
+    "ocr_text": "ClearLedger, Your money, clearer, Fast Claim reward",
+    "elements_text": "app_screenshot: A rectangular mockup of an app interface with rounded corners, featuring placeholder shapes for cards and buttons. | app_screenshot: Two overlapping shapes resembling a card and a button, designed in a light blue color. | app_screenshot: A rectangular shape that looks like a card, positioned within the app interface mockup. | app_screenshot: A layout featuring a card and button design, with a light blue color scheme. | app_screenshot: A prominent rectangular shape that resembles a highlighted card within the app interface. | app_screenshot: A smaller rectangular shape that resembles a secondary card design within the app interface. | headline: Bold text stating 'Your money, clearer' positioned at the bottom of the ad, conveying the main message. text='Your money, clearer Fast Claim reward' | logo: A small logo at the top left corner, featuring the text 'ClearLedger' in a simple font. text='ClearLedger'"
+  }
+}
