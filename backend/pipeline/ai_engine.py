@@ -30,6 +30,7 @@ async def generate_ai_variant_real(
     format_type: str,
     metadata: dict,
     pipe=None,
+    num_steps: int = 5,
 ) -> dict:
     time_s = time.time()
 
@@ -46,7 +47,7 @@ async def generate_ai_variant_real(
     from pathlib import Path
     from pipeline.step2_feature_analysis.helpers import OUTPUT_FEATURES_DIR
 
-    _PROJECT_ROOT_ENGINE = Path(__file__).resolve().parent.parent
+    _PROJECT_ROOT_ENGINE = Path(__file__).resolve().parent.parent.parent
     sem_path = OUTPUT_FEATURES_DIR / f"creative_{creative_id}" / "visual_semantic.json"
     # Also check the batch-precomputed location (frontend/public/data/visual_semantic/)
     sem_path_public = _PROJECT_ROOT_ENGINE / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{creative_id}.json"
@@ -80,6 +81,7 @@ async def generate_ai_variant_real(
                 metadata=metadata,
                 missing_features=missing_features,
                 pipe=pipe,
+                num_steps=num_steps,
             )
             print(f"[Engine] Step 4a — Generated image: {new_file}")
         except Exception as e:

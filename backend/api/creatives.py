@@ -279,13 +279,19 @@ async def upgrade_creative(creative_id: str, request: Request):
     Full AI upgrade pipeline:
       SAM mask → SD inpainting → composite → persist → return result.
     """
+    # Read optional num_steps from request body
+    body = {}
+    try:
+        body = await request.json()
+    except Exception:
+        pass
+    num_steps = max(1, min(int(body.get("num_steps", 5)), 30))
+
     # Fetch metadata from the database so the pipeline has context
     metadata = get_creative_by_id(creative_id)
     if metadata is None:
-        # Graceful fallback — pipeline can still run with empty metadata
         metadata = {"id": creative_id}
 
-    # Grab the shared SD pipe from app state (set in main.py)
     pipe = getattr(request.app.state, "pipe", None)
 
     try:
@@ -294,6 +300,7 @@ async def upgrade_creative(creative_id: str, request: Request):
             format_type=metadata.get("format", ""),
             metadata=metadata,
             pipe=pipe,
+            num_steps=num_steps,
         )
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc))

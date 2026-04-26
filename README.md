@@ -17,3 +17,5 @@ npm run dev
 ```bash
 python backend/convert_data.py
 ```
+
+Stop-Process -Id (Get-NetTCPConnection -LocalPort 8000).OwningProcess -Force

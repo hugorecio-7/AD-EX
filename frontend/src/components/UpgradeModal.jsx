@@ -1,5 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { upgradeImage, fetchCtrPrediction } from '../services/api';
+
+// Same hook as CreativeCard — lazily fetches visual_semantic global description
+function useCreativeDescription(creativeId) {
+  const [description, setDescription] = useState(null);
+  useEffect(() => {
+    if (!creativeId) return;
+    fetch(`/data/visual_semantic/creative_${creativeId}.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(data => { if (data?.global?.description) setDescription(data.global.description); })
+      .catch(() => {});
+  }, [creativeId]);
+  return description;
+}
 
 const COUNTRIES = ['US', 'ES', 'UK', 'DE', 'FR', 'IT', 'BR', 'MX', 'JP', 'CA'];
 const OS_OPTS   = ['iOS', 'Android'];
@@ -35,7 +48,7 @@ function LineChart({ series }) {
   const xLabels = [1, 7, 14, 21, 30].filter(d => d <= seqLen);
 
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-full">
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-full" preserveAspectRatio="none">
       <g transform={`translate(${PAD.left},${PAD.top})`}>
         {yTicks.map((t, i) => (
           <g key={i}>
@@ -81,6 +94,11 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   const [isUpgrading, setIsUpgrading]   = useState(false);
   const [upgradedData, setUpgradedData] = useState(null);
   const [currentStep, setCurrentStep]   = useState(0);
+  const [quality, setQuality]           = useState('medium'); // low | medium | high
+
+  // Semantic description (same source as CreativeCard tooltip)
+  const semanticDesc = useCreativeDescription(creative?.id);
+  const displayDescription = semanticDesc || creative?.insights || null;
 
   // Forecast state
   const [showForecast, setShowForecast]           = useState(false);
@@ -102,12 +120,14 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   if (!isOpen || !creative) return null;
 
   const handleUpgrade = async () => {
+    const QUALITY_STEPS = { low: 2, medium: 5, high: 15 };
+    const numSteps = QUALITY_STEPS[quality] || 5;
     setIsUpgrading(true);
     setCurrentStep(0);
     const stepInterval = setInterval(() => {
       setCurrentStep(prev => prev < UPGRADE_STEPS.length - 1 ? prev + 1 : prev);
     }, 2800);
-    const result = await upgradeImage(creative.id);
+    const result = await upgradeImage(creative.id, { numSteps });
     clearInterval(stepInterval);
     setUpgradedData(result);
     setIsUpgrading(false);
@@ -166,48 +186,23 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
 
   const genSeries = buildSeries(prediction?.generated);
 
+  const IMG_H = 'h-[42vh]';  // shared image slot height – both columns identical
+
   return (
     <div className="fixed inset-0 bg-slate-900/90 backdrop-blur-xl z-[100] flex items-center justify-center p-0 md:p-6 animate-in fade-in duration-300">
-      <div className="bg-white md:rounded-[3rem] shadow-2xl w-full h-full md:h-auto md:max-w-6xl md:max-h-[90vh] overflow-y-auto flex flex-col md:flex-row relative border border-white/20">
+      <div className="bg-white md:rounded-[2.5rem] shadow-2xl w-full h-full md:h-[90vh] md:max-w-6xl overflow-hidden flex flex-col border border-white/20">
 
-        {/* Left: Original */}
-        <div className="w-full md:flex-1 bg-slate-50 p-6 md:p-10 flex flex-col justify-center border-b md:border-b-0 md:border-r border-slate-100">
-          <div className="mb-6">
-            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-500 mb-2 block">Source Asset</span>
-            <h3 className="text-2xl md:text-3xl font-black tracking-tighter uppercase italic">{creative.advertiser}</h3>
+        {/* ── Header bar ── */}
+        <div className="flex items-center justify-between px-6 md:px-10 py-4 border-b border-slate-100 flex-shrink-0">
+          <div>
+            <span className="text-[9px] font-black uppercase tracking-[0.25em] text-indigo-500">AD-EX · Creative Upgrade</span>
+            <h2 className="text-lg font-black tracking-tighter uppercase italic leading-none">{creative.advertiser}</h2>
           </div>
-          <div className="relative group rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-slate-300 bg-slate-900 flex items-center justify-center">
-            <img src={creative.image_url} alt="Original"
-              className="w-full h-auto object-contain aspect-[9/16] max-h-[40vh] md:max-h-[55vh]" />
-            <div className="absolute inset-0 bg-red-500/10 mix-blend-overlay pointer-events-none"></div>
-          </div>
-          <div className="mt-8 space-y-4">
-            <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-widest text-slate-400 border-b border-slate-200 pb-2">
-              <span>Performance</span>
-              <span className={creative.fatigued ? 'text-red-500' : 'text-emerald-500'}>
-                {creative.fatigued ? 'Fatigued' : `Score ${creative.performance_score}`}
-              </span>
-            </div>
-            {creative.insights && (
-              <p className="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">"{ creative.insights}"</p>
-            )}
-          </div>
-        </div>
-
-        {/* Right: AI Upgrade / Forecast */}
-        <div className="w-full md:flex-1 p-6 md:p-10 flex flex-col bg-white">
-          <div className="mb-6 md:mb-8 flex items-center justify-between">
-            <div>
-              <span className="text-[10px] font-black uppercase tracking-[0.2em] text-emerald-500 mb-2 block">PixelForge Diffusion V4</span>
-              <h3 className="text-2xl md:text-3xl font-black tracking-tighter uppercase italic">
-                {showForecast ? 'CTR Forecast' : 'AI Reconstruction'}
-              </h3>
-            </div>
-            {/* Toggle button — only visible after upgrade success */}
+          <div className="flex items-center gap-2">
             {upgradedData?.success && (
               <button
                 onClick={() => { setShowForecast(p => !p); if (!showForecast && !prediction) runForecast(); }}
-                className={`px-4 py-2 rounded-2xl font-black text-[10px] uppercase tracking-widest transition-all ${
+                className={`px-4 py-2 rounded-xl font-black text-[10px] uppercase tracking-widest transition-all ${
                   showForecast
                     ? 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                     : 'bg-indigo-600 text-white shadow-lg shadow-indigo-200 hover:bg-indigo-700'
@@ -216,98 +211,155 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                 {showForecast ? '← Back' : '📈 Forecast'}
               </button>
             )}
-            {/* Close button — always rightmost */}
-            <button
-              onClick={onClose}
-              className="w-9 h-9 bg-slate-100 hover:bg-slate-200 rounded-xl flex items-center justify-center text-slate-500 transition-all flex-shrink-0"
-              aria-label="Close"
-            >
-              ✕
-            </button>
+            <button onClick={onClose}
+              className="w-9 h-9 bg-slate-100 hover:bg-slate-200 rounded-xl flex items-center justify-center text-slate-500 transition-all"
+              aria-label="Close">✕</button>
+          </div>
+        </div>
+
+        {/* ── Body: two equal columns ── */}
+        <div className="flex-1 flex flex-col md:flex-row overflow-hidden min-h-0">
+
+          {/* Left: Original */}
+          <div className="md:flex-1 bg-slate-50 flex flex-col border-b md:border-b-0 md:border-r border-slate-100 overflow-hidden">
+            <div className="px-6 md:px-8 pt-5 pb-2 flex-shrink-0">
+              <span className="text-[9px] font-black uppercase tracking-[0.2em] text-slate-400 block mb-0.5">Original</span>
+              <div className="flex justify-between items-center">
+                <span className="text-xs font-black text-slate-700 uppercase tracking-tight">{creative.format}</span>
+                <span className={`text-[10px] font-black uppercase tracking-widest ${creative.fatigued ? 'text-red-500' : 'text-emerald-500'}`}>
+                  {creative.fatigued ? '⚠ Fatigued' : `Score ${creative.performance_score}`}
+                </span>
+              </div>
+            </div>
+            {/* Image — fixed height, no overflow */}
+            <div className={`mx-4 md:mx-6 rounded-2xl overflow-hidden bg-slate-900 relative flex-shrink-0 ${IMG_H}`}>
+              <img src={creative.image_url} alt="Original"
+                className="w-full h-full object-contain" />
+              <div className="absolute inset-0 bg-red-500/8 mix-blend-overlay pointer-events-none" />
+            </div>
+            {/* Stats below image */}
+            <div className="px-6 md:px-8 py-4 text-xs text-slate-500 leading-relaxed flex-1 overflow-y-auto">
+              <div className="flex gap-2 flex-wrap mb-2">
+                {[creative.theme, creative.hook_type].filter(Boolean).map(t => (
+                  <span key={t} className="px-2 py-0.5 bg-slate-200 rounded-full text-[10px] font-bold text-slate-500 uppercase tracking-wider">{t}</span>
+                ))}
+              </div>
+              {displayDescription && <p className="italic text-slate-400 line-clamp-3">"{displayDescription}"</p>}
+            </div>
           </div>
 
-          {/* ── UPGRADE SLOT ── */}
-          {!showForecast && (
-            <div className="flex-1 flex flex-col items-center justify-center border-4 border-dashed border-slate-100 rounded-[1.5rem] md:rounded-[2rem] bg-slate-50/50 p-6 md:p-8 relative min-h-[300px]">
-              {!isUpgrading && !upgradedData && (
-                <div className="text-center group">
-                  <div className="text-5xl md:text-7xl mb-6 group-hover:scale-110 transition-transform duration-500">✨</div>
-                  <h4 className="text-base md:text-lg font-black text-slate-800 uppercase tracking-tighter mb-2">Ready for optimization</h4>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-8">Estimated compute: 3.2s</p>
-                  <button onClick={handleUpgrade}
-                    className="bg-indigo-600 hover:bg-emerald-500 text-white font-black px-8 md:px-12 py-4 md:py-5 rounded-xl md:rounded-[1.5rem] shadow-xl shadow-indigo-200 hover:shadow-emerald-200 transition-all active:scale-95 uppercase tracking-widest text-[10px] flex items-center gap-3 mx-auto">
-                    Start AI Generation
-                  </button>
-                </div>
-              )}
+          {/* Right: AI Upgrade / Forecast */}
+          <div className="md:flex-1 flex flex-col bg-white overflow-hidden">
+            <div className="px-6 md:px-8 pt-5 pb-2 flex-shrink-0">
+              <span className="text-[9px] font-black uppercase tracking-[0.2em] text-emerald-500 block mb-0.5">
+                {showForecast ? 'CTR Forecast' : 'AI Generated'}
+              </span>
+              <span className="text-xs font-black text-slate-700 uppercase tracking-tight">PixelForge Diffusion V4</span>
+            </div>
 
-              {isUpgrading && (
-                <div className="text-center w-full">
-                  <div className="w-12 h-12 md:w-16 md:h-16 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mx-auto mb-6"></div>
-                  <h4 className="text-base md:text-lg font-black text-slate-800 italic animate-pulse tracking-tighter mb-6">RUNNING AI PIPELINE...</h4>
-                  <div className="space-y-2 text-left max-w-xs mx-auto">
-                    {UPGRADE_STEPS.map((step, i) => (
-                      <div key={i} className={`flex items-center gap-3 text-[11px] font-bold transition-all ${
-                        i < currentStep ? 'text-emerald-600' : i === currentStep ? 'text-indigo-600 animate-pulse' : 'text-slate-300'
-                      }`}>
-                        <span>{i < currentStep ? '✓' : i === currentStep ? '⟳' : '○'}</span>
-                        {step}
+            {/* ── UPGRADE SLOT – same fixed height as left image ── */}
+            {!showForecast && (
+              <>
+                <div className={`mx-4 md:mx-6 rounded-2xl overflow-hidden bg-slate-100 border-2 border-dashed border-slate-200 flex-shrink-0 ${IMG_H} flex items-center justify-center relative`}>
+
+                  {!isUpgrading && !upgradedData && (
+                    <div className="text-center px-4">
+                      <div className="text-5xl mb-4">✨</div>
+                      <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-4">Ready for optimization</p>
+                      {/* Quality selector */}
+                      <div className="flex justify-center gap-1.5 mb-5">
+                        {[
+                          { key: 'low',    label: 'Fast',   sub: '2 steps'  },
+                          { key: 'medium', label: 'Balanced', sub: '5 steps' },
+                          { key: 'high',   label: 'Detail', sub: '15 steps' },
+                        ].map(({ key, label, sub }) => (
+                          <button key={key} onClick={() => setQuality(key)}
+                            className={`px-3 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all flex flex-col items-center ${
+                              quality === key
+                                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
+                                : 'bg-slate-100 text-slate-400 hover:bg-slate-200'
+                            }`}>
+                            <span>{label}</span>
+                            <span className={`text-[8px] font-bold mt-0.5 ${quality === key ? 'text-indigo-200' : 'text-slate-300'}`}>{sub}</span>
+                          </button>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+                      <button onClick={handleUpgrade}
+                        className="bg-indigo-600 hover:bg-emerald-500 text-white font-black px-8 py-3 rounded-xl shadow-xl shadow-indigo-200 transition-all active:scale-95 uppercase tracking-widest text-[10px] flex items-center gap-2 mx-auto">
+                        Start AI Generation
+                      </button>
+                    </div>
+                  )}
 
-              {upgradedData && !upgradedData.success && (
-                <div className="text-center">
-                  <div className="text-5xl mb-4">⚠️</div>
-                  <h4 className="text-base font-black text-red-600 mb-2">Upgrade Failed</h4>
-                  <p className="text-xs text-slate-500 font-mono bg-slate-100 p-3 rounded-xl">{upgradedData.error}</p>
-                  <button onClick={() => setUpgradedData(null)} className="mt-4 text-[10px] font-black text-indigo-500 uppercase tracking-widest hover:underline">Try Again</button>
-                </div>
-              )}
-
-              {upgradedData?.success && (
-                <div className="animate-in zoom-in duration-700 flex flex-col">
-                  <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-emerald-200 mb-6 md:mb-8 border-4 border-emerald-500 bg-slate-900">
-                    <img
-                      src={upgradedData.newImageUrl}
-                      alt="Upgraded"
-                      className="w-full object-contain" style={{ maxHeight: '55vh' }}
-                    />
-                    <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase tracking-widest shadow-lg">Optimized</div>
-                  </div>
-                  <div className="bg-emerald-50/50 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-emerald-100 mb-4">
-                    <div className="flex justify-between items-center mb-4">
-                      <h5 className="text-[10px] font-black text-emerald-600 uppercase tracking-widest flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></span>
-                        AI Logic Engine
-                      </h5>
-                      <div className="flex gap-2">
-                        <div className="bg-slate-800 text-white text-[10px] font-black px-3 py-1 rounded-lg shadow-lg">Score: {upgradedData.performanceScore}</div>
-                        <div className="bg-emerald-600 text-white text-[10px] font-black px-3 py-1 rounded-lg shadow-lg animate-pulse">Uplift: {upgradedData.predictedUplift}</div>
+                  {isUpgrading && (
+                    <div className="text-center w-full px-4">
+                      <div className="w-12 h-12 border-4 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mx-auto mb-4" />
+                      <h4 className="text-sm font-black text-slate-800 italic animate-pulse tracking-tighter mb-4">RUNNING AI PIPELINE...</h4>
+                      <div className="space-y-1.5 text-left max-w-[200px] mx-auto">
+                        {UPGRADE_STEPS.map((step, i) => (
+                          <div key={i} className={`flex items-center gap-2 text-[10px] font-bold transition-all ${
+                            i < currentStep ? 'text-emerald-600' : i === currentStep ? 'text-indigo-600 animate-pulse' : 'text-slate-300'
+                          }`}>
+                            <span>{i < currentStep ? '✓' : i === currentStep ? '⟳' : '○'}</span>{step}
+                          </div>
+                        ))}
                       </div>
                     </div>
-                    <p className="text-[11px] md:text-sm text-slate-600 font-medium leading-relaxed italic">"{upgradedData.aiReasoning}"</p>
-                  </div>
-                  <div className="mt-4 flex flex-col md:flex-row gap-3">
-                    <button onClick={handleApply}
-                      className="flex-1 bg-emerald-600 hover:bg-indigo-600 text-white font-black py-4 rounded-xl md:rounded-2xl shadow-xl shadow-emerald-100 transition-all active:scale-95 uppercase tracking-widest text-[10px]">
-                      Replace Image
-                    </button>
-                    <button onClick={onClose}
-                      className="flex-1 md:flex-none px-6 py-4 border border-slate-200 text-slate-400 font-black hover:bg-slate-50 rounded-xl md:rounded-2xl transition-all uppercase tracking-widest text-[10px]">
-                      Keep Original
-                    </button>
-                  </div>
+                  )}
+
+                  {upgradedData && !upgradedData.success && (
+                    <div className="text-center px-4">
+                      <div className="text-4xl mb-3">⚠️</div>
+                      <p className="text-xs font-black text-red-600 mb-2">Upgrade Failed</p>
+                      <p className="text-[10px] text-slate-500 font-mono bg-slate-100 p-2 rounded-lg">{upgradedData.error}</p>
+                      <button onClick={() => setUpgradedData(null)} className="mt-3 text-[10px] font-black text-indigo-500 uppercase tracking-widest hover:underline">Try Again</button>
+                    </div>
+                  )}
+
+                  {upgradedData?.success && (
+                    <>
+                      <img src={upgradedData.newImageUrl} alt="Upgraded"
+                        className="w-full h-full object-contain animate-in zoom-in duration-700" />
+                      <div className="absolute top-3 left-3 bg-emerald-500 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase tracking-widest shadow-lg">Optimized</div>
+                    </>
+                  )}
                 </div>
-              )}
-            </div>
-          )}
+
+                {/* Below-image stats + actions */}
+                <div className="px-6 md:px-8 py-4 flex-1 overflow-y-auto">
+                  {upgradedData?.success ? (
+                    <>
+                      <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-4 mb-4">
+                        <div className="flex justify-between items-center mb-2">
+                          <span className="text-[10px] font-black text-emerald-600 uppercase tracking-widest">AI Reasoning</span>
+                          <div className="flex gap-2">
+                            <span className="bg-slate-800 text-white text-[10px] font-black px-2 py-0.5 rounded-lg">Score: {upgradedData.performanceScore}</span>
+                            <span className="bg-emerald-600 text-white text-[10px] font-black px-2 py-0.5 rounded-lg animate-pulse">↑ {upgradedData.predictedUplift}</span>
+                          </div>
+                        </div>
+                        <p className="text-[11px] text-slate-600 leading-relaxed italic line-clamp-3">"{upgradedData.aiReasoning}"</p>
+                      </div>
+                      <div className="flex gap-2">
+                        <button onClick={handleApply}
+                          className="flex-1 bg-emerald-600 hover:bg-indigo-600 text-white font-black py-3 rounded-xl shadow-lg transition-all active:scale-95 uppercase tracking-widest text-[10px]">
+                          Replace Image
+                        </button>
+                        <button onClick={onClose}
+                          className="px-5 py-3 border border-slate-200 text-slate-400 font-black hover:bg-slate-50 rounded-xl transition-all uppercase tracking-widest text-[10px]">
+                          Keep Original
+                        </button>
+                      </div>
+                    </>
+                  ) : (
+                    <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest text-center mt-4">Awaiting generation...</p>
+                  )}
+                </div>
+              </>
+            )}
 
           {/* ── FORECAST SLOT ── fills the whole right space ── */}
           {showForecast && (
-            <div className="flex-1 flex flex-col min-h-0">
+            <div className="flex-1 flex flex-col min-h-0 px-6 md:px-8 py-4 overflow-y-auto">
               {/* Demographic controls */}
               <div className="flex flex-wrap gap-4 items-end mb-4 pb-4 border-b border-slate-100">
                 <div>
@@ -410,8 +462,9 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
               )}
             </div>
           )}
-        </div>
-      </div>
+        </div> {/* end right column */}
+        </div> {/* end body row */}
+      </div> {/* end modal card */}
     </div>
   );
 }

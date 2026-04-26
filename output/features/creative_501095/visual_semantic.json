@@ -1,0 +1,386 @@
+{
+  "creative_id": "501095",
+  "asset_file": "assets/creative_501095.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, creating a cohesive and unified visual experience. The background is predominantly light green, which serves as a canvas for the various elements of the ad. At the top of the ad, prominently displayed, is the 'NeonArena' logo. This logo consists of bold black text on a light green rectangular background, ensuring it stands out and is easily recognizable. The logo is positioned centrally at the top, establishing the brand identity immediately. Below the logo, the ad features a series of decorative elements that contribute to a dynamic and engaging visual composition. These include a grid of light green rounded squares and rectangles, each with a darker green dot in the top left corner, adding a playful and modern touch to the design. These shapes are arranged in the upper section of the ad, creating a sense of movement and rhythm. Additionally, a light green diagonal shape with a gradient effect is located in the top left corner, blending into the background and enhancing the visual depth. A white triangle pointing to the right is positioned towards the upper right section, adjacent to the geometric shapes, adding contrast and directing attention towards the center. In the center of the ad, the main headline reads 'Beat your rivals' in bold black text, with a subheadline 'Free rewards for new players' in smaller black text below. This text is set against the green background, ensuring readability and emphasis on the core message. At the bottom, we see a black rounded rectangle CTA button with white text that reads 'Start now'. This button is centrally located near the bottom, inviting immediate action from the viewer.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Beat your rivals with free rewards for new players",
+    "dominant_colors": [
+      "light green",
+      "black"
+    ],
+    "emotional_tone": "Energetic and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonArena Logo",
+      "description": "A black text 'NeonArena' on a light green rectangular background, located at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Green Rounded Square with Dot",
+      "description": "A light green rounded square with a darker green dot in the top left corner. It is positioned in the upper part of the ad, part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        132,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.368,
+        0.38,
+        0.592,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Green Rounded Rectangle with Dot",
+      "description": "A light green rounded rectangle with a darker green dot in the top left corner. Positioned in the upper section of the ad, part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Green Rounded Square with Dot",
+      "description": "A light green rounded square with a darker green dot in the top left corner. It is positioned in the upper section of the ad, part of a group of similar shapes, contributing to the decorative background design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Green Rounded Square with Dot",
+      "description": "A light green rounded square with a darker green dot in the top left corner. It is positioned in the upper section of the ad, part of a group of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.21,
+        0.435
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Green Diagonal Shape",
+      "description": "A light green diagonal shape located in the top left corner of the ad. It features a triangular form with a gradient effect, blending into the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        188
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.295
+      ],
+      "center_normalized": [
+        0.068,
+        0.238
+      ],
+      "area_percentage": 1.53
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "White Triangle",
+      "description": "A white triangle pointing to the right, positioned on a light green background. It is located towards the upper right section of the ad, adjacent to a series of geometric shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        342,
+        204
+      ],
+      "bbox_normalized": [
+        0.875,
+        0.24,
+        0.951,
+        0.319
+      ],
+      "center_normalized": [
+        0.913,
+        0.28
+      ],
+      "area_percentage": 0.6
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Dark Green Circle",
+      "description": "A small dark green circle located within a larger light green square. It appears in the top left corner of one of the four squares arranged in a grid pattern in the middle section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, dark green circle located near the top left corner of the ad. It is part of a decorative pattern within a larger light green square with rounded corners.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, solid green circle located near the top left corner of the ad. It is part of a decorative pattern within a larger green background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Green Circle",
+      "description": "A small, dark green circle located within a larger light green square with rounded corners. Positioned in the top left corner of the square, it serves as a decorative element in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "NeonArena Logo",
+      "description": "A black bold text 'NeonArena' on a light green rectangular background, positioned at the top of the ad.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        28,
+        40,
+        354,
+        92
+      ],
+      "bbox_normalized": [
+        0.078,
+        0.062,
+        0.983,
+        0.144
+      ],
+      "center_normalized": [
+        0.531,
+        0.103
+      ],
+      "area_percentage": 7.36
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Green Headline Text",
+      "description": "Black bold text reading 'Beat your rivals' with smaller black text below saying 'Free rewards for new players', set against a green background. Positioned centrally in the ad.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.683
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Black CTA Button",
+      "description": "A black rounded rectangle with white text that reads 'Start now', located near the bottom center of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An ad for NeonArena featuring a solid light green background with a prominent logo, dynamic decorative elements, a central headline, and a call-to-action button.",
+    "elements_text": "background: Solid light green background; main_subject: NeonArena logo, headline text, CTA button",
+    "ocr_text": "NeonArena, Beat your rivals, Free rewards for new players, Start now",
+    "layout_text": "Literal structure: NeonArena logo at top center, decorative elements in upper section, headline text in center, CTA button at bottom center"
+  }
+}
