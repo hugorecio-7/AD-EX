@@ -7,7 +7,7 @@ import './Dashboard.css';
 
 function Dashboard() {
   const [creatives, setCreatives] = useState([]);
-  const [allCreatives, setAllCreatives] = useState([]); // Store all for the advertiser to derive dynamic filters
+  const [allCreatives, setAllCreatives] = useState([]);
   const [loading, setLoading] = useState(true);
   const [advertiser, setAdvertiser] = useState(null);
   const [filters, setFilters] = useState({ 
@@ -15,23 +15,37 @@ function Dashboard() {
     theme: 'All',
     hook_type: 'All'
   });
-  const [sortOrder, setSortOrder] = useState('score'); // 'default', 'fatigue', 'score', 'ctr'
+  const [sortOrder, setSortOrder] = useState('score');
   const [selectedCreative, setSelectedCreative] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedChatCreative, setSelectedChatCreative] = useState(null);
   const [isChatOpen, setIsChatOpen] = useState(false);
 
-  const handleApplyUpgrade = (id, newUrl) => {
-    // 1. Update backend (mock data store)
-    updateCreativeImage(id, newUrl);
-    // 2. Refresh local state
-    setCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
-    setAllCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
+  const [chatHistories, setChatHistories] = useState({});
+
+  const handleApplyUpgrade = (newId, newUrl) => {
+    // Update the ORIGINAL creative's image (selectedCreative.id), not the new clone id
+    const originalId = selectedCreative?.id;
+    updateCreativeImage(originalId, newUrl);
+    const patch = (c) =>
+      c.id === originalId ? { ...c, image_url: newUrl + '?t=' + Date.now(), is_upgraded: true } : c;
+    setCreatives(prev => prev.map(patch));
+    setAllCreatives(prev => prev.map(patch));
     setIsModalOpen(false);
+  };
+
+  // Called from chat when Implement is applied
+  const handleApplyImplement = (newId, newUrl) => {
+    // Always update original card by current selected chat creative
+    const originalId = selectedChatCreative?.id;
+    updateCreativeImage(originalId, newUrl);
+    const urlWithBust = newUrl + '?t=' + Date.now();
+    const patch = (c) =>
+      c.id === originalId ? { ...c, image_url: urlWithBust, is_upgraded: true } : c;
+    setCreatives(prev => prev.map(patch));
+    setAllCreatives(prev => prev.map(patch));
+    // Update the chat creative ref so subsequent implements use the new image context
+    setSelectedChatCreative(prev => prev ? { ...prev, image_url: urlWithBust } : prev);
   };
 
   useEffect(() => {
@@ -111,11 +125,13 @@ function Dashboard() {
 
   if (!advertiser) {
     return (
-      <div className="min-h-screen bg-slate-950 flex items-center justify-center p-6 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-indigo-900/20 via-slate-950 to-slate-950 overflow-y-auto">
-        <div className="max-w-6xl w-full text-center py-12">
-          <div className="w-20 h-20 bg-indigo-600 rounded-[2rem] flex items-center justify-center text-white font-black text-4xl shadow-2xl shadow-indigo-500/50 rotate-6 mx-auto mb-10">S</div>
-          <h1 className="text-4xl font-black text-white tracking-tighter mb-4 italic uppercase">Smadex Intelligence</h1>
-          <p className="text-slate-400 font-bold uppercase tracking-[0.2em] text-xs mb-12">Search or select your advertiser profile</p>
+      <div className="min-h-screen bg-slate-950 flex items-center justify-center p-6" style={{background: 'radial-gradient(circle at top right, #1e1b4b 0%, #020617 60%)'}}>
+        <div className="max-w-5xl w-full text-center py-12">
+          <div className="w-20 h-20 bg-indigo-600 rounded-[2rem] flex items-center justify-center text-white font-black text-3xl shadow-2xl shadow-indigo-500/50 rotate-6 mx-auto mb-8">
+            AD
+          </div>
+          <h1 className="text-5xl font-black text-white tracking-tighter mb-2 italic uppercase">AD-EX</h1>
+          <p className="text-slate-400 font-bold uppercase tracking-[0.2em] text-xs mb-10">Select your advertiser profile</p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
             {advertiserOptions.map(adv => (
@@ -129,7 +145,7 @@ function Dashboard() {
             ))}
           </div>
           
-          <p className="mt-20 text-slate-600 text-[9px] font-bold uppercase tracking-[0.4em]">Enterprise Asset Management System | HackUPC 2026</p>
+          <p className="mt-16 text-slate-600 text-[9px] font-bold uppercase tracking-[0.4em]">AD-EX Creative Intelligence · HackUPC 2026</p>
         </div>
       </div>
     );
@@ -140,27 +156,23 @@ function Dashboard() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans w-full pb-20">
       {/* Header */}
-      <nav className="bg-white/90 backdrop-blur-xl border-b border-slate-200 px-4 md:px-8 py-3 flex flex-col md:flex-row justify-between items-center sticky top-0 z-50 w-full shadow-sm gap-4">
+      <nav className="bg-white/90 backdrop-blur-xl border-b border-slate-200 px-4 md:px-8 py-3 flex flex-col md:flex-row justify-between items-center sticky top-0 z-50 w-full shadow-sm gap-3">
         <div className="flex items-center gap-3 self-start md:self-center">
-          <div className="w-8 h-8 md:w-10 md:h-10 bg-indigo-600 rounded-xl md:rounded-2xl flex items-center justify-center text-white font-black shadow-lg shadow-indigo-100 rotate-3 text-sm md:text-base">S</div>
+          <div className="w-8 h-8 bg-indigo-600 rounded-xl flex items-center justify-center text-white font-black shadow-lg shadow-indigo-100 rotate-3 text-[10px] tracking-tighter">AD</div>
           <div>
-            <h1 className="text-lg md:text-xl font-black tracking-tighter leading-none">Smadex <span className="text-indigo-600">Intelligence</span></h1>
-            <p className="text-[9px] md:text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-0.5">Logged in as {advertiser}</p>
+            <h1 className="text-lg font-black tracking-tighter leading-none">AD-<span className="text-indigo-600">EX</span></h1>
+            <p className="text-[9px] text-slate-400 font-bold uppercase tracking-widest mt-0.5">{advertiser}</p>
           </div>
         </div>
         
-        <div className="flex flex-wrap md:flex-nowrap justify-center gap-2 md:gap-3 bg-slate-100/50 p-1.5 rounded-2xl md:rounded-3xl shadow-inner border border-slate-200 w-full md:w-auto">
+        <div className="flex flex-wrap justify-center gap-2 bg-slate-100/50 p-1.5 rounded-2xl shadow-inner border border-slate-200 w-full md:w-auto">
           <button 
-            onClick={() => {
-              setAdvertiser(null);
-              resetFilters();
-              setSortOrder('default');
-            }}
-            className="px-3 md:px-4 py-1.5 md:py-2 rounded-xl text-[9px] md:text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-red-500 transition-colors"
+            onClick={() => { setAdvertiser(null); resetFilters(); setSortOrder('default'); }}
+            className="px-3 py-1.5 rounded-xl text-[9px] font-black uppercase tracking-widest text-slate-400 hover:text-red-500 transition-colors"
           >
             Logout
           </button>
-          <div className="hidden md:block w-px h-6 bg-slate-300 my-auto"></div>
+          <div className="hidden md:block w-px h-5 bg-slate-300 my-auto"></div>
           <select 
             className="flex-1 md:flex-none px-3 md:px-4 py-1.5 md:py-2 rounded-xl text-[10px] md:text-xs font-black uppercase tracking-widest bg-white border-0 shadow-sm focus:ring-2 focus:ring-indigo-500 outline-none cursor-pointer appearance-none"
             value={filters.format}
@@ -267,6 +279,12 @@ function Dashboard() {
         isOpen={isChatOpen}
         onClose={() => setIsChatOpen(false)}
         creative={selectedChatCreative}
+        onApplyImplement={handleApplyImplement}
+        initialMessages={selectedChatCreative ? (chatHistories[selectedChatCreative.id] || []) : []}
+        onHistoryChange={(msgs) => {
+          if (selectedChatCreative)
+            setChatHistories(prev => ({ ...prev, [selectedChatCreative.id]: msgs }));
+        }}
       />
     </div>
   );

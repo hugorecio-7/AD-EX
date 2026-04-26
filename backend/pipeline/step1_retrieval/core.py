@@ -70,6 +70,27 @@ def _load_semantic_embeddings() -> dict | None:
     return _semantic_embeddings
 
 
+_PROJECT_ROOT_RETRIEVAL = Path(__file__).resolve().parent.parent.parent.parent
+
+def _load_visual_semantic_for(creative_id: str) -> dict | None:
+    """Load visual_semantic.json for a creative, checking both output and public dirs."""
+    import json
+    candidates_paths = [
+        _PROJECT_ROOT_RETRIEVAL / "output" / "features" / f"creative_{creative_id}" / "visual_semantic.json",
+        _PROJECT_ROOT_RETRIEVAL / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{creative_id}.json",
+    ]
+    for p in candidates_paths:
+        if p.exists():
+            try:
+                with p.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+                print(f"[Retrieval] Sim: loaded visual_semantic from {p}")
+                return data
+            except Exception as e:
+                print(f"[Retrieval] Sim: failed to read {p}: {e}")
+    return None
+
+
 # ─── main retrieval function ─────────────────────────────────────────────────
 
 def get_best_creatives(
@@ -105,24 +126,87 @@ def get_best_creatives(
 
     candidates = compute_context_score(query, candidates)
 
-    # ── Online: SimilarityScore (optional) ──────────────────────────────────
-    candidates["similarity_score_final"] = 0.5 # Default
+    # ── Online: SimilarityScore ──────────────────────────────────────────────
+    candidates["similarity_score_final"] = 0.5  # Default neutral fallback
     embeddings = _load_semantic_embeddings()
     if embeddings is not None:
-        try:
-            from .created.similarity_score import compute_semantic_similarity_for_existing_creative
-            sim_df = compute_semantic_similarity_for_existing_creative(creative_id_str, embeddings)
-            candidates = candidates.merge(
-                sim_df[["creative_id", "similarity_score_final"]],
-                on="creative_id",
-                how="left",
-                suffixes=("", "_new")
-            )
-            if "similarity_score_final_new" in candidates.columns:
-                candidates["similarity_score_final"] = candidates["similarity_score_final_new"].fillna(0.5)
-                candidates = candidates.drop(columns=["similarity_score_final_new"])
-        except Exception as e:
-            print(f"[Retrieval] Warning: Similarity calculation failed: {e}")
+        creative_ids_in_index = [str(x) for x in embeddings.get("creative_ids", [])]
+        if creative_id_str in creative_ids_in_index:
+            # ── Fast path: query is in the precomputed pickle ──
+            print(f"[Retrieval] Sim: found {creative_id_str} in precomputed embeddings — using fast path.")
+            try:
+                from .created.similarity_score import compute_semantic_similarity_for_existing_creative
+                sim_df = compute_semantic_similarity_for_existing_creative(creative_id_str, embeddings)
+                candidates = candidates.merge(
+                    sim_df[["creative_id", "similarity_score_final"]],
+                    on="creative_id", how="left", suffixes=("", "_new")
+                )
+                if "similarity_score_final_new" in candidates.columns:
+                    candidates["similarity_score_final"] = candidates["similarity_score_final_new"].fillna(0.5)
+                    candidates = candidates.drop(columns=["similarity_score_final_new"])
+                print(f"[Retrieval] Sim: fast-path done. Sample Sim={candidates['similarity_score_final'].mean():.3f} (avg)")
+            except Exception as e:
+                print(f"[Retrieval] Sim: fast-path failed unexpectedly: {e}")
+        else:
+            # ── Slow path: compute embedding on-the-fly from visual_semantic.json ──
+            print(f"[Retrieval] Sim: {creative_id_str} NOT in precomputed index ({len(creative_ids_in_index)} entries). Trying on-the-fly embedding...")
+            _sem_json = _load_visual_semantic_for(creative_id_str)
+            if _sem_json is not None:
+                try:
+                    from .created.similarity_score import cosine_scores_against_query
+                    from .created.config import SENTENCE_EMBEDDING_MODEL
+                    from sentence_transformers import SentenceTransformer
+                    import numpy as np
+
+                    # Build text representation identical to how build_semantic_embeddings does it
+                    g = _sem_json.get("global", {})
+                    query_texts = {
+                        "global_text": g.get("description", "") + " " + " ".join(g.get("tags", [])),
+                        "elements_text": " ".join(
+                            e.get("description", "") for e in _sem_json.get("elements", [])
+                        ),
+                        "ocr_text": g.get("ocr_summary", ""),
+                        "layout_text": g.get("layout", ""),
+                    }
+
+                    print(f"[Retrieval] Sim: loading sentence-transformer '{SENTENCE_EMBEDDING_MODEL}'...")
+                    _st_model = SentenceTransformer(SENTENCE_EMBEDDING_MODEL)
+
+                    field_map = {
+                        "global_text": "global_similarity",
+                        "elements_text": "elements_similarity",
+                        "ocr_text": "ocr_similarity",
+                        "layout_text": "layout_similarity",
+                    }
+                    sim_scores = pd.Series(0.0, index=candidates.index)
+                    from .created.config import SEMANTIC_SIMILARITY_WEIGHTS
+                    total_w = float(sum(SEMANTIC_SIMILARITY_WEIGHTS.values()))
+
+                    for field, col in field_map.items():
+                        emb_key = f"{field}_embeddings"
+                        if emb_key not in embeddings:
+                            continue
+                        matrix = embeddings[emb_key]  # shape (N, D)
+                        q_vec = _st_model.encode(
+                            [query_texts.get(field, "")], normalize_embeddings=True
+                        )[0]
+                        raw = cosine_scores_against_query(q_vec, matrix)  # shape (N,)
+                        # Map [-1,1] → [0,1]
+                        scores_01 = ((raw + 1.0) / 2.0).clip(0.0, 1.0)
+                        # Build a Series aligned to creative_ids_in_index
+                        score_series = pd.Series(
+                            dict(zip(creative_ids_in_index, scores_01))
+                        )
+                        weight = SEMANTIC_SIMILARITY_WEIGHTS.get(field.replace("_text", ""), 0)
+                        sim_scores_raw = candidates["creative_id"].map(score_series).fillna(0.5)
+                        sim_scores = sim_scores + (weight / total_w) * sim_scores_raw
+
+                    candidates["similarity_score_final"] = sim_scores.clip(0.0, 1.0)
+                    print(f"[Retrieval] Sim: on-the-fly done. Sample Sim={candidates['similarity_score_final'].mean():.3f} (avg)")
+                except Exception as e:
+                    print(f"[Retrieval] Sim: on-the-fly embedding failed: {e} — keeping 0.5 fallback")
+            else:
+                print(f"[Retrieval] Sim: no visual_semantic.json found for {creative_id_str} — using 0.5 fallback")
 
     # ── Final blended score ──────────────────────────────────────────────────
     # performance_score_final (offline) × context × similarity

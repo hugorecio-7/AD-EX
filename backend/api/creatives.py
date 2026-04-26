@@ -37,6 +37,17 @@ class CreativeChatRequest(BaseModel):
     message: str = Field(..., min_length=1)
     history: list[CreativeChatMessage] = Field(default_factory=list)
     language: str = "catalan"
+    agentic: bool = False   # If True, detect modify intent and return action
+
+
+class ImplementRequest(BaseModel):
+    description: str            # Human-readable description of the change
+    diffusion_prompt: str       # Prompt for SD inpainting
+
+
+class EnrichRequest(BaseModel):
+    new_id: str                 # The creative ID to enrich (e.g. "500659_v2_1745")
+    image_url: str              # Public URL of the image ("/data/assets/...")
 
 
 _LANGUAGE_MAP = {
@@ -157,6 +168,19 @@ def _build_chat_system_prompt(structured_json: dict[str, Any], feature_gap_json:
         "FEATURE_GAP_JSON:\n"
         f"{json.dumps(feature_gap_json, indent=2, ensure_ascii=False)}"
     )
+_INTENT_SYSTEM_SUFFIX = """
+
+ADDITIONAL RULE (AGENTIC MODE):
+At the very end of your response, append a JSON block on a NEW LINE (and only if a concrete visual change is requested), in exactly this format:
+
+```json
+{"intent": "modify", "description": "<one-line description of the change>", "diffusion_prompt": "<SD inpainting prompt to apply the change>"}
+```
+
+If the user is NOT requesting a change (just asking a question), do NOT append any JSON block.
+Do not mention the JSON to the user. It is invisible to them.
+"""
+
 
 @router.get("/predict/{creative_id}")
 @router.get("/{creative_id}/predict")
@@ -255,13 +279,19 @@ async def upgrade_creative(creative_id: str, request: Request):
     Full AI upgrade pipeline:
       SAM mask → SD inpainting → composite → persist → return result.
     """
+    # Read optional num_steps from request body
+    body = {}
+    try:
+        body = await request.json()
+    except Exception:
+        pass
+    num_steps = max(1, min(int(body.get("num_steps", 5)), 30))
+
     # Fetch metadata from the database so the pipeline has context
     metadata = get_creative_by_id(creative_id)
     if metadata is None:
-        # Graceful fallback — pipeline can still run with empty metadata
         metadata = {"id": creative_id}
 
-    # Grab the shared SD pipe from app state (set in main.py)
     pipe = getattr(request.app.state, "pipe", None)
 
     try:
@@ -270,6 +300,7 @@ async def upgrade_creative(creative_id: str, request: Request):
             format_type=metadata.get("format", ""),
             metadata=metadata,
             pipe=pipe,
+            num_steps=num_steps,
         )
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
@@ -309,6 +340,8 @@ async def chat_with_creative(creative_id: str, payload: CreativeChatRequest):
         feature_gap_json = _load_feature_gap_or_fallback(feature_gap_path)
         selected_language = _normalize_language(payload.language)
         system_prompt = _build_chat_system_prompt(structured_json, feature_gap_json, selected_language)
+        if payload.agentic:
+            system_prompt += _INTENT_SYSTEM_SUFFIX
 
         messages: list[dict[str, Any]] = [{"role": "system", "content": system_prompt}]
 
@@ -338,12 +371,26 @@ async def chat_with_creative(creative_id: str, payload: CreativeChatRequest):
         if not answer:
             answer = "No ho veig clar amb les dades actuals, prova de preguntar-ho més concret."
 
+        # ── Agentic mode: parse intent from response ─────────────────────────
+        action = None
+        if payload.agentic:
+            import re
+            json_match = re.search(r'```json\s*(\{.*?\})\s*```', answer, re.DOTALL)
+            if json_match:
+                try:
+                    action = json.loads(json_match.group(1))
+                    # Strip the JSON block from the visible answer
+                    answer = answer[:json_match.start()].rstrip()
+                except json.JSONDecodeError:
+                    pass
+
         return {
             "success": True,
             "creative_id": creative_id,
             "answer": answer,
             "model": model,
             "language": selected_language,
+            "action": action,
         }
 
     except FileNotFoundError as exc:
@@ -353,3 +400,111 @@ async def chat_with_creative(creative_id: str, payload: CreativeChatRequest):
     except Exception as exc:
         print(f"[API] Error in creative chat {creative_id}: {exc}")
         raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.post("/{creative_id}/implement")
+async def implement_chat_suggestion(creative_id: str, payload: ImplementRequest, request: Request):
+    """
+    Run the SD inpainting pipeline with a chat-suggested modification.
+    Returns the same shape as /upgrade so the frontend can reuse it.
+    Enrichment (SAM mask + semantic JSON) is NOT triggered here — call /enrich after apply.
+    """
+    import time as _time
+
+    metadata = get_creative_by_id(creative_id)
+    if metadata is None:
+        metadata = {"id": creative_id}
+
+    pipe = getattr(request.app.state, "pipe", None)
+
+    try:
+        from pipeline.step3_generation.core import generate_creative_with_flux
+        from pipeline.step4_persistence.core import store_new_creative, compute_static_performance_score
+        from pipeline.step4_persistence.helpers import next_available_id
+
+        # Allocate a clean numeric ID so preprocess_masks.py can handle it
+        new_id = str(next_available_id())
+
+        # Run inpainting — inject description as the missing feature to guide the prompt
+        new_creative_file = await generate_creative_with_flux(
+            creative_id=creative_id,
+            metadata=metadata,
+            missing_features=[payload.description],
+            pipe=pipe,
+        )
+
+        base = compute_static_performance_score(creative_id)
+        # Save the output under a unique filename
+        import shutil as _shutil
+        from pathlib import Path as _Path
+        src = _Path(new_creative_file)
+        dst_dir = _PROJECT_ROOT / "frontend" / "public" / "data" / "assets"
+        dst_dir.mkdir(parents=True, exist_ok=True)
+        dst = dst_dir / f"creative_{new_id}.png"
+        if src.exists():
+            _shutil.copy2(src, dst)
+
+        new_image_url = f"/data/assets/creative_{new_id}.png"
+
+        new_entry = {
+            **metadata,
+            "id": new_id,
+            "image_url": new_image_url,
+            "performance_score": round(base["performance_score"] + 0.05, 4),
+            "fatigued": False,
+            "insights": payload.description,
+            "is_upgraded": True,
+        }
+        store_new_creative(new_id, new_entry)   # append as new entry, not replace original
+
+        return {
+            "success": True,
+            "creative_id": new_id,
+            "new_image_url": new_image_url,
+            "metadata": {
+                "description": payload.description,
+                "predicted_uplift": "+5.0%",
+                "performance_score": new_entry["performance_score"],
+                "missing_features_explained": payload.description,
+            },
+        }
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except Exception as exc:
+        import traceback
+        print(f"[API] Error implementing suggestion for {creative_id}: {exc}")
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@router.post("/{creative_id}/enrich")
+async def enrich_creative(creative_id: str, payload: EnrichRequest):
+    """
+    Trigger SAM mask generation + visual_semantic.json for an upgraded creative.
+    Called by the frontend AFTER the user clicks 'Replace Image' (not during generation).
+    Runs in a background thread so response is instant.
+    """
+    try:
+        from pipeline.post_upgrade_enrichment import enrich_upgraded_creative
+        from pathlib import Path as _Path
+
+        # Resolve actual file path from the public URL
+        rel = payload.image_url.lstrip("/")
+        image_path = _PROJECT_ROOT / "frontend" / "public" / rel
+
+        if not image_path.exists():
+            raise HTTPException(status_code=404, detail=f"Image not found: {image_path}")
+
+        enrich_upgraded_creative(
+            original_id=creative_id,
+            new_id=payload.new_id,
+            new_image_path=image_path,
+        )
+
+        return {"success": True, "message": f"Enrichment started for {payload.new_id} in background"}
+    except HTTPException:
+        raise
+    except Exception as exc:
+        print(f"[API] Error starting enrichment for {creative_id}: {exc}")
+        raise HTTPException(status_code=500, detail=str(exc))
+

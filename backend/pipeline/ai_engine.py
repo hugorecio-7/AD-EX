@@ -30,6 +30,7 @@ async def generate_ai_variant_real(
     format_type: str,
     metadata: dict,
     pipe=None,
+    num_steps: int = 5,
 ) -> dict:
     time_s = time.time()
 
@@ -46,14 +47,19 @@ async def generate_ai_variant_real(
     from pathlib import Path
     from pipeline.step2_feature_analysis.helpers import OUTPUT_FEATURES_DIR
 
+    _PROJECT_ROOT_ENGINE = Path(__file__).resolve().parent.parent.parent
     sem_path = OUTPUT_FEATURES_DIR / f"creative_{creative_id}" / "visual_semantic.json"
-    if not sem_path.exists():
+    # Also check the batch-precomputed location (frontend/public/data/visual_semantic/)
+    sem_path_public = _PROJECT_ROOT_ENGINE / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{creative_id}.json"
+    if not sem_path.exists() and not sem_path_public.exists():
         try:
             image_path = resolve_image_path(creative_id)
             print(f"[Engine] Step 2 — Running GPT-4o Vision enrichment for {creative_id}...")
             await enrich_creative_async(creative_id, metadata, image_path)
         except Exception as e:
             print(f"[Engine] Step 2 Vision enrichment skipped ({e}). Falling back to explain().")
+    else:
+        print(f"[Engine] Step 2 — Semantic JSON already exists for {creative_id}. Skipping enrichment.")
 
     # ── 3. Identify features the target creative is missing ──────────────────
     try:
@@ -75,6 +81,7 @@ async def generate_ai_variant_real(
                 metadata=metadata,
                 missing_features=missing_features,
                 pipe=pipe,
+                num_steps=num_steps,
             )
             print(f"[Engine] Step 4a — Generated image: {new_file}")
         except Exception as e:
@@ -94,8 +101,10 @@ async def generate_ai_variant_real(
     )
 
     # ── 5. Persist the new creative ──────────────────────────────────────────
+    from pipeline.step4_persistence.helpers import next_available_id
     original = get_creative_by_id(creative_id) or {}
-    new_id = f"{creative_id}_v2"
+    # Allocate a fresh numeric ID so preprocess_masks.py can handle it
+    new_id = str(next_available_id())
 
     base = compute_static_performance_score(creative_id)
 
@@ -110,23 +119,42 @@ async def generate_ai_variant_real(
         else base["performance_score"]
     )
 
+    # Save the generated image under a unique filename in the assets dir
+    import shutil as _shutil
+    from pathlib import Path as _Path
+    src = _Path(new_creative_file)
+    _PROJECT_ROOT_ENGINE = _Path(__file__).resolve().parent.parent.parent
+    assets_dir = _PROJECT_ROOT_ENGINE / "frontend" / "public" / "data" / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    new_asset_filename = f"creative_{new_id}.png"
+    dst_asset = assets_dir / new_asset_filename
+    if src.exists():
+        _shutil.copy2(src, dst_asset)
+
+    new_image_url = f"/data/assets/{new_asset_filename}"
+
     new_entry = {
         **original,
         "id": new_id,
-        "image_url": f"/data/assets/creative_{creative_id}_upgraded.png",
+        "image_url": new_image_url,
         "performance_score": round(new_score, 4),
         "fatigued": False,
         "insights": missing_features_explained,
         "cluster_id": original.get("cluster_id", ""),
+        "is_upgraded": True,
     }
-    store_new_creative(creative_id, new_entry)
+    store_new_creative(new_id, new_entry)   # append as new entry, not replace original
+
+    # Note: enrichment (SAM mask + visual_semantic.json) is triggered by the frontend
+    # AFTER the user clicks 'Replace Image', via POST /enrich — not here.
+    # This prevents GPU contention with RNN forecasting.
 
     time_e = time.time()
 
     return {
         "status": "success",
         "creative_id": new_id,
-        "new_image_url": new_entry["image_url"],
+        "new_image_url": new_image_url,
         "metadata": {
             "api_latency_s": round(time_e - time_s, 2),
             "model": "smadex-sam-sdxl-v2",

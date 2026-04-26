@@ -1,0 +1,410 @@
+{
+  "creative_id": "501090",
+  "asset_file": "assets/creative_501090.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant nature background with promotional content focused on a cycling theme.",
+    "visual_style": "bright and engaging",
+    "main_message": "Unlock rare gear with no ads for the first week.",
+    "dominant_colors": [
+      "orange",
+      "green"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Nature landscape background",
+      "description": "A vibrant nature landscape featuring trees and a clear sky, providing a scenic backdrop.",
+      "text_content": null,
+      "bbox_xyxy": [
+        5,
+        0,
+        359,
+        639
+      ],
+      "bbox_normalized": [
+        0.016,
+        0.0,
+        0.998,
+        0.999
+      ],
+      "center_normalized": [
+        0.507,
+        0.5
+      ],
+      "area_percentage": 98.17
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Main content area",
+      "description": "A central rectangular area displaying key promotional content with a contrasting color.",
+      "text_content": null,
+      "bbox_xyxy": [
+        6,
+        96,
+        358,
+        639
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.151,
+        0.997,
+        0.999
+      ],
+      "center_normalized": [
+        0.508,
+        0.575
+      ],
+      "area_percentage": 82.85
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Promotional image",
+      "description": "An engaging image of two cyclists riding on a path, emphasizing an active lifestyle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        6,
+        166,
+        358,
+        639
+      ],
+      "bbox_normalized": [
+        0.019,
+        0.26,
+        0.997,
+        0.999
+      ],
+      "center_normalized": [
+        0.508,
+        0.629
+      ],
+      "area_percentage": 72.26
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Unlock rare gear",
+      "description": "Bold text stating 'Unlock rare gear' in a prominent font, drawing attention to the offer.",
+      "text_content": null,
+      "bbox_xyxy": [
+        26,
+        256,
+        336,
+        298
+      ],
+      "bbox_normalized": [
+        0.073,
+        0.401,
+        0.934,
+        0.466
+      ],
+      "center_normalized": [
+        0.503,
+        0.434
+      ],
+      "area_percentage": 5.55
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "No ads in first week",
+      "description": "Smaller text below the headline that reads 'No ads in first week', providing additional information.",
+      "text_content": null,
+      "bbox_xyxy": [
+        336,
+        0,
+        359,
+        428
+      ],
+      "bbox_normalized": [
+        0.936,
+        0.0,
+        0.998,
+        0.669
+      ],
+      "center_normalized": [
+        0.967,
+        0.334
+      ],
+      "area_percentage": 4.18
+    },
+    {
+      "id": 6,
+      "role": "logo",
+      "label": "PixelForge logo",
+      "description": "A stylized logo with the text 'PixelForge', positioned at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        40,
+        163
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.111,
+        0.256
+      ],
+      "center_normalized": [
+        0.056,
+        0.128
+      ],
+      "area_percentage": 2.84
+    },
+    {
+      "id": 7,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A brightly colored button at the bottom with the text 'Get offer', encouraging user interaction.",
+      "text_content": null,
+      "bbox_xyxy": [
+        336,
+        0,
+        359,
+        228
+      ],
+      "bbox_normalized": [
+        0.936,
+        0.0,
+        0.998,
+        0.357
+      ],
+      "center_normalized": [
+        0.967,
+        0.179
+      ],
+      "area_percentage": 2.23
+    },
+    {
+      "id": 8,
+      "role": "unknown",
+      "label": "Decorative element",
+      "description": "A decorative circular element in the top corner, adding visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        191,
+        367,
+        336,
+        393
+      ],
+      "bbox_normalized": [
+        0.533,
+        0.574,
+        0.934,
+        0.614
+      ],
+      "center_normalized": [
+        0.734,
+        0.594
+      ],
+      "area_percentage": 1.61
+    },
+    {
+      "id": 9,
+      "role": "body_text",
+      "label": "Additional promotional text",
+      "description": "Text that provides more details about the offer, enhancing the main message.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        409,
+        327,
+        463
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.639,
+        0.908,
+        0.723
+      ],
+      "center_normalized": [
+        0.506,
+        0.681
+      ],
+      "area_percentage": 6.8
+    },
+    {
+      "id": 10,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears jumbled and unclear, possibly a placeholder or error.",
+      "text_content": "Hiskn SZ[P NIIM Dtacainllor EItMnJslcienioi",
+      "bbox_xyxy": [
+        26,
+        306,
+        180,
+        376
+      ],
+      "bbox_normalized": [
+        0.072,
+        0.478,
+        0.5,
+        0.588
+      ],
+      "center_normalized": [
+        0.286,
+        0.533
+      ],
+      "area_percentage": 4.68
+    },
+    {
+      "id": 11,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Another instance of unclear text, likely not intended for the final ad.",
+      "text_content": "TOiim J Oirdi] (Jiiehtsh (ateuro) Mr Ganut_{iita] (Ziltzil: QJi Dutaoertujj KvctWL cMeannicpinr] [0,T Mureu uut tee\"slcs Ontgnh*17i ar",
+      "bbox_xyxy": [
+        46,
+        482,
+        312,
+        520
+      ],
+      "bbox_normalized": [
+        0.128,
+        0.753,
+        0.867,
+        0.812
+      ],
+      "center_normalized": [
+        0.497,
+        0.783
+      ],
+      "area_percentage": 4.39
+    },
+    {
+      "id": 12,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "More jumbled text that does not convey a clear message.",
+      "text_content": "Gunuin talunir IDia tep Oicin Grrataeyer4ar]\" [9kagLW",
+      "bbox_xyxy": [
+        37,
+        237,
+        327,
+        253
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.37,
+        0.908,
+        0.395
+      ],
+      "center_normalized": [
+        0.506,
+        0.383
+      ],
+      "area_percentage": 2.01
+    },
+    {
+      "id": 13,
+      "role": "logo",
+      "label": "PixelForge branding",
+      "description": "The brand name 'PixelForge' displayed prominently at the top.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        25,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.235,
+        0.093
+      ],
+      "area_percentage": 1.6
+    },
+    {
+      "id": 14,
+      "role": "cta",
+      "label": "Get offer button",
+      "description": "A small button at the bottom with the text 'Get offer', prompting action.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    },
+    {
+      "id": 15,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Text that appears to be nonsensical or a placeholder.",
+      "text_content": "Vedcle 6 Juaeimk1 *",
+      "bbox_xyxy": [
+        190,
+        272,
+        296,
+        280
+      ],
+      "bbox_normalized": [
+        0.528,
+        0.425,
+        0.822,
+        0.438
+      ],
+      "center_normalized": [
+        0.675,
+        0.431
+      ],
+      "area_percentage": 0.37
+    },
+    {
+      "id": 16,
+      "role": "unknown",
+      "label": "Unclear text",
+      "description": "Another instance of unclear text, likely not intended for the final ad.",
+      "text_content": "Tenlead Te_mEe",
+      "bbox_xyxy": [
+        54,
+        272,
+        148,
+        280
+      ],
+      "bbox_normalized": [
+        0.15,
+        0.425,
+        0.411,
+        0.438
+      ],
+      "center_normalized": [
+        0.281,
+        0.431
+      ],
+      "area_percentage": 0.33
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, rewarded_video, bright and engaging, key elements include promotional text and a call to action.",
+    "layout_text": "The logo is at the top, followed by the headline and body text in the center, with the CTA button at the bottom.",
+    "ocr_text": "Unlock rare gear, No ads in first week, PixelForge, Get offer",
+    "elements_text": "main_subject: A central rectangular area displaying key promotional content with a contrasting color. | main_subject: An engaging image of two cyclists riding on a path, emphasizing an active lifestyle. | headline: Bold text stating 'Unlock rare gear' in a prominent font, drawing attention to the offer. | body_text: Smaller text below the headline that reads 'No ads in first week', providing additional information. | logo: A stylized logo with the text 'PixelForge', positioned at the top of the ad. | cta: A brightly colored button at the bottom with the text 'Get offer', encouraging user interaction. | unknown: A decorative circular element in the top corner, adding visual interest. | body_text: Text that provides more details about the offer, enhancing the main message. text='Unlock rare gear No ads in first week' | unknown: Text that appears jumbled and unclear, possibly a placeholder or error. text='Hiskn SZ[P NIIM Dtacainllor EItMnJslcienioi' | unknown: Another instance of unclear text, likely not intended for the final ad. text='TOiim J Oirdi] (Jiiehtsh (ateuro) Mr Ganut_{iita] (Ziltzil: QJi Dutaoertujj KvctWL cMeannicpinr] [0,T Mureu uut tee\"slcs Ontgnh*17i ar' | unknown: More jumbled text that does not convey a clear message. text='Gunuin talunir IDia tep Oicin Grrataeyer4ar]\" [9kagLW' | logo: The brand name 'PixelForge' displayed prominently at the top. text='PixelForge' | cta: A small button at the bottom with the text 'Get offer', prompting action. text='Get offer' | unknown: Text that appears to be nonsensical or a placeholder. text='Vedcle 6 Juaeimk1 *' | unknown: Another instance of unclear text, likely not intended for the final ad. text='Tenlead Te_mEe'"
+  }
+}

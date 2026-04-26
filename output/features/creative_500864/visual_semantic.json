@@ -1,0 +1,410 @@
+{
+  "creative_id": "500864",
+  "asset_file": "assets/creative_500864.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, creating a clean and uncluttered space. In the top left corner, the 'PixelForge' logo is prominently displayed within a rounded rectangle featuring a light blue background, with the text in white. This logo occupies a significant portion of the upper left area, establishing brand identity immediately. The central area of the ad is dominated by a series of decorative elements, specifically light blue rounded squares with thin white borders. These squares are strategically positioned in a grid-like pattern, creating a sense of order and modernity. Each square contains a smaller dark blue circle in the top left corner, adding a playful yet structured geometric theme. These elements are centrally aligned in the upper half of the ad, overlapping a subtle grid pattern background, which enhances the visual interest without overwhelming the viewer. In the middle right section, a white triangular arrow pointing to the right is positioned, divided into two equal triangles by a vertical line, set against a blue background, suggesting forward movement or progression. Below these decorative elements, the headline text 'Beat your rivals' is prominently displayed in bold white letters against a blue background, with a smaller line of text underneath stating 'No ads in first week'. This headline is centered and commands attention, conveying the main marketing message effectively. At the bottom center of the ad, the call-to-action (CTA) 'Install now' is presented in black text on a white background, inviting immediate engagement from the viewer. The overall composition is balanced and visually appealing, with a clear hierarchy that guides the viewer's eye from the brand logo to the decorative elements, headline, and finally the CTA.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Beat your rivals with no ads in the first week by installing now.",
+    "dominant_colors": [
+      "light blue",
+      "dark blue"
+    ],
+    "emotional_tone": "Energetic and competitive"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A rounded rectangle with a light blue background containing the text 'PixelForge' in white, located in the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        114
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.179
+      ],
+      "center_normalized": [
+        0.499,
+        0.089
+      ],
+      "area_percentage": 17.84
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Blue Rounded Squares",
+      "description": "Two vertically aligned light blue rounded squares with a thin white border. Each square contains a smaller dark blue circle in the top left corner. Positioned centrally in the upper half of the ad, overlapping a grid pattern background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.24,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.366
+      ],
+      "area_percentage": 5.58
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Blue Rounded Squares",
+      "description": "Two light blue rounded squares with a dark blue dot in the top left corner of each. They are outlined in white and positioned side by side in the upper middle section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        45,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.127,
+        0.381,
+        0.594,
+        0.49
+      ],
+      "center_normalized": [
+        0.36,
+        0.436
+      ],
+      "area_percentage": 5.11
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Blue Rounded Square with Dot",
+      "description": "A light blue rounded square with a thin white border, containing a dark blue dot in the top left corner. It is positioned within a grid pattern in the upper section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        213,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.592,
+        0.351
+      ],
+      "center_normalized": [
+        0.481,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Blue Rounded Square with Dot",
+      "description": "A light blue rounded square with a thin white outline, containing a dark blue dot in the top left corner. Positioned in the upper section of the ad, part of a grid-like pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        243,
+        115,
+        314
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.381,
+        0.321,
+        0.491
+      ],
+      "center_normalized": [
+        0.21,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Blue Rounded Square with Dot",
+      "description": "A light blue rounded square with a dark blue dot in the top left corner, positioned in the upper half of the ad, part of a grid pattern.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        213,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.381,
+        0.594,
+        0.49
+      ],
+      "center_normalized": [
+        0.482,
+        0.436
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Blue Rounded Square with Dot",
+      "description": "A light blue rounded square with a dark blue dot in the top left corner, positioned within a grid pattern. It appears in the upper section of the ad, contributing to the decorative grid layout.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        223
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.35
+      ],
+      "center_normalized": [
+        0.21,
+        0.294
+      ],
+      "area_percentage": 2.45
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "White Triangular Arrow",
+      "description": "A white triangular arrow pointing to the right, positioned in the middle right section of the ad. It is divided into two equal triangles by a vertical line, set against a blue background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        315,
+        153,
+        341,
+        203
+      ],
+      "bbox_normalized": [
+        0.877,
+        0.24,
+        0.948,
+        0.318
+      ],
+      "center_normalized": [
+        0.912,
+        0.279
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Dark Blue Circle",
+      "description": "A small dark blue circle located within a grid pattern. It appears as part of a larger design element in the upper section of the ad, contributing to the overall geometric theme.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Dark Blue Circle",
+      "description": "A small dark blue circle located within a grid pattern. It appears in the top left corner of one of the grid squares, contributing to the overall geometric design of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Dark Blue Circle",
+      "description": "A small dark blue circle located within a light blue square. It appears in the top left corner of a grid-like pattern in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "Dark Blue Circle",
+      "description": "A small dark blue circle located within a grid-like pattern. It is positioned near the top left corner of the ad, inside one of the outlined squares.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "headline",
+      "label": "Blue Headline Text",
+      "description": "White bold text reading 'Beat your rivals' with smaller text below saying 'No ads in first week', centered on a blue background.",
+      "text_content": "Beat your rivals No ads in first week",
+      "bbox_xyxy": [
+        43,
+        409,
+        317,
+        463
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.639,
+        0.881,
+        0.723
+      ],
+      "center_normalized": [
+        0.5,
+        0.681
+      ],
+      "area_percentage": 6.42
+    },
+    {
+      "id": 15,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A white text 'PixelForge' on a light blue rounded rectangle background, located in the top left corner of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 16,
+      "role": "cta",
+      "label": "Install Now Text",
+      "description": "Black text reading 'Install now' on a white background, located at the bottom center of the ad.",
+      "text_content": "Install now",
+      "bbox_xyxy": [
+        121,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.336,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.497,
+        0.892
+      ],
+      "area_percentage": 1.01
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An ad for PixelForge featuring a solid background, a prominent logo, decorative geometric elements, a bold headline, and a clear call-to-action.",
+    "elements_text": "background: Solid background covering the full canvas. main_subject: PixelForge Logo in the top left corner, Blue Rounded Squares with dark blue circles in a grid pattern, White Triangular Arrow on the right, Blue Headline Text in the center, Install Now Text at the bottom.",
+    "ocr_text": "PixelForge Beat your rivals No ads in first week Install now",
+    "layout_text": "Literal structure: Solid background at full canvas, PixelForge Logo at top left, Blue Rounded Squares at center upper half, White Triangular Arrow at middle right, Blue Headline Text at center, Install Now Text at bottom center."
+  }
+}

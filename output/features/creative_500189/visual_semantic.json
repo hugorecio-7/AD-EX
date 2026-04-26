@@ -1,0 +1,266 @@
+{
+  "creative_id": "500189",
+  "asset_file": "assets/creative_500189.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and uninterrupted space for the various elements to stand out. At the top of the ad, there is an orange zigzag pattern that serves as a decorative background, creating a dynamic and energetic feel. This pattern consists of alternating light and dark orange triangles, adding a sense of movement and excitement. Positioned centrally in the upper half of the ad are three peach-colored rounded rectangles with thin diagonal lines running across them. These shapes are arranged in a visually pleasing manner, adding depth and interest to the ad. In the top left corner, a small decorative element consisting of an orange shape with a white cut-out section adds a touch of contrast. Towards the left side, slightly above the center, a small beige circle with a thin brown outline provides a subtle decorative touch against the orange background. The brand's logo, 'CrispBox', is prominently displayed at the top of the ad within an orange rounded rectangle, featuring bold black letters that command attention. Below the decorative elements, the headline text 'Your next favorite pick' is centered in white on an orange background, with the phrase 'Only this weekend' in a smaller font below it, creating a sense of urgency. In the lower left section, the price '\u001e29.99' is displayed in yellow text on an orange background, clearly communicating the offer to potential customers.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Discover your next favorite product at an exclusive price, available only this weekend.",
+    "dominant_colors": [
+      "orange",
+      "peach"
+    ],
+    "emotional_tone": "Energetic and inviting, with a sense of urgency"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Orange Zigzag Background",
+      "description": "An orange zigzag pattern that serves as a decorative background. It is located at the top portion of the ad, behind the 'CrispBox' logo and the 'UGC' label. The pattern consists of alternating light and dark orange triangles creating a zigzag effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        81,
+        359,
+        281
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.127,
+        0.998,
+        0.439
+      ],
+      "center_normalized": [
+        0.499,
+        0.283
+      ],
+      "area_percentage": 31.2
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Peach Rounded Rectangle with Diagonal Line",
+      "description": "A peach-colored rounded rectangle with a thin diagonal line running from the top left to the bottom right. It is positioned centrally in the upper half of the ad, among similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.282,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.13
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Peach Rounded Rectangle with Diagonal Line",
+      "description": "A peach-colored rounded rectangle with a thin diagonal line running from the top left to the bottom right. It is located in the upper central area of the ad, among a group of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        213,
+        180,
+        276,
+        293
+      ],
+      "bbox_normalized": [
+        0.592,
+        0.282,
+        0.767,
+        0.459
+      ],
+      "center_normalized": [
+        0.68,
+        0.371
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Peach Rounded Rectangle",
+      "description": "A peach-colored rounded rectangle with a thin brown border and a diagonal brown line across it. It is positioned centrally in the upper half of the ad, among similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Orange and White Decorative Shape",
+      "description": "A small decorative element consisting of an orange shape with a white cut-out section. It is positioned at the top left corner of the ad, featuring a diagonal line that separates the orange and white areas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.089,
+        0.297
+      ],
+      "center_normalized": [
+        0.044,
+        0.239
+      ],
+      "area_percentage": 1.02
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Beige Circle",
+      "description": "A small beige circle with a thin brown outline, positioned towards the left side of the ad, slightly above the center. It contrasts with the orange background, serving as a decorative element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        79,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.22,
+        0.608
+      ],
+      "center_normalized": [
+        0.17,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "CrispBox Logo",
+      "description": "An orange rounded rectangle with the text 'CrispBox' in bold black letters centered inside. Positioned at the top of the ad, it serves as the brand's logo.",
+      "text_content": "CrispBox UGC",
+      "bbox_xyxy": [
+        21,
+        31,
+        296,
+        127
+      ],
+      "bbox_normalized": [
+        0.058,
+        0.048,
+        0.822,
+        0.198
+      ],
+      "center_normalized": [
+        0.44,
+        0.123
+      ],
+      "area_percentage": 11.46
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "White Headline Text",
+      "description": "White text on an orange background, centered in the ad. The text reads 'Your next favorite pick' in a bold font, with 'Only this weekend' in a smaller font below it.",
+      "text_content": "Your next favorite pick Only this weekend",
+      "bbox_xyxy": [
+        68,
+        412,
+        294,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.817,
+        0.781
+      ],
+      "center_normalized": [
+        0.503,
+        0.713
+      ],
+      "area_percentage": 8.63
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Yellow Price Text",
+      "description": "Yellow text displaying '€29.99' positioned on an orange background in the lower left section of the ad.",
+      "text_content": "€29.99 Get offer",
+      "bbox_xyxy": [
+        24,
+        532,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.349,
+        0.87
+      ],
+      "area_percentage": 4.32
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An energetic and inviting ad for CrispBox, featuring a dynamic orange zigzag background, decorative peach shapes, and a bold headline promoting an exclusive weekend offer.",
+    "elements_text": "background: Solid background covering the full canvas. main_subject: CrispBox logo in bold black letters on an orange rounded rectangle.",
+    "ocr_text": "CrispBox Your next favorite pick Only this weekend \u001e29.99",
+    "layout_text": "Literal structure: Solid background at full canvas, Orange Zigzag Background at top portion, Peach Rounded Rectangles at upper central area, Orange and White Decorative Shape at top left corner, Beige Circle at left side above center, CrispBox Logo at top, White Headline Text centered, Yellow Price Text at lower left section."
+  }
+}

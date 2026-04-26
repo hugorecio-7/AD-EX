@@ -1,0 +1,266 @@
+{
+  "creative_id": "500043",
+  "asset_file": "assets/creative_500043.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and unobtrusive backdrop for the elements that follow. The top left corner prominently displays the 'ThreadMark' logo, which consists of black text inside a pink rounded rectangle. Adjacent to the logo is a small yellow rectangle with the word 'SALE' in black, signaling a promotional offer. The upper left section of the ad is adorned with a decorative pink rounded rectangle, outlined in dark pink, with a diagonal line running from the bottom left to the top right, adding a dynamic visual element. Further enhancing the design are three small pink circles with darker pink outlines, aligned horizontally towards the bottom left of the larger pink rectangle. These circles are strategically placed to create a sense of balance and harmony. Centrally positioned is the promotional text, 'Your next favorite pick' in large white font on a red background, with 'Free shipping over $25' in smaller font below, emphasizing the value proposition. At the bottom center, the call-to-action 'Order now' is displayed in black text on a white background, inviting immediate engagement. To the bottom left, a price tag in yellow text on a red rectangular background reads '€9.99', highlighting an attractive price point.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Discover your next favorite item with free shipping on orders over $25.",
+    "dominant_colors": [
+      "pink",
+      "red"
+    ],
+    "emotional_tone": "Exciting and inviting, with a sense of urgency"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "ThreadMark Logo",
+      "description": "A black text 'ThreadMark' inside a pink rounded rectangle, positioned at the top left corner of the ad. To the right, a small yellow rectangle with the word 'SALE'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a dark pink border and a diagonal line running from the bottom left to the top right. It is positioned in the upper left section of the larger pink rounded rectangle in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.239,
+        0.37
+      ],
+      "area_percentage": 3.18
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, located towards the bottom left of the central rectangular area in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, positioned towards the bottom left of the larger pink rectangle in the ad. It is one of three circles aligned horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, located towards the bottom left of the larger pink rectangle in the ad. It is one of three similar circles aligned horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.553,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.581
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Promotional Text",
+      "description": "White text on a red background, positioned centrally. The text reads 'Your next favorite pick' in larger font, with 'Free shipping over $25' in smaller font below it.",
+      "text_content": "Your next favorite pick Free shipping over $25",
+      "bbox_xyxy": [
+        69,
+        412,
+        291,
+        500
+      ],
+      "bbox_normalized": [
+        0.192,
+        0.644,
+        0.808,
+        0.781
+      ],
+      "center_normalized": [
+        0.5,
+        0.713
+      ],
+      "area_percentage": 8.48
+    },
+    {
+      "id": 8,
+      "role": "logo",
+      "label": "ThreadMark Logo",
+      "description": "A pink rectangle with the text 'ThreadMark' in bold black letters on the left, and a yellow rectangle with the text 'SALE' in black on the right. Positioned at the top of the ad.",
+      "text_content": "ThreadMark SALE",
+      "bbox_xyxy": [
+        27,
+        40,
+        321,
+        78
+      ],
+      "bbox_normalized": [
+        0.075,
+        0.062,
+        0.892,
+        0.122
+      ],
+      "center_normalized": [
+        0.483,
+        0.092
+      ],
+      "area_percentage": 4.85
+    },
+    {
+      "id": 9,
+      "role": "cta",
+      "label": "Order Now Text",
+      "description": "Black text reading 'Order now' on a white background, positioned towards the bottom center of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 10,
+      "role": "price",
+      "label": "Price Tag",
+      "description": "A yellow text displaying '€9.99' on a red rectangular background, located near the bottom left of the ad.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "Mobile ad for ThreadMark featuring a solid background, logo with sale tag, decorative pink elements, promotional text, and a call-to-action.",
+    "elements_text": "background: Solid background, main_subject: ThreadMark logo with sale tag, decorative elements: Pink rounded rectangle with diagonal line, pink circles, body_text: 'Your next favorite pick', 'Free shipping over $25', cta: 'Order now', price: '€9.99'",
+    "ocr_text": "ThreadMark SALE Your next favorite pick Free shipping over $25 Order now €9.99",
+    "layout_text": "Literal structure: background at full canvas, logo at top left, decorative rectangle at upper left, circles at bottom left, promotional text at center, cta at bottom center, price at bottom left"
+  }
+}

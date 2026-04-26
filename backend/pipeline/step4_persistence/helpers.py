@@ -29,3 +29,20 @@ def save_data(data):
     except Exception as e:
         print(f"[ERROR] Failed to save data: {e}")
         return False
+def next_available_id() -> int:
+    """
+    Return the smallest integer ID that does not already exist in the database.
+    Generated creatives always get a plain numeric ID so preprocess_masks.py
+    (which does int(cid)) can process them without errors.
+    """
+    data = load_data()
+    existing = set()
+    for entry in data:
+        try:
+            existing.add(int(str(entry.get("id", ""))))
+        except (ValueError, TypeError):
+            pass
+    candidate = max(existing) + 1 if existing else 600000
+    while candidate in existing:
+        candidate += 1
+    return candidate

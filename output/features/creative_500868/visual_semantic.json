@@ -1,0 +1,482 @@
+{
+  "creative_id": "500868",
+  "asset_file": "assets/creative_500868.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, predominantly in shades of orange. In the top left corner, the PixelForge Logo is prominently displayed, consisting of a rounded rectangle with a light orange background and the text 'PixelForge' in bold black font. This logo is set against a dynamic background of jagged, triangular shapes in varying shades of orange, adding a sense of movement and energy to the design. Below the logo, the upper section of the ad contains a grid of decorative elements: peach-colored rounded squares with thin white borders, each containing a small brown circle in the top left corner. These elements are arranged in a 2x2 grid, contributing to a playful and modern aesthetic. In the center-left of the ad, slightly above the headline, two small beige circles with thin brown outlines are positioned, adding subtle texture and depth. The headline 'Unlock rare gear' is prominently featured in bold white text on an orange background, centered in the lower half of the ad. Below the headline, a smaller line of text reads 'No ads in first week', emphasizing a promotional offer. At the bottom, we see a call-to-action (CTA) button, a white rounded rectangle with black text that reads 'Get offer', positioned near the bottom center of the ad. This button stands out against the orange background, inviting interaction.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Unlock rare gear with no ads in the first week",
+    "dominant_colors": [
+      "orange",
+      "white"
+    ],
+    "emotional_tone": "Energetic and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A rounded rectangle with a light orange background containing the text 'PixelForge' in black, located in the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        171
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.268
+      ],
+      "center_normalized": [
+        0.499,
+        0.134
+      ],
+      "area_percentage": 26.71
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A rounded rectangle with a light orange background containing the text 'PixelForge' in bold black font, located in the top left corner of the ad. It is positioned against a background of jagged, triangular shapes in varying shades of orange.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        141
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.221
+      ],
+      "center_normalized": [
+        0.499,
+        0.11
+      ],
+      "area_percentage": 22.03
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A rounded rectangle with a light orange background containing the text 'PixelForge' in bold black font, positioned in the top left corner of the ad. The background features a zigzag pattern in a darker orange shade.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.181
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 18.03
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "White CTA Button",
+      "description": "A white rounded rectangle with black text that reads 'Get offer'. It is positioned near the bottom center of the ad, against an orange background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        98,
+        550,
+        268,
+        628
+      ],
+      "bbox_normalized": [
+        0.274,
+        0.859,
+        0.747,
+        0.982
+      ],
+      "center_normalized": [
+        0.51,
+        0.921
+      ],
+      "area_percentage": 5.81
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Peach Rounded Square with Dot",
+      "description": "A peach-colored rounded square with a thin white border. Inside the square, near the top left corner, is a smaller brown circle. This element is positioned in the upper section of the ad, part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        35,
+        153,
+        115,
+        224
+      ],
+      "bbox_normalized": [
+        0.099,
+        0.239,
+        0.321,
+        0.351
+      ],
+      "center_normalized": [
+        0.21,
+        0.295
+      ],
+      "area_percentage": 2.47
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Peach Rounded Square with Dot",
+      "description": "A peach-colored rounded square with a thin white border. Inside the square, near the top left corner, is a small brown circle. This element is positioned in the upper half of the ad, part of a group of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        153,
+        212,
+        224
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.239,
+        0.59,
+        0.351
+      ],
+      "center_normalized": [
+        0.48,
+        0.295
+      ],
+      "area_percentage": 2.46
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Peach Rounded Square with Dot",
+      "description": "A peach-colored rounded square with a brown dot in the top left corner, located in the upper middle section of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        36,
+        243,
+        115,
+        313
+      ],
+      "bbox_normalized": [
+        0.101,
+        0.38,
+        0.321,
+        0.49
+      ],
+      "center_normalized": [
+        0.211,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 9,
+      "role": "decorative_element",
+      "label": "Peach Rounded Square with Dot",
+      "description": "A peach-colored rounded square with a thin white outline, containing a smaller brown circle in the top left corner. Positioned in the upper half of the ad, part of a grid of similar shapes.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        243,
+        212,
+        313
+      ],
+      "bbox_normalized": [
+        0.37,
+        0.38,
+        0.59,
+        0.49
+      ],
+      "center_normalized": [
+        0.48,
+        0.435
+      ],
+      "area_percentage": 2.43
+    },
+    {
+      "id": 10,
+      "role": "decorative_element",
+      "label": "Orange Diagonal Shape",
+      "description": "A diagonal shape with a darker orange color, located in the upper left corner of the ad. It intersects with a lighter orange background and has a sharp triangular edge.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        48,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.135,
+        0.297
+      ],
+      "center_normalized": [
+        0.068,
+        0.239
+      ],
+      "area_percentage": 1.56
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "Beige Circle",
+      "description": "A small beige circle with a thin brown outline, positioned towards the center-left of the ad, slightly above the text 'Unlock rare gear'.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 12,
+      "role": "decorative_element",
+      "label": "Beige Circle",
+      "description": "A small beige circle located near the center of the ad, slightly to the left. It is positioned above the text 'Unlock rare gear' and is one of two similar circles.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 13,
+      "role": "decorative_element",
+      "label": "Brown Circle",
+      "description": "A small brown circle located within one of the larger rounded squares in the middle of the ad. It is positioned towards the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        160,
+        161,
+        181
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.251,
+        0.45,
+        0.284
+      ],
+      "center_normalized": [
+        0.42,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 14,
+      "role": "decorative_element",
+      "label": "Brown Circle",
+      "description": "A small brown circle located within a larger light brown square with rounded corners. Positioned in the top left corner of the second square from the left in the top row of a 2x2 grid of similar squares in the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        140,
+        250,
+        161,
+        271
+      ],
+      "bbox_normalized": [
+        0.391,
+        0.392,
+        0.45,
+        0.425
+      ],
+      "center_normalized": [
+        0.42,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 15,
+      "role": "decorative_element",
+      "label": "Brown Circle",
+      "description": "A small brown circle located within a larger light brown circle, positioned in the top left corner of the second square from the left in the top row of four squares in the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        250,
+        65,
+        271
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.392,
+        0.181,
+        0.425
+      ],
+      "center_normalized": [
+        0.151,
+        0.408
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 16,
+      "role": "decorative_element",
+      "label": "Brown Circle",
+      "description": "A small brown circle located within a larger light brown circle, positioned in the top left corner of the second square from the left in the top row of four squares on the PixelForge ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        160,
+        65,
+        181
+      ],
+      "bbox_normalized": [
+        0.122,
+        0.251,
+        0.181,
+        0.284
+      ],
+      "center_normalized": [
+        0.151,
+        0.268
+      ],
+      "area_percentage": 0.2
+    },
+    {
+      "id": 17,
+      "role": "headline",
+      "label": "Unlock rare gear text",
+      "description": "White text on an orange background, centered in the lower half of the ad. The text reads 'Unlock rare gear' in bold, with a smaller line below that says 'No ads in first week'.",
+      "text_content": "Unlock rare gear No ads in first week",
+      "bbox_xyxy": [
+        37,
+        408,
+        328,
+        464
+      ],
+      "bbox_normalized": [
+        0.103,
+        0.637,
+        0.911,
+        0.725
+      ],
+      "center_normalized": [
+        0.507,
+        0.681
+      ],
+      "area_percentage": 7.07
+    },
+    {
+      "id": 18,
+      "role": "logo",
+      "label": "PixelForge Logo",
+      "description": "A black text 'PixelForge' on a light peach rectangular background, located in the top left corner of the ad.",
+      "text_content": "PixelForge",
+      "bbox_xyxy": [
+        23,
+        44,
+        144,
+        75
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.069,
+        0.4,
+        0.117
+      ],
+      "center_normalized": [
+        0.232,
+        0.093
+      ],
+      "area_percentage": 1.63
+    },
+    {
+      "id": 19,
+      "role": "cta",
+      "label": "Get Offer Text",
+      "description": "Black text reading 'Get offer' on a white rounded rectangle background, located towards the bottom center of the ad.",
+      "text_content": "Get offer",
+      "bbox_xyxy": [
+        133,
+        561,
+        227,
+        581
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.877,
+        0.631,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.82
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An ad for PixelForge featuring a solid orange background with a prominent logo, decorative elements, and a clear call-to-action. The ad conveys an energetic and inviting tone, encouraging users to unlock rare gear with no ads in the first week.",
+    "elements_text": "background: Solid orange background; main_subject: PixelForge Logo in top left, decorative peach squares with brown dots, headline 'Unlock rare gear', CTA 'Get offer'.",
+    "ocr_text": "PixelForge, Unlock rare gear, No ads in first week, Get offer",
+    "layout_text": "Literal structure: PixelForge Logo at top left, decorative squares in upper section, headline centered in lower half, CTA button at bottom center."
+  }
+}

@@ -36,8 +36,9 @@ async def generate_creative_with_flux(
     metadata: dict,
     missing_features: list[str],
     pipe=None,
-    num_steps: int = 25,
-    guidance_scale: float = 7.5,
+    num_steps: int = 3,
+    guidance_scale: float = 5.0,
+    strength: float = 0.35,   # low = preserve original, high = more creative freedom
 ) -> str:
     """Full inpainting pipeline.
 
@@ -83,23 +84,31 @@ async def generate_creative_with_flux(
     mask_pil = Image.fromarray(mask_np).resize((target_w, target_h), Image.NEAREST)
 
     prompt = build_prompt(metadata, missing_features)
-    negative_prompt = "text, watermark, typography, words, letters, blurry, ugly, distorted, low quality"
-
-    print(f"[ImageGen] Running inpainting with prompt: {prompt[:100]}...")
-    
-    result_sd = await loop.run_in_executor(
-        None,
-        lambda: pipe(
-            prompt=prompt,
-            negative_prompt=negative_prompt,
-            image=sd_image,
-            mask_image=mask_pil,
-            num_inference_steps=num_steps,
-            guidance_scale=guidance_scale,
-            height=target_h,
-            width=target_w,
-        ).images[0],
+    negative_prompt = (
+        "text, watermark, typography, words, letters, blurry, ugly, distorted, low quality, "
+        "dramatic changes, different layout, changed composition, moved elements, "
+        "different colors on existing elements, different style"
     )
+
+    print(f"[ImageGen] Running inpainting: steps={num_steps}, prompt={prompt[:80]}...")
+
+    try:
+        result_sd = await loop.run_in_executor(
+            None,
+            lambda: pipe(
+                prompt=prompt,
+                negative_prompt=negative_prompt,
+                image=sd_image,
+                mask_image=mask_pil,
+                num_inference_steps=num_steps,
+                guidance_scale=guidance_scale,
+                height=target_h,
+                width=target_w,
+            ).images[0],
+        )
+    except Exception as pipe_err:
+        print(f"[ImageGen] ✗ Pipe failed: {pipe_err}")
+        raise
 
     # Composite: keep the original pixels where the mask was black (0)
     # and use AI pixels where the mask was white (255)

@@ -1,0 +1,170 @@
+{
+  "creative_id": "501104",
+  "asset_file": "assets/creative_501104.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant and engaging design with a focus on competition and rewards.",
+    "visual_style": "bright neon with dynamic textures",
+    "main_message": "Compete and earn rewards in NeonArena.",
+    "dominant_colors": [
+      "neon green",
+      "dark gray"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Abstract textured background",
+      "description": "A textured background with a mix of dark and light shades, creating a dynamic and engaging visual effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "NeonArena logo",
+      "description": "A bold, stylized logo featuring the text 'NeonArena' in bright neon colors, prominently displayed at the top of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        323,
+        400,
+        359,
+        471
+      ],
+      "bbox_normalized": [
+        0.898,
+        0.625,
+        0.998,
+        0.737
+      ],
+      "center_normalized": [
+        0.948,
+        0.681
+      ],
+      "area_percentage": 1.13
+    },
+    {
+      "id": 3,
+      "role": "body_text",
+      "label": "Mysterious text",
+      "description": "An abstract, distorted text that appears to be a mix of letters, giving a cryptic and intriguing feel.",
+      "text_content": "Urr ( hllr Dijry Dafipl Kalssodl",
+      "bbox_xyxy": [
+        32,
+        222,
+        326,
+        314
+      ],
+      "bbox_normalized": [
+        0.089,
+        0.347,
+        0.906,
+        0.491
+      ],
+      "center_normalized": [
+        0.497,
+        0.419
+      ],
+      "area_percentage": 11.74
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "Main headline",
+      "description": "A clear and bold headline stating 'Beat your rivals' in a vibrant color, positioned centrally to attract attention.",
+      "text_content": "NeonArena",
+      "bbox_xyxy": [
+        30,
+        40,
+        356,
+        94
+      ],
+      "bbox_normalized": [
+        0.083,
+        0.062,
+        0.989,
+        0.147
+      ],
+      "center_normalized": [
+        0.536,
+        0.105
+      ],
+      "area_percentage": 7.64
+    },
+    {
+      "id": 5,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A prominent call-to-action button that says 'Start now' in a contrasting color, located at the bottom of the ad.",
+      "text_content": "Beat your rivals Free rewards for new players",
+      "bbox_xyxy": [
+        43,
+        408,
+        317,
+        466
+      ],
+      "bbox_normalized": [
+        0.119,
+        0.637,
+        0.881,
+        0.728
+      ],
+      "center_normalized": [
+        0.5,
+        0.683
+      ],
+      "area_percentage": 6.9
+    },
+    {
+      "id": 6,
+      "role": "unknown",
+      "label": "Element",
+      "description": "",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "unknown, unknown, playable, bright neon with dynamic textures, key elements include logo, headline, and call to action.",
+    "layout_text": "The logo is at the top, followed by the headline in the center, with body text below and the CTA at the bottom.",
+    "ocr_text": "Urr ( hllr Dijry Dafipl Kalssodl, NeonArena, Beat your rivals Free rewards for new players, Start now",
+    "elements_text": "logo: A bold, stylized logo featuring the text 'NeonArena' in bright neon colors, prominently displayed at the top of the ad. | body_text: An abstract, distorted text that appears to be a mix of letters, giving a cryptic and intriguing feel. text='Urr ( hllr Dijry Dafipl Kalssodl' | headline: A clear and bold headline stating 'Beat your rivals' in a vibrant color, positioned centrally to attract attention. text='NeonArena' | cta: A prominent call-to-action button that says 'Start now' in a contrasting color, located at the bottom of the ad. text='Beat your rivals Free rewards for new players' | unknown:  text='Start now'"
+  }
+}

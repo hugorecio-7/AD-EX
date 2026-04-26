@@ -1,0 +1,362 @@
+{
+  "creative_id": "500658",
+  "asset_file": "assets/creative_500658.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and minimalistic foundation for the other elements. The ad prominently displays the 'VantaStyle' logo multiple times, with one instance located at the top left corner in a pink rounded rectangle with bold black text. In the upper middle section, a decorative pink zigzag pattern spans horizontally, adding a dynamic and playful touch to the composition. This pattern consists of alternating light and dark pink triangles forming a zigzag line. Additionally, there are pink rounded rectangles with darker pink diagonal lines positioned slightly to the left in the upper middle section, enhancing the visual interest with their geometric shapes. A small pink circle with a darker pink outline is positioned towards the middle left, adding a subtle decorative element against the pink background. Centrally located is the headline, featuring white text on a pink background that reads 'New collection drop' in larger font, with 'Shop bestsellers now' in smaller font below, capturing the viewer's attention with its bold message. At the bottom, we see a white rounded rectangle with black text that reads 'Watch now', serving as a call-to-action button near the bottom center of the ad. Adjacent to this, a pink rectangle with rounded corners contains the text '€9.99' in yellow, positioned near the bottom left, indicating a price tag. A yellow rectangle with the word 'SALE' in bold black letters is located in the top right area, highlighting a promotional offer. Lastly, a small white rounded rectangle with the black text 'UGC' is near the top left corner, possibly indicating user-generated content.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Discover the new collection and shop bestsellers now.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "Energetic and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A rounded rectangle with a light pink background located at the top left corner of the ad. It contains the text 'VantaStyle' in bold black font.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Pink Zigzag Pattern",
+      "description": "A pink zigzag pattern that spans horizontally across the image. It consists of alternating light and dark pink triangles forming a zigzag line. Positioned in the upper middle section of the ad, it serves as a decorative background element.",
+      "text_content": null,
+      "bbox_xyxy": [
+        2,
+        77,
+        359,
+        229
+      ],
+      "bbox_normalized": [
+        0.007,
+        0.121,
+        0.998,
+        0.358
+      ],
+      "center_normalized": [
+        0.503,
+        0.24
+      ],
+      "area_percentage": 23.53
+    },
+    {
+      "id": 4,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A pink rounded rectangle with the text 'VantaStyle' in black, located in the top left corner of the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a darker pink diagonal line running from the top left to the bottom right. It is positioned in the upper middle section of the ad, slightly to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a darker pink diagonal line running from the top left to the bottom right. It is positioned in the upper middle section of the ad, slightly to the left.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        199,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.312,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.4
+      ],
+      "area_percentage": 3.1
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Pink Zigzag Pattern",
+      "description": "A pink zigzag pattern located at the top left corner of the ad. It consists of angular shapes with varying shades of pink, creating a dynamic background effect.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        116,
+        31,
+        190
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.182,
+        0.087,
+        0.297
+      ],
+      "center_normalized": [
+        0.043,
+        0.239
+      ],
+      "area_percentage": 1.0
+    },
+    {
+      "id": 8,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a slightly darker pink outline, positioned towards the middle left of the ad, against a pink background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.553,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.581
+      ],
+      "area_percentage": 0.55
+    },
+    {
+      "id": 9,
+      "role": "headline",
+      "label": "New Collection Drop Text",
+      "description": "White text on a pink background, positioned centrally. The text reads 'New collection drop' in larger font, with 'Shop bestsellers now' in smaller font below.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 10,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A pink rounded rectangle with the text 'VantaStyle' in bold black font, positioned in the top left corner of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    },
+    {
+      "id": 11,
+      "role": "cta",
+      "label": "Watch Now Button",
+      "description": "A white rounded rectangle with black text that reads 'Watch now', located near the bottom center of the ad.",
+      "text_content": "Watch now",
+      "bbox_xyxy": [
+        123,
+        561,
+        237,
+        581
+      ],
+      "bbox_normalized": [
+        0.342,
+        0.877,
+        0.658,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.99
+    },
+    {
+      "id": 12,
+      "role": "price",
+      "label": "Pink Price Tag",
+      "description": "A pink rectangle with rounded corners containing the text '€9.99' in yellow. It is positioned near the bottom left of the ad.",
+      "text_content": "€9.99",
+      "bbox_xyxy": [
+        24,
+        532,
+        98,
+        556
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.831,
+        0.272,
+        0.869
+      ],
+      "center_normalized": [
+        0.169,
+        0.85
+      ],
+      "area_percentage": 0.77
+    },
+    {
+      "id": 13,
+      "role": "discount_badge",
+      "label": "Yellow SALE Badge",
+      "description": "A yellow rectangle with the word 'SALE' in bold black letters, located in the top right area of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 14,
+      "role": "icon",
+      "label": "UGC Icon",
+      "description": "A small white rounded rectangle with the black text 'UGC' inside, located near the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "The ad for VantaStyle features a solid pink background with multiple decorative elements, including a zigzag pattern, rounded rectangles, and a circle. The headline promotes a new collection drop, and a call-to-action button invites viewers to watch now. A price tag and sale badge highlight promotional offers.",
+    "elements_text": "background: Solid pink background covering the full canvas. main_subject: VantaStyle logo in a pink rounded rectangle with bold black text.",
+    "ocr_text": "VantaStyle, New collection drop, Shop bestsellers now, Watch now, €9.99, SALE, UGC",
+    "layout_text": "Literal structure: [Solid background] at [0.0, 0.0, 1.0, 1.0], [VantaStyle Logo] at [0.0, 0.0, 0.998, 0.18], [Pink Zigzag Pattern] at [0.007, 0.121, 0.998, 0.358], [Pink Rounded Rectangle with Diagonal Line] at [0.151, 0.281, 0.328, 0.459], [Pink Circle] at [0.12, 0.553, 0.219, 0.608], [New Collection Drop Text] at [0.153, 0.639, 0.853, 0.777], [Watch Now Button] at [0.342, 0.877, 0.658, 0.908], [Pink Price Tag] at [0.067, 0.831, 0.272, 0.869], [Yellow SALE Badge] at [0.753, 0.073, 0.892, 0.105], [UGC Icon] at [0.081, 0.177, 0.169, 0.198]"
+  }
+}
