@@ -113,6 +113,22 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
     setIsUpgrading(false);
   };
 
+  const handleApply = async () => {
+    if (!upgradedData?.newImageUrl || !upgradedData?.creativeId) return;
+    // Call /enrich in background — SAM+semantic, doesn't block UI
+    try {
+      fetch(`http://localhost:8000/api/creatives/${creative.id}/enrich`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          new_id: upgradedData.creativeId,
+          image_url: upgradedData.newImageUrl,
+        }),
+      });
+    } catch (_) { /* non-fatal */ }
+    onApply(upgradedData.creativeId, upgradedData.newImageUrl);
+  };
+
   const runForecast = async () => {
     setPredLoading(true);
     setPrediction(null);
@@ -153,14 +169,6 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
   return (
     <div className="fixed inset-0 bg-slate-900/90 backdrop-blur-xl z-[100] flex items-center justify-center p-0 md:p-6 animate-in fade-in duration-300">
       <div className="bg-white md:rounded-[3rem] shadow-2xl w-full h-full md:h-auto md:max-w-6xl md:max-h-[90vh] overflow-y-auto flex flex-col md:flex-row relative border border-white/20">
-        
-        {/* Close Button */}
-        <button 
-          onClick={onClose}
-          className="absolute top-4 right-4 md:top-8 md:right-8 w-10 h-10 md:w-12 md:h-12 bg-slate-100 hover:bg-slate-200 rounded-xl md:rounded-2xl flex items-center justify-center text-slate-500 transition-all z-20"
-        >
-          <span className="text-xl md:text-2xl">✕</span>
-        </button>
 
         {/* Left: Original */}
         <div className="w-full md:flex-1 bg-slate-50 p-6 md:p-10 flex flex-col justify-center border-b md:border-b-0 md:border-r border-slate-100">
@@ -204,6 +212,14 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                 {showForecast ? '← Back' : '📈 Forecast'}
               </button>
             )}
+            {/* Close button — always rightmost */}
+            <button
+              onClick={onClose}
+              className="w-9 h-9 bg-slate-100 hover:bg-slate-200 rounded-xl flex items-center justify-center text-slate-500 transition-all flex-shrink-0"
+              aria-label="Close"
+            >
+              ✕
+            </button>
           </div>
 
           {/* ── UPGRADE SLOT ── */}
@@ -251,7 +267,7 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                 <div className="animate-in zoom-in duration-700 w-full h-full flex flex-col">
                   <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-emerald-200 mb-6 md:mb-8 border-4 border-emerald-500 bg-slate-900 flex items-center justify-center">
                     <img src={upgradedData.newImageUrl} alt="Upgraded"
-                      className="w-full h-auto object-contain aspect-[9/16] max-h-[40vh] md:max-h-[55vh]" />
+                      className="w-full h-auto object-contain aspect-[9/16] max-h-[45vh]" />
                     <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase tracking-widest shadow-lg">Optimized</div>
                   </div>
                   <div className="bg-emerald-50/50 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-emerald-100 mb-4">
@@ -268,7 +284,7 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
                     <p className="text-[11px] md:text-sm text-slate-600 font-medium leading-relaxed italic">"{upgradedData.aiReasoning}"</p>
                   </div>
                   <div className="mt-4 flex flex-col md:flex-row gap-3">
-                    <button onClick={() => onApply(creative.id, upgradedData.newImageUrl)}
+                    <button onClick={handleApply}
                       className="flex-1 bg-emerald-600 hover:bg-indigo-600 text-white font-black py-4 rounded-xl md:rounded-2xl shadow-xl shadow-emerald-100 transition-all active:scale-95 uppercase tracking-widest text-[10px]">
                       Replace Image
                     </button>

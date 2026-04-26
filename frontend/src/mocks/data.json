@@ -9885,18 +9885,18 @@
     "cluster_id": "rewarded_video-discount-security"
   },
   {
-    "id": "500659",
+    "id": "500659_v2",
     "campaign": "20109",
     "advertiser": "VantaStyle",
     "format": "interstitial",
     "theme": "ugc",
     "hook_type": "free shipping",
     "performance_score": 0.344,
-    "image_url": "/data/assets/creative_500659.png",
+    "image_url": "/data/assets/creative_500659_upgraded.png",
     "ctr": 0.87,
     "cpi": 1.59,
     "fatigued": false,
-    "insights": "New collection drop",
+    "insights": "Analysis for creative 500659 identified 5 high-impact features from the top-performing cluster:\n\n  \u2022 Soft pink and red gradient with subtle glow\n  \u2022 Scattered small white circles with light bokeh effect\n  \u2022 Warm light rays streaming from top-right corner\n  \u2022 Subtle shadow gradient from bottom to top\n  \u2022 Faint diagonal pink stripes with soft blur\n\nThese features have been injected into the diffusion prompt to maximise predicted CTR uplift.",
     "cluster_id": "interstitial-ugc-free shipping"
   },
   {
@@ -12960,18 +12960,18 @@
     "cluster_id": "interstitial-drama-cashback"
   },
   {
-    "id": "500864",
+    "id": "500864_v2",
     "campaign": "20144",
     "advertiser": "PixelForge",
     "format": "rewarded_video",
     "theme": "feature-focus",
     "hook_type": "free rewards",
     "performance_score": 0.359,
-    "image_url": "/data/assets/creative_500864.png",
+    "image_url": "/data/assets/creative_500864_upgraded.png",
     "ctr": 1.06,
     "cpi": 1.64,
     "fatigued": false,
-    "insights": "Beat your rivals",
+    "insights": "Analysis for creative 500864 identified 5 high-impact features from the top-performing cluster:\n\n  \u2022 Soft light blue radial gradient with subtle glow\n  \u2022 Scattered translucent circles with light blue tint\n  \u2022 Gentle bokeh effect with soft white highlights\n  \u2022 Subtle atmospheric haze with light blue undertones\n  \u2022 Light blue geometric shapes with soft shadow effects\n\nThese features have been injected into the diffusion prompt to maximise predicted CTR uplift.",
     "cluster_id": "rewarded_video-feature-focus-free rewards"
   },
   {
@@ -16198,5 +16198,13 @@
     "fatigued": false,
     "insights": "Exclusive tonight",
     "cluster_id": "rewarded_video-testimonial-late-night"
+  },
+  {
+    "id": "500864_v2",
+    "image_url": "/data/assets/creative_500864_upgraded.png",
+    "performance_score": 0.314,
+    "fatigued": false,
+    "insights": "Analysis for creative 500864 identified 5 high-impact features from the top-performing cluster:\n\n  \u2022 Soft light blue gradient with gentle bokeh effects\n  \u2022 Subtle white glow emanating from center\n  \u2022 Scattered translucent circles with soft shadows\n  \u2022 Light blue geometric shapes with a slight blur\n  \u2022 Atmospheric haze with a cool blue tint\n\nThese features have been injected into the diffusion prompt to maximise predicted CTR uplift.",
+    "cluster_id": ""
   }
 ]

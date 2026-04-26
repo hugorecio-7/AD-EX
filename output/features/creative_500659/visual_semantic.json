@@ -1,0 +1,290 @@
+{
+  "creative_id": "500659",
+  "asset_file": "assets/creative_500659.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and unobtrusive backdrop. In the center, there is a large red rounded rectangle that dominates the visual space, serving as the main focal point. This rectangle is centrally positioned and contains several decorative elements: a smaller vertical pink rectangle with a diagonal line, and three evenly spaced pink circles below it. These elements add a playful and dynamic touch to the composition. Overlaid at the bottom of this red rectangle is the headline 'New collection drop' in bold white text, with the subtext 'Shop bestsellers now' beneath it, both centered and easily readable. At the top left corner of the ad, the VantaStyle logo is prominently displayed within a pink rounded rectangle, ensuring brand recognition. Additionally, a small white rounded rectangle with the text 'UGC' in black is situated near the top left corner, adding a layer of authenticity or user-generated content endorsement. At the bottom center of the ad, a white rounded rectangle with the bold black text 'Order now' serves as the call-to-action, inviting immediate engagement from the viewer.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Discover the new collection and shop bestsellers now",
+    "dominant_colors": [
+      "red",
+      "pink"
+    ],
+    "emotional_tone": "Energetic and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Red Rounded Rectangle with Circles",
+      "description": "A large red rounded rectangle positioned centrally in the ad. Inside, there is a smaller vertical rectangle with a diagonal line, and below it, three evenly spaced pink circles. The text 'New collection drop' is overlaid at the bottom of the rectangle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        18,
+        128,
+        342,
+        470
+      ],
+      "bbox_normalized": [
+        0.05,
+        0.201,
+        0.951,
+        0.735
+      ],
+      "center_normalized": [
+        0.501,
+        0.468
+      ],
+      "area_percentage": 48.13
+    },
+    {
+      "id": 3,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A pink rounded rectangle with the text 'VantaStyle' in white, located at the top left corner of the ad. The rectangle is set against a red background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        359,
+        115
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        0.998,
+        0.18
+      ],
+      "center_normalized": [
+        0.499,
+        0.09
+      ],
+      "area_percentage": 17.94
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a darker pink outline and a diagonal line running from the bottom left to the top right. It is positioned towards the upper left within the larger pink rectangle area of the VantaStyle ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        53,
+        180,
+        118,
+        294
+      ],
+      "bbox_normalized": [
+        0.149,
+        0.281,
+        0.33,
+        0.46
+      ],
+      "center_normalized": [
+        0.24,
+        0.371
+      ],
+      "area_percentage": 3.23
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, located towards the bottom left of the main pink rectangular area in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 6,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, located towards the bottom left of the main pink rectangle in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        171,
+        353,
+        208,
+        389
+      ],
+      "bbox_normalized": [
+        0.477,
+        0.552,
+        0.578,
+        0.608
+      ],
+      "center_normalized": [
+        0.528,
+        0.58
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 7,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle located near the bottom left of the main pink rectangle in the ad. It is one of three circles aligned horizontally.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 8,
+      "role": "headline",
+      "label": "New Collection Drop Text",
+      "description": "White bold text stating 'New collection drop' with smaller text 'Shop bestsellers now' below it, centered on a red rectangular background.",
+      "text_content": "New collection drop Shop bestsellers now",
+      "bbox_xyxy": [
+        55,
+        409,
+        307,
+        497
+      ],
+      "bbox_normalized": [
+        0.153,
+        0.639,
+        0.853,
+        0.777
+      ],
+      "center_normalized": [
+        0.503,
+        0.708
+      ],
+      "area_percentage": 9.62
+    },
+    {
+      "id": 9,
+      "role": "logo",
+      "label": "VantaStyle Logo",
+      "description": "A pink rounded rectangle with the text 'VantaStyle' in white, located at the top left corner of the ad.",
+      "text_content": "VantaStyle",
+      "bbox_xyxy": [
+        25,
+        42,
+        148,
+        75
+      ],
+      "bbox_normalized": [
+        0.069,
+        0.066,
+        0.411,
+        0.117
+      ],
+      "center_normalized": [
+        0.24,
+        0.091
+      ],
+      "area_percentage": 1.76
+    },
+    {
+      "id": 10,
+      "role": "cta",
+      "label": "Order Now Button",
+      "description": "A white rounded rectangle with the text 'Order now' in bold black font, located near the bottom center of the ad.",
+      "text_content": "Order now",
+      "bbox_xyxy": [
+        125,
+        561,
+        235,
+        581
+      ],
+      "bbox_normalized": [
+        0.347,
+        0.877,
+        0.653,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 11,
+      "role": "decorative_element",
+      "label": "White Rounded Rectangle with 'UGC'",
+      "description": "A small white rounded rectangle containing the text 'UGC' in black, located near the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "An ad for the brand featuring a solid background, a central red rounded rectangle with decorative elements, and a clear call-to-action. The ad emphasizes a new collection drop and invites viewers to shop bestsellers.",
+    "elements_text": "background: Solid background covering the full canvas. main_subject: Large red rounded rectangle with decorative elements and headline text.",
+    "ocr_text": "VantaStyle New collection drop Shop bestsellers now Order now UGC",
+    "layout_text": "Literal structure: Solid background at full canvas, VantaStyle Logo at top left, Red Rounded Rectangle with Circles at center, Pink Rounded Rectangle with Diagonal Line at upper left within main rectangle, Pink Circles at bottom left within main rectangle, New Collection Drop Text at bottom of main rectangle, Order Now Button at bottom center, White Rounded Rectangle with 'UGC' at top left."
+  }
+}

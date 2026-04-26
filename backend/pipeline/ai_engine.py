@@ -94,8 +94,10 @@ async def generate_ai_variant_real(
     )
 
     # ── 5. Persist the new creative ──────────────────────────────────────────
+    from pipeline.step4_persistence.helpers import next_available_id
     original = get_creative_by_id(creative_id) or {}
-    new_id = f"{creative_id}_v2"
+    # Allocate a fresh numeric ID so preprocess_masks.py can handle it
+    new_id = str(next_available_id())
 
     base = compute_static_performance_score(creative_id)
 
@@ -110,23 +112,41 @@ async def generate_ai_variant_real(
         else base["performance_score"]
     )
 
+    # Save the generated image under a unique filename in the assets dir
+    import shutil as _shutil
+    from pathlib import Path as _Path
+    src = _Path(new_creative_file)
+    assets_dir = _Path(new_creative_file).parent.parent.parent / "frontend" / "public" / "data" / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    new_asset_filename = f"creative_{new_id}.png"
+    dst_asset = assets_dir / new_asset_filename
+    if src.exists():
+        _shutil.copy2(src, dst_asset)
+
+    new_image_url = f"/data/assets/{new_asset_filename}"
+
     new_entry = {
         **original,
         "id": new_id,
-        "image_url": f"/data/assets/creative_{creative_id}_upgraded.png",
+        "image_url": new_image_url,
         "performance_score": round(new_score, 4),
         "fatigued": False,
         "insights": missing_features_explained,
         "cluster_id": original.get("cluster_id", ""),
+        "is_upgraded": True,
     }
-    store_new_creative(creative_id, new_entry)
+    store_new_creative(new_id, new_entry)   # append as new entry, not replace original
+
+    # Note: enrichment (SAM mask + visual_semantic.json) is triggered by the frontend
+    # AFTER the user clicks 'Replace Image', via POST /enrich — not here.
+    # This prevents GPU contention with RNN forecasting.
 
     time_e = time.time()
 
     return {
         "status": "success",
         "creative_id": new_id,
-        "new_image_url": new_entry["image_url"],
+        "new_image_url": new_image_url,
         "metadata": {
             "api_latency_s": round(time_e - time_s, 2),
             "model": "smadex-sam-sdxl-v2",

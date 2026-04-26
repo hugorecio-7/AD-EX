@@ -22,7 +22,6 @@ export const upgradeImage = async (creativeId) => {
   console.log('[API] Triggering full AI upgrade pipeline for:', creativeId);
 
   try {
-    // POST /api/creatives/{id}/upgrade — runs SAM mask → SD inpainting → LightGBM evaluation
     const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/upgrade`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -37,10 +36,13 @@ export const upgradeImage = async (creativeId) => {
     const data = await response.json();
     console.log('[API] Upgrade result:', data);
 
+    const newImageUrl = data.new_image_url || `/data/assets/creative_${creativeId}_upgraded.png`;
+    const newCreativeId = data.creative_id || `${creativeId}_v2`;
+
     return {
       success: true,
-      // Backend returns the new image URL inside metadata or as new_image_url
-      newImageUrl: data.new_image_url || `/data/assets/creative_${creativeId}_upgraded.png`,
+      creativeId: newCreativeId,
+      newImageUrl,
       predictedUplift: data.metadata?.predicted_uplift ?? '+0.0%',
       performanceScore: data.metadata?.performance_score ?? null,
       aiReasoning: data.metadata?.missing_features_explained ?? 'AI upgrade complete.',
@@ -48,11 +50,10 @@ export const upgradeImage = async (creativeId) => {
 
   } catch (error) {
     console.error('[API] Upgrade request failed:', error.message);
-
-    // Hard fail — show error instead of silently returning the original image
     return {
       success: false,
       error: error.message,
+      creativeId: null,
       newImageUrl: null,
       predictedUplift: null,
       performanceScore: null,
@@ -60,6 +61,7 @@ export const upgradeImage = async (creativeId) => {
     };
   }
 };
+
 
 // Separate lightweight call just for the score card in the dashboard header
 export const evaluateCreative = async (creativeId) => {
@@ -74,12 +76,12 @@ export const evaluateCreative = async (creativeId) => {
   return null;
 };
 
-export const askCreativeChat = async (creativeId, message, history = [], language = 'catalan') => {
+export const askCreativeChat = async (creativeId, message, history = [], language = 'catalan', agentic = false) => {
   try {
     const response = await fetch(`http://localhost:8000/api/creatives/${creativeId}/chat`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message, history, language }),
+      body: JSON.stringify({ message, history, language, agentic }),
     });
 
     if (!response.ok) {
@@ -93,6 +95,7 @@ export const askCreativeChat = async (creativeId, message, history = [], languag
       answer: data.answer || 'No response',
       model: data.model,
       language: data.language || language,
+      action: data.action || null,
     };
   } catch (error) {
     console.error('[API] Creative chat failed:', error.message);
@@ -100,9 +103,11 @@ export const askCreativeChat = async (creativeId, message, history = [], languag
       success: false,
       error: error.message,
       answer: `No he pogut consultar el bot ara mateix: ${error.message}`,
+      action: null,
     };
   }
 };
+
 
 export const fetchCtrPrediction = async (creativeId, { countries = 'US,ES', os = 'iOS,Android', compareImageUrl = null, seqLen = 30 } = {}) => {
   try {
