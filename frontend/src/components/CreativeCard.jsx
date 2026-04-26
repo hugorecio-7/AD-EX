@@ -1,6 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+// Lazily fetch the visual_semantic global description for a creative
+function useCreativeDescription(creativeId) {
+  const [description, setDescription] = useState(null);
+
+  useEffect(() => {
+    if (!creativeId) return;
+    const url = `/data/visual_semantic/creative_${creativeId}.json`;
+    fetch(url)
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (data?.global?.description) {
+          setDescription(data.global.description);
+        }
+      })
+      .catch(() => {});
+  }, [creativeId]);
+
+  return description;
+}
 
 const CreativeCard = ({ creative, onUpgrade, onChat }) => {
+  const semanticDesc = useCreativeDescription(creative?.id);
+  // Prefer visual_semantic global description, then fall back to insights field
+  const displayDescription = semanticDesc || creative.insights || null;
+
   return (
     <div className={`creative-card group transition-all duration-500 ${creative.fatigued ? 'ring-2 ring-red-500/20' : ''}`}>
       <div className="relative overflow-hidden aspect-[9/16] bg-slate-900 flex items-center justify-center">
@@ -47,9 +71,11 @@ const CreativeCard = ({ creative, onUpgrade, onChat }) => {
           </div>
         </div>
 
-        <div className="bg-slate-50 border-l-4 border-slate-200 p-3 rounded-r-xl text-xs text-slate-600 mb-6 font-medium leading-relaxed italic">
-           "{creative.insights}"
-        </div>
+        {displayDescription && (
+          <div className="bg-slate-50 border-l-4 border-indigo-200 p-3 rounded-r-xl text-xs text-slate-600 mb-6 font-medium leading-relaxed line-clamp-3">
+            {displayDescription}
+          </div>
+        )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           <button

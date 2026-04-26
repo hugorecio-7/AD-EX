@@ -1,0 +1,578 @@
+{
+  "creative_id": "501087",
+  "asset_file": "assets/creative_501087.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "The ad features a vibrant layout showcasing various products with engaging text and calls to action.",
+    "visual_style": "bright and colorful",
+    "main_message": "Explore and shop bestsellers from CrispBox.",
+    "dominant_colors": [
+      "pink",
+      "white"
+    ],
+    "emotional_tone": "exciting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Colorful gradient background",
+      "description": "A vibrant gradient background that transitions from pink to white, creating a lively atmosphere.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        639
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        0.999
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 99.9
+    },
+    {
+      "id": 2,
+      "role": "main_subject",
+      "label": "Product showcase",
+      "description": "A central display featuring various products arranged in a visually appealing manner.",
+      "text_content": null,
+      "bbox_xyxy": [
+        20,
+        284,
+        336,
+        383
+      ],
+      "bbox_normalized": [
+        0.057,
+        0.444,
+        0.936,
+        0.599
+      ],
+      "center_normalized": [
+        0.497,
+        0.521
+      ],
+      "area_percentage": 13.55
+    },
+    {
+      "id": 3,
+      "role": "main_subject",
+      "label": "Product showcase",
+      "description": "Another product display with a focus on colorful items, enhancing the visual interest.",
+      "text_content": null,
+      "bbox_xyxy": [
+        20,
+        285,
+        336,
+        348
+      ],
+      "bbox_normalized": [
+        0.057,
+        0.445,
+        0.934,
+        0.544
+      ],
+      "center_normalized": [
+        0.496,
+        0.495
+      ],
+      "area_percentage": 8.65
+    },
+    {
+      "id": 4,
+      "role": "headline",
+      "label": "CrispBox logo",
+      "description": "The logo of CrispBox prominently displayed at the top, featuring bold typography.",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        95,
+        335,
+        144
+      ],
+      "bbox_normalized": [
+        0.054,
+        0.148,
+        0.932,
+        0.226
+      ],
+      "center_normalized": [
+        0.493,
+        0.187
+      ],
+      "area_percentage": 6.78
+    },
+    {
+      "id": 5,
+      "role": "body_text",
+      "label": "Favorite pick message",
+      "description": "Text that reads 'Your next favorite pick' in a friendly font, inviting users to explore.",
+      "text_content": null,
+      "bbox_xyxy": [
+        19,
+        197,
+        334,
+        241
+      ],
+      "bbox_normalized": [
+        0.054,
+        0.309,
+        0.929,
+        0.377
+      ],
+      "center_normalized": [
+        0.491,
+        0.343
+      ],
+      "area_percentage": 5.98
+    },
+    {
+      "id": 6,
+      "role": "body_text",
+      "label": "Shop now message",
+      "description": "Text that encourages users to shop bestsellers, presented in an engaging style.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        198,
+        333,
+        240
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.31,
+        0.927,
+        0.376
+      ],
+      "center_normalized": [
+        0.523,
+        0.343
+      ],
+      "area_percentage": 5.36
+    },
+    {
+      "id": 7,
+      "role": "body_text",
+      "label": "Product description",
+      "description": "Additional product information displayed in a smaller font, complementing the main message.",
+      "text_content": null,
+      "bbox_xyxy": [
+        78,
+        198,
+        333,
+        240
+      ],
+      "bbox_normalized": [
+        0.217,
+        0.31,
+        0.927,
+        0.376
+      ],
+      "center_normalized": [
+        0.572,
+        0.343
+      ],
+      "area_percentage": 4.72
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Call to action button",
+      "description": "A prominent button labeled 'Start now' that stands out against the background.",
+      "text_content": null,
+      "bbox_xyxy": [
+        183,
+        209,
+        241,
+        237
+      ],
+      "bbox_normalized": [
+        0.509,
+        0.327,
+        0.672,
+        0.371
+      ],
+      "center_normalized": [
+        0.59,
+        0.349
+      ],
+      "area_percentage": 0.72
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Sale badge",
+      "description": "A small badge indicating a sale, designed to catch the viewer's attention.",
+      "text_content": null,
+      "bbox_xyxy": [
+        175,
+        113,
+        233,
+        141
+      ],
+      "bbox_normalized": [
+        0.486,
+        0.178,
+        0.649,
+        0.221
+      ],
+      "center_normalized": [
+        0.568,
+        0.199
+      ],
+      "area_percentage": 0.7
+    },
+    {
+      "id": 10,
+      "role": "body_text",
+      "label": "Additional product info",
+      "description": "Text that provides further details about the products, enhancing user engagement.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        68,
+        409,
+        291,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.639,
+        0.808,
+        0.781
+      ],
+      "center_normalized": [
+        0.499,
+        0.71
+      ],
+      "area_percentage": 8.81
+    },
+    {
+      "id": 11,
+      "role": "logo",
+      "label": "CrispBox logo",
+      "description": "The CrispBox logo displayed prominently, reinforcing brand identity.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        23,
+        35,
+        201,
+        79
+      ],
+      "bbox_normalized": [
+        0.064,
+        0.055,
+        0.558,
+        0.123
+      ],
+      "center_normalized": [
+        0.311,
+        0.089
+      ],
+      "area_percentage": 3.4
+    },
+    {
+      "id": 12,
+      "role": "body_text",
+      "label": "Brand tagline",
+      "description": "Text that reads 'Unapt liners', adding context to the product offerings.",
+      "text_content": "Unapt Iiners",
+      "bbox_xyxy": [
+        90,
+        604,
+        262,
+        640
+      ],
+      "bbox_normalized": [
+        0.25,
+        0.944,
+        0.728,
+        1.0
+      ],
+      "center_normalized": [
+        0.489,
+        0.972
+      ],
+      "area_percentage": 2.69
+    },
+    {
+      "id": 13,
+      "role": "body_text",
+      "label": "Product feature",
+      "description": "Text that describes a specific product feature, enhancing the ad's informative aspect.",
+      "text_content": "Idtiilcla apnlta",
+      "bbox_xyxy": [
+        100,
+        154,
+        260,
+        178
+      ],
+      "bbox_normalized": [
+        0.278,
+        0.241,
+        0.722,
+        0.278
+      ],
+      "center_normalized": [
+        0.5,
+        0.259
+      ],
+      "area_percentage": 1.67
+    },
+    {
+      "id": 14,
+      "role": "body_text",
+      "label": "Additional product info",
+      "description": "Text that provides more details about the products, enhancing user engagement.",
+      "text_content": "Aigiol",
+      "bbox_xyxy": [
+        16,
+        548,
+        94,
+        576
+      ],
+      "bbox_normalized": [
+        0.044,
+        0.856,
+        0.261,
+        0.9
+      ],
+      "center_normalized": [
+        0.153,
+        0.878
+      ],
+      "area_percentage": 0.95
+    },
+    {
+      "id": 15,
+      "role": "cta",
+      "label": "Call to action",
+      "description": "A button labeled 'Start now', encouraging immediate action from the viewer.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 16,
+      "role": "body_text",
+      "label": "Product feature",
+      "description": "Text that highlights a specific product feature, enhancing the ad's informative aspect.",
+      "text_content": "0oadi pelvo",
+      "bbox_xyxy": [
+        133,
+        247,
+        237,
+        267
+      ],
+      "bbox_normalized": [
+        0.369,
+        0.386,
+        0.658,
+        0.417
+      ],
+      "center_normalized": [
+        0.514,
+        0.402
+      ],
+      "area_percentage": 0.9
+    },
+    {
+      "id": 17,
+      "role": "discount_badge",
+      "label": "Sale indicator",
+      "description": "A small badge that indicates a sale, designed to catch the viewer's attention.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 18,
+      "role": "body_text",
+      "label": "Additional product info",
+      "description": "Text that provides further details about the products, enhancing user engagement.",
+      "text_content": "O r",
+      "bbox_xyxy": [
+        155,
+        537,
+        209,
+        553
+      ],
+      "bbox_normalized": [
+        0.431,
+        0.839,
+        0.581,
+        0.864
+      ],
+      "center_normalized": [
+        0.506,
+        0.852
+      ],
+      "area_percentage": 0.38
+    },
+    {
+      "id": 19,
+      "role": "body_text",
+      "label": "Product feature",
+      "description": "Text that describes a specific product feature, enhancing the ad's informative aspect.",
+      "text_content": "Se 0 DIn",
+      "bbox_xyxy": [
+        93,
+        211,
+        151,
+        225
+      ],
+      "bbox_normalized": [
+        0.258,
+        0.33,
+        0.419,
+        0.352
+      ],
+      "center_normalized": [
+        0.339,
+        0.341
+      ],
+      "area_percentage": 0.35
+    },
+    {
+      "id": 20,
+      "role": "body_text",
+      "label": "Discount info",
+      "description": "Text that indicates a discount, designed to attract attention.",
+      "text_content": "40 D1",
+      "bbox_xyxy": [
+        95,
+        115,
+        135,
+        131
+      ],
+      "bbox_normalized": [
+        0.264,
+        0.18,
+        0.375,
+        0.205
+      ],
+      "center_normalized": [
+        0.319,
+        0.192
+      ],
+      "area_percentage": 0.28
+    },
+    {
+      "id": 21,
+      "role": "body_text",
+      "label": "Product feature",
+      "description": "Text that highlights a specific product feature, enhancing the ad's informative aspect.",
+      "text_content": "0oc",
+      "bbox_xyxy": [
+        31,
+        209,
+        63,
+        225
+      ],
+      "bbox_normalized": [
+        0.086,
+        0.327,
+        0.175,
+        0.352
+      ],
+      "center_normalized": [
+        0.131,
+        0.339
+      ],
+      "area_percentage": 0.22
+    },
+    {
+      "id": 22,
+      "role": "body_text",
+      "label": "User-generated content",
+      "description": "Text indicating user-generated content, adding authenticity to the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    },
+    {
+      "id": 23,
+      "role": "body_text",
+      "label": "Product feature",
+      "description": "Text that describes a specific product feature, enhancing the ad's informative aspect.",
+      "text_content": "Tahoi",
+      "bbox_xyxy": [
+        292,
+        214,
+        324,
+        222
+      ],
+      "bbox_normalized": [
+        0.811,
+        0.334,
+        0.9,
+        0.347
+      ],
+      "center_normalized": [
+        0.856,
+        0.341
+      ],
+      "area_percentage": 0.11
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "CrispBox, interstitial format, bright and colorful visual style, featuring product showcases and calls to action.",
+    "layout_text": "The headline is at the top, main subjects are centered, and CTAs are positioned at the bottom.",
+    "ocr_text": "CrispBox, Your next favorite pick, Shop bestsellers now, Unapt liners, Start now, SALE, 40 D1, UGC, Se 0 DIn, Aigiol, Idtiilcla apnlta, 0oadi pelvo, O r, Tahoi",
+    "elements_text": "main_subject: A central display featuring various products arranged in a visually appealing manner. | main_subject: Another product display with a focus on colorful items, enhancing the visual interest. | headline: The logo of CrispBox prominently displayed at the top, featuring bold typography. | body_text: Text that reads 'Your next favorite pick' in a friendly font, inviting users to explore. | body_text: Text that encourages users to shop bestsellers, presented in an engaging style. | body_text: Additional product information displayed in a smaller font, complementing the main message. | cta: A prominent button labeled 'Start now' that stands out against the background. | discount_badge: A small badge indicating a sale, designed to catch the viewer's attention. | body_text: Text that provides further details about the products, enhancing user engagement. text='Your next favorite pick Shop bestsellers now' | logo: The CrispBox logo displayed prominently, reinforcing brand identity. text='CrispBox' | body_text: Text that reads 'Unapt liners', adding context to the product offerings. text='Unapt Iiners' | body_text: Text that describes a specific product feature, enhancing the ad's informative aspect. text='Idtiilcla apnlta' | body_text: Text that provides more details about the products, enhancing user engagement. text='Aigiol' | cta: A button labeled 'Start now', encouraging immediate action from the viewer. text='Start now' | body_text: Text that highlights a specific product feature, enhancing the ad's informative aspect. text='0oadi pelvo' | discount_badge: A small badge that indicates a sale, designed to catch the viewer's attention. text='SALE' | body_text: Text that provides further details about the products, enhancing user engagement. text='O r' | body_text: Text that describes a specific product feature, enhancing the ad's informative aspect. text='Se 0 DIn' | body_text: Text that indicates a discount, designed to attract attention. text='40 D1' | body_text: Text that highlights a specific product feature, enhancing the ad's informative aspect. text='0oc' | body_text: Text indicating user-generated content, adding authenticity to the ad. text='UGC' | body_text: Text that describes a specific product feature, enhancing the ad's informative aspect. text='Tahoi'"
+  }
+}

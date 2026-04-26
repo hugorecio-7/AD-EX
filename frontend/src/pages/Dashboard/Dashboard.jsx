@@ -21,26 +21,31 @@ function Dashboard() {
   const [selectedChatCreative, setSelectedChatCreative] = useState(null);
   const [isChatOpen, setIsChatOpen] = useState(false);
 
-  const handleApplyUpgrade = (id, newUrl) => {
-    updateCreativeImage(id, newUrl);
-    setCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
-    setAllCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
+  const [chatHistories, setChatHistories] = useState({});
+
+  const handleApplyUpgrade = (newId, newUrl) => {
+    // Update the ORIGINAL creative's image (selectedCreative.id), not the new clone id
+    const originalId = selectedCreative?.id;
+    updateCreativeImage(originalId, newUrl);
+    const patch = (c) =>
+      c.id === originalId ? { ...c, image_url: newUrl + '?t=' + Date.now(), is_upgraded: true } : c;
+    setCreatives(prev => prev.map(patch));
+    setAllCreatives(prev => prev.map(patch));
     setIsModalOpen(false);
   };
 
   // Called from chat when Implement is applied
-  const handleApplyImplement = (id, newUrl) => {
-    updateCreativeImage(id, newUrl);
-    setCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
-    setAllCreatives(prev => prev.map(c => 
-      c.id === id ? { ...c, image_url: newUrl, is_upgraded: true } : c
-    ));
+  const handleApplyImplement = (newId, newUrl) => {
+    // Always update original card by current selected chat creative
+    const originalId = selectedChatCreative?.id;
+    updateCreativeImage(originalId, newUrl);
+    const urlWithBust = newUrl + '?t=' + Date.now();
+    const patch = (c) =>
+      c.id === originalId ? { ...c, image_url: urlWithBust, is_upgraded: true } : c;
+    setCreatives(prev => prev.map(patch));
+    setAllCreatives(prev => prev.map(patch));
+    // Update the chat creative ref so subsequent implements use the new image context
+    setSelectedChatCreative(prev => prev ? { ...prev, image_url: urlWithBust } : prev);
   };
 
   useEffect(() => {
@@ -275,6 +280,11 @@ function Dashboard() {
         onClose={() => setIsChatOpen(false)}
         creative={selectedChatCreative}
         onApplyImplement={handleApplyImplement}
+        initialMessages={selectedChatCreative ? (chatHistories[selectedChatCreative.id] || []) : []}
+        onHistoryChange={(msgs) => {
+          if (selectedChatCreative)
+            setChatHistories(prev => ({ ...prev, [selectedChatCreative.id]: msgs }));
+        }}
       />
     </div>
   );

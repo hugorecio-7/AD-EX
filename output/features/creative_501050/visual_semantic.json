@@ -1,0 +1,266 @@
+{
+  "creative_id": "501050",
+  "asset_file": "assets/creative_501050.png",
+  "canvas": {
+    "width": 360,
+    "height": 640
+  },
+  "global": {
+    "description": "An ad for the brand that features a solid background covering the full canvas, providing a clean and uninterrupted backdrop for the various elements. In the upper left section, there are two decorative pink rounded rectangles, each with a diagonal line running from the bottom left to the top right. These elements add a dynamic and playful touch to the design. Towards the bottom left of the central area, there are two small pink circles, each outlined with a slightly darker pink, contributing to the decorative theme. Centrally positioned on a red background is the headline text in white, reading 'Your next favorite pick' and 'Shop bestsellers now', which serves as the main message of the ad. At the top left corner, the CrispBox logo is displayed in black text on a pink rectangular background, establishing brand identity. In the top right corner, a yellow rectangle with the word 'SALE' in bold black letters acts as a discount badge, drawing attention to potential savings. Near the top left corner, a small white rounded rectangle with the black text 'UGC' is present, indicating user-generated content. At the bottom center, the call-to-action is a white rounded rectangle with black text that reads 'Start now', inviting immediate engagement.",
+    "visual_style": "Flat design with high contrast",
+    "main_message": "Your next favorite pick. Shop bestsellers now.",
+    "dominant_colors": [
+      "pink",
+      "red"
+    ],
+    "emotional_tone": "Playful and inviting"
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "background",
+      "label": "Solid background",
+      "description": "Solid background covering the full canvas.",
+      "text_content": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "bbox_normalized": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "center_normalized": [
+        0.5,
+        0.5
+      ],
+      "area_percentage": 100.0
+    },
+    {
+      "id": 2,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a thin diagonal line running from the bottom left to the top right. It is positioned in the upper left section of the ad, contributing to the decorative design.",
+      "text_content": null,
+      "bbox_xyxy": [
+        54,
+        180,
+        118,
+        293
+      ],
+      "bbox_normalized": [
+        0.151,
+        0.281,
+        0.328,
+        0.459
+      ],
+      "center_normalized": [
+        0.24,
+        0.37
+      ],
+      "area_percentage": 3.15
+    },
+    {
+      "id": 3,
+      "role": "decorative_element",
+      "label": "Pink Rounded Rectangle with Diagonal Line",
+      "description": "A pink rounded rectangle with a darker pink diagonal line running from the bottom left to the top right. It is positioned in the upper left section of the ad, within a larger pink panel.",
+      "text_content": null,
+      "bbox_xyxy": [
+        133,
+        198,
+        196,
+        312
+      ],
+      "bbox_normalized": [
+        0.372,
+        0.311,
+        0.547,
+        0.488
+      ],
+      "center_normalized": [
+        0.459,
+        0.399
+      ],
+      "area_percentage": 3.12
+    },
+    {
+      "id": 4,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle located towards the bottom left of the central red panel in the CrispBox ad. It has a slightly darker pink outline and is positioned next to another similar circle.",
+      "text_content": null,
+      "bbox_xyxy": [
+        106,
+        366,
+        143,
+        402
+      ],
+      "bbox_normalized": [
+        0.297,
+        0.572,
+        0.398,
+        0.629
+      ],
+      "center_normalized": [
+        0.347,
+        0.601
+      ],
+      "area_percentage": 0.57
+    },
+    {
+      "id": 5,
+      "role": "decorative_element",
+      "label": "Pink Circle",
+      "description": "A small pink circle with a darker pink outline, located towards the bottom left of the main pink rectangular area in the ad.",
+      "text_content": null,
+      "bbox_xyxy": [
+        43,
+        353,
+        78,
+        389
+      ],
+      "bbox_normalized": [
+        0.12,
+        0.552,
+        0.219,
+        0.608
+      ],
+      "center_normalized": [
+        0.169,
+        0.58
+      ],
+      "area_percentage": 0.56
+    },
+    {
+      "id": 6,
+      "role": "headline",
+      "label": "White Headline Text",
+      "description": "White text reading 'Your next favorite pick' and 'Shop bestsellers now' positioned centrally on a red background.",
+      "text_content": "Your next favorite pick Shop bestsellers now",
+      "bbox_xyxy": [
+        68,
+        412,
+        293,
+        500
+      ],
+      "bbox_normalized": [
+        0.189,
+        0.644,
+        0.814,
+        0.781
+      ],
+      "center_normalized": [
+        0.501,
+        0.713
+      ],
+      "area_percentage": 8.59
+    },
+    {
+      "id": 7,
+      "role": "logo",
+      "label": "CrispBox Logo",
+      "description": "A black text 'CrispBox' on a pink rectangular background, located at the top left corner of the ad.",
+      "text_content": "CrispBox",
+      "bbox_xyxy": [
+        24,
+        34,
+        202,
+        82
+      ],
+      "bbox_normalized": [
+        0.067,
+        0.053,
+        0.561,
+        0.128
+      ],
+      "center_normalized": [
+        0.314,
+        0.091
+      ],
+      "area_percentage": 3.71
+    },
+    {
+      "id": 8,
+      "role": "cta",
+      "label": "Start Now Button",
+      "description": "A white rounded rectangle with black text that reads 'Start now'. Positioned at the bottom center of the ad.",
+      "text_content": "Start now",
+      "bbox_xyxy": [
+        127,
+        561,
+        233,
+        581
+      ],
+      "bbox_normalized": [
+        0.353,
+        0.877,
+        0.647,
+        0.908
+      ],
+      "center_normalized": [
+        0.5,
+        0.892
+      ],
+      "area_percentage": 0.92
+    },
+    {
+      "id": 9,
+      "role": "discount_badge",
+      "label": "Yellow SALE Badge",
+      "description": "A small yellow rectangle with the word 'SALE' in bold black letters, located in the top right corner of the ad.",
+      "text_content": "SALE",
+      "bbox_xyxy": [
+        271,
+        47,
+        321,
+        67
+      ],
+      "bbox_normalized": [
+        0.753,
+        0.073,
+        0.892,
+        0.105
+      ],
+      "center_normalized": [
+        0.822,
+        0.089
+      ],
+      "area_percentage": 0.43
+    },
+    {
+      "id": 10,
+      "role": "icon",
+      "label": "UGC Label",
+      "description": "A small white rounded rectangle with the black text 'UGC' inside, located near the top left corner of the ad.",
+      "text_content": "UGC",
+      "bbox_xyxy": [
+        29,
+        113,
+        61,
+        127
+      ],
+      "bbox_normalized": [
+        0.081,
+        0.177,
+        0.169,
+        0.198
+      ],
+      "center_normalized": [
+        0.125,
+        0.188
+      ],
+      "area_percentage": 0.19
+    }
+  ],
+  "embedding_texts": {
+    "global_text": "A mobile ad for CrispBox featuring a solid background with decorative pink elements, a central headline, a logo, a SALE badge, and a call-to-action button.",
+    "elements_text": "background: Solid background; main_subject: White Headline Text centrally positioned on a red background.",
+    "ocr_text": "Your next favorite pick. Shop bestsellers now. CrispBox. SALE. Start now. UGC.",
+    "layout_text": "Literal structure: Solid background at full canvas, Pink Rounded Rectangle with Diagonal Line at upper left, Pink Circle at bottom left, White Headline Text at center, CrispBox Logo at top left, Yellow SALE Badge at top right, UGC Label near top left, Start Now Button at bottom center."
+  }
+}

@@ -103,7 +103,7 @@ function MessageBubble({ msg, ui, onImplement, implementingId }) {
   );
 }
 
-export default function CreativeChatModal({ creative, isOpen, onClose, onApplyImplement }) {
+export default function CreativeChatModal({ creative, isOpen, onClose, onApplyImplement, initialMessages = [], onHistoryChange }) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [isSending, setIsSending] = useState(false);
@@ -119,18 +119,30 @@ export default function CreativeChatModal({ creative, isOpen, onClose, onApplyIm
     return ui.greeting(brand);
   }, [creative, ui]);
 
+  // Restore saved history when modal opens; only reset to greeting for brand-new chats
   useEffect(() => {
     if (!isOpen || !creative) return;
     setInput('');
     setIsSending(false);
     setImplementingId(null);
-    setMessages([{
-      id: `assistant-${creative.id}-greeting`,
-      role: 'assistant',
-      content: greeting,
-      action: null,
-    }]);
-  }, [isOpen, creative, greeting]);
+    if (initialMessages && initialMessages.length > 0) {
+      setMessages(initialMessages);
+    } else {
+      setMessages([{
+        id: `assistant-${creative.id}-greeting`,
+        role: 'assistant',
+        content: greeting,
+        action: null,
+      }]);
+    }
+  }, [isOpen, creative?.id]);
+
+  // Persist history to parent whenever messages change
+  useEffect(() => {
+    if (isOpen && onHistoryChange && messages.length > 0) {
+      onHistoryChange(messages);
+    }
+  }, [messages]);
 
   useEffect(() => {
     if (!scrollRef.current) return;
@@ -188,9 +200,10 @@ export default function CreativeChatModal({ creative, isOpen, onClose, onApplyIm
 
       const data = await res.json();
       if (data.success && data.new_image_url) {
+        const urlWithBust = data.new_image_url + '?t=' + Date.now();
         setMessages((prev) =>
           prev.map((m) =>
-            m.id === msg.id ? { ...m, implementedUrl: data.new_image_url, implementedId: data.creative_id } : m
+            m.id === msg.id ? { ...m, implementedUrl: urlWithBust, implementedId: data.creative_id } : m
           )
         );
         if (onApplyImplement) onApplyImplement(data.creative_id || creative.id, data.new_image_url);

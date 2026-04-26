@@ -46,14 +46,19 @@ async def generate_ai_variant_real(
     from pathlib import Path
     from pipeline.step2_feature_analysis.helpers import OUTPUT_FEATURES_DIR
 
+    _PROJECT_ROOT_ENGINE = Path(__file__).resolve().parent.parent
     sem_path = OUTPUT_FEATURES_DIR / f"creative_{creative_id}" / "visual_semantic.json"
-    if not sem_path.exists():
+    # Also check the batch-precomputed location (frontend/public/data/visual_semantic/)
+    sem_path_public = _PROJECT_ROOT_ENGINE / "frontend" / "public" / "data" / "visual_semantic" / f"creative_{creative_id}.json"
+    if not sem_path.exists() and not sem_path_public.exists():
         try:
             image_path = resolve_image_path(creative_id)
             print(f"[Engine] Step 2 — Running GPT-4o Vision enrichment for {creative_id}...")
             await enrich_creative_async(creative_id, metadata, image_path)
         except Exception as e:
             print(f"[Engine] Step 2 Vision enrichment skipped ({e}). Falling back to explain().")
+    else:
+        print(f"[Engine] Step 2 — Semantic JSON already exists for {creative_id}. Skipping enrichment.")
 
     # ── 3. Identify features the target creative is missing ──────────────────
     try:
@@ -116,7 +121,8 @@ async def generate_ai_variant_real(
     import shutil as _shutil
     from pathlib import Path as _Path
     src = _Path(new_creative_file)
-    assets_dir = _Path(new_creative_file).parent.parent.parent / "frontend" / "public" / "data" / "assets"
+    _PROJECT_ROOT_ENGINE = _Path(__file__).resolve().parent.parent.parent
+    assets_dir = _PROJECT_ROOT_ENGINE / "frontend" / "public" / "data" / "assets"
     assets_dir.mkdir(parents=True, exist_ok=True)
     new_asset_filename = f"creative_{new_id}.png"
     dst_asset = assets_dir / new_asset_filename

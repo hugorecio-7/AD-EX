@@ -184,9 +184,13 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
           <div className="mt-8 space-y-4">
             <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-widest text-slate-400 border-b border-slate-200 pb-2">
               <span>Performance</span>
-              <span className="text-red-500">Poor (Fatigued)</span>
+              <span className={creative.fatigued ? 'text-red-500' : 'text-emerald-500'}>
+                {creative.fatigued ? 'Fatigued' : `Score ${creative.performance_score}`}
+              </span>
             </div>
-            <p className="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">"{creative.insights}"</p>
+            {creative.insights && (
+              <p className="text-xs md:text-sm text-slate-500 leading-relaxed font-medium">"{ creative.insights}"</p>
+            )}
           </div>
         </div>
 
@@ -264,10 +268,13 @@ export default function UpgradeModal({ creative, isOpen, onClose, onApply }) {
               )}
 
               {upgradedData?.success && (
-                <div className="animate-in zoom-in duration-700 w-full h-full flex flex-col">
-                  <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-emerald-200 mb-6 md:mb-8 border-4 border-emerald-500 bg-slate-900 flex items-center justify-center">
-                    <img src={upgradedData.newImageUrl} alt="Upgraded"
-                      className="w-full h-auto object-contain aspect-[9/16] max-h-[45vh]" />
+                <div className="animate-in zoom-in duration-700 flex flex-col">
+                  <div className="relative rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-2xl shadow-emerald-200 mb-6 md:mb-8 border-4 border-emerald-500 bg-slate-900">
+                    <img
+                      src={upgradedData.newImageUrl}
+                      alt="Upgraded"
+                      className="w-full object-contain" style={{ maxHeight: '55vh' }}
+                    />
                     <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase tracking-widest shadow-lg">Optimized</div>
                   </div>
                   <div className="bg-emerald-50/50 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-emerald-100 mb-4">

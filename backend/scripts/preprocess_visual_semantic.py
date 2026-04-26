@@ -297,10 +297,11 @@ def process_creative(creative: dict, use_vision: bool = True) -> tuple[str, str]
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--resume",  action="store_true", help="Skip already-processed creatives")
-    parser.add_argument("--id",      type=str, help="Process a single creative ID")
+    parser.add_argument("--resume",    action="store_true", help="Skip already-processed creatives")
+    parser.add_argument("--id",        type=str, help="Process a single creative ID")
+    parser.add_argument("--ids",       type=str, help="Comma-separated list of IDs to process (e.g. 501080,501081)")
     parser.add_argument("--no-vision", action="store_true", help="Text-only mode (no image upload, cheaper)")
-    parser.add_argument("--workers", type=int, default=4, help="Parallel workers (default 4)")
+    parser.add_argument("--workers",   type=int, default=4, help="Parallel workers (default 4)")
     args = parser.parse_args()
 
     use_vision = not args.no_vision
@@ -318,15 +319,24 @@ def main():
         print(f"[{cid}] {msg}")
         return
 
+    # --ids filter (explicit set)
+    id_filter = None
+    if args.ids:
+        id_filter = {s.strip() for s in args.ids.split(",") if s.strip()}
+
     # Filter if resuming
     to_process = []
     skipped = 0
     for c in all_creatives:
         cid = str(c.get("id", ""))
+        if id_filter is not None and cid not in id_filter:
+            skipped += 1
+            continue
         if args.resume and (OUTPUT_DIR / f"creative_{cid}.json").exists():
             skipped += 1
             continue
         to_process.append(c)
+
 
     total = len(to_process)
     mode = "vision" if use_vision else "text-only"
