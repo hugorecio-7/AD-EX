@@ -30,18 +30,20 @@ def build_prompt(metadata: dict, missing_features: list[str]) -> str:
     """
     Build a Stable Diffusion inpainting prompt from the creative's semantic data.
 
-    The prompt focuses on VISUAL descriptions — colors, lighting, composition —
-    NOT metadata labels like 'rewarded_video ad format'.
+    Key principles:
+      - SHORTER is better — SD follows concise prompts more faithfully
+      - DESCRIPTIVE not IMPERATIVE — describe the desired final state, don't give instructions
+      - ANCHOR to original — repeat the original's visual identity so SD preserves it
+      - NO TEXT CUES — never mention text content, OCR, messages, or copy
     """
     parts = []
 
-    # Base quality anchor
+    # Strong preservation anchor — this is the most important part
     parts.append(
-        "high quality professional mobile advertising creative, "
-        "preserve original layout, composition, product, logo placement and brand identity"
+        "professional mobile ad creative, same composition, same layout, same brand colors"
     )
 
-    # Attempt to load semantic description from visual_semantic.json to anchor the generation
+    # Load semantic description to anchor the visual identity
     creative_id = str(metadata.get("id", ""))
     semantic_desc = ""
     if creative_id:
@@ -54,65 +56,46 @@ def build_prompt(metadata: dict, missing_features: list[str]) -> str:
                     semantic_desc = sem_data.get("global", {}).get("description", "").strip()
             except Exception:
                 pass
-    
+
     if semantic_desc:
-        parts.append(f"base composition: {semantic_desc}")
+        # Truncate long descriptions — SD attention drops off after ~50 tokens
+        if len(semantic_desc) > 120:
+            semantic_desc = semantic_desc[:120].rsplit(" ", 1)[0] + "..."
+        parts.append(f"original scene: {semantic_desc}")
 
-    # Visual style from semantic JSON (if available and not a mock)
-    visual_style = (metadata.get("visual_style") or "").strip()
-    if visual_style and "mock" not in visual_style.lower() and "synthetic" not in visual_style.lower():
-        parts.append(visual_style)
-
-    # Main message — gives the AI context on what the ad is about
-    message = (metadata.get("main_message") or "").strip()
-    if message:
-        parts.append(f"the creative features a {message} message")
-
-    # OCR and Layout Context — gives the AI background context without drawing text
-    ocr_text = (metadata.get("ocr_text") or metadata.get("ocr_summary") or "").strip()
-    if ocr_text:
-        parts.append(f"contextual background description: the scene relates to {ocr_text}")
-    
-    layout_text = (metadata.get("layout_text") or metadata.get("layout") or "").strip()
-    if layout_text:
-        parts.append(f"composition context: {layout_text}")
-
-    # Emotional tone → lighting cue
-    tone = (metadata.get("emotional_tone") or "").strip()
-    tone_map = {
-        "exciting": "dynamic energetic lighting",
-        "calm": "soft ambient lighting",
-        "luxurious": "cinematic golden lighting",
-        "playful": "bright cheerful colors",
-        "serious": "clean professional lighting",
-        "adventurous": "dramatic landscape lighting",
-    }
-    if tone and tone.lower() in tone_map:
-        parts.append(tone_map[tone.lower()])
-    elif tone:
-        parts.append(f"{tone} mood")
-
-    # Dominant colors as a visual anchor
+    # Dominant colors — anchor SD to the existing palette
     colors = metadata.get("dominant_colors") or []
     if colors:
         color_str = " and ".join(c for c in colors[:2] if c)
         if color_str:
-            parts.append(f"{color_str} color palette")
+            parts.append(f"{color_str} color scheme")
 
-    # Missing visual features (should be descriptions, not labels)
+    # Emotional tone → lighting (keep it simple)
+    tone = (metadata.get("emotional_tone") or "").strip().lower()
+    tone_map = {
+        "exciting": "energetic lighting",
+        "calm": "soft ambient light",
+        "luxurious": "golden cinematic light",
+        "playful": "bright cheerful colors",
+        "serious": "clean professional light",
+    }
+    if tone in tone_map:
+        parts.append(tone_map[tone])
+
+    # Missing visual features — limited to 2, kept subtle
     if missing_features:
         for feat in missing_features[:2]:
             feat = feat.strip()
-            # Skip any metadata labels that slipped through
-            skip_words = ("format", "themed", "hook style", "ad format", "objective", "vertical")
+            skip_words = ("format", "themed", "hook style", "ad format", "objective", "vertical",
+                          "text", "copy", "headline", "message", "cta", "call to action")
             if not any(w in feat.lower() for w in skip_words):
-                # Keep feature transfer subtle so outputs stay close to the source creative.
                 parts.append(f"subtle {feat}")
 
-    # Quality tail
+    # Quality tail with aggressive anti-text
     parts.append(
-        "minor refinements only, coherent with existing creative, "
-        "vibrant professional render, sharp focus, 8k resolution, no text, no typography"
+        "refined background only, sharp focus, 8k, photographic quality, "
+        "absolutely no text, no words, no letters, no writing, no typography"
     )
 
     return ", ".join(parts)
+

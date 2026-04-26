@@ -174,8 +174,17 @@ ADDITIONAL RULE (AGENTIC MODE):
 At the very end of your response, append a JSON block on a NEW LINE (and only if a concrete visual change is requested), in exactly this format:
 
 ```json
-{"intent": "modify", "description": "<one-line description of the change>", "diffusion_prompt": "<SD inpainting prompt to apply the change>"}
+{"intent": "modify", "description": "<one-line description of the change>", "diffusion_prompt": "<SD inpainting prompt>"}
 ```
+
+RULES FOR diffusion_prompt (these are critical — bad prompts produce bad results):
+1. DESCRIPTIVE not IMPERATIVE. Describe the desired FINAL appearance, not an instruction.
+   BAD:  "Change the background to blue"
+   GOOD: "vibrant blue gradient background with soft abstract shapes, professional ad layout"
+2. Keep it SHORT — under 30 words. SD follows shorter prompts much better.
+3. NEVER mention text, words, letters, copy, headline, typography, or CTA in the prompt.
+4. Include "same composition, same layout" to preserve the original structure.
+5. End with "no text, no writing, no typography" as reinforcement.
 
 If the user is NOT requesting a change (just asking a question), do NOT append any JSON block.
 Do not mention the JSON to the user. It is invisible to them.

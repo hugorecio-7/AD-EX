@@ -92,8 +92,17 @@ async def generate_creative_with_flux(
     if override_prompt:
         print(f"[ImageGen] Using override_prompt (LLM-crafted): {prompt[:100]}...")
     negative_prompt = (
-        "text, symbols, watermark, typography, words, letters, blurry, ugly, distorted, low quality, "
-        "chaotic layout, completely different style, altered perspective"
+        # Anti-text (redundant repetition is intentional — SD negative prompting is stronger
+        # the more synonyms you stack for the concept you want to suppress)
+        "text, words, letters, numbers, digits, characters, font, typography, inscription, "
+        "label, caption, title, headline, subtitle, watermark, logo, stamp, badge, icon, symbol, "
+        "writing, handwriting, printed text, signage, banner text, overlaid text, "
+        # Anti-destruction (preserve layout/composition)
+        "completely different composition, altered layout, different perspective, "
+        "changed aspect ratio, cropped, zoomed, rotated, flipped, mirrored, "
+        # Anti-quality
+        "blurry, ugly, distorted, low quality, low resolution, pixelated, artifacts, noise, "
+        "jpeg artifacts, compression, overexposed, underexposed, chaotic, messy, cluttered"
     )
 
     print(f"[ImageGen] Running inpainting: steps={num_steps}, prompt={prompt[:80]}...")
